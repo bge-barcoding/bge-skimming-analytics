@@ -1,0 +1,25 @@
+ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons	process_id
+21	67	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	657	1515	Cerambycidae,Drosophilidae,Anthomyiidae,Tachinidae,Tabanidae,Sphingidae,Noctuidae,Nymphalidae	UNIFI887-24_r_1_s_50	Blabinotus spinicollis	0	UNIFI887-24
+20	45	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	657	1509	Hydraenidae,Lampyridae,Chrysomelidae,Cerambycidae,Geometridae,Prodoxidae	UNIFI887-24_r_1_s_100	Blabinotus spinicollis	0	UNIFI887-24
+10	27	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	657	1515	Hydraenidae,Cerambycidae	UNIFI887-24_r_1.3_s_50	Blabinotus spinicollis	0	UNIFI887-24
+7	17	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	651	1503	Leiodidae,Hydraenidae,Erotylidae,Chrysomelidae,Cerambycidae	UNIFI887-24_r_1.3_s_100	Blabinotus spinicollis	0	UNIFI887-24
+4	20	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	651	1503	Hydraenidae,Erotylidae,Cerambycidae	UNIFI887-24_r_1.5_s_50	Blabinotus spinicollis	0	UNIFI887-24
+2	13	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	644	1452	Hydraenidae,Erotylidae,Chrysomelidae,Cerambycidae	UNIFI887-24_r_1.5_s_100	Blabinotus spinicollis	0	UNIFI887-24
+None	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Cerambycidae	BLAST	family	None	0		UNIFI893-24_r_1_s_50	Callidiellum rufipenne	0	UNIFI893-24
+None	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Cerambycidae	BLAST	family	None	0		UNIFI893-24_r_1_s_100	Callidiellum rufipenne	0	UNIFI893-24
+None	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Cerambycidae	BLAST	family	None	0		UNIFI893-24_r_1.3_s_50	Callidiellum rufipenne	0	UNIFI893-24
+None	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Cerambycidae	BLAST	family	None	0		UNIFI893-24_r_1.3_s_100	Callidiellum rufipenne	0	UNIFI893-24
+None	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Cerambycidae	BLAST	family	None	0		UNIFI893-24_r_1.5_s_50	Callidiellum rufipenne	0	UNIFI893-24
+None	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Cerambycidae	BLAST	family	None	0		UNIFI893-24_r_1.5_s_100	Callidiellum rufipenne	0	UNIFI893-24
+25	59	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	621	1497	Sarcophagidae	UNIFI908-24_r_1_s_50	Chlorophorus aegyptiacus	0	UNIFI908-24
+30	58	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	581	1410	Rhaphidophoridae,Carabidae,Nitidulidae,Passandridae,Tenebrionidae,Cerambycidae,Culicidae	UNIFI908-24_r_1_s_100	Chlorophorus aegyptiacus	0	UNIFI908-24
+18	38	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	609	1485	Staphylinidae,Nitidulidae,Laemophloeidae,Chrysomelidae,Cerambycidae,Drosophilidae	UNIFI908-24_r_1.3_s_50	Chlorophorus aegyptiacus	0	UNIFI908-24
+18	18	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	524	1251	Rhaphidophoridae,Staphylinidae,Scarabaeidae,Passandridae,Tenebrionidae,Oedemeridae,Cerambycidae	UNIFI908-24_r_1.3_s_100	Chlorophorus aegyptiacus	0	UNIFI908-24
+5	27	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	567	1431	Hydrophilidae,Staphylinidae,Trogidae,Nitidulidae,Chrysomelidae,Cerambycidae,Curculionidae,Formicidae	UNIFI908-24_r_1.5_s_50	Chlorophorus aegyptiacus	0	UNIFI908-24
+9	9	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	389	1032	Rhaphidophoridae,Staphylinidae,Chaetosomatidae,Passandridae,Cerambycidae,Hippoboscidae,Papilionidae	UNIFI908-24_r_1.5_s_100	Chlorophorus aegyptiacus	0	UNIFI908-24
+0	9	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00430-NC not in BOLD	None	BLAST	family	86	678		BGE00430-NC_r_1_s_50	None	0	BGE00430-NC
+0	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00430-NC not in BOLD	None	BLAST	family	86	528		BGE00430-NC_r_1_s_100	None	0	BGE00430-NC
+0	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00430-NC not in BOLD	None	BLAST	family	86	267		BGE00430-NC_r_1.3_s_50	None	0	BGE00430-NC
+0	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00430-NC not in BOLD	None	BLAST	family	86	147		BGE00430-NC_r_1.3_s_100	None	0	BGE00430-NC
+0	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00430-NC not in BOLD	None	BLAST	family	1	84		BGE00430-NC_r_1.5_s_50	None	0	BGE00430-NC
+None	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00430-NC not in BOLD	None	BLAST	family	None	0		BGE00430-NC_r_1.5_s_100	None	0	BGE00430-NC

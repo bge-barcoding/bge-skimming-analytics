@@ -1,0 +1,193 @@
+ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons	process_id
+25	37	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1530	Ichneumonidae	BGLIB196-23_r_1_s_50	Coelichneumon consimilis	0	BGLIB196-23
+38	49	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	600	1410	Braconidae,Ichneumonidae	BGLIB196-23_r_1_s_100	Coelichneumon consimilis	0	BGLIB196-23
+6	18	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1494	Ichneumonidae	BGLIB196-23_r_1.3_s_50	Coelichneumon consimilis	0	BGLIB196-23
+15	16	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	600	1410	Cecidomyiidae,Ichneumonidae	BGLIB196-23_r_1.3_s_100	Coelichneumon consimilis	0	BGLIB196-23
+14	14	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	633	1452	Ichneumonidae	BGLIB196-23_r_1.5_s_50	Coelichneumon consimilis	0	BGLIB196-23
+16	16	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	486	1173	Syrphidae,Rhagionidae,Ichneumonidae,Noctuidae	BGLIB196-23_r_1.5_s_100	Coelichneumon consimilis	0	BGLIB196-23
+11	19	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	466	1089	Syrphidae,Tortricidae,Nymphalidae,Crambidae,Geometridae	BGLIB199-23_r_1_s_50	Campoplex fusciplica	0	BGLIB199-23
+11	11	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	365	765	Tettigoniidae,Syrphidae,Stratiomyidae,Tortricidae,Nymphalidae,Crambidae,Geometridae	BGLIB199-23_r_1_s_100	Campoplex fusciplica	0	BGLIB199-23
+10	11	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	427	936	Syrphidae,Tortricidae,Nymphalidae,Crambidae,Geometridae	BGLIB199-23_r_1.3_s_50	Campoplex fusciplica	0	BGLIB199-23
+9	9	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	365	678	Tettigoniidae,Syrphidae,Stratiomyidae,Tortricidae,Nymphalidae,Crambidae,Geometridae	BGLIB199-23_r_1.3_s_100	Campoplex fusciplica	0	BGLIB199-23
+1	2	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	364	732	Staphylinidae,Chrysomelidae,Cerambycidae,Formicidae,Bombycidae,Nymphalidae	BGLIB199-23_r_1.5_s_50	Campoplex fusciplica	0	BGLIB199-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	302	531	Staphylinidae,Chrysomelidae,Cerambycidae,Formicidae,Bombycidae,Nymphalidae	BGLIB199-23_r_1.5_s_100	Campoplex fusciplica	0	BGLIB199-23
+35	58	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	593	1341	Ichneumonidae,Tenthredinidae,Xiphydriidae	BGLIB200-23_r_1_s_50	Campoplex molestus	0	BGLIB200-23
+27	34	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	544	963	Ichneumonidae,Lycaenidae	BGLIB200-23_r_1_s_100	Campoplex molestus	16	BGLIB200-23
+21	30	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	593	1287	Ichneumonidae	BGLIB200-23_r_1.3_s_50	Campoplex molestus	0	BGLIB200-23
+20	20	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	544	963	Ichneumonidae	BGLIB200-23_r_1.3_s_100	Campoplex molestus	18	BGLIB200-23
+7	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	431	1059	Ichneumonidae,Tenthredinidae	BGLIB200-23_r_1.5_s_50	Campoplex molestus	0	BGLIB200-23
+8	8	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	376	756	Ichneumonidae	BGLIB200-23_r_1.5_s_100	Campoplex molestus	12	BGLIB200-23
+26	28	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1530	Ichneumonidae	BGLIB203-23_r_1_s_50	Bathyplectes anurus	0	BGLIB203-23
+27	28	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1530	Ichneumonidae	BGLIB203-23_r_1_s_100	Bathyplectes anurus	0	BGLIB203-23
+26	26	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1530	Ichneumonidae	BGLIB203-23_r_1.3_s_50	Bathyplectes anurus	0	BGLIB203-23
+25	25	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1530	Ichneumonidae	BGLIB203-23_r_1.3_s_100	Bathyplectes anurus	0	BGLIB203-23
+10	10	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1530	Ichneumonidae	BGLIB203-23_r_1.5_s_50	Bathyplectes anurus	0	BGLIB203-23
+8	8	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	651	1524	Ichneumonidae	BGLIB203-23_r_1.5_s_100	Bathyplectes anurus	0	BGLIB203-23
+15	16	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1527	Ichneumonidae	BGLIB208-23_r_1_s_50	Campoplex bilobus	0	BGLIB208-23
+24	25	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1527	Ichneumonidae	BGLIB208-23_r_1_s_100	Campoplex bilobus	0	BGLIB208-23
+12	13	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1527	Ichneumonidae	BGLIB208-23_r_1.3_s_50	Campoplex bilobus	0	BGLIB208-23
+21	21	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1527	Ichneumonidae	BGLIB208-23_r_1.3_s_100	Campoplex bilobus	0	BGLIB208-23
+8	8	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	609	1479	Ichneumonidae	BGLIB208-23_r_1.5_s_50	Campoplex bilobus	0	BGLIB208-23
+9	9	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	576	1446	Ichneumonidae	BGLIB208-23_r_1.5_s_100	Campoplex bilobus	0	BGLIB208-23
+23	23	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	655	1566	Ichneumonidae	BGLIB225-23_r_1_s_50	Campodorus luctuosus	0	BGLIB225-23
+25	25	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	655	1557	Ichneumonidae	BGLIB225-23_r_1_s_100	Campodorus luctuosus	0	BGLIB225-23
+9	9	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	646	1557	Braconidae,Ichneumonidae,Crabronidae,Pteromalidae,Xiphydriidae,Geometridae	BGLIB225-23_r_1.3_s_50	Campodorus luctuosus	0	BGLIB225-23
+22	22	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	640	1515	Ichneumonidae	BGLIB225-23_r_1.3_s_100	Campodorus luctuosus	0	BGLIB225-23
+6	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	616	1515	Ichneumonidae	BGLIB225-23_r_1.5_s_50	Campodorus luctuosus	0	BGLIB225-23
+7	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	616	1380	Ichneumonidae	BGLIB225-23_r_1.5_s_100	Campodorus luctuosus	0	BGLIB225-23
+20	23	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1536	Ichneumonidae	BGLIB232-23_r_1_s_50	Coelichneumon orbitator	0	BGLIB232-23
+25	27	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1536	Ichneumonidae	BGLIB232-23_r_1_s_100	Coelichneumon orbitator	0	BGLIB232-23
+8	8	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1536	Ichneumonidae	BGLIB232-23_r_1.3_s_50	Coelichneumon orbitator	0	BGLIB232-23
+11	11	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1536	Ichneumonidae	BGLIB232-23_r_1.3_s_100	Coelichneumon orbitator	0	BGLIB232-23
+10	10	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	657	1536	Ichneumonidae	BGLIB232-23_r_1.5_s_50	Coelichneumon orbitator	0	BGLIB232-23
+11	11	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	651	1530	Ichneumonidae	BGLIB232-23_r_1.5_s_100	Coelichneumon orbitator	0	BGLIB232-23
+36	44	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	456	963	Rhagionidae,Gelechiidae,Tortricidae,Papilionidae,Nymphalidae	BGLIB233-23_r_1_s_50	Coelichneumon orbitator	0	BGLIB233-23
+26	27	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	270	636	Rhagionidae,Hepialidae,Gelechiidae,Tortricidae,Papilionidae,Nymphalidae	BGLIB233-23_r_1_s_100	Coelichneumon orbitator	0	BGLIB233-23
+8	12	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	279	702	Tortricidae,Nymphalidae	BGLIB233-23_r_1.3_s_50	Coelichneumon orbitator	0	BGLIB233-23
+10	13	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	270	498	Tortricidae,Nymphalidae	BGLIB233-23_r_1.3_s_100	Coelichneumon orbitator	0	BGLIB233-23
+4	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	144	327	Tettigoniidae,Chrysomelidae,Coelopidae,Formicidae,Bombycidae,Nymphalidae	BGLIB233-23_r_1.5_s_50	Coelichneumon orbitator	0	BGLIB233-23
+4	6	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	122	165	Tettigoniidae,Chrysomelidae,Coelopidae,Formicidae,Bombycidae,Nymphalidae,Hesperiidae	BGLIB233-23_r_1.5_s_100	Coelichneumon orbitator	0	BGLIB233-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	652	1524	Coreidae,Curculionidae,Calliphoridae,Andrenidae,Halictidae,Formicidae,Diprionidae	BGLIB239-23_r_1_s_50	Ronisia barbara	0	BGLIB239-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	652	1476	Coreidae,Curculionidae,Calliphoridae,Andrenidae,Halictidae,Formicidae,Diprionidae	BGLIB239-23_r_1_s_100	Ronisia barbara	0	BGLIB239-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	652	1416	Coreidae,Curculionidae,Calliphoridae,Andrenidae,Halictidae,Formicidae,Diprionidae	BGLIB239-23_r_1.3_s_50	Ronisia barbara	0	BGLIB239-23
+2	2	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	652	1413	Coreidae,Curculionidae,Calliphoridae,Andrenidae,Halictidae,Formicidae,Diprionidae	BGLIB239-23_r_1.3_s_100	Ronisia barbara	0	BGLIB239-23
+1	1	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	604	1323	Elateridae,Limnichidae,Curculionidae,Attelabidae,Andrenidae,Halictidae,Formicidae	BGLIB239-23_r_1.5_s_50	Ronisia barbara	0	BGLIB239-23
+2	2	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	526	1242	Limnichidae,Curculionidae,Sarcophagidae,Andrenidae,Halictidae,Formicidae	BGLIB239-23_r_1.5_s_100	Ronisia barbara	0	BGLIB239-23
+37	59	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pamphiliidae	BLAST	family	657	1503	Pamphiliidae	BGLIB240-23_r_1_s_50	Pamphilius nemorum	0	BGLIB240-23
+30	42	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pamphiliidae	BLAST	family	588	1371	Staphylinidae,Lampyridae,Chrysomelidae,Endomychidae,Syrphidae,Meessiidae,Limacodidae	BGLIB240-23_r_1_s_100	Pamphilius nemorum	0	BGLIB240-23
+25	33	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pamphiliidae	BLAST	family	606	1437	Pamphiliidae	BGLIB240-23_r_1.3_s_50	Pamphilius nemorum	0	BGLIB240-23
+15	17	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pamphiliidae	BLAST	family	515	1068	Pamphiliidae	BGLIB240-23_r_1.3_s_100	Pamphilius nemorum	7	BGLIB240-23
+9	14	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pamphiliidae	BLAST	family	582	1317	Pamphiliidae	BGLIB240-23_r_1.5_s_50	Pamphilius nemorum	0	BGLIB240-23
+13	13	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pamphiliidae	BLAST	family	440	717	Pamphiliidae	BGLIB240-23_r_1.5_s_100	Pamphilius nemorum	6	BGLIB240-23
+41	76	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	648	1500	Pompilidae,Noctuidae,Hesperiidae,Geometridae	BGLIB242-23_r_1_s_50	Cryptocheilus ichneumonoides	0	BGLIB242-23
+16	47	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	580	1290	Culicidae,Syrphidae,Gelechiidae,Nymphalidae,Geometridae	BGLIB242-23_r_1_s_100	Cryptocheilus ichneumonoides	0	BGLIB242-23
+25	49	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	618	1398	Culicidae,Megastigmidae,Euteliidae,Papilionidae,Lycaenidae,Nymphalidae,Mantispidae	BGLIB242-23_r_1.3_s_50	Cryptocheilus ichneumonoides	0	BGLIB242-23
+7	36	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	496	1137	Drosophilidae,Agromyzidae,Pamphiliidae,Tortricidae,Papilionidae,Nymphalidae,Crambidae	BGLIB242-23_r_1.3_s_100	Cryptocheilus ichneumonoides	0	BGLIB242-23
+9	23	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	391	1083	Tortricidae,Nymphalidae	BGLIB242-23_r_1.5_s_50	Cryptocheilus ichneumonoides	0	BGLIB242-23
+2	18	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	338	942	Tephritidae,Stratiomyidae,Papilionidae	BGLIB242-23_r_1.5_s_100	Cryptocheilus ichneumonoides	5	BGLIB242-23
+31	54	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	648	1545	Braconidae,Pompilidae	BGLIB243-23_r_1_s_50	Cryptocheilus ichneumonoides	0	BGLIB243-23
+23	36	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	648	1545	Braconidae,Pompilidae,Gelechiidae,Noctuidae,Geometridae	BGLIB243-23_r_1_s_100	Cryptocheilus ichneumonoides	0	BGLIB243-23
+5	13	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	648	1452	Braconidae,Pompilidae,Noctuidae,Geometridae	BGLIB243-23_r_1.3_s_50	Cryptocheilus ichneumonoides	0	BGLIB243-23
+6	9	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	648	1413	Braconidae,Pompilidae	BGLIB243-23_r_1.3_s_100	Cryptocheilus ichneumonoides	0	BGLIB243-23
+4	12	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	634	1353	Pompilidae,Papilionidae,Nymphalidae,Pyralidae	BGLIB243-23_r_1.5_s_50	Cryptocheilus ichneumonoides	0	BGLIB243-23
+9	15	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	635	1353	Pompilidae,Nymphalidae	BGLIB243-23_r_1.5_s_100	Cryptocheilus ichneumonoides	0	BGLIB243-23
+29	32	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	567	1098	Chrysididae,Pamphiliidae,Oecophoridae,Noctuidae	BGLIB246-23_r_1_s_50	Pseudopompilus humboldti	0	BGLIB246-23
+30	33	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	339	651	Bothrideridae,Pamphiliidae,Oecophoridae,Noctuidae,Nymphalidae	BGLIB246-23_r_1_s_100	Pseudopompilus humboldti	0	BGLIB246-23
+25	28	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	528	993	Chrysididae	BGLIB246-23_r_1.3_s_50	Pseudopompilus humboldti	0	BGLIB246-23
+27	30	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	336	648	Chrysididae	BGLIB246-23_r_1.3_s_100	Pseudopompilus humboldti	0	BGLIB246-23
+15	18	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	433	747	Syrphidae,Pamphiliidae,Papilionidae,Nymphalidae,Crambidae	BGLIB246-23_r_1.5_s_50	Pseudopompilus humboldti	0	BGLIB246-23
+15	18	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	153	516	Syrphidae,Formicidae,Papilionidae,Osmylidae	BGLIB246-23_r_1.5_s_100	Pseudopompilus humboldti	0	BGLIB246-23
+19	25	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Vespidae	BLAST	family	546	1350	Agromyzidae,Lycaenidae	BGLIB250-23_r_1_s_50	Leptochilus cruentatus	0	BGLIB250-23
+19	25	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Vespidae	BLAST	family	509	1131	Agromyzidae,Lycaenidae	BGLIB250-23_r_1_s_100	Leptochilus cruentatus	0	BGLIB250-23
+11	23	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Vespidae	BLAST	family	464	1014	Culicidae,Rhagionidae,Lycaenidae,Nymphalidae	BGLIB250-23_r_1.3_s_50	Leptochilus cruentatus	0	BGLIB250-23
+11	17	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Vespidae	BLAST	family	443	882	Culicidae,Pamphiliidae,Nymphalidae	BGLIB250-23_r_1.3_s_100	Leptochilus cruentatus	0	BGLIB250-23
+7	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Vespidae	BLAST	family	144	633	Pamphiliidae,Erebidae,Nymphalidae	BGLIB250-23_r_1.5_s_50	Leptochilus cruentatus	0	BGLIB250-23
+7	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Vespidae	BLAST	family	143	483	Tortricidae,Erebidae,Nymphalidae	BGLIB250-23_r_1.5_s_100	Leptochilus cruentatus	0	BGLIB250-23
+22	22	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	373	501	Aphrophoridae,Staphylinidae,Leiodidae,Ceratopogonidae,Riodinidae,Osmylidae	BGLIB252-23_r_1_s_50	Sigilla dorsata	0	BGLIB252-23
+21	21	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	273	297	Oecophoridae,Sphingidae,Noctuidae,Pyralidae	BGLIB252-23_r_1_s_100	Sigilla dorsata	0	BGLIB252-23
+24	24	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	365	450	Cercopidae,Ceratopogonidae,Braconidae,Riodinidae,Chrysopidae	BGLIB252-23_r_1.3_s_50	Sigilla dorsata	0	BGLIB252-23
+24	24	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	267	291	Braconidae,Oecophoridae,Noctuidae,Pyralidae	BGLIB252-23_r_1.3_s_100	Sigilla dorsata	0	BGLIB252-23
+7	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	125	174	Empididae,Nymphalidae,Pyralidae,Geometridae	BGLIB252-23_r_1.5_s_50	Sigilla dorsata	0	BGLIB252-23
+7	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	122	147	Empididae,Nymphalidae,Pyralidae,Geometridae	BGLIB252-23_r_1.5_s_100	Sigilla dorsata	0	BGLIB252-23
+31	49	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	652	1527	Acrididae,Dermestidae,Nymphalidae	BGLIB253-23_r_1_s_50	Sigilla dorsata	0	BGLIB253-23
+45	79	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	646	1410	Acrididae,Dermestidae	BGLIB253-23_r_1_s_100	Sigilla dorsata	0	BGLIB253-23
+15	24	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	622	1416	Acrididae,Dermestidae,Colletidae	BGLIB253-23_r_1.3_s_50	Sigilla dorsata	0	BGLIB253-23
+7	11	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	592	1287	Acrididae,Cercopidae,Dermestidae,Colletidae	BGLIB253-23_r_1.3_s_100	Sigilla dorsata	0	BGLIB253-23
+4	5	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	547	1209	Tingidae,Chrysomelidae,Lycaenidae,Nymphalidae	BGLIB253-23_r_1.5_s_50	Sigilla dorsata	1	BGLIB253-23
+9	9	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	515	1011	Acrididae,Tingidae,Staphylinidae,Dermestidae,Nymphalidae	BGLIB253-23_r_1.5_s_100	Sigilla dorsata	0	BGLIB253-23
+17	22	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	651	942	Pompilidae	BGLIB255-23_r_1_s_50	Arachnospila holomelas	0	BGLIB255-23
+23	23	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	651	813	Lycaenidae,Riodinidae	BGLIB255-23_r_1_s_100	Arachnospila holomelas	0	BGLIB255-23
+16	18	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	642	906	Enicocephalidae,Reduviidae,Coccinellidae,Ceratopogonidae,Limoniidae,Agromyzidae,Pompilidae,Eulophidae	BGLIB255-23_r_1.3_s_50	Arachnospila holomelas	0	BGLIB255-23
+21	21	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	624	786	Pompilidae,Lycaenidae,Crambidae	BGLIB255-23_r_1.3_s_100	Arachnospila holomelas	0	BGLIB255-23
+13	16	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	600	822	Pyrrhocoridae,Cicadidae,Syrphidae,Pompilidae	BGLIB255-23_r_1.5_s_50	Arachnospila holomelas	0	BGLIB255-23
+8	8	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	558	720	Vespidae,Pompilidae,Lycaenidae,Geometridae	BGLIB255-23_r_1.5_s_100	Arachnospila holomelas	0	BGLIB255-23
+35	35	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	527	912	Anthomyiidae,Scythropiidae,Erebidae,Nymphalidae,Geometridae	BGLIB258-23_r_1_s_50	Eoferreola distincta	0	BGLIB258-23
+44	44	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	479	792	Cleridae,Culicidae,Chironomidae,Tachinidae,Autostichidae,Aididae,Sphingidae,Erebidae,Geometridae	BGLIB258-23_r_1_s_100	Eoferreola distincta	0	BGLIB258-23
+3	3	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	434	768	Curculionidae,Rhagionidae,Ichneumonidae,Formicidae,Riodinidae	BGLIB258-23_r_1.3_s_50	Eoferreola distincta	0	BGLIB258-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	350	651	Tettigoniidae,Rhaphidophoridae,Formicidae,Coleophoridae,Nymphalidae	BGLIB258-23_r_1.3_s_100	Eoferreola distincta	0	BGLIB258-23
+1	1	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	199	438	Tettigoniidae,Rhaphidophoridae,Curculionidae,Halictidae,Formicidae,Coleophoridae	BGLIB258-23_r_1.5_s_50	Eoferreola distincta	0	BGLIB258-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	199	354	Tettigoniidae,Rhaphidophoridae,Halictidae,Formicidae,Coleophoridae	BGLIB258-23_r_1.5_s_100	Eoferreola distincta	0	BGLIB258-23
+19	25	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	497	753	Pompilidae,Azotidae	BGLIB260-23_r_1_s_50	Tachyagetes canariensis	0	BGLIB260-23
+22	22	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	438	543	Rhaphidophoridae,Pompilidae	BGLIB260-23_r_1_s_100	Tachyagetes canariensis	0	BGLIB260-23
+17	17	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	481	660	Rhaphidophoridae,Pompilidae	BGLIB260-23_r_1.3_s_50	Tachyagetes canariensis	0	BGLIB260-23
+19	19	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	438	543	Pompilidae	BGLIB260-23_r_1.3_s_100	Tachyagetes canariensis	0	BGLIB260-23
+7	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	411	435	Pompilidae	BGLIB260-23_r_1.5_s_50	Tachyagetes canariensis	0	BGLIB260-23
+7	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	411	435	Pompilidae	BGLIB260-23_r_1.5_s_100	Tachyagetes canariensis	0	BGLIB260-23
+17	19	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Sphecidae	BLAST	family	657	1533	Sphecidae,Lycaenidae	BGLIB261-23_r_1_s_50	Chalybion flebile	0	BGLIB261-23
+17	19	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Sphecidae	BLAST	family	657	1446	Sphecidae,Lycaenidae	BGLIB261-23_r_1_s_100	Chalybion flebile	0	BGLIB261-23
+14	16	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Sphecidae	BLAST	family	657	1506	Ichneumonidae,Sphecidae,Lycaenidae	BGLIB261-23_r_1.3_s_50	Chalybion flebile	0	BGLIB261-23
+14	14	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Sphecidae	BLAST	family	657	1389	Ichneumonidae,Sphecidae,Lycaenidae	BGLIB261-23_r_1.3_s_100	Chalybion flebile	0	BGLIB261-23
+4	5	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Sphecidae	BLAST	family	537	1326	Aphididae,Chrysomelidae,Discolomatidae,Cecidomyiidae	BGLIB261-23_r_1.5_s_50	Chalybion flebile	0	BGLIB261-23
+6	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Sphecidae	BLAST	family	537	1266	Aphididae,Discolomatidae,Cecidomyiidae,Culicidae,Ichneumonidae,Crabronidae	BGLIB261-23_r_1.5_s_100	Chalybion flebile	0	BGLIB261-23
+20	29	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tiphiidae	BLAST	family	308	804	Staphylinidae,Syrphidae,Ichneumonidae,Halictidae,Megachilidae,Tiphiidae,Micropterigidae	BGLIB263-23_r_1_s_50	Tiphia lepeletieri	0	BGLIB263-23
+20	20	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tiphiidae	BLAST	family	308	678	Aphididae,Staphylinidae,Syrphidae,Apidae,Halictidae,Megachilidae,Tiphiidae,Micropterigidae	BGLIB263-23_r_1_s_100	Tiphia lepeletieri	0	BGLIB263-23
+7	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tiphiidae	BLAST	family	299	729	Staphylinidae,Syrphidae,Ichneumonidae,Halictidae,Megachilidae,Tiphiidae,Micropterigidae	BGLIB263-23_r_1.3_s_50	Tiphia lepeletieri	0	BGLIB263-23
+7	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tiphiidae	BLAST	family	299	669	Aphididae,Staphylinidae,Syrphidae,Apidae,Halictidae,Megachilidae,Tiphiidae,Micropterigidae	BGLIB263-23_r_1.3_s_100	Tiphia lepeletieri	0	BGLIB263-23
+5	5	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tiphiidae	BLAST	family	122	363	Vespidae,Chrysididae,Pamphiliidae,Noctuidae,Lycaenidae	BGLIB263-23_r_1.5_s_50	Tiphia lepeletieri	0	BGLIB263-23
+5	5	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tiphiidae	BLAST	family	122	363	Vespidae,Chrysididae,Pamphiliidae,Noctuidae,Lycaenidae	BGLIB263-23_r_1.5_s_100	Tiphia lepeletieri	0	BGLIB263-23
+25	25	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tiphiidae	BLAST	family	274	498	Chrysomelidae,Syrphidae,Pamphiliidae,Lycaenidae,Nymphalidae,Osmylidae	BGLIB264-23_r_1_s_50	Tiphia lepeletieri	0	BGLIB264-23
+25	25	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tiphiidae	BLAST	family	270	294	Syrphidae,Formicidae,Pamphiliidae,Noctuidae,Lycaenidae,Nymphalidae,Osmylidae	BGLIB264-23_r_1_s_100	Tiphia lepeletieri	0	BGLIB264-23
+8	8	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tiphiidae	BLAST	family	128	291	Syrphidae,Formicidae,Pamphiliidae,Noctuidae,Lycaenidae,Osmylidae	BGLIB264-23_r_1.3_s_50	Tiphia lepeletieri	0	BGLIB264-23
+8	8	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tiphiidae	BLAST	family	122	147	Syrphidae,Formicidae,Pamphiliidae,Noctuidae,Lycaenidae,Nymphalidae,Osmylidae	BGLIB264-23_r_1.3_s_100	Tiphia lepeletieri	0	BGLIB264-23
+7	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tiphiidae	BLAST	family	128	228	Pamphiliidae,Tortricidae	BGLIB264-23_r_1.5_s_50	Tiphia lepeletieri	0	BGLIB264-23
+7	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tiphiidae	BLAST	family	122	147	Pamphiliidae,Tortricidae	BGLIB264-23_r_1.5_s_100	Tiphia lepeletieri	0	BGLIB264-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	49	87		BGLIB267-23_r_1_s_50	Tropidotilla litoralis	0	BGLIB267-23
+None	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Mutillidae	BLAST	family	None	0		BGLIB267-23_r_1_s_100	Tropidotilla litoralis	0	BGLIB267-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	49	87		BGLIB267-23_r_1.3_s_50	Tropidotilla litoralis	0	BGLIB267-23
+None	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Mutillidae	BLAST	family	None	0		BGLIB267-23_r_1.3_s_100	Tropidotilla litoralis	0	BGLIB267-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	41	42		BGLIB267-23_r_1.5_s_50	Tropidotilla litoralis	0	BGLIB267-23
+None	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Mutillidae	BLAST	family	None	0		BGLIB267-23_r_1.5_s_100	Tropidotilla litoralis	0	BGLIB267-23
+42	42	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	560	1026	Tenthredinidae,Lycaenidae	BGLIB269-23_r_1_s_50	Tropidotilla litoralis	0	BGLIB269-23
+47	47	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	323	441	Culicidae	BGLIB269-23_r_1_s_100	Tropidotilla litoralis	0	BGLIB269-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	473	795	Culicidae,Tenthredinidae	BGLIB269-23_r_1.3_s_50	Tropidotilla litoralis	0	BGLIB269-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	323	441	Culicidae	BGLIB269-23_r_1.3_s_100	Tropidotilla litoralis	0	BGLIB269-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	218	555	Culicidae	BGLIB269-23_r_1.5_s_50	Tropidotilla litoralis	2	BGLIB269-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	121	198	Culicidae	BGLIB269-23_r_1.5_s_100	Tropidotilla litoralis	0	BGLIB269-23
+7	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	332	474	Dytiscidae,Chrysomelidae,Cerambycidae,Ceratopogonidae,Formicidae,Bombycidae,Nymphalidae	BGLIB270-23_r_1_s_50	Agenioideus rytiphorus	0	BGLIB270-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	305	396	Dytiscidae,Chrysomelidae,Cerambycidae,Ceratopogonidae,Drosophilidae,Bombycidae,Erebidae,Nymphalidae	BGLIB270-23_r_1_s_100	Agenioideus rytiphorus	0	BGLIB270-23
+7	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	305	447	Dytiscidae,Chrysomelidae,Cerambycidae,Ceratopogonidae,Drosophilidae,Bombycidae,Erebidae,Nymphalidae	BGLIB270-23_r_1.3_s_50	Agenioideus rytiphorus	0	BGLIB270-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	305	396	Dytiscidae,Chrysomelidae,Cerambycidae,Ceratopogonidae,Drosophilidae,Bombycidae,Erebidae,Nymphalidae	BGLIB270-23_r_1.3_s_100	Agenioideus rytiphorus	0	BGLIB270-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	210	303	Tettigoniidae,Dytiscidae,Chrysomelidae,Cerambycidae,Ceratopogonidae,Bombycidae,Erebidae,Nymphalidae	BGLIB270-23_r_1.5_s_50	Agenioideus rytiphorus	0	BGLIB270-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	210	252	Dytiscidae,Chrysomelidae,Cerambycidae,Ceratopogonidae,Coleophoridae,Bombycidae,Erebidae,Nymphalidae	BGLIB270-23_r_1.5_s_100	Agenioideus rytiphorus	0	BGLIB270-23
+0	1	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	499	675	Cecidomyiidae,Limoniidae,Apidae,Pompilidae	BGLIB271-23_r_1_s_50	Arachnospila tyrrhena	0	BGLIB271-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	318	318	Aphididae,Empididae	BGLIB271-23_r_1_s_100	Arachnospila tyrrhena	0	BGLIB271-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	499	648	Cecidomyiidae,Limoniidae,Apidae,Pompilidae	BGLIB271-23_r_1.3_s_50	Arachnospila tyrrhena	0	BGLIB271-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	318	318	Aphididae,Empididae	BGLIB271-23_r_1.3_s_100	Arachnospila tyrrhena	0	BGLIB271-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	340	417	Braconidae,Colletidae,Bethylidae,Chrysididae,Crambidae,Philopotamidae	BGLIB271-23_r_1.5_s_50	Arachnospila tyrrhena	0	BGLIB271-23
+0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	145	183	Braconidae,Colletidae,Bethylidae,Chalcididae,Crambidae,Philopotamidae	BGLIB271-23_r_1.5_s_100	Arachnospila tyrrhena	0	BGLIB271-23
+None	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Pompilidae	BLAST	family	None	0		BGLIB272-23_r_1_s_50	Ferreola diffinis	0	BGLIB272-23
+None	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Pompilidae	BLAST	family	None	0		BGLIB272-23_r_1_s_100	Ferreola diffinis	0	BGLIB272-23
+None	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Pompilidae	BLAST	family	None	0		BGLIB272-23_r_1.3_s_50	Ferreola diffinis	0	BGLIB272-23
+None	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Pompilidae	BLAST	family	None	0		BGLIB272-23_r_1.3_s_100	Ferreola diffinis	0	BGLIB272-23
+None	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Pompilidae	BLAST	family	None	0		BGLIB272-23_r_1.5_s_50	Ferreola diffinis	0	BGLIB272-23
+None	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Pompilidae	BLAST	family	None	0		BGLIB272-23_r_1.5_s_100	Ferreola diffinis	0	BGLIB272-23
+36	50	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	476	1287	Culicidae,Chironomidae,Syrphidae,Pompilidae,Limacodidae	BGLIB275-23_r_1_s_50	Priocnemis susterai	0	BGLIB275-23
+21	21	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	448	1077	Pompilidae	BGLIB275-23_r_1_s_100	Priocnemis susterai	0	BGLIB275-23
+11	12	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	478	1287	Culicidae,Chironomidae,Syrphidae,Pompilidae,Nymphalidae	BGLIB275-23_r_1.3_s_50	Priocnemis susterai	1	BGLIB275-23
+9	9	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	448	1077	Pompilidae,Nymphalidae	BGLIB275-23_r_1.3_s_100	Priocnemis susterai	0	BGLIB275-23
+4	5	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	460	1188	Culicidae,Syrphidae,Pompilidae,Nymphalidae	BGLIB275-23_r_1.5_s_50	Priocnemis susterai	1	BGLIB275-23
+1	1	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	397	948	Pompilidae	BGLIB275-23_r_1.5_s_100	Priocnemis susterai	0	BGLIB275-23
+18	18	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	606	825	Haliplidae,Lampyridae,Chrysomelidae,Tipulidae,Syrphidae,Nymphalidae	BGLIB276-23_r_1_s_50	Telostegus inermis	0	BGLIB276-23
+18	18	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	558	771	Vespidae,Chrysididae,Formicidae,Noctuidae,Lycaenidae	BGLIB276-23_r_1_s_100	Telostegus inermis	1	BGLIB276-23
+19	19	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	561	774	Chrysomelidae,Endomychidae,Syrphidae,Chrysididae,Formicidae,Nymphalidae	BGLIB276-23_r_1.3_s_50	Telostegus inermis	0	BGLIB276-23
+13	13	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	522	735	Chrysididae,Formicidae	BGLIB276-23_r_1.3_s_100	Telostegus inermis	0	BGLIB276-23
+8	8	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	443	570	Rhagionidae,Xylophagaidae,Formicidae,Noctuidae	BGLIB276-23_r_1.5_s_50	Telostegus inermis	0	BGLIB276-23
+8	8	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	353	480	Rhagionidae,Xylophagaidae,Formicidae,Noctuidae,Nymphalidae	BGLIB276-23_r_1.5_s_100	Telostegus inermis	0	BGLIB276-23
+20	20	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Sphecidae	BLAST	family	647	1473	Aphididae,Hormaphididae,Sphecidae,Tenthredinidae	BGLIB277-23_r_1_s_50	Chilosphex argyrius	0	BGLIB277-23
+29	29	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Sphecidae	BLAST	family	590	1317	Aphididae,Hormaphididae,Sphecidae	BGLIB277-23_r_1_s_100	Chilosphex argyrius	0	BGLIB277-23
+9	9	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Sphecidae	BLAST	family	635	1410	Aphididae,Hormaphididae,Syrphidae,Vespidae,Sphecidae	BGLIB277-23_r_1.3_s_50	Chilosphex argyrius	0	BGLIB277-23
+16	16	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Sphecidae	BLAST	family	539	1266	Aphididae,Tachinidae,Vespidae	BGLIB277-23_r_1.3_s_100	Chilosphex argyrius	0	BGLIB277-23
+12	12	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Sphecidae	BLAST	family	446	1110	Scarabaeidae,Syrphidae,Tachinidae,Noctuidae,Nymphalidae	BGLIB277-23_r_1.5_s_50	Chilosphex argyrius	0	BGLIB277-23
+12	12	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Sphecidae	BLAST	family	381	1056	Scarabaeidae,Syrphidae,Tachinidae,Noctuidae,Nymphalidae	BGLIB277-23_r_1.5_s_100	Chilosphex argyrius	0	BGLIB277-23
+6	7	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Vespidae	BLAST	family	479	789	Rhaphidophoridae,Staphylinidae,Chrysomelidae,Dermestidae,Ceratopogonidae,Psychodidae,Formicidae,Nymphalidae	BGLIB283-23_r_1_s_50	Euodynerus hellenicus	0	BGLIB283-23
+7	8	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Vespidae	BLAST	family	304	630	Dytiscidae,Staphylinidae,Chrysomelidae,Cerambycidae,Ceratopogonidae,Formicidae,Bombycidae,Nymphalidae	BGLIB283-23_r_1_s_100	Euodynerus hellenicus	0	BGLIB283-23
+2	2	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Vespidae	BLAST	family	479	774	Staphylinidae,Chrysomelidae,Bothrideridae,Dermestidae,Ceratopogonidae,Psychodidae,Formicidae	BGLIB283-23_r_1.3_s_50	Euodynerus hellenicus	0	BGLIB283-23
+2	2	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Vespidae	BLAST	family	304	630	Dytiscidae,Staphylinidae,Chrysomelidae,Cerambycidae,Ceratopogonidae,Formicidae,Bombycidae,Nymphalidae	BGLIB283-23_r_1.3_s_100	Euodynerus hellenicus	0	BGLIB283-23
+1	1	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Vespidae	BLAST	family	293	486	Chrysomelidae,Bothrideridae,Dermestidae,Ceratopogonidae,Formicidae,Nymphalidae	BGLIB283-23_r_1.5_s_50	Euodynerus hellenicus	0	BGLIB283-23
+1	1	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Vespidae	BLAST	family	220	396	Staphylinidae,Chrysomelidae,Cerambycidae,Ceratopogonidae,Formicidae,Bombycidae,Nymphalidae	BGLIB283-23_r_1.5_s_100	Euodynerus hellenicus	0	BGLIB283-23
+40	63	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00402-NC not in BOLD	None	BLAST	family	590	1158		BGE00402-NC_r_1_s_50	None	0	BGE00402-NC
+41	49	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00402-NC not in BOLD	None	BLAST	family	590	1155		BGE00402-NC_r_1_s_100	None	0	BGE00402-NC
+32	33	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00402-NC not in BOLD	None	BLAST	family	533	876		BGE00402-NC_r_1.3_s_50	None	0	BGE00402-NC
+31	32	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00402-NC not in BOLD	None	BLAST	family	533	876		BGE00402-NC_r_1.3_s_100	None	0	BGE00402-NC
+44	44	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00402-NC not in BOLD	None	BLAST	family	410	516		BGE00402-NC_r_1.5_s_50	None	12	BGE00402-NC
+44	44	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00402-NC not in BOLD	None	BLAST	family	410	516		BGE00402-NC_r_1.5_s_100	None	12	BGE00402-NC

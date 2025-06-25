@@ -1,0 +1,55 @@
+ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons	process_id
+29	83	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Coleophoridae	BLAST	family	656	1530	Cosmopterigidae,Limacodidae,Sphingidae,Erebidae,Nymphalidae,Geometridae	BGSNL1724-24_r_1_s_50	Coleophora fuscicornis	0	BGSNL1724-24
+27	82	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Coleophoridae	BLAST	family	656	1530	Coleophoridae,Plutellidae,Erebidae	BGSNL1724-24_r_1_s_100	Coleophora fuscicornis	0	BGSNL1724-24
+15	27	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Coleophoridae	BLAST	family	657	1530	Oecophoridae,Coleophoridae,Depressariidae,Noctuidae,Geometridae	BGSNL1724-24_r_1.3_s_50	Coleophora fuscicornis	0	BGSNL1724-24
+11	23	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Coleophoridae	BLAST	family	656	1530	Oecophoridae,Coleophoridae,Depressariidae,Noctuidae,Geometridae	BGSNL1724-24_r_1.3_s_100	Coleophora fuscicornis	0	BGSNL1724-24
+12	15	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Coleophoridae	BLAST	family	657	1530	Oecophoridae,Coleophoridae,Autostichidae,Depressariidae,Noctuidae,Geometridae	BGSNL1724-24_r_1.5_s_50	Coleophora fuscicornis	0	BGSNL1724-24
+8	11	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Coleophoridae	BLAST	family	657	1530	Coleophoridae,Autostichidae,Depressariidae,Noctuidae,Geometridae	BGSNL1724-24_r_1.5_s_100	Coleophora fuscicornis	0	BGSNL1724-24
+12	43	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Gracillariidae	BLAST	family	656	1536	Erebidae,Nymphalidae,Crambidae,Geometridae	BGSNL1768-24_r_1_s_50	Parornix incerta	0	BGSNL1768-24
+3	29	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Gracillariidae	BLAST	family	657	1530	Nymphalidae,Crambidae,Geometridae	BGSNL1768-24_r_1_s_100	Parornix incerta	0	BGSNL1768-24
+0	4	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Gracillariidae	BLAST	family	657	1536	Depressariidae,Noctuidae,Erebidae,Crambidae,Hyblaeidae	BGSNL1768-24_r_1.3_s_50	Parornix incerta	0	BGSNL1768-24
+2	2	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Gracillariidae	BLAST	family	657	1530	Depressariidae,Noctuidae,Crambidae,Hyblaeidae	BGSNL1768-24_r_1.3_s_100	Parornix incerta	0	BGSNL1768-24
+0	1	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Gracillariidae	BLAST	family	612	1428	Plutellidae,Noctuidae,Pyralidae,Crambidae,Geometridae	BGSNL1768-24_r_1.5_s_50	Parornix incerta	0	BGSNL1768-24
+2	5	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Gracillariidae	BLAST	family	603	1365	Plutellidae,Noctuidae,Pyralidae,Crambidae,Geometridae	BGSNL1768-24_r_1.5_s_100	Parornix incerta	0	BGSNL1768-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Gracillariidae	BLAST	family	None	0		BGSNL1785-24_r_1_s_50	Phyllonorycter saportella	0	BGSNL1785-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Gracillariidae	BLAST	family	None	0		BGSNL1785-24_r_1_s_100	Phyllonorycter saportella	0	BGSNL1785-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Gracillariidae	BLAST	family	None	0		BGSNL1785-24_r_1.3_s_50	Phyllonorycter saportella	0	BGSNL1785-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Gracillariidae	BLAST	family	None	0		BGSNL1785-24_r_1.3_s_100	Phyllonorycter saportella	0	BGSNL1785-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Gracillariidae	BLAST	family	None	0		BGSNL1785-24_r_1.5_s_50	Phyllonorycter saportella	0	BGSNL1785-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Gracillariidae	BLAST	family	None	0		BGSNL1785-24_r_1.5_s_100	Phyllonorycter saportella	0	BGSNL1785-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Gracillariidae	BLAST	family	None	0		BGSNL1792-24_r_1_s_50	Phyllonorycter staintoniella	0	BGSNL1792-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Gracillariidae	BLAST	family	None	0		BGSNL1792-24_r_1_s_100	Phyllonorycter staintoniella	0	BGSNL1792-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Gracillariidae	BLAST	family	None	0		BGSNL1792-24_r_1.3_s_50	Phyllonorycter staintoniella	0	BGSNL1792-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Gracillariidae	BLAST	family	None	0		BGSNL1792-24_r_1.3_s_100	Phyllonorycter staintoniella	0	BGSNL1792-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Gracillariidae	BLAST	family	None	0		BGSNL1792-24_r_1.5_s_50	Phyllonorycter staintoniella	0	BGSNL1792-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Gracillariidae	BLAST	family	None	0		BGSNL1792-24_r_1.5_s_100	Phyllonorycter staintoniella	0	BGSNL1792-24
+27	64	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Gracillariidae	BLAST	family	656	1530	Gracillariidae	BGSNL1795-24_r_1_s_50	Phyllonorycter viminiella	0	BGSNL1795-24
+13	30	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Gracillariidae	BLAST	family	656	1530	Gracillariidae	BGSNL1795-24_r_1_s_100	Phyllonorycter viminiella	0	BGSNL1795-24
+30	62	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Gracillariidae	BLAST	family	656	1521	Gracillariidae,Tortricidae,Limacodidae	BGSNL1795-24_r_1.3_s_50	Phyllonorycter viminiella	0	BGSNL1795-24
+5	23	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Gracillariidae	BLAST	family	656	1521	Gracillariidae	BGSNL1795-24_r_1.3_s_100	Phyllonorycter viminiella	0	BGSNL1795-24
+2	17	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Gracillariidae	BLAST	family	654	1518	Gracillariidae,Tortricidae,Crambidae,Geometridae	BGSNL1795-24_r_1.5_s_50	Phyllonorycter viminiella	0	BGSNL1795-24
+4	14	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Gracillariidae	BLAST	family	642	1467	Gracillariidae	BGSNL1795-24_r_1.5_s_100	Phyllonorycter viminiella	0	BGSNL1795-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Nepticulidae	BLAST	family	None	0		BGSNL1797-24_r_1_s_50	Ectoedemia aegilopidella	0	BGSNL1797-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Nepticulidae	BLAST	family	None	0		BGSNL1797-24_r_1_s_100	Ectoedemia aegilopidella	0	BGSNL1797-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Nepticulidae	BLAST	family	None	0		BGSNL1797-24_r_1.3_s_50	Ectoedemia aegilopidella	0	BGSNL1797-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Nepticulidae	BLAST	family	None	0		BGSNL1797-24_r_1.3_s_100	Ectoedemia aegilopidella	0	BGSNL1797-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Nepticulidae	BLAST	family	None	0		BGSNL1797-24_r_1.5_s_50	Ectoedemia aegilopidella	0	BGSNL1797-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Nepticulidae	BLAST	family	None	0		BGSNL1797-24_r_1.5_s_100	Ectoedemia aegilopidella	0	BGSNL1797-24
+17	45	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Nepticulidae	BLAST	family	618	1407	Staphylinidae,Noctuidae,Prodoxidae	BGSNL1799-24_r_1_s_50	Fomoria deschkai	0	BGSNL1799-24
+15	15	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Nepticulidae	BLAST	family	585	1260	Staphylinidae,Noctuidae,Prodoxidae	BGSNL1799-24_r_1_s_100	Fomoria deschkai	0	BGSNL1799-24
+0	8	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Nepticulidae	BLAST	family	600	1386	Staphylinidae,Noctuidae,Prodoxidae	BGSNL1799-24_r_1.3_s_50	Fomoria deschkai	0	BGSNL1799-24
+0	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Nepticulidae	BLAST	family	567	1242	Staphylinidae,Noctuidae,Prodoxidae	BGSNL1799-24_r_1.3_s_100	Fomoria deschkai	0	BGSNL1799-24
+0	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Nepticulidae	BLAST	family	600	1323	Staphylinidae,Noctuidae,Prodoxidae	BGSNL1799-24_r_1.5_s_50	Fomoria deschkai	0	BGSNL1799-24
+0	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Nepticulidae	BLAST	family	567	1170	Staphylinidae,Noctuidae,Prodoxidae	BGSNL1799-24_r_1.5_s_100	Fomoria deschkai	0	BGSNL1799-24
+0	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Nepticulidae	BLAST	family	94	396		BGSNL1804-24_r_1_s_50	Fomoria luisae	0	BGSNL1804-24
+0	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Nepticulidae	BLAST	family	1	300		BGSNL1804-24_r_1_s_100	Fomoria luisae	0	BGSNL1804-24
+0	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Nepticulidae	BLAST	family	16	42		BGSNL1804-24_r_1.3_s_50	Fomoria luisae	0	BGSNL1804-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Nepticulidae	BLAST	family	None	0		BGSNL1804-24_r_1.3_s_100	Fomoria luisae	0	BGSNL1804-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Nepticulidae	BLAST	family	None	0		BGSNL1804-24_r_1.5_s_50	Fomoria luisae	0	BGSNL1804-24
+None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Nepticulidae	BLAST	family	None	0		BGSNL1804-24_r_1.5_s_100	Fomoria luisae	0	BGSNL1804-24
+22	39	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00311-NC not in BOLD	None	BLAST	family	651	1344		BGE00311-NC_r_1_s_50	None	0	BGE00311-NC
+20	32	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00311-NC not in BOLD	None	BLAST	family	651	1287		BGE00311-NC_r_1_s_100	None	0	BGE00311-NC
+8	8	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00311-NC not in BOLD	None	BLAST	family	561	1062		BGE00311-NC_r_1.3_s_50	None	0	BGE00311-NC
+0	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00311-NC not in BOLD	None	BLAST	family	538	984		BGE00311-NC_r_1.3_s_100	None	0	BGE00311-NC
+0	4	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00311-NC not in BOLD	None	BLAST	family	254	669		BGE00311-NC_r_1.5_s_50	None	0	BGE00311-NC
+0	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00311-NC not in BOLD	None	BLAST	family	233	525		BGE00311-NC_r_1.5_s_100	None	0	BGE00311-NC

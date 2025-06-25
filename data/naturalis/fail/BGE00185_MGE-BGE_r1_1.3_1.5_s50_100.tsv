@@ -1,0 +1,49 @@
+ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons	process_id
+6	31	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	489	1098		BGENL2019-24_r_1_s_50	Macrosteles sordidipennis	0	BGENL2019-24
+4	4	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	489	1092		BGENL2019-24_r_1_s_100	Macrosteles sordidipennis	0	BGENL2019-24
+0	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	110	678		BGENL2019-24_r_1.3_s_50	Macrosteles sordidipennis	0	BGENL2019-24
+0	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	107	555		BGENL2019-24_r_1.3_s_100	Macrosteles sordidipennis	0	BGENL2019-24
+0	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	108	195		BGENL2019-24_r_1.5_s_50	Macrosteles sordidipennis	0	BGENL2019-24
+0	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	107	108		BGENL2019-24_r_1.5_s_100	Macrosteles sordidipennis	0	BGENL2019-24
+19	80	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	651	1518	Cicadellidae	BGENL2022-24_r_1_s_50	Balclutha nicolasi	0	BGENL2022-24
+9	32	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	651	1458	Cicadellidae	BGENL2022-24_r_1_s_100	Balclutha nicolasi	0	BGENL2022-24
+5	41	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	534	1347	Cicadellidae	BGENL2022-24_r_1.3_s_50	Balclutha nicolasi	1	BGENL2022-24
+1	17	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	458	1056	Cicadellidae	BGENL2022-24_r_1.3_s_100	Balclutha nicolasi	0	BGENL2022-24
+0	4	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	450	1092	Cicadellidae	BGENL2022-24_r_1.5_s_50	Balclutha nicolasi	0	BGENL2022-24
+1	7	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	389	726	Cicadellidae	BGENL2022-24_r_1.5_s_100	Balclutha nicolasi	0	BGENL2022-24
+47	66	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	633	1500	Miridae,Cerambycidae,Bostrichidae	BGENL2024-24_r_1_s_50	Doratura exilis	0	BGENL2024-24
+34	59	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	625	1458	Gerridae,Lucanidae,Tenebrionidae	BGENL2024-24_r_1_s_100	Doratura exilis	0	BGENL2024-24
+13	26	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	595	1326	Miridae	BGENL2024-24_r_1.3_s_50	Doratura exilis	0	BGENL2024-24
+22	27	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	509	1047	Miridae	BGENL2024-24_r_1.3_s_100	Doratura exilis	0	BGENL2024-24
+3	4	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	175	1047	Rhinotermitidae,Kalotermitidae,Termitidae,Miridae	BGENL2024-24_r_1.5_s_50	Doratura exilis	0	BGENL2024-24
+3	3	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	117	807	Rhinotermitidae,Termitidae,Leiodidae,Oestridae	BGENL2024-24_r_1.5_s_100	Doratura exilis	0	BGENL2024-24
+14	54	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	653	1356	Corixidae,Cixiidae,Tephritidae	BGENL2055-24_r_1_s_50	Halmyra aeluropodis	0	BGENL2055-24
+12	48	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	473	1212	Heptageniidae,Tephritidae	BGENL2055-24_r_1_s_100	Halmyra aeluropodis	0	BGENL2055-24
+1	20	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	306	876	Delphacidae	BGENL2055-24_r_1.3_s_50	Halmyra aeluropodis	0	BGENL2055-24
+0	14	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	211	657	Heptageniidae,Delphacidae,Tephritidae	BGENL2055-24_r_1.3_s_100	Halmyra aeluropodis	0	BGENL2055-24
+0	27	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	171	522	Heptageniidae,Tephritidae	BGENL2055-24_r_1.5_s_50	Halmyra aeluropodis	0	BGENL2055-24
+1	31	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	186	489	Heptageniidae,Delphacidae,Tephritidae	BGENL2055-24_r_1.5_s_100	Halmyra aeluropodis	0	BGENL2055-24
+19	58	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	579	1356	Delphacidae	BGENL2064-24_r_1_s_50	Ribautodelphax albostriatus	0	BGENL2064-24
+20	76	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	557	1197	Delphacidae	BGENL2064-24_r_1_s_100	Ribautodelphax albostriatus	0	BGENL2064-24
+16	61	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	477	969	Delphacidae	BGENL2064-24_r_1.3_s_50	Ribautodelphax albostriatus	0	BGENL2064-24
+13	13	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	478	789	Thripidae,Formicidae	BGENL2064-24_r_1.3_s_100	Ribautodelphax albostriatus	0	BGENL2064-24
+0	16	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	201	597	Delphacidae	BGENL2064-24_r_1.5_s_50	Ribautodelphax albostriatus	0	BGENL2064-24
+0	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	172	390	Thripidae,Formicidae	BGENL2064-24_r_1.5_s_100	Ribautodelphax albostriatus	0	BGENL2064-24
+29	73	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	655	1533	Delphacidae,Cicadidae,Trogidae,Curculionidae	BGENL2077-24_r_1_s_50	Megamelodes quadrimaculatus	0	BGENL2077-24
+57	98	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	649	1503	Tetrigidae,Delphacidae,Hydraenidae,Trogidae,Nitidulidae,Curculionidae	BGENL2077-24_r_1_s_100	Megamelodes quadrimaculatus	0	BGENL2077-24
+12	19	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	655	1533	Delphacidae	BGENL2077-24_r_1.3_s_50	Megamelodes quadrimaculatus	0	BGENL2077-24
+12	19	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	625	1470	Delphacidae,Cixiidae	BGENL2077-24_r_1.3_s_100	Megamelodes quadrimaculatus	0	BGENL2077-24
+9	9	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	577	1257	Delphacidae	BGENL2077-24_r_1.5_s_50	Megamelodes quadrimaculatus	0	BGENL2077-24
+13	13	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	464	1056	Pentatomidae,Delphacidae,Corydalidae	BGENL2077-24_r_1.5_s_100	Megamelodes quadrimaculatus	0	BGENL2077-24
+None	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Flatidae	BLAST	family	None	0		BGENL2086-24_r_1_s_50	Cyphopterum buenavistae	0	BGENL2086-24
+None	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Flatidae	BLAST	family	None	0		BGENL2086-24_r_1_s_100	Cyphopterum buenavistae	0	BGENL2086-24
+None	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Flatidae	BLAST	family	None	0		BGENL2086-24_r_1.3_s_50	Cyphopterum buenavistae	0	BGENL2086-24
+None	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Flatidae	BLAST	family	None	0		BGENL2086-24_r_1.3_s_100	Cyphopterum buenavistae	0	BGENL2086-24
+None	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Flatidae	BLAST	family	None	0		BGENL2086-24_r_1.5_s_50	Cyphopterum buenavistae	0	BGENL2086-24
+None	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Flatidae	BLAST	family	None	0		BGENL2086-24_r_1.5_s_100	Cyphopterum buenavistae	0	BGENL2086-24
+12	14	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00185-NC not in BOLD	None	BLAST	family	633	1302		BGE00185-NC_r_1_s_50	None	0	BGE00185-NC
+12	12	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00185-NC not in BOLD	None	BLAST	family	458	1194		BGE00185-NC_r_1_s_100	None	0	BGE00185-NC
+0	8	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00185-NC not in BOLD	None	BLAST	family	125	717		BGE00185-NC_r_1.3_s_50	None	0	BGE00185-NC
+0	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00185-NC not in BOLD	None	BLAST	family	123	426		BGE00185-NC_r_1.3_s_100	None	0	BGE00185-NC
+0	8	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00185-NC not in BOLD	None	BLAST	family	125	468		BGE00185-NC_r_1.5_s_50	None	0	BGE00185-NC
+0	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00185-NC not in BOLD	None	BLAST	family	123	213		BGE00185-NC_r_1.5_s_100	None	0	BGE00185-NC

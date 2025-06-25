@@ -1,0 +1,25 @@
+ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons	process_id
+None	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Andrenidae	BLAST	family	None	0		BGENL1532-24_r_1_s_50	Andrena rotundilabris	0	BGENL1532-24
+None	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Andrenidae	BLAST	family	None	0		BGENL1532-24_r_1_s_100	Andrena rotundilabris	0	BGENL1532-24
+None	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Andrenidae	BLAST	family	None	0		BGENL1532-24_r_1.3_s_50	Andrena rotundilabris	0	BGENL1532-24
+None	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Andrenidae	BLAST	family	None	0		BGENL1532-24_r_1.3_s_100	Andrena rotundilabris	0	BGENL1532-24
+None	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Andrenidae	BLAST	family	None	0		BGENL1532-24_r_1.5_s_50	Andrena rotundilabris	0	BGENL1532-24
+None	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Andrenidae	BLAST	family	None	0		BGENL1532-24_r_1.5_s_100	Andrena rotundilabris	0	BGENL1532-24
+18	41	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Andrenidae	BLAST	family	656	1545	Andrenidae	BGENL1547-24_r_1_s_50	Andrena figurata	0	BGENL1547-24
+19	36	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Andrenidae	BLAST	family	656	1545	Andrenidae	BGENL1547-24_r_1_s_100	Andrena figurata	0	BGENL1547-24
+11	20	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Andrenidae	BLAST	family	656	1545	Andrenidae	BGENL1547-24_r_1.3_s_50	Andrena figurata	0	BGENL1547-24
+8	11	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Andrenidae	BLAST	family	656	1545	Andrenidae	BGENL1547-24_r_1.3_s_100	Andrena figurata	0	BGENL1547-24
+9	9	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Andrenidae	BLAST	family	656	1545	Andrenidae	BGENL1547-24_r_1.5_s_50	Andrena figurata	0	BGENL1547-24
+7	8	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Andrenidae	BLAST	family	656	1545	Andrenidae	BGENL1547-24_r_1.5_s_100	Andrena figurata	0	BGENL1547-24
+None	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Andrenidae	BLAST	family	None	0		BGENL1569-24_r_1_s_50	Andrena kornosica	0	BGENL1569-24
+None	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Andrenidae	BLAST	family	None	0		BGENL1569-24_r_1_s_100	Andrena kornosica	0	BGENL1569-24
+None	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Andrenidae	BLAST	family	None	0		BGENL1569-24_r_1.3_s_50	Andrena kornosica	0	BGENL1569-24
+None	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Andrenidae	BLAST	family	None	0		BGENL1569-24_r_1.3_s_100	Andrena kornosica	0	BGENL1569-24
+None	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Andrenidae	BLAST	family	None	0		BGENL1569-24_r_1.5_s_50	Andrena kornosica	0	BGENL1569-24
+None	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Andrenidae	BLAST	family	None	0		BGENL1569-24_r_1.5_s_100	Andrena kornosica	0	BGENL1569-24
+0	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00189-NC not in BOLD	None	BLAST	family	655	1419		BGE00189-NC_r_1_s_50	None	0	BGE00189-NC
+0	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00189-NC not in BOLD	None	BLAST	family	655	1419		BGE00189-NC_r_1_s_100	None	0	BGE00189-NC
+0	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00189-NC not in BOLD	None	BLAST	family	613	1317		BGE00189-NC_r_1.3_s_50	None	0	BGE00189-NC
+0	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00189-NC not in BOLD	None	BLAST	family	613	1317		BGE00189-NC_r_1.3_s_100	None	0	BGE00189-NC
+0	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00189-NC not in BOLD	None	BLAST	family	457	1104		BGE00189-NC_r_1.5_s_50	None	0	BGE00189-NC
+0	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00189-NC not in BOLD	None	BLAST	family	409	1056		BGE00189-NC_r_1.5_s_100	None	0	BGE00189-NC

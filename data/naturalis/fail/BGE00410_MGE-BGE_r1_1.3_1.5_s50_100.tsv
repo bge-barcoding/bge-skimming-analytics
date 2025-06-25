@@ -1,0 +1,97 @@
+ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons	process_id
+6	50	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	656	1527	Ichneumonidae,Tortricidae	BGLIB870-24_r_1_s_50	Virgichneumon maculicauda	0	BGLIB870-24
+13	28	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	638	1359	Ichneumonidae	BGLIB870-24_r_1_s_100	Virgichneumon maculicauda	0	BGLIB870-24
+0	33	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	611	1398	Ichneumonidae	BGLIB870-24_r_1.3_s_50	Virgichneumon maculicauda	0	BGLIB870-24
+8	35	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	539	1161	Ichneumonidae	BGLIB870-24_r_1.3_s_100	Virgichneumon maculicauda	0	BGLIB870-24
+0	18	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	539	1188	Ichneumonidae	BGLIB870-24_r_1.5_s_50	Virgichneumon maculicauda	0	BGLIB870-24
+0	27	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	485	894	Ichneumonidae	BGLIB870-24_r_1.5_s_100	Virgichneumon maculicauda	0	BGLIB870-24
+38	74	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	650	1536	Ichneumonidae	BGLIB873-24_r_1_s_50	Stenomacrus caudatus	0	BGLIB873-24
+30	43	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	573	1335	Culicidae,Braconidae,Ichneumonidae,Lycaenidae,Nymphalidae	BGLIB873-24_r_1_s_100	Stenomacrus caudatus	0	BGLIB873-24
+8	9	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	611	1434	Ichneumonidae	BGLIB873-24_r_1.3_s_50	Stenomacrus caudatus	0	BGLIB873-24
+1	1	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	653	924	Culicidae,Braconidae,Ichneumonidae,Lycaenidae	BGLIB873-24_r_1.3_s_100	Stenomacrus caudatus	10	BGLIB873-24
+1	2	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	433	1212	Braconidae,Ichneumonidae,Colletidae	BGLIB873-24_r_1.5_s_50	Stenomacrus caudatus	0	BGLIB873-24
+0	2	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	221	798	Culicidae,Braconidae,Ichneumonidae,Lycaenidae	BGLIB873-24_r_1.5_s_100	Stenomacrus caudatus	2	BGLIB873-24
+5	10	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	513	1209	Pamphiliidae,Limacodidae,Noctuidae,Riodinidae,Pyralidae,Geometridae	BGLIB875-24_r_1_s_50	Stenomacrus holmgreni	0	BGLIB875-24
+5	8	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	380	981	Pamphiliidae,Noctuidae,Lycaenidae,Nymphalidae,Pyralidae,Geometridae	BGLIB875-24_r_1_s_100	Stenomacrus holmgreni	0	BGLIB875-24
+7	22	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	513	993	Limacodidae,Noctuidae,Lycaenidae,Nymphalidae,Riodinidae,Pyralidae,Geometridae	BGLIB875-24_r_1.3_s_50	Stenomacrus holmgreni	0	BGLIB875-24
+7	10	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	380	747	Noctuidae,Lycaenidae,Nymphalidae,Riodinidae,Pyralidae,Geometridae	BGLIB875-24_r_1.3_s_100	Stenomacrus holmgreni	0	BGLIB875-24
+0	0	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	372	753	Pamphiliidae,Lycaenidae,Nymphalidae,Pyralidae,Geometridae	BGLIB875-24_r_1.5_s_50	Stenomacrus holmgreni	0	BGLIB875-24
+0	0	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	281	519	Pamphiliidae,Lycaenidae,Nymphalidae,Pyralidae	BGLIB875-24_r_1.5_s_100	Stenomacrus holmgreni	0	BGLIB875-24
+0	17	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	656	1536	Tettigoniidae,Acrididae,Ninidae,Curculionidae,Bostrichidae,Ptinidae,Vespidae,Tetracampidae	BGLIB879-24_r_1_s_50	Clistopyga rufator	0	BGLIB879-24
+0	0	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	656	1437	Tettigoniidae,Acrididae,Ninidae,Curculionidae,Bostrichidae,Ptinidae,Vespidae,Tetracampidae	BGLIB879-24_r_1_s_100	Clistopyga rufator	0	BGLIB879-24
+1	6	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	650	1518	Tettigoniidae,Acrididae,Reduviidae,Ulidiidae,Vespidae,Tetracampidae	BGLIB879-24_r_1.3_s_50	Clistopyga rufator	0	BGLIB879-24
+0	0	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	641	1419	Tettigoniidae,Acrididae,Reduviidae,Ulidiidae,Vespidae,Tetracampidae	BGLIB879-24_r_1.3_s_100	Clistopyga rufator	0	BGLIB879-24
+8	11	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	500	1332	Tettigoniidae,Acrididae,Reduviidae,Tephritidae,Ulidiidae,Vespidae	BGLIB879-24_r_1.5_s_50	Clistopyga rufator	0	BGLIB879-24
+0	0	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	455	1161	Acrididae,Reduviidae	BGLIB879-24_r_1.5_s_100	Clistopyga rufator	0	BGLIB879-24
+34	84	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	623	1485	Tenthredinidae	BGLIB886-24_r_1_s_50	Euura longiserra	0	BGLIB886-24
+18	51	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	455	1011	Tettigoniidae,Ninidae,Cicadellidae,Drosophilidae,Tephritidae,Ulidiidae,Vespidae,Erebidae	BGLIB886-24_r_1_s_100	Euura longiserra	0	BGLIB886-24
+5	33	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	618	1437	Tenthredinidae	BGLIB886-24_r_1.3_s_50	Euura longiserra	0	BGLIB886-24
+1	33	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	455	663	Tettigoniidae,Syrphidae,Ulidiidae,Vespidae,Lycaenidae	BGLIB886-24_r_1.3_s_100	Euura longiserra	0	BGLIB886-24
+2	9	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	480	1107	Tenthredinidae	BGLIB886-24_r_1.5_s_50	Euura longiserra	0	BGLIB886-24
+1	1	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	354	396	Tettigoniidae,Cicadellidae,Syrphidae,Ulidiidae,Vespidae,Lycaenidae	BGLIB886-24_r_1.5_s_100	Euura longiserra	2	BGLIB886-24
+28	33	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	656	1512	Drosophilidae,Sarcophagidae,Tenthredinidae	BGLIB896-24_r_1_s_50	Euura ribesii	0	BGLIB896-24
+29	38	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	657	1512	Tenthredinidae	BGLIB896-24_r_1_s_100	Euura ribesii	0	BGLIB896-24
+12	14	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	657	1512	Tenthredinidae	BGLIB896-24_r_1.3_s_50	Euura ribesii	0	BGLIB896-24
+14	20	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	657	1506	Tenthredinidae	BGLIB896-24_r_1.3_s_100	Euura ribesii	0	BGLIB896-24
+7	8	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	596	1452	Tenthredinidae	BGLIB896-24_r_1.5_s_50	Euura ribesii	0	BGLIB896-24
+7	8	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	576	1425	Tenthredinidae	BGLIB896-24_r_1.5_s_100	Euura ribesii	0	BGLIB896-24
+20	52	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	413	909	Staphylinidae,Mycetophilidae	BGLIB905-24_r_1_s_50	Euura viminalis	0	BGLIB905-24
+19	24	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	413	786	Staphylinidae,Mordellidae,Chrysomelidae,Scatopsidae	BGLIB905-24_r_1_s_100	Euura viminalis	0	BGLIB905-24
+16	24	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	302	399	Curculionidae	BGLIB905-24_r_1.3_s_50	Euura viminalis	0	BGLIB905-24
+16	17	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	272	342	Curculionidae	BGLIB905-24_r_1.3_s_100	Euura viminalis	0	BGLIB905-24
+12	19	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	195	243	Delphacidae,Chrysomelidae,Curculionidae,Formicidae	BGLIB905-24_r_1.5_s_50	Euura viminalis	2	BGLIB905-24
+12	13	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	121	147	Delphacidae,Chrysomelidae,Curculionidae,Formicidae	BGLIB905-24_r_1.5_s_100	Euura viminalis	0	BGLIB905-24
+37	38	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	472	1341	Tenthredinidae	BGLIB910-24_r_1_s_50	Euura flavescens	0	BGLIB910-24
+34	35	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	413	1245	Cecidomyiidae,Tenthredinidae	BGLIB910-24_r_1_s_100	Euura flavescens	0	BGLIB910-24
+19	20	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	323	672	Tenthredinidae	BGLIB910-24_r_1.3_s_50	Euura flavescens	0	BGLIB910-24
+17	18	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	321	558	Scarabaeidae,Passalidae,Coccinellidae,Chironomidae,Chrysopidae	BGLIB910-24_r_1.3_s_100	Euura flavescens	0	BGLIB910-24
+8	8	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	245	375	Cryptocercidae,Staphylinidae,Buprestidae,Mordellidae,Cerambycidae,Formicidae	BGLIB910-24_r_1.5_s_50	Euura flavescens	0	BGLIB910-24
+8	8	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	127	213	Staphylinidae,Buprestidae,Mordellidae,Cerambycidae,Syrphidae,Formicidae	BGLIB910-24_r_1.5_s_100	Euura flavescens	0	BGLIB910-24
+19	21	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	645	1494	Tenthredinidae	BGLIB911-24_r_1_s_50	Euura leucotrocha	0	BGLIB911-24
+19	20	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	376	1137	Tenthredinidae	BGLIB911-24_r_1_s_100	Euura leucotrocha	0	BGLIB911-24
+8	8	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	609	1386	Tenthredinidae	BGLIB911-24_r_1.3_s_50	Euura leucotrocha	0	BGLIB911-24
+5	5	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	349	939	Tenthredinidae	BGLIB911-24_r_1.3_s_100	Euura leucotrocha	0	BGLIB911-24
+7	7	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	588	1296	Tenthredinidae	BGLIB911-24_r_1.5_s_50	Euura leucotrocha	0	BGLIB911-24
+3	3	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	230	723	Tenthredinidae	BGLIB911-24_r_1.5_s_100	Euura leucotrocha	0	BGLIB911-24
+35	66	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	497	1278	Tenthredinidae	BGLIB913-24_r_1_s_50	Euura nigricornis	0	BGLIB913-24
+29	51	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	410	1044	Tenthredinidae	BGLIB913-24_r_1_s_100	Euura nigricornis	0	BGLIB913-24
+17	27	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	357	1068	Tenthredinidae,Notodontidae,Nymphalidae,Geometridae	BGLIB913-24_r_1.3_s_50	Euura nigricornis	0	BGLIB913-24
+14	14	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	335	924	Nymphalidae,Crambidae	BGLIB913-24_r_1.3_s_100	Euura nigricornis	0	BGLIB913-24
+16	23	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	234	828	Tenthredinidae	BGLIB913-24_r_1.5_s_50	Euura nigricornis	0	BGLIB913-24
+17	19	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	168	588	Tenthredinidae,Lycaenidae,Crambidae	BGLIB913-24_r_1.5_s_100	Euura nigricornis	0	BGLIB913-24
+30	50	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	656	1536	Tenthredinidae	BGLIB917-24_r_1_s_50	Euura stichi	0	BGLIB917-24
+23	31	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	551	1401	Tenthredinidae	BGLIB917-24_r_1_s_100	Euura stichi	0	BGLIB917-24
+19	20	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	656	1536	Tenthredinidae	BGLIB917-24_r_1.3_s_50	Euura stichi	0	BGLIB917-24
+16	16	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	551	1401	Tenthredinidae	BGLIB917-24_r_1.3_s_100	Euura stichi	0	BGLIB917-24
+6	9	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	635	1503	Tenthredinidae	BGLIB917-24_r_1.5_s_50	Euura stichi	0	BGLIB917-24
+11	12	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tenthredinidae	BLAST	family	551	1341	Tenthredinidae	BGLIB917-24_r_1.5_s_100	Euura stichi	0	BGLIB917-24
+28	29	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cephidae	BLAST	family	478	825	Tenthredinidae,Cephidae	BGLIB920-24_r_1_s_50	Janus femoratus	0	BGLIB920-24
+28	29	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cephidae	BLAST	family	443	717		BGLIB920-24_r_1_s_100	Janus femoratus	0	BGLIB920-24
+23	24	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cephidae	BLAST	family	398	507	Panorpidae,Lycaenidae,Pyralidae	BGLIB920-24_r_1.3_s_50	Janus femoratus	0	BGLIB920-24
+5	6	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cephidae	BLAST	family	363	399	Panorpidae,Lycaenidae,Pyralidae	BGLIB920-24_r_1.3_s_100	Janus femoratus	0	BGLIB920-24
+0	2	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cephidae	BLAST	family	122	222	Chrysomelidae,Braconidae,Apidae,Lycaenidae,Pyralidae,Hesperiidae	BGLIB920-24_r_1.5_s_50	Janus femoratus	0	BGLIB920-24
+0	2	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cephidae	BLAST	family	122	159	Braconidae,Apidae,Lycaenidae,Pyralidae,Hesperiidae	BGLIB920-24_r_1.5_s_100	Janus femoratus	0	BGLIB920-24
+36	67	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Philanthidae	BLAST	family	629	1410	Crabronidae	BGLIB925-24_r_1_s_50	Cerceris fimbriata	0	BGLIB925-24
+37	56	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Philanthidae	BLAST	family	449	1077	Nitidulidae,Phalacridae,Oecophoridae,Lasiocampidae,Erebidae	BGLIB925-24_r_1_s_100	Cerceris fimbriata	0	BGLIB925-24
+17	25	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Philanthidae	BLAST	family	548	1245	Lycidae,Latridiidae,Chironomidae,Phoridae,Drosophilidae,Rhinophoridae,Noctuidae,Geometridae,Chrysopidae	BGLIB925-24_r_1.3_s_50	Cerceris fimbriata	0	BGLIB925-24
+15	36	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Philanthidae	BLAST	family	446	861	Mycetophagidae,Coccinellidae,Latridiidae,Cecidomyiidae,Lasiocampidae,Geometridae	BGLIB925-24_r_1.3_s_100	Cerceris fimbriata	0	BGLIB925-24
+6	15	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Philanthidae	BLAST	family	499	987	Crabronidae	BGLIB925-24_r_1.5_s_50	Cerceris fimbriata	0	BGLIB925-24
+2	4	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Philanthidae	BLAST	family	241	420	Crabronidae	BGLIB925-24_r_1.5_s_100	Cerceris fimbriata	0	BGLIB925-24
+6	9	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Philanthidae	BLAST	family	656	1509	Ichneumonidae,Crabronidae	BGLIB926-24_r_1_s_50	Cerceris tenuivittata	0	BGLIB926-24
+2	2	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Philanthidae	BLAST	family	656	1506	Ichneumonidae,Crabronidae	BGLIB926-24_r_1_s_100	Cerceris tenuivittata	0	BGLIB926-24
+1	2	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Philanthidae	BLAST	family	656	1509	Ichneumonidae,Crabronidae	BGLIB926-24_r_1.3_s_50	Cerceris tenuivittata	0	BGLIB926-24
+4	9	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Philanthidae	BLAST	family	656	1506	Ichneumonidae,Crabronidae	BGLIB926-24_r_1.3_s_100	Cerceris tenuivittata	0	BGLIB926-24
+1	1	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Philanthidae	BLAST	family	653	1464	Ichneumonidae,Crabronidae	BGLIB926-24_r_1.5_s_50	Cerceris tenuivittata	0	BGLIB926-24
+1	1	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Philanthidae	BLAST	family	653	1461	Ichneumonidae,Crabronidae	BGLIB926-24_r_1.5_s_100	Cerceris tenuivittata	0	BGLIB926-24
+5	17	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	593	1281	Culicidae,Syrphidae,Drosophilidae,Muscidae,Braconidae,Lycaenidae,Crambidae	BGLIB941-24_r_1_s_50	Diospilus oleraceus	0	BGLIB941-24
+11	20	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	451	942	Braconidae	BGLIB941-24_r_1_s_100	Diospilus oleraceus	0	BGLIB941-24
+5	10	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	382	1044	Culicidae,Braconidae,Lycaenidae,Riodinidae,Crambidae	BGLIB941-24_r_1.3_s_50	Diospilus oleraceus	0	BGLIB941-24
+9	10	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	349	837	Braconidae,Ichneumonidae	BGLIB941-24_r_1.3_s_100	Diospilus oleraceus	0	BGLIB941-24
+8	16	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	278	684	Culicidae	BGLIB941-24_r_1.5_s_50	Diospilus oleraceus	0	BGLIB941-24
+8	10	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	204	411	Culicidae,Braconidae	BGLIB941-24_r_1.5_s_100	Diospilus oleraceus	1	BGLIB941-24
+21	30	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00410-NC not in BOLD	None	BLAST	family	545	1215		BGE00410-NC_r_1_s_50	None	0	BGE00410-NC
+19	26	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00410-NC not in BOLD	None	BLAST	family	428	1086		BGE00410-NC_r_1_s_100	None	0	BGE00410-NC
+5	6	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00410-NC not in BOLD	None	BLAST	family	482	678		BGE00410-NC_r_1.3_s_50	None	0	BGE00410-NC
+5	6	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00410-NC not in BOLD	None	BLAST	family	419	489		BGE00410-NC_r_1.3_s_100	None	0	BGE00410-NC
+0	1	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00410-NC not in BOLD	None	BLAST	family	130	261		BGE00410-NC_r_1.5_s_50	None	0	BGE00410-NC
+0	1	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00410-NC not in BOLD	None	BLAST	family	121	147		BGE00410-NC_r_1.5_s_100	None	0	BGE00410-NC

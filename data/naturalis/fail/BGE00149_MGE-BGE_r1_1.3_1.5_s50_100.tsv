@@ -1,0 +1,19 @@
+ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons	process_id
+41	54	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1530	Noctuidae	BHNHM364-24_r_1_s_50	Euxoa wagneri	0	BHNHM364-24
+39	63	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1518	Culicidae,Noctuidae,Erebidae,Hesperiidae	BHNHM364-24_r_1_s_100	Euxoa wagneri	0	BHNHM364-24
+21	26	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1530	Noctuidae	BHNHM364-24_r_1.3_s_50	Euxoa wagneri	0	BHNHM364-24
+24	30	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1518	Noctuidae	BHNHM364-24_r_1.3_s_100	Euxoa wagneri	0	BHNHM364-24
+6	10	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1530	Noctuidae	BHNHM364-24_r_1.5_s_50	Euxoa wagneri	0	BHNHM364-24
+6	12	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1518	Sphingidae,Noctuidae,Erebidae,Geometridae	BHNHM364-24_r_1.5_s_100	Euxoa wagneri	0	BHNHM364-24
+29	81	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1530	Noctuidae	BHNHM373-24_r_1_s_50	Hadena vulcanica	0	BHNHM373-24
+24	56	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1530	Noctuidae	BHNHM373-24_r_1_s_100	Hadena vulcanica	0	BHNHM373-24
+9	21	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1530	Noctuidae	BHNHM373-24_r_1.3_s_50	Hadena vulcanica	0	BHNHM373-24
+11	21	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1530	Noctuidae	BHNHM373-24_r_1.3_s_100	Hadena vulcanica	0	BHNHM373-24
+5	11	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1530	Noctuidae	BHNHM373-24_r_1.5_s_50	Hadena vulcanica	0	BHNHM373-24
+5	16	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1515	Noctuidae	BHNHM373-24_r_1.5_s_100	Hadena vulcanica	0	BHNHM373-24
+12	22	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00149-NC not in BOLD	None	BLAST	family	232	960		BGE00149-NC_r_1_s_50	None	0	BGE00149-NC
+0	9	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00149-NC not in BOLD	None	BLAST	family	165	738		BGE00149-NC_r_1_s_100	None	0	BGE00149-NC
+0	2	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00149-NC not in BOLD	None	BLAST	family	110	327		BGE00149-NC_r_1.3_s_50	None	0	BGE00149-NC
+0	2	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00149-NC not in BOLD	None	BLAST	family	109	216		BGE00149-NC_r_1.3_s_100	None	0	BGE00149-NC
+0	0	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00149-NC not in BOLD	None	BLAST	family	1	75		BGE00149-NC_r_1.5_s_50	None	0	BGE00149-NC
+None	0	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00149-NC not in BOLD	None	BLAST	family	None	0		BGE00149-NC_r_1.5_s_100	None	0	BGE00149-NC
