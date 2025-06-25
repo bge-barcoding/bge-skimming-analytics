@@ -1,0 +1,27 @@
+2024-11-26 20:22:52 - SequenceHandler - WARNING - Empty sequence provided for alignment
+2024-11-26 20:22:52 - BarcodeValidator - WARNING - Alignment failed for BSNHM077-24_r_1.3_s_50
+2024-11-26 20:22:57 - BarcodeValidator - WARNING - Local BLAST failed for BSNHM077-24
+2024-11-26 20:56:43 - SequenceHandler - WARNING - Empty sequence provided for alignment
+2024-11-26 20:56:43 - BarcodeValidator - WARNING - Alignment failed for BSNHM100-24_r_1.3_s_50
+2024-11-26 20:56:48 - BarcodeValidator - WARNING - Local BLAST failed for BSNHM100-24
+2024-11-26 21:14:40 - SequenceHandler - WARNING - Empty sequence provided for alignment
+2024-11-26 21:14:40 - BarcodeValidator - WARNING - Alignment failed for BSNHM112-24_r_1.3_s_50
+2024-11-26 21:14:45 - BarcodeValidator - WARNING - Local BLAST failed for BSNHM112-24
+2024-11-26 21:24:26 - SequenceHandler - WARNING - Empty sequence provided for alignment
+2024-11-26 21:24:26 - BarcodeValidator - WARNING - Alignment failed for BSNHM120-24_r_1.3_s_50
+2024-11-26 21:24:31 - BarcodeValidator - WARNING - Local BLAST failed for BSNHM120-24
+2024-11-26 21:33:58 - SequenceHandler - WARNING - Empty sequence provided for alignment
+2024-11-26 21:33:58 - BarcodeValidator - WARNING - Alignment failed for BSNHM127-24_r_1.3_s_50
+2024-11-26 21:34:07 - BarcodeValidator - WARNING - Local BLAST failed for BSNHM127-24
+2024-11-26 21:36:53 - SequenceHandler - WARNING - Empty sequence provided for alignment
+2024-11-26 21:36:53 - BarcodeValidator - WARNING - Alignment failed for BSNHM130-24_r_1.3_s_50
+2024-11-26 21:36:58 - BarcodeValidator - WARNING - Local BLAST failed for BSNHM130-24
+2024-11-26 21:47:37 - SequenceHandler - WARNING - Empty sequence provided for alignment
+2024-11-26 21:47:37 - BarcodeValidator - WARNING - Alignment failed for BSNHM138-24_r_1.3_s_50
+2024-11-26 21:47:42 - BarcodeValidator - WARNING - Local BLAST failed for BSNHM138-24
+2024-11-26 21:47:42 - SequenceHandler - WARNING - Empty sequence provided for alignment
+2024-11-26 21:47:42 - BarcodeValidator - WARNING - Alignment failed for BSNHM139-24_r_1.3_s_50
+2024-11-26 21:47:46 - BarcodeValidator - WARNING - Local BLAST failed for BSNHM139-24
+2024-11-26 22:35:47 - SequenceHandler - WARNING - Empty sequence provided for alignment
+2024-11-26 22:35:47 - BarcodeValidator - WARNING - Alignment failed for BSNHM170-24_r_1.3_s_50
+2024-11-26 22:35:51 - BarcodeValidator - WARNING - Local BLAST failed for BSNHM170-24
