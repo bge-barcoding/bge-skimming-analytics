@@ -1,0 +1,157 @@
+ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons	process_id
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1569	Culicidae,Panorpidae	BGENL396-23_r_1_s_50	Chelidura aptera	0	BGENL396-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1554	Culicidae,Panorpidae	BGENL396-23_r_1_s_100	Chelidura aptera	0	BGENL396-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1560	Culicidae,Panorpidae	BGENL396-23_r_1.3_s_50	Chelidura aptera	0	BGENL396-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1554	Culicidae,Panorpidae	BGENL396-23_r_1.3_s_100	Chelidura aptera	0	BGENL396-23
+0	4	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1545	Culicidae,Panorpidae	BGENL396-23_r_1.5_s_50	Chelidura aptera	0	BGENL396-23
+0	3	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1527	Culicidae,Panorpidae	BGENL396-23_r_1.5_s_100	Chelidura aptera	0	BGENL396-23
+9	15	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	653	1542	Culicidae	BGENL397-23_r_1_s_50	Chelidura aptera	0	BGENL397-23
+8	11	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	581	1365	Crambidae,Nevrorthidae	BGENL397-23_r_1_s_100	Chelidura aptera	0	BGENL397-23
+2	5	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	653	1497	Culicidae	BGENL397-23_r_1.3_s_50	Chelidura aptera	0	BGENL397-23
+8	11	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	581	1266	Culicidae,Crambidae,Nevrorthidae	BGENL397-23_r_1.3_s_100	Chelidura aptera	0	BGENL397-23
+3	6	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	653	1428	Culicidae	BGENL397-23_r_1.5_s_50	Chelidura aptera	0	BGENL397-23
+8	14	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	572	1257	Culicidae,Nevrorthidae	BGENL397-23_r_1.5_s_100	Chelidura aptera	0	BGENL397-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	642	1530	Anisolabididae,Carabidae,Empididae,Nymphalidae,Crambidae	BGENL401-23_r_1_s_50	Apterygida albipennis	0	BGENL401-23
+1	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	528	1407	Anisolabididae,Carabidae,Empididae,Tortricidae,Nymphalidae	BGENL401-23_r_1_s_100	Apterygida albipennis	0	BGENL401-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	636	1524	Anisolabididae,Carabidae,Cleridae,Culicidae,Chironomidae,Nymphalidae	BGENL401-23_r_1.3_s_50	Apterygida albipennis	0	BGENL401-23
+1	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	528	1407	Anisolabididae,Cleridae,Culicidae,Chironomidae,Simuliidae,Endromidae,Nymphalidae	BGENL401-23_r_1.3_s_100	Apterygida albipennis	0	BGENL401-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	627	1479	Anisolabididae,Carabidae,Cleridae,Culicidae,Chironomidae,Nymphalidae	BGENL401-23_r_1.5_s_50	Apterygida albipennis	0	BGENL401-23
+1	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	528	1368	Anisolabididae,Cleridae,Culicidae,Chironomidae,Simuliidae,Endromidae,Nymphalidae	BGENL401-23_r_1.5_s_100	Apterygida albipennis	0	BGENL401-23
+13	15	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	654	1542	Anisolabididae,Forficulidae,Culicidae	BGENL402-23_r_1_s_50	Apterygida albipennis	0	BGENL402-23
+4	12	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	615	1449	Dytiscidae,Carabidae,Cleridae,Tenebrionidae,Culicidae,Nymphalidae	BGENL402-23_r_1_s_100	Apterygida albipennis	0	BGENL402-23
+7	7	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	654	1539	Anisolabididae,Forficulidae,Culicidae	BGENL402-23_r_1.3_s_50	Apterygida albipennis	0	BGENL402-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	567	1365	Cleridae,Tenebrionidae,Culicidae,Nymphalidae	BGENL402-23_r_1.3_s_100	Apterygida albipennis	0	BGENL402-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	573	1413	Anisolabididae,Cleridae,Culicidae,Chironomidae,Nymphalidae	BGENL402-23_r_1.5_s_50	Apterygida albipennis	0	BGENL402-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	501	1269	Cleridae,Nymphalidae	BGENL402-23_r_1.5_s_100	Apterygida albipennis	0	BGENL402-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1554	Haplodiplatyidae,Culicidae	BGENL411-23_r_1_s_50	Pseudochelidura sinuata	0	BGENL411-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1551	Haplodiplatyidae,Culicidae	BGENL411-23_r_1_s_100	Pseudochelidura sinuata	0	BGENL411-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1551	Haplodiplatyidae,Culicidae	BGENL411-23_r_1.3_s_50	Pseudochelidura sinuata	0	BGENL411-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1551	Haplodiplatyidae,Culicidae	BGENL411-23_r_1.3_s_100	Pseudochelidura sinuata	0	BGENL411-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1503	Haplodiplatyidae,Culicidae	BGENL411-23_r_1.5_s_50	Pseudochelidura sinuata	0	BGENL411-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1482	Haplodiplatyidae,Culicidae	BGENL411-23_r_1.5_s_100	Pseudochelidura sinuata	0	BGENL411-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1566	Culicidae,Chironomidae,Syrphidae,Drosophilidae	BGENL412-23_r_1_s_50	Pseudochelidura sinuata	0	BGENL412-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1554	Culicidae,Chironomidae,Syrphidae,Drosophilidae	BGENL412-23_r_1_s_100	Pseudochelidura sinuata	0	BGENL412-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1554	Culicidae,Chironomidae,Syrphidae,Drosophilidae	BGENL412-23_r_1.3_s_50	Pseudochelidura sinuata	0	BGENL412-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1554	Culicidae,Chironomidae,Syrphidae,Drosophilidae	BGENL412-23_r_1.3_s_100	Pseudochelidura sinuata	0	BGENL412-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1518	Culicidae,Chironomidae,Syrphidae,Drosophilidae	BGENL412-23_r_1.5_s_50	Pseudochelidura sinuata	0	BGENL412-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1500	Culicidae,Chironomidae,Syrphidae,Drosophilidae	BGENL412-23_r_1.5_s_100	Pseudochelidura sinuata	0	BGENL412-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1554	Haplodiplatyidae,Culicidae	BGENL413-23_r_1_s_50	Pseudochelidura sinuata	0	BGENL413-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1554	Haplodiplatyidae,Culicidae	BGENL413-23_r_1_s_100	Pseudochelidura sinuata	0	BGENL413-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1554	Haplodiplatyidae,Culicidae	BGENL413-23_r_1.3_s_50	Pseudochelidura sinuata	0	BGENL413-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1554	Haplodiplatyidae,Culicidae	BGENL413-23_r_1.3_s_100	Pseudochelidura sinuata	0	BGENL413-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1518	Haplodiplatyidae,Culicidae	BGENL413-23_r_1.5_s_50	Pseudochelidura sinuata	0	BGENL413-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1518	Haplodiplatyidae,Culicidae	BGENL413-23_r_1.5_s_100	Pseudochelidura sinuata	0	BGENL413-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1572	Haplodiplatyidae,Culicidae	BGENL414-23_r_1_s_50	Pseudochelidura sinuata	0	BGENL414-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1554	Haplodiplatyidae,Culicidae	BGENL414-23_r_1_s_100	Pseudochelidura sinuata	0	BGENL414-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1554	Haplodiplatyidae,Culicidae	BGENL414-23_r_1.3_s_50	Pseudochelidura sinuata	0	BGENL414-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1554	Haplodiplatyidae,Culicidae	BGENL414-23_r_1.3_s_100	Pseudochelidura sinuata	0	BGENL414-23
+0	3	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1533	Haplodiplatyidae,Culicidae	BGENL414-23_r_1.5_s_50	Pseudochelidura sinuata	0	BGENL414-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1527	Haplodiplatyidae,Culicidae	BGENL414-23_r_1.5_s_100	Pseudochelidura sinuata	0	BGENL414-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1554	Culicidae,Simuliidae	BGENL415-23_r_1_s_50	Forficula lurida	0	BGENL415-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1554	Culicidae,Simuliidae	BGENL415-23_r_1_s_100	Forficula lurida	0	BGENL415-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1554	Culicidae,Simuliidae	BGENL415-23_r_1.3_s_50	Forficula lurida	0	BGENL415-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1554	Culicidae,Simuliidae	BGENL415-23_r_1.3_s_100	Forficula lurida	0	BGENL415-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1527	Culicidae,Simuliidae	BGENL415-23_r_1.5_s_50	Forficula lurida	0	BGENL415-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1527	Culicidae,Simuliidae	BGENL415-23_r_1.5_s_100	Forficula lurida	0	BGENL415-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1551	Culicidae,Simuliidae	BGENL416-23_r_1_s_50	Forficula lurida	0	BGENL416-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1551	Culicidae,Simuliidae	BGENL416-23_r_1_s_100	Forficula lurida	0	BGENL416-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1551	Culicidae,Simuliidae	BGENL416-23_r_1.3_s_50	Forficula lurida	0	BGENL416-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1551	Culicidae,Simuliidae	BGENL416-23_r_1.3_s_100	Forficula lurida	0	BGENL416-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1506	Culicidae,Simuliidae	BGENL416-23_r_1.5_s_50	Forficula lurida	0	BGENL416-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1506	Culicidae,Simuliidae	BGENL416-23_r_1.5_s_100	Forficula lurida	0	BGENL416-23
+1	5	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1551	Nemouridae,Dytiscidae,Culicidae,Simuliidae	BGENL417-23_r_1_s_50	Forficula lurida	0	BGENL417-23
+0	2	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1551	Dytiscidae,Culicidae,Simuliidae	BGENL417-23_r_1_s_100	Forficula lurida	0	BGENL417-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1551	Dytiscidae,Culicidae,Simuliidae	BGENL417-23_r_1.3_s_50	Forficula lurida	0	BGENL417-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1551	Culicidae,Simuliidae	BGENL417-23_r_1.3_s_100	Forficula lurida	0	BGENL417-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1497	Culicidae,Simuliidae	BGENL417-23_r_1.5_s_50	Forficula lurida	0	BGENL417-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1497	Culicidae,Simuliidae	BGENL417-23_r_1.5_s_100	Forficula lurida	0	BGENL417-23
+1	8	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	437	1167	Forficulidae,Hydrophilidae,Scarabaeidae,Tenebrionidae,Anthribidae,Scathophagidae	BGENL422-23_r_1_s_50	Forficula lesnei	0	BGENL422-23
+1	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	451	927	Baetidae,Isonychiidae,Forficulidae,Hydrophilidae,Tenebrionidae,Anthribidae,Scathophagidae	BGENL422-23_r_1_s_100	Forficula lesnei	10	BGENL422-23
+1	8	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	437	1113	Forficulidae,Hydrophilidae,Scarabaeidae,Tenebrionidae,Anthribidae,Scathophagidae	BGENL422-23_r_1.3_s_50	Forficula lesnei	0	BGENL422-23
+1	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	451	870	Baetidae,Isonychiidae,Forficulidae,Hydrophilidae,Tenebrionidae,Anthribidae,Scathophagidae	BGENL422-23_r_1.3_s_100	Forficula lesnei	10	BGENL422-23
+0	7	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	358	939	Baetidae,Isonychiidae,Forficulidae,Hydrophilidae,Tenebrionidae,Anthribidae,Scathophagidae	BGENL422-23_r_1.5_s_50	Forficula lesnei	0	BGENL422-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	314	732	Baetidae,Isonychiidae,Forficulidae,Hydrophilidae,Tenebrionidae,Anthribidae,Scathophagidae	BGENL422-23_r_1.5_s_100	Forficula lesnei	8	BGENL422-23
+22	58	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	509	1278	Pipunculidae,Drosophilidae,Sphingidae,Geometridae	BGENL426-23_r_1_s_50	Forficula decipiens	0	BGENL426-23
+1	13	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	462	1071	Drosophilidae,Agromyzidae,Hesperiidae,Geometridae	BGENL426-23_r_1_s_100	Forficula decipiens	0	BGENL426-23
+4	4	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	422	909	Cicadidae,Cicadellidae,Chironomidae,Agromyzidae,Gelechiidae,Gracillariidae,Prodoxidae	BGENL426-23_r_1.3_s_50	Forficula decipiens	0	BGENL426-23
+1	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	444	762	Phoridae,Formicidae,Sphingidae,Geometridae	BGENL426-23_r_1.3_s_100	Forficula decipiens	1	BGENL426-23
+1	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	419	846	Chrysomelidae,Vespidae,Formicidae,Gelechiidae,Sphingidae,Nemopteridae	BGENL426-23_r_1.5_s_50	Forficula decipiens	2	BGENL426-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	99	690	Phoridae,Formicidae,Sphingidae,Geometridae	BGENL426-23_r_1.5_s_100	Forficula decipiens	0	BGENL426-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1557	Anisolabididae,Dytiscidae,Culicidae,Crambidae,Geometridae	BGENL427-23_r_1_s_50	Eulithinus analis	0	BGENL427-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1551	Anisolabididae,Dytiscidae,Culicidae,Crambidae,Geometridae	BGENL427-23_r_1_s_100	Eulithinus analis	0	BGENL427-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1557	Anisolabididae,Dytiscidae,Culicidae,Crambidae,Geometridae	BGENL427-23_r_1.3_s_50	Eulithinus analis	0	BGENL427-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1551	Anisolabididae,Dytiscidae,Culicidae,Crambidae,Geometridae	BGENL427-23_r_1.3_s_100	Eulithinus analis	0	BGENL427-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1509	Anisolabididae,Dytiscidae,Culicidae,Crambidae,Geometridae	BGENL427-23_r_1.5_s_50	Eulithinus analis	0	BGENL427-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1503	Anisolabididae,Dytiscidae,Culicidae,Crambidae,Geometridae	BGENL427-23_r_1.5_s_100	Eulithinus analis	0	BGENL427-23
+0	3	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1569	Culicidae,Panorpidae,Sialidae	BGENL431-23_r_1_s_50	Chelidura pyrenaica	0	BGENL431-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1569	Culicidae,Panorpidae,Sialidae	BGENL431-23_r_1_s_100	Chelidura pyrenaica	0	BGENL431-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1569	Culicidae,Panorpidae,Sialidae	BGENL431-23_r_1.3_s_50	Chelidura pyrenaica	0	BGENL431-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1569	Culicidae,Panorpidae,Sialidae	BGENL431-23_r_1.3_s_100	Chelidura pyrenaica	0	BGENL431-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1524	Culicidae,Panorpidae,Sialidae	BGENL431-23_r_1.5_s_50	Chelidura pyrenaica	0	BGENL431-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1524	Culicidae,Panorpidae,Sialidae	BGENL431-23_r_1.5_s_100	Chelidura pyrenaica	0	BGENL431-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1569	Culicidae,Panorpidae	BGENL432-23_r_1_s_50	Chelidura pyrenaica	0	BGENL432-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1569	Culicidae,Panorpidae	BGENL432-23_r_1_s_100	Chelidura pyrenaica	0	BGENL432-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1569	Culicidae,Panorpidae	BGENL432-23_r_1.3_s_50	Chelidura pyrenaica	0	BGENL432-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1569	Culicidae,Panorpidae	BGENL432-23_r_1.3_s_100	Chelidura pyrenaica	0	BGENL432-23
+0	3	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1521	Culicidae,Panorpidae	BGENL432-23_r_1.5_s_50	Chelidura pyrenaica	0	BGENL432-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1512	Culicidae,Panorpidae	BGENL432-23_r_1.5_s_100	Chelidura pyrenaica	0	BGENL432-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1569	Culicidae,Panorpidae,Sialidae	BGENL433-23_r_1_s_50	Chelidura pyrenaica	0	BGENL433-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1569	Culicidae,Panorpidae,Sialidae	BGENL433-23_r_1_s_100	Chelidura pyrenaica	0	BGENL433-23
+0	2	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1569	Culicidae,Panorpidae,Sialidae	BGENL433-23_r_1.3_s_50	Chelidura pyrenaica	0	BGENL433-23
+0	5	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1572	Culicidae,Panorpidae,Sialidae	BGENL433-23_r_1.3_s_100	Chelidura pyrenaica	0	BGENL433-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1512	Culicidae,Panorpidae,Sialidae	BGENL433-23_r_1.5_s_50	Chelidura pyrenaica	0	BGENL433-23
+0	2	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1512	Culicidae,Panorpidae,Sialidae	BGENL433-23_r_1.5_s_100	Chelidura pyrenaica	0	BGENL433-23
+0	2	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1554	Culicidae,Drosophilidae,Nevrorthidae	BGENL434-23_r_1_s_50	Chelidura pyrenaica	0	BGENL434-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1548	Culicidae,Drosophilidae,Nevrorthidae	BGENL434-23_r_1_s_100	Chelidura pyrenaica	0	BGENL434-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1554	Culicidae,Drosophilidae,Nevrorthidae	BGENL434-23_r_1.3_s_50	Chelidura pyrenaica	0	BGENL434-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1548	Culicidae,Drosophilidae,Nevrorthidae	BGENL434-23_r_1.3_s_100	Chelidura pyrenaica	0	BGENL434-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1488	Culicidae,Drosophilidae,Nevrorthidae	BGENL434-23_r_1.5_s_50	Chelidura pyrenaica	0	BGENL434-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	656	1443	Culicidae,Drosophilidae,Nevrorthidae	BGENL434-23_r_1.5_s_100	Chelidura pyrenaica	0	BGENL434-23
+15	27	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1410	Dytiscidae,Culicidae	BGENL435-23_r_1_s_50	Chelidura mutica	0	BGENL435-23
+8	10	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	537	978	Gryllidae,Carabidae,Staphylinidae,Cleridae,Tortricidae,Nymphalidae	BGENL435-23_r_1_s_100	Chelidura mutica	0	BGENL435-23
+11	31	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	639	1359	Forficulidae,Carabidae,Melyridae,Drosophilidae,Tortricidae	BGENL435-23_r_1.3_s_50	Chelidura mutica	0	BGENL435-23
+10	12	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	441	762	Gryllidae,Carabidae,Staphylinidae,Cleridae,Tortricidae	BGENL435-23_r_1.3_s_100	Chelidura mutica	0	BGENL435-23
+16	29	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	597	1239	Forficulidae,Drosophilidae,Gelechiidae,Lycaenidae,Nymphalidae	BGENL435-23_r_1.5_s_50	Chelidura mutica	0	BGENL435-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	438	699	Forficulidae,Carabidae,Chrysomelidae,Gracillariidae,Noctuidae,Lycaenidae,Nymphalidae,Geometridae	BGENL435-23_r_1.5_s_100	Chelidura mutica	0	BGENL435-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1554	Culicidae	BGENL436-23_r_1_s_50	Chelidura mutica	0	BGENL436-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1551	Culicidae	BGENL436-23_r_1_s_100	Chelidura mutica	0	BGENL436-23
+0	2	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1545	Culicidae	BGENL436-23_r_1.3_s_50	Chelidura mutica	0	BGENL436-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1533	Culicidae	BGENL436-23_r_1.3_s_100	Chelidura mutica	0	BGENL436-23
+0	3	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1491	Culicidae	BGENL436-23_r_1.5_s_50	Chelidura mutica	0	BGENL436-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1422	Culicidae	BGENL436-23_r_1.5_s_100	Chelidura mutica	0	BGENL436-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1554	Culicidae	BGENL437-23_r_1_s_50	Chelidura mutica	0	BGENL437-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1542	Culicidae	BGENL437-23_r_1_s_100	Chelidura mutica	0	BGENL437-23
+0	3	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1554	Culicidae	BGENL437-23_r_1.3_s_50	Chelidura mutica	0	BGENL437-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1542	Culicidae	BGENL437-23_r_1.3_s_100	Chelidura mutica	0	BGENL437-23
+1	2	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1518	Culicidae	BGENL437-23_r_1.5_s_50	Chelidura mutica	0	BGENL437-23
+0	1	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Forficulidae	BLAST	family	657	1449	Culicidae	BGENL437-23_r_1.5_s_100	Chelidura mutica	0	BGENL437-23
+None	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Cicadellidae	BLAST	family	None	0		BGENL444-23_r_1_s_50	Acericerus vittifrons	0	BGENL444-23
+None	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Cicadellidae	BLAST	family	None	0		BGENL444-23_r_1_s_100	Acericerus vittifrons	0	BGENL444-23
+None	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Cicadellidae	BLAST	family	None	0		BGENL444-23_r_1.3_s_50	Acericerus vittifrons	0	BGENL444-23
+None	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Cicadellidae	BLAST	family	None	0		BGENL444-23_r_1.3_s_100	Acericerus vittifrons	0	BGENL444-23
+None	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Cicadellidae	BLAST	family	None	0		BGENL444-23_r_1.5_s_50	Acericerus vittifrons	0	BGENL444-23
+None	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Cicadellidae	BLAST	family	None	0		BGENL444-23_r_1.5_s_100	Acericerus vittifrons	0	BGENL444-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	657	1518	Forficulidae,Carabidae,Cleridae,Culicidae,Syrphidae,Inocelliidae	BGENL452-23_r_1_s_50	Diplocolenus orientalis	0	BGENL452-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	657	1518	Forficulidae,Carabidae,Cleridae,Culicidae,Syrphidae,Inocelliidae	BGENL452-23_r_1_s_100	Diplocolenus orientalis	0	BGENL452-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	657	1434	Forficulidae,Carabidae,Cleridae,Culicidae,Syrphidae,Inocelliidae	BGENL452-23_r_1.3_s_50	Diplocolenus orientalis	0	BGENL452-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	657	1434	Forficulidae,Carabidae,Cleridae,Culicidae,Syrphidae,Inocelliidae	BGENL452-23_r_1.3_s_100	Diplocolenus orientalis	0	BGENL452-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	585	1287	Carabidae,Staphylinidae,Cleridae,Culicidae,Chironomidae,Drosophilidae,Muscidae,Sesiidae,Chrysopidae	BGENL452-23_r_1.5_s_50	Diplocolenus orientalis	0	BGENL452-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	576	1275	Carabidae,Staphylinidae,Cleridae,Chironomidae,Anisopodidae,Muscidae,Tachinidae,Sesiidae	BGENL452-23_r_1.5_s_100	Diplocolenus orientalis	0	BGENL452-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	149	420	Cercopidae,Cicadellidae,Staphylinidae	BGENL463-23_r_1_s_50	Adarrus multinotatus	0	BGENL463-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	149	420	Cercopidae,Cicadellidae,Staphylinidae	BGENL463-23_r_1_s_100	Adarrus multinotatus	0	BGENL463-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	71	90	Cercopidae,Cicadellidae,Staphylinidae	BGENL463-23_r_1.3_s_50	Adarrus multinotatus	1	BGENL463-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	71	90	Cercopidae,Cicadellidae,Staphylinidae	BGENL463-23_r_1.3_s_100	Adarrus multinotatus	1	BGENL463-23
+None	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Cicadellidae	BLAST	family	None	0		BGENL463-23_r_1.5_s_50	Adarrus multinotatus	0	BGENL463-23
+None	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Cicadellidae	BLAST	family	None	0		BGENL463-23_r_1.5_s_100	Adarrus multinotatus	0	BGENL463-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	91	594	Cicadellidae	BGENL469-23_r_1_s_50	Diplocolenus orientalis	0	BGENL469-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	91	438	Cicadellidae	BGENL469-23_r_1_s_100	Diplocolenus orientalis	0	BGENL469-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	99	321	Cicadellidae	BGENL469-23_r_1.3_s_50	Diplocolenus orientalis	0	BGENL469-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	91	168	Cicadellidae	BGENL469-23_r_1.3_s_100	Diplocolenus orientalis	0	BGENL469-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	106	234	Cicadellidae	BGENL469-23_r_1.5_s_50	Diplocolenus orientalis	0	BGENL469-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	79	81	Cicadellidae	BGENL469-23_r_1.5_s_100	Diplocolenus orientalis	0	BGENL469-23
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00173-NC not in BOLD	None	BLAST	family	167	381		BGE00173-NC_r_1_s_50	None	0	BGE00173-NC
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00173-NC not in BOLD	None	BLAST	family	149	222		BGE00173-NC_r_1_s_100	None	0	BGE00173-NC
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00173-NC not in BOLD	None	BLAST	family	153	258		BGE00173-NC_r_1.3_s_50	None	0	BGE00173-NC
+0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00173-NC not in BOLD	None	BLAST	family	149	222		BGE00173-NC_r_1.3_s_100	None	0	BGE00173-NC
+None	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00173-NC not in BOLD	None	BLAST	family	None	0		BGE00173-NC_r_1.5_s_50	None	0	BGE00173-NC
+None	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00173-NC not in BOLD	None	BLAST	family	None	0		BGE00173-NC_r_1.5_s_100	None	0	BGE00173-NC

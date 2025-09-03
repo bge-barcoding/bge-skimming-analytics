@@ -1,0 +1,13 @@
+ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons	process_id
+21	30	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tettigoniidae	BLAST	family	657	1533	Tettigoniidae,Rhaphidophoridae,Anostostomatidae	UNIFI283-23_r_1_s_50	Barbitistes obtusus	0	UNIFI283-23
+12	18	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tettigoniidae	BLAST	family	657	1533	Tettigoniidae,Rhaphidophoridae	UNIFI283-23_r_1_s_100	Barbitistes obtusus	0	UNIFI283-23
+7	15	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tettigoniidae	BLAST	family	657	1533	Tettigoniidae,Rhaphidophoridae	UNIFI283-23_r_1.3_s_50	Barbitistes obtusus	0	UNIFI283-23
+9	17	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tettigoniidae	BLAST	family	657	1533	Tettigoniidae,Rhaphidophoridae	UNIFI283-23_r_1.3_s_100	Barbitistes obtusus	0	UNIFI283-23
+10	21	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tettigoniidae	BLAST	family	657	1524	Tettigoniidae,Rhaphidophoridae	UNIFI283-23_r_1.5_s_50	Barbitistes obtusus	0	UNIFI283-23
+10	14	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tettigoniidae	BLAST	family	657	1437	Tettigoniidae,Rhaphidophoridae	UNIFI283-23_r_1.5_s_100	Barbitistes obtusus	0	UNIFI283-23
+None	0	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00423-NC not in BOLD	None	BLAST	family	None	0		BGE00423-NC_r_1_s_50	None	0	BGE00423-NC
+None	0	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00423-NC not in BOLD	None	BLAST	family	None	0		BGE00423-NC_r_1_s_100	None	0	BGE00423-NC
+None	0	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00423-NC not in BOLD	None	BLAST	family	None	0		BGE00423-NC_r_1.3_s_50	None	0	BGE00423-NC
+None	0	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00423-NC not in BOLD	None	BLAST	family	None	0		BGE00423-NC_r_1.3_s_100	None	0	BGE00423-NC
+None	0	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00423-NC not in BOLD	None	BLAST	family	None	0		BGE00423-NC_r_1.5_s_50	None	0	BGE00423-NC
+None	0	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00423-NC not in BOLD	None	BLAST	family	None	0		BGE00423-NC_r_1.5_s_100	None	0	BGE00423-NC

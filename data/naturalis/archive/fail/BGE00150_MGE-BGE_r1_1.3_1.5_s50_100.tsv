@@ -1,0 +1,31 @@
+ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons	process_id
+21	43	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	654	1542	Noctuidae	BHNHM419-24_r_1_s_50	Orthosia dalmatica	1	BHNHM419-24
+14	28	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	654	1536	Noctuidae	BHNHM419-24_r_1_s_100	Orthosia dalmatica	0	BHNHM419-24
+16	23	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	654	1542	Noctuidae	BHNHM419-24_r_1.3_s_50	Orthosia dalmatica	0	BHNHM419-24
+16	18	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	654	1536	Noctuidae	BHNHM419-24_r_1.3_s_100	Orthosia dalmatica	0	BHNHM419-24
+5	10	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	654	1542	Noctuidae	BHNHM419-24_r_1.5_s_50	Orthosia dalmatica	0	BHNHM419-24
+8	9	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	654	1536	Noctuidae	BHNHM419-24_r_1.5_s_100	Orthosia dalmatica	0	BHNHM419-24
+12	17	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	604	1473	Noctuidae,Erebidae,Geometridae	BHNHM429-24_r_1_s_50	Panchrysia ornata	0	BHNHM429-24
+16	19	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	557	1338	Erebidae,Geometridae	BHNHM429-24_r_1_s_100	Panchrysia ornata	0	BHNHM429-24
+5	16	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	567	1374	Noctuidae,Papilionidae,Geometridae	BHNHM429-24_r_1.3_s_50	Panchrysia ornata	0	BHNHM429-24
+17	29	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	557	1200	Limacodidae,Noctuidae,Erebidae,Papilionidae	BHNHM429-24_r_1.3_s_100	Panchrysia ornata	0	BHNHM429-24
+12	19	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	566	1320	Noctuidae,Erebidae	BHNHM429-24_r_1.5_s_50	Panchrysia ornata	0	BHNHM429-24
+12	30	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	539	1146	Noctuidae,Erebidae	BHNHM429-24_r_1.5_s_100	Panchrysia ornata	0	BHNHM429-24
+18	20	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1533	Noctuidae	BHNHM432-24_r_1_s_50	Perigrapha cilissa	0	BHNHM432-24
+17	18	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1533	Noctuidae	BHNHM432-24_r_1_s_100	Perigrapha cilissa	0	BHNHM432-24
+9	10	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1533	Noctuidae	BHNHM432-24_r_1.3_s_50	Perigrapha cilissa	0	BHNHM432-24
+9	10	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1533	Noctuidae	BHNHM432-24_r_1.3_s_100	Perigrapha cilissa	0	BHNHM432-24
+6	8	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1530	Noctuidae	BHNHM432-24_r_1.5_s_50	Perigrapha cilissa	0	BHNHM432-24
+5	7	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1530	Noctuidae	BHNHM432-24_r_1.5_s_100	Perigrapha cilissa	0	BHNHM432-24
+30	44	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	631	1479	Noctuidae	BHNHM459-24_r_1_s_50	Pseudohadena armata	1	BHNHM459-24
+9	13	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	563	1335	Noctuidae	BHNHM459-24_r_1_s_100	Pseudohadena armata	1	BHNHM459-24
+14	27	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	614	1437	Noctuidae	BHNHM459-24_r_1.3_s_50	Pseudohadena armata	1	BHNHM459-24
+9	12	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	563	1323	Noctuidae	BHNHM459-24_r_1.3_s_100	Pseudohadena armata	1	BHNHM459-24
+7	7	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	596	1380	Noctuidae	BHNHM459-24_r_1.5_s_50	Pseudohadena armata	1	BHNHM459-24
+7	7	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	563	1284	Noctuidae	BHNHM459-24_r_1.5_s_100	Pseudohadena armata	1	BHNHM459-24
+35	37	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00150-NC not in BOLD	None	BLAST	family	275	378		BGE00150-NC_r_1_s_50	None	0	BGE00150-NC
+35	37	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00150-NC not in BOLD	None	BLAST	family	273	297		BGE00150-NC_r_1_s_100	None	0	BGE00150-NC
+15	17	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00150-NC not in BOLD	None	BLAST	family	273	297		BGE00150-NC_r_1.3_s_50	None	0	BGE00150-NC
+15	17	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00150-NC not in BOLD	None	BLAST	family	273	297		BGE00150-NC_r_1.3_s_100	None	0	BGE00150-NC
+2	2	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00150-NC not in BOLD	None	BLAST	family	273	297		BGE00150-NC_r_1.5_s_50	None	0	BGE00150-NC
+2	2	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00150-NC not in BOLD	None	BLAST	family	273	297		BGE00150-NC_r_1.5_s_100	None	0	BGE00150-NC

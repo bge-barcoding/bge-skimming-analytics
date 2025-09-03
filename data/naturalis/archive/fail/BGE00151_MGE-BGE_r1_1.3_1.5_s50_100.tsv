@@ -1,0 +1,43 @@
+ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons	process_id
+26	42	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	471	1035	Aphididae,Cicadidae,Thripidae,Formicidae	BHNHM531-24_r_1_s_50	Eysarcoris venustissimus	0	BHNHM531-24
+23	32	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	296	642	Lygaeidae,Aphididae,Cicadidae,Curculionidae,Formicidae,Erebidae	BHNHM531-24_r_1_s_100	Eysarcoris venustissimus	0	BHNHM531-24
+30	46	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	462	927	Pentatomidae,Lygaeidae,Aphididae,Cicadidae,Formicidae,Erebidae	BHNHM531-24_r_1.3_s_50	Eysarcoris venustissimus	0	BHNHM531-24
+25	34	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	296	639	Lygaeidae,Aphididae,Cicadidae,Curculionidae,Formicidae,Erebidae	BHNHM531-24_r_1.3_s_100	Eysarcoris venustissimus	0	BHNHM531-24
+16	33	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	462	840	Syrphidae,Colletidae,Papilionidae	BHNHM531-24_r_1.5_s_50	Eysarcoris venustissimus	0	BHNHM531-24
+10	18	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	296	534	Carabidae,Syrphidae,Erebidae,Papilionidae	BHNHM531-24_r_1.5_s_100	Eysarcoris venustissimus	0	BHNHM531-24
+17	22	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	314	534	Carabidae	BHNHM533-24_r_1_s_50	Ventocoris achivus	0	BHNHM533-24
+15	20	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	282	501	Carabidae	BHNHM533-24_r_1_s_100	Ventocoris achivus	0	BHNHM533-24
+22	25	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	275	300	Cicadellidae,Chrysomelidae,Lauxaniidae	BHNHM533-24_r_1.3_s_50	Ventocoris achivus	0	BHNHM533-24
+21	24	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	273	297	Cicadellidae,Scarabaeidae,Lauxaniidae,Fanniidae	BHNHM533-24_r_1.3_s_100	Ventocoris achivus	0	BHNHM533-24
+23	26	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	273	297	Pamphagidae,Syrphidae,Pipunculidae,Tineidae	BHNHM533-24_r_1.5_s_50	Ventocoris achivus	0	BHNHM533-24
+13	16	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	273	297	Chironomidae,Pipunculidae,Chloropidae,Pieridae,Incurvariidae	BHNHM533-24_r_1.5_s_100	Ventocoris achivus	0	BHNHM533-24
+29	45	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	657	1527	Pentatomidae	BHNHM534-24_r_1_s_50	Ventocoris achivus	0	BHNHM534-24
+21	36	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	588	1305	Pentatomidae,Scutelleridae,Heterogastridae,Carabidae	BHNHM534-24_r_1_s_100	Ventocoris achivus	0	BHNHM534-24
+20	38	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	618	1488	Pentatomidae	BHNHM534-24_r_1.3_s_50	Ventocoris achivus	0	BHNHM534-24
+21	36	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	489	1206	Pentatomidae,Scutelleridae,Heterogastridae,Carabidae	BHNHM534-24_r_1.3_s_100	Ventocoris achivus	0	BHNHM534-24
+10	19	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	618	1395	Pentatomidae	BHNHM534-24_r_1.5_s_50	Ventocoris achivus	0	BHNHM534-24
+10	25	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pentatomidae	BLAST	family	405	1122	Pentatomidae,Scutelleridae,Heterogastridae,Carabidae	BHNHM534-24_r_1.5_s_100	Ventocoris achivus	0	BHNHM534-24
+25	45	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Reduviidae	BLAST	family	655	1491	Reduviidae	BHNHM566-24_r_1_s_50	Coranus contrarius	0	BHNHM566-24
+18	48	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Reduviidae	BLAST	family	655	1326	Reduviidae	BHNHM566-24_r_1_s_100	Coranus contrarius	0	BHNHM566-24
+17	23	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Reduviidae	BLAST	family	655	1458	Reduviidae	BHNHM566-24_r_1.3_s_50	Coranus contrarius	0	BHNHM566-24
+12	15	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Reduviidae	BLAST	family	655	1263	Reduviidae	BHNHM566-24_r_1.3_s_100	Coranus contrarius	0	BHNHM566-24
+10	12	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Reduviidae	BLAST	family	643	1401	Reduviidae	BHNHM566-24_r_1.5_s_50	Coranus contrarius	0	BHNHM566-24
+10	13	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Reduviidae	BLAST	family	643	1251	Reduviidae	BHNHM566-24_r_1.5_s_100	Coranus contrarius	0	BHNHM566-24
+24	36	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	657	1311	Pentatomidae,Stenocephalidae	BHNHM568-24_r_1_s_50	Adelphocoris vandalicus	0	BHNHM568-24
+21	33	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	657	1311	Pentatomidae,Stenocephalidae	BHNHM568-24_r_1_s_100	Adelphocoris vandalicus	0	BHNHM568-24
+17	17	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	657	1236	Pentatomidae,Stenocephalidae	BHNHM568-24_r_1.3_s_50	Adelphocoris vandalicus	0	BHNHM568-24
+18	19	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	657	1164	Pentatomidae,Stenocephalidae	BHNHM568-24_r_1.3_s_100	Adelphocoris vandalicus	0	BHNHM568-24
+8	8	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	657	1164	Pentatomidae,Stenocephalidae	BHNHM568-24_r_1.5_s_50	Adelphocoris vandalicus	0	BHNHM568-24
+7	7	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	657	1164	Pentatomidae,Stenocephalidae	BHNHM568-24_r_1.5_s_100	Adelphocoris vandalicus	0	BHNHM568-24
+63	135	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	656	1431	Pentatomidae,Scutelleridae,Lygaeidae,Alydidae	BHNHM570-24_r_1_s_50	Adelphocoris ticinensis	0	BHNHM570-24
+59	147	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	599	1323	Reduviidae,Pentatomidae,Scutelleridae	BHNHM570-24_r_1_s_100	Adelphocoris ticinensis	0	BHNHM570-24
+36	56	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	626	1326	Miridae	BHNHM570-24_r_1.3_s_50	Adelphocoris ticinensis	0	BHNHM570-24
+29	48	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	578	1227	Miridae	BHNHM570-24_r_1.3_s_100	Adelphocoris ticinensis	0	BHNHM570-24
+8	33	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	423	1071	Miridae	BHNHM570-24_r_1.5_s_50	Adelphocoris ticinensis	0	BHNHM570-24
+4	33	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	288	984	Miridae	BHNHM570-24_r_1.5_s_100	Adelphocoris ticinensis	0	BHNHM570-24
+15	31	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00151-NC not in BOLD	None	BLAST	family	317	735		BGE00151-NC_r_1_s_50	None	0	BGE00151-NC
+15	31	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00151-NC not in BOLD	None	BLAST	family	272	669		BGE00151-NC_r_1_s_100	None	0	BGE00151-NC
+9	9	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00151-NC not in BOLD	None	BLAST	family	318	420		BGE00151-NC_r_1.3_s_50	None	0	BGE00151-NC
+11	11	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00151-NC not in BOLD	None	BLAST	family	273	345		BGE00151-NC_r_1.3_s_100	None	0	BGE00151-NC
+5	8	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00151-NC not in BOLD	None	BLAST	family	122	177		BGE00151-NC_r_1.5_s_50	None	0	BGE00151-NC
+0	1	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00151-NC not in BOLD	None	BLAST	family	122	147		BGE00151-NC_r_1.5_s_100	None	0	BGE00151-NC
