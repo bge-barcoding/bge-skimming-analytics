@@ -38,3 +38,24 @@ sequence_id	Consensus sequence attempt unique identifier ([Process ID]_[MGE r va
 species	Morphological species-level identification from 'backbone_source'?
 stop_codons	Number of stop codons identified in 'nuc'
 Filename	Name of consensus sequence file analysed
+process_id	Process ID (alternative column name for ID)
+processid	Process ID (alternative column name for ID)
+sample_taxid	Sample taxonomic ID
+ref_accession	Reference sequence accession number
+ref_rank	Taxonomic rank of reference sequence
+BOLD_submission	BOLD Systems submission identifier
+cleaning_removed_reference	Number of reads removed due to reference filtering during cleaning
+family	Taxonomic family identification
+fasta_file	Source FASTA file path
+genes	Genes identified in sequence
+length	Sequence length
+n_aligned	Number of aligned reads (alternative column name)
+n_reads	Total number of reads (alternative column name)
+output_dir	Output directory path
+protein_reference_file	Path to protein reference file
+r	MGE parameter r value
+s	MGE parameter s value
+run_name	Name of the sequencing/analysis run
+samples_file	Path to samples file
+skipped_reads_low_rel	Number of reads skipped due to low relative score
+skipped_reads_low_rel_score	Number of reads skipped due to low relative score (alternative column name)
