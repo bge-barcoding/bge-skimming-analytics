@@ -36,3 +36,6 @@ htmlcov/
 dist/
 build/
 *.egg-info/
+
+# Generated merged files
+*_merged.tsv
