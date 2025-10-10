@@ -1,5 +1,4 @@
 barcode_validator TSV header	Definition
-ID	Process ID
 ambig_basecount	Number of ambiguous (N) bases within the extracted barcode region
 ambig_full_basecount	Number of ambiguous bases across the full barcode consensus sequence
 ambig_original	Number of ambiguous bases in full the barcode consensus sequence prior to barcode region extraction
