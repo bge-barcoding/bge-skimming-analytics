@@ -18,6 +18,33 @@ Genome skimming assembly and validation analytics for the BGE project. The roadm
 
 ## Scripts
 
+### fix_process_id_column.py
+
+Handles TSV files with a `process_id` column to ensure consistency with the `group_id` standard.
+
+**Usage:**
+```bash
+python scripts/fix_process_id_column.py [--dry-run] [--data-dir DIR]
+```
+
+**Description:**
+
+This script scans TSV files in the data directory for a `process_id` column and takes appropriate action:
+
+1. **Remove** the `process_id` column if `group_id` exists and all values match
+2. **Rename** `process_id` to `group_id` if `group_id` column doesn't exist
+3. **Flag** files where `process_id` and `group_id` values don't match for manual review
+
+According to the metadata specification in `metadata/headers.tsv`, `group_id` is the standard column name for Process IDs, while `process_id` (with underscore) is not a recognized column. This script ensures data consistency and prevents test failures.
+
+**Options:**
+- `--dry-run`: Show what would be done without making changes
+- `--data-dir`: Data directory to search (default: `data/`)
+
+**Exit codes:**
+- `0`: Success (all files fixed or no process_id columns found)
+- `1`: Manual review required (conflicts or errors detected)
+
 ### merge_6p_data.py
 
 Merges TSV validation files with CSV assembly metrics for the 6p dataset.
