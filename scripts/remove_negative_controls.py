@@ -149,7 +149,7 @@ def clean_file(tsv_file: Path, dry_run: bool = False) -> bool:
                     clean_rows.append(row)
         
         if not dry_run:
-            # Write the cleaned file
+            # Write the cleaned file (preserves original line endings via newline='')
             with open(tsv_file, 'w', encoding='utf-8', newline='') as f:
                 writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter='\t')
                 writer.writeheader()
