@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 5	17	data/BGE00167_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	562	1050	Cicadellidae	BGENL190-23_r_1.3_s_100	Muellerianella fairmairei	0
 4	23	data/BGE00167_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	446	876	Acrididae,Clastopteridae,Cicadellidae	BGENL190-23_r_1.5_s_50	Muellerianella fairmairei	0
 5	17	data/BGE00167_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Delphacidae	BLAST	family	450	876	Acrididae,Cicadellidae	BGENL190-23_r_1.5_s_100	Muellerianella fairmairei	0
-1	3	data/BGE00167_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00167-NC not in BOLD	None	BLAST	family	217	582		BGE00167-NC_r_1_s_50	None	0
-0	0	data/BGE00167_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00167-NC not in BOLD	None	BLAST	family	109	492		BGE00167-NC_r_1_s_100	None	0
-1	3	data/BGE00167_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00167-NC not in BOLD	None	BLAST	family	213	285		BGE00167-NC_r_1.3_s_50	None	0
-0	0	data/BGE00167_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00167-NC not in BOLD	None	BLAST	family	108	195		BGE00167-NC_r_1.3_s_100	None	0
-0	2	data/BGE00167_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00167-NC not in BOLD	None	BLAST	family	54	180		BGE00167-NC_r_1.5_s_50	None	0
-0	0	data/BGE00167_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00167-NC not in BOLD	None	BLAST	family	54	126		BGE00167-NC_r_1.5_s_100	None	0

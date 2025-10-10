@@ -569,9 +569,3 @@ None	0	data/BGE00512_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 1	1	data/BGE00512_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Agelenidae	BLAST	family	624	1269	Agelenidae,Oppiidae	BSCRO475-24_r_1.3_s_100	Tegenaria	0
 0	1	data/BGE00512_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Agelenidae	BLAST	family	509	885	Nephilidae,Agelenidae,Oppiidae	BSCRO475-24_r_1.5_s_50	Tegenaria	0
 0	0	data/BGE00512_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Agelenidae	BLAST	family	506	717	Tetragnathidae,Nephilidae,Agelenidae,Pisauridae,Dictynidae,Desidae,Oppiidae	BSCRO475-24_r_1.5_s_100	Tegenaria	0
-8	27	data/BGE00512_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00512-NC not in BOLD	None	BLAST	family	651	1503		BGE00512-NC_r_1_s_50	None	0
-3	23	data/BGE00512_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00512-NC not in BOLD	None	BLAST	family	651	1446		BGE00512-NC_r_1_s_100	None	0
-8	17	data/BGE00512_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00512-NC not in BOLD	None	BLAST	family	563	1293		BGE00512-NC_r_1.3_s_50	None	0
-0	5	data/BGE00512_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00512-NC not in BOLD	None	BLAST	family	482	1212		BGE00512-NC_r_1.3_s_100	None	0
-1	2	data/BGE00512_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00512-NC not in BOLD	None	BLAST	family	455	1047		BGE00512-NC_r_1.5_s_50	None	0
-0	1	data/BGE00512_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00512-NC not in BOLD	None	BLAST	family	262	894		BGE00512-NC_r_1.5_s_100	None	0

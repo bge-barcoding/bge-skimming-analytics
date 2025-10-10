@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00432_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	656	1431	Chrysomelidae	UNIFI1140-24_r_1.3_s_100	Chrysolina purpurascens rufocuprea	0
 0	0	data/BGE00432_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	641	1395	Chrysomelidae	UNIFI1140-24_r_1.5_s_50	Chrysolina purpurascens rufocuprea	0
 0	0	data/BGE00432_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	641	1395	Chrysomelidae	UNIFI1140-24_r_1.5_s_100	Chrysolina purpurascens rufocuprea	0
-13	18	data/BGE00432_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00432-NC not in BOLD	None	BLAST	family	635	1335		BGE00432-NC_r_1_s_50	None	0
-4	8	data/BGE00432_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00432-NC not in BOLD	None	BLAST	family	575	1272		BGE00432-NC_r_1_s_100	None	0
-6	13	data/BGE00432_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00432-NC not in BOLD	None	BLAST	family	351	771		BGE00432-NC_r_1.3_s_50	None	0
-0	5	data/BGE00432_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00432-NC not in BOLD	None	BLAST	family	112	639		BGE00432-NC_r_1.3_s_100	None	0
-0	10	data/BGE00432_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00432-NC not in BOLD	None	BLAST	family	119	432		BGE00432-NC_r_1.5_s_50	None	0
-0	0	data/BGE00432_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00432-NC not in BOLD	None	BLAST	family	125	312		BGE00432-NC_r_1.5_s_100	None	0

@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tetrigidae	BLAST	family	655	1536	Tetrigidae	UNIFI285-23_r_1.3_s_100	Tetrix depressa	0
 0	0	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tetrigidae	BLAST	family	655	1536	Tetrigidae	UNIFI285-23_r_1.5_s_50	Tetrix depressa	0
 0	0	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tetrigidae	BLAST	family	655	1536	Tetrigidae	UNIFI285-23_r_1.5_s_100	Tetrix depressa	0
-None	0	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00423-NC not in BOLD	None	BLAST	family	None	0		BGE00423-NC_r_1_s_50	None	0
-None	0	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00423-NC not in BOLD	None	BLAST	family	None	0		BGE00423-NC_r_1_s_100	None	0
-None	0	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00423-NC not in BOLD	None	BLAST	family	None	0		BGE00423-NC_r_1.3_s_50	None	0
-None	0	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00423-NC not in BOLD	None	BLAST	family	None	0		BGE00423-NC_r_1.3_s_100	None	0
-None	0	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00423-NC not in BOLD	None	BLAST	family	None	0		BGE00423-NC_r_1.5_s_50	None	0
-None	0	data/BGE00423_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00423-NC not in BOLD	None	BLAST	family	None	0		BGE00423-NC_r_1.5_s_100	None	0

@@ -569,9 +569,3 @@ None	0	data/BGE00313_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 1	1	data/BGE00313_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tineidae	BLAST	family	635	1314	Noctuidae,Papilionidae,Crambidae	BGSNL1995-24_r_1.3_s_100	Novotinea muricolella	0
 0	2	data/BGE00313_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tineidae	BLAST	family	582	1233	Noctuidae,Crambidae,Geometridae	BGSNL1995-24_r_1.5_s_50	Novotinea muricolella	0
 0	0	data/BGE00313_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tineidae	BLAST	family	582	1167	Noctuidae,Papilionidae,Crambidae	BGSNL1995-24_r_1.5_s_100	Novotinea muricolella	0
-1	13	data/BGE00313_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00313-NC not in BOLD	None	BLAST	family	596	1266		BGE00313-NC_r_1_s_50	None	1
-0	13	data/BGE00313_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00313-NC not in BOLD	None	BLAST	family	248	942		BGE00313-NC_r_1_s_100	None	0
-1	9	data/BGE00313_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00313-NC not in BOLD	None	BLAST	family	139	816		BGE00313-NC_r_1.3_s_50	None	0
-0	0	data/BGE00313_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00313-NC not in BOLD	None	BLAST	family	142	516		BGE00313-NC_r_1.3_s_100	None	0
-0	0	data/BGE00313_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00313-NC not in BOLD	None	BLAST	family	39	321		BGE00313-NC_r_1.5_s_50	None	0
-0	0	data/BGE00313_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00313-NC not in BOLD	None	BLAST	family	34	105		BGE00313-NC_r_1.5_s_100	None	0

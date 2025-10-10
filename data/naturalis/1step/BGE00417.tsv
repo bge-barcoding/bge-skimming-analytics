@@ -569,9 +569,3 @@ None	0	data/BGE00417_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 3	12	data/BGE00417_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1431	Hydraenidae,Scarabaeidae,Syrphidae	BGLIB1615-24_r_1.3_s_100	Hoplia flavipes	0
 1	1	data/BGE00417_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1479	Staphylinidae,Hydraenidae,Scarabaeidae	BGLIB1615-24_r_1.5_s_50	Hoplia flavipes	0
 0	0	data/BGE00417_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1416	Staphylinidae,Hydraenidae,Scarabaeidae	BGLIB1615-24_r_1.5_s_100	Hoplia flavipes	0
-0	4	data/BGE00417_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00417-NC not in BOLD	None	BLAST	family	176	1149		BGE00417-NC_r_1_s_50	None	0
-0	9	data/BGE00417_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00417-NC not in BOLD	None	BLAST	family	159	1026		BGE00417-NC_r_1_s_100	None	0
-0	4	data/BGE00417_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00417-NC not in BOLD	None	BLAST	family	159	732		BGE00417-NC_r_1.3_s_50	None	0
-0	0	data/BGE00417_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00417-NC not in BOLD	None	BLAST	family	156	603		BGE00417-NC_r_1.3_s_100	None	0
-0	0	data/BGE00417_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00417-NC not in BOLD	None	BLAST	family	159	282		BGE00417-NC_r_1.5_s_50	None	0
-0	0	data/BGE00417_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00417-NC not in BOLD	None	BLAST	family	156	180		BGE00417-NC_r_1.5_s_100	None	0

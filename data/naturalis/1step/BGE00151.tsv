@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 29	48	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	578	1227	Miridae	BHNHM570-24_r_1.3_s_100	Adelphocoris ticinensis	0
 8	33	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	423	1071	Miridae	BHNHM570-24_r_1.5_s_50	Adelphocoris ticinensis	0
 4	33	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	288	984	Miridae	BHNHM570-24_r_1.5_s_100	Adelphocoris ticinensis	0
-15	31	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00151-NC not in BOLD	None	BLAST	family	317	735		BGE00151-NC_r_1_s_50	None	0
-15	31	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00151-NC not in BOLD	None	BLAST	family	272	669		BGE00151-NC_r_1_s_100	None	0
-9	9	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00151-NC not in BOLD	None	BLAST	family	318	420		BGE00151-NC_r_1.3_s_50	None	0
-11	11	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00151-NC not in BOLD	None	BLAST	family	273	345		BGE00151-NC_r_1.3_s_100	None	0
-5	8	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00151-NC not in BOLD	None	BLAST	family	122	177		BGE00151-NC_r_1.5_s_50	None	0
-0	1	data/BGE00151_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00151-NC not in BOLD	None	BLAST	family	122	147		BGE00151-NC_r_1.5_s_100	None	0

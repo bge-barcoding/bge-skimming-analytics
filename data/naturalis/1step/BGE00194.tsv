@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 8	12	data/BGE00194_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Megachilidae	BLAST	family	655	1437	Apidae,Megachilidae	BGENL2660-24_r_1.3_s_100	Osmia dimidiata	0
 0	0	data/BGE00194_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Megachilidae	BLAST	family	637	1419	Megachilidae	BGENL2660-24_r_1.5_s_50	Osmia dimidiata	0
 0	0	data/BGE00194_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Megachilidae	BLAST	family	637	1419	Megachilidae	BGENL2660-24_r_1.5_s_100	Osmia dimidiata	0
-2	45	data/BGE00194_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00194-NC not in BOLD	None	BLAST	family	139	747		BGE00194-NC_r_1_s_50	None	0
-0	29	data/BGE00194_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00194-NC not in BOLD	None	BLAST	family	85	585		BGE00194-NC_r_1_s_100	None	0
-2	2	data/BGE00194_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00194-NC not in BOLD	None	BLAST	family	47	267		BGE00194-NC_r_1.3_s_50	None	0
-0	0	data/BGE00194_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00194-NC not in BOLD	None	BLAST	family	33	129		BGE00194-NC_r_1.3_s_100	None	0
-0	0	data/BGE00194_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00194-NC not in BOLD	None	BLAST	family	6	30		BGE00194-NC_r_1.5_s_50	None	0
-None	0	data/BGE00194_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00194-NC not in BOLD	None	BLAST	family	None	0		BGE00194-NC_r_1.5_s_100	None	0

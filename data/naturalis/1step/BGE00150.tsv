@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1530	Noctuidae	BHNHM475-24_r_1.3_s_100	Rhyacia caradrinoides	0
 0	0	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1530	Noctuidae	BHNHM475-24_r_1.5_s_50	Rhyacia caradrinoides	0
 0	0	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1530	Noctuidae	BHNHM475-24_r_1.5_s_100	Rhyacia caradrinoides	0
-35	37	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00150-NC not in BOLD	None	BLAST	family	275	378		BGE00150-NC_r_1_s_50	None	0
-35	37	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00150-NC not in BOLD	None	BLAST	family	273	297		BGE00150-NC_r_1_s_100	None	0
-15	17	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00150-NC not in BOLD	None	BLAST	family	273	297		BGE00150-NC_r_1.3_s_50	None	0
-15	17	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00150-NC not in BOLD	None	BLAST	family	273	297		BGE00150-NC_r_1.3_s_100	None	0
-2	2	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00150-NC not in BOLD	None	BLAST	family	273	297		BGE00150-NC_r_1.5_s_50	None	0
-2	2	data/BGE00150_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00150-NC not in BOLD	None	BLAST	family	273	297		BGE00150-NC_r_1.5_s_100	None	0

@@ -569,9 +569,3 @@ None	0	data/BGE00179_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00179_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	656	1470	Braconidae	BGENL1140-24_r_1.3_s_100	Chasmodon apterus	0
 0	2	data/BGE00179_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	572	1116	Braconidae	BGENL1140-24_r_1.5_s_50	Chasmodon apterus	1
 0	0	data/BGE00179_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	572	1080	Braconidae	BGENL1140-24_r_1.5_s_100	Chasmodon apterus	1
-3	4	data/BGE00179_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00179-NC not in BOLD	None	BLAST	family	292	1050		BGE00179-NC_r_1_s_50	None	0
-0	0	data/BGE00179_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00179-NC not in BOLD	None	BLAST	family	154	834		BGE00179-NC_r_1_s_100	None	0
-0	0	data/BGE00179_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00179-NC not in BOLD	None	BLAST	family	74	327		BGE00179-NC_r_1.3_s_50	None	0
-0	0	data/BGE00179_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00179-NC not in BOLD	None	BLAST	family	50	108		BGE00179-NC_r_1.3_s_100	None	0
-0	0	data/BGE00179_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00179-NC not in BOLD	None	BLAST	family	50	228		BGE00179-NC_r_1.5_s_50	None	0
-0	0	data/BGE00179_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00179-NC not in BOLD	None	BLAST	family	50	108		BGE00179-NC_r_1.5_s_100	None	0

@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 9	26	data/BGE00421_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Anthicidae	BLAST	family	525	1341	Staphylinidae,Nosodendridae	UNIFI190-23_r_1.3_s_100	Microhoria fasciata	0
 23	44	data/BGE00421_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Anthicidae	BLAST	family	516	1332	Staphylinidae	UNIFI190-23_r_1.5_s_50	Microhoria fasciata	0
 17	32	data/BGE00421_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Anthicidae	BLAST	family	492	1305	Staphylinidae,Mycetophagidae	UNIFI190-23_r_1.5_s_100	Microhoria fasciata	0
-20	36	data/BGE00421_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00421-NC not in BOLD	None	BLAST	family	518	1239		BGE00421-NC_r_1_s_50	None	0
-16	38	data/BGE00421_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00421-NC not in BOLD	None	BLAST	family	452	1017		BGE00421-NC_r_1_s_100	None	0
-20	35	data/BGE00421_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00421-NC not in BOLD	None	BLAST	family	518	1182		BGE00421-NC_r_1.3_s_50	None	0
-16	32	data/BGE00421_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00421-NC not in BOLD	None	BLAST	family	452	978		BGE00421-NC_r_1.3_s_100	None	0
-14	25	data/BGE00421_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00421-NC not in BOLD	None	BLAST	family	440	873		BGE00421-NC_r_1.5_s_50	None	0
-19	31	data/BGE00421_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00421-NC not in BOLD	None	BLAST	family	478	783		BGE00421-NC_r_1.5_s_100	None	0

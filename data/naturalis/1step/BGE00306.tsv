@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00306_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pyralidae	BLAST	family	657	1530	Pyralidae	BGSNL1330-24_r_1.3_s_100	Hypsopygia incarnatalis	0
 0	0	data/BGE00306_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pyralidae	BLAST	family	657	1530	Pyralidae	BGSNL1330-24_r_1.5_s_50	Hypsopygia incarnatalis	0
 0	0	data/BGE00306_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pyralidae	BLAST	family	657	1530	Pyralidae	BGSNL1330-24_r_1.5_s_100	Hypsopygia incarnatalis	0
-0	0	data/BGE00306_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00306-NC not in BOLD	None	BLAST	family	51	363		BGE00306-NC_r_1_s_50	None	0
-0	0	data/BGE00306_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00306-NC not in BOLD	None	BLAST	family	51	327		BGE00306-NC_r_1_s_100	None	0
-0	0	data/BGE00306_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00306-NC not in BOLD	None	BLAST	family	51	201		BGE00306-NC_r_1.3_s_50	None	0
-0	0	data/BGE00306_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00306-NC not in BOLD	None	BLAST	family	51	135		BGE00306-NC_r_1.3_s_100	None	0
-0	0	data/BGE00306_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00306-NC not in BOLD	None	BLAST	family	6	30		BGE00306-NC_r_1.5_s_50	None	0
-None	0	data/BGE00306_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00306-NC not in BOLD	None	BLAST	family	None	0		BGE00306-NC_r_1.5_s_100	None	0

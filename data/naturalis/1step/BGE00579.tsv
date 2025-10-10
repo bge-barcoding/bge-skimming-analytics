@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	1	data/BGE00579_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Depressariidae	BLAST	family	643	1500	Cosmopterigidae,Depressariidae	BBIOP3420-24_r_1.3_s_100	Ethmia fumidella	0
 0	0	data/BGE00579_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Depressariidae	BLAST	family	595	1434	Cosmopterigidae,Depressariidae	BBIOP3420-24_r_1.5_s_50	Ethmia fumidella	0
 0	0	data/BGE00579_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Depressariidae	BLAST	family	595	1434	Cosmopterigidae,Depressariidae	BBIOP3420-24_r_1.5_s_100	Ethmia fumidella	0
-35	74	data/BGE00579_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00579-NC not in BOLD	None	BLAST	family	655	1524		BGE00579-NC_r_1_s_50	None	0
-19	40	data/BGE00579_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00579-NC not in BOLD	None	BLAST	family	656	1482		BGE00579-NC_r_1_s_100	None	0
-30	42	data/BGE00579_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00579-NC not in BOLD	None	BLAST	family	656	1422		BGE00579-NC_r_1.3_s_50	None	0
-18	23	data/BGE00579_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00579-NC not in BOLD	None	BLAST	family	656	1386		BGE00579-NC_r_1.3_s_100	None	0
-19	25	data/BGE00579_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00579-NC not in BOLD	None	BLAST	family	539	1227		BGE00579-NC_r_1.5_s_50	None	0
-3	5	data/BGE00579_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00579-NC not in BOLD	None	BLAST	family	497	1185		BGE00579-NC_r_1.5_s_100	None	0

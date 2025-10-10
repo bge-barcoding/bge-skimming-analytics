@@ -569,9 +569,3 @@ None	0	data/BGE00174_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 13	17	data/BGE00174_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Hybotidae	BLAST	family	645	1299	Culicidae,Syrphidae,Diopsidae,Drosophilidae,Muscidae,Anthomyiidae	BGENL570-23_r_1.3_s_100	Platypalpus rapidus	0
 8	19	data/BGE00174_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Hybotidae	BLAST	family	645	1416	Limoniidae,Empididae,Hybotidae,Drosophilidae,Sphaeroceridae,Muscidae,Calliphoridae	BGENL570-23_r_1.5_s_50	Platypalpus rapidus	0
 12	15	data/BGE00174_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Hybotidae	BLAST	family	645	1299	Culicidae,Limoniidae,Empididae,Diopsidae,Drosophilidae,Anthomyiidae	BGENL570-23_r_1.5_s_100	Platypalpus rapidus	0
-0	0	data/BGE00174_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00174-NC not in BOLD	None	BLAST	family	140	411		BGE00174-NC_r_1_s_50	None	0
-0	0	data/BGE00174_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00174-NC not in BOLD	None	BLAST	family	141	255		BGE00174-NC_r_1_s_100	None	0
-0	0	data/BGE00174_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00174-NC not in BOLD	None	BLAST	family	44	156		BGE00174-NC_r_1.3_s_50	None	0
-None	0	data/BGE00174_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00174-NC not in BOLD	None	BLAST	family	None	0		BGE00174-NC_r_1.3_s_100	None	0
-0	0	data/BGE00174_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00174-NC not in BOLD	None	BLAST	family	25	27		BGE00174-NC_r_1.5_s_50	None	0
-None	0	data/BGE00174_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00174-NC not in BOLD	None	BLAST	family	None	0		BGE00174-NC_r_1.5_s_100	None	0

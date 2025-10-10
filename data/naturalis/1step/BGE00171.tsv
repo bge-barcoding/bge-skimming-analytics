@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 19	22	data/BGE00171_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	656	1500	Cicadellidae	BGENL950-24_r_1.3_s_100	Rhopalopyx preyssleri	0
 7	8	data/BGE00171_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	656	1458	Cicadellidae	BGENL950-24_r_1.5_s_50	Rhopalopyx preyssleri	0
 13	15	data/BGE00171_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	656	1380	Cicadellidae	BGENL950-24_r_1.5_s_100	Rhopalopyx preyssleri	0
-9	14	data/BGE00171_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00171-NC not in BOLD	None	BLAST	family	411	735		BGE00171-NC_r_1_s_50	None	1
-8	13	data/BGE00171_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00171-NC not in BOLD	None	BLAST	family	410	606		BGE00171-NC_r_1_s_100	None	1
-9	9	data/BGE00171_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00171-NC not in BOLD	None	BLAST	family	305	450		BGE00171-NC_r_1.3_s_50	None	0
-9	9	data/BGE00171_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00171-NC not in BOLD	None	BLAST	family	272	342		BGE00171-NC_r_1.3_s_100	None	0
-2	2	data/BGE00171_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00171-NC not in BOLD	None	BLAST	family	274	381		BGE00171-NC_r_1.5_s_50	None	0
-2	2	data/BGE00171_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00171-NC not in BOLD	None	BLAST	family	272	297		BGE00171-NC_r_1.5_s_100	None	0

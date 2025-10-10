@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	618	1338	Braconidae	BGLIB760-24_r_1.3_s_100	Orgilus puctulator	0
 0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	510	1230	Braconidae	BGLIB760-24_r_1.5_s_50	Orgilus puctulator	0
 0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	456	1140	Braconidae	BGLIB760-24_r_1.5_s_100	Orgilus puctulator	0
-20	62	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00408-NC not in BOLD	None	BLAST	family	524	1161		BGE00408-NC_r_1_s_50	None	0
-20	71	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00408-NC not in BOLD	None	BLAST	family	410	1032		BGE00408-NC_r_1_s_100	None	0
-9	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00408-NC not in BOLD	None	BLAST	family	302	582		BGE00408-NC_r_1.3_s_50	None	0
-4	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00408-NC not in BOLD	None	BLAST	family	269	459		BGE00408-NC_r_1.3_s_100	None	0
-4	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00408-NC not in BOLD	None	BLAST	family	128	396		BGE00408-NC_r_1.5_s_50	None	0
-4	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00408-NC not in BOLD	None	BLAST	family	121	312		BGE00408-NC_r_1.5_s_100	None	0

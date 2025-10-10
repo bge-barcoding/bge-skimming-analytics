@@ -569,9 +569,3 @@ None	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Apidae	BLAST	family	655	1524	Apidae	BGENL1615-24_r_1.3_s_100	Anthophora crassipes	0
 0	2	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Apidae	BLAST	family	655	1512	Apidae	BGENL1615-24_r_1.5_s_50	Anthophora crassipes	0
 0	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Apidae	BLAST	family	655	1419	Apidae	BGENL1615-24_r_1.5_s_100	Anthophora crassipes	0
-0	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00189-NC not in BOLD	None	BLAST	family	655	1419		BGE00189-NC_r_1_s_50	None	0
-0	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00189-NC not in BOLD	None	BLAST	family	655	1419		BGE00189-NC_r_1_s_100	None	0
-0	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00189-NC not in BOLD	None	BLAST	family	613	1317		BGE00189-NC_r_1.3_s_50	None	0
-0	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00189-NC not in BOLD	None	BLAST	family	613	1317		BGE00189-NC_r_1.3_s_100	None	0
-0	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00189-NC not in BOLD	None	BLAST	family	457	1104		BGE00189-NC_r_1.5_s_50	None	0
-0	0	data/BGE00189_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00189-NC not in BOLD	None	BLAST	family	409	1056		BGE00189-NC_r_1.5_s_100	None	0

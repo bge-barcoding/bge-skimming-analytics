@@ -569,9 +569,3 @@ None	0	data/BGE00588_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 37	37	data/BGE00588_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Buprestidae	BLAST	family	656	1401	Reduviidae,Buprestidae	BBIOP1900-24_r_1.3_s_100	Chalcophora detrita	0
 3	8	data/BGE00588_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Buprestidae	BLAST	family	555	1404	Staphylinidae,Buprestidae,Lampyridae,Elateridae,Sarcophagidae	BBIOP1900-24_r_1.5_s_50	Chalcophora detrita	0
 6	10	data/BGE00588_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Buprestidae	BLAST	family	488	1161	Staphylinidae,Buprestidae,Elateridae,Tephritidae,Sarcophagidae	BBIOP1900-24_r_1.5_s_100	Chalcophora detrita	0
-29	30	data/BGE00588_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00588-NC not in BOLD	None	BLAST	family	569	1152		BGE00588-NC_r_1_s_50	None	0
-0	27	data/BGE00588_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00588-NC not in BOLD	None	BLAST	family	201	861		BGE00588-NC_r_1_s_100	None	0
-0	0	data/BGE00588_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00588-NC not in BOLD	None	BLAST	family	101	450		BGE00588-NC_r_1.3_s_50	None	0
-0	0	data/BGE00588_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00588-NC not in BOLD	None	BLAST	family	100	246		BGE00588-NC_r_1.3_s_100	None	0
-0	0	data/BGE00588_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00588-NC not in BOLD	None	BLAST	family	34	120		BGE00588-NC_r_1.5_s_50	None	0
-None	0	data/BGE00588_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00588-NC not in BOLD	None	BLAST	family	None	0		BGE00588-NC_r_1.5_s_100	None	0

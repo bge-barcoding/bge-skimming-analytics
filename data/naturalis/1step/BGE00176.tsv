@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	1	data/BGE00176_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Platypezidae	BLAST	family	657	1497	Platypezidae,Psilidae,Drosophilidae,Anthomyiidae	BGENL760-24_r_1.3_s_100	Platypeza fasciata	0
 4	4	data/BGE00176_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Platypezidae	BLAST	family	657	1536	Platypezidae,Psilidae,Drosophilidae	BGENL760-24_r_1.5_s_50	Platypeza fasciata	0
 9	9	data/BGE00176_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Platypezidae	BLAST	family	657	1497	Platypezidae,Drosophilidae,Anthomyiidae	BGENL760-24_r_1.5_s_100	Platypeza fasciata	0
-11	57	data/BGE00176_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00176-NC not in BOLD	None	BLAST	family	418	972		BGE00176-NC_r_1_s_50	None	0
-9	55	data/BGE00176_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00176-NC not in BOLD	None	BLAST	family	418	972		BGE00176-NC_r_1_s_100	None	0
-10	11	data/BGE00176_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00176-NC not in BOLD	None	BLAST	family	316	579		BGE00176-NC_r_1.3_s_50	None	0
-8	9	data/BGE00176_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00176-NC not in BOLD	None	BLAST	family	316	579		BGE00176-NC_r_1.3_s_100	None	0
-1	2	data/BGE00176_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00176-NC not in BOLD	None	BLAST	family	271	486		BGE00176-NC_r_1.5_s_50	None	0
-1	2	data/BGE00176_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00176-NC not in BOLD	None	BLAST	family	272	486		BGE00176-NC_r_1.5_s_100	None	0

@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 2	7	data/BGE00169_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	600	1479	Noctuidae,Erebidae,Nymphalidae,Crambidae	BGENL285-23_r_1.3_s_100	Acontiola	0
 0	1	data/BGE00169_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1545	Noctuidae,Euteliidae	BGENL285-23_r_1.5_s_50	Acontiola	0
 2	3	data/BGE00169_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	600	1464	Noctuidae,Nymphalidae,Crambidae	BGENL285-23_r_1.5_s_100	Acontiola	0
-10	43	data/BGE00169_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00169-NC not in BOLD	None	BLAST	family	541	1140		BGE00169-NC_r_1_s_50	None	14
-3	13	data/BGE00169_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00169-NC not in BOLD	None	BLAST	family	493	975		BGE00169-NC_r_1_s_100	None	0
-10	17	data/BGE00169_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00169-NC not in BOLD	None	BLAST	family	541	1065		BGE00169-NC_r_1.3_s_50	None	14
-3	6	data/BGE00169_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00169-NC not in BOLD	None	BLAST	family	493	855		BGE00169-NC_r_1.3_s_100	None	0
-0	7	data/BGE00169_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00169-NC not in BOLD	None	BLAST	family	471	972		BGE00169-NC_r_1.5_s_50	None	15
-0	3	data/BGE00169_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00169-NC not in BOLD	None	BLAST	family	423	762		BGE00169-NC_r_1.5_s_100	None	0

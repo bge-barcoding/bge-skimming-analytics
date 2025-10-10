@@ -569,9 +569,3 @@ None	0	data/BGE00148_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 None	0	data/BGE00148_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Noctuidae	BLAST	family	None	0		BHNHM285-24_r_1.3_s_100	Dichagyris fidelis	0
 None	0	data/BGE00148_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Noctuidae	BLAST	family	None	0		BHNHM285-24_r_1.5_s_50	Dichagyris fidelis	0
 None	0	data/BGE00148_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Noctuidae	BLAST	family	None	0		BHNHM285-24_r_1.5_s_100	Dichagyris fidelis	0
-3	21	data/BGE00148_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00148-NC not in BOLD	None	BLAST	family	153	546		BGE00148-NC_r_1_s_50	None	0
-3	21	data/BGE00148_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00148-NC not in BOLD	None	BLAST	family	151	441		BGE00148-NC_r_1_s_100	None	0
-0	0	data/BGE00148_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00148-NC not in BOLD	None	BLAST	family	26	36		BGE00148-NC_r_1.3_s_50	None	0
-None	0	data/BGE00148_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00148-NC not in BOLD	None	BLAST	family	None	0		BGE00148-NC_r_1.3_s_100	None	0
-None	0	data/BGE00148_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00148-NC not in BOLD	None	BLAST	family	None	0		BGE00148-NC_r_1.5_s_50	None	0
-None	0	data/BGE00148_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00148-NC not in BOLD	None	BLAST	family	None	0		BGE00148-NC_r_1.5_s_100	None	0

@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 2	4	data/BGE00315_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Epermeniidae	BLAST	family	657	1491	Syrphidae,Gelechiidae,Noctuidae,Crambidae,Geometridae,Epermeniidae	BGSNL2185-24_r_1.3_s_100	Epermenia insecurella	0
 0	1	data/BGE00315_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Epermeniidae	BLAST	family	657	1491	Syrphidae,Gelechiidae,Noctuidae,Nymphalidae,Crambidae,Geometridae,Epermeniidae	BGSNL2185-24_r_1.5_s_50	Epermenia insecurella	0
 0	1	data/BGE00315_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Epermeniidae	BLAST	family	657	1491	Syrphidae,Gelechiidae,Endromidae,Noctuidae,Nymphalidae,Crambidae,Geometridae,Epermeniidae	BGSNL2185-24_r_1.5_s_100	Epermenia insecurella	0
-11	36	data/BGE00315_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00315-NC not in BOLD	None	BLAST	family	654	1362		BGE00315-NC_r_1_s_50	None	0
-14	44	data/BGE00315_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00315-NC not in BOLD	None	BLAST	family	597	1305		BGE00315-NC_r_1_s_100	None	0
-0	27	data/BGE00315_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00315-NC not in BOLD	None	BLAST	family	228	882		BGE00315-NC_r_1.3_s_50	None	0
-0	16	data/BGE00315_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00315-NC not in BOLD	None	BLAST	family	194	693		BGE00315-NC_r_1.3_s_100	None	0
-0	10	data/BGE00315_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00315-NC not in BOLD	None	BLAST	family	58	252		BGE00315-NC_r_1.5_s_50	None	0
-0	0	data/BGE00315_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00315-NC not in BOLD	None	BLAST	family	50	93		BGE00315-NC_r_1.5_s_100	None	0

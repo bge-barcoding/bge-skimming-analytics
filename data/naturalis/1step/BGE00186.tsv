@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00186_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Apidae	BLAST	family	656	1557	Apidae	BGENL2185-24_r_1.3_s_100	Bombus mlokosievitzii	0
 0	0	data/BGE00186_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Apidae	BLAST	family	656	1557	Apidae	BGENL2185-24_r_1.5_s_50	Bombus mlokosievitzii	0
 0	0	data/BGE00186_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Apidae	BLAST	family	656	1557	Apidae	BGENL2185-24_r_1.5_s_100	Bombus mlokosievitzii	0
-24	40	data/BGE00186_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00186-NC not in BOLD	None	BLAST	family	578	1251		BGE00186-NC_r_1_s_50	None	0
-21	31	data/BGE00186_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00186-NC not in BOLD	None	BLAST	family	503	1125		BGE00186-NC_r_1_s_100	None	0
-5	6	data/BGE00186_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00186-NC not in BOLD	None	BLAST	family	48	360		BGE00186-NC_r_1.3_s_50	None	0
-5	6	data/BGE00186_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00186-NC not in BOLD	None	BLAST	family	47	159		BGE00186-NC_r_1.3_s_100	None	0
-0	0	data/BGE00186_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00186-NC not in BOLD	None	BLAST	family	38	183		BGE00186-NC_r_1.5_s_50	None	0
-0	0	data/BGE00186_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00186-NC not in BOLD	None	BLAST	family	33	63		BGE00186-NC_r_1.5_s_100	None	0

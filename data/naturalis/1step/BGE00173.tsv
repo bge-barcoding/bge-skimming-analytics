@@ -569,9 +569,3 @@ None	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	656	1533	Cicadellidae	BGENL475-23_r_1.3_s_100	Macropsis cerea	0
 0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	656	1503	Cicadellidae	BGENL475-23_r_1.5_s_50	Macropsis cerea	0
 0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	656	1431	Cicadellidae	BGENL475-23_r_1.5_s_100	Macropsis cerea	0
-0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00173-NC not in BOLD	None	BLAST	family	167	381		BGE00173-NC_r_1_s_50	None	0
-0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00173-NC not in BOLD	None	BLAST	family	149	222		BGE00173-NC_r_1_s_100	None	0
-0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00173-NC not in BOLD	None	BLAST	family	153	258		BGE00173-NC_r_1.3_s_50	None	0
-0	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00173-NC not in BOLD	None	BLAST	family	149	222		BGE00173-NC_r_1.3_s_100	None	0
-None	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00173-NC not in BOLD	None	BLAST	family	None	0		BGE00173-NC_r_1.5_s_50	None	0
-None	0	data/BGE00173_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00173-NC not in BOLD	None	BLAST	family	None	0		BGE00173-NC_r_1.5_s_100	None	0

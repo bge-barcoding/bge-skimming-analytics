@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00187_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Andrenidae	BLAST	family	656	1545	Andrenidae	BGENL1520-24_r_1.3_s_100	Andrena humabilis	0
 0	0	data/BGE00187_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Andrenidae	BLAST	family	656	1530	Andrenidae	BGENL1520-24_r_1.5_s_50	Andrena humabilis	0
 0	0	data/BGE00187_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Andrenidae	BLAST	family	656	1530	Andrenidae	BGENL1520-24_r_1.5_s_100	Andrena humabilis	0
-6	23	data/BGE00187_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00187-NC not in BOLD	None	BLAST	family	621	1254		BGE00187-NC_r_1_s_50	None	0
-0	17	data/BGE00187_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00187-NC not in BOLD	None	BLAST	family	603	1236		BGE00187-NC_r_1_s_100	None	0
-0	0	data/BGE00187_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00187-NC not in BOLD	None	BLAST	family	149	729		BGE00187-NC_r_1.3_s_50	None	0
-0	0	data/BGE00187_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00187-NC not in BOLD	None	BLAST	family	160	630		BGE00187-NC_r_1.3_s_100	None	0
-0	0	data/BGE00187_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00187-NC not in BOLD	None	BLAST	family	156	291		BGE00187-NC_r_1.5_s_50	None	0
-0	0	data/BGE00187_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00187-NC not in BOLD	None	BLAST	family	155	243		BGE00187-NC_r_1.5_s_100	None	0

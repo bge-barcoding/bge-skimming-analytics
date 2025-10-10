@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00589_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	657	1533	Cerambycidae	BBIOP1805-24_r_1.3_s_100	Deroplia albida	0
 0	0	data/BGE00589_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	657	1539	Cerambycidae	BBIOP1805-24_r_1.5_s_50	Deroplia albida	0
 0	0	data/BGE00589_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	657	1533	Cerambycidae	BBIOP1805-24_r_1.5_s_100	Deroplia albida	0
-0	12	data/BGE00589_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00589-NC not in BOLD	None	BLAST	family	163	1005		BGE00589-NC_r_1_s_50	None	0
-0	13	data/BGE00589_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00589-NC not in BOLD	None	BLAST	family	139	909		BGE00589-NC_r_1_s_100	None	0
-0	0	data/BGE00589_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00589-NC not in BOLD	None	BLAST	family	109	432		BGE00589-NC_r_1.3_s_50	None	0
-0	0	data/BGE00589_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00589-NC not in BOLD	None	BLAST	family	109	306		BGE00589-NC_r_1.3_s_100	None	0
-0	0	data/BGE00589_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00589-NC not in BOLD	None	BLAST	family	31	120		BGE00589-NC_r_1.5_s_50	None	0
-0	0	data/BGE00589_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00589-NC not in BOLD	None	BLAST	family	34	90		BGE00589-NC_r_1.5_s_100	None	0

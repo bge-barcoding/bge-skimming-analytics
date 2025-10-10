@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00184_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tachinidae	BLAST	family	657	1533	Anthomyiidae,Tachinidae	BGENL2280-24_r_1.3_s_100	Winthemia bohemani	0
 0	0	data/BGE00184_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tachinidae	BLAST	family	651	1527	Muscidae,Tachinidae	BGENL2280-24_r_1.5_s_50	Winthemia bohemani	0
 0	0	data/BGE00184_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tachinidae	BLAST	family	651	1527	Muscidae,Tachinidae	BGENL2280-24_r_1.5_s_100	Winthemia bohemani	0
-18	47	data/BGE00184_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00184-NC not in BOLD	None	BLAST	family	577	1194		BGE00184-NC_r_1_s_50	None	0
-0	36	data/BGE00184_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00184-NC not in BOLD	None	BLAST	family	442	1023		BGE00184-NC_r_1_s_100	None	0
-0	16	data/BGE00184_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00184-NC not in BOLD	None	BLAST	family	49	429		BGE00184-NC_r_1.3_s_50	None	0
-0	16	data/BGE00184_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00184-NC not in BOLD	None	BLAST	family	86	333		BGE00184-NC_r_1.3_s_100	None	0
-0	0	data/BGE00184_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00184-NC not in BOLD	None	BLAST	family	48	168		BGE00184-NC_r_1.5_s_50	None	0
-0	0	data/BGE00184_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00184-NC not in BOLD	None	BLAST	family	1	66		BGE00184-NC_r_1.5_s_100	None	0

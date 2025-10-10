@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1542	Noctuidae	BHNHM380-24_r_1.3_s_100	Hampsonicola deccerti	0
 0	0	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1542	Noctuidae	BHNHM380-24_r_1.5_s_50	Hampsonicola deccerti	0
 0	0	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1533	Noctuidae	BHNHM380-24_r_1.5_s_100	Hampsonicola deccerti	0
-12	22	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00149-NC not in BOLD	None	BLAST	family	232	960		BGE00149-NC_r_1_s_50	None	0
-0	9	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00149-NC not in BOLD	None	BLAST	family	165	738		BGE00149-NC_r_1_s_100	None	0
-0	2	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00149-NC not in BOLD	None	BLAST	family	110	327		BGE00149-NC_r_1.3_s_50	None	0
-0	2	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00149-NC not in BOLD	None	BLAST	family	109	216		BGE00149-NC_r_1.3_s_100	None	0
-0	0	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00149-NC not in BOLD	None	BLAST	family	1	75		BGE00149-NC_r_1.5_s_50	None	0
-None	0	data/BGE00149_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00149-NC not in BOLD	None	BLAST	family	None	0		BGE00149-NC_r_1.5_s_100	None	0

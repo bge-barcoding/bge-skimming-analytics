@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00581_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	657	1533	Noctuidae,Crambidae	BBIOP2850-24_r_1.3_s_100	Hyperlais glyceralis	0
 0	0	data/BGE00581_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	657	1533	Noctuidae,Crambidae	BBIOP2850-24_r_1.5_s_50	Hyperlais glyceralis	0
 0	0	data/BGE00581_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	657	1533	Noctuidae,Crambidae	BBIOP2850-24_r_1.5_s_100	Hyperlais glyceralis	0
-6	41	data/BGE00581_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00581-NC not in BOLD	None	BLAST	family	473	1197		BGE00581-NC_r_1_s_50	None	0
-6	48	data/BGE00581_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00581-NC not in BOLD	None	BLAST	family	236	912		BGE00581-NC_r_1_s_100	None	0
-0	2	data/BGE00581_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00581-NC not in BOLD	None	BLAST	family	71	771		BGE00581-NC_r_1.3_s_50	None	0
-0	0	data/BGE00581_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00581-NC not in BOLD	None	BLAST	family	80	582		BGE00581-NC_r_1.3_s_100	None	0
-0	0	data/BGE00581_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00581-NC not in BOLD	None	BLAST	family	79	213		BGE00581-NC_r_1.5_s_50	None	0
-0	0	data/BGE00581_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00581-NC not in BOLD	None	BLAST	family	73	93		BGE00581-NC_r_1.5_s_100	None	0

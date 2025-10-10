@@ -569,9 +569,3 @@ None	0	data/BGE00501_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00501_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Neobisiidae	BLAST	family	654	1434	Neobisiidae	BSCRO095-24_r_1.3_s_100	Neobisium doderoi	0
 0	1	data/BGE00501_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Neobisiidae	BLAST	family	576	1338	Neobisiidae	BSCRO095-24_r_1.5_s_50	Neobisium doderoi	0
 0	0	data/BGE00501_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Neobisiidae	BLAST	family	576	1272	Neobisiidae	BSCRO095-24_r_1.5_s_100	Neobisium doderoi	0
-0	6	data/BGE00501_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00501-NC not in BOLD	None	BLAST	family	97	893		BGE00501-NC_r_1_s_50	None	0
-0	0	data/BGE00501_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00501-NC not in BOLD	None	BLAST	family	1	627		BGE00501-NC_r_1_s_100	None	0
-0	0	data/BGE00501_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00501-NC not in BOLD	None	BLAST	family	25	210		BGE00501-NC_r_1.3_s_50	None	0
-0	0	data/BGE00501_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00501-NC not in BOLD	None	BLAST	family	5	81		BGE00501-NC_r_1.3_s_100	None	0
-0	0	data/BGE00501_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00501-NC not in BOLD	None	BLAST	family	5	81		BGE00501-NC_r_1.5_s_100	None	0
-0	0	data/BGE00501_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00501-NC not in BOLD	None	BLAST	family	1	144		BGE00501-NC_r_1.5_s_50	None	0

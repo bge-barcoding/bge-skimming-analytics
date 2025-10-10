@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00182_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Megachilidae	BLAST	family	657	1536	Apidae,Megachilidae	BGENL1900-24_r_1.3_s_100	Stelis ruficornis	0
 0	0	data/BGE00182_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Megachilidae	BLAST	family	657	1533	Apidae,Megachilidae	BGENL1900-24_r_1.5_s_50	Stelis ruficornis	0
 0	0	data/BGE00182_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Megachilidae	BLAST	family	657	1506	Apidae,Megachilidae	BGENL1900-24_r_1.5_s_100	Stelis ruficornis	0
-7	11	data/BGE00182_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00182-NC not in BOLD	None	BLAST	family	537	1233		BGE00182-NC_r_1_s_50	None	0
-0	14	data/BGE00182_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00182-NC not in BOLD	None	BLAST	family	398	1041		BGE00182-NC_r_1_s_100	None	0
-1	5	data/BGE00182_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00182-NC not in BOLD	None	BLAST	family	142	582		BGE00182-NC_r_1.3_s_50	None	0
-0	0	data/BGE00182_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00182-NC not in BOLD	None	BLAST	family	136	297		BGE00182-NC_r_1.3_s_100	None	0
-0	0	data/BGE00182_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00182-NC not in BOLD	None	BLAST	family	100	366		BGE00182-NC_r_1.5_s_50	None	0
-0	0	data/BGE00182_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00182-NC not in BOLD	None	BLAST	family	95	165		BGE00182-NC_r_1.5_s_100	None	0

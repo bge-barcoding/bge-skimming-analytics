@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	1	data/BGE00403_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crabronidae	BLAST	family	650	1431	Crabronidae	BGLIB380-23_r_1.3_s_100	Ectemnius rugifer	0
 0	0	data/BGE00403_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crabronidae	BLAST	family	549	1374	Crabronidae	BGLIB380-23_r_1.5_s_50	Ectemnius rugifer	23
 0	0	data/BGE00403_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crabronidae	BLAST	family	521	1182	Crabronidae	BGLIB380-23_r_1.5_s_100	Ectemnius rugifer	0
-2	2	data/BGE00403_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00403-NC not in BOLD	None	BLAST	family	535	789		BGE00403-NC_r_1_s_50	None	0
-0	0	data/BGE00403_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00403-NC not in BOLD	None	BLAST	family	536	693		BGE00403-NC_r_1_s_100	None	0
-0	2	data/BGE00403_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00403-NC not in BOLD	None	BLAST	family	128	372		BGE00403-NC_r_1.3_s_50	None	0
-0	0	data/BGE00403_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00403-NC not in BOLD	None	BLAST	family	129	252		BGE00403-NC_r_1.3_s_100	None	0
-0	0	data/BGE00403_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00403-NC not in BOLD	None	BLAST	family	128	201		BGE00403-NC_r_1.5_s_50	None	0
-0	0	data/BGE00403_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00403-NC not in BOLD	None	BLAST	family	124	147		BGE00403-NC_r_1.5_s_100	None	0

@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00300_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tortricidae	BLAST	family	657	1530	Tortricidae	BGSNL950-24_r_1.3_s_100	Phiaris predotai	0
 0	0	data/BGE00300_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tortricidae	BLAST	family	657	1530	Tortricidae	BGSNL950-24_r_1.5_s_50	Phiaris predotai	0
 0	0	data/BGE00300_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tortricidae	BLAST	family	657	1530	Tortricidae	BGSNL950-24_r_1.5_s_100	Phiaris predotai	0
-0	14	data/BGE00300_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00300-NC not in BOLD	None	BLAST	family	599	1287		BGE00300-NC_r_1_s_50	None	0
-0	10	data/BGE00300_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00300-NC not in BOLD	None	BLAST	family	521	1161		BGE00300-NC_r_1_s_100	None	0
-0	0	data/BGE00300_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00300-NC not in BOLD	None	BLAST	family	433	909		BGE00300-NC_r_1.3_s_50	None	0
-0	0	data/BGE00300_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00300-NC not in BOLD	None	BLAST	family	401	744		BGE00300-NC_r_1.3_s_100	None	0
-0	0	data/BGE00300_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00300-NC not in BOLD	None	BLAST	family	99	381		BGE00300-NC_r_1.5_s_50	None	0
-0	0	data/BGE00300_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00300-NC not in BOLD	None	BLAST	family	97	207		BGE00300-NC_r_1.5_s_100	None	0

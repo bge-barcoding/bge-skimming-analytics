@@ -569,9 +569,3 @@ None	0	data/BGE00415_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00415_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Rhagionidae	BLAST	family	657	1533	Syrphidae,Muscidae,Tabanidae,Rhagionidae	BGLIB1330-24_r_1.3_s_100	Rhagio rondanii	0
 0	0	data/BGE00415_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Rhagionidae	BLAST	family	657	1533	Syrphidae,Muscidae,Tabanidae,Rhagionidae	BGLIB1330-24_r_1.5_s_50	Rhagio rondanii	0
 0	0	data/BGE00415_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Rhagionidae	BLAST	family	657	1533	Syrphidae,Muscidae,Tabanidae,Rhagionidae	BGLIB1330-24_r_1.5_s_100	Rhagio rondanii	0
-19	23	data/BGE00415_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00415-NC not in BOLD	None	BLAST	family	590	1215		BGE00415-NC_r_1_s_50	None	0
-21	21	data/BGE00415_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00415-NC not in BOLD	None	BLAST	family	530	1104		BGE00415-NC_r_1_s_100	None	0
-0	0	data/BGE00415_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00415-NC not in BOLD	None	BLAST	family	262	636		BGE00415-NC_r_1.3_s_50	None	0
-0	0	data/BGE00415_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00415-NC not in BOLD	None	BLAST	family	250	534		BGE00415-NC_r_1.3_s_100	None	0
-0	0	data/BGE00415_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00415-NC not in BOLD	None	BLAST	family	158	300		BGE00415-NC_r_1.5_s_50	None	0
-0	0	data/BGE00415_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00415-NC not in BOLD	None	BLAST	family	154	156		BGE00415-NC_r_1.5_s_100	None	0

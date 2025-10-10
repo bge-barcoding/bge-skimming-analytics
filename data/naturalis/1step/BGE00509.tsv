@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 1	1	data/BGE00509_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Arrhopalitidae	BLAST	family	615	1380	Paronellidae,Entomobryidae,Onychiuridae	BSCRO570-24_r_1.3_s_100	Arrhopalites	0
 1	1	data/BGE00509_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Arrhopalitidae	BLAST	family	463	1200	Entomobryidae,Onychiuridae	BSCRO570-24_r_1.5_s_50	Arrhopalites	0
 0	0	data/BGE00509_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Arrhopalitidae	BLAST	family	575	993	Entomobryidae,Onychiuridae	BSCRO570-24_r_1.5_s_100	Arrhopalites	6
-7	15	data/BGE00509_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00509-NC not in BOLD	None	BLAST	family	651	1416		BGE00509-NC_r_1_s_50	None	0
-9	16	data/BGE00509_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00509-NC not in BOLD	None	BLAST	family	648	1362		BGE00509-NC_r_1_s_100	None	0
-4	10	data/BGE00509_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00509-NC not in BOLD	None	BLAST	family	534	1167		BGE00509-NC_r_1.3_s_50	None	0
-0	3	data/BGE00509_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00509-NC not in BOLD	None	BLAST	family	266	1020		BGE00509-NC_r_1.3_s_100	None	0
-0	9	data/BGE00509_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00509-NC not in BOLD	None	BLAST	family	264	894		BGE00509-NC_r_1.5_s_50	None	0
-0	8	data/BGE00509_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00509-NC not in BOLD	None	BLAST	family	260	741		BGE00509-NC_r_1.5_s_100	None	0

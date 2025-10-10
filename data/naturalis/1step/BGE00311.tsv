@@ -569,9 +569,3 @@ None	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Nepticulidae	BLAST	family	657	1527	Yponomeutidae,Papilionidae,Crambidae,Nepticulidae	BGSNL1805-24_r_1.3_s_100	Glaucolepis globulariae	0
 0	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Nepticulidae	BLAST	family	657	1527	Yponomeutidae,Papilionidae,Crambidae,Nepticulidae	BGSNL1805-24_r_1.5_s_50	Glaucolepis globulariae	0
 0	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Nepticulidae	BLAST	family	657	1527	Yponomeutidae,Papilionidae,Crambidae,Nepticulidae	BGSNL1805-24_r_1.5_s_100	Glaucolepis globulariae	0
-22	39	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00311-NC not in BOLD	None	BLAST	family	651	1344		BGE00311-NC_r_1_s_50	None	0
-20	32	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00311-NC not in BOLD	None	BLAST	family	651	1287		BGE00311-NC_r_1_s_100	None	0
-8	8	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00311-NC not in BOLD	None	BLAST	family	561	1062		BGE00311-NC_r_1.3_s_50	None	0
-0	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00311-NC not in BOLD	None	BLAST	family	538	984		BGE00311-NC_r_1.3_s_100	None	0
-0	4	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00311-NC not in BOLD	None	BLAST	family	254	669		BGE00311-NC_r_1.5_s_50	None	0
-0	0	data/BGE00311_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00311-NC not in BOLD	None	BLAST	family	233	525		BGE00311-NC_r_1.5_s_100	None	0

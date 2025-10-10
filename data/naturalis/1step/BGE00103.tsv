@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 15	23	data/BGE00103_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1539	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2185-24_r_1.3_s_100	Elaphocera carteiensis	0
 1	1	data/BGE00103_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1539	Hydraenidae,Scarabaeidae	BBIOP2185-24_r_1.5_s_50	Elaphocera carteiensis	0
 3	6	data/BGE00103_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1539	Hydraenidae,Scarabaeidae	BBIOP2185-24_r_1.5_s_100	Elaphocera carteiensis	0
-79	86	data/BGE00103_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00103-NC not in BOLD	None	BLAST	family	656	1329		BGE00103-NC_r_1_s_50	None	0
-70	77	data/BGE00103_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00103-NC not in BOLD	None	BLAST	family	657	1326		BGE00103-NC_r_1_s_100	None	0
-52	70	data/BGE00103_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00103-NC not in BOLD	None	BLAST	family	657	1125		BGE00103-NC_r_1.3_s_50	None	0
-50	53	data/BGE00103_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00103-NC not in BOLD	None	BLAST	family	657	951		BGE00103-NC_r_1.3_s_100	None	0
-32	35	data/BGE00103_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00103-NC not in BOLD	None	BLAST	family	657	1005		BGE00103-NC_r_1.5_s_50	None	0
-32	36	data/BGE00103_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00103-NC not in BOLD	None	BLAST	family	657	927		BGE00103-NC_r_1.5_s_100	None	0

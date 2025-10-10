@@ -569,9 +569,3 @@ None	0	data/BGE00428_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 16	30	data/BGE00428_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cantharidae	BLAST	family	419	1008	Cantharidae,Zygaenidae	UNIFI760-24_r_1.3_s_100	Cratosilis sicula	0
 10	10	data/BGE00428_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cantharidae	BLAST	family	384	930	Cantharidae	UNIFI760-24_r_1.5_s_50	Cratosilis sicula	0
 10	10	data/BGE00428_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cantharidae	BLAST	family	243	726	Cantharidae	UNIFI760-24_r_1.5_s_100	Cratosilis sicula	0
-3	4	data/BGE00428_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00428-NC not in BOLD	None	BLAST	family	291	813		BGE00428-NC_r_1_s_50	None	0
-1	2	data/BGE00428_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00428-NC not in BOLD	None	BLAST	family	273	654		BGE00428-NC_r_1_s_100	None	0
-16	17	data/BGE00428_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00428-NC not in BOLD	None	BLAST	family	288	411		BGE00428-NC_r_1.3_s_50	None	0
-17	18	data/BGE00428_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00428-NC not in BOLD	None	BLAST	family	273	387		BGE00428-NC_r_1.3_s_100	None	0
-5	5	data/BGE00428_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00428-NC not in BOLD	None	BLAST	family	121	147		BGE00428-NC_r_1.5_s_50	None	0
-5	6	data/BGE00428_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00428-NC not in BOLD	None	BLAST	family	121	147		BGE00428-NC_r_1.5_s_100	None	0

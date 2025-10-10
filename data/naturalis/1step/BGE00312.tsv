@@ -569,9 +569,3 @@ None	0	data/BGE00312_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00312_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scythrididae	BLAST	family	657	1530	Scythrididae,Noctuidae,Nolidae	BGSNL1900-24_r_1.3_s_100	Scythris scorpionella	0
 0	0	data/BGE00312_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scythrididae	BLAST	family	657	1530	Scythrididae,Noctuidae,Nolidae	BGSNL1900-24_r_1.5_s_50	Scythris scorpionella	0
 0	0	data/BGE00312_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scythrididae	BLAST	family	657	1530	Scythrididae,Noctuidae,Nolidae	BGSNL1900-24_r_1.5_s_100	Scythris scorpionella	0
-3	28	data/BGE00312_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00312-NC not in BOLD	None	BLAST	family	633	1263		BGE00312-NC_r_1_s_50	None	0
-3	25	data/BGE00312_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00312-NC not in BOLD	None	BLAST	family	491	1176		BGE00312-NC_r_1_s_100	None	0
-1	1	data/BGE00312_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00312-NC not in BOLD	None	BLAST	family	404	654		BGE00312-NC_r_1.3_s_50	None	0
-1	1	data/BGE00312_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00312-NC not in BOLD	None	BLAST	family	362	606		BGE00312-NC_r_1.3_s_100	None	0
-0	0	data/BGE00312_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00312-NC not in BOLD	None	BLAST	family	79	306		BGE00312-NC_r_1.5_s_50	None	0
-0	0	data/BGE00312_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00312-NC not in BOLD	None	BLAST	family	79	195		BGE00312-NC_r_1.5_s_100	None	0

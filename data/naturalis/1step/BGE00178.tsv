@@ -569,9 +569,3 @@ None	0	data/BGE00178_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00178_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Histeridae	BLAST	family	656	1521	Carabidae,Hydraenidae,Nosodendridae	BGENL1235-24_r_1.3_s_100	Kissister minimus	0
 3	3	data/BGE00178_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Histeridae	BLAST	family	632	1434	Carabidae,Hydraenidae,Histeridae,Nosodendridae,Anthomyiidae	BGENL1235-24_r_1.5_s_50	Kissister minimus	0
 0	0	data/BGE00178_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Histeridae	BLAST	family	611	1365	Carabidae,Staphylinidae,Hydraenidae,Histeridae,Nosodendridae,Anthomyiidae,Tachinidae	BGENL1235-24_r_1.5_s_100	Kissister minimus	0
-6	10	data/BGE00178_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00178-NC not in BOLD	None	BLAST	family	566	1197		BGE00178-NC_r_1_s_50	None	0
-1	4	data/BGE00178_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00178-NC not in BOLD	None	BLAST	family	491	1080		BGE00178-NC_r_1_s_100	None	0
-33	33	data/BGE00178_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00178-NC not in BOLD	None	BLAST	family	392	621		BGE00178-NC_r_1.3_s_50	None	0
-39	39	data/BGE00178_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00178-NC not in BOLD	None	BLAST	family	279	453		BGE00178-NC_r_1.3_s_100	None	0
-18	18	data/BGE00178_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00178-NC not in BOLD	None	BLAST	family	122	387		BGE00178-NC_r_1.5_s_50	None	0
-20	20	data/BGE00178_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00178-NC not in BOLD	None	BLAST	family	122	276		BGE00178-NC_r_1.5_s_100	None	0

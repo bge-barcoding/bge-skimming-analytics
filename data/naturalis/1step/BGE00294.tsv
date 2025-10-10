@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00294_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Geometridae	BLAST	family	657	1536	Geometridae	BGSNL380-23_r_1.3_s_100	Ramitia sinensis	0
 0	0	data/BGE00294_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Geometridae	BLAST	family	657	1536	Geometridae	BGSNL380-23_r_1.5_s_50	Ramitia sinensis	0
 0	0	data/BGE00294_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Geometridae	BLAST	family	657	1536	Geometridae	BGSNL380-23_r_1.5_s_100	Ramitia sinensis	0
-8	22	data/BGE00294_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00294-NC not in BOLD	None	BLAST	family	630	1455		BGE00294-NC_r_1_s_50	None	0
-9	18	data/BGE00294_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00294-NC not in BOLD	None	BLAST	family	602	1392		BGE00294-NC_r_1_s_100	None	0
-10	21	data/BGE00294_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00294-NC not in BOLD	None	BLAST	family	630	1413		BGE00294-NC_r_1.3_s_50	None	0
-8	17	data/BGE00294_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00294-NC not in BOLD	None	BLAST	family	602	1284		BGE00294-NC_r_1.3_s_100	None	0
-3	15	data/BGE00294_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00294-NC not in BOLD	None	BLAST	family	507	1254		BGE00294-NC_r_1.5_s_50	None	0
-5	19	data/BGE00294_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00294-NC not in BOLD	None	BLAST	family	497	1167		BGE00294-NC_r_1.5_s_100	None	0

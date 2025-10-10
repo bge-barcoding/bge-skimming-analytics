@@ -569,9 +569,3 @@ None	0	data/BGE00413_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 4	9	data/BGE00413_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ceratopogonidae	BLAST	family	427	966	Keroplatidae,Hybotidae,Phoridae,Sciadoceridae	BGLIB1140-24_r_1.3_s_100	Sphaeromias fasciatus	0
 0	0	data/BGE00413_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ceratopogonidae	BLAST	family	545	1170	Leptophlebiidae,Limoniidae,Hybotidae,Phoridae	BGLIB1140-24_r_1.5_s_50	Sphaeromias fasciatus	0
 0	0	data/BGE00413_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ceratopogonidae	BLAST	family	319	855	Leptophlebiidae,Hybotidae,Phoridae	BGLIB1140-24_r_1.5_s_100	Sphaeromias fasciatus	0
-0	10	data/BGE00413_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00413-NC not in BOLD	None	BLAST	family	224	987		BGE00413-NC_r_1_s_50	None	0
-0	10	data/BGE00413_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00413-NC not in BOLD	None	BLAST	family	220	768		BGE00413-NC_r_1_s_100	None	0
-0	0	data/BGE00413_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00413-NC not in BOLD	None	BLAST	family	60	204		BGE00413-NC_r_1.3_s_50	None	0
-0	0	data/BGE00413_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00413-NC not in BOLD	None	BLAST	family	1	99		BGE00413-NC_r_1.3_s_100	None	0
-0	0	data/BGE00413_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00413-NC not in BOLD	None	BLAST	family	1	135		BGE00413-NC_r_1.5_s_50	None	0
-0	0	data/BGE00413_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00413-NC not in BOLD	None	BLAST	family	1	99		BGE00413-NC_r_1.5_s_100	None	0

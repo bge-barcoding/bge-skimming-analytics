@@ -569,9 +569,3 @@ None	0	data/BGE00147_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00147_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1545	Noctuidae	BHNHM190-24_r_1.3_s_100	Brachygalea albolineata	0
 0	0	data/BGE00147_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1545	Noctuidae	BHNHM190-24_r_1.5_s_50	Brachygalea albolineata	0
 0	0	data/BGE00147_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Noctuidae	BLAST	family	657	1545	Noctuidae	BHNHM190-24_r_1.5_s_100	Brachygalea albolineata	0
-0	0	data/BGE00147_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00147-NC not in BOLD	None	BLAST	family	111	360		BGE00147-NC_r_1_s_50	None	0
-0	0	data/BGE00147_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00147-NC not in BOLD	None	BLAST	family	95	282		BGE00147-NC_r_1_s_100	None	0
-0	0	data/BGE00147_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00147-NC not in BOLD	None	BLAST	family	95	150		BGE00147-NC_r_1.3_s_50	None	0
-0	0	data/BGE00147_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00147-NC not in BOLD	None	BLAST	family	95	150		BGE00147-NC_r_1.3_s_100	None	0
-0	0	data/BGE00147_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00147-NC not in BOLD	None	BLAST	family	95	150		BGE00147-NC_r_1.5_s_50	None	0
-0	0	data/BGE00147_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00147-NC not in BOLD	None	BLAST	family	95	150		BGE00147-NC_r_1.5_s_100	None	0
