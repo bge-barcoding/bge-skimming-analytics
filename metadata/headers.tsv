@@ -37,7 +37,6 @@ sequence_id	Consensus sequence attempt unique identifier ([Process ID]_[MGE r va
 species	Morphological species-level identification from 'backbone_source'?
 stop_codons	Number of stop codons identified in 'nuc'
 Filename	Name of consensus sequence file analysed
-process_id	Process ID (alternative column name for ID)
 processid	Process ID (alternative column name for ID)
 sample_taxid	Sample taxonomic ID
 ref_accession	Reference sequence accession number
