@@ -569,9 +569,3 @@ None	0	data/BGE00590_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 7	10	data/BGE00590_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Trogidae	BLAST	family	655	1479	Staphylinidae,Scarabaeidae,Trogidae,Geotrupidae	BBIOP1710-24_r_1.3_s_100	Trox martini	0
 0	2	data/BGE00590_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Trogidae	BLAST	family	655	1518	Staphylinidae,Hydraenidae,Trogidae,Geotrupidae	BBIOP1710-24_r_1.5_s_50	Trox martini	0
 0	1	data/BGE00590_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Trogidae	BLAST	family	655	1377	Carabidae,Hydraenidae,Scarabaeidae,Trogidae	BBIOP1710-24_r_1.5_s_100	Trox martini	0
-9	20	data/BGE00590_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00590-NC not in BOLD	None	BLAST	family	654	1407		BGE00590-NC_r_1_s_50	None	0
-9	20	data/BGE00590_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00590-NC not in BOLD	None	BLAST	family	442	1143		BGE00590-NC_r_1_s_100	None	0
-20	40	data/BGE00590_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00590-NC not in BOLD	None	BLAST	family	504	852		BGE00590-NC_r_1.3_s_50	None	0
-3	36	data/BGE00590_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00590-NC not in BOLD	None	BLAST	family	228	615		BGE00590-NC_r_1.3_s_100	None	0
-3	3	data/BGE00590_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00590-NC not in BOLD	None	BLAST	family	441	597		BGE00590-NC_r_1.5_s_50	None	0
-3	3	data/BGE00590_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00590-NC not in BOLD	None	BLAST	family	235	441		BGE00590-NC_r_1.5_s_100	None	1

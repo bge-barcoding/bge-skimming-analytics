@@ -569,9 +569,3 @@ None	0	data/BGE00426_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 1	1	data/BGE00426_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Buprestidae	BLAST	family	603	1362	Buprestidae,Tenebrionidae,Anthicidae,Dermestidae	UNIFI570-24_r_1.3_s_100	Anthaxia suzannae	0
 0	0	data/BGE00426_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Buprestidae	BLAST	family	655	1527	Staphylinidae,Buprestidae,Elateridae,Anthicidae	UNIFI570-24_r_1.5_s_50	Anthaxia suzannae	0
 0	0	data/BGE00426_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Buprestidae	BLAST	family	603	1356	Buprestidae,Tenebrionidae,Anthicidae,Dermestidae	UNIFI570-24_r_1.5_s_100	Anthaxia suzannae	0
-0	7	data/BGE00426_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00426-NC not in BOLD	None	BLAST	family	68	639		BGE00426-NC_r_1_s_50	None	0
-6	9	data/BGE00426_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00426-NC not in BOLD	None	BLAST	family	35	489		BGE00426-NC_r_1_s_100	None	0
-0	0	data/BGE00426_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00426-NC not in BOLD	None	BLAST	family	43	153		BGE00426-NC_r_1.3_s_50	None	0
-0	0	data/BGE00426_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00426-NC not in BOLD	None	BLAST	family	35	72		BGE00426-NC_r_1.3_s_100	None	0
-0	0	data/BGE00426_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00426-NC not in BOLD	None	BLAST	family	43	153		BGE00426-NC_r_1.5_s_50	None	0
-0	0	data/BGE00426_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00426-NC not in BOLD	None	BLAST	family	35	72		BGE00426-NC_r_1.5_s_100	None	0

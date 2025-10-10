@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00296_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	657	1533	Crambidae	BGSNL570-23_r_1.3_s_100	Anania atlanticum	0
 0	0	data/BGE00296_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	657	1533	Crambidae	BGSNL570-23_r_1.5_s_50	Anania atlanticum	0
 0	0	data/BGE00296_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	657	1533	Crambidae	BGSNL570-23_r_1.5_s_100	Anania atlanticum	0
-0	0	data/BGE00296_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00296-NC not in BOLD	None	BLAST	family	97	321		BGE00296-NC_r_1_s_50	None	0
-0	0	data/BGE00296_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00296-NC not in BOLD	None	BLAST	family	1	216		BGE00296-NC_r_1_s_100	None	0
-0	0	data/BGE00296_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00296-NC not in BOLD	None	BLAST	family	26	135		BGE00296-NC_r_1.3_s_50	None	0
-0	0	data/BGE00296_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00296-NC not in BOLD	None	BLAST	family	1	105		BGE00296-NC_r_1.3_s_100	None	0
-0	0	data/BGE00296_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00296-NC not in BOLD	None	BLAST	family	28	30		BGE00296-NC_r_1.5_s_50	None	0
-None	0	data/BGE00296_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00296-NC not in BOLD	None	BLAST	family	None	0		BGE00296-NC_r_1.5_s_100	None	0

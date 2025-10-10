@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00298_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tortricidae	BLAST	family	657	1533	Tortricidae	BGSNL760-24_r_1.3_s_100	Choristoneura simonyi	0
 0	0	data/BGE00298_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tortricidae	BLAST	family	657	1533	Tortricidae	BGSNL760-24_r_1.5_s_50	Choristoneura simonyi	0
 0	0	data/BGE00298_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tortricidae	BLAST	family	657	1533	Tortricidae	BGSNL760-24_r_1.5_s_100	Choristoneura simonyi	0
-4	5	data/BGE00298_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00298-NC not in BOLD	None	BLAST	family	241	1092		BGE00298-NC_r_1_s_50	None	0
-0	0	data/BGE00298_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00298-NC not in BOLD	None	BLAST	family	136	681		BGE00298-NC_r_1_s_100	None	0
-0	0	data/BGE00298_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00298-NC not in BOLD	None	BLAST	family	147	594		BGE00298-NC_r_1.3_s_50	None	0
-0	0	data/BGE00298_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00298-NC not in BOLD	None	BLAST	family	136	402		BGE00298-NC_r_1.3_s_100	None	0
-0	0	data/BGE00298_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00298-NC not in BOLD	None	BLAST	family	50	84		BGE00298-NC_r_1.5_s_100	None	0
-0	0	data/BGE00298_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00298-NC not in BOLD	None	BLAST	family	62	147		BGE00298-NC_r_1.5_s_50	None	0

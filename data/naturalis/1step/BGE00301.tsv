@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00301_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	657	1527	Crambidae	BGSNL999-24_r_1.3_s_100	Catoptria corsicellus	0
 0	0	data/BGE00301_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	657	1527	Crambidae	BGSNL999-24_r_1.5_s_50	Catoptria corsicellus	0
 0	0	data/BGE00301_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	657	1527	Crambidae	BGSNL999-24_r_1.5_s_100	Catoptria corsicellus	0
-0	0	data/BGE00301_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00301-NC not in BOLD	None	BLAST	family	119	609		BGE00301-NC_r_1_s_50	None	0
-0	0	data/BGE00301_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00301-NC not in BOLD	None	BLAST	family	1	360		BGE00301-NC_r_1_s_100	None	0
-0	0	data/BGE00301_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00301-NC not in BOLD	None	BLAST	family	45	90		BGE00301-NC_r_1.3_s_50	None	0
-None	0	data/BGE00301_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00301-NC not in BOLD	None	BLAST	family	None	0		BGE00301-NC_r_1.3_s_100	None	0
-0	0	data/BGE00301_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00301-NC not in BOLD	None	BLAST	family	1	54		BGE00301-NC_r_1.5_s_50	None	0
-None	0	data/BGE00301_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00301-NC not in BOLD	None	BLAST	family	None	0		BGE00301-NC_r_1.5_s_100	None	0

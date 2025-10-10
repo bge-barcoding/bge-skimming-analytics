@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00422_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Brentidae	BLAST	family	656	1488	Apionidae	UNIFI095-23_r_1.3_s_100	Eutrichapion punctigerum	0
 0	0	data/BGE00422_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Brentidae	BLAST	family	647	1413	Apionidae,Fergusoninidae	UNIFI095-23_r_1.5_s_50	Eutrichapion punctigerum	0
 0	0	data/BGE00422_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Brentidae	BLAST	family	647	1380	Apionidae,Fergusoninidae	UNIFI095-23_r_1.5_s_100	Eutrichapion punctigerum	0
-0	44	data/BGE00422_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00422-NC not in BOLD	None	BLAST	family	523	1164		BGE00422-NC_r_1_s_50	None	0
-2	20	data/BGE00422_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00422-NC not in BOLD	None	BLAST	family	473	1053		BGE00422-NC_r_1_s_100	None	0
-0	19	data/BGE00422_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00422-NC not in BOLD	None	BLAST	family	523	1161		BGE00422-NC_r_1.3_s_50	None	0
-2	21	data/BGE00422_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00422-NC not in BOLD	None	BLAST	family	473	1050		BGE00422-NC_r_1.3_s_100	None	0
-1	8	data/BGE00422_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00422-NC not in BOLD	None	BLAST	family	301	588		BGE00422-NC_r_1.5_s_100	None	0
-10	17	data/BGE00422_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00422-NC not in BOLD	None	BLAST	family	411	669		BGE00422-NC_r_1.5_s_50	None	0

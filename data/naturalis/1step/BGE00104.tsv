@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 8	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	644	1533	Scarabaeidae	BBIOP2375-24_r_1.3_s_100	Onthophagus fissicornis	0
 0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2375-24_r_1.5_s_50	Onthophagus fissicornis	0
 0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	645	1533	Scarabaeidae	BBIOP2375-24_r_1.5_s_100	Onthophagus fissicornis	0
-4	13	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00104-NC not in BOLD	None	BLAST	family	551	1221		BGE00104-NC_r_1_s_50	None	0
-0	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00104-NC not in BOLD	None	BLAST	family	103	933		BGE00104-NC_r_1_s_100	None	0
-3	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00104-NC not in BOLD	None	BLAST	family	191	759		BGE00104-NC_r_1.3_s_50	None	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00104-NC not in BOLD	None	BLAST	family	97	426		BGE00104-NC_r_1.3_s_100	None	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00104-NC not in BOLD	None	BLAST	family	105	411		BGE00104-NC_r_1.5_s_50	None	0
-0	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00104-NC not in BOLD	None	BLAST	family	97	276		BGE00104-NC_r_1.5_s_100	None	0

@@ -569,9 +569,3 @@ None	0	data/BGE00181_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00181_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	655	1533	Cicadellidae	BGENL1805-24_r_1.3_s_100	Zyginella pulchra	0
 0	1	data/BGE00181_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	655	1500	Cicadellidae	BGENL1805-24_r_1.5_s_50	Zyginella pulchra	0
 0	1	data/BGE00181_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cicadellidae	BLAST	family	655	1500	Cicadellidae	BGENL1805-24_r_1.5_s_100	Zyginella pulchra	0
-0	0	data/BGE00181_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00181-NC not in BOLD	None	BLAST	family	268	660		BGE00181-NC_r_1_s_50	None	0
-0	0	data/BGE00181_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00181-NC not in BOLD	None	BLAST	family	232	594		BGE00181-NC_r_1_s_100	None	0
-0	0	data/BGE00181_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00181-NC not in BOLD	None	BLAST	family	268	330		BGE00181-NC_r_1.3_s_50	None	0
-0	0	data/BGE00181_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00181-NC not in BOLD	None	BLAST	family	206	210		BGE00181-NC_r_1.3_s_100	None	0
-0	0	data/BGE00181_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00181-NC not in BOLD	None	BLAST	family	190	255		BGE00181-NC_r_1.5_s_50	None	0
-0	0	data/BGE00181_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00181-NC not in BOLD	None	BLAST	family	140	144		BGE00181-NC_r_1.5_s_100	None	0

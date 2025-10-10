@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 9	15	data/BGE00307_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pyralidae	BLAST	family	647	1500	Pyralidae	BGSNL1425-24_r_1.3_s_100	Synoria antiquella	0
 1	1	data/BGE00307_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pyralidae	BLAST	family	635	1509	Pyralidae	BGSNL1425-24_r_1.5_s_50	Synoria antiquella	0
 0	0	data/BGE00307_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pyralidae	BLAST	family	632	1485	Pyralidae	BGSNL1425-24_r_1.5_s_100	Synoria antiquella	0
-10	44	data/BGE00307_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00307-NC not in BOLD	None	BLAST	family	648	1302		BGE00307-NC_r_1_s_50	None	0
-2	28	data/BGE00307_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00307-NC not in BOLD	None	BLAST	family	625	1281		BGE00307-NC_r_1_s_100	None	0
-4	4	data/BGE00307_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00307-NC not in BOLD	None	BLAST	family	161	591		BGE00307-NC_r_1.3_s_50	None	0
-0	0	data/BGE00307_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00307-NC not in BOLD	None	BLAST	family	164	468		BGE00307-NC_r_1.3_s_100	None	0
-4	4	data/BGE00307_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00307-NC not in BOLD	None	BLAST	family	161	366		BGE00307-NC_r_1.5_s_50	None	0
-0	0	data/BGE00307_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00307-NC not in BOLD	None	BLAST	family	156	294		BGE00307-NC_r_1.5_s_100	None	0

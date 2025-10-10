@@ -569,9 +569,3 @@ None	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	657	1545	Cerambycidae	UNIFI950-24_r_1.3_s_100	Iberodorcadion almarzense	0
 0	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	657	1506	Cerambycidae	UNIFI950-24_r_1.5_s_50	Iberodorcadion almarzense	0
 0	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	657	1482	Cerambycidae	UNIFI950-24_r_1.5_s_100	Iberodorcadion almarzense	0
-0	9	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00430-NC not in BOLD	None	BLAST	family	86	678		BGE00430-NC_r_1_s_50	None	0
-0	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00430-NC not in BOLD	None	BLAST	family	86	528		BGE00430-NC_r_1_s_100	None	0
-0	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00430-NC not in BOLD	None	BLAST	family	86	267		BGE00430-NC_r_1.3_s_50	None	0
-0	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00430-NC not in BOLD	None	BLAST	family	86	147		BGE00430-NC_r_1.3_s_100	None	0
-0	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00430-NC not in BOLD	None	BLAST	family	1	84		BGE00430-NC_r_1.5_s_50	None	0
-None	0	data/BGE00430_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00430-NC not in BOLD	None	BLAST	family	None	0		BGE00430-NC_r_1.5_s_100	None	0

@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00195_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Megachilidae	BLAST	family	656	1533	Apidae,Megachilidae	BGENL2850-24_r_1.3_s_100	Hoplitis illyrica	0
 0	0	data/BGE00195_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Megachilidae	BLAST	family	656	1464	Apidae,Megachilidae	BGENL2850-24_r_1.5_s_50	Hoplitis illyrica	0
 0	0	data/BGE00195_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Megachilidae	BLAST	family	656	1464	Apidae,Megachilidae	BGENL2850-24_r_1.5_s_100	Hoplitis illyrica	0
-0	23	data/BGE00195_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00195-NC not in BOLD	None	BLAST	family	605	1242		BGE00195-NC_r_1_s_50	None	0
-0	23	data/BGE00195_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00195-NC not in BOLD	None	BLAST	family	274	1056		BGE00195-NC_r_1_s_100	None	0
-0	9	data/BGE00195_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00195-NC not in BOLD	None	BLAST	family	225	630		BGE00195-NC_r_1.3_s_50	None	0
-0	9	data/BGE00195_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00195-NC not in BOLD	None	BLAST	family	193	480		BGE00195-NC_r_1.3_s_100	None	0
-0	0	data/BGE00195_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00195-NC not in BOLD	None	BLAST	family	194	552		BGE00195-NC_r_1.5_s_50	None	0
-0	0	data/BGE00195_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00195-NC not in BOLD	None	BLAST	family	193	399		BGE00195-NC_r_1.5_s_100	None	0

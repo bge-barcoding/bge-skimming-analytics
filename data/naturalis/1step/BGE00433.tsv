@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00433_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	657	1542	Chrysomelidae	UNIFI1235-24_r_1.3_s_100	Longitarsus linnaei	0
 0	0	data/BGE00433_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	657	1542	Chrysomelidae	UNIFI1235-24_r_1.5_s_50	Longitarsus linnaei	0
 0	0	data/BGE00433_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	657	1542	Chrysomelidae	UNIFI1235-24_r_1.5_s_100	Longitarsus linnaei	0
-6	15	data/BGE00433_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00433-NC not in BOLD	None	BLAST	family	539	1266		BGE00433-NC_r_1_s_50	None	0
-0	8	data/BGE00433_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00433-NC not in BOLD	None	BLAST	family	156	1056		BGE00433-NC_r_1_s_100	None	0
-5	6	data/BGE00433_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00433-NC not in BOLD	None	BLAST	family	436	762		BGE00433-NC_r_1.3_s_50	None	0
-0	0	data/BGE00433_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00433-NC not in BOLD	None	BLAST	family	219	585		BGE00433-NC_r_1.3_s_100	None	0
-0	0	data/BGE00433_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00433-NC not in BOLD	None	BLAST	family	163	435		BGE00433-NC_r_1.5_s_50	None	0
-0	0	data/BGE00433_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00433-NC not in BOLD	None	BLAST	family	147	234		BGE00433-NC_r_1.5_s_100	None	0

@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00299_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tortricidae	BLAST	family	657	1530	Tortricidae	BGSNL855-24_r_1.3_s_100	Epiblema chretieni	0
 0	0	data/BGE00299_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tortricidae	BLAST	family	657	1530	Tortricidae	BGSNL855-24_r_1.5_s_50	Epiblema chretieni	0
 0	0	data/BGE00299_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Tortricidae	BLAST	family	657	1530	Tortricidae	BGSNL855-24_r_1.5_s_100	Epiblema chretieni	0
-3	10	data/BGE00299_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00299-NC not in BOLD	None	BLAST	family	235	945		BGE00299-NC_r_1_s_50	None	0
-0	0	data/BGE00299_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00299-NC not in BOLD	None	BLAST	family	165	693		BGE00299-NC_r_1_s_100	None	0
-0	12	data/BGE00299_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00299-NC not in BOLD	None	BLAST	family	69	228		BGE00299-NC_r_1.3_s_50	None	0
-0	0	data/BGE00299_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00299-NC not in BOLD	None	BLAST	family	69	144		BGE00299-NC_r_1.3_s_100	None	0
-0	0	data/BGE00299_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00299-NC not in BOLD	None	BLAST	family	69	174		BGE00299-NC_r_1.5_s_50	None	0
-0	0	data/BGE00299_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00299-NC not in BOLD	None	BLAST	family	69	144		BGE00299-NC_r_1.5_s_100	None	0

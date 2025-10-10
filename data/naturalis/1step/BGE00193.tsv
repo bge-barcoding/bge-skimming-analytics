@@ -569,9 +569,3 @@ None	0	data/BGE00193_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00193_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysididae	BLAST	family	642	1488	Chrysididae	BGENL2565-24_r_1.3_s_100	Chrysis manicata	0
 0	0	data/BGE00193_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysididae	BLAST	family	615	1425	Chrysididae	BGENL2565-24_r_1.5_s_50	Chrysis manicata	0
 0	0	data/BGE00193_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysididae	BLAST	family	522	1332	Chrysididae	BGENL2565-24_r_1.5_s_100	Chrysis manicata	0
-1	8	data/BGE00193_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00193-NC not in BOLD	None	BLAST	family	354	1005		BGE00193-NC_r_1_s_50	None	0
-0	7	data/BGE00193_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00193-NC not in BOLD	None	BLAST	family	222	834		BGE00193-NC_r_1_s_100	None	0
-1	1	data/BGE00193_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00193-NC not in BOLD	None	BLAST	family	129	333		BGE00193-NC_r_1.3_s_50	None	0
-0	0	data/BGE00193_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00193-NC not in BOLD	None	BLAST	family	105	234		BGE00193-NC_r_1.3_s_100	None	0
-0	0	data/BGE00193_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00193-NC not in BOLD	None	BLAST	family	56	234		BGE00193-NC_r_1.5_s_50	None	0
-0	0	data/BGE00193_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00193-NC not in BOLD	None	BLAST	family	53	126		BGE00193-NC_r_1.5_s_100	None	0

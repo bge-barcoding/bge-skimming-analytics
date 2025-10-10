@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00170_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Conopidae	BLAST	family	657	1509	Syrphidae,Conopidae,Psilidae,Muscidae	BGENL665-23_r_1.3_s_100	Myopa picta	0
 0	0	data/BGE00170_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Conopidae	BLAST	family	657	1491	Syrphidae,Conopidae,Psilidae,Drosophilidae,Muscidae	BGENL665-23_r_1.5_s_50	Myopa picta	0
 0	3	data/BGE00170_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Conopidae	BLAST	family	657	1491	Syrphidae,Conopidae,Psilidae,Drosophilidae,Muscidae	BGENL665-23_r_1.5_s_100	Myopa picta	0
-0	2	data/BGE00170_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00170-NC not in BOLD	None	BLAST	family	361	939		BGE00170-NC_r_1_s_50	None	0
-1	2	data/BGE00170_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00170-NC not in BOLD	None	BLAST	family	276	795		BGE00170-NC_r_1_s_100	None	0
-0	34	data/BGE00170_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00170-NC not in BOLD	None	BLAST	family	313	804		BGE00170-NC_r_1.3_s_50	None	0
-1	34	data/BGE00170_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00170-NC not in BOLD	None	BLAST	family	276	708		BGE00170-NC_r_1.3_s_100	None	0
-5	5	data/BGE00170_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00170-NC not in BOLD	None	BLAST	family	476	525		BGE00170-NC_r_1.5_s_50	None	6
-5	5	data/BGE00170_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00170-NC not in BOLD	None	BLAST	family	476	525		BGE00170-NC_r_1.5_s_100	None	6

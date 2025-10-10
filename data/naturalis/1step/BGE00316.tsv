@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	3	data/BGE00316_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Heliozelidae	BLAST	family	656	1533	Tortricidae,Choreutidae,Prodoxidae,Heliozelidae	BGSNL2280-24_r_1.3_s_100	Heliozela lithargyrellum	0
 0	0	data/BGE00316_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Heliozelidae	BLAST	family	650	1527	Tortricidae,Prodoxidae	BGSNL2280-24_r_1.5_s_50	Heliozela lithargyrellum	0
 0	0	data/BGE00316_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Heliozelidae	BLAST	family	650	1527	Tortricidae,Prodoxidae	BGSNL2280-24_r_1.5_s_100	Heliozela lithargyrellum	0
-1	4	data/BGE00316_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00316-NC not in BOLD	None	BLAST	family	578	1230		BGE00316-NC_r_1_s_50	None	0
-0	0	data/BGE00316_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00316-NC not in BOLD	None	BLAST	family	404	957		BGE00316-NC_r_1_s_100	None	0
-0	6	data/BGE00316_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00316-NC not in BOLD	None	BLAST	family	109	564		BGE00316-NC_r_1.3_s_50	None	0
-0	0	data/BGE00316_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00316-NC not in BOLD	None	BLAST	family	109	387		BGE00316-NC_r_1.3_s_100	None	0
-0	0	data/BGE00316_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00316-NC not in BOLD	None	BLAST	family	50	183		BGE00316-NC_r_1.5_s_50	None	0
-None	0	data/BGE00316_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00316-NC not in BOLD	None	BLAST	family	None	0		BGE00316-NC_r_1.5_s_100	None	0

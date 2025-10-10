@@ -569,9 +569,3 @@ None	0	data/BGE00191_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00191_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Andrenidae	BLAST	family	656	1545	Andrenidae	BGENL2375-24_r_1.3_s_100	Andrena sandanskia	0
 0	0	data/BGE00191_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Andrenidae	BLAST	family	656	1545	Andrenidae	BGENL2375-24_r_1.5_s_50	Andrena sandanskia	0
 0	0	data/BGE00191_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Andrenidae	BLAST	family	656	1545	Andrenidae	BGENL2375-24_r_1.5_s_100	Andrena sandanskia	0
-5	18	data/BGE00191_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00191-NC not in BOLD	None	BLAST	family	526	1170		BGE00191-NC_r_1_s_50	None	0
-2	2	data/BGE00191_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00191-NC not in BOLD	None	BLAST	family	247	948		BGE00191-NC_r_1_s_100	None	0
-0	0	data/BGE00191_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00191-NC not in BOLD	None	BLAST	family	111	576		BGE00191-NC_r_1.3_s_50	None	0
-0	0	data/BGE00191_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00191-NC not in BOLD	None	BLAST	family	109	333		BGE00191-NC_r_1.3_s_100	None	0
-0	0	data/BGE00191_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00191-NC not in BOLD	None	BLAST	family	51	192		BGE00191-NC_r_1.5_s_50	None	0
-0	0	data/BGE00191_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00191-NC not in BOLD	None	BLAST	family	51	108		BGE00191-NC_r_1.5_s_100	None	0

@@ -563,9 +563,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00502_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chthoniidae	BLAST	family	199	468	Phytoseiidae,Stigmaeidae,Oppiidae,Hubbardiidae,Phrynichidae	BSCRO190-24_r_1.3_s_100	Chthonius pieltaini	0
 0	1	data/BGE00502_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chthoniidae	BLAST	family	89	231		BSCRO190-24_r_1.5_s_50	Chthonius pieltaini	0
 0	0	data/BGE00502_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chthoniidae	BLAST	family	86	147		BSCRO190-24_r_1.5_s_100	Chthonius pieltaini	0
-1	18	data/BGE00502_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00502-NC not in BOLD	None	BLAST	family	590	1311		BGE00502-NC_r_1_s_50	None	0
-0	8	data/BGE00502_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00502-NC not in BOLD	None	BLAST	family	544	1182		BGE00502-NC_r_1_s_100	None	0
-4	4	data/BGE00502_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00502-NC not in BOLD	None	BLAST	family	369	906		BGE00502-NC_r_1.3_s_50	None	0
-0	0	data/BGE00502_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00502-NC not in BOLD	None	BLAST	family	169	555		BGE00502-NC_r_1.3_s_100	None	0
-4	5	data/BGE00502_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00502-NC not in BOLD	None	BLAST	family	358	540		BGE00502-NC_r_1.5_s_50	None	0
-0	0	data/BGE00502_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00502-NC not in BOLD	None	BLAST	family	169	372		BGE00502-NC_r_1.5_s_100	None	0

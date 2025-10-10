@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	654	1527	Braconidae	BGLIB950-24_r_1.3_s_100	Meteorus longicornis	0
 0	0	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	639	1479	Braconidae	BGLIB950-24_r_1.5_s_50	Meteorus longicornis	0
 0	0	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	630	1347	Braconidae	BGLIB950-24_r_1.5_s_100	Meteorus longicornis	0
-21	30	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00410-NC not in BOLD	None	BLAST	family	545	1215		BGE00410-NC_r_1_s_50	None	0
-19	26	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00410-NC not in BOLD	None	BLAST	family	428	1086		BGE00410-NC_r_1_s_100	None	0
-5	6	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00410-NC not in BOLD	None	BLAST	family	482	678		BGE00410-NC_r_1.3_s_50	None	0
-5	6	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00410-NC not in BOLD	None	BLAST	family	419	489		BGE00410-NC_r_1.3_s_100	None	0
-0	1	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00410-NC not in BOLD	None	BLAST	family	130	261		BGE00410-NC_r_1.5_s_50	None	0
-0	1	data/BGE00410_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00410-NC not in BOLD	None	BLAST	family	121	147		BGE00410-NC_r_1.5_s_100	None	0

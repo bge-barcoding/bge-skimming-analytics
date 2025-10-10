@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00582_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cosmopterigidae	BLAST	family	657	1530	Papilionidae,Crambidae	BBIOP2755-24_r_1.3_s_100	Isidiella divitella	0
 0	0	data/BGE00582_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cosmopterigidae	BLAST	family	657	1530	Papilionidae,Crambidae	BBIOP2755-24_r_1.5_s_50	Isidiella divitella	0
 0	0	data/BGE00582_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cosmopterigidae	BLAST	family	657	1530	Papilionidae,Crambidae	BBIOP2755-24_r_1.5_s_100	Isidiella divitella	0
-0	0	data/BGE00582_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00582-NC not in BOLD	None	BLAST	family	623	1248		BGE00582-NC_r_1_s_50	None	0
-0	0	data/BGE00582_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00582-NC not in BOLD	None	BLAST	family	164	1023		BGE00582-NC_r_1_s_100	None	0
-0	9	data/BGE00582_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00582-NC not in BOLD	None	BLAST	family	109	732		BGE00582-NC_r_1.3_s_50	None	0
-0	7	data/BGE00582_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00582-NC not in BOLD	None	BLAST	family	109	564		BGE00582-NC_r_1.3_s_100	None	0
-0	0	data/BGE00582_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00582-NC not in BOLD	None	BLAST	family	119	549		BGE00582-NC_r_1.5_s_50	None	0
-0	0	data/BGE00582_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00582-NC not in BOLD	None	BLAST	family	113	369		BGE00582-NC_r_1.5_s_100	None	0

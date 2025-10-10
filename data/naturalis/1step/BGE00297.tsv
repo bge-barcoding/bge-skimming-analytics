@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 7	12	data/BGE00297_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pterophoridae	BLAST	family	549	1350	Endromidae,Nymphalidae,Geometridae	BGSNL665-24_r_1.3_s_100	Capperia hellenica	0
 8	25	data/BGE00297_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pterophoridae	BLAST	family	570	1344	Nymphalidae,Geometridae	BGSNL665-24_r_1.5_s_50	Capperia hellenica	0
 22	33	data/BGE00297_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pterophoridae	BLAST	family	525	1218	Geometridae	BGSNL665-24_r_1.5_s_100	Capperia hellenica	0
-16	28	data/BGE00297_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00297-NC not in BOLD	None	BLAST	family	458	1146		BGE00297-NC_r_1_s_50	None	0
-1	13	data/BGE00297_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00297-NC not in BOLD	None	BLAST	family	458	1041		BGE00297-NC_r_1_s_100	None	0
-1	1	data/BGE00297_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00297-NC not in BOLD	None	BLAST	family	293	417		BGE00297-NC_r_1.3_s_50	None	0
-1	1	data/BGE00297_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00297-NC not in BOLD	None	BLAST	family	272	324		BGE00297-NC_r_1.3_s_100	None	0
-1	1	data/BGE00297_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00297-NC not in BOLD	None	BLAST	family	122	216		BGE00297-NC_r_1.5_s_50	None	0
-1	1	data/BGE00297_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00297-NC not in BOLD	None	BLAST	family	121	147		BGE00297-NC_r_1.5_s_100	None	0

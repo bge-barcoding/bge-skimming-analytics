@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00146_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Erebidae	BLAST	family	657	1530	Erebidae	BHNHM095-24_r_1.3_s_100	Euclidia fortalitium	0
 0	0	data/BGE00146_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Erebidae	BLAST	family	657	1530	Erebidae	BHNHM095-24_r_1.5_s_50	Euclidia fortalitium	0
 0	0	data/BGE00146_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Erebidae	BLAST	family	657	1530	Erebidae	BHNHM095-24_r_1.5_s_100	Euclidia fortalitium	0
-7	25	data/BGE00146_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00146-NC not in BOLD	None	BLAST	family	533	759		BGE00146-NC_r_1_s_50	None	0
-0	18	data/BGE00146_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00146-NC not in BOLD	None	BLAST	family	533	759		BGE00146-NC_r_1_s_100	None	0
-4	4	data/BGE00146_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00146-NC not in BOLD	None	BLAST	family	311	576		BGE00146-NC_r_1.3_s_50	None	0
-0	0	data/BGE00146_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00146-NC not in BOLD	None	BLAST	family	311	576		BGE00146-NC_r_1.3_s_100	None	0
-0	1	data/BGE00146_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00146-NC not in BOLD	None	BLAST	family	170	465		BGE00146-NC_r_1.5_s_50	None	0
-0	1	data/BGE00146_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00146-NC not in BOLD	None	BLAST	family	174	438		BGE00146-NC_r_1.5_s_100	None	0

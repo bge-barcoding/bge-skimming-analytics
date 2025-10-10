@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00142_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Planoceridae	BLAST	family	653	1593	Planoceridae,Callioplanidae,Hoploplanidae	MUSBA3473-25_r_1.3_s_100	Planocera	0
 0	0	data/BGE00142_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Planoceridae	BLAST	family	653	1560	Planoceridae,Callioplanidae,Hoploplanidae	MUSBA3473-25_r_1.5_s_50	Planocera	0
 0	0	data/BGE00142_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Planoceridae	BLAST	family	653	1560	Planoceridae,Callioplanidae,Hoploplanidae	MUSBA3473-25_r_1.5_s_100	Planocera	0
-0	0	data/BGE00142_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00142-NC not in BOLD	None	BLAST	family	577	1350		BGE00142-NC_r_1_s_50	None	0
-0	0	data/BGE00142_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00142-NC not in BOLD	None	BLAST	family	577	1344		BGE00142-NC_r_1_s_100	None	0
-1	6	data/BGE00142_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00142-NC not in BOLD	None	BLAST	family	525	909		BGE00142-NC_r_1.3_s_50	None	7
-1	1	data/BGE00142_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00142-NC not in BOLD	None	BLAST	family	525	894		BGE00142-NC_r_1.3_s_100	None	7
-0	5	data/BGE00142_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00142-NC not in BOLD	None	BLAST	family	510	648		BGE00142-NC_r_1.5_s_50	None	7
-0	0	data/BGE00142_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00142-NC not in BOLD	None	BLAST	family	534	630		BGE00142-NC_r_1.5_s_100	None	5

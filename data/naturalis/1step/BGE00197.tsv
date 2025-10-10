@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00197_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	649	1539	Apidae,Pompilidae,Erebidae	BGENL3040-24_r_1.3_s_100	Cryptocheilus discolor	0
 0	0	data/BGE00197_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	649	1539	Apidae,Pompilidae,Erebidae	BGENL3040-24_r_1.5_s_50	Cryptocheilus discolor	0
 0	0	data/BGE00197_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pompilidae	BLAST	family	649	1533	Apidae,Pompilidae,Erebidae	BGENL3040-24_r_1.5_s_100	Cryptocheilus discolor	0
-None	0	data/BGE00197_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00197-NC not in BOLD	None	BLAST	family	None	0		BGE00197-NC_r_1_s_50	None	0
-None	0	data/BGE00197_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00197-NC not in BOLD	None	BLAST	family	None	0		BGE00197-NC_r_1_s_100	None	0
-None	0	data/BGE00197_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00197-NC not in BOLD	None	BLAST	family	None	0		BGE00197-NC_r_1.3_s_50	None	0
-None	0	data/BGE00197_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00197-NC not in BOLD	None	BLAST	family	None	0		BGE00197-NC_r_1.3_s_100	None	0
-None	0	data/BGE00197_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00197-NC not in BOLD	None	BLAST	family	None	0		BGE00197-NC_r_1.5_s_50	None	0
-None	0	data/BGE00197_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00197-NC not in BOLD	None	BLAST	family	None	0		BGE00197-NC_r_1.5_s_100	None	0

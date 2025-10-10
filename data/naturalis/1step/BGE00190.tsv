@@ -569,9 +569,3 @@ None	0	data/BGE00190_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 None	0	data/BGE00190_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Apidae	BLAST	family	None	0		BGENL1995-24_r_1.3_s_100	Ancyla holtzi	0
 None	0	data/BGE00190_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Apidae	BLAST	family	None	0		BGENL1995-24_r_1.5_s_50	Ancyla holtzi	0
 None	0	data/BGE00190_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Apidae	BLAST	family	None	0		BGENL1995-24_r_1.5_s_100	Ancyla holtzi	0
-0	80	data/BGE00190_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00190-NC not in BOLD	None	BLAST	family	68	651		BGE00190-NC_r_1_s_50	None	0
-0	73	data/BGE00190_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00190-NC not in BOLD	None	BLAST	family	68	513		BGE00190-NC_r_1_s_100	None	0
-0	0	data/BGE00190_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00190-NC not in BOLD	None	BLAST	family	261	309		BGE00190-NC_r_1.3_s_50	None	6
-0	0	data/BGE00190_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00190-NC not in BOLD	None	BLAST	family	215	243		BGE00190-NC_r_1.3_s_100	None	3
-0	0	data/BGE00190_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00190-NC not in BOLD	None	BLAST	family	91	198		BGE00190-NC_r_1.5_s_50	None	0
-0	0	data/BGE00190_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00190-NC not in BOLD	None	BLAST	family	104	168		BGE00190-NC_r_1.5_s_100	None	0

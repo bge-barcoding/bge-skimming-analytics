@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00105_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	189	642	Tettigoniidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Ulidiidae,Vespidae,Tetracampidae	BBIOP2470-24_r_1.3_s_100	Phalacronothus putoni	0
 0	0	data/BGE00105_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	165	465	Tettigoniidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Ulidiidae,Vespidae,Tetracampidae	BBIOP2470-24_r_1.5_s_50	Phalacronothus putoni	0
 0	0	data/BGE00105_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	148	384	Tettigoniidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Ulidiidae,Vespidae,Tetracampidae	BBIOP2470-24_r_1.5_s_100	Phalacronothus putoni	0
-3	71	data/BGE00105_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00105-NC not in BOLD	None	BLAST	family	575	1344		BGE00105-NC_r_1_s_50	None	0
-0	69	data/BGE00105_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00105-NC not in BOLD	None	BLAST	family	434	1152		BGE00105-NC_r_1_s_100	None	0
-0	19	data/BGE00105_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00105-NC not in BOLD	None	BLAST	family	157	993		BGE00105-NC_r_1.3_s_50	None	0
-0	21	data/BGE00105_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00105-NC not in BOLD	None	BLAST	family	156	858		BGE00105-NC_r_1.3_s_100	None	0
-2	2	data/BGE00105_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00105-NC not in BOLD	None	BLAST	family	395	693		BGE00105-NC_r_1.5_s_50	None	0
-1	1	data/BGE00105_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00105-NC not in BOLD	None	BLAST	family	394	570		BGE00105-NC_r_1.5_s_100	None	0

@@ -557,9 +557,3 @@ None	0	data/BGE00513_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00513_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Linyphiidae	BLAST	family	657	1524	Araneidae,Linyphiidae,Nephilidae	BSCRO665-24_r_1.3_s_100	Troglohyphantes	0
 0	0	data/BGE00513_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Linyphiidae	BLAST	family	657	1524	Araneidae,Linyphiidae,Nephilidae	BSCRO665-24_r_1.5_s_50	Troglohyphantes	0
 0	0	data/BGE00513_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Linyphiidae	BLAST	family	657	1524	Araneidae,Linyphiidae,Nephilidae	BSCRO665-24_r_1.5_s_100	Troglohyphantes	0
-19	30	data/BGE00513_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00513-NC not in BOLD	None	BLAST	family	651	1377		BGE00513-NC_r_1_s_50	None	0
-21	31	data/BGE00513_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00513-NC not in BOLD	None	BLAST	family	651	1377		BGE00513-NC_r_1_s_100	None	0
-3	15	data/BGE00513_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00513-NC not in BOLD	None	BLAST	family	631	1314		BGE00513-NC_r_1.3_s_50	None	0
-1	10	data/BGE00513_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00513-NC not in BOLD	None	BLAST	family	632	1305		BGE00513-NC_r_1.3_s_100	None	0
-2	20	data/BGE00513_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00513-NC not in BOLD	None	BLAST	family	520	1080		BGE00513-NC_r_1.5_s_50	None	0
-0	15	data/BGE00513_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00513-NC not in BOLD	None	BLAST	family	473	975		BGE00513-NC_r_1.5_s_100	None	0

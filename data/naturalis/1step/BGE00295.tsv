@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00295_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Geometridae	BLAST	family	657	1542	Geometridae	BGSNL475-23_r_1.3_s_100	Epitherina kuznetzovi	0
 0	0	data/BGE00295_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Geometridae	BLAST	family	657	1542	Geometridae	BGSNL475-23_r_1.5_s_50	Epitherina kuznetzovi	0
 0	0	data/BGE00295_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Geometridae	BLAST	family	657	1542	Geometridae	BGSNL475-23_r_1.5_s_100	Epitherina kuznetzovi	0
-19	33	data/BGE00295_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00295-NC not in BOLD	None	BLAST	family	657	1491		BGE00295-NC_r_1_s_50	None	0
-16	45	data/BGE00295_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00295-NC not in BOLD	None	BLAST	family	657	1491		BGE00295-NC_r_1_s_100	None	0
-6	14	data/BGE00295_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00295-NC not in BOLD	None	BLAST	family	657	1422		BGE00295-NC_r_1.3_s_50	None	0
-5	21	data/BGE00295_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00295-NC not in BOLD	None	BLAST	family	657	1374		BGE00295-NC_r_1.3_s_100	None	0
-8	16	data/BGE00295_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00295-NC not in BOLD	None	BLAST	family	540	1251		BGE00295-NC_r_1.5_s_50	None	0
-9	21	data/BGE00295_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00295-NC not in BOLD	None	BLAST	family	522	1185		BGE00295-NC_r_1.5_s_100	None	0

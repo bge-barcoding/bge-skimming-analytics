@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00303_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pyralidae	BLAST	family	657	1530	Pyralidae	BGSNL1235-24_r_1.3_s_100	Arsissa ramosella	0
 0	2	data/BGE00303_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pyralidae	BLAST	family	657	1533	Pyralidae	BGSNL1235-24_r_1.5_s_50	Arsissa ramosella	0
 0	0	data/BGE00303_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pyralidae	BLAST	family	657	1530	Pyralidae	BGSNL1235-24_r_1.5_s_100	Arsissa ramosella	0
-11	39	data/BGE00303_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00303-NC not in BOLD	None	BLAST	family	637	1329		BGE00303-NC_r_1_s_50	None	0
-1	36	data/BGE00303_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00303-NC not in BOLD	None	BLAST	family	526	1167		BGE00303-NC_r_1_s_100	None	0
-2	11	data/BGE00303_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00303-NC not in BOLD	None	BLAST	family	306	846		BGE00303-NC_r_1.3_s_50	None	0
-0	0	data/BGE00303_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00303-NC not in BOLD	None	BLAST	family	187	696		BGE00303-NC_r_1.3_s_100	None	0
-0	8	data/BGE00303_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00303-NC not in BOLD	None	BLAST	family	94	282		BGE00303-NC_r_1.5_s_50	None	0
-0	0	data/BGE00303_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00303-NC not in BOLD	None	BLAST	family	89	150		BGE00303-NC_r_1.5_s_100	None	0

@@ -569,9 +569,3 @@ None	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Flatidae	BLAST	family	656	1542	Flatidae,Issidae,Fulgoridae	BGENL2090-24_r_1.3_s_100	Cyphopterum chenoleae	0
 0	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Flatidae	BLAST	family	656	1542	Flatidae,Issidae,Fulgoridae	BGENL2090-24_r_1.5_s_50	Cyphopterum chenoleae	0
 0	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Flatidae	BLAST	family	656	1542	Flatidae,Issidae,Fulgoridae	BGENL2090-24_r_1.5_s_100	Cyphopterum chenoleae	0
-12	14	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00185-NC not in BOLD	None	BLAST	family	633	1302		BGE00185-NC_r_1_s_50	None	0
-12	12	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00185-NC not in BOLD	None	BLAST	family	458	1194		BGE00185-NC_r_1_s_100	None	0
-0	8	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00185-NC not in BOLD	None	BLAST	family	125	717		BGE00185-NC_r_1.3_s_50	None	0
-0	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00185-NC not in BOLD	None	BLAST	family	123	426		BGE00185-NC_r_1.3_s_100	None	0
-0	8	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00185-NC not in BOLD	None	BLAST	family	125	468		BGE00185-NC_r_1.5_s_50	None	0
-0	0	data/BGE00185_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00185-NC not in BOLD	None	BLAST	family	123	213		BGE00185-NC_r_1.5_s_100	None	0

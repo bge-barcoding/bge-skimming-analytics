@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00166_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chloropidae	BLAST	family	657	1539	Syrphidae,Chloropidae,Drosophilidae,Ephydridae	BGENL095-23_r_1.3_s_100	Eurina calva	0
 0	0	data/BGE00166_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chloropidae	BLAST	family	657	1539	Syrphidae,Chloropidae,Drosophilidae,Ephydridae	BGENL095-23_r_1.5_s_50	Eurina calva	0
 0	0	data/BGE00166_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chloropidae	BLAST	family	657	1539	Syrphidae,Chloropidae,Drosophilidae,Ephydridae	BGENL095-23_r_1.5_s_100	Eurina calva	0
-17	68	data/BGE00166_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00166-NC not in BOLD	None	BLAST	family	617	1314		BGE00166-NC_r_1_s_50	None	0
-8	40	data/BGE00166_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00166-NC not in BOLD	None	BLAST	family	617	1311		BGE00166-NC_r_1_s_100	None	0
-2	20	data/BGE00166_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00166-NC not in BOLD	None	BLAST	family	308	975		BGE00166-NC_r_1.3_s_50	None	0
-3	11	data/BGE00166_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00166-NC not in BOLD	None	BLAST	family	277	891		BGE00166-NC_r_1.3_s_100	None	0
-0	13	data/BGE00166_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00166-NC not in BOLD	None	BLAST	family	173	705		BGE00166-NC_r_1.5_s_50	None	0
-9	9	data/BGE00166_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00166-NC not in BOLD	None	BLAST	family	458	615		BGE00166-NC_r_1.5_s_100	None	0

@@ -569,9 +569,3 @@ None	0	data/BGE00314_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00314_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cosmopterigidae	BLAST	family	657	1530	Gelechiidae,Autostichidae,Depressariidae,Nolidae,Erebidae,Papilionidae,Crambidae	BGSNL2090-24_r_1.3_s_100	Cosmopterix parietariae	0
 0	0	data/BGE00314_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cosmopterigidae	BLAST	family	657	1530	Gelechiidae,Autostichidae,Depressariidae,Nolidae,Erebidae,Papilionidae,Crambidae	BGSNL2090-24_r_1.5_s_50	Cosmopterix parietariae	0
 0	0	data/BGE00314_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cosmopterigidae	BLAST	family	657	1530	Gelechiidae,Autostichidae,Depressariidae,Nolidae,Erebidae,Papilionidae,Crambidae	BGSNL2090-24_r_1.5_s_100	Cosmopterix parietariae	0
-1	29	data/BGE00314_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00314-NC not in BOLD	None	BLAST	family	627	1356		BGE00314-NC_r_1_s_50	None	0
-0	40	data/BGE00314_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00314-NC not in BOLD	None	BLAST	family	555	1269		BGE00314-NC_r_1_s_100	None	0
-0	6	data/BGE00314_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00314-NC not in BOLD	None	BLAST	family	525	981		BGE00314-NC_r_1.3_s_50	None	0
-0	0	data/BGE00314_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00314-NC not in BOLD	None	BLAST	family	455	795		BGE00314-NC_r_1.3_s_100	None	0
-10	10	data/BGE00314_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00314-NC not in BOLD	None	BLAST	family	462	792		BGE00314-NC_r_1.5_s_50	None	0
-0	0	data/BGE00314_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00314-NC not in BOLD	None	BLAST	family	235	645		BGE00314-NC_r_1.5_s_100	None	0

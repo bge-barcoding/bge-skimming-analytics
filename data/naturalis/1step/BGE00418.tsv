@@ -569,9 +569,3 @@ None	0	data/BGE00418_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00418_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ptiliidae	BLAST	family	656	1524	Staphylinidae,Hydraenidae,Scarabaeidae,Chloropidae,Sphaeroceridae,Polleniidae	BGLIB1710-24_r_1.3_s_100	Acrotrichis pumila	0
 0	0	data/BGE00418_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ptiliidae	BLAST	family	656	1527	Staphylinidae,Hydraenidae,Scarabaeidae,Chloropidae,Sphaeroceridae,Polleniidae	BGLIB1710-24_r_1.5_s_50	Acrotrichis pumila	0
 0	0	data/BGE00418_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ptiliidae	BLAST	family	656	1476	Staphylinidae,Hydraenidae,Scarabaeidae,Chloropidae,Sphaeroceridae	BGLIB1710-24_r_1.5_s_100	Acrotrichis pumila	0
-4	7	data/BGE00418_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00418-NC not in BOLD	None	BLAST	family	584	1299		BGE00418-NC_r_1_s_50	None	0
-1	15	data/BGE00418_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00418-NC not in BOLD	None	BLAST	family	491	1158		BGE00418-NC_r_1_s_100	None	0
-2	2	data/BGE00418_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00418-NC not in BOLD	None	BLAST	family	370	930		BGE00418-NC_r_1.3_s_50	None	0
-2	2	data/BGE00418_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00418-NC not in BOLD	None	BLAST	family	228	729		BGE00418-NC_r_1.3_s_100	None	0
-0	0	data/BGE00418_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00418-NC not in BOLD	None	BLAST	family	79	291		BGE00418-NC_r_1.5_s_50	None	0
-0	0	data/BGE00418_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00418-NC not in BOLD	None	BLAST	family	73	93		BGE00418-NC_r_1.5_s_100	None	0

@@ -569,9 +569,3 @@ None	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pamphiliidae	BLAST	family	657	1527	Staphylinidae,Hydraenidae,Scarabaeidae,Tachinidae,Pamphiliidae	BGLIB285-23_r_1.3_s_100	Caenolyda reticulata	0
 0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pamphiliidae	BLAST	family	657	1530	Staphylinidae,Hydraenidae,Scarabaeidae,Tachinidae,Pamphiliidae	BGLIB285-23_r_1.5_s_50	Caenolyda reticulata	0
 0	0	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Pamphiliidae	BLAST	family	657	1527	Staphylinidae,Hydraenidae,Scarabaeidae,Tachinidae,Pamphiliidae	BGLIB285-23_r_1.5_s_100	Caenolyda reticulata	0
-40	63	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00402-NC not in BOLD	None	BLAST	family	590	1158		BGE00402-NC_r_1_s_50	None	0
-41	49	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00402-NC not in BOLD	None	BLAST	family	590	1155		BGE00402-NC_r_1_s_100	None	0
-32	33	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00402-NC not in BOLD	None	BLAST	family	533	876		BGE00402-NC_r_1.3_s_50	None	0
-31	32	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00402-NC not in BOLD	None	BLAST	family	533	876		BGE00402-NC_r_1.3_s_100	None	0
-44	44	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00402-NC not in BOLD	None	BLAST	family	410	516		BGE00402-NC_r_1.5_s_50	None	12
-44	44	data/BGE00402_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00402-NC not in BOLD	None	BLAST	family	410	516		BGE00402-NC_r_1.5_s_100	None	12

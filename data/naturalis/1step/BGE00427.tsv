@@ -569,9 +569,3 @@ None	0	data/BGE00427_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00427_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Buprestidae	BLAST	family	655	1524	Buprestidae	UNIFI665-24_r_1.3_s_100	Sphenoptera lapidaria	0
 0	0	data/BGE00427_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Buprestidae	BLAST	family	655	1473	Buprestidae	UNIFI665-24_r_1.5_s_50	Sphenoptera lapidaria	0
 0	0	data/BGE00427_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Buprestidae	BLAST	family	655	1464	Buprestidae	UNIFI665-24_r_1.5_s_100	Sphenoptera lapidaria	0
-0	0	data/BGE00427_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00427-NC not in BOLD	None	BLAST	family	278	396		BGE00427-NC_r_1_s_50	None	0
-0	0	data/BGE00427_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00427-NC not in BOLD	None	BLAST	family	278	396		BGE00427-NC_r_1_s_100	None	0
-0	0	data/BGE00427_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00427-NC not in BOLD	None	BLAST	family	122	147		BGE00427-NC_r_1.3_s_50	None	0
-0	0	data/BGE00427_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00427-NC not in BOLD	None	BLAST	family	122	147		BGE00427-NC_r_1.3_s_100	None	0
-None	0	data/BGE00427_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00427-NC not in BOLD	None	BLAST	family	None	0		BGE00427-NC_r_1.5_s_50	None	0
-None	0	data/BGE00427_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00427-NC not in BOLD	None	BLAST	family	None	0		BGE00427-NC_r_1.5_s_100	None	0

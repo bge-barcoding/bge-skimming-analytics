@@ -569,9 +569,3 @@ None	0	data/BGE00309_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 None	0	data/BGE00309_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Autostichidae	BLAST	family	None	0		BGSNL1615-24_r_1.3_s_100	Aprominta reisseri	0
 0	0	data/BGE00309_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Autostichidae	BLAST	family	29	51	Tabanidae,Zygaenidae,Noctuidae,Erebidae,Crambidae	BGSNL1615-24_r_1.5_s_50	Aprominta reisseri	0
 None	0	data/BGE00309_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Autostichidae	BLAST	family	None	0		BGSNL1615-24_r_1.5_s_100	Aprominta reisseri	0
-4	34	data/BGE00309_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00309-NC not in BOLD	None	BLAST	family	567	1236		BGE00309-NC_r_1_s_50	None	0
-3	23	data/BGE00309_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00309-NC not in BOLD	None	BLAST	family	511	1113		BGE00309-NC_r_1_s_100	None	0
-0	0	data/BGE00309_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00309-NC not in BOLD	None	BLAST	family	220	699		BGE00309-NC_r_1.3_s_50	None	0
-0	0	data/BGE00309_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00309-NC not in BOLD	None	BLAST	family	158	507		BGE00309-NC_r_1.3_s_100	None	0
-0	0	data/BGE00309_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00309-NC not in BOLD	None	BLAST	family	120	474		BGE00309-NC_r_1.5_s_50	None	0
-0	0	data/BGE00309_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00309-NC not in BOLD	None	BLAST	family	117	351		BGE00309-NC_r_1.5_s_100	None	0

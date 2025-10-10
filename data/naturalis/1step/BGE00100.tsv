@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00100_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ochodaeidae	BLAST	family	657	1539	Scarabaeidae,Geotrupidae	BBIOP1995-24_r_1.3_s_100	Ochodaeus montanus	0
 0	1	data/BGE00100_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ochodaeidae	BLAST	family	657	1527	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP1995-24_r_1.5_s_50	Ochodaeus montanus	0
 0	0	data/BGE00100_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ochodaeidae	BLAST	family	657	1521	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP1995-24_r_1.5_s_100	Ochodaeus montanus	0
-0	8	data/BGE00100_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00100-NC not in BOLD	None	BLAST	family	490	903		BGE00100-NC_r_1_s_50	None	0
-0	0	data/BGE00100_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00100-NC not in BOLD	None	BLAST	family	280	633		BGE00100-NC_r_1_s_100	None	0
-0	0	data/BGE00100_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00100-NC not in BOLD	None	BLAST	family	156	447		BGE00100-NC_r_1.3_s_50	None	0
-0	0	data/BGE00100_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00100-NC not in BOLD	None	BLAST	family	91	336		BGE00100-NC_r_1.3_s_100	None	0
-None	0	data/BGE00100_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00100-NC not in BOLD	None	BLAST	family	None	0		BGE00100-NC_r_1.5_s_50	None	0
-None	0	data/BGE00100_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00100-NC not in BOLD	None	BLAST	family	None	0		BGE00100-NC_r_1.5_s_100	None	0

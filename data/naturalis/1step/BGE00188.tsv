@@ -569,9 +569,3 @@ None	0	data/BGE00188_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00188_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Coreidae	BLAST	family	655	1554	Rhopalidae,Alydidae,Coreidae,Stenocephalidae	BGENL2945-24_r_1.3_s_100	Coriomeris subglaber	0
 0	0	data/BGE00188_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Coreidae	BLAST	family	655	1554	Rhopalidae,Alydidae,Coreidae,Stenocephalidae	BGENL2945-24_r_1.5_s_50	Coriomeris subglaber	0
 0	0	data/BGE00188_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Coreidae	BLAST	family	655	1554	Rhopalidae,Alydidae,Coreidae,Stenocephalidae	BGENL2945-24_r_1.5_s_100	Coriomeris subglaber	0
-26	32	data/BGE00188_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00188-NC not in BOLD	None	BLAST	family	621	1290		BGE00188-NC_r_1_s_50	None	0
-41	56	data/BGE00188_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00188-NC not in BOLD	None	BLAST	family	466	1152		BGE00188-NC_r_1_s_100	None	0
-20	51	data/BGE00188_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00188-NC not in BOLD	None	BLAST	family	200	654		BGE00188-NC_r_1.3_s_50	None	0
-35	66	data/BGE00188_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00188-NC not in BOLD	None	BLAST	family	193	570		BGE00188-NC_r_1.3_s_100	None	0
-5	21	data/BGE00188_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00188-NC not in BOLD	None	BLAST	family	199	579		BGE00188-NC_r_1.5_s_50	None	0
-0	16	data/BGE00188_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00188-NC not in BOLD	None	BLAST	family	192	495		BGE00188-NC_r_1.5_s_100	None	0

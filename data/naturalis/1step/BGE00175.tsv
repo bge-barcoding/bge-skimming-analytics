@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00175_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	646	1422	Braconidae	BGENL855-24_r_1.3_s_100	Blacus nigricornis	0
 4	5	data/BGE00175_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	415	1239	Braconidae	BGENL855-24_r_1.5_s_50	Blacus nigricornis	0
 0	0	data/BGE00175_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	394	1119	Braconidae	BGENL855-24_r_1.5_s_100	Blacus nigricornis	0
-27	27	data/BGE00175_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00175-NC not in BOLD	None	BLAST	family	293	582		BGE00175-NC_r_1_s_50	None	0
-28	28	data/BGE00175_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00175-NC not in BOLD	None	BLAST	family	273	504		BGE00175-NC_r_1_s_100	None	0
-22	22	data/BGE00175_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00175-NC not in BOLD	None	BLAST	family	293	321		BGE00175-NC_r_1.3_s_50	None	0
-22	22	data/BGE00175_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00175-NC not in BOLD	None	BLAST	family	273	297		BGE00175-NC_r_1.3_s_100	None	0
-41	41	data/BGE00175_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00175-NC not in BOLD	None	BLAST	family	273	297		BGE00175-NC_r_1.5_s_50	None	0
-41	41	data/BGE00175_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00175-NC not in BOLD	None	BLAST	family	273	297		BGE00175-NC_r_1.5_s_100	None	0

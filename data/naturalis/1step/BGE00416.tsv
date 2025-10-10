@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00416_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mycetophilidae	BLAST	family	657	1533	Carabidae,Mycetophilidae,Lonchopteridae,Syrphidae,Muscidae,Rhiniidae,Rhagionidae	BGLIB1520-24_r_1.3_s_100	Sciophila hirta	0
 0	0	data/BGE00416_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mycetophilidae	BLAST	family	654	1533	Carabidae,Mycetophilidae,Lonchopteridae,Syrphidae,Tachinidae,Rhiniidae,Rhagionidae	BGLIB1520-24_r_1.5_s_50	Sciophila hirta	0
 0	0	data/BGE00416_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mycetophilidae	BLAST	family	645	1521	Mycetophilidae,Diopsidae,Agromyzidae,Tachinidae	BGLIB1520-24_r_1.5_s_100	Sciophila hirta	0
-0	0	data/BGE00416_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00416-NC not in BOLD	None	BLAST	family	539	1191		BGE00416-NC_r_1_s_50	None	0
-0	0	data/BGE00416_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00416-NC not in BOLD	None	BLAST	family	250	948		BGE00416-NC_r_1_s_100	None	0
-0	0	data/BGE00416_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00416-NC not in BOLD	None	BLAST	family	142	480		BGE00416-NC_r_1.3_s_50	None	0
-0	0	data/BGE00416_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00416-NC not in BOLD	None	BLAST	family	136	246		BGE00416-NC_r_1.3_s_100	None	0
-0	0	data/BGE00416_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00416-NC not in BOLD	None	BLAST	family	50	216		BGE00416-NC_r_1.5_s_50	None	0
-None	0	data/BGE00416_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00416-NC not in BOLD	None	BLAST	family	None	0		BGE00416-NC_r_1.5_s_100	None	0

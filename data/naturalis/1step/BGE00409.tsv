@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 1	1	data/BGE00409_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	548	1194	Braconidae,Ichneumonidae,Limacodidae,Nymphalidae	BGLIB855-24_r_1.3_s_100	Syrphoctonus dimidiatus	0
 0	1	data/BGE00409_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	647	1536	Braconidae,Ichneumonidae,Crambidae	BGLIB855-24_r_1.5_s_50	Syrphoctonus dimidiatus	0
 0	0	data/BGE00409_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	608	1083	Braconidae,Ichneumonidae	BGLIB855-24_r_1.5_s_100	Syrphoctonus dimidiatus	0
-2	3	data/BGE00409_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00409-NC not in BOLD	None	BLAST	family	277	642		BGE00409-NC_r_1_s_50	None	0
-2	2	data/BGE00409_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00409-NC not in BOLD	None	BLAST	family	273	567		BGE00409-NC_r_1_s_100	None	0
-1	1	data/BGE00409_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00409-NC not in BOLD	None	BLAST	family	273	468		BGE00409-NC_r_1.3_s_50	None	0
-1	1	data/BGE00409_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00409-NC not in BOLD	None	BLAST	family	273	438		BGE00409-NC_r_1.3_s_100	None	0
-1	1	data/BGE00409_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00409-NC not in BOLD	None	BLAST	family	121	177		BGE00409-NC_r_1.5_s_50	None	0
-1	1	data/BGE00409_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00409-NC not in BOLD	None	BLAST	family	121	147		BGE00409-NC_r_1.5_s_100	None	0

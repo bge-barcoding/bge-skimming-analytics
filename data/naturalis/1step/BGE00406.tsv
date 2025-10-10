@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	18	data/BGE00406_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	296	564	Ichneumonidae	BGLIB570-23_r_1.3_s_100	Phobocampe flavicincta	0
 6	20	data/BGE00406_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	417	819	Ichneumonidae	BGLIB570-23_r_1.5_s_50	Phobocampe flavicincta	0
 0	14	data/BGE00406_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	260	489	Ichneumonidae	BGLIB570-23_r_1.5_s_100	Phobocampe flavicincta	0
-0	0	data/BGE00406_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00406-NC not in BOLD	None	BLAST	family	227	321		BGE00406-NC_r_1_s_50	None	0
-0	0	data/BGE00406_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00406-NC not in BOLD	None	BLAST	family	125	192		BGE00406-NC_r_1_s_100	None	0
-0	0	data/BGE00406_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00406-NC not in BOLD	None	BLAST	family	161	243		BGE00406-NC_r_1.3_s_50	None	0
-0	0	data/BGE00406_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00406-NC not in BOLD	None	BLAST	family	125	192		BGE00406-NC_r_1.3_s_100	None	0
-0	0	data/BGE00406_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00406-NC not in BOLD	None	BLAST	family	161	243		BGE00406-NC_r_1.5_s_50	None	0
-0	0	data/BGE00406_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00406-NC not in BOLD	None	BLAST	family	125	192		BGE00406-NC_r_1.5_s_100	None	0

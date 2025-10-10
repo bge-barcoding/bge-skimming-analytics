@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 30	37	data/BGE00411_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scutelleridae	BLAST	family	623	1371	Miridae,Pentatomidae,Scutelleridae,Coreidae	BGLIB999-24_r_1.3_s_100	Eurygaster austriaca	0
 6	6	data/BGE00411_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scutelleridae	BLAST	family	629	1434	Scutelleridae	BGLIB999-24_r_1.5_s_50	Eurygaster austriaca	0
 8	10	data/BGE00411_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scutelleridae	BLAST	family	404	1107	Pentatomidae,Scutelleridae	BGLIB999-24_r_1.5_s_100	Eurygaster austriaca	0
-27	41	data/BGE00411_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00411-NC not in BOLD	None	BLAST	family	634	1293		BGE00411-NC_r_1_s_50	None	0
-23	34	data/BGE00411_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00411-NC not in BOLD	None	BLAST	family	476	1089		BGE00411-NC_r_1_s_100	None	0
-14	16	data/BGE00411_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00411-NC not in BOLD	None	BLAST	family	349	876		BGE00411-NC_r_1.3_s_50	None	0
-14	16	data/BGE00411_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00411-NC not in BOLD	None	BLAST	family	281	690		BGE00411-NC_r_1.3_s_100	None	0
-6	6	data/BGE00411_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00411-NC not in BOLD	None	BLAST	family	151	501		BGE00411-NC_r_1.5_s_50	None	0
-6	6	data/BGE00411_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00411-NC not in BOLD	None	BLAST	family	121	321		BGE00411-NC_r_1.5_s_100	None	0

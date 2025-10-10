@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	3	data/BGE00405_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	654	1494	Ichneumonidae	BGLIB190-23_r_1.3_s_100	Hoplismenus axillatorius	0
 0	0	data/BGE00405_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	633	1404	Ichneumonidae	BGLIB190-23_r_1.5_s_50	Hoplismenus axillatorius	0
 0	0	data/BGE00405_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Ichneumonidae	BLAST	family	633	1371	Ichneumonidae	BGLIB190-23_r_1.5_s_100	Hoplismenus axillatorius	0
-22	52	data/BGE00405_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00405-NC not in BOLD	None	BLAST	family	519	1110		BGE00405-NC_r_1_s_50	None	13
-13	27	data/BGE00405_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00405-NC not in BOLD	None	BLAST	family	301	813		BGE00405-NC_r_1_s_100	None	0
-9	32	data/BGE00405_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00405-NC not in BOLD	None	BLAST	family	354	942		BGE00405-NC_r_1.3_s_50	None	0
-0	20	data/BGE00405_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00405-NC not in BOLD	None	BLAST	family	115	654		BGE00405-NC_r_1.3_s_100	None	0
-0	0	data/BGE00405_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00405-NC not in BOLD	None	BLAST	family	87	456		BGE00405-NC_r_1.5_s_50	None	0
-0	0	data/BGE00405_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00405-NC not in BOLD	None	BLAST	family	87	264		BGE00405-NC_r_1.5_s_100	None	0

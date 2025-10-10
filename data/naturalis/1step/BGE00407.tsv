@@ -569,9 +569,3 @@ ambig_basecount	ambig_full_basecount	dataset	error	identification	identification
 0	0	data/BGE00407_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	653	1518	Scarabaeidae,Mutillidae,Formicidae,Riodinidae	BGLIB665-23_r_1.3_s_100	Mutilla europaea	0
 0	0	data/BGE00407_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	653	1518	Scarabaeidae,Mutillidae,Formicidae,Riodinidae	BGLIB665-23_r_1.5_s_50	Mutilla europaea	0
 0	0	data/BGE00407_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Mutillidae	BLAST	family	653	1518	Scarabaeidae,Mutillidae,Formicidae,Riodinidae	BGLIB665-23_r_1.5_s_100	Mutilla europaea	0
-19	50	data/BGE00407_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00407-NC not in BOLD	None	BLAST	family	614	1179		BGE00407-NC_r_1_s_50	None	0
-36	68	data/BGE00407_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00407-NC not in BOLD	None	BLAST	family	614	1143		BGE00407-NC_r_1_s_100	None	0
-20	47	data/BGE00407_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00407-NC not in BOLD	None	BLAST	family	482	1041		BGE00407-NC_r_1.3_s_50	None	0
-23	42	data/BGE00407_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00407-NC not in BOLD	None	BLAST	family	482	1002		BGE00407-NC_r_1.3_s_100	None	0
-7	20	data/BGE00407_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00407-NC not in BOLD	None	BLAST	family	281	723		BGE00407-NC_r_1.5_s_50	None	0
-5	16	data/BGE00407_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00407-NC not in BOLD	None	BLAST	family	272	627		BGE00407-NC_r_1.5_s_100	None	0

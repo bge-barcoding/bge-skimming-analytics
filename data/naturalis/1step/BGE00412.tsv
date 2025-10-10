@@ -569,9 +569,3 @@ None	0	data/BGE00412_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00412_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Lauxaniidae	BLAST	family	657	1533	Psilidae,Drosophilidae,Lauxaniidae	BGLIB1235-24_r_1.3_s_100	Eusapromyza multipunctata	0
 0	0	data/BGE00412_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Lauxaniidae	BLAST	family	657	1533	Psilidae,Drosophilidae,Lauxaniidae	BGLIB1235-24_r_1.5_s_50	Eusapromyza multipunctata	0
 0	0	data/BGE00412_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Lauxaniidae	BLAST	family	657	1533	Psilidae,Drosophilidae,Lauxaniidae	BGLIB1235-24_r_1.5_s_100	Eusapromyza multipunctata	0
-None	0	data/BGE00412_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00412-NC not in BOLD	None	BLAST	family	None	0		BGE00412-NC_r_1_s_50	None	0
-None	0	data/BGE00412_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00412-NC not in BOLD	None	BLAST	family	None	0		BGE00412-NC_r_1_s_100	None	0
-None	0	data/BGE00412_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00412-NC not in BOLD	None	BLAST	family	None	0		BGE00412-NC_r_1.3_s_50	None	0
-None	0	data/BGE00412_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00412-NC not in BOLD	None	BLAST	family	None	0		BGE00412-NC_r_1.3_s_100	None	0
-None	0	data/BGE00412_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00412-NC not in BOLD	None	BLAST	family	None	0		BGE00412-NC_r_1.5_s_50	None	0
-None	0	data/BGE00412_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00412-NC not in BOLD	None	BLAST	family	None	0		BGE00412-NC_r_1.5_s_100	None	0

@@ -569,9 +569,3 @@ None	0	data/BGE00168_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00168_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BGENL380-23_r_1.3_s_100	Serica	0
 0	0	data/BGE00168_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BGENL380-23_r_1.5_s_50	Serica	0
 0	0	data/BGE00168_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BGENL380-23_r_1.5_s_100	Serica	0
-0	0	data/BGE00168_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00168-NC not in BOLD	None	BLAST	family	656	1524		BGE00168-NC_r_1_s_50	None	0
-0	0	data/BGE00168_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00168-NC not in BOLD	None	BLAST	family	656	1524		BGE00168-NC_r_1_s_100	None	0
-0	0	data/BGE00168_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00168-NC not in BOLD	None	BLAST	family	656	1452		BGE00168-NC_r_1.3_s_50	None	0
-0	0	data/BGE00168_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00168-NC not in BOLD	None	BLAST	family	656	1383		BGE00168-NC_r_1.3_s_100	None	0
-0	0	data/BGE00168_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00168-NC not in BOLD	None	BLAST	family	638	1425		BGE00168-NC_r_1.5_s_50	None	0
-0	0	data/BGE00168_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00168-NC not in BOLD	None	BLAST	family	638	1365		BGE00168-NC_r_1.5_s_100	None	0

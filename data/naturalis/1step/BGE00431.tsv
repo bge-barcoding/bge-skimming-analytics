@@ -569,9 +569,3 @@ None	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	656	1533	Cerambycidae	UNIFI999-24_r_1.3_s_100	Stenopterus atricornis	0
 0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	656	1524	Cerambycidae	UNIFI999-24_r_1.5_s_50	Stenopterus atricornis	0
 0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	656	1509	Cerambycidae	UNIFI999-24_r_1.5_s_100	Stenopterus atricornis	0
-1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00431-NC not in BOLD	None	BLAST	family	425	858		BGE00431-NC_r_1_s_50	None	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00431-NC not in BOLD	None	BLAST	family	392	750		BGE00431-NC_r_1_s_100	None	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00431-NC not in BOLD	None	BLAST	family	145	330		BGE00431-NC_r_1.3_s_50	None	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00431-NC not in BOLD	None	BLAST	family	90	243		BGE00431-NC_r_1.3_s_100	None	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00431-NC not in BOLD	None	BLAST	family	31	138		BGE00431-NC_r_1.5_s_50	None	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00431-NC not in BOLD	None	BLAST	family	12	72		BGE00431-NC_r_1.5_s_100	None	0

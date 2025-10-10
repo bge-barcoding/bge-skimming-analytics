@@ -569,9 +569,3 @@ None	0	data/BGE00424_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for seq
 4	6	data/BGE00424_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Bostrichidae	BLAST	family	652	1488	Elmidae,Dermestidae,Bostrichidae	UNIFI380-23_r_1.3_s_100	Sinoxylon perforans	0
 2	3	data/BGE00424_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Bostrichidae	BLAST	family	652	1491	Dermestidae,Bostrichidae	UNIFI380-23_r_1.5_s_50	Sinoxylon perforans	0
 3	5	data/BGE00424_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Bostrichidae	BLAST	family	652	1458	Dermestidae,Bostrichidae	UNIFI380-23_r_1.5_s_100	Sinoxylon perforans	0
-0	0	data/BGE00424_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00424-NC not in BOLD	None	BLAST	family	61	471		BGE00424-NC_r_1_s_50	None	0
-0	0	data/BGE00424_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00424-NC not in BOLD	None	BLAST	family	80	294		BGE00424-NC_r_1_s_100	None	0
-0	0	data/BGE00424_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00424-NC not in BOLD	None	BLAST	family	58	177		BGE00424-NC_r_1.3_s_50	None	0
-None	0	data/BGE00424_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00424-NC not in BOLD	None	BLAST	family	None	0		BGE00424-NC_r_1.3_s_100	None	0
-0	0	data/BGE00424_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00424-NC not in BOLD	None	BLAST	family	1	84		BGE00424-NC_r_1.5_s_50	None	0
-None	0	data/BGE00424_MGE-BGE_r1_1.3_1.5_s50_100.fasta	BGE00424-NC not in BOLD	None	BLAST	family	None	0		BGE00424-NC_r_1.5_s_100	None	0
