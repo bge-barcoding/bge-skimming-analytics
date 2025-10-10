@@ -18,6 +18,31 @@ Genome skimming assembly and validation analytics for the BGE project. The roadm
 
 ## Scripts
 
+### analyze_tsv_coverage.py
+
+Analyzes header coverage patterns across all TSV files in the data folder.
+
+**Usage:**
+```bash
+python scripts/analyze_tsv_coverage.py [--output-dir DIR]
+```
+
+**Description:**
+
+This script analyzes all TSV files and compares their headers against the expected headers defined in `metadata/headers.tsv`. It groups files by their header coverage patterns and generates comprehensive reports including:
+
+- Summary report with all patterns
+- Detailed reports for each pattern
+- GitHub issue templates for tracking each pattern
+- JSON data for programmatic access
+
+The analysis found 5 unique coverage patterns across 168 TSV files, ranging from 23.2% to 69.6% coverage.
+
+**Options:**
+- `--output-dir`: Output directory for reports (default: `reports/coverage`)
+
+**Documentation:** See [docs/TSV_COVERAGE_ANALYSIS.md](docs/TSV_COVERAGE_ANALYSIS.md) for detailed information.
+
 ### fix_process_id_column.py
 
 Handles TSV files with a `process_id` column to ensure consistency with the `group_id` standard.
