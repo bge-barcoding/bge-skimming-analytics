@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Parse sequence_id to populate missing r, s, and group_id columns in TSV files.
+Parse sequence_id to populate missing r and s columns in TSV files.
 
 This script handles TSV files that have a sequence_id column with the pattern:
     <process_id>_r_<float>_s_<int>
@@ -10,10 +10,12 @@ Where:
 - r: A float value (MGE parameter r value)
 - s: An integer value (MGE parameter s value)
 
-If the file is missing r, s, and group_id columns, this script will:
+If the file is missing r and s columns, this script will:
 1. Parse the sequence_id to extract these values
-2. Add the three new columns to the TSV file
+2. Add the missing columns to the TSV file
 3. Populate them with the extracted values
+
+If group_id is also missing, it will be added as well.
 
 Usage: python scripts/parse_sequence_id_columns.py [--dry-run]
 """
@@ -60,7 +62,6 @@ def find_tsv_files_to_fix(data_dir: Path) -> List[Path]:
     A file needs fixing if:
     - It has no 'r' column
     - It has no 's' column
-    - It has no 'group_id' column
     - It has a 'sequence_id' column with the expected pattern
     
     Args:
@@ -80,10 +81,9 @@ def find_tsv_files_to_fix(data_dir: Path) -> List[Path]:
                 # Check if columns are missing
                 has_r = 'r' in headers
                 has_s = 's' in headers
-                has_group_id = 'group_id' in headers
                 has_sequence_id = 'sequence_id' in headers
                 
-                if not has_r and not has_s and not has_group_id and has_sequence_id:
+                if not has_r and not has_s and has_sequence_id:
                     # Check if at least one row has the expected pattern
                     for row in reader:
                         seq_id = row.get('sequence_id', '')
@@ -155,40 +155,66 @@ def fix_file(tsv_file: Path, dry_run: bool = False) -> bool:
         True if successful, False otherwise
     """
     try:
-        # Read the file
+        # Read the file using csv.reader to preserve all columns including duplicates
         with open(tsv_file, 'r', encoding='utf-8') as f:
-            reader = csv.DictReader(f, delimiter='\t')
-            fieldnames = list(reader.fieldnames)
+            reader = csv.reader(f, delimiter='\t')
+            header = next(reader)
             rows = list(reader)
         
-        # Add new columns at the end
-        new_fieldnames = fieldnames + ['group_id', 'r', 's']
+        # Determine which columns to add
+        has_group_id = 'group_id' in header
+        has_r = 'r' in header
+        has_s = 's' in header
+        
+        # Find the index of sequence_id column
+        try:
+            sequence_id_idx = header.index('sequence_id')
+        except ValueError:
+            print(f"Error: sequence_id column not found in {tsv_file}", file=sys.stderr)
+            return False
+        
+        # Add new columns at the end (only the ones that are missing)
+        columns_to_add = []
+        if not has_group_id:
+            columns_to_add.append('group_id')
+        if not has_r:
+            columns_to_add.append('r')
+        if not has_s:
+            columns_to_add.append('s')
+        
+        new_header = header + columns_to_add
         
         # Parse and populate new columns
         new_rows = []
         for row in rows:
             new_row = row.copy()
-            seq_id = row.get('sequence_id', '')
+            seq_id = row[sequence_id_idx] if sequence_id_idx < len(row) else ''
             parsed = parse_sequence_id(seq_id)
             
             if parsed:
                 group_id, r, s = parsed
-                new_row['group_id'] = group_id
-                new_row['r'] = r
-                new_row['s'] = s
+                if not has_group_id:
+                    new_row.append(group_id)
+                if not has_r:
+                    new_row.append(r)
+                if not has_s:
+                    new_row.append(s)
             else:
                 # If parsing fails, leave empty
-                new_row['group_id'] = ''
-                new_row['r'] = ''
-                new_row['s'] = ''
+                if not has_group_id:
+                    new_row.append('')
+                if not has_r:
+                    new_row.append('')
+                if not has_s:
+                    new_row.append('')
             
             new_rows.append(new_row)
         
         if not dry_run:
             # Write the modified file
             with open(tsv_file, 'w', encoding='utf-8', newline='') as f:
-                writer = csv.DictWriter(f, fieldnames=new_fieldnames, delimiter='\t')
-                writer.writeheader()
+                writer = csv.writer(f, delimiter='\t')
+                writer.writerow(new_header)
                 writer.writerows(new_rows)
         
         return True
@@ -201,7 +227,7 @@ def fix_file(tsv_file: Path, dry_run: bool = False) -> bool:
 def main():
     """Main function to run the sequence_id parser."""
     parser = argparse.ArgumentParser(
-        description='Parse sequence_id to populate missing r, s, and group_id columns'
+        description='Parse sequence_id to populate missing r and s columns'
     )
     parser.add_argument(
         '--dry-run',
@@ -217,7 +243,7 @@ def main():
     args = parser.parse_args()
     
     # Find files that need fixing
-    print(f"Scanning {args.data_dir} for TSV files with missing r, s, and group_id columns...")
+    print(f"Scanning {args.data_dir} for TSV files with missing r and s columns...")
     files_to_fix = find_tsv_files_to_fix(args.data_dir)
     
     if not files_to_fix:
