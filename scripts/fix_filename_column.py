@@ -50,12 +50,13 @@ def analyze_file(tsv_file: Path) -> Tuple[str, str]:
         
     Returns:
         Tuple of (action, message) where action is one of:
-        - 'remove': Remove Filename column (sequence_id exists and matches or follows Pattern 1)
+        - 'remove': Remove Filename column (sequence_id exists and matches Pattern 1 or Pattern 2)
         - 'keep': Values don't match pattern or no sequence_id, manual review needed
         - 'error': Error reading file
         
     Pattern 1: sequence_id is either equal to Filename or Filename + '_merge'
-    In this pattern, the sequence_id is correct and Filename can be removed.
+    Pattern 2: Filename is equal to sequence_id + '_' + group_id
+    In both patterns, the sequence_id is correct and Filename can be removed.
     """
     try:
         with open(tsv_file, 'r', encoding='utf-8') as f:
@@ -66,17 +67,19 @@ def analyze_file(tsv_file: Path) -> Tuple[str, str]:
                 return 'error', 'Filename column not found'
             
             has_sequence_id = 'sequence_id' in reader.fieldnames
+            has_group_id = 'group_id' in reader.fieldnames
             
             if not has_sequence_id:
                 return 'keep', 'sequence_id column absent, cannot remove Filename'
             
-            # Both columns exist, check if values match Pattern 1
-            pattern_1_violations = []
+            # Check if values match Pattern 1 or Pattern 2
+            pattern_violations = []
             row_num = 1
             for row in reader:
                 row_num += 1
                 filename_val = row.get('Filename', '').strip()
                 sequence_id_val = row.get('sequence_id', '').strip()
+                group_id_val = row.get('group_id', '').strip() if has_group_id else ''
                 
                 # Check if it matches Pattern 1:
                 # sequence_id == Filename OR sequence_id == Filename + '_merge'
@@ -85,19 +88,27 @@ def analyze_file(tsv_file: Path) -> Tuple[str, str]:
                     sequence_id_val == filename_val + '_merge'
                 )
                 
-                if not is_pattern_1:
-                    pattern_1_violations.append((row_num, filename_val, sequence_id_val))
-                    if len(pattern_1_violations) >= 5:  # Only report first 5 violations
+                # Check if it matches Pattern 2:
+                # Filename == sequence_id + '_' + group_id
+                is_pattern_2 = (
+                    has_group_id and 
+                    group_id_val and 
+                    filename_val == sequence_id_val + '_' + group_id_val
+                )
+                
+                if not is_pattern_1 and not is_pattern_2:
+                    pattern_violations.append((row_num, filename_val, sequence_id_val, group_id_val))
+                    if len(pattern_violations) >= 5:  # Only report first 5 violations
                         break
             
-            if pattern_1_violations:
+            if pattern_violations:
                 violation_details = '; '.join([
-                    f"row {r}: Filename='{f}' vs sequence_id='{s}'"
-                    for r, f, s in pattern_1_violations
+                    f"row {r}: Filename='{f}' vs sequence_id='{s}' vs group_id='{g}'"
+                    for r, f, s, g in pattern_violations
                 ])
-                return 'keep', f"Does not match Pattern 1 (sequence_id should be Filename or Filename + '_merge'): {violation_details}"
+                return 'keep', f"Does not match Pattern 1 or Pattern 2: {violation_details}"
             
-            return 'remove', 'Matches Pattern 1 (sequence_id is Filename or Filename + \'_merge\'), will remove Filename'
+            return 'remove', 'Matches Pattern 1 or Pattern 2, will remove Filename'
             
     except Exception as e:
         return 'error', f"Error reading file: {e}"
