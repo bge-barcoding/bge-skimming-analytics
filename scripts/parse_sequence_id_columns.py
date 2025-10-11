@@ -3,12 +3,22 @@
 Parse sequence_id to populate missing r and s columns in TSV files.
 
 This script handles TSV files that have a sequence_id column with the pattern:
-    <process_id>_r_<float>_s_<int>
+    <process_id>_r_<float>_s_<int>[_<process_id>][_fcleaner][_merge]
 
 Where:
 - process_id: A BOLD process ID (e.g., UNIFI571-24, BBIOP1901-24)
 - r: A float value (MGE parameter r value)
 - s: An integer value (MGE parameter s value)
+- The parts in brackets are optional:
+  - _<process_id>: The process ID may be repeated after _s_<int>
+  - _fcleaner: Optional suffix indicating fcleaner was used
+  - _merge: Optional suffix indicating merge was used
+
+Examples:
+- UNIFI571-24_r_1_s_50
+- MUSBA3189-25_r_1_s_50_MUSBA3189-25_merge
+- BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_fcleaner
+- BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_fcleaner_merge
 
 If the file is missing r and s columns, this script will:
 1. Parse the sequence_id to extract these values
@@ -32,7 +42,12 @@ def parse_sequence_id(sequence_id: str) -> Optional[Tuple[str, str, str]]:
     """
     Parse a sequence_id to extract group_id (process_id), r, and s values.
     
-    Pattern: <process_id>_r_<float>_s_<int>
+    Pattern: <process_id>_r_<float>_s_<int>[_<process_id>][_fcleaner][_merge]
+    
+    Where the parts in brackets are optional and can appear in any combination:
+    - _<process_id>: The process ID repeated
+    - _fcleaner: Optional fcleaner suffix
+    - _merge: Optional merge suffix
     
     Args:
         sequence_id: The sequence_id string to parse
@@ -40,10 +55,13 @@ def parse_sequence_id(sequence_id: str) -> Optional[Tuple[str, str, str]]:
     Returns:
         Tuple of (group_id, r, s) if pattern matches, None otherwise
     """
-    # Pattern: <process_id>_r_<float>_s_<int>
-    # Process ID pattern: capital letters and digits, dash, two more digits
-    # e.g., UNIFI571-24, BBIOP1901-24
-    pattern = r'^(.+)_r_([0-9.]+)_s_(\d+)$'
+    # Pattern: <process_id>_r_<float>_s_<int> followed by optional suffixes
+    # The process_id may be repeated, and/or followed by _fcleaner and/or _merge
+    # e.g., UNIFI571-24_r_1_s_50
+    #       MUSBA3189-25_r_1_s_50_MUSBA3189-25_merge
+    #       BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_fcleaner
+    #       BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_fcleaner_merge
+    pattern = r'^(.+?)_r_([0-9.]+)_s_(\d+)(?:_\1)?(?:_fcleaner)?(?:_merge)?$'
     match = re.match(pattern, sequence_id)
     
     if match:

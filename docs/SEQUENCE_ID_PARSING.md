@@ -5,25 +5,42 @@
 Some TSV files in the `data` directory had the following pattern:
 - No `r` column
 - No `s` column  
-- No `group_id` column
-- A `sequence_id` column with values following the pattern: `<process_id>_r_<float>_s_<int>`
+- No `group_id` column (or present but missing r and s)
+- A `sequence_id` column with values following the pattern: `<process_id>_r_<float>_s_<int>[_<process_id>][_fcleaner][_merge]`
 
-For example: `UNIFI571-24_r_1.3_s_50` where:
-- `UNIFI571-24` is the process ID (BOLD format)
-- `1.3` is the r value (MGE parameter)
-- `50` is the s value (MGE parameter)
+Examples:
+- `UNIFI571-24_r_1.3_s_50` - Simple pattern
+- `MUSBA3189-25_r_1_s_50_MUSBA3189-25_merge` - With repeated process_id and _merge suffix
+- `BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_fcleaner` - With repeated process_id and _fcleaner suffix
+- `BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_fcleaner_merge` - With repeated process_id and both suffixes
+
+Where:
+- `process_id` is the process ID (BOLD format, e.g., UNIFI571-24, MUSBA3189-25)
+- `r` is the r value (MGE parameter, float)
+- `s` is the s value (MGE parameter, integer)
+- The parts in brackets are optional:
+  - `_<process_id>`: The process ID may be repeated after _s_<int>
+  - `_fcleaner`: Optional suffix indicating fcleaner was used
+  - `_merge`: Optional suffix indicating merge was used
 
 ## Solution
 
 Created a Python script `scripts/parse_sequence_id_columns.py` that:
 
 1. Scans all TSV files in the data directory
-2. Identifies files missing `r`, `s`, and `group_id` columns but having `sequence_id` with the expected pattern
-3. Parses the `sequence_id` column using regex pattern: `^(.+)_r_([0-9.]+)_s_(\d+)$`
-4. Extracts and populates three new columns:
+2. Identifies files missing `r`, `s` columns (and optionally `group_id`) but having `sequence_id` with the expected pattern
+3. Parses the `sequence_id` column using regex pattern: `^(.+?)_r_([0-9.]+)_s_(\d+)(?:_\1)?(?:_fcleaner)?(?:_merge)?$`
+4. Extracts and populates new columns (if missing):
    - `group_id`: The process ID portion
    - `r`: The r parameter value (supports both integers and floats)
    - `s`: The s parameter value (integer)
+
+The regex pattern handles:
+- Simple pattern: `PROC_r_1_s_50`
+- With repeated process_id: `PROC_r_1_s_50_PROC`
+- With _fcleaner suffix: `PROC_r_1_s_50_PROC_fcleaner`
+- With _merge suffix: `PROC_r_1_s_50_PROC_merge`
+- With both suffixes: `PROC_r_1_s_50_PROC_fcleaner_merge`
 
 ## Usage
 
@@ -69,6 +86,11 @@ Comprehensive unit tests are provided in `tests/test_parse_sequence_id.py` cover
 - Valid sequence_id parsing with integers and floats
 - Invalid sequence_id patterns (missing r, missing s, no pattern)
 - Complex process IDs with underscores
+- Patterns with repeated process_id
+- Patterns with _merge suffix
+- Patterns with _fcleaner suffix
+- Patterns with _fcleaner_merge suffix
+- Patterns with optional suffixes without repeated process_id
 - File detection and analysis
 - Dry-run mode functionality
 - Data preservation during fixes
@@ -87,10 +109,24 @@ ambig_basecount	...	sequence_id	species	stop_codons
 2	...	UNIFI571-24_r_1_s_50	Anthaxia tenella	0
 ```
 
-### After
+### After (Simple pattern)
 ```tsv
 ambig_basecount	...	sequence_id	species	stop_codons	group_id	r	s
 2	...	UNIFI571-24_r_1_s_50	Anthaxia tenella	0	UNIFI571-24	1	50
+```
+
+### Before (With suffixes)
+```tsv
+group_id	sequence_id	species	stop_codons
+MUSBA3189-25	MUSBA3189-25_r_1.3_s_50_MUSBA3189-25_merge	Prostheceraeus	0
+BSCRO1521-25	BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_fcleaner_merge	Species name	0
+```
+
+### After (With suffixes)
+```tsv
+group_id	sequence_id	species	stop_codons	r	s
+MUSBA3189-25	MUSBA3189-25_r_1.3_s_50_MUSBA3189-25_merge	Prostheceraeus	0	1.3	50
+BSCRO1521-25	BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_fcleaner_merge	Species name	0	1.3	100
 ```
 
 ## Related Documentation
