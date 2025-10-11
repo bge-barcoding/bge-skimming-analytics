@@ -1,571 +1,571 @@
-ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	marker_code	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1000-24_r_1_s_50	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1000-24_r_1_s_100	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1000-24_r_1.3_s_50	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1000-24_r_1.3_s_100	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1494	Cerambycidae	UNIFI1000-24_r_1.5_s_50	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1494	Cerambycidae	UNIFI1000-24_r_1.5_s_100	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1001-24_r_1_s_50	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1001-24_r_1_s_100	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1001-24_r_1.3_s_50	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1001-24_r_1.3_s_100	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1503	Cerambycidae	UNIFI1001-24_r_1.5_s_50	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1503	Cerambycidae	UNIFI1001-24_r_1.5_s_100	Stenopterus atricornis	0
-34	62	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1503	Staphylinidae,Chrysomelidae,Cerambycidae,Empididae,Dolichopodidae,Calliphoridae	UNIFI1002-24_r_1_s_50	Stenurella approximans	0
-38	63	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	596	1437	Meloidae,Drosophilidae,Calliphoridae,Corydalidae	UNIFI1002-24_r_1_s_100	Stenurella approximans	0
-1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1002-24_r_1.3_s_50	Stenurella approximans	0
-13	28	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	597	1437	Cerambycidae	UNIFI1002-24_r_1.3_s_100	Stenurella approximans	0
-1	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	642	1452	Cerambycidae	UNIFI1002-24_r_1.5_s_50	Stenurella approximans	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	573	1377	Cerambycidae	UNIFI1002-24_r_1.5_s_100	Stenurella approximans	0
-1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1003-24_r_1_s_50	Stenurella approximans	0
-2	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1003-24_r_1_s_100	Stenurella approximans	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1003-24_r_1.3_s_50	Stenurella approximans	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1003-24_r_1.3_s_100	Stenurella approximans	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1464	Cerambycidae	UNIFI1003-24_r_1.5_s_50	Stenurella approximans	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1464	Cerambycidae	UNIFI1003-24_r_1.5_s_100	Stenurella approximans	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1004-24_r_1_s_50	Stenurella approximans	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1004-24_r_1_s_100	Stenurella approximans	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1004-24_r_1.3_s_50	Stenurella approximans	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1004-24_r_1.3_s_100	Stenurella approximans	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1004-24_r_1.5_s_50	Stenurella approximans	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1004-24_r_1.5_s_100	Stenurella approximans	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1005-24_r_1_s_50	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1005-24_r_1_s_100	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1005-24_r_1.3_s_50	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1005-24_r_1.3_s_100	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1005-24_r_1.5_s_50	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1005-24_r_1.5_s_100	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1006-24_r_1_s_50	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1006-24_r_1_s_100	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1006-24_r_1.3_s_50	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1006-24_r_1.3_s_100	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1006-24_r_1.5_s_50	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1006-24_r_1.5_s_100	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1007-24_r_1_s_50	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1007-24_r_1_s_100	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1007-24_r_1.3_s_50	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1007-24_r_1.3_s_100	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1007-24_r_1.5_s_50	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1007-24_r_1.5_s_100	Stictoleptura rufa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1008-24_r_1_s_50	Vadonia bipunctata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1008-24_r_1_s_100	Vadonia bipunctata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1008-24_r_1.3_s_50	Vadonia bipunctata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1008-24_r_1.3_s_100	Vadonia bipunctata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1008-24_r_1.5_s_50	Vadonia bipunctata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1008-24_r_1.5_s_100	Vadonia bipunctata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1009-24_r_1_s_50	Vadonia bisignata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1009-24_r_1_s_100	Vadonia bisignata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1009-24_r_1.3_s_50	Vadonia bisignata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1009-24_r_1.3_s_100	Vadonia bisignata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1009-24_r_1.5_s_50	Vadonia bisignata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1009-24_r_1.5_s_100	Vadonia bisignata	0
-17	49	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Staphylinidae,Culicidae,Syrphidae,Calliphoridae,Tortricidae,Crambidae	UNIFI1010-24_r_1_s_50	Vadonia bisignata	0
-12	32	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Alydidae,Chrysomelidae,Chironomidae,Syrphidae,Chloropidae,Calliphoridae	UNIFI1010-24_r_1_s_100	Vadonia bisignata	0
-3	9	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Carabidae,Sphaeroceridae,Muscidae,Calliphoridae,Tachinidae	UNIFI1010-24_r_1.3_s_50	Vadonia bisignata	0
-1	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Sphaeroceridae,Muscidae,Calliphoridae,Crambidae	UNIFI1010-24_r_1.3_s_100	Vadonia bisignata	0
-4	4	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	635	1464	Hydraenidae,Cerambycidae	UNIFI1010-24_r_1.5_s_50	Vadonia bisignata	0
-4	4	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	635	1452	Cerambycidae	UNIFI1010-24_r_1.5_s_100	Vadonia bisignata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1011-24_r_1_s_50	Vadonia bisignata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1011-24_r_1_s_100	Vadonia bisignata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1011-24_r_1.3_s_50	Vadonia bisignata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1011-24_r_1.3_s_100	Vadonia bisignata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1011-24_r_1.5_s_50	Vadonia bisignata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1011-24_r_1.5_s_100	Vadonia bisignata	0
-20	34	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	520	1305	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	UNIFI1012-24_r_1_s_50	Vadonia dojranensis	0
-0	21	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	279	954	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	UNIFI1012-24_r_1_s_100	Vadonia dojranensis	0
-19	41	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	504	1146	Chrysomelidae,Cerambycidae	UNIFI1012-24_r_1.3_s_50	Vadonia dojranensis	0
-0	20	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	279	804	Cleridae,Cryptophagidae,Cerambycidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	UNIFI1012-24_r_1.3_s_100	Vadonia dojranensis	0
-5	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	590	837	Cryptophagidae,Chrysomelidae,Cerambycidae	UNIFI1012-24_r_1.5_s_50	Vadonia dojranensis	1
-2	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	482	525	Carabidae,Cleridae,Cryptophagidae,Chrysomelidae,Cerambycidae	UNIFI1012-24_r_1.5_s_100	Vadonia dojranensis	1
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1013-24_r_1_s_50	Vadonia insidiosa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1013-24_r_1_s_100	Vadonia insidiosa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1013-24_r_1.3_s_50	Vadonia insidiosa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1013-24_r_1.3_s_100	Vadonia insidiosa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1013-24_r_1.5_s_50	Vadonia insidiosa	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1539	Cerambycidae	UNIFI1013-24_r_1.5_s_100	Vadonia insidiosa	0
-36	65	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Chrysomelidae,Cerambycidae,Nemonychidae	UNIFI1014-24_r_1_s_50	Xylosteus spinolae	0
-17	58	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	653	1485	Chrysomelidae,Cerambycidae,Curculionidae,Nemonychidae	UNIFI1014-24_r_1_s_100	Xylosteus spinolae	0
-6	23	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1539	Chrysomelidae,Cerambycidae	UNIFI1014-24_r_1.3_s_50	Xylosteus spinolae	0
-12	23	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	648	1479	Chrysomelidae,Cerambycidae	UNIFI1014-24_r_1.3_s_100	Xylosteus spinolae	0
-0	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	600	1449	Chrysomelidae,Cerambycidae	UNIFI1014-24_r_1.5_s_50	Xylosteus spinolae	0
-7	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	579	1338	Chrysomelidae,Cerambycidae	UNIFI1014-24_r_1.5_s_100	Xylosteus spinolae	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1015-24_r_1_s_50	Philothermus semistriatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1533	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1015-24_r_1_s_100	Philothermus semistriatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1015-24_r_1.3_s_50	Philothermus semistriatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1533	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1015-24_r_1.3_s_100	Philothermus semistriatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1539	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1015-24_r_1.5_s_50	Philothermus semistriatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1533	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1015-24_r_1.5_s_100	Philothermus semistriatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1016-24_r_1_s_50	Philothermus semistriatus	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1016-24_r_1_s_100	Philothermus semistriatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1016-24_r_1.3_s_50	Philothermus semistriatus	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1016-24_r_1.3_s_100	Philothermus semistriatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1016-24_r_1.5_s_50	Philothermus semistriatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1016-24_r_1.5_s_100	Philothermus semistriatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1017-24_r_1_s_50	Heterocnemis graeca	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1017-24_r_1_s_100	Heterocnemis graeca	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1017-24_r_1.3_s_50	Heterocnemis graeca	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1017-24_r_1.3_s_100	Heterocnemis graeca	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1017-24_r_1.5_s_50	Heterocnemis graeca	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1017-24_r_1.5_s_100	Heterocnemis graeca	0
-20	52	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Staphylinidae,Geotrupidae,Muscidae,Calliphoridae,Tachinidae	UNIFI1018-24_r_1_s_50	Heterocnemis graeca	0
-9	36	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Staphylinidae,Geotrupidae,Muscidae	UNIFI1018-24_r_1_s_100	Heterocnemis graeca	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1018-24_r_1.3_s_50	Heterocnemis graeca	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1018-24_r_1.3_s_100	Heterocnemis graeca	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1018-24_r_1.5_s_50	Heterocnemis graeca	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1018-24_r_1.5_s_100	Heterocnemis graeca	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1019-24_r_1_s_50	Heterocnemis graeca	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1019-24_r_1_s_100	Heterocnemis graeca	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1019-24_r_1.3_s_50	Heterocnemis graeca	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1019-24_r_1.3_s_100	Heterocnemis graeca	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1019-24_r_1.5_s_50	Heterocnemis graeca	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1019-24_r_1.5_s_100	Heterocnemis graeca	0
-15	42	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1020-24_r_1_s_50	Protaetia angustata	0
-8	35	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1020-24_r_1_s_100	Protaetia angustata	0
-3	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1020-24_r_1.3_s_50	Protaetia angustata	0
-3	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1020-24_r_1.3_s_100	Protaetia angustata	0
-1	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1020-24_r_1.5_s_50	Protaetia angustata	0
-1	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1020-24_r_1.5_s_100	Protaetia angustata	0
-28	77	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Carabidae,Scarabaeidae	UNIFI1021-24_r_1_s_50	Protaetia angustata	0
-25	66	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1021-24_r_1_s_100	Protaetia angustata	0
-20	20	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1021-24_r_1.3_s_50	Protaetia angustata	0
-17	18	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1021-24_r_1.3_s_100	Protaetia angustata	0
-2	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1021-24_r_1.5_s_50	Protaetia angustata	0
-3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1021-24_r_1.5_s_100	Protaetia angustata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1022-24_r_1_s_50	Protaetia angustata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1022-24_r_1_s_100	Protaetia angustata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1022-24_r_1.3_s_50	Protaetia angustata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1022-24_r_1.3_s_100	Protaetia angustata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1022-24_r_1.5_s_50	Protaetia angustata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1022-24_r_1.5_s_100	Protaetia angustata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1023-24_r_1_s_50	Protaetia cretica	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1023-24_r_1_s_100	Protaetia cretica	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1023-24_r_1.3_s_50	Protaetia cretica	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1023-24_r_1.3_s_100	Protaetia cretica	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1023-24_r_1.5_s_50	Protaetia cretica	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1023-24_r_1.5_s_100	Protaetia cretica	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1024-24_r_1_s_50	Protaetia ungarica	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1024-24_r_1_s_100	Protaetia ungarica	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1024-24_r_1.3_s_50	Protaetia ungarica	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1024-24_r_1.3_s_100	Protaetia ungarica	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1024-24_r_1.5_s_50	Protaetia ungarica	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1024-24_r_1.5_s_100	Protaetia ungarica	0
-9	32	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1025-24_r_1_s_50	Protaetia ungarica	0
-8	29	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	627	1500	Scarabaeidae	UNIFI1025-24_r_1_s_100	Protaetia ungarica	0
-7	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	630	1503	Scarabaeidae	UNIFI1025-24_r_1.3_s_50	Protaetia ungarica	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	606	1479	Scarabaeidae	UNIFI1025-24_r_1.3_s_100	Protaetia ungarica	0
-6	6	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	630	1503	Scarabaeidae	UNIFI1025-24_r_1.5_s_50	Protaetia ungarica	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	606	1479	Scarabaeidae	UNIFI1025-24_r_1.5_s_100	Protaetia ungarica	0
-47	111	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1527	Scarabaeidae	UNIFI1026-24_r_1_s_50	Protaetia ungarica	0
-46	110	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1527	Scarabaeidae	UNIFI1026-24_r_1_s_100	Protaetia ungarica	0
-33	72	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1527	Scarabaeidae,Muscidae	UNIFI1026-24_r_1.3_s_50	Protaetia ungarica	0
-25	54	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1527	Scarabaeidae,Syrphidae,Muscidae,Calliphoridae	UNIFI1026-24_r_1.3_s_100	Protaetia ungarica	0
-17	31	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1527	Scarabaeidae	UNIFI1026-24_r_1.5_s_50	Protaetia ungarica	0
-24	36	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	634	1506	Scarabaeidae	UNIFI1026-24_r_1.5_s_100	Protaetia ungarica	0
-62	152	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1027-24_r_1_s_50	Protaetia vidua	0
-50	114	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1527	Scarabaeidae,Curculionidae	UNIFI1027-24_r_1_s_100	Protaetia vidua	0
-36	75	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	620	1485	Scarabaeidae	UNIFI1027-24_r_1.3_s_50	Protaetia vidua	0
-33	69	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	621	1473	Hydraenidae,Scarabaeidae	UNIFI1027-24_r_1.3_s_100	Protaetia vidua	0
-7	11	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	558	1386	Staphylinidae,Silphidae,Scarabaeidae,Cleridae	UNIFI1027-24_r_1.5_s_50	Protaetia vidua	0
-8	9	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	513	1317	Staphylinidae,Silphidae,Cleridae,Calliphoridae	UNIFI1027-24_r_1.5_s_100	Protaetia vidua	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1028-24_r_1_s_50	Protaetia vidua	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1028-24_r_1_s_100	Protaetia vidua	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1028-24_r_1.3_s_50	Protaetia vidua	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1028-24_r_1.3_s_100	Protaetia vidua	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1028-24_r_1.5_s_50	Protaetia vidua	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1028-24_r_1.5_s_100	Protaetia vidua	0
-76	127	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1530	Scarabaeidae	UNIFI1029-24_r_1_s_50	Protaetia vidua	0
-67	111	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1530	Scarabaeidae	UNIFI1029-24_r_1_s_100	Protaetia vidua	0
-26	47	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	617	1479	Scarabaeidae	UNIFI1029-24_r_1.3_s_50	Protaetia vidua	0
-26	50	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	617	1476	Scarabaeidae	UNIFI1029-24_r_1.3_s_100	Protaetia vidua	0
-3	18	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	611	1389	Scarabaeidae	UNIFI1029-24_r_1.5_s_50	Protaetia vidua	0
-3	4	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	605	1359	Scarabaeidae	UNIFI1029-24_r_1.5_s_100	Protaetia vidua	0
-19	61	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1545	Chrysomelidae	UNIFI1030-24_r_1_s_50	Altica carduorum	0
-23	67	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1030-24_r_1_s_100	Altica carduorum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1030-24_r_1.3_s_50	Altica carduorum	0
-3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1030-24_r_1.3_s_100	Altica carduorum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1030-24_r_1.5_s_50	Altica carduorum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1030-24_r_1.5_s_100	Altica carduorum	0
-19	49	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1545	Chrysomelidae	UNIFI1031-24_r_1_s_50	Altica carduorum	0
-6	31	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1545	Chrysomelidae	UNIFI1031-24_r_1_s_100	Altica carduorum	0
-3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1031-24_r_1.3_s_50	Altica carduorum	0
-3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1031-24_r_1.3_s_100	Altica carduorum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1031-24_r_1.5_s_50	Altica carduorum	0
-1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1031-24_r_1.5_s_100	Altica carduorum	0
-0	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1032-24_r_1_s_50	Altica carduorum	0
-1	8	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1032-24_r_1_s_100	Altica carduorum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1032-24_r_1.3_s_50	Altica carduorum	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1032-24_r_1.3_s_100	Altica carduorum	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1032-24_r_1.5_s_50	Altica carduorum	0
-0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1032-24_r_1.5_s_100	Altica carduorum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1033-24_r_1_s_50	Altica impressicollis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1033-24_r_1_s_100	Altica impressicollis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1033-24_r_1.3_s_50	Altica impressicollis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1033-24_r_1.3_s_100	Altica impressicollis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1033-24_r_1.5_s_50	Altica impressicollis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1033-24_r_1.5_s_100	Altica impressicollis	0
-0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1034-24_r_1_s_50	Altica impressicollis	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1034-24_r_1_s_100	Altica impressicollis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1034-24_r_1.3_s_50	Altica impressicollis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1034-24_r_1.3_s_100	Altica impressicollis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1034-24_r_1.5_s_50	Altica impressicollis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1034-24_r_1.5_s_100	Altica impressicollis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1035-24_r_1_s_50	Aphthona carbonaria	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1035-24_r_1_s_100	Aphthona carbonaria	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1035-24_r_1.3_s_50	Aphthona carbonaria	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1035-24_r_1.3_s_100	Aphthona carbonaria	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1035-24_r_1.5_s_50	Aphthona carbonaria	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1035-24_r_1.5_s_100	Aphthona carbonaria	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1036-24_r_1_s_50	Aphthona flaviceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1036-24_r_1_s_100	Aphthona flaviceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1036-24_r_1.3_s_50	Aphthona flaviceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1036-24_r_1.3_s_100	Aphthona flaviceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1036-24_r_1.5_s_50	Aphthona flaviceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1036-24_r_1.5_s_100	Aphthona flaviceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1037-24_r_1_s_50	Aphthona flaviceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1037-24_r_1_s_100	Aphthona flaviceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1037-24_r_1.3_s_50	Aphthona flaviceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1037-24_r_1.3_s_100	Aphthona flaviceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1037-24_r_1.5_s_50	Aphthona flaviceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1037-24_r_1.5_s_100	Aphthona flaviceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1038-24_r_1_s_50	Aphthona illigeri	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1038-24_r_1_s_100	Aphthona illigeri	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1038-24_r_1.3_s_50	Aphthona illigeri	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1038-24_r_1.3_s_100	Aphthona illigeri	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1038-24_r_1.5_s_50	Aphthona illigeri	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1038-24_r_1.5_s_100	Aphthona illigeri	0
-None	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Chrysomelidae	BLAST	family	COI-5P	None	0		UNIFI1039-24_r_1_s_50	Aphthona nigriceps	0
-None	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Chrysomelidae	BLAST	family	COI-5P	None	0		UNIFI1039-24_r_1_s_100	Aphthona nigriceps	0
-None	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Chrysomelidae	BLAST	family	COI-5P	None	0		UNIFI1039-24_r_1.3_s_50	Aphthona nigriceps	0
-None	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Chrysomelidae	BLAST	family	COI-5P	None	0		UNIFI1039-24_r_1.3_s_100	Aphthona nigriceps	0
-None	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Chrysomelidae	BLAST	family	COI-5P	None	0		UNIFI1039-24_r_1.5_s_50	Aphthona nigriceps	0
-None	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Chrysomelidae	BLAST	family	COI-5P	None	0		UNIFI1039-24_r_1.5_s_100	Aphthona nigriceps	0
-13	40	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1536	Chrysomelidae	UNIFI1040-24_r_1_s_50	Aphthona nigriceps	0
-7	29	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1536	Chrysomelidae	UNIFI1040-24_r_1_s_100	Aphthona nigriceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1536	Chrysomelidae	UNIFI1040-24_r_1.3_s_50	Aphthona nigriceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1536	Chrysomelidae	UNIFI1040-24_r_1.3_s_100	Aphthona nigriceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1536	Chrysomelidae	UNIFI1040-24_r_1.5_s_50	Aphthona nigriceps	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1536	Chrysomelidae	UNIFI1040-24_r_1.5_s_100	Aphthona nigriceps	0
-7	17	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1041-24_r_1_s_50	Aphthona semicyanea	0
-3	13	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1041-24_r_1_s_100	Aphthona semicyanea	0
-2	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1041-24_r_1.3_s_50	Aphthona semicyanea	0
-2	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1041-24_r_1.3_s_100	Aphthona semicyanea	0
-0	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1041-24_r_1.5_s_50	Aphthona semicyanea	0
-0	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1041-24_r_1.5_s_100	Aphthona semicyanea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1042-24_r_1_s_50	Bruchidius ater	0
-1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1042-24_r_1_s_100	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1042-24_r_1.3_s_50	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1042-24_r_1.3_s_100	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1042-24_r_1.5_s_50	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1042-24_r_1.5_s_100	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1043-24_r_1_s_50	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1043-24_r_1_s_100	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1043-24_r_1.3_s_50	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1043-24_r_1.3_s_100	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1043-24_r_1.5_s_50	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1043-24_r_1.5_s_100	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1044-24_r_1_s_50	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1044-24_r_1_s_100	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1044-24_r_1.3_s_50	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1044-24_r_1.3_s_100	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1044-24_r_1.5_s_50	Bruchidius ater	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1044-24_r_1.5_s_100	Bruchidius ater	0
-18	26	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1542	Chrysomelidae	UNIFI1045-24_r_1_s_50	Bruchidius bimaculatus	0
-24	32	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1542	Chrysomelidae	UNIFI1045-24_r_1_s_100	Bruchidius bimaculatus	0
-7	8	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1542	Chrysomelidae	UNIFI1045-24_r_1.3_s_50	Bruchidius bimaculatus	0
-4	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1542	Chrysomelidae	UNIFI1045-24_r_1.3_s_100	Bruchidius bimaculatus	0
-3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1542	Chrysomelidae	UNIFI1045-24_r_1.5_s_50	Bruchidius bimaculatus	0
-2	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1542	Chrysomelidae	UNIFI1045-24_r_1.5_s_100	Bruchidius bimaculatus	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI951-24_r_1_s_50	Iberodorcadion circumcinctum	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI951-24_r_1_s_100	Iberodorcadion circumcinctum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI951-24_r_1.3_s_50	Iberodorcadion circumcinctum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI951-24_r_1.3_s_100	Iberodorcadion circumcinctum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1521	Cerambycidae	UNIFI951-24_r_1.5_s_50	Iberodorcadion circumcinctum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1521	Cerambycidae	UNIFI951-24_r_1.5_s_100	Iberodorcadion circumcinctum	0
-30	66	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	643	1437	Ephemerellidae	UNIFI952-24_r_1_s_50	Iberodorcadion circumcinctum	0
-21	41	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	547	1302	Ephemerellidae	UNIFI952-24_r_1_s_100	Iberodorcadion circumcinctum	0
-7	45	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	565	1230	Ephemerellidae	UNIFI952-24_r_1.3_s_50	Iberodorcadion circumcinctum	0
-7	50	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	472	990	Ephemerellidae	UNIFI952-24_r_1.3_s_100	Iberodorcadion circumcinctum	0
-0	19	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	288	822	Ephemerellidae	UNIFI952-24_r_1.5_s_50	Iberodorcadion circumcinctum	0
-0	26	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	239	630	Ephemerellidae	UNIFI952-24_r_1.5_s_100	Iberodorcadion circumcinctum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI953-24_r_1_s_50	Iberodorcadion marmottani	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI953-24_r_1_s_100	Iberodorcadion marmottani	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI953-24_r_1.3_s_50	Iberodorcadion marmottani	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI953-24_r_1.3_s_100	Iberodorcadion marmottani	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1515	Cerambycidae	UNIFI953-24_r_1.5_s_50	Iberodorcadion marmottani	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1500	Cerambycidae	UNIFI953-24_r_1.5_s_100	Iberodorcadion marmottani	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI954-24_r_1_s_50	Icosium tomentosum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI954-24_r_1_s_100	Icosium tomentosum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI954-24_r_1.3_s_50	Icosium tomentosum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI954-24_r_1.3_s_100	Icosium tomentosum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1521	Cerambycidae,Dermestidae	UNIFI954-24_r_1.5_s_50	Icosium tomentosum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1521	Cerambycidae,Dermestidae	UNIFI954-24_r_1.5_s_100	Icosium tomentosum	0
-2	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI955-24_r_1_s_50	Isotomus barbarae	0
-0	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Scarabaeidae,Cerambycidae	UNIFI955-24_r_1_s_100	Isotomus barbarae	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI955-24_r_1.3_s_50	Isotomus barbarae	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI955-24_r_1.3_s_100	Isotomus barbarae	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1503	Staphylinidae,Chrysomelidae,Cerambycidae	UNIFI955-24_r_1.5_s_50	Isotomus barbarae	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1437	Staphylinidae,Chrysomelidae,Cerambycidae	UNIFI955-24_r_1.5_s_100	Isotomus barbarae	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI956-24_r_1_s_50	Isotomus speciosus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI956-24_r_1_s_100	Isotomus speciosus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI956-24_r_1.3_s_50	Isotomus speciosus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI956-24_r_1.3_s_100	Isotomus speciosus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1503	Cerambycidae	UNIFI956-24_r_1.5_s_50	Isotomus speciosus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1455	Cerambycidae	UNIFI956-24_r_1.5_s_100	Isotomus speciosus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI957-24_r_1_s_50	Leiopus punctulatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI957-24_r_1_s_100	Leiopus punctulatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI957-24_r_1.3_s_50	Leiopus punctulatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI957-24_r_1.3_s_100	Leiopus punctulatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI957-24_r_1.5_s_50	Leiopus punctulatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI957-24_r_1.5_s_100	Leiopus punctulatus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI958-24_r_1_s_50	Isotomus barbarae	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI958-24_r_1_s_100	Isotomus barbarae	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI958-24_r_1.3_s_50	Isotomus barbarae	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI958-24_r_1.3_s_100	Isotomus barbarae	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1506	Staphylinidae,Chrysomelidae,Cerambycidae	UNIFI958-24_r_1.5_s_50	Isotomus barbarae	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1437	Staphylinidae,Chrysomelidae,Cerambycidae	UNIFI958-24_r_1.5_s_100	Isotomus barbarae	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI959-24_r_1_s_50	Phytoecia cephalotes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI959-24_r_1_s_100	Phytoecia cephalotes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI959-24_r_1.3_s_50	Phytoecia cephalotes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI959-24_r_1.3_s_100	Phytoecia cephalotes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI959-24_r_1.5_s_50	Phytoecia cephalotes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI959-24_r_1.5_s_100	Phytoecia cephalotes	0
-1	4	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI960-24_r_1_s_50	Neodorcadion virleti	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI960-24_r_1_s_100	Neodorcadion virleti	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI960-24_r_1.3_s_50	Neodorcadion virleti	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI960-24_r_1.3_s_100	Neodorcadion virleti	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1527	Cerambycidae	UNIFI960-24_r_1.5_s_50	Neodorcadion virleti	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1527	Cerambycidae	UNIFI960-24_r_1.5_s_100	Neodorcadion virleti	0
-9	9	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI961-24_r_1_s_50	Oberea euphorbiae	0
-6	6	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI961-24_r_1_s_100	Oberea euphorbiae	0
-3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI961-24_r_1.3_s_50	Oberea euphorbiae	0
-2	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI961-24_r_1.3_s_100	Oberea euphorbiae	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI961-24_r_1.5_s_50	Oberea euphorbiae	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI961-24_r_1.5_s_100	Oberea euphorbiae	0
-22	24	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI962-24_r_1_s_50	Oberea euphorbiae	0
-11	12	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI962-24_r_1_s_100	Oberea euphorbiae	0
-8	10	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI962-24_r_1.3_s_50	Oberea euphorbiae	0
-5	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI962-24_r_1.3_s_100	Oberea euphorbiae	0
-6	6	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI962-24_r_1.5_s_50	Oberea euphorbiae	0
-1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI962-24_r_1.5_s_100	Oberea euphorbiae	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI963-24_r_1_s_50	Phytoecia coerulescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI963-24_r_1_s_100	Phytoecia coerulescens	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI963-24_r_1.3_s_50	Phytoecia coerulescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI963-24_r_1.3_s_100	Phytoecia coerulescens	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI963-24_r_1.5_s_50	Phytoecia coerulescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI963-24_r_1.5_s_100	Phytoecia coerulescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI964-24_r_1_s_50	Phytoecia coerulescens	0
-0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI964-24_r_1_s_100	Phytoecia coerulescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI964-24_r_1.3_s_50	Phytoecia coerulescens	0
-0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI964-24_r_1.3_s_100	Phytoecia coerulescens	0
-0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI964-24_r_1.5_s_50	Phytoecia coerulescens	0
-0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI964-24_r_1.5_s_100	Phytoecia coerulescens	0
-3	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Culicidae,Syrphidae,Drosophilidae	UNIFI965-24_r_1_s_50	Phytoecia coerulescens	0
-2	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Syrphidae,Muscidae,Anthomyiidae	UNIFI965-24_r_1_s_100	Phytoecia coerulescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI965-24_r_1.3_s_50	Phytoecia coerulescens	0
-1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI965-24_r_1.3_s_100	Phytoecia coerulescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1527	Cerambycidae	UNIFI965-24_r_1.5_s_50	Phytoecia coerulescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1527	Cerambycidae	UNIFI965-24_r_1.5_s_100	Phytoecia coerulescens	0
-0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI966-24_r_1_s_50	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI966-24_r_1_s_100	Opsilia molybdaena	0
-0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI966-24_r_1.3_s_50	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI966-24_r_1.3_s_100	Opsilia molybdaena	0
-0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI966-24_r_1.5_s_50	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI966-24_r_1.5_s_100	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI967-24_r_1_s_50	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI967-24_r_1_s_100	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI967-24_r_1.3_s_50	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI967-24_r_1.3_s_100	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI967-24_r_1.5_s_50	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI967-24_r_1.5_s_100	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI968-24_r_1_s_50	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI968-24_r_1_s_100	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI968-24_r_1.3_s_50	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI968-24_r_1.3_s_100	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI968-24_r_1.5_s_50	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI968-24_r_1.5_s_100	Opsilia molybdaena	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI969-24_r_1_s_50	Neandra brunnea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1527	Staphylinidae,Cerambycidae	UNIFI969-24_r_1_s_100	Neandra brunnea	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI969-24_r_1.3_s_50	Neandra brunnea	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1527	Staphylinidae,Cerambycidae	UNIFI969-24_r_1.3_s_100	Neandra brunnea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1527	Staphylinidae,Cerambycidae	UNIFI969-24_r_1.5_s_50	Neandra brunnea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1521	Staphylinidae,Cerambycidae	UNIFI969-24_r_1.5_s_100	Neandra brunnea	0
-7	40	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	497	1290	Haliplidae,Chrysomelidae,Cerambycidae,Anthribidae,Anthomyiidae	UNIFI970-24_r_1_s_50	Parmena pubescens	0
-5	27	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	491	1161	Dytiscidae,Carabidae,Chrysomelidae,Pediciidae	UNIFI970-24_r_1_s_100	Parmena pubescens	0
-7	10	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	455	1080	Dytiscidae,Staphylinidae,Hydraenidae,Cerambycidae	UNIFI970-24_r_1.3_s_50	Parmena pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	416	852	Dytiscidae,Staphylinidae,Hydraenidae,Cerambycidae	UNIFI970-24_r_1.3_s_100	Parmena pubescens	0
-8	26	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	419	996	Dytiscidae,Hydraenidae,Cerambycidae	UNIFI970-24_r_1.5_s_50	Parmena pubescens	0
-0	18	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	416	852	Dytiscidae,Hydraenidae,Cerambycidae	UNIFI970-24_r_1.5_s_100	Parmena pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI971-24_r_1_s_50	Parmena unifasciata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI971-24_r_1_s_100	Parmena unifasciata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI971-24_r_1.3_s_50	Parmena unifasciata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI971-24_r_1.3_s_100	Parmena unifasciata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1518	Cerambycidae	UNIFI971-24_r_1.5_s_50	Parmena unifasciata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1518	Cerambycidae	UNIFI971-24_r_1.5_s_100	Parmena unifasciata	0
-1	14	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Staphylinidae,Chrysomelidae,Cerambycidae	UNIFI972-24_r_1_s_50	Parmena unifasciata	0
-0	14	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI972-24_r_1_s_100	Parmena unifasciata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1527	Cerambycidae	UNIFI972-24_r_1.3_s_50	Parmena unifasciata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1527	Cerambycidae	UNIFI972-24_r_1.3_s_100	Parmena unifasciata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1488	Cerambycidae	UNIFI972-24_r_1.5_s_50	Parmena unifasciata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1488	Cerambycidae	UNIFI972-24_r_1.5_s_100	Parmena unifasciata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI973-24_r_1_s_50	Parmena unifasciata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI973-24_r_1_s_100	Parmena unifasciata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI973-24_r_1.3_s_50	Parmena unifasciata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI973-24_r_1.3_s_100	Parmena unifasciata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1485	Cerambycidae	UNIFI973-24_r_1.5_s_50	Parmena unifasciata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1485	Cerambycidae	UNIFI973-24_r_1.5_s_100	Parmena unifasciata	0
-14	40	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	648	1410	Tettigoniidae,Ulidiidae,Vespidae	UNIFI974-24_r_1_s_50	Phytoecia caerulea	0
-8	35	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	650	1356	Tettigoniidae,Acrididae,Curculionidae,Psychodidae,Ulidiidae,Vespidae	UNIFI974-24_r_1_s_100	Phytoecia caerulea	0
-4	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	569	1239	Acrididae,Nitidulidae,Curculionidae,Dermestidae,Bostrichidae,Ptinidae,Vespidae,Tetracampidae	UNIFI974-24_r_1.3_s_50	Phytoecia caerulea	0
-4	6	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	521	1107	Tettigoniidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Ulidiidae,Vespidae,Tetracampidae	UNIFI974-24_r_1.3_s_100	Phytoecia caerulea	0
-5	11	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	183	462	Rhinotermitidae,Termitidae,Anthocoridae,Curculionidae	UNIFI974-24_r_1.5_s_50	Phytoecia caerulea	0
-5	11	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	174	372	Rhinotermitidae,Termitidae,Anthocoridae,Curculionidae	UNIFI974-24_r_1.5_s_100	Phytoecia caerulea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI975-24_r_1_s_50	Phytoecia caerulea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI975-24_r_1_s_100	Phytoecia caerulea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI975-24_r_1.3_s_50	Phytoecia caerulea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI975-24_r_1.3_s_100	Phytoecia caerulea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI975-24_r_1.5_s_50	Phytoecia caerulea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI975-24_r_1.5_s_100	Phytoecia caerulea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI976-24_r_1_s_50	Phytoecia caerulea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI976-24_r_1_s_100	Phytoecia caerulea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI976-24_r_1.3_s_50	Phytoecia caerulea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI976-24_r_1.3_s_100	Phytoecia caerulea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI976-24_r_1.5_s_50	Phytoecia caerulea	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI976-24_r_1.5_s_100	Phytoecia caerulea	0
-8	30	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI977-24_r_1_s_50	Phytoecia caerulea baccueti	0
-20	55	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1521	Cerambycidae	UNIFI977-24_r_1_s_100	Phytoecia caerulea baccueti	0
-0	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI977-24_r_1.3_s_50	Phytoecia caerulea baccueti	0
-0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1521	Cerambycidae	UNIFI977-24_r_1.3_s_100	Phytoecia caerulea baccueti	0
-0	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1521	Cerambycidae	UNIFI977-24_r_1.5_s_50	Phytoecia caerulea baccueti	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1506	Cerambycidae	UNIFI977-24_r_1.5_s_100	Phytoecia caerulea baccueti	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI978-24_r_1_s_50	Phytoecia caerulea baccueti	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI978-24_r_1_s_100	Phytoecia caerulea baccueti	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI978-24_r_1.3_s_50	Phytoecia caerulea baccueti	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI978-24_r_1.3_s_100	Phytoecia caerulea baccueti	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI978-24_r_1.5_s_50	Phytoecia caerulea baccueti	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI978-24_r_1.5_s_100	Phytoecia caerulea baccueti	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1539	Cerambycidae	UNIFI979-24_r_1_s_50	Phytoecia caerulea baccueti	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1539	Cerambycidae	UNIFI979-24_r_1_s_100	Phytoecia caerulea baccueti	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI979-24_r_1.3_s_50	Phytoecia caerulea baccueti	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI979-24_r_1.3_s_100	Phytoecia caerulea baccueti	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI979-24_r_1.5_s_50	Phytoecia caerulea baccueti	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI979-24_r_1.5_s_100	Phytoecia caerulea baccueti	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI980-24_r_1_s_50	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI980-24_r_1_s_100	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI980-24_r_1.3_s_50	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI980-24_r_1.3_s_100	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI980-24_r_1.5_s_50	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI980-24_r_1.5_s_100	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI981-24_r_1_s_50	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI981-24_r_1_s_100	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI981-24_r_1.3_s_50	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI981-24_r_1.3_s_100	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI981-24_r_1.5_s_50	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI981-24_r_1.5_s_100	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI982-24_r_1_s_50	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI982-24_r_1_s_100	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI982-24_r_1.3_s_50	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI982-24_r_1.3_s_100	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI982-24_r_1.5_s_50	Phytoecia pubescens	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI982-24_r_1.5_s_100	Phytoecia pubescens	0
-8	8	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Cerambycidae	UNIFI983-24_r_1_s_50	Phytoecia rufipes	0
-9	10	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Hydraenidae,Cryptophagidae,Scraptiidae,Chrysomelidae,Cerambycidae	UNIFI983-24_r_1_s_100	Phytoecia rufipes	0
-3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Cerambycidae	UNIFI983-24_r_1.3_s_50	Phytoecia rufipes	0
-6	6	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Cerambycidae	UNIFI983-24_r_1.3_s_100	Phytoecia rufipes	0
-1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	653	1470	Cerambycidae	UNIFI983-24_r_1.5_s_50	Phytoecia rufipes	0
-1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	650	1452	Staphylinidae,Hydraenidae,Byturidae,Cryptophagidae,Kateretidae,Cerambycidae	UNIFI983-24_r_1.5_s_100	Phytoecia rufipes	0
-20	54	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	582	1431	Cerambycidae	UNIFI984-24_r_1_s_50	Phytoecia rufipes	0
-41	77	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	336	1131	Hydraenidae,Chrysomelidae,Cerambycidae	UNIFI984-24_r_1_s_100	Phytoecia rufipes	0
-1	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	491	1197	Cerambycidae	UNIFI984-24_r_1.3_s_50	Phytoecia rufipes	0
-0	4	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	259	471	Termitidae,Romaleidae,Liviidae,Delphacidae,Chloropidae,Tephritidae,Platystomatidae,Sarcophagidae	UNIFI984-24_r_1.3_s_100	Phytoecia rufipes	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	343	840	Ptiliidae,Nitidulidae,Chrysomelidae,Cerambycidae	UNIFI984-24_r_1.5_s_50	Phytoecia rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	206	318	Cerambycidae	UNIFI984-24_r_1.5_s_100	Phytoecia rufipes	0
-6	20	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	COI-5P	657	1527	Cryptophagidae,Cerambycidae	UNIFI985-24_r_1_s_50	Pilemia inarmata	0
-0	11	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	COI-5P	657	1524	Cryptophagidae,Cerambycidae	UNIFI985-24_r_1_s_100	Pilemia inarmata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	COI-5P	657	1455	Cerambycidae	UNIFI985-24_r_1.3_s_50	Pilemia inarmata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	COI-5P	657	1452	Cerambycidae	UNIFI985-24_r_1.3_s_100	Pilemia inarmata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	COI-5P	639	1398	Cerambycidae	UNIFI985-24_r_1.5_s_50	Pilemia inarmata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	COI-5P	639	1395	Cerambycidae	UNIFI985-24_r_1.5_s_100	Pilemia inarmata	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI986-24_r_1_s_50	Plagionotus bobelayei	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI986-24_r_1_s_100	Plagionotus bobelayei	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI986-24_r_1.3_s_50	Plagionotus bobelayei	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI986-24_r_1.3_s_100	Plagionotus bobelayei	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI986-24_r_1.5_s_50	Plagionotus bobelayei	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI986-24_r_1.5_s_100	Plagionotus bobelayei	0
-29	87	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	590	1407		UNIFI987-24_r_1_s_50	Plagionotus siculus	0
-19	57	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	583	1293		UNIFI987-24_r_1_s_100	Plagionotus siculus	0
-3	39	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	165	951		UNIFI987-24_r_1.3_s_50	Plagionotus siculus	0
-0	20	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	135	567		UNIFI987-24_r_1.3_s_100	Plagionotus siculus	0
-0	21	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	89	546		UNIFI987-24_r_1.5_s_50	Plagionotus siculus	0
-1	10	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	94	309		UNIFI987-24_r_1.5_s_100	Plagionotus siculus	0
-5	22	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	488	1263		UNIFI988-24_r_1_s_50	Plagionotus siculus	0
-4	16	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	317	939		UNIFI988-24_r_1_s_100	Plagionotus siculus	0
-0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	103	618		UNIFI988-24_r_1.3_s_50	Plagionotus siculus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	50	420		UNIFI988-24_r_1.3_s_100	Plagionotus siculus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	51	192		UNIFI988-24_r_1.5_s_50	Plagionotus siculus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	50	108		UNIFI988-24_r_1.5_s_100	Plagionotus siculus	0
-4	4	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1530	Cerambycidae	UNIFI989-24_r_1_s_50	Poecilium fasciatum	0
-2	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1530	Cerambycidae	UNIFI989-24_r_1_s_100	Poecilium fasciatum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	644	1518	Cerambycidae	UNIFI989-24_r_1.3_s_50	Poecilium fasciatum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	632	1506	Cerambycidae	UNIFI989-24_r_1.3_s_100	Poecilium fasciatum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	608	1416		UNIFI989-24_r_1.5_s_50	Poecilium fasciatum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	608	1416		UNIFI989-24_r_1.5_s_100	Poecilium fasciatum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Anthicidae,Cerambycidae	UNIFI990-24_r_1_s_50	Poecilium pusillum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1530	Anthicidae,Cerambycidae	UNIFI990-24_r_1_s_100	Poecilium pusillum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1530	Anthicidae,Cerambycidae	UNIFI990-24_r_1.3_s_50	Poecilium pusillum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1527	Anthicidae,Cerambycidae	UNIFI990-24_r_1.3_s_100	Poecilium pusillum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	632	1482	Nitidulidae,Cerambycidae,Endomychidae	UNIFI990-24_r_1.5_s_50	Poecilium pusillum	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	632	1479	Nitidulidae,Cerambycidae,Endomychidae	UNIFI990-24_r_1.5_s_100	Poecilium pusillum	0
-0	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1530	Cerambycidae	UNIFI991-24_r_1_s_50	Poecilium rufipes	0
-0	4	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1530	Cerambycidae	UNIFI991-24_r_1_s_100	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1530	Cerambycidae	UNIFI991-24_r_1.3_s_50	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1527	Cerambycidae	UNIFI991-24_r_1.3_s_100	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	649	1443	Cucujidae,Tenebrionidae,Cerambycidae,Syrphidae	UNIFI991-24_r_1.5_s_50	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	649	1371	Cucujidae,Tenebrionidae,Cerambycidae,Syrphidae	UNIFI991-24_r_1.5_s_100	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1530	Cerambycidae	UNIFI992-24_r_1_s_50	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1530	Cerambycidae	UNIFI992-24_r_1_s_100	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1518	Staphylinidae,Cerambycidae	UNIFI992-24_r_1.3_s_50	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1506	Staphylinidae,Cerambycidae	UNIFI992-24_r_1.3_s_100	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	616	1425	Chrysomelidae,Cerambycidae	UNIFI992-24_r_1.5_s_50	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	616	1425	Chrysomelidae,Cerambycidae	UNIFI992-24_r_1.5_s_100	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1533	Cerambycidae	UNIFI993-24_r_1_s_50	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1530	Cerambycidae	UNIFI993-24_r_1_s_100	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1533	Cerambycidae	UNIFI993-24_r_1.3_s_50	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1530	Cerambycidae	UNIFI993-24_r_1.3_s_100	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1509	Staphylinidae,Cerambycidae	UNIFI993-24_r_1.5_s_50	Poecilium rufipes	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1503	Staphylinidae,Cerambycidae	UNIFI993-24_r_1.5_s_100	Poecilium rufipes	0
-2	14	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	608	1359	Reduviidae,Cicadellidae,Culicidae,Tabanidae,Eriocraniidae,Limacodidae,Nymphalidae,Geometridae	UNIFI994-24_r_1_s_50	Purpuricenus dalmatinus	0
-6	14	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	563	1356	Baetidae,Reduviidae,Cicadellidae,Leiodidae,Limoniidae,Agaonidae	UNIFI994-24_r_1_s_100	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	457	1056	Bothrideridae,Culicidae,Tabanidae,Agaonidae,Limacodidae,Nymphalidae,Hesperiidae	UNIFI994-24_r_1.3_s_50	Purpuricenus dalmatinus	0
-0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	147	807	Scarabaeidae,Agaonidae	UNIFI994-24_r_1.3_s_100	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	78	618	Staphylinidae,Scarabaeidae,Erotylidae,Agaonidae	UNIFI994-24_r_1.5_s_50	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	73	498	Agaonidae	UNIFI994-24_r_1.5_s_100	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI995-24_r_1_s_50	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI995-24_r_1_s_100	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI995-24_r_1.3_s_50	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI995-24_r_1.3_s_100	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI995-24_r_1.5_s_50	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI995-24_r_1.5_s_100	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI996-24_r_1_s_50	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI996-24_r_1_s_100	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI996-24_r_1.3_s_50	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI996-24_r_1.3_s_100	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI996-24_r_1.5_s_50	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI996-24_r_1.5_s_100	Purpuricenus dalmatinus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Cerambycidae	UNIFI997-24_r_1_s_50	Ropalopus insubricus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Cerambycidae	UNIFI997-24_r_1_s_100	Ropalopus insubricus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Cerambycidae	UNIFI997-24_r_1.3_s_50	Ropalopus insubricus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Cerambycidae	UNIFI997-24_r_1.3_s_100	Ropalopus insubricus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1515	Silvanidae,Chrysomelidae,Cerambycidae	UNIFI997-24_r_1.5_s_50	Ropalopus insubricus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1515	Silvanidae,Chrysomelidae,Cerambycidae	UNIFI997-24_r_1.5_s_100	Ropalopus insubricus	0
-27	47	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	622	1509	Carabidae,Cerambycidae	UNIFI998-24_r_1_s_50	Saphanus piceus	0
-21	59	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	624	1482	Leiodidae,Geotrupidae,Nitidulidae,Chrysomelidae,Cerambycidae	UNIFI998-24_r_1_s_100	Saphanus piceus	0
-3	17	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	590	1476	Tetratomidae,Chrysomelidae,Cerambycidae	UNIFI998-24_r_1.3_s_50	Saphanus piceus	0
-0	30	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	531	1350	Staphylinidae,Melyridae,Chrysomelidae,Cerambycidae,Crambidae	UNIFI998-24_r_1.3_s_100	Saphanus piceus	0
-3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	521	1404	Cucujidae,Nitidulidae,Cerambycidae	UNIFI998-24_r_1.5_s_50	Saphanus piceus	0
-0	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	476	1227	Staphylinidae,Scarabaeidae,Melyridae,Chrysomelidae,Cerambycidae,Calliphoridae,Plutellidae	UNIFI998-24_r_1.5_s_100	Saphanus piceus	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI999-24_r_1_s_50	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI999-24_r_1_s_100	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI999-24_r_1.3_s_50	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI999-24_r_1.3_s_100	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1524	Cerambycidae	UNIFI999-24_r_1.5_s_50	Stenopterus atricornis	0
-0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1509	Cerambycidae	UNIFI999-24_r_1.5_s_100	Stenopterus atricornis	0
+ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	marker_code	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons	group_id	r	s
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1000-24_r_1_s_50	Stenopterus atricornis	0	UNIFI1000-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1000-24_r_1_s_100	Stenopterus atricornis	0	UNIFI1000-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1000-24_r_1.3_s_50	Stenopterus atricornis	0	UNIFI1000-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1000-24_r_1.3_s_100	Stenopterus atricornis	0	UNIFI1000-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1494	Cerambycidae	UNIFI1000-24_r_1.5_s_50	Stenopterus atricornis	0	UNIFI1000-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1494	Cerambycidae	UNIFI1000-24_r_1.5_s_100	Stenopterus atricornis	0	UNIFI1000-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1001-24_r_1_s_50	Stenopterus atricornis	0	UNIFI1001-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1001-24_r_1_s_100	Stenopterus atricornis	0	UNIFI1001-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1001-24_r_1.3_s_50	Stenopterus atricornis	0	UNIFI1001-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI1001-24_r_1.3_s_100	Stenopterus atricornis	0	UNIFI1001-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1503	Cerambycidae	UNIFI1001-24_r_1.5_s_50	Stenopterus atricornis	0	UNIFI1001-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1503	Cerambycidae	UNIFI1001-24_r_1.5_s_100	Stenopterus atricornis	0	UNIFI1001-24	1.5	100
+34	62	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1503	Staphylinidae,Chrysomelidae,Cerambycidae,Empididae,Dolichopodidae,Calliphoridae	UNIFI1002-24_r_1_s_50	Stenurella approximans	0	UNIFI1002-24	1	50
+38	63	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	596	1437	Meloidae,Drosophilidae,Calliphoridae,Corydalidae	UNIFI1002-24_r_1_s_100	Stenurella approximans	0	UNIFI1002-24	1	100
+1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1002-24_r_1.3_s_50	Stenurella approximans	0	UNIFI1002-24	1.3	50
+13	28	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	597	1437	Cerambycidae	UNIFI1002-24_r_1.3_s_100	Stenurella approximans	0	UNIFI1002-24	1.3	100
+1	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	642	1452	Cerambycidae	UNIFI1002-24_r_1.5_s_50	Stenurella approximans	0	UNIFI1002-24	1.5	50
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	573	1377	Cerambycidae	UNIFI1002-24_r_1.5_s_100	Stenurella approximans	0	UNIFI1002-24	1.5	100
+1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1003-24_r_1_s_50	Stenurella approximans	0	UNIFI1003-24	1	50
+2	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1003-24_r_1_s_100	Stenurella approximans	0	UNIFI1003-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1003-24_r_1.3_s_50	Stenurella approximans	0	UNIFI1003-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1003-24_r_1.3_s_100	Stenurella approximans	0	UNIFI1003-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1464	Cerambycidae	UNIFI1003-24_r_1.5_s_50	Stenurella approximans	0	UNIFI1003-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1464	Cerambycidae	UNIFI1003-24_r_1.5_s_100	Stenurella approximans	0	UNIFI1003-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1004-24_r_1_s_50	Stenurella approximans	0	UNIFI1004-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1004-24_r_1_s_100	Stenurella approximans	0	UNIFI1004-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1004-24_r_1.3_s_50	Stenurella approximans	0	UNIFI1004-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1004-24_r_1.3_s_100	Stenurella approximans	0	UNIFI1004-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1004-24_r_1.5_s_50	Stenurella approximans	0	UNIFI1004-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1503	Cerambycidae	UNIFI1004-24_r_1.5_s_100	Stenurella approximans	0	UNIFI1004-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1005-24_r_1_s_50	Stictoleptura rufa	0	UNIFI1005-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1005-24_r_1_s_100	Stictoleptura rufa	0	UNIFI1005-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1005-24_r_1.3_s_50	Stictoleptura rufa	0	UNIFI1005-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1005-24_r_1.3_s_100	Stictoleptura rufa	0	UNIFI1005-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1005-24_r_1.5_s_50	Stictoleptura rufa	0	UNIFI1005-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1005-24_r_1.5_s_100	Stictoleptura rufa	0	UNIFI1005-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1006-24_r_1_s_50	Stictoleptura rufa	0	UNIFI1006-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1006-24_r_1_s_100	Stictoleptura rufa	0	UNIFI1006-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1006-24_r_1.3_s_50	Stictoleptura rufa	0	UNIFI1006-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1006-24_r_1.3_s_100	Stictoleptura rufa	0	UNIFI1006-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1006-24_r_1.5_s_50	Stictoleptura rufa	0	UNIFI1006-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1006-24_r_1.5_s_100	Stictoleptura rufa	0	UNIFI1006-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1007-24_r_1_s_50	Stictoleptura rufa	0	UNIFI1007-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1007-24_r_1_s_100	Stictoleptura rufa	0	UNIFI1007-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1007-24_r_1.3_s_50	Stictoleptura rufa	0	UNIFI1007-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1007-24_r_1.3_s_100	Stictoleptura rufa	0	UNIFI1007-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1007-24_r_1.5_s_50	Stictoleptura rufa	0	UNIFI1007-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1007-24_r_1.5_s_100	Stictoleptura rufa	0	UNIFI1007-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1008-24_r_1_s_50	Vadonia bipunctata	0	UNIFI1008-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1008-24_r_1_s_100	Vadonia bipunctata	0	UNIFI1008-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1008-24_r_1.3_s_50	Vadonia bipunctata	0	UNIFI1008-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1008-24_r_1.3_s_100	Vadonia bipunctata	0	UNIFI1008-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1008-24_r_1.5_s_50	Vadonia bipunctata	0	UNIFI1008-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1008-24_r_1.5_s_100	Vadonia bipunctata	0	UNIFI1008-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1009-24_r_1_s_50	Vadonia bisignata	0	UNIFI1009-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1009-24_r_1_s_100	Vadonia bisignata	0	UNIFI1009-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1009-24_r_1.3_s_50	Vadonia bisignata	0	UNIFI1009-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1009-24_r_1.3_s_100	Vadonia bisignata	0	UNIFI1009-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1009-24_r_1.5_s_50	Vadonia bisignata	0	UNIFI1009-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1009-24_r_1.5_s_100	Vadonia bisignata	0	UNIFI1009-24	1.5	100
+17	49	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Staphylinidae,Culicidae,Syrphidae,Calliphoridae,Tortricidae,Crambidae	UNIFI1010-24_r_1_s_50	Vadonia bisignata	0	UNIFI1010-24	1	50
+12	32	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Alydidae,Chrysomelidae,Chironomidae,Syrphidae,Chloropidae,Calliphoridae	UNIFI1010-24_r_1_s_100	Vadonia bisignata	0	UNIFI1010-24	1	100
+3	9	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Carabidae,Sphaeroceridae,Muscidae,Calliphoridae,Tachinidae	UNIFI1010-24_r_1.3_s_50	Vadonia bisignata	0	UNIFI1010-24	1.3	50
+1	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Sphaeroceridae,Muscidae,Calliphoridae,Crambidae	UNIFI1010-24_r_1.3_s_100	Vadonia bisignata	0	UNIFI1010-24	1.3	100
+4	4	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	635	1464	Hydraenidae,Cerambycidae	UNIFI1010-24_r_1.5_s_50	Vadonia bisignata	0	UNIFI1010-24	1.5	50
+4	4	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	635	1452	Cerambycidae	UNIFI1010-24_r_1.5_s_100	Vadonia bisignata	0	UNIFI1010-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1011-24_r_1_s_50	Vadonia bisignata	0	UNIFI1011-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1011-24_r_1_s_100	Vadonia bisignata	0	UNIFI1011-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1011-24_r_1.3_s_50	Vadonia bisignata	0	UNIFI1011-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1011-24_r_1.3_s_100	Vadonia bisignata	0	UNIFI1011-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1011-24_r_1.5_s_50	Vadonia bisignata	0	UNIFI1011-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1011-24_r_1.5_s_100	Vadonia bisignata	0	UNIFI1011-24	1.5	100
+20	34	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	520	1305	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	UNIFI1012-24_r_1_s_50	Vadonia dojranensis	0	UNIFI1012-24	1	50
+0	21	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	279	954	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	UNIFI1012-24_r_1_s_100	Vadonia dojranensis	0	UNIFI1012-24	1	100
+19	41	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	504	1146	Chrysomelidae,Cerambycidae	UNIFI1012-24_r_1.3_s_50	Vadonia dojranensis	0	UNIFI1012-24	1.3	50
+0	20	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	279	804	Cleridae,Cryptophagidae,Cerambycidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	UNIFI1012-24_r_1.3_s_100	Vadonia dojranensis	0	UNIFI1012-24	1.3	100
+5	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	590	837	Cryptophagidae,Chrysomelidae,Cerambycidae	UNIFI1012-24_r_1.5_s_50	Vadonia dojranensis	1	UNIFI1012-24	1.5	50
+2	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	482	525	Carabidae,Cleridae,Cryptophagidae,Chrysomelidae,Cerambycidae	UNIFI1012-24_r_1.5_s_100	Vadonia dojranensis	1	UNIFI1012-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1013-24_r_1_s_50	Vadonia insidiosa	0	UNIFI1013-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1013-24_r_1_s_100	Vadonia insidiosa	0	UNIFI1013-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1013-24_r_1.3_s_50	Vadonia insidiosa	0	UNIFI1013-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1545	Cerambycidae	UNIFI1013-24_r_1.3_s_100	Vadonia insidiosa	0	UNIFI1013-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI1013-24_r_1.5_s_50	Vadonia insidiosa	0	UNIFI1013-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1539	Cerambycidae	UNIFI1013-24_r_1.5_s_100	Vadonia insidiosa	0	UNIFI1013-24	1.5	100
+36	65	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Chrysomelidae,Cerambycidae,Nemonychidae	UNIFI1014-24_r_1_s_50	Xylosteus spinolae	0	UNIFI1014-24	1	50
+17	58	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	653	1485	Chrysomelidae,Cerambycidae,Curculionidae,Nemonychidae	UNIFI1014-24_r_1_s_100	Xylosteus spinolae	0	UNIFI1014-24	1	100
+6	23	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1539	Chrysomelidae,Cerambycidae	UNIFI1014-24_r_1.3_s_50	Xylosteus spinolae	0	UNIFI1014-24	1.3	50
+12	23	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	648	1479	Chrysomelidae,Cerambycidae	UNIFI1014-24_r_1.3_s_100	Xylosteus spinolae	0	UNIFI1014-24	1.3	100
+0	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	600	1449	Chrysomelidae,Cerambycidae	UNIFI1014-24_r_1.5_s_50	Xylosteus spinolae	0	UNIFI1014-24	1.5	50
+7	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	579	1338	Chrysomelidae,Cerambycidae	UNIFI1014-24_r_1.5_s_100	Xylosteus spinolae	0	UNIFI1014-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1015-24_r_1_s_50	Philothermus semistriatus	0	UNIFI1015-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1533	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1015-24_r_1_s_100	Philothermus semistriatus	0	UNIFI1015-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1015-24_r_1.3_s_50	Philothermus semistriatus	0	UNIFI1015-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1533	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1015-24_r_1.3_s_100	Philothermus semistriatus	0	UNIFI1015-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1539	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1015-24_r_1.5_s_50	Philothermus semistriatus	0	UNIFI1015-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1533	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1015-24_r_1.5_s_100	Philothermus semistriatus	0	UNIFI1015-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1016-24_r_1_s_50	Philothermus semistriatus	0	UNIFI1016-24	1	50
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1016-24_r_1_s_100	Philothermus semistriatus	0	UNIFI1016-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1016-24_r_1.3_s_50	Philothermus semistriatus	0	UNIFI1016-24	1.3	50
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1016-24_r_1.3_s_100	Philothermus semistriatus	0	UNIFI1016-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1016-24_r_1.5_s_50	Philothermus semistriatus	0	UNIFI1016-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerylonidae	BLAST	family	COI-5P	656	1542	Cleridae,Pyrochroidae,Bothrideridae,Cerylonidae	UNIFI1016-24_r_1.5_s_100	Philothermus semistriatus	0	UNIFI1016-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1017-24_r_1_s_50	Heterocnemis graeca	0	UNIFI1017-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1017-24_r_1_s_100	Heterocnemis graeca	0	UNIFI1017-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1017-24_r_1.3_s_50	Heterocnemis graeca	0	UNIFI1017-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1017-24_r_1.3_s_100	Heterocnemis graeca	0	UNIFI1017-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1017-24_r_1.5_s_50	Heterocnemis graeca	0	UNIFI1017-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1017-24_r_1.5_s_100	Heterocnemis graeca	0	UNIFI1017-24	1.5	100
+20	52	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Staphylinidae,Geotrupidae,Muscidae,Calliphoridae,Tachinidae	UNIFI1018-24_r_1_s_50	Heterocnemis graeca	0	UNIFI1018-24	1	50
+9	36	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Staphylinidae,Geotrupidae,Muscidae	UNIFI1018-24_r_1_s_100	Heterocnemis graeca	0	UNIFI1018-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1018-24_r_1.3_s_50	Heterocnemis graeca	0	UNIFI1018-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1018-24_r_1.3_s_100	Heterocnemis graeca	0	UNIFI1018-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1018-24_r_1.5_s_50	Heterocnemis graeca	0	UNIFI1018-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1018-24_r_1.5_s_100	Heterocnemis graeca	0	UNIFI1018-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1019-24_r_1_s_50	Heterocnemis graeca	0	UNIFI1019-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1019-24_r_1_s_100	Heterocnemis graeca	0	UNIFI1019-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1019-24_r_1.3_s_50	Heterocnemis graeca	0	UNIFI1019-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1019-24_r_1.3_s_100	Heterocnemis graeca	0	UNIFI1019-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1019-24_r_1.5_s_50	Heterocnemis graeca	0	UNIFI1019-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1019-24_r_1.5_s_100	Heterocnemis graeca	0	UNIFI1019-24	1.5	100
+15	42	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1020-24_r_1_s_50	Protaetia angustata	0	UNIFI1020-24	1	50
+8	35	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1020-24_r_1_s_100	Protaetia angustata	0	UNIFI1020-24	1	100
+3	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1020-24_r_1.3_s_50	Protaetia angustata	0	UNIFI1020-24	1.3	50
+3	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1020-24_r_1.3_s_100	Protaetia angustata	0	UNIFI1020-24	1.3	100
+1	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1020-24_r_1.5_s_50	Protaetia angustata	0	UNIFI1020-24	1.5	50
+1	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1020-24_r_1.5_s_100	Protaetia angustata	0	UNIFI1020-24	1.5	100
+28	77	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Carabidae,Scarabaeidae	UNIFI1021-24_r_1_s_50	Protaetia angustata	0	UNIFI1021-24	1	50
+25	66	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1021-24_r_1_s_100	Protaetia angustata	0	UNIFI1021-24	1	100
+20	20	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1021-24_r_1.3_s_50	Protaetia angustata	0	UNIFI1021-24	1.3	50
+17	18	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1021-24_r_1.3_s_100	Protaetia angustata	0	UNIFI1021-24	1.3	100
+2	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1021-24_r_1.5_s_50	Protaetia angustata	0	UNIFI1021-24	1.5	50
+3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1021-24_r_1.5_s_100	Protaetia angustata	0	UNIFI1021-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1022-24_r_1_s_50	Protaetia angustata	0	UNIFI1022-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1022-24_r_1_s_100	Protaetia angustata	0	UNIFI1022-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1022-24_r_1.3_s_50	Protaetia angustata	0	UNIFI1022-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1022-24_r_1.3_s_100	Protaetia angustata	0	UNIFI1022-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1022-24_r_1.5_s_50	Protaetia angustata	0	UNIFI1022-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1022-24_r_1.5_s_100	Protaetia angustata	0	UNIFI1022-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1023-24_r_1_s_50	Protaetia cretica	0	UNIFI1023-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1023-24_r_1_s_100	Protaetia cretica	0	UNIFI1023-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1023-24_r_1.3_s_50	Protaetia cretica	0	UNIFI1023-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1023-24_r_1.3_s_100	Protaetia cretica	0	UNIFI1023-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1023-24_r_1.5_s_50	Protaetia cretica	0	UNIFI1023-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1023-24_r_1.5_s_100	Protaetia cretica	0	UNIFI1023-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1024-24_r_1_s_50	Protaetia ungarica	0	UNIFI1024-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1024-24_r_1_s_100	Protaetia ungarica	0	UNIFI1024-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1024-24_r_1.3_s_50	Protaetia ungarica	0	UNIFI1024-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1024-24_r_1.3_s_100	Protaetia ungarica	0	UNIFI1024-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1024-24_r_1.5_s_50	Protaetia ungarica	0	UNIFI1024-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	UNIFI1024-24_r_1.5_s_100	Protaetia ungarica	0	UNIFI1024-24	1.5	100
+9	32	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1025-24_r_1_s_50	Protaetia ungarica	0	UNIFI1025-24	1	50
+8	29	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	627	1500	Scarabaeidae	UNIFI1025-24_r_1_s_100	Protaetia ungarica	0	UNIFI1025-24	1	100
+7	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	630	1503	Scarabaeidae	UNIFI1025-24_r_1.3_s_50	Protaetia ungarica	0	UNIFI1025-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	606	1479	Scarabaeidae	UNIFI1025-24_r_1.3_s_100	Protaetia ungarica	0	UNIFI1025-24	1.3	100
+6	6	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	630	1503	Scarabaeidae	UNIFI1025-24_r_1.5_s_50	Protaetia ungarica	0	UNIFI1025-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	606	1479	Scarabaeidae	UNIFI1025-24_r_1.5_s_100	Protaetia ungarica	0	UNIFI1025-24	1.5	100
+47	111	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1527	Scarabaeidae	UNIFI1026-24_r_1_s_50	Protaetia ungarica	0	UNIFI1026-24	1	50
+46	110	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1527	Scarabaeidae	UNIFI1026-24_r_1_s_100	Protaetia ungarica	0	UNIFI1026-24	1	100
+33	72	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1527	Scarabaeidae,Muscidae	UNIFI1026-24_r_1.3_s_50	Protaetia ungarica	0	UNIFI1026-24	1.3	50
+25	54	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1527	Scarabaeidae,Syrphidae,Muscidae,Calliphoridae	UNIFI1026-24_r_1.3_s_100	Protaetia ungarica	0	UNIFI1026-24	1.3	100
+17	31	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1527	Scarabaeidae	UNIFI1026-24_r_1.5_s_50	Protaetia ungarica	0	UNIFI1026-24	1.5	50
+24	36	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	634	1506	Scarabaeidae	UNIFI1026-24_r_1.5_s_100	Protaetia ungarica	0	UNIFI1026-24	1.5	100
+62	152	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1027-24_r_1_s_50	Protaetia vidua	0	UNIFI1027-24	1	50
+50	114	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1527	Scarabaeidae,Curculionidae	UNIFI1027-24_r_1_s_100	Protaetia vidua	0	UNIFI1027-24	1	100
+36	75	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	620	1485	Scarabaeidae	UNIFI1027-24_r_1.3_s_50	Protaetia vidua	0	UNIFI1027-24	1.3	50
+33	69	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	621	1473	Hydraenidae,Scarabaeidae	UNIFI1027-24_r_1.3_s_100	Protaetia vidua	0	UNIFI1027-24	1.3	100
+7	11	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	558	1386	Staphylinidae,Silphidae,Scarabaeidae,Cleridae	UNIFI1027-24_r_1.5_s_50	Protaetia vidua	0	UNIFI1027-24	1.5	50
+8	9	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	513	1317	Staphylinidae,Silphidae,Cleridae,Calliphoridae	UNIFI1027-24_r_1.5_s_100	Protaetia vidua	0	UNIFI1027-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1028-24_r_1_s_50	Protaetia vidua	0	UNIFI1028-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1028-24_r_1_s_100	Protaetia vidua	0	UNIFI1028-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1028-24_r_1.3_s_50	Protaetia vidua	0	UNIFI1028-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1028-24_r_1.3_s_100	Protaetia vidua	0	UNIFI1028-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1028-24_r_1.5_s_50	Protaetia vidua	0	UNIFI1028-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	UNIFI1028-24_r_1.5_s_100	Protaetia vidua	0	UNIFI1028-24	1.5	100
+76	127	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1530	Scarabaeidae	UNIFI1029-24_r_1_s_50	Protaetia vidua	0	UNIFI1029-24	1	50
+67	111	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1530	Scarabaeidae	UNIFI1029-24_r_1_s_100	Protaetia vidua	0	UNIFI1029-24	1	100
+26	47	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	617	1479	Scarabaeidae	UNIFI1029-24_r_1.3_s_50	Protaetia vidua	0	UNIFI1029-24	1.3	50
+26	50	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	617	1476	Scarabaeidae	UNIFI1029-24_r_1.3_s_100	Protaetia vidua	0	UNIFI1029-24	1.3	100
+3	18	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	611	1389	Scarabaeidae	UNIFI1029-24_r_1.5_s_50	Protaetia vidua	0	UNIFI1029-24	1.5	50
+3	4	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	605	1359	Scarabaeidae	UNIFI1029-24_r_1.5_s_100	Protaetia vidua	0	UNIFI1029-24	1.5	100
+19	61	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1545	Chrysomelidae	UNIFI1030-24_r_1_s_50	Altica carduorum	0	UNIFI1030-24	1	50
+23	67	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1030-24_r_1_s_100	Altica carduorum	0	UNIFI1030-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1030-24_r_1.3_s_50	Altica carduorum	0	UNIFI1030-24	1.3	50
+3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1030-24_r_1.3_s_100	Altica carduorum	0	UNIFI1030-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1030-24_r_1.5_s_50	Altica carduorum	0	UNIFI1030-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1030-24_r_1.5_s_100	Altica carduorum	0	UNIFI1030-24	1.5	100
+19	49	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1545	Chrysomelidae	UNIFI1031-24_r_1_s_50	Altica carduorum	0	UNIFI1031-24	1	50
+6	31	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1545	Chrysomelidae	UNIFI1031-24_r_1_s_100	Altica carduorum	0	UNIFI1031-24	1	100
+3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1031-24_r_1.3_s_50	Altica carduorum	0	UNIFI1031-24	1.3	50
+3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1031-24_r_1.3_s_100	Altica carduorum	0	UNIFI1031-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1031-24_r_1.5_s_50	Altica carduorum	0	UNIFI1031-24	1.5	50
+1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1031-24_r_1.5_s_100	Altica carduorum	0	UNIFI1031-24	1.5	100
+0	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1032-24_r_1_s_50	Altica carduorum	0	UNIFI1032-24	1	50
+1	8	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1032-24_r_1_s_100	Altica carduorum	0	UNIFI1032-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1032-24_r_1.3_s_50	Altica carduorum	0	UNIFI1032-24	1.3	50
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1032-24_r_1.3_s_100	Altica carduorum	0	UNIFI1032-24	1.3	100
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1032-24_r_1.5_s_50	Altica carduorum	0	UNIFI1032-24	1.5	50
+0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1032-24_r_1.5_s_100	Altica carduorum	0	UNIFI1032-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1033-24_r_1_s_50	Altica impressicollis	0	UNIFI1033-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1033-24_r_1_s_100	Altica impressicollis	0	UNIFI1033-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1033-24_r_1.3_s_50	Altica impressicollis	0	UNIFI1033-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1033-24_r_1.3_s_100	Altica impressicollis	0	UNIFI1033-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1033-24_r_1.5_s_50	Altica impressicollis	0	UNIFI1033-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1033-24_r_1.5_s_100	Altica impressicollis	0	UNIFI1033-24	1.5	100
+0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1034-24_r_1_s_50	Altica impressicollis	0	UNIFI1034-24	1	50
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1034-24_r_1_s_100	Altica impressicollis	0	UNIFI1034-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1034-24_r_1.3_s_50	Altica impressicollis	0	UNIFI1034-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1034-24_r_1.3_s_100	Altica impressicollis	0	UNIFI1034-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1034-24_r_1.5_s_50	Altica impressicollis	0	UNIFI1034-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1545	Chrysomelidae	UNIFI1034-24_r_1.5_s_100	Altica impressicollis	0	UNIFI1034-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1035-24_r_1_s_50	Aphthona carbonaria	0	UNIFI1035-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1035-24_r_1_s_100	Aphthona carbonaria	0	UNIFI1035-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1035-24_r_1.3_s_50	Aphthona carbonaria	0	UNIFI1035-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1035-24_r_1.3_s_100	Aphthona carbonaria	0	UNIFI1035-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1035-24_r_1.5_s_50	Aphthona carbonaria	0	UNIFI1035-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1035-24_r_1.5_s_100	Aphthona carbonaria	0	UNIFI1035-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1036-24_r_1_s_50	Aphthona flaviceps	0	UNIFI1036-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1036-24_r_1_s_100	Aphthona flaviceps	0	UNIFI1036-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1036-24_r_1.3_s_50	Aphthona flaviceps	0	UNIFI1036-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1036-24_r_1.3_s_100	Aphthona flaviceps	0	UNIFI1036-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1036-24_r_1.5_s_50	Aphthona flaviceps	0	UNIFI1036-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1036-24_r_1.5_s_100	Aphthona flaviceps	0	UNIFI1036-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1037-24_r_1_s_50	Aphthona flaviceps	0	UNIFI1037-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1037-24_r_1_s_100	Aphthona flaviceps	0	UNIFI1037-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1037-24_r_1.3_s_50	Aphthona flaviceps	0	UNIFI1037-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1037-24_r_1.3_s_100	Aphthona flaviceps	0	UNIFI1037-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1037-24_r_1.5_s_50	Aphthona flaviceps	0	UNIFI1037-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1037-24_r_1.5_s_100	Aphthona flaviceps	0	UNIFI1037-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1038-24_r_1_s_50	Aphthona illigeri	0	UNIFI1038-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1038-24_r_1_s_100	Aphthona illigeri	0	UNIFI1038-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1038-24_r_1.3_s_50	Aphthona illigeri	0	UNIFI1038-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1038-24_r_1.3_s_100	Aphthona illigeri	0	UNIFI1038-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1038-24_r_1.5_s_50	Aphthona illigeri	0	UNIFI1038-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1038-24_r_1.5_s_100	Aphthona illigeri	0	UNIFI1038-24	1.5	100
+None	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Chrysomelidae	BLAST	family	COI-5P	None	0		UNIFI1039-24_r_1_s_50	Aphthona nigriceps	0	UNIFI1039-24	1	50
+None	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Chrysomelidae	BLAST	family	COI-5P	None	0		UNIFI1039-24_r_1_s_100	Aphthona nigriceps	0	UNIFI1039-24	1	100
+None	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Chrysomelidae	BLAST	family	COI-5P	None	0		UNIFI1039-24_r_1.3_s_50	Aphthona nigriceps	0	UNIFI1039-24	1.3	50
+None	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Chrysomelidae	BLAST	family	COI-5P	None	0		UNIFI1039-24_r_1.3_s_100	Aphthona nigriceps	0	UNIFI1039-24	1.3	100
+None	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Chrysomelidae	BLAST	family	COI-5P	None	0		UNIFI1039-24_r_1.5_s_50	Aphthona nigriceps	0	UNIFI1039-24	1.5	50
+None	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	Local BLAST failed for sequence ''	Chrysomelidae	BLAST	family	COI-5P	None	0		UNIFI1039-24_r_1.5_s_100	Aphthona nigriceps	0	UNIFI1039-24	1.5	100
+13	40	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1536	Chrysomelidae	UNIFI1040-24_r_1_s_50	Aphthona nigriceps	0	UNIFI1040-24	1	50
+7	29	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1536	Chrysomelidae	UNIFI1040-24_r_1_s_100	Aphthona nigriceps	0	UNIFI1040-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1536	Chrysomelidae	UNIFI1040-24_r_1.3_s_50	Aphthona nigriceps	0	UNIFI1040-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1536	Chrysomelidae	UNIFI1040-24_r_1.3_s_100	Aphthona nigriceps	0	UNIFI1040-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1536	Chrysomelidae	UNIFI1040-24_r_1.5_s_50	Aphthona nigriceps	0	UNIFI1040-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1536	Chrysomelidae	UNIFI1040-24_r_1.5_s_100	Aphthona nigriceps	0	UNIFI1040-24	1.5	100
+7	17	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1041-24_r_1_s_50	Aphthona semicyanea	0	UNIFI1041-24	1	50
+3	13	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1041-24_r_1_s_100	Aphthona semicyanea	0	UNIFI1041-24	1	100
+2	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1041-24_r_1.3_s_50	Aphthona semicyanea	0	UNIFI1041-24	1.3	50
+2	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1041-24_r_1.3_s_100	Aphthona semicyanea	0	UNIFI1041-24	1.3	100
+0	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1041-24_r_1.5_s_50	Aphthona semicyanea	0	UNIFI1041-24	1.5	50
+0	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1041-24_r_1.5_s_100	Aphthona semicyanea	0	UNIFI1041-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1042-24_r_1_s_50	Bruchidius ater	0	UNIFI1042-24	1	50
+1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1042-24_r_1_s_100	Bruchidius ater	0	UNIFI1042-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1042-24_r_1.3_s_50	Bruchidius ater	0	UNIFI1042-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1042-24_r_1.3_s_100	Bruchidius ater	0	UNIFI1042-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1042-24_r_1.5_s_50	Bruchidius ater	0	UNIFI1042-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1042-24_r_1.5_s_100	Bruchidius ater	0	UNIFI1042-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1043-24_r_1_s_50	Bruchidius ater	0	UNIFI1043-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1043-24_r_1_s_100	Bruchidius ater	0	UNIFI1043-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1043-24_r_1.3_s_50	Bruchidius ater	0	UNIFI1043-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1043-24_r_1.3_s_100	Bruchidius ater	0	UNIFI1043-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1043-24_r_1.5_s_50	Bruchidius ater	0	UNIFI1043-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1043-24_r_1.5_s_100	Bruchidius ater	0	UNIFI1043-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1044-24_r_1_s_50	Bruchidius ater	0	UNIFI1044-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1044-24_r_1_s_100	Bruchidius ater	0	UNIFI1044-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1044-24_r_1.3_s_50	Bruchidius ater	0	UNIFI1044-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1044-24_r_1.3_s_100	Bruchidius ater	0	UNIFI1044-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1044-24_r_1.5_s_50	Bruchidius ater	0	UNIFI1044-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	657	1542	Chrysomelidae	UNIFI1044-24_r_1.5_s_100	Bruchidius ater	0	UNIFI1044-24	1.5	100
+18	26	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1542	Chrysomelidae	UNIFI1045-24_r_1_s_50	Bruchidius bimaculatus	0	UNIFI1045-24	1	50
+24	32	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1542	Chrysomelidae	UNIFI1045-24_r_1_s_100	Bruchidius bimaculatus	0	UNIFI1045-24	1	100
+7	8	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1542	Chrysomelidae	UNIFI1045-24_r_1.3_s_50	Bruchidius bimaculatus	0	UNIFI1045-24	1.3	50
+4	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1542	Chrysomelidae	UNIFI1045-24_r_1.3_s_100	Bruchidius bimaculatus	0	UNIFI1045-24	1.3	100
+3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1542	Chrysomelidae	UNIFI1045-24_r_1.5_s_50	Bruchidius bimaculatus	0	UNIFI1045-24	1.5	50
+2	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Chrysomelidae	BLAST	family	COI-5P	656	1542	Chrysomelidae	UNIFI1045-24_r_1.5_s_100	Bruchidius bimaculatus	0	UNIFI1045-24	1.5	100
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI951-24_r_1_s_50	Iberodorcadion circumcinctum	0	UNIFI951-24	1	50
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI951-24_r_1_s_100	Iberodorcadion circumcinctum	0	UNIFI951-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI951-24_r_1.3_s_50	Iberodorcadion circumcinctum	0	UNIFI951-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI951-24_r_1.3_s_100	Iberodorcadion circumcinctum	0	UNIFI951-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1521	Cerambycidae	UNIFI951-24_r_1.5_s_50	Iberodorcadion circumcinctum	0	UNIFI951-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1521	Cerambycidae	UNIFI951-24_r_1.5_s_100	Iberodorcadion circumcinctum	0	UNIFI951-24	1.5	100
+30	66	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	643	1437	Ephemerellidae	UNIFI952-24_r_1_s_50	Iberodorcadion circumcinctum	0	UNIFI952-24	1	50
+21	41	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	547	1302	Ephemerellidae	UNIFI952-24_r_1_s_100	Iberodorcadion circumcinctum	0	UNIFI952-24	1	100
+7	45	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	565	1230	Ephemerellidae	UNIFI952-24_r_1.3_s_50	Iberodorcadion circumcinctum	0	UNIFI952-24	1.3	50
+7	50	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	472	990	Ephemerellidae	UNIFI952-24_r_1.3_s_100	Iberodorcadion circumcinctum	0	UNIFI952-24	1.3	100
+0	19	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	288	822	Ephemerellidae	UNIFI952-24_r_1.5_s_50	Iberodorcadion circumcinctum	0	UNIFI952-24	1.5	50
+0	26	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	239	630	Ephemerellidae	UNIFI952-24_r_1.5_s_100	Iberodorcadion circumcinctum	0	UNIFI952-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI953-24_r_1_s_50	Iberodorcadion marmottani	0	UNIFI953-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI953-24_r_1_s_100	Iberodorcadion marmottani	0	UNIFI953-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI953-24_r_1.3_s_50	Iberodorcadion marmottani	0	UNIFI953-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI953-24_r_1.3_s_100	Iberodorcadion marmottani	0	UNIFI953-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1515	Cerambycidae	UNIFI953-24_r_1.5_s_50	Iberodorcadion marmottani	0	UNIFI953-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1500	Cerambycidae	UNIFI953-24_r_1.5_s_100	Iberodorcadion marmottani	0	UNIFI953-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI954-24_r_1_s_50	Icosium tomentosum	0	UNIFI954-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI954-24_r_1_s_100	Icosium tomentosum	0	UNIFI954-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI954-24_r_1.3_s_50	Icosium tomentosum	0	UNIFI954-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI954-24_r_1.3_s_100	Icosium tomentosum	0	UNIFI954-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1521	Cerambycidae,Dermestidae	UNIFI954-24_r_1.5_s_50	Icosium tomentosum	0	UNIFI954-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1521	Cerambycidae,Dermestidae	UNIFI954-24_r_1.5_s_100	Icosium tomentosum	0	UNIFI954-24	1.5	100
+2	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI955-24_r_1_s_50	Isotomus barbarae	0	UNIFI955-24	1	50
+0	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Scarabaeidae,Cerambycidae	UNIFI955-24_r_1_s_100	Isotomus barbarae	0	UNIFI955-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI955-24_r_1.3_s_50	Isotomus barbarae	0	UNIFI955-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI955-24_r_1.3_s_100	Isotomus barbarae	0	UNIFI955-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1503	Staphylinidae,Chrysomelidae,Cerambycidae	UNIFI955-24_r_1.5_s_50	Isotomus barbarae	0	UNIFI955-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1437	Staphylinidae,Chrysomelidae,Cerambycidae	UNIFI955-24_r_1.5_s_100	Isotomus barbarae	0	UNIFI955-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI956-24_r_1_s_50	Isotomus speciosus	0	UNIFI956-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI956-24_r_1_s_100	Isotomus speciosus	0	UNIFI956-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI956-24_r_1.3_s_50	Isotomus speciosus	0	UNIFI956-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI956-24_r_1.3_s_100	Isotomus speciosus	0	UNIFI956-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1503	Cerambycidae	UNIFI956-24_r_1.5_s_50	Isotomus speciosus	0	UNIFI956-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1455	Cerambycidae	UNIFI956-24_r_1.5_s_100	Isotomus speciosus	0	UNIFI956-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI957-24_r_1_s_50	Leiopus punctulatus	0	UNIFI957-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI957-24_r_1_s_100	Leiopus punctulatus	0	UNIFI957-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI957-24_r_1.3_s_50	Leiopus punctulatus	0	UNIFI957-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI957-24_r_1.3_s_100	Leiopus punctulatus	0	UNIFI957-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI957-24_r_1.5_s_50	Leiopus punctulatus	0	UNIFI957-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI957-24_r_1.5_s_100	Leiopus punctulatus	0	UNIFI957-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI958-24_r_1_s_50	Isotomus barbarae	0	UNIFI958-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI958-24_r_1_s_100	Isotomus barbarae	0	UNIFI958-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI958-24_r_1.3_s_50	Isotomus barbarae	0	UNIFI958-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI958-24_r_1.3_s_100	Isotomus barbarae	0	UNIFI958-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1506	Staphylinidae,Chrysomelidae,Cerambycidae	UNIFI958-24_r_1.5_s_50	Isotomus barbarae	0	UNIFI958-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1437	Staphylinidae,Chrysomelidae,Cerambycidae	UNIFI958-24_r_1.5_s_100	Isotomus barbarae	0	UNIFI958-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI959-24_r_1_s_50	Phytoecia cephalotes	0	UNIFI959-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI959-24_r_1_s_100	Phytoecia cephalotes	0	UNIFI959-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI959-24_r_1.3_s_50	Phytoecia cephalotes	0	UNIFI959-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI959-24_r_1.3_s_100	Phytoecia cephalotes	0	UNIFI959-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI959-24_r_1.5_s_50	Phytoecia cephalotes	0	UNIFI959-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI959-24_r_1.5_s_100	Phytoecia cephalotes	0	UNIFI959-24	1.5	100
+1	4	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI960-24_r_1_s_50	Neodorcadion virleti	0	UNIFI960-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI960-24_r_1_s_100	Neodorcadion virleti	0	UNIFI960-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI960-24_r_1.3_s_50	Neodorcadion virleti	0	UNIFI960-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI960-24_r_1.3_s_100	Neodorcadion virleti	0	UNIFI960-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1527	Cerambycidae	UNIFI960-24_r_1.5_s_50	Neodorcadion virleti	0	UNIFI960-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1527	Cerambycidae	UNIFI960-24_r_1.5_s_100	Neodorcadion virleti	0	UNIFI960-24	1.5	100
+9	9	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI961-24_r_1_s_50	Oberea euphorbiae	0	UNIFI961-24	1	50
+6	6	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI961-24_r_1_s_100	Oberea euphorbiae	0	UNIFI961-24	1	100
+3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI961-24_r_1.3_s_50	Oberea euphorbiae	0	UNIFI961-24	1.3	50
+2	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI961-24_r_1.3_s_100	Oberea euphorbiae	0	UNIFI961-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI961-24_r_1.5_s_50	Oberea euphorbiae	0	UNIFI961-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI961-24_r_1.5_s_100	Oberea euphorbiae	0	UNIFI961-24	1.5	100
+22	24	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI962-24_r_1_s_50	Oberea euphorbiae	0	UNIFI962-24	1	50
+11	12	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI962-24_r_1_s_100	Oberea euphorbiae	0	UNIFI962-24	1	100
+8	10	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI962-24_r_1.3_s_50	Oberea euphorbiae	0	UNIFI962-24	1.3	50
+5	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI962-24_r_1.3_s_100	Oberea euphorbiae	0	UNIFI962-24	1.3	100
+6	6	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI962-24_r_1.5_s_50	Oberea euphorbiae	0	UNIFI962-24	1.5	50
+1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1542	Cerambycidae	UNIFI962-24_r_1.5_s_100	Oberea euphorbiae	0	UNIFI962-24	1.5	100
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI963-24_r_1_s_50	Phytoecia coerulescens	0	UNIFI963-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI963-24_r_1_s_100	Phytoecia coerulescens	0	UNIFI963-24	1	100
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI963-24_r_1.3_s_50	Phytoecia coerulescens	0	UNIFI963-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI963-24_r_1.3_s_100	Phytoecia coerulescens	0	UNIFI963-24	1.3	100
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI963-24_r_1.5_s_50	Phytoecia coerulescens	0	UNIFI963-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI963-24_r_1.5_s_100	Phytoecia coerulescens	0	UNIFI963-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI964-24_r_1_s_50	Phytoecia coerulescens	0	UNIFI964-24	1	50
+0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI964-24_r_1_s_100	Phytoecia coerulescens	0	UNIFI964-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI964-24_r_1.3_s_50	Phytoecia coerulescens	0	UNIFI964-24	1.3	50
+0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI964-24_r_1.3_s_100	Phytoecia coerulescens	0	UNIFI964-24	1.3	100
+0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI964-24_r_1.5_s_50	Phytoecia coerulescens	0	UNIFI964-24	1.5	50
+0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1542	Cerambycidae	UNIFI964-24_r_1.5_s_100	Phytoecia coerulescens	0	UNIFI964-24	1.5	100
+3	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Culicidae,Syrphidae,Drosophilidae	UNIFI965-24_r_1_s_50	Phytoecia coerulescens	0	UNIFI965-24	1	50
+2	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Syrphidae,Muscidae,Anthomyiidae	UNIFI965-24_r_1_s_100	Phytoecia coerulescens	0	UNIFI965-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI965-24_r_1.3_s_50	Phytoecia coerulescens	0	UNIFI965-24	1.3	50
+1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1536	Cerambycidae	UNIFI965-24_r_1.3_s_100	Phytoecia coerulescens	0	UNIFI965-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1527	Cerambycidae	UNIFI965-24_r_1.5_s_50	Phytoecia coerulescens	0	UNIFI965-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1527	Cerambycidae	UNIFI965-24_r_1.5_s_100	Phytoecia coerulescens	0	UNIFI965-24	1.5	100
+0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI966-24_r_1_s_50	Opsilia molybdaena	0	UNIFI966-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI966-24_r_1_s_100	Opsilia molybdaena	0	UNIFI966-24	1	100
+0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI966-24_r_1.3_s_50	Opsilia molybdaena	0	UNIFI966-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI966-24_r_1.3_s_100	Opsilia molybdaena	0	UNIFI966-24	1.3	100
+0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI966-24_r_1.5_s_50	Opsilia molybdaena	0	UNIFI966-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI966-24_r_1.5_s_100	Opsilia molybdaena	0	UNIFI966-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI967-24_r_1_s_50	Opsilia molybdaena	0	UNIFI967-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI967-24_r_1_s_100	Opsilia molybdaena	0	UNIFI967-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI967-24_r_1.3_s_50	Opsilia molybdaena	0	UNIFI967-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI967-24_r_1.3_s_100	Opsilia molybdaena	0	UNIFI967-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI967-24_r_1.5_s_50	Opsilia molybdaena	0	UNIFI967-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI967-24_r_1.5_s_100	Opsilia molybdaena	0	UNIFI967-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI968-24_r_1_s_50	Opsilia molybdaena	0	UNIFI968-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI968-24_r_1_s_100	Opsilia molybdaena	0	UNIFI968-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI968-24_r_1.3_s_50	Opsilia molybdaena	0	UNIFI968-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI968-24_r_1.3_s_100	Opsilia molybdaena	0	UNIFI968-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI968-24_r_1.5_s_50	Opsilia molybdaena	0	UNIFI968-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1530	Cerambycidae	UNIFI968-24_r_1.5_s_100	Opsilia molybdaena	0	UNIFI968-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI969-24_r_1_s_50	Neandra brunnea	0	UNIFI969-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1527	Staphylinidae,Cerambycidae	UNIFI969-24_r_1_s_100	Neandra brunnea	0	UNIFI969-24	1	100
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Cerambycidae	UNIFI969-24_r_1.3_s_50	Neandra brunnea	0	UNIFI969-24	1.3	50
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1527	Staphylinidae,Cerambycidae	UNIFI969-24_r_1.3_s_100	Neandra brunnea	0	UNIFI969-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1527	Staphylinidae,Cerambycidae	UNIFI969-24_r_1.5_s_50	Neandra brunnea	0	UNIFI969-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1521	Staphylinidae,Cerambycidae	UNIFI969-24_r_1.5_s_100	Neandra brunnea	0	UNIFI969-24	1.5	100
+7	40	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	497	1290	Haliplidae,Chrysomelidae,Cerambycidae,Anthribidae,Anthomyiidae	UNIFI970-24_r_1_s_50	Parmena pubescens	0	UNIFI970-24	1	50
+5	27	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	491	1161	Dytiscidae,Carabidae,Chrysomelidae,Pediciidae	UNIFI970-24_r_1_s_100	Parmena pubescens	0	UNIFI970-24	1	100
+7	10	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	455	1080	Dytiscidae,Staphylinidae,Hydraenidae,Cerambycidae	UNIFI970-24_r_1.3_s_50	Parmena pubescens	0	UNIFI970-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	416	852	Dytiscidae,Staphylinidae,Hydraenidae,Cerambycidae	UNIFI970-24_r_1.3_s_100	Parmena pubescens	0	UNIFI970-24	1.3	100
+8	26	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	419	996	Dytiscidae,Hydraenidae,Cerambycidae	UNIFI970-24_r_1.5_s_50	Parmena pubescens	0	UNIFI970-24	1.5	50
+0	18	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	416	852	Dytiscidae,Hydraenidae,Cerambycidae	UNIFI970-24_r_1.5_s_100	Parmena pubescens	0	UNIFI970-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI971-24_r_1_s_50	Parmena unifasciata	0	UNIFI971-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI971-24_r_1_s_100	Parmena unifasciata	0	UNIFI971-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI971-24_r_1.3_s_50	Parmena unifasciata	0	UNIFI971-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI971-24_r_1.3_s_100	Parmena unifasciata	0	UNIFI971-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1518	Cerambycidae	UNIFI971-24_r_1.5_s_50	Parmena unifasciata	0	UNIFI971-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1518	Cerambycidae	UNIFI971-24_r_1.5_s_100	Parmena unifasciata	0	UNIFI971-24	1.5	100
+1	14	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Staphylinidae,Chrysomelidae,Cerambycidae	UNIFI972-24_r_1_s_50	Parmena unifasciata	0	UNIFI972-24	1	50
+0	14	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI972-24_r_1_s_100	Parmena unifasciata	0	UNIFI972-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1527	Cerambycidae	UNIFI972-24_r_1.3_s_50	Parmena unifasciata	0	UNIFI972-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1527	Cerambycidae	UNIFI972-24_r_1.3_s_100	Parmena unifasciata	0	UNIFI972-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1488	Cerambycidae	UNIFI972-24_r_1.5_s_50	Parmena unifasciata	0	UNIFI972-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1488	Cerambycidae	UNIFI972-24_r_1.5_s_100	Parmena unifasciata	0	UNIFI972-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI973-24_r_1_s_50	Parmena unifasciata	0	UNIFI973-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI973-24_r_1_s_100	Parmena unifasciata	0	UNIFI973-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI973-24_r_1.3_s_50	Parmena unifasciata	0	UNIFI973-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI973-24_r_1.3_s_100	Parmena unifasciata	0	UNIFI973-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1485	Cerambycidae	UNIFI973-24_r_1.5_s_50	Parmena unifasciata	0	UNIFI973-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1485	Cerambycidae	UNIFI973-24_r_1.5_s_100	Parmena unifasciata	0	UNIFI973-24	1.5	100
+14	40	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	648	1410	Tettigoniidae,Ulidiidae,Vespidae	UNIFI974-24_r_1_s_50	Phytoecia caerulea	0	UNIFI974-24	1	50
+8	35	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	650	1356	Tettigoniidae,Acrididae,Curculionidae,Psychodidae,Ulidiidae,Vespidae	UNIFI974-24_r_1_s_100	Phytoecia caerulea	0	UNIFI974-24	1	100
+4	7	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	569	1239	Acrididae,Nitidulidae,Curculionidae,Dermestidae,Bostrichidae,Ptinidae,Vespidae,Tetracampidae	UNIFI974-24_r_1.3_s_50	Phytoecia caerulea	0	UNIFI974-24	1.3	50
+4	6	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	521	1107	Tettigoniidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Ulidiidae,Vespidae,Tetracampidae	UNIFI974-24_r_1.3_s_100	Phytoecia caerulea	0	UNIFI974-24	1.3	100
+5	11	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	183	462	Rhinotermitidae,Termitidae,Anthocoridae,Curculionidae	UNIFI974-24_r_1.5_s_50	Phytoecia caerulea	0	UNIFI974-24	1.5	50
+5	11	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	174	372	Rhinotermitidae,Termitidae,Anthocoridae,Curculionidae	UNIFI974-24_r_1.5_s_100	Phytoecia caerulea	0	UNIFI974-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI975-24_r_1_s_50	Phytoecia caerulea	0	UNIFI975-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI975-24_r_1_s_100	Phytoecia caerulea	0	UNIFI975-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI975-24_r_1.3_s_50	Phytoecia caerulea	0	UNIFI975-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI975-24_r_1.3_s_100	Phytoecia caerulea	0	UNIFI975-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI975-24_r_1.5_s_50	Phytoecia caerulea	0	UNIFI975-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI975-24_r_1.5_s_100	Phytoecia caerulea	0	UNIFI975-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI976-24_r_1_s_50	Phytoecia caerulea	0	UNIFI976-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI976-24_r_1_s_100	Phytoecia caerulea	0	UNIFI976-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI976-24_r_1.3_s_50	Phytoecia caerulea	0	UNIFI976-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI976-24_r_1.3_s_100	Phytoecia caerulea	0	UNIFI976-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI976-24_r_1.5_s_50	Phytoecia caerulea	0	UNIFI976-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI976-24_r_1.5_s_100	Phytoecia caerulea	0	UNIFI976-24	1.5	100
+8	30	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI977-24_r_1_s_50	Phytoecia caerulea baccueti	0	UNIFI977-24	1	50
+20	55	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1521	Cerambycidae	UNIFI977-24_r_1_s_100	Phytoecia caerulea baccueti	0	UNIFI977-24	1	100
+0	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI977-24_r_1.3_s_50	Phytoecia caerulea baccueti	0	UNIFI977-24	1.3	50
+0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1521	Cerambycidae	UNIFI977-24_r_1.3_s_100	Phytoecia caerulea baccueti	0	UNIFI977-24	1.3	100
+0	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1521	Cerambycidae	UNIFI977-24_r_1.5_s_50	Phytoecia caerulea baccueti	0	UNIFI977-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1506	Cerambycidae	UNIFI977-24_r_1.5_s_100	Phytoecia caerulea baccueti	0	UNIFI977-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI978-24_r_1_s_50	Phytoecia caerulea baccueti	0	UNIFI978-24	1	50
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI978-24_r_1_s_100	Phytoecia caerulea baccueti	0	UNIFI978-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI978-24_r_1.3_s_50	Phytoecia caerulea baccueti	0	UNIFI978-24	1.3	50
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI978-24_r_1.3_s_100	Phytoecia caerulea baccueti	0	UNIFI978-24	1.3	100
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI978-24_r_1.5_s_50	Phytoecia caerulea baccueti	0	UNIFI978-24	1.5	50
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1542	Cerambycidae	UNIFI978-24_r_1.5_s_100	Phytoecia caerulea baccueti	0	UNIFI978-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1539	Cerambycidae	UNIFI979-24_r_1_s_50	Phytoecia caerulea baccueti	0	UNIFI979-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1539	Cerambycidae	UNIFI979-24_r_1_s_100	Phytoecia caerulea baccueti	0	UNIFI979-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI979-24_r_1.3_s_50	Phytoecia caerulea baccueti	0	UNIFI979-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI979-24_r_1.3_s_100	Phytoecia caerulea baccueti	0	UNIFI979-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI979-24_r_1.5_s_50	Phytoecia caerulea baccueti	0	UNIFI979-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1536	Cerambycidae	UNIFI979-24_r_1.5_s_100	Phytoecia caerulea baccueti	0	UNIFI979-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI980-24_r_1_s_50	Phytoecia pubescens	0	UNIFI980-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI980-24_r_1_s_100	Phytoecia pubescens	0	UNIFI980-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI980-24_r_1.3_s_50	Phytoecia pubescens	0	UNIFI980-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI980-24_r_1.3_s_100	Phytoecia pubescens	0	UNIFI980-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI980-24_r_1.5_s_50	Phytoecia pubescens	0	UNIFI980-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI980-24_r_1.5_s_100	Phytoecia pubescens	0	UNIFI980-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI981-24_r_1_s_50	Phytoecia pubescens	0	UNIFI981-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI981-24_r_1_s_100	Phytoecia pubescens	0	UNIFI981-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI981-24_r_1.3_s_50	Phytoecia pubescens	0	UNIFI981-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI981-24_r_1.3_s_100	Phytoecia pubescens	0	UNIFI981-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI981-24_r_1.5_s_50	Phytoecia pubescens	0	UNIFI981-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI981-24_r_1.5_s_100	Phytoecia pubescens	0	UNIFI981-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI982-24_r_1_s_50	Phytoecia pubescens	0	UNIFI982-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI982-24_r_1_s_100	Phytoecia pubescens	0	UNIFI982-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI982-24_r_1.3_s_50	Phytoecia pubescens	0	UNIFI982-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI982-24_r_1.3_s_100	Phytoecia pubescens	0	UNIFI982-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI982-24_r_1.5_s_50	Phytoecia pubescens	0	UNIFI982-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1536	Cerambycidae	UNIFI982-24_r_1.5_s_100	Phytoecia pubescens	0	UNIFI982-24	1.5	100
+8	8	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Cerambycidae	UNIFI983-24_r_1_s_50	Phytoecia rufipes	0	UNIFI983-24	1	50
+9	10	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Hydraenidae,Cryptophagidae,Scraptiidae,Chrysomelidae,Cerambycidae	UNIFI983-24_r_1_s_100	Phytoecia rufipes	0	UNIFI983-24	1	100
+3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Cerambycidae	UNIFI983-24_r_1.3_s_50	Phytoecia rufipes	0	UNIFI983-24	1.3	50
+6	6	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Cerambycidae	UNIFI983-24_r_1.3_s_100	Phytoecia rufipes	0	UNIFI983-24	1.3	100
+1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	653	1470	Cerambycidae	UNIFI983-24_r_1.5_s_50	Phytoecia rufipes	0	UNIFI983-24	1.5	50
+1	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	650	1452	Staphylinidae,Hydraenidae,Byturidae,Cryptophagidae,Kateretidae,Cerambycidae	UNIFI983-24_r_1.5_s_100	Phytoecia rufipes	0	UNIFI983-24	1.5	100
+20	54	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	582	1431	Cerambycidae	UNIFI984-24_r_1_s_50	Phytoecia rufipes	0	UNIFI984-24	1	50
+41	77	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	336	1131	Hydraenidae,Chrysomelidae,Cerambycidae	UNIFI984-24_r_1_s_100	Phytoecia rufipes	0	UNIFI984-24	1	100
+1	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	491	1197	Cerambycidae	UNIFI984-24_r_1.3_s_50	Phytoecia rufipes	0	UNIFI984-24	1.3	50
+0	4	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	259	471	Termitidae,Romaleidae,Liviidae,Delphacidae,Chloropidae,Tephritidae,Platystomatidae,Sarcophagidae	UNIFI984-24_r_1.3_s_100	Phytoecia rufipes	0	UNIFI984-24	1.3	100
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	343	840	Ptiliidae,Nitidulidae,Chrysomelidae,Cerambycidae	UNIFI984-24_r_1.5_s_50	Phytoecia rufipes	0	UNIFI984-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	206	318	Cerambycidae	UNIFI984-24_r_1.5_s_100	Phytoecia rufipes	0	UNIFI984-24	1.5	100
+6	20	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	COI-5P	657	1527	Cryptophagidae,Cerambycidae	UNIFI985-24_r_1_s_50	Pilemia inarmata	0	UNIFI985-24	1	50
+0	11	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	COI-5P	657	1524	Cryptophagidae,Cerambycidae	UNIFI985-24_r_1_s_100	Pilemia inarmata	0	UNIFI985-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	COI-5P	657	1455	Cerambycidae	UNIFI985-24_r_1.3_s_50	Pilemia inarmata	0	UNIFI985-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	COI-5P	657	1452	Cerambycidae	UNIFI985-24_r_1.3_s_100	Pilemia inarmata	0	UNIFI985-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	COI-5P	639	1398	Cerambycidae	UNIFI985-24_r_1.5_s_50	Pilemia inarmata	0	UNIFI985-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Crambidae	BLAST	family	COI-5P	639	1395	Cerambycidae	UNIFI985-24_r_1.5_s_100	Pilemia inarmata	0	UNIFI985-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI986-24_r_1_s_50	Plagionotus bobelayei	0	UNIFI986-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI986-24_r_1_s_100	Plagionotus bobelayei	0	UNIFI986-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI986-24_r_1.3_s_50	Plagionotus bobelayei	0	UNIFI986-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI986-24_r_1.3_s_100	Plagionotus bobelayei	0	UNIFI986-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI986-24_r_1.5_s_50	Plagionotus bobelayei	0	UNIFI986-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	657	1533	Cerambycidae	UNIFI986-24_r_1.5_s_100	Plagionotus bobelayei	0	UNIFI986-24	1.5	100
+29	87	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	590	1407		UNIFI987-24_r_1_s_50	Plagionotus siculus	0	UNIFI987-24	1	50
+19	57	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	583	1293		UNIFI987-24_r_1_s_100	Plagionotus siculus	0	UNIFI987-24	1	100
+3	39	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	165	951		UNIFI987-24_r_1.3_s_50	Plagionotus siculus	0	UNIFI987-24	1.3	50
+0	20	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	135	567		UNIFI987-24_r_1.3_s_100	Plagionotus siculus	0	UNIFI987-24	1.3	100
+0	21	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	89	546		UNIFI987-24_r_1.5_s_50	Plagionotus siculus	0	UNIFI987-24	1.5	50
+1	10	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	94	309		UNIFI987-24_r_1.5_s_100	Plagionotus siculus	0	UNIFI987-24	1.5	100
+5	22	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	488	1263		UNIFI988-24_r_1_s_50	Plagionotus siculus	0	UNIFI988-24	1	50
+4	16	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	317	939		UNIFI988-24_r_1_s_100	Plagionotus siculus	0	UNIFI988-24	1	100
+0	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	103	618		UNIFI988-24_r_1.3_s_50	Plagionotus siculus	0	UNIFI988-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	50	420		UNIFI988-24_r_1.3_s_100	Plagionotus siculus	0	UNIFI988-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	51	192		UNIFI988-24_r_1.5_s_50	Plagionotus siculus	0	UNIFI988-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	50	108		UNIFI988-24_r_1.5_s_100	Plagionotus siculus	0	UNIFI988-24	1.5	100
+4	4	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1530	Cerambycidae	UNIFI989-24_r_1_s_50	Poecilium fasciatum	0	UNIFI989-24	1	50
+2	2	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1530	Cerambycidae	UNIFI989-24_r_1_s_100	Poecilium fasciatum	0	UNIFI989-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	644	1518	Cerambycidae	UNIFI989-24_r_1.3_s_50	Poecilium fasciatum	0	UNIFI989-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	632	1506	Cerambycidae	UNIFI989-24_r_1.3_s_100	Poecilium fasciatum	0	UNIFI989-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	608	1416		UNIFI989-24_r_1.5_s_50	Poecilium fasciatum	0	UNIFI989-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	608	1416		UNIFI989-24_r_1.5_s_100	Poecilium fasciatum	0	UNIFI989-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Anthicidae,Cerambycidae	UNIFI990-24_r_1_s_50	Poecilium pusillum	0	UNIFI990-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1530	Anthicidae,Cerambycidae	UNIFI990-24_r_1_s_100	Poecilium pusillum	0	UNIFI990-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1530	Anthicidae,Cerambycidae	UNIFI990-24_r_1.3_s_50	Poecilium pusillum	0	UNIFI990-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1527	Anthicidae,Cerambycidae	UNIFI990-24_r_1.3_s_100	Poecilium pusillum	0	UNIFI990-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	632	1482	Nitidulidae,Cerambycidae,Endomychidae	UNIFI990-24_r_1.5_s_50	Poecilium pusillum	0	UNIFI990-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	632	1479	Nitidulidae,Cerambycidae,Endomychidae	UNIFI990-24_r_1.5_s_100	Poecilium pusillum	0	UNIFI990-24	1.5	100
+0	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1530	Cerambycidae	UNIFI991-24_r_1_s_50	Poecilium rufipes	0	UNIFI991-24	1	50
+0	4	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1530	Cerambycidae	UNIFI991-24_r_1_s_100	Poecilium rufipes	0	UNIFI991-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1530	Cerambycidae	UNIFI991-24_r_1.3_s_50	Poecilium rufipes	0	UNIFI991-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1527	Cerambycidae	UNIFI991-24_r_1.3_s_100	Poecilium rufipes	0	UNIFI991-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	649	1443	Cucujidae,Tenebrionidae,Cerambycidae,Syrphidae	UNIFI991-24_r_1.5_s_50	Poecilium rufipes	0	UNIFI991-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	649	1371	Cucujidae,Tenebrionidae,Cerambycidae,Syrphidae	UNIFI991-24_r_1.5_s_100	Poecilium rufipes	0	UNIFI991-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1530	Cerambycidae	UNIFI992-24_r_1_s_50	Poecilium rufipes	0	UNIFI992-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1530	Cerambycidae	UNIFI992-24_r_1_s_100	Poecilium rufipes	0	UNIFI992-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1518	Staphylinidae,Cerambycidae	UNIFI992-24_r_1.3_s_50	Poecilium rufipes	0	UNIFI992-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1506	Staphylinidae,Cerambycidae	UNIFI992-24_r_1.3_s_100	Poecilium rufipes	0	UNIFI992-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	616	1425	Chrysomelidae,Cerambycidae	UNIFI992-24_r_1.5_s_50	Poecilium rufipes	0	UNIFI992-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	616	1425	Chrysomelidae,Cerambycidae	UNIFI992-24_r_1.5_s_100	Poecilium rufipes	0	UNIFI992-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1533	Cerambycidae	UNIFI993-24_r_1_s_50	Poecilium rufipes	0	UNIFI993-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1530	Cerambycidae	UNIFI993-24_r_1_s_100	Poecilium rufipes	0	UNIFI993-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1533	Cerambycidae	UNIFI993-24_r_1.3_s_50	Poecilium rufipes	0	UNIFI993-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1530	Cerambycidae	UNIFI993-24_r_1.3_s_100	Poecilium rufipes	0	UNIFI993-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1509	Staphylinidae,Cerambycidae	UNIFI993-24_r_1.5_s_50	Poecilium rufipes	0	UNIFI993-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	655	1503	Staphylinidae,Cerambycidae	UNIFI993-24_r_1.5_s_100	Poecilium rufipes	0	UNIFI993-24	1.5	100
+2	14	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	608	1359	Reduviidae,Cicadellidae,Culicidae,Tabanidae,Eriocraniidae,Limacodidae,Nymphalidae,Geometridae	UNIFI994-24_r_1_s_50	Purpuricenus dalmatinus	0	UNIFI994-24	1	50
+6	14	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	563	1356	Baetidae,Reduviidae,Cicadellidae,Leiodidae,Limoniidae,Agaonidae	UNIFI994-24_r_1_s_100	Purpuricenus dalmatinus	0	UNIFI994-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	457	1056	Bothrideridae,Culicidae,Tabanidae,Agaonidae,Limacodidae,Nymphalidae,Hesperiidae	UNIFI994-24_r_1.3_s_50	Purpuricenus dalmatinus	0	UNIFI994-24	1.3	50
+0	1	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	147	807	Scarabaeidae,Agaonidae	UNIFI994-24_r_1.3_s_100	Purpuricenus dalmatinus	0	UNIFI994-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	78	618	Staphylinidae,Scarabaeidae,Erotylidae,Agaonidae	UNIFI994-24_r_1.5_s_50	Purpuricenus dalmatinus	0	UNIFI994-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	73	498	Agaonidae	UNIFI994-24_r_1.5_s_100	Purpuricenus dalmatinus	0	UNIFI994-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI995-24_r_1_s_50	Purpuricenus dalmatinus	0	UNIFI995-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI995-24_r_1_s_100	Purpuricenus dalmatinus	0	UNIFI995-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI995-24_r_1.3_s_50	Purpuricenus dalmatinus	0	UNIFI995-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI995-24_r_1.3_s_100	Purpuricenus dalmatinus	0	UNIFI995-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI995-24_r_1.5_s_50	Purpuricenus dalmatinus	0	UNIFI995-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI995-24_r_1.5_s_100	Purpuricenus dalmatinus	0	UNIFI995-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI996-24_r_1_s_50	Purpuricenus dalmatinus	0	UNIFI996-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI996-24_r_1_s_100	Purpuricenus dalmatinus	0	UNIFI996-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI996-24_r_1.3_s_50	Purpuricenus dalmatinus	0	UNIFI996-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI996-24_r_1.3_s_100	Purpuricenus dalmatinus	0	UNIFI996-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI996-24_r_1.5_s_50	Purpuricenus dalmatinus	0	UNIFI996-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1545	Cerambycidae	UNIFI996-24_r_1.5_s_100	Purpuricenus dalmatinus	0	UNIFI996-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Cerambycidae	UNIFI997-24_r_1_s_50	Ropalopus insubricus	0	UNIFI997-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Cerambycidae	UNIFI997-24_r_1_s_100	Ropalopus insubricus	0	UNIFI997-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Cerambycidae	UNIFI997-24_r_1.3_s_50	Ropalopus insubricus	0	UNIFI997-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1539	Cerambycidae	UNIFI997-24_r_1.3_s_100	Ropalopus insubricus	0	UNIFI997-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1515	Silvanidae,Chrysomelidae,Cerambycidae	UNIFI997-24_r_1.5_s_50	Ropalopus insubricus	0	UNIFI997-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1515	Silvanidae,Chrysomelidae,Cerambycidae	UNIFI997-24_r_1.5_s_100	Ropalopus insubricus	0	UNIFI997-24	1.5	100
+27	47	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	622	1509	Carabidae,Cerambycidae	UNIFI998-24_r_1_s_50	Saphanus piceus	0	UNIFI998-24	1	50
+21	59	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	624	1482	Leiodidae,Geotrupidae,Nitidulidae,Chrysomelidae,Cerambycidae	UNIFI998-24_r_1_s_100	Saphanus piceus	0	UNIFI998-24	1	100
+3	17	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	590	1476	Tetratomidae,Chrysomelidae,Cerambycidae	UNIFI998-24_r_1.3_s_50	Saphanus piceus	0	UNIFI998-24	1.3	50
+0	30	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	531	1350	Staphylinidae,Melyridae,Chrysomelidae,Cerambycidae,Crambidae	UNIFI998-24_r_1.3_s_100	Saphanus piceus	0	UNIFI998-24	1.3	100
+3	3	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	521	1404	Cucujidae,Nitidulidae,Cerambycidae	UNIFI998-24_r_1.5_s_50	Saphanus piceus	0	UNIFI998-24	1.5	50
+0	5	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	476	1227	Staphylinidae,Scarabaeidae,Melyridae,Chrysomelidae,Cerambycidae,Calliphoridae,Plutellidae	UNIFI998-24_r_1.5_s_100	Saphanus piceus	0	UNIFI998-24	1.5	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI999-24_r_1_s_50	Stenopterus atricornis	0	UNIFI999-24	1	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI999-24_r_1_s_100	Stenopterus atricornis	0	UNIFI999-24	1	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI999-24_r_1.3_s_50	Stenopterus atricornis	0	UNIFI999-24	1.3	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1533	Cerambycidae	UNIFI999-24_r_1.3_s_100	Stenopterus atricornis	0	UNIFI999-24	1.3	100
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1524	Cerambycidae	UNIFI999-24_r_1.5_s_50	Stenopterus atricornis	0	UNIFI999-24	1.5	50
+0	0	data/BGE00431_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Cerambycidae	BLAST	family	COI-5P	656	1509	Cerambycidae	UNIFI999-24_r_1.5_s_100	Stenopterus atricornis	0	UNIFI999-24	1.5	100
