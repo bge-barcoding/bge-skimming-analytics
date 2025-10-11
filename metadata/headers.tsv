@@ -53,4 +53,3 @@ s	MGE parameter s value
 run_name	Name of the sequencing/analysis run
 samples_file	Path to samples file
 skipped_reads_low_rel	Number of reads skipped due to low relative score
-skipped_reads_low_rel_score	Number of reads skipped due to low relative score (alternative column name)
