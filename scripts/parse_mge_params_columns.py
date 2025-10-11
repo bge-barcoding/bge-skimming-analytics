@@ -269,12 +269,15 @@ def main():
             print(f"  {message}")
     
     # Apply fixes if not dry run
-    if not args.dry_run and files_can_fix:
+    # Include both fully parseable files and partially parseable files
+    files_to_process = files_can_fix + [f for f, _ in files_partial]
+    
+    if not args.dry_run and files_to_process:
         print("\n" + "="*70)
         print("APPLYING FIXES")
         print("="*70)
         
-        for tsv_file in files_can_fix:
+        for tsv_file in files_to_process:
             rel_path = tsv_file.relative_to(args.data_dir.parent)
             print(f"Adding columns to {rel_path}...", end=' ')
             if fix_file(tsv_file, dry_run=False):
