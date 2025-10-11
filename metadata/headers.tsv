@@ -2,7 +2,6 @@ barcode_validator TSV header	Definition
 ambig_basecount	Number of ambiguous (N) bases within the extracted barcode region
 ambig_full_basecount	Number of ambiguous bases across the full barcode consensus sequence
 ambig_original	Number of ambiguous bases in full the barcode consensus sequence prior to barcode region extraction
-cleaned	Boolean denoting whether the barcode consensus sequence was generated pre- or post-cleaning
 cleaning_ambig_bases	Number of ambiguous bases in the post-cleaned barcode consensus sequence
 cleaning_cov_percent	Percentage coverage of psuedo-reference used for read alignment and barcode extraction in the post-cleaning consensus sequence
 cleaning_removed_at	Number of aligned reads removed due to AT content filtering in BGEE pipeline
