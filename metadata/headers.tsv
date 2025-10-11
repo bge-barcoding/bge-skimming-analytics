@@ -41,4 +41,3 @@ cleaning_removed_reference	Number of reads removed due to reference filtering du
 length	Sequence length
 r	MGE parameter r value
 s	MGE parameter s value
-skipped_reads_low_rel	Number of reads skipped due to low relative score
