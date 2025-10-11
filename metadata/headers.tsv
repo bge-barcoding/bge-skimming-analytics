@@ -39,7 +39,6 @@ ref_accession	Reference sequence accession number
 ref_rank	Taxonomic rank of reference sequence
 BOLD_submission	BOLD Systems submission identifier
 cleaning_removed_reference	Number of reads removed due to reference filtering during cleaning
-family	Taxonomic family identification
 fasta_file	Source FASTA file path
 genes	Genes identified in sequence
 length	Sequence length
