@@ -39,15 +39,9 @@ ref_accession	Reference sequence accession number
 ref_rank	Taxonomic rank of reference sequence
 BOLD_submission	BOLD Systems submission identifier
 cleaning_removed_reference	Number of reads removed due to reference filtering during cleaning
-fasta_file	Source FASTA file path
-genes	Genes identified in sequence
 length	Sequence length
 n_aligned	Number of aligned reads (alternative column name)
 n_reads	Total number of reads (alternative column name)
-output_dir	Output directory path
-protein_reference_file	Path to protein reference file
 r	MGE parameter r value
 s	MGE parameter s value
-run_name	Name of the sequencing/analysis run
-samples_file	Path to samples file
 skipped_reads_low_rel	Number of reads skipped due to low relative score
