@@ -26,10 +26,12 @@ def test_parse_sequence_id_valid():
     seq_id = "UNIFI571-24_r_1_s_50"
     result = parse_sequence_id(seq_id)
     assert result is not None
-    group_id, r, s = result
+    group_id, r, s, fcleaner, merge = result
     assert group_id == "UNIFI571-24"
     assert r == "1"
     assert s == "50"
+    assert fcleaner is False
+    assert merge is False
 
 
 def test_parse_sequence_id_valid_with_float():
@@ -37,10 +39,12 @@ def test_parse_sequence_id_valid_with_float():
     seq_id = "BBIOP1901-24_r_1.5_s_100"
     result = parse_sequence_id(seq_id)
     assert result is not None
-    group_id, r, s = result
+    group_id, r, s, fcleaner, merge = result
     assert group_id == "BBIOP1901-24"
     assert r == "1.5"
     assert s == "100"
+    assert fcleaner is False
+    assert merge is False
 
 
 def test_parse_sequence_id_valid_complex_process_id():
@@ -48,10 +52,12 @@ def test_parse_sequence_id_valid_complex_process_id():
     seq_id = "MUSBA3474-25_r_1.3_s_75"
     result = parse_sequence_id(seq_id)
     assert result is not None
-    group_id, r, s = result
+    group_id, r, s, fcleaner, merge = result
     assert group_id == "MUSBA3474-25"
     assert r == "1.3"
     assert s == "75"
+    assert fcleaner is False
+    assert merge is False
 
 
 def test_parse_sequence_id_invalid_no_pattern():
@@ -285,10 +291,12 @@ def test_parse_sequence_id_with_underscore_in_process_id():
     seq_id = "BGE_TEST001-24_r_1.5_s_50"
     result = parse_sequence_id(seq_id)
     assert result is not None
-    group_id, r, s = result
+    group_id, r, s, fcleaner, merge = result
     assert group_id == "BGE_TEST001-24"
     assert r == "1.5"
     assert s == "50"
+    assert fcleaner is False
+    assert merge is False
 
 
 def test_parse_sequence_id_with_repeated_process_id():
@@ -296,10 +304,12 @@ def test_parse_sequence_id_with_repeated_process_id():
     seq_id = "MUSBA3189-25_r_1_s_50_MUSBA3189-25"
     result = parse_sequence_id(seq_id)
     assert result is not None
-    group_id, r, s = result
+    group_id, r, s, fcleaner, merge = result
     assert group_id == "MUSBA3189-25"
     assert r == "1"
     assert s == "50"
+    assert fcleaner is False
+    assert merge is False
 
 
 def test_parse_sequence_id_with_merge_suffix():
@@ -307,10 +317,12 @@ def test_parse_sequence_id_with_merge_suffix():
     seq_id = "MUSBA3189-25_r_1_s_50_MUSBA3189-25_merge"
     result = parse_sequence_id(seq_id)
     assert result is not None
-    group_id, r, s = result
+    group_id, r, s, fcleaner, merge = result
     assert group_id == "MUSBA3189-25"
     assert r == "1"
     assert s == "50"
+    assert fcleaner is False
+    assert merge is True
 
 
 def test_parse_sequence_id_with_fcleaner_suffix():
@@ -318,10 +330,12 @@ def test_parse_sequence_id_with_fcleaner_suffix():
     seq_id = "BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_fcleaner"
     result = parse_sequence_id(seq_id)
     assert result is not None
-    group_id, r, s = result
+    group_id, r, s, fcleaner, merge = result
     assert group_id == "BSCRO1521-25"
     assert r == "1.3"
     assert s == "100"
+    assert fcleaner is True
+    assert merge is False
 
 
 def test_parse_sequence_id_with_fcleaner_merge_suffix():
@@ -329,10 +343,12 @@ def test_parse_sequence_id_with_fcleaner_merge_suffix():
     seq_id = "BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_fcleaner_merge"
     result = parse_sequence_id(seq_id)
     assert result is not None
-    group_id, r, s = result
+    group_id, r, s, fcleaner, merge = result
     assert group_id == "BSCRO1521-25"
     assert r == "1.3"
     assert s == "100"
+    assert fcleaner is True
+    assert merge is True
 
 
 def test_parse_sequence_id_with_merge_only_no_repeated_id():
@@ -343,10 +359,12 @@ def test_parse_sequence_id_with_merge_only_no_repeated_id():
     result = parse_sequence_id(seq_id)
     # This SHOULD match - the repeated process_id is optional
     assert result is not None
-    group_id, r, s = result
+    group_id, r, s, fcleaner, merge = result
     assert group_id == "MUSBA3189-25"
     assert r == "1"
     assert s == "50"
+    assert fcleaner is False
+    assert merge is True
 
 
 def test_parse_sequence_id_with_fcleaner_only_no_repeated_id():
@@ -357,10 +375,12 @@ def test_parse_sequence_id_with_fcleaner_only_no_repeated_id():
     result = parse_sequence_id(seq_id)
     # This SHOULD match - the repeated process_id is optional
     assert result is not None
-    group_id, r, s = result
+    group_id, r, s, fcleaner, merge = result
     assert group_id == "BSCRO1521-25"
     assert r == "1.3"
     assert s == "100"
+    assert fcleaner is True
+    assert merge is False
 
 
 def test_fix_file_with_existing_group_id(temp_dir):
