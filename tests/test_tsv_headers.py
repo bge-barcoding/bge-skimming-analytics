@@ -33,6 +33,30 @@ def get_expected_headers():
     return expected_headers
 
 
+def get_compulsory_headers():
+    """
+    Read compulsory headers from metadata/headers.tsv.
+    
+    Returns:
+        set: Set of compulsory column names (where Compulsory column is 'true')
+    """
+    repo_root = Path(__file__).parent.parent
+    headers_file = repo_root / "metadata" / "headers.tsv"
+    
+    compulsory_headers = set()
+    with open(headers_file, 'r', encoding='utf-8') as f:
+        reader = csv.reader(f, delimiter='\t')
+        next(reader)  # Skip the header row
+        for row in reader:
+            if row and len(row) >= 2:  # Ensure row has at least header name and compulsory flag
+                header_name = row[0].strip()
+                is_compulsory = row[1].strip().lower() == 'true'
+                if is_compulsory:
+                    compulsory_headers.add(header_name)
+    
+    return compulsory_headers
+
+
 def get_tsv_files():
     """
     Find all TSV files in the data directory and subdirectories.
@@ -88,3 +112,36 @@ def test_tsv_files_exist():
     """
     tsv_files = get_tsv_files()
     assert len(tsv_files) > 0, "No TSV files found in data directory"
+
+
+@pytest.mark.parametrize("tsv_file", get_tsv_files())
+def test_tsv_compulsory_headers(tsv_file):
+    """
+    Test that each TSV file contains all compulsory headers.
+    
+    The test verifies that all headers marked as compulsory in 
+    metadata/headers.tsv are present in each TSV file.
+    """
+    compulsory_headers = get_compulsory_headers()
+    
+    # Read the first line (headers) from the TSV file
+    with open(tsv_file, 'r', encoding='utf-8') as f:
+        reader = csv.reader(f, delimiter='\t')
+        actual_headers = set(next(reader))
+    
+    # Check that all compulsory headers are present
+    missing_compulsory = compulsory_headers - actual_headers
+    
+    assert not missing_compulsory, (
+        f"File '{tsv_file.relative_to(Path(__file__).parent.parent)}' is missing "
+        f"compulsory headers: {sorted(missing_compulsory)}. "
+        f"All compulsory headers must be present in every TSV file."
+    )
+
+
+def test_compulsory_headers_exist():
+    """
+    Sanity check to ensure metadata/headers.tsv contains compulsory headers.
+    """
+    compulsory_headers = get_compulsory_headers()
+    assert len(compulsory_headers) > 0, "No compulsory headers found in metadata/headers.tsv"
