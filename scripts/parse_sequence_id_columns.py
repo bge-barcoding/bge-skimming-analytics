@@ -38,9 +38,9 @@ from pathlib import Path
 from typing import List, Tuple, Optional
 
 
-def parse_sequence_id(sequence_id: str) -> Optional[Tuple[str, str, str]]:
+def parse_sequence_id(sequence_id: str) -> Optional[Tuple[str, str, str, bool, bool]]:
     """
-    Parse a sequence_id to extract group_id (process_id), r, and s values.
+    Parse a sequence_id to extract group_id (process_id), r, s values, and fcleaner/merge flags.
     
     Pattern: <process_id>_r_<float>_s_<int>[_<process_id>][_fcleaner][_merge]
     
@@ -53,7 +53,8 @@ def parse_sequence_id(sequence_id: str) -> Optional[Tuple[str, str, str]]:
         sequence_id: The sequence_id string to parse
         
     Returns:
-        Tuple of (group_id, r, s) if pattern matches, None otherwise
+        Tuple of (group_id, r, s, fcleaner, merge) if pattern matches, None otherwise
+        where fcleaner and merge are booleans indicating presence of suffixes
     """
     # Pattern: <process_id>_r_<float>_s_<int> followed by optional suffixes
     # The process_id may be repeated, and/or followed by _fcleaner and/or _merge
@@ -68,7 +69,10 @@ def parse_sequence_id(sequence_id: str) -> Optional[Tuple[str, str, str]]:
         group_id = match.group(1)
         r = match.group(2)
         s = match.group(3)
-        return (group_id, r, s)
+        # Check for fcleaner and merge suffixes
+        has_fcleaner = '_fcleaner' in sequence_id
+        has_merge = '_merge' in sequence_id
+        return (group_id, r, s, has_fcleaner, has_merge)
     
     return None
 
@@ -210,7 +214,7 @@ def fix_file(tsv_file: Path, dry_run: bool = False) -> bool:
             parsed = parse_sequence_id(seq_id)
             
             if parsed:
-                group_id, r, s = parsed
+                group_id, r, s, fcleaner, merge = parsed
                 if not has_group_id:
                     new_row.append(group_id)
                 if not has_r:

@@ -40,3 +40,5 @@ cleaning_removed_reference	false	Number of reads removed due to reference filter
 length	false	Sequence length
 r	true	MGE parameter r value
 s	true	MGE parameter s value
+fcleaner	false	Indicates whether FASTA cleaner (fcleaner) data cleaning step was applied
+merge	false	Indicates whether data merging operation was applied
