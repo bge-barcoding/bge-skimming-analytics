@@ -39,7 +39,6 @@ ref_rank	Taxonomic rank of reference sequence
 BOLD_submission	BOLD Systems submission identifier
 cleaning_removed_reference	Number of reads removed due to reference filtering during cleaning
 length	Sequence length
-n_aligned	Number of aligned reads (alternative column name)
 n_reads	Total number of reads (alternative column name)
 r	MGE parameter r value
 s	MGE parameter s value
