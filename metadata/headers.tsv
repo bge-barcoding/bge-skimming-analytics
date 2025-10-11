@@ -5,7 +5,6 @@ ambig_original	Number of ambiguous bases in full the barcode consensus sequence 
 cleaned	Boolean denoting whether the barcode consensus sequence was generated pre- or post-cleaning
 cleaning_ambig_bases	Number of ambiguous bases in the post-cleaned barcode consensus sequence
 cleaning_cov_percent	Percentage coverage of psuedo-reference used for read alignment and barcode extraction in the post-cleaning consensus sequence
-cleaning_kept_reads	N/A (now merged into 'n_reads_aligned')
 cleaning_removed_at	Number of aligned reads removed due to AT content filtering in BGEE pipeline
 cleaning_removed_human	Number of aligned reads removed due to human COI similarity in BGEE pipeline
 cleaning_removed_outlier	Number of aligned reads flagged as statistical outliers and removed in BGEE pipeline
