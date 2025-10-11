@@ -1,571 +1,571 @@
-ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons
-45	48	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2281-24_r_1_s_50	Elaphocera carteiensis	0
-42	55	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2281-24_r_1_s_100	Elaphocera carteiensis	0
-5	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Hydraenidae,Scarabaeidae	BBIOP2281-24_r_1.3_s_50	Elaphocera carteiensis	0
-21	21	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Hydraenidae,Scarabaeidae	BBIOP2281-24_r_1.3_s_100	Elaphocera carteiensis	0
-9	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1524	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2281-24_r_1.5_s_50	Elaphocera carteiensis	0
-18	18	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1512	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2281-24_r_1.5_s_100	Elaphocera carteiensis	0
-10	55	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Reduviidae,Hydraenidae,Scarabaeidae,Tenebrionidae,Cerambycidae	BBIOP2282-24_r_1_s_50	Elaphocera martorelli	0
-1	32	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	560	1269	Drosophilidae,Choreutidae,Erebidae,Crambidae	BBIOP2282-24_r_1_s_100	Elaphocera martorelli	0
-2	11	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Staphylinidae,Scarabaeidae,Cleridae,Syrphidae	BBIOP2282-24_r_1.3_s_50	Elaphocera martorelli	0
-1	14	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	264	924	Tenebrionidae,Mycetophilidae,Pipunculidae,Chamaemyiidae	BBIOP2282-24_r_1.3_s_100	Elaphocera martorelli	0
-0	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	635	1482	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2282-24_r_1.5_s_50	Elaphocera martorelli	0
-6	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	552	909	Staphylinidae,Hydraenidae,Scarabaeidae,Lucanidae,Lycidae	BBIOP2282-24_r_1.5_s_100	Elaphocera martorelli	6
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1533	Staphylinidae,Scarabaeidae	BBIOP2283-24_r_1_s_50	Elaphocera dilatata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1533	Staphylinidae,Scarabaeidae	BBIOP2283-24_r_1_s_100	Elaphocera dilatata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1533	Staphylinidae,Scarabaeidae	BBIOP2283-24_r_1.3_s_50	Elaphocera dilatata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1533	Staphylinidae,Scarabaeidae	BBIOP2283-24_r_1.3_s_100	Elaphocera dilatata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1515	Staphylinidae,Scarabaeidae	BBIOP2283-24_r_1.5_s_50	Elaphocera dilatata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1443	Hydrophilidae,Staphylinidae,Scarabaeidae	BBIOP2283-24_r_1.5_s_100	Elaphocera dilatata	0
-5	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1533	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2284-24_r_1_s_50	Elaphocera dilatata	0
-5	19	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1518	Dytiscidae,Carabidae,Scarabaeidae,Syrphidae	BBIOP2284-24_r_1_s_100	Elaphocera dilatata	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1533	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2284-24_r_1.3_s_50	Elaphocera dilatata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1482	Scarabaeidae	BBIOP2284-24_r_1.3_s_100	Elaphocera dilatata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1533	Hydrophilidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2284-24_r_1.5_s_50	Elaphocera dilatata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1461	Hydrophilidae,Scarabaeidae	BBIOP2284-24_r_1.5_s_100	Elaphocera dilatata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1542	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2285-24_r_1_s_50	Elaphocera emarginata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2285-24_r_1_s_100	Elaphocera emarginata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2285-24_r_1.3_s_50	Elaphocera emarginata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2285-24_r_1.3_s_100	Elaphocera emarginata	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2285-24_r_1.5_s_50	Elaphocera emarginata	0
-2	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2285-24_r_1.5_s_100	Elaphocera emarginata	0
-5	27	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	641	1356	Staphylinidae,Scarabaeidae,Elateridae,Chrysomelidae	BBIOP2286-24_r_1_s_50	Elaphocera emarginata	0
-12	29	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	539	1203	Tettigoniidae,Staphylinidae,Scarabaeidae,Chrysomelidae	BBIOP2286-24_r_1_s_100	Elaphocera emarginata	0
-4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	608	1227	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2286-24_r_1.3_s_50	Elaphocera emarginata	0
-23	27	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	494	930	Carabidae,Hydraenidae,Scarabaeidae	BBIOP2286-24_r_1.3_s_100	Elaphocera emarginata	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	471	1038	Carabidae,Staphylinidae,Ptiliidae,Scarabaeidae,Trogidae,Culicidae,Chironomidae,Calliphoridae,Geometridae,Corydalidae	BBIOP2286-24_r_1.5_s_50	Elaphocera emarginata	0
-0	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	278	720	Carabidae,Hydraenidae,Scarabaeidae	BBIOP2286-24_r_1.5_s_100	Elaphocera emarginata	0
-1	10	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1533	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2287-24_r_1_s_50	Elaphocera granatensis	0
-3	21	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1533	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2287-24_r_1_s_100	Elaphocera granatensis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1533	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2287-24_r_1.3_s_50	Elaphocera granatensis	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1533	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2287-24_r_1.3_s_100	Elaphocera granatensis	0
-2	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1524	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2287-24_r_1.5_s_50	Elaphocera granatensis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1494	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2287-24_r_1.5_s_100	Elaphocera granatensis	0
-28	67	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1533	Scarabaeidae	BBIOP2288-24_r_1_s_50	Elaphocera granatensis	0
-31	41	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	650	1410	Tettigoniidae,Scarabaeidae,Lauxaniidae,Vespidae,Corydalidae	BBIOP2288-24_r_1_s_100	Elaphocera granatensis	0
-17	43	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	649	1497	Staphylinidae,Tenebrionidae,Ptinidae,Phoridae	BBIOP2288-24_r_1.3_s_50	Elaphocera granatensis	0
-6	16	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	558	1257	Pseudophyllodromiidae,Termitidae,Ninidae,Scarabaeidae,Chrysomelidae,Curculionidae,Agromyzidae	BBIOP2288-24_r_1.3_s_100	Elaphocera granatensis	0
-6	22	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	596	1434	Silphidae,Scarabaeidae	BBIOP2288-24_r_1.5_s_50	Elaphocera granatensis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	276	711	Staphylinidae,Hydraenidae,Scarabaeidae,Cleridae	BBIOP2288-24_r_1.5_s_100	Elaphocera granatensis	0
-1	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Staphylinidae,Scarabaeidae	BBIOP2289-24_r_1_s_50	Amaladera cobosi	0
-3	11	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2289-24_r_1_s_100	Amaladera cobosi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Staphylinidae,Scarabaeidae	BBIOP2289-24_r_1.3_s_50	Amaladera cobosi	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2289-24_r_1.3_s_100	Amaladera cobosi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1497	Scarabaeidae	BBIOP2289-24_r_1.5_s_50	Amaladera cobosi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1425	Scarabaeidae	BBIOP2289-24_r_1.5_s_100	Amaladera cobosi	0
-6	33	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	653	1527	Tettigoniidae,Ninidae,Hydrochidae,Staphylinidae,Scarabaeidae,Ulidiidae,Vespidae	BBIOP2290-24_r_1_s_50	Euserica lucipeta	0
-7	15	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	654	1368	Tettigoniidae,Ninidae,Dermestidae,Bostrichidae,Psychodidae,Ulidiidae,Vespidae,Tetracampidae	BBIOP2290-24_r_1_s_100	Euserica lucipeta	0
-1	27	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	503	1155	Tettigoniidae,Acrididae,Curculionidae,Dermestidae,Bostrichidae,Ulidiidae,Vespidae	BBIOP2290-24_r_1.3_s_50	Euserica lucipeta	0
-1	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	503	966	Tettigoniidae,Acrididae,Curculionidae,Dermestidae,Bostrichidae,Ulidiidae,Vespidae	BBIOP2290-24_r_1.3_s_100	Euserica lucipeta	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	140	504	Acrididae,Nitidulidae,Curculionidae,Dermestidae,Bostrichidae,Ptinidae,Vespidae	BBIOP2290-24_r_1.5_s_50	Euserica lucipeta	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	140	390	Acrididae,Nitidulidae,Curculionidae,Dermestidae,Bostrichidae,Ptinidae,Vespidae	BBIOP2290-24_r_1.5_s_100	Euserica lucipeta	0
-20	32	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Scarabaeidae,Geotrupidae,Chrysomelidae	BBIOP2291-24_r_1_s_50	Euserica mulsanti	0
-5	21	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Hydraenidae,Scarabaeidae	BBIOP2291-24_r_1_s_100	Euserica mulsanti	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Scarabaeidae	BBIOP2291-24_r_1.3_s_50	Euserica mulsanti	0
-3	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Scarabaeidae	BBIOP2291-24_r_1.3_s_100	Euserica mulsanti	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Scarabaeidae	BBIOP2291-24_r_1.5_s_50	Euserica mulsanti	0
-4	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1521	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2291-24_r_1.5_s_100	Euserica mulsanti	0
-1	17	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1536	Scarabaeidae	BBIOP2292-24_r_1_s_50	Euserica villarreali	0
-3	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1536	Staphylinidae,Scarabaeidae	BBIOP2292-24_r_1_s_100	Euserica villarreali	0
-2	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1536	Staphylinidae,Scarabaeidae	BBIOP2292-24_r_1.3_s_50	Euserica villarreali	0
-2	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1536	Staphylinidae,Scarabaeidae	BBIOP2292-24_r_1.3_s_100	Euserica villarreali	0
-1	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1536	Staphylinidae,Scarabaeidae	BBIOP2292-24_r_1.5_s_50	Euserica villarreali	0
-1	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1536	Staphylinidae,Scarabaeidae	BBIOP2292-24_r_1.5_s_100	Euserica villarreali	0
-9	43	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1536	Scarabaeidae	BBIOP2293-24_r_1_s_50	Euserica villarreali	0
-0	35	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	574	1455	Scarabaeidae	BBIOP2293-24_r_1_s_100	Euserica villarreali	0
-12	36	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	654	1536	Staphylinidae,Scarabaeidae,Bostrichidae	BBIOP2293-24_r_1.3_s_50	Euserica villarreali	0
-8	26	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	568	1422	Scarabaeidae	BBIOP2293-24_r_1.3_s_100	Euserica villarreali	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	654	1530	Staphylinidae,Scarabaeidae	BBIOP2293-24_r_1.5_s_50	Euserica villarreali	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	550	1341	Scarabaeidae	BBIOP2293-24_r_1.5_s_100	Euserica villarreali	0
-31	76	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1533	Scarabaeidae,Lucanidae	BBIOP2294-24_r_1_s_50	Hymenoplia castiliana	0
-26	65	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1533	Scarabaeidae	BBIOP2294-24_r_1_s_100	Hymenoplia castiliana	0
-14	28	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1533	Scarabaeidae	BBIOP2294-24_r_1.3_s_50	Hymenoplia castiliana	0
-12	30	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1533	Scarabaeidae	BBIOP2294-24_r_1.3_s_100	Hymenoplia castiliana	0
-0	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1506	Leiodidae,Scarabaeidae,Geotrupidae	BBIOP2294-24_r_1.5_s_50	Hymenoplia castiliana	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	609	1395	Scarabaeidae	BBIOP2294-24_r_1.5_s_100	Hymenoplia castiliana	0
-8	25	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	653	1503	Hydrophilidae,Staphylinidae,Hydraenidae,Scarabaeidae,Hybosoridae,Apionidae,Hesperiidae	BBIOP2295-24_r_1_s_50	Hymenoplia castiliana	0
-32	35	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	585	1320	Hydrophilidae,Scarabaeidae,Hybosoridae,Apionidae	BBIOP2295-24_r_1_s_100	Hymenoplia castiliana	0
-9	23	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	630	1359	Scarabaeidae,Lucanidae,Tenebrionidae,Chrysomelidae	BBIOP2295-24_r_1.3_s_50	Hymenoplia castiliana	0
-0	17	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	500	915	Chironomidae	BBIOP2295-24_r_1.3_s_100	Hymenoplia castiliana	0
-3	7	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	502	1116	Staphylinidae,Scarabaeidae,Trogidae,Chrysomelidae	BBIOP2295-24_r_1.5_s_50	Hymenoplia castiliana	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	522	564	Scarabaeidae,Ptilodactylidae	BBIOP2295-24_r_1.5_s_100	Hymenoplia castiliana	1
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2296-24_r_1_s_50	Maladera apfelbecki	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2296-24_r_1_s_100	Maladera apfelbecki	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2296-24_r_1.3_s_50	Maladera apfelbecki	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2296-24_r_1.3_s_100	Maladera apfelbecki	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2296-24_r_1.5_s_50	Maladera apfelbecki	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2296-24_r_1.5_s_100	Maladera apfelbecki	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1533	Scarabaeidae	BBIOP2297-24_r_1_s_50	Maladera apfelbecki	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2297-24_r_1_s_100	Maladera apfelbecki	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1533	Scarabaeidae	BBIOP2297-24_r_1.3_s_50	Maladera apfelbecki	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2297-24_r_1.3_s_100	Maladera apfelbecki	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2297-24_r_1.5_s_50	Maladera apfelbecki	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2297-24_r_1.5_s_100	Maladera apfelbecki	0
-23	47	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	652	1533	Hydrophilidae,Asilidae	BBIOP2298-24_r_1_s_50	Hymenoplia chevrolati	1
-2	35	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	607	1332	Tettigoniidae,Scarabaeidae,Vespidae	BBIOP2298-24_r_1_s_100	Hymenoplia chevrolati	0
-4	27	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	643	1488	Scarabaeidae,Lucanidae,Calliphoridae	BBIOP2298-24_r_1.3_s_50	Hymenoplia chevrolati	0
-1	11	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	514	1119	Scarabaeidae	BBIOP2298-24_r_1.3_s_100	Hymenoplia chevrolati	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	608	1335	Hydrophilidae,Hydrochidae,Staphylinidae,Scarabaeidae	BBIOP2298-24_r_1.5_s_50	Hymenoplia chevrolati	0
-4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	488	1026	Hydrochidae,Scarabaeidae,Trogidae	BBIOP2298-24_r_1.5_s_100	Hymenoplia chevrolati	0
-3	34	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	600	1359	Termopsidae,Gryllidae,Lucanidae,Ceratopogonidae,Dolichopodidae,Lonchaeidae	BBIOP2299-24_r_1_s_50	Hymenoplia chevrolati	0
-0	34	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	545	1287	Chrysomelidae,Dolichopodidae	BBIOP2299-24_r_1_s_100	Hymenoplia chevrolati	0
-5	17	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	513	1062	Scarabaeidae,Muscidae,Calliphoridae	BBIOP2299-24_r_1.3_s_50	Hymenoplia chevrolati	0
-3	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	161	636	Cercopidae,Scarabaeidae,Mordellidae,Chrysomelidae,Curculionidae,Anthribidae,Tabanidae,Sphingidae	BBIOP2299-24_r_1.3_s_100	Hymenoplia chevrolati	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	70	690	Scarabaeidae	BBIOP2299-24_r_1.5_s_50	Hymenoplia chevrolati	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	65	336	Scarabaeidae,Lucanidae,Meloidae	BBIOP2299-24_r_1.5_s_100	Hymenoplia chevrolati	0
-17	30	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2300-24_r_1_s_50	Hymenoplia cinerascens	0
-5	28	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2300-24_r_1_s_100	Hymenoplia cinerascens	0
-1	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2300-24_r_1.3_s_50	Hymenoplia cinerascens	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	627	1374	Scarabaeidae	BBIOP2300-24_r_1.3_s_100	Hymenoplia cinerascens	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1518	Staphylinidae,Scarabaeidae,Geotrupidae,Sarcophagidae	BBIOP2300-24_r_1.5_s_50	Hymenoplia cinerascens	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	627	1335	Scarabaeidae	BBIOP2300-24_r_1.5_s_100	Hymenoplia cinerascens	0
-1	24	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1536	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2301-24_r_1_s_50	Hymenoplia lata	0
-1	16	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1467	Staphylinidae,Scarabaeidae,Chrysomelidae	BBIOP2301-24_r_1_s_100	Hymenoplia lata	0
-1	10	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	646	1509	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2301-24_r_1.3_s_50	Hymenoplia lata	0
-0	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	646	1437	Hydrophilidae,Scarabaeidae,Buprestidae,Tephritidae	BBIOP2301-24_r_1.3_s_100	Hymenoplia lata	0
-2	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	647	1503	Scarabaeidae,Geotrupidae	BBIOP2301-24_r_1.5_s_50	Hymenoplia lata	0
-3	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	647	1431	Scarabaeidae,Geotrupidae	BBIOP2301-24_r_1.5_s_100	Hymenoplia lata	0
-20	24	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	654	1458	Scarabaeidae	BBIOP2302-24_r_1_s_50	Hymenoplia cinerascens	0
-42	68	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1437	Scarabaeidae,Zopheridae	BBIOP2302-24_r_1_s_100	Hymenoplia cinerascens	0
-18	27	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	516	1152	Scarabaeidae	BBIOP2302-24_r_1.3_s_50	Hymenoplia cinerascens	0
-4	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	317	963	Scarabaeidae	BBIOP2302-24_r_1.3_s_100	Hymenoplia cinerascens	0
-5	7	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	496	1056	Scarabaeidae,Cerambycidae,Endomychidae,Ptychopteridae	BBIOP2302-24_r_1.5_s_50	Hymenoplia cinerascens	0
-2	15	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	206	669	Scarabaeidae	BBIOP2302-24_r_1.5_s_100	Hymenoplia cinerascens	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2303-24_r_1_s_50	Hymenoplia lineolata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2303-24_r_1_s_100	Hymenoplia lineolata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2303-24_r_1.3_s_50	Hymenoplia lineolata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2303-24_r_1.3_s_100	Hymenoplia lineolata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1518	Scarabaeidae	BBIOP2303-24_r_1.5_s_50	Hymenoplia lineolata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1500	Scarabaeidae	BBIOP2303-24_r_1.5_s_100	Hymenoplia lineolata	0
-12	21	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Hydraenidae,Scarabaeidae,Syrphidae	BBIOP2304-24_r_1_s_50	Hymenoplia miegii	0
-14	24	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	524	1335	Scarabaeidae,Bothrideridae,Dermestidae,Syrphidae,Tephritidae	BBIOP2304-24_r_1_s_100	Hymenoplia miegii	0
-3	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2304-24_r_1.3_s_50	Hymenoplia miegii	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	524	1329	Dytiscidae,Staphylinidae,Scarabaeidae,Lucanidae,Drosophilidae,Tephritidae,Gelechiidae	BBIOP2304-24_r_1.3_s_100	Hymenoplia miegii	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	650	1503	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2304-24_r_1.5_s_50	Hymenoplia miegii	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	524	1311	Dytiscidae,Staphylinidae,Scarabaeidae,Lucanidae,Drosophilidae,Tephritidae,Gelechiidae	BBIOP2304-24_r_1.5_s_100	Hymenoplia miegii	0
-34	69	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	635	1494	Hydrophilidae,Tachinidae	BBIOP2305-24_r_1_s_50	Hymenoplia miegii	0
-10	19	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	612	1269	Dermestidae,Asilidae,Syrphidae	BBIOP2305-24_r_1_s_100	Hymenoplia miegii	0
-1	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	555	1284	Reduviidae	BBIOP2305-24_r_1.3_s_50	Hymenoplia miegii	0
-1	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	317	954	Reduviidae	BBIOP2305-24_r_1.3_s_100	Hymenoplia miegii	0
-0	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	312	1047	Reduviidae	BBIOP2305-24_r_1.5_s_50	Hymenoplia miegii	0
-1	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	210	759	Reduviidae	BBIOP2305-24_r_1.5_s_100	Hymenoplia miegii	0
-2	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1527	Staphylinidae,Geotrupidae,Cleridae,Pyrochroidae	BBIOP2306-24_r_1_s_50	Hymenoplia rugulosa	0
-1	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1509	Scarabaeidae	BBIOP2306-24_r_1_s_100	Hymenoplia rugulosa	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1527	Staphylinidae,Geotrupidae,Cleridae,Pyrochroidae	BBIOP2306-24_r_1.3_s_50	Hymenoplia rugulosa	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1509	Scarabaeidae	BBIOP2306-24_r_1.3_s_100	Hymenoplia rugulosa	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1488	Carabidae,Staphylinidae,Geotrupidae,Cleridae,Pyrochroidae	BBIOP2306-24_r_1.5_s_50	Hymenoplia rugulosa	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1419	Scarabaeidae,Geotrupidae	BBIOP2306-24_r_1.5_s_100	Hymenoplia rugulosa	0
-12	20	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	622	1380		BBIOP2307-24_r_1_s_50	Omaloplia hericius	0
-0	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	600	1293		BBIOP2307-24_r_1_s_100	Omaloplia hericius	0
-0	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	233	966	Scarabaeidae,Geotrupidae	BBIOP2307-24_r_1.3_s_50	Omaloplia hericius	0
-0	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	140	750	Scarabaeidae	BBIOP2307-24_r_1.3_s_100	Omaloplia hericius	0
-0	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	240	795	Scarabaeidae	BBIOP2307-24_r_1.5_s_50	Omaloplia hericius	0
-0	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	142	627	Scarabaeidae	BBIOP2307-24_r_1.5_s_100	Omaloplia hericius	0
-0	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2308-24_r_1_s_50	Omaloplia nigromarginata	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2308-24_r_1_s_100	Omaloplia nigromarginata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2308-24_r_1.3_s_50	Omaloplia nigromarginata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2308-24_r_1.3_s_100	Omaloplia nigromarginata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1515	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2308-24_r_1.5_s_50	Omaloplia nigromarginata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1431	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2308-24_r_1.5_s_100	Omaloplia nigromarginata	0
-9	28	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae,Syrphidae,Drosophilidae,Tachinidae,Noctuidae,Geometridae	BBIOP2309-24_r_1_s_50	Omaloplia nigromarginata	0
-1	7	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	600	1398	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2309-24_r_1_s_100	Omaloplia nigromarginata	0
-2	10	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1506	Staphylinidae,Scarabaeidae,Drosophilidae	BBIOP2309-24_r_1.3_s_50	Omaloplia nigromarginata	0
-1	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	600	1371	Scarabaeidae,Geotrupidae	BBIOP2309-24_r_1.3_s_100	Omaloplia nigromarginata	0
-1	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1404	Staphylinidae,Scarabaeidae,Drosophilidae	BBIOP2309-24_r_1.5_s_50	Omaloplia nigromarginata	0
-1	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	600	1266	Scarabaeidae,Geotrupidae	BBIOP2309-24_r_1.5_s_100	Omaloplia nigromarginata	0
-4	10	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Muscidae	BBIOP2310-24_r_1_s_50	Omaloplia spireae	0
-6	18	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Scarabaeidae,Cleridae	BBIOP2310-24_r_1_s_100	Omaloplia spireae	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2310-24_r_1.3_s_50	Omaloplia spireae	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2310-24_r_1.3_s_100	Omaloplia spireae	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1506	Staphylinidae,Scarabaeidae	BBIOP2310-24_r_1.5_s_50	Omaloplia spireae	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1503	Staphylinidae,Scarabaeidae	BBIOP2310-24_r_1.5_s_100	Omaloplia spireae	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2311-24_r_1_s_50	Omaloplia spireae	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2311-24_r_1_s_100	Omaloplia spireae	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2311-24_r_1.3_s_50	Omaloplia spireae	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2311-24_r_1.3_s_100	Omaloplia spireae	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2311-24_r_1.5_s_50	Omaloplia spireae	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1527	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2311-24_r_1.5_s_100	Omaloplia spireae	0
-7	50	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1467	Scarabaeidae,Chrysomelidae,Curculionidae,Drosophilidae,Tachinidae	BBIOP2312-24_r_1_s_50	Paratriodonta alicantina	0
-9	46	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	592	1302	Staphylinidae,Scarabaeidae,Nitidulidae,Chrysomelidae,Blastobasidae,Noctuidae,Nymphalidae	BBIOP2312-24_r_1_s_100	Paratriodonta alicantina	0
-2	25	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	647	1434	Silphidae,Scarabaeidae,Melyridae,Nitidulidae,Tephritidae	BBIOP2312-24_r_1.3_s_50	Paratriodonta alicantina	0
-16	35	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	574	1284	Staphylinidae,Scarabaeidae,Trogidae	BBIOP2312-24_r_1.3_s_100	Paratriodonta alicantina	0
-4	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	599	1218	Staphylinidae,Geotrupidae,Drosophilidae,Ephydridae,Muscidae,Tachinidae	BBIOP2312-24_r_1.5_s_50	Paratriodonta alicantina	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	507	1071	Staphylinidae,Scarabaeidae,Trogidae,Geotrupidae,Culicidae,Muscidae	BBIOP2312-24_r_1.5_s_100	Paratriodonta alicantina	4
-6	29	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	654	1536	Scarabaeidae	BBIOP2313-24_r_1_s_50	Paratriodonta alicantina	0
-13	38	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	628	1413	Scarabaeidae,Mydidae,Sphaeroceridae	BBIOP2313-24_r_1_s_100	Paratriodonta alicantina	0
-2	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	654	1512	Hydraenidae,Scarabaeidae,Hybosoridae,Muscidae	BBIOP2313-24_r_1.3_s_50	Paratriodonta alicantina	0
-13	17	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	626	1326	Scarabaeidae	BBIOP2313-24_r_1.3_s_100	Paratriodonta alicantina	0
-3	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	643	1464	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2313-24_r_1.5_s_50	Paratriodonta alicantina	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	564	1245	Carabidae,Scarabaeidae,Geotrupidae,Pyrochroidae,Endomychidae,Syrphidae	BBIOP2313-24_r_1.5_s_100	Paratriodonta alicantina	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2314-24_r_1_s_50	Paratriodonta cinctipennis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2314-24_r_1_s_100	Paratriodonta cinctipennis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2314-24_r_1.3_s_50	Paratriodonta cinctipennis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2314-24_r_1.3_s_100	Paratriodonta cinctipennis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2314-24_r_1.5_s_50	Paratriodonta cinctipennis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1482	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2314-24_r_1.5_s_100	Paratriodonta cinctipennis	0
-13	43	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	636	1476	Carabidae,Hydraenidae,Aderidae,Chrysomelidae,Chironomidae	BBIOP2315-24_r_1_s_50	Paratriodonta cinctipennis	0
-7	40	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	616	1389	Staphylinidae,Hydraenidae,Aderidae,Chrysomelidae,Limoniidae,Hepialidae	BBIOP2315-24_r_1_s_100	Paratriodonta cinctipennis	0
-0	34	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	531	1221	Carabidae,Scarabaeidae,Ephydridae,Opomyzidae	BBIOP2315-24_r_1.3_s_50	Paratriodonta cinctipennis	0
-0	37	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	333	771	Staphylinidae,Hydraenidae,Aderidae,Chrysomelidae,Limoniidae,Hepialidae	BBIOP2315-24_r_1.3_s_100	Paratriodonta cinctipennis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	311	936	Hydrophilidae,Scarabaeidae,Melyridae	BBIOP2315-24_r_1.5_s_50	Paratriodonta cinctipennis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	260	558	Hydrophilidae,Staphylinidae,Scarabaeidae,Curculionidae	BBIOP2315-24_r_1.5_s_100	Paratriodonta cinctipennis	0
-26	84	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	653	1497	Hydraenidae,Chironomidae,Ceratopogonidae	BBIOP2316-24_r_1_s_50	Paratriodonta romana	0
-10	31	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	615	1371	Staphylinidae,Byrrhidae,Curculionidae,Hesperiidae	BBIOP2316-24_r_1_s_100	Paratriodonta romana	0
-7	21	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	654	1404	Hydraenidae,Chrysomelidae,Hepialidae,Hesperiidae,Geometridae	BBIOP2316-24_r_1.3_s_50	Paratriodonta romana	0
-1	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	606	1272	Staphylinidae,Byrrhidae,Curculionidae,Hesperiidae	BBIOP2316-24_r_1.3_s_100	Paratriodonta romana	0
-7	18	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	591	1296	Rhaphidophoridae,Staphylinidae,Scarabaeidae,Endomychidae,Empididae,Drosophilidae,Agromyzidae,Tephritidae	BBIOP2316-24_r_1.5_s_50	Paratriodonta romana	0
-2	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	309	780	Reduviidae	BBIOP2316-24_r_1.5_s_100	Paratriodonta romana	0
-3	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	632	1425		BBIOP2317-24_r_1_s_50	Paratriodonta romana	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	458	1194	Kalotermitidae,Lonchodidae,Miridae,Dinidoridae,Cicadellidae	BBIOP2317-24_r_1_s_100	Paratriodonta romana	0
-0	24	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	156	930	Tettigoniidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Ulidiidae,Vespidae,Tetracampidae	BBIOP2317-24_r_1.3_s_50	Paratriodonta romana	0
-0	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	129	756	Tettigoniidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Ulidiidae,Vespidae,Tetracampidae	BBIOP2317-24_r_1.3_s_100	Paratriodonta romana	0
-0	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	130	474	Tettigoniidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Ulidiidae,Vespidae,Tetracampidae	BBIOP2317-24_r_1.5_s_50	Paratriodonta romana	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	128	213	Tettigoniidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Ulidiidae,Vespidae,Tetracampidae	BBIOP2317-24_r_1.5_s_100	Paratriodonta romana	0
-65	154	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1536	Lonchodidae,Scarabaeidae,Geotrupidae	BBIOP2318-24_r_1_s_50	Triodontella lajonquierei	0
-52	124	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1497	Scarabaeidae	BBIOP2318-24_r_1_s_100	Triodontella lajonquierei	0
-8	26	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1518	Staphylinidae,Geotrupidae,Chloropidae	BBIOP2318-24_r_1.3_s_50	Triodontella lajonquierei	0
-3	20	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1452	Staphylinidae,Scarabaeidae,Geotrupidae,Psilidae	BBIOP2318-24_r_1.3_s_100	Triodontella lajonquierei	0
-3	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1413	Scarabaeidae	BBIOP2318-24_r_1.5_s_50	Triodontella lajonquierei	0
-2	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1404	Scarabaeidae,Geotrupidae	BBIOP2318-24_r_1.5_s_100	Triodontella lajonquierei	0
-6	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	600	1383	Cryptocercidae,Acrididae,Scarabaeidae,Scirtidae,Tephritidae,Polleniidae	BBIOP2319-24_r_1_s_50	Triodontella alni	0
-0	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	470	1080	Scarabaeidae,Scirtidae,Elmidae	BBIOP2319-24_r_1_s_100	Triodontella alni	0
-2	15	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	486	1143	Dytiscidae,Carabidae,Scarabaeidae	BBIOP2319-24_r_1.3_s_50	Triodontella alni	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	150	717	Dytiscidae,Carabidae,Scarabaeidae	BBIOP2319-24_r_1.3_s_100	Triodontella alni	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	396	813	Dytiscidae,Carabidae,Scarabaeidae	BBIOP2319-24_r_1.5_s_50	Triodontella alni	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	150	528	Dytiscidae,Carabidae,Scarabaeidae	BBIOP2319-24_r_1.5_s_100	Triodontella alni	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2320-24_r_1_s_50	Triodontella alni	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2320-24_r_1_s_100	Triodontella alni	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2320-24_r_1.3_s_50	Triodontella alni	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2320-24_r_1.3_s_100	Triodontella alni	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1503	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2320-24_r_1.5_s_50	Triodontella alni	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1437	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2320-24_r_1.5_s_100	Triodontella alni	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae,Geotrupidae	BBIOP2321-24_r_1_s_50	Triodontella bucculenta	0
-0	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1524	Scarabaeidae,Lucanidae,Geotrupidae	BBIOP2321-24_r_1_s_100	Triodontella bucculenta	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae,Geotrupidae	BBIOP2321-24_r_1.3_s_50	Triodontella bucculenta	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1524	Scarabaeidae,Geotrupidae	BBIOP2321-24_r_1.3_s_100	Triodontella bucculenta	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1518	Scarabaeidae	BBIOP2321-24_r_1.5_s_50	Triodontella bucculenta	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1431	Scarabaeidae	BBIOP2321-24_r_1.5_s_100	Triodontella bucculenta	0
-9	23	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	542	1377		BBIOP2322-24_r_1_s_50	Triodontella bucculenta	0
-0	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	542	1212	Tettigoniidae,Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Ulidiidae,Vespidae,Tetracampidae	BBIOP2322-24_r_1_s_100	Triodontella bucculenta	0
-1	7	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	237	855	Rhinotermitidae,Hybosoridae,Attelabidae	BBIOP2322-24_r_1.3_s_50	Triodontella bucculenta	0
-0	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	204	726	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	BBIOP2322-24_r_1.3_s_100	Triodontella bucculenta	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	164	591	Termitidae,Oestridae	BBIOP2322-24_r_1.5_s_50	Triodontella bucculenta	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	130	471	Termitidae,Oestridae	BBIOP2322-24_r_1.5_s_100	Triodontella bucculenta	0
-25	72	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	636	1500	Staphylinidae,Hydraenidae,Scarabaeidae,Lucanidae	BBIOP2323-24_r_1_s_50	Triodontella corsica	0
-15	58	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	582	1308		BBIOP2323-24_r_1_s_100	Triodontella corsica	0
-5	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	315	1173	Reduviidae	BBIOP2323-24_r_1.3_s_50	Triodontella corsica	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	176	927	Reduviidae	BBIOP2323-24_r_1.3_s_100	Triodontella corsica	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	264	738	Psychodidae	BBIOP2323-24_r_1.5_s_50	Triodontella corsica	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	218	534	Psychodidae	BBIOP2323-24_r_1.5_s_100	Triodontella corsica	0
-11	25	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	620	1395		BBIOP2324-24_r_1_s_50	Triodontella corsica	0
-2	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	511	1287		BBIOP2324-24_r_1_s_100	Triodontella corsica	0
-7	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	563	1119	Chironomidae,Tipulidae,Pediciidae,Syrphidae	BBIOP2324-24_r_1.3_s_50	Triodontella corsica	0
-6	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	157	690	Tettigoniidae,Tingidae,Lampyridae,Chrysomelidae,Noctuidae	BBIOP2324-24_r_1.3_s_100	Triodontella corsica	0
-13	13	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	435	879	Dytiscidae,Cecidomyiidae,Limoniidae,Phoridae,Pyralidae	BBIOP2324-24_r_1.5_s_50	Triodontella corsica	0
-2	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	158	360	Rhinotermitidae,Tettigoniidae,Dascillidae,Dermestidae	BBIOP2324-24_r_1.5_s_100	Triodontella corsica	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Scarabaeidae	BBIOP2325-24_r_1_s_50	Triodontella dalmatica	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Scarabaeidae	BBIOP2325-24_r_1_s_100	Triodontella dalmatica	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Scarabaeidae	BBIOP2325-24_r_1.3_s_50	Triodontella dalmatica	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Scarabaeidae	BBIOP2325-24_r_1.3_s_100	Triodontella dalmatica	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1506	Scarabaeidae	BBIOP2325-24_r_1.5_s_50	Triodontella dalmatica	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1446	Scarabaeidae	BBIOP2325-24_r_1.5_s_100	Triodontella dalmatica	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Tachinidae	BBIOP2326-24_r_1_s_50	Triodontella cribellata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Tachinidae	BBIOP2326-24_r_1_s_100	Triodontella cribellata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Tachinidae	BBIOP2326-24_r_1.3_s_50	Triodontella cribellata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Tachinidae	BBIOP2326-24_r_1.3_s_100	Triodontella cribellata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1518	Staphylinidae,Scarabaeidae,Sarcophagidae,Tachinidae	BBIOP2326-24_r_1.5_s_50	Triodontella cribellata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1509	Staphylinidae,Scarabaeidae,Sarcophagidae,Tachinidae	BBIOP2326-24_r_1.5_s_100	Triodontella cribellata	0
-0	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Silphidae,Scarabaeidae,Geotrupidae,Drosophilidae,Sarcophagidae	BBIOP2327-24_r_1_s_50	Triodontella cribellata	0
-1	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Silphidae,Scarabaeidae,Geotrupidae,Drosophilidae,Sarcophagidae	BBIOP2327-24_r_1_s_100	Triodontella cribellata	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Scarabaeidae,Tachinidae	BBIOP2327-24_r_1.3_s_50	Triodontella cribellata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Scarabaeidae,Tachinidae	BBIOP2327-24_r_1.3_s_100	Triodontella cribellata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1518	Staphylinidae,Scarabaeidae,Tachinidae	BBIOP2327-24_r_1.5_s_50	Triodontella cribellata	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1509	Staphylinidae,Scarabaeidae,Tachinidae	BBIOP2327-24_r_1.5_s_100	Triodontella cribellata	0
-4	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae	BBIOP2328-24_r_1_s_50	Triodontella nitidula	0
-9	16	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Scarabaeidae,Melyridae,Muscidae	BBIOP2328-24_r_1_s_100	Triodontella nitidula	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae	BBIOP2328-24_r_1.3_s_50	Triodontella nitidula	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1485	Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae	BBIOP2328-24_r_1.3_s_100	Triodontella nitidula	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1509	Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae,Sphaeroceridae	BBIOP2328-24_r_1.5_s_50	Triodontella nitidula	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1446	Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae,Sphaeroceridae	BBIOP2328-24_r_1.5_s_100	Triodontella nitidula	0
-4	33	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae,Drosophilidae	BBIOP2329-24_r_1_s_50	Triodontella nitidula	0
-4	28	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Staphylinidae,Geotrupidae,Silvanidae,Chironomidae,Drosophilidae,Muscidae,Tachinidae	BBIOP2329-24_r_1_s_100	Triodontella nitidula	0
-3	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae	BBIOP2329-24_r_1.3_s_50	Triodontella nitidula	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae	BBIOP2329-24_r_1.3_s_100	Triodontella nitidula	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1509	Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae,Sphaeroceridae	BBIOP2329-24_r_1.5_s_50	Triodontella nitidula	0
-4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1422	Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae,Sphaeroceridae	BBIOP2329-24_r_1.5_s_100	Triodontella nitidula	0
-14	42	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	647	1512	Termitidae,Tettigoniidae,Ninidae,Ulidiidae,Vespidae	BBIOP2330-24_r_1_s_50	Triodontella raymondi	0
-1	30	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	605	1410	Kalotermitidae,Termitidae,Tettigoniidae,Ninidae,Scarabaeidae,Tenebrionidae,Asilidae,Ulidiidae,Vespidae	BBIOP2330-24_r_1_s_100	Triodontella raymondi	0
-6	13	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	531	1281	Tettigoniidae,Hydrophilidae,Staphylinidae,Scarabaeidae,Vespidae	BBIOP2330-24_r_1.3_s_50	Triodontella raymondi	0
-1	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	458	1137	Tettigoniidae,Staphylinidae,Scarabaeidae,Lucanidae,Lophocateridae,Vespidae	BBIOP2330-24_r_1.3_s_100	Triodontella raymondi	0
-6	14	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	486	1137	Scarabaeidae,Syrphidae	BBIOP2330-24_r_1.5_s_50	Triodontella raymondi	0
-3	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	419	1008	Scarabaeidae,Erotylidae,Culicidae,Apidae	BBIOP2330-24_r_1.5_s_100	Triodontella raymondi	0
-4	23	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	524	1323	Carabidae,Hydrophilidae,Staphylinidae,Scarabaeidae,Prionoceridae	BBIOP2331-24_r_1_s_50	Triodontella raymondi	0
-0	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	446	1065		BBIOP2331-24_r_1_s_100	Triodontella raymondi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	445	912	Dytiscidae,Carabidae,Staphylinidae,Scarabaeidae,Scraptiidae,Cerambycidae,Derodontidae	BBIOP2331-24_r_1.3_s_50	Triodontella raymondi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	359	573	Dytiscidae,Carabidae,Hydrophilidae,Scarabaeidae,Cerambycidae,Derodontidae,Chamaemyiidae	BBIOP2331-24_r_1.3_s_100	Triodontella raymondi	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	409	786	Dytiscidae,Carabidae,Scarabaeidae,Scraptiidae,Cerambycidae,Derodontidae,Chamaemyiidae	BBIOP2331-24_r_1.5_s_50	Triodontella raymondi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	359	552	Dytiscidae,Carabidae,Hydrophilidae,Scarabaeidae,Cerambycidae,Derodontidae,Chamaemyiidae	BBIOP2331-24_r_1.5_s_100	Triodontella raymondi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1542	Scarabaeidae	BBIOP2332-24_r_1_s_50	Ateuchetus puncticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2332-24_r_1_s_100	Ateuchetus puncticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2332-24_r_1.3_s_50	Ateuchetus puncticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2332-24_r_1.3_s_100	Ateuchetus puncticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2332-24_r_1.5_s_50	Ateuchetus puncticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1512	Scarabaeidae	BBIOP2332-24_r_1.5_s_100	Ateuchetus puncticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2333-24_r_1_s_50	Ateuchetus puncticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2333-24_r_1_s_100	Ateuchetus puncticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2333-24_r_1.3_s_50	Ateuchetus puncticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2333-24_r_1.3_s_100	Ateuchetus puncticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2333-24_r_1.5_s_50	Ateuchetus puncticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2333-24_r_1.5_s_100	Ateuchetus puncticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1533	Scarabaeidae	BBIOP2334-24_r_1_s_50	Ateuchetus variolosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2334-24_r_1_s_100	Ateuchetus variolosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1533	Scarabaeidae	BBIOP2334-24_r_1.3_s_50	Ateuchetus variolosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2334-24_r_1.3_s_100	Ateuchetus variolosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1518	Scarabaeidae	BBIOP2334-24_r_1.5_s_50	Ateuchetus variolosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1440	Scarabaeidae	BBIOP2334-24_r_1.5_s_100	Ateuchetus variolosus	0
-8	24	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2335-24_r_1_s_50	Ateuchetus variolosus	0
-15	24	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2335-24_r_1_s_100	Ateuchetus variolosus	0
-6	10	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2335-24_r_1.3_s_50	Ateuchetus variolosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Carabidae,Scarabaeidae,Protocucujidae,Syrphidae	BBIOP2335-24_r_1.3_s_100	Ateuchetus variolosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1503	Scarabaeidae	BBIOP2335-24_r_1.5_s_50	Ateuchetus variolosus	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1440	Scarabaeidae	BBIOP2335-24_r_1.5_s_100	Ateuchetus variolosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2336-24_r_1_s_50	Ateuchetus laticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2336-24_r_1_s_100	Ateuchetus laticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2336-24_r_1.3_s_50	Ateuchetus laticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2336-24_r_1.3_s_100	Ateuchetus laticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	654	1509	Scarabaeidae	BBIOP2336-24_r_1.5_s_50	Ateuchetus laticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	654	1437	Scarabaeidae	BBIOP2336-24_r_1.5_s_100	Ateuchetus laticollis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2337-24_r_1_s_50	Scarabaeus semipunctatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2337-24_r_1_s_100	Scarabaeus semipunctatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2337-24_r_1.3_s_50	Scarabaeus semipunctatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2337-24_r_1.3_s_100	Scarabaeus semipunctatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2337-24_r_1.5_s_50	Scarabaeus semipunctatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1527	Scarabaeidae	BBIOP2337-24_r_1.5_s_100	Scarabaeus semipunctatus	0
-2	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1542	Scarabaeidae	BBIOP2338-24_r_1_s_50	Scarabaeus semipunctatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1539	Scarabaeidae	BBIOP2338-24_r_1_s_100	Scarabaeus semipunctatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1539	Scarabaeidae	BBIOP2338-24_r_1.3_s_50	Scarabaeus semipunctatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1539	Scarabaeidae	BBIOP2338-24_r_1.3_s_100	Scarabaeus semipunctatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1515	Scarabaeidae	BBIOP2338-24_r_1.5_s_50	Scarabaeus semipunctatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1449	Scarabaeidae	BBIOP2338-24_r_1.5_s_100	Scarabaeus semipunctatus	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Lucanidae	BLAST	family	657	1533	Staphylinidae,Leiodidae,Hydraenidae,Scarabaeidae	BBIOP2339-24_r_1_s_50	Platycerus spinifer	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Lucanidae	BLAST	family	657	1530	Staphylinidae,Leiodidae,Hydraenidae,Scarabaeidae	BBIOP2339-24_r_1_s_100	Platycerus spinifer	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Lucanidae	BLAST	family	657	1530	Staphylinidae,Leiodidae,Hydraenidae,Scarabaeidae	BBIOP2339-24_r_1.3_s_50	Platycerus spinifer	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Lucanidae	BLAST	family	657	1530	Staphylinidae,Leiodidae,Hydraenidae,Scarabaeidae	BBIOP2339-24_r_1.3_s_100	Platycerus spinifer	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Lucanidae	BLAST	family	657	1530	Staphylinidae,Leiodidae,Hydraenidae,Scarabaeidae	BBIOP2339-24_r_1.5_s_50	Platycerus spinifer	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Lucanidae	BLAST	family	657	1530	Staphylinidae,Leiodidae,Hydraenidae,Scarabaeidae	BBIOP2339-24_r_1.5_s_100	Platycerus spinifer	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae	BBIOP2340-24_r_1_s_50	Gymnopleurus geoffroyi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae	BBIOP2340-24_r_1_s_100	Gymnopleurus geoffroyi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae	BBIOP2340-24_r_1.3_s_50	Gymnopleurus geoffroyi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae	BBIOP2340-24_r_1.3_s_100	Gymnopleurus geoffroyi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae	BBIOP2340-24_r_1.5_s_50	Gymnopleurus geoffroyi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae	BBIOP2340-24_r_1.5_s_100	Gymnopleurus geoffroyi	0
-1	15	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae	BBIOP2341-24_r_1_s_50	Gymnopleurus geoffroyi	0
-3	17	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae	BBIOP2341-24_r_1_s_100	Gymnopleurus geoffroyi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae	BBIOP2341-24_r_1.3_s_50	Gymnopleurus geoffroyi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae	BBIOP2341-24_r_1.3_s_100	Gymnopleurus geoffroyi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae	BBIOP2341-24_r_1.5_s_50	Gymnopleurus geoffroyi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae	BBIOP2341-24_r_1.5_s_100	Gymnopleurus geoffroyi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2342-24_r_1_s_50	Bubas bubaloides	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2342-24_r_1_s_100	Bubas bubaloides	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2342-24_r_1.3_s_50	Bubas bubaloides	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2342-24_r_1.3_s_100	Bubas bubaloides	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2342-24_r_1.5_s_50	Bubas bubaloides	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2342-24_r_1.5_s_100	Bubas bubaloides	0
-5	32	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	638	1485	Reduviidae,Culicidae	BBIOP2343-24_r_1_s_50	Cheironitis furcifer	0
-4	11	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	553	1254	Phasmatidae,Lonchodidae,Reduviidae,Cicadellidae,Tachinidae	BBIOP2343-24_r_1_s_100	Cheironitis furcifer	0
-3	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	548	1302	Ptinidae,Culicidae,Agromyzidae,Lycaenidae	BBIOP2343-24_r_1.3_s_50	Cheironitis furcifer	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	457	804	Reduviidae,Phoridae,Tachinidae	BBIOP2343-24_r_1.3_s_100	Cheironitis furcifer	0
-4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	434	990	Staphylinidae,Chrysomelidae	BBIOP2343-24_r_1.5_s_50	Cheironitis furcifer	0
-3	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	213	405	Ectobiidae,Cecidomyiidae,Chironomidae,Chrysopidae	BBIOP2343-24_r_1.5_s_100	Cheironitis furcifer	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1539	Scarabaeidae	BBIOP2344-24_r_1_s_50	Cheironitis furcifer	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1539	Scarabaeidae	BBIOP2344-24_r_1_s_100	Cheironitis furcifer	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1539	Scarabaeidae	BBIOP2344-24_r_1.3_s_50	Cheironitis furcifer	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1539	Scarabaeidae	BBIOP2344-24_r_1.3_s_100	Cheironitis furcifer	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1539	Scarabaeidae	BBIOP2344-24_r_1.5_s_50	Cheironitis furcifer	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1539	Scarabaeidae	BBIOP2344-24_r_1.5_s_100	Cheironitis furcifer	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2345-24_r_1_s_50	Cheironitis furcifer	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2345-24_r_1_s_100	Cheironitis furcifer	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2345-24_r_1.3_s_50	Cheironitis furcifer	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2345-24_r_1.3_s_100	Cheironitis furcifer	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae	BBIOP2345-24_r_1.5_s_50	Cheironitis furcifer	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1536	Scarabaeidae	BBIOP2345-24_r_1.5_s_100	Cheironitis furcifer	0
-73	126	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1539	Scarabaeidae	BBIOP2346-24_r_1_s_50	Cheironitis haroldi	0
-66	113	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1539	Staphylinidae,Scarabaeidae	BBIOP2346-24_r_1_s_100	Cheironitis haroldi	0
-13	16	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1539	Scarabaeidae	BBIOP2346-24_r_1.3_s_50	Cheironitis haroldi	0
-7	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1539	Scarabaeidae	BBIOP2346-24_r_1.3_s_100	Cheironitis haroldi	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1539	Scarabaeidae	BBIOP2346-24_r_1.5_s_50	Cheironitis haroldi	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1539	Scarabaeidae	BBIOP2346-24_r_1.5_s_100	Cheironitis haroldi	0
-48	150	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1542	Timematidae,Staphylinidae,Hydraenidae,Salpingidae,Oecophoridae,Noctuidae,Geometridae	BBIOP2347-24_r_1_s_50	Cheironitis haroldi	0
-49	169	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1542	Timematidae,Staphylinidae,Hydraenidae,Scarabaeidae,Curculionidae,Noctuidae,Geometridae	BBIOP2347-24_r_1_s_100	Cheironitis haroldi	0
-21	37	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1542	Scarabaeidae	BBIOP2347-24_r_1.3_s_50	Cheironitis haroldi	0
-18	31	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1542	Scarabaeidae	BBIOP2347-24_r_1.3_s_100	Cheironitis haroldi	0
-7	19	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1542	Scarabaeidae	BBIOP2347-24_r_1.5_s_50	Cheironitis haroldi	0
-5	16	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1542	Scarabaeidae	BBIOP2347-24_r_1.5_s_100	Cheironitis haroldi	0
-11	26	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae,Tephritidae,Calliphoridae,Sarcophagidae	BBIOP2348-24_r_1_s_50	Cheironitis irroratus	0
-13	23	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Staphylinidae,Scarabaeidae	BBIOP2348-24_r_1_s_100	Cheironitis irroratus	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2348-24_r_1.3_s_50	Cheironitis irroratus	0
-14	15	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2348-24_r_1.3_s_100	Cheironitis irroratus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2348-24_r_1.5_s_50	Cheironitis irroratus	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	641	1458	Staphylinidae,Scarabaeidae,Calliphoridae	BBIOP2348-24_r_1.5_s_100	Cheironitis irroratus	0
-7	7	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1545	Scarabaeidae	BBIOP2349-24_r_1_s_50	Cheironitis irroratus	0
-29	58	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2349-24_r_1_s_100	Cheironitis irroratus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1545	Scarabaeidae	BBIOP2349-24_r_1.3_s_50	Cheironitis irroratus	0
-2	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2349-24_r_1.3_s_100	Cheironitis irroratus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2349-24_r_1.5_s_50	Cheironitis irroratus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1500	Scarabaeidae	BBIOP2349-24_r_1.5_s_100	Cheironitis irroratus	0
-4	15	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Lucanidae,Nitidulidae,Syrphidae,Tephritidae	BBIOP2350-24_r_1_s_50	Copris pueli	0
-5	19	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Nabidae,Scarabaeidae,Lucanidae,Syrphidae,Tephritidae	BBIOP2350-24_r_1_s_100	Copris pueli	0
-3	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1527	Scarabaeidae,Geotrupidae	BBIOP2350-24_r_1.3_s_50	Copris pueli	0
-2	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1488	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2350-24_r_1.3_s_100	Copris pueli	0
-0	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1509	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2350-24_r_1.5_s_50	Copris pueli	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1470	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2350-24_r_1.5_s_100	Copris pueli	0
-84	184	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Staphylinidae,Scarabaeidae,Xyelidae	BBIOP2351-24_r_1_s_50	Copris pueli	0
-74	154	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	654	1527	Dytiscidae,Scarabaeidae,Melyridae,Sphaeriusidae,Hemerobiidae	BBIOP2351-24_r_1_s_100	Copris pueli	0
-31	72	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae,Geotrupidae	BBIOP2351-24_r_1.3_s_50	Copris pueli	0
-16	46	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1530	Scarabaeidae	BBIOP2351-24_r_1.3_s_100	Copris pueli	0
-16	32	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1497	Scarabaeidae,Geotrupidae	BBIOP2351-24_r_1.5_s_50	Copris pueli	0
-14	21	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1494	Scarabaeidae	BBIOP2351-24_r_1.5_s_100	Copris pueli	0
-60	114	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1521	Scarabaeidae	BBIOP2352-24_r_1_s_50	Copris umbilicatus	0
-26	77	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1416	Scarabaeidae	BBIOP2352-24_r_1_s_100	Copris umbilicatus	0
-9	24	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1485	Scarabaeidae,Geotrupidae	BBIOP2352-24_r_1.3_s_50	Copris umbilicatus	0
-6	22	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	566	1296	Scarabaeidae	BBIOP2352-24_r_1.3_s_100	Copris umbilicatus	0
-5	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	655	1485	Scarabaeidae,Geotrupidae	BBIOP2352-24_r_1.5_s_50	Copris umbilicatus	0
-7	14	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	566	1290	Scarabaeidae,Geotrupidae,Calliphoridae	BBIOP2352-24_r_1.5_s_100	Copris umbilicatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2353-24_r_1_s_50	Copris umbilicatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2353-24_r_1_s_100	Copris umbilicatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2353-24_r_1.3_s_50	Copris umbilicatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2353-24_r_1.3_s_100	Copris umbilicatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2353-24_r_1.5_s_50	Copris umbilicatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2353-24_r_1.5_s_100	Copris umbilicatus	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1542	Scarabaeidae	BBIOP2354-24_r_1_s_50	Euonthophagus amyntas	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1542	Scarabaeidae	BBIOP2354-24_r_1_s_100	Euonthophagus amyntas	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1542	Scarabaeidae	BBIOP2354-24_r_1.3_s_50	Euonthophagus amyntas	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1542	Scarabaeidae	BBIOP2354-24_r_1.3_s_100	Euonthophagus amyntas	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1542	Scarabaeidae	BBIOP2354-24_r_1.5_s_50	Euonthophagus amyntas	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1542	Scarabaeidae	BBIOP2354-24_r_1.5_s_100	Euonthophagus amyntas	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1542	Scarabaeidae	BBIOP2355-24_r_1_s_50	Euonthophagus gibbosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1542	Scarabaeidae	BBIOP2355-24_r_1_s_100	Euonthophagus gibbosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1542	Scarabaeidae	BBIOP2355-24_r_1.3_s_50	Euonthophagus gibbosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1542	Scarabaeidae	BBIOP2355-24_r_1.3_s_100	Euonthophagus gibbosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1542	Scarabaeidae	BBIOP2355-24_r_1.5_s_50	Euonthophagus gibbosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1542	Scarabaeidae	BBIOP2355-24_r_1.5_s_100	Euonthophagus gibbosus	0
-5	33	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	517	1380	Scarabaeidae	BBIOP2356-24_r_1_s_50	Euonthophagus gibbosus	0
-0	25	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	429	1152	Scarabaeidae,Ptilodactylidae	BBIOP2356-24_r_1_s_100	Euonthophagus gibbosus	0
-0	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	267	1095	Scarabaeidae	BBIOP2356-24_r_1.3_s_50	Euonthophagus gibbosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	128	603	Staphylinidae,Scarabaeidae	BBIOP2356-24_r_1.3_s_100	Euonthophagus gibbosus	0
-4	13	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	347	978	Scarabaeidae	BBIOP2356-24_r_1.5_s_50	Euonthophagus gibbosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	305	519	Staphylinidae,Scarabaeidae	BBIOP2356-24_r_1.5_s_100	Euonthophagus gibbosus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2357-24_r_1_s_50	Euonthophagus crocatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2357-24_r_1_s_100	Euonthophagus crocatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2357-24_r_1.3_s_50	Euonthophagus crocatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2357-24_r_1.3_s_100	Euonthophagus crocatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2357-24_r_1.5_s_50	Euonthophagus crocatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2357-24_r_1.5_s_100	Euonthophagus crocatus	0
-31	42	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	653	1533	Scarabaeidae	BBIOP2358-24_r_1_s_50	Euonthophagus crocatus	0
-21	31	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	653	1404	Scarabaeidae	BBIOP2358-24_r_1_s_100	Euonthophagus crocatus	0
-5	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2358-24_r_1.3_s_50	Euonthophagus crocatus	0
-11	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	584	1287	Scarabaeidae	BBIOP2358-24_r_1.3_s_100	Euonthophagus crocatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	647	1527	Scarabaeidae	BBIOP2358-24_r_1.5_s_50	Euonthophagus crocatus	0
-4	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	575	1278	Scarabaeidae	BBIOP2358-24_r_1.5_s_100	Euonthophagus crocatus	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2359-24_r_1_s_50	Euonthophagus atramentarius	0
-0	10	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2359-24_r_1_s_100	Euonthophagus atramentarius	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2359-24_r_1.3_s_50	Euonthophagus atramentarius	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2359-24_r_1.3_s_100	Euonthophagus atramentarius	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2359-24_r_1.5_s_50	Euonthophagus atramentarius	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2359-24_r_1.5_s_100	Euonthophagus atramentarius	0
-8	16	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1539	Scarabaeidae	BBIOP2360-24_r_1_s_50	Euonthophagus atramentarius	0
-2	13	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1527	Staphylinidae,Scarabaeidae,Salpingidae,Sphaeroceridae	BBIOP2360-24_r_1_s_100	Euonthophagus atramentarius	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1539	Scarabaeidae	BBIOP2360-24_r_1.3_s_50	Euonthophagus atramentarius	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1527	Scarabaeidae	BBIOP2360-24_r_1.3_s_100	Euonthophagus atramentarius	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2360-24_r_1.5_s_50	Euonthophagus atramentarius	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1527	Scarabaeidae	BBIOP2360-24_r_1.5_s_100	Euonthophagus atramentarius	0
-3	20	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2361-24_r_1_s_50	Euonthophagus atramentarius	0
-3	23	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2361-24_r_1_s_100	Euonthophagus atramentarius	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2361-24_r_1.3_s_50	Euonthophagus atramentarius	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2361-24_r_1.3_s_100	Euonthophagus atramentarius	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2361-24_r_1.5_s_50	Euonthophagus atramentarius	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2361-24_r_1.5_s_100	Euonthophagus atramentarius	0
-5	57	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	286	1017	Staphylinidae,Scarabaeidae	BBIOP2362-24_r_1_s_50	Onthophagus emarginatus	0
-4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	94	288	Tetrigidae,Carabidae,Scarabaeidae,Glaphyridae	BBIOP2362-24_r_1_s_100	Onthophagus emarginatus	0
-5	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	287	900	Scarabaeidae,Buprestidae	BBIOP2362-24_r_1.3_s_50	Onthophagus emarginatus	0
-4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	94	288	Tetrigidae,Carabidae,Scarabaeidae,Glaphyridae	BBIOP2362-24_r_1.3_s_100	Onthophagus emarginatus	0
-5	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	287	825	Scarabaeidae,Buprestidae	BBIOP2362-24_r_1.5_s_50	Onthophagus emarginatus	0
-4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	94	288	Tetrigidae,Carabidae,Scarabaeidae,Glaphyridae	BBIOP2362-24_r_1.5_s_100	Onthophagus emarginatus	0
-1	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1548	Scarabaeidae	BBIOP2363-24_r_1_s_50	Onthophagus emarginatus	0
-4	19	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2363-24_r_1_s_100	Onthophagus emarginatus	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1548	Scarabaeidae	BBIOP2363-24_r_1.3_s_50	Onthophagus emarginatus	0
-0	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2363-24_r_1.3_s_100	Onthophagus emarginatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1539	Scarabaeidae	BBIOP2363-24_r_1.5_s_50	Onthophagus emarginatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1539	Scarabaeidae	BBIOP2363-24_r_1.5_s_100	Onthophagus emarginatus	0
-3	25	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	545	1329	Nitidulidae,Chrysomelidae,Coccinellidae,Gelechiidae,Lacturidae,Lycaenidae	BBIOP2364-24_r_1_s_50	Onthophagus punctatus	0
-0	37	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	506	1227	Staphylinidae,Hydraenidae,Nitidulidae,Gelechiidae,Lycaenidae	BBIOP2364-24_r_1_s_100	Onthophagus punctatus	0
-16	56	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	509	1101	Hydraenidae,Mordellidae,Sarcophagidae,Geometridae	BBIOP2364-24_r_1.3_s_50	Onthophagus punctatus	0
-5	26	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	479	822	Cleridae,Nitidulidae,Lycaenidae	BBIOP2364-24_r_1.3_s_100	Onthophagus punctatus	0
-0	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	93	528	Hydrophilidae,Staphylinidae,Mycetophilidae,Chironomidae,Papilionidae,Nymphalidae	BBIOP2364-24_r_1.5_s_50	Onthophagus punctatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	62	198	Ichneumonidae,Megachilidae,Torymidae,Ormyridae,Chrysopidae	BBIOP2364-24_r_1.5_s_100	Onthophagus punctatus	0
-1	32	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1545	Staphylinidae,Scarabaeidae	BBIOP2365-24_r_1_s_50	Onthophagus punctatus	0
-2	26	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1539	Staphylinidae,Scarabaeidae	BBIOP2365-24_r_1_s_100	Onthophagus punctatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2365-24_r_1.3_s_50	Onthophagus punctatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1527	Scarabaeidae	BBIOP2365-24_r_1.3_s_100	Onthophagus punctatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1497	Scarabaeidae	BBIOP2365-24_r_1.5_s_50	Onthophagus punctatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1479	Scarabaeidae	BBIOP2365-24_r_1.5_s_100	Onthophagus punctatus	0
-35	112	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	654	1530	Scarabaeidae	BBIOP2366-24_r_1_s_50	Palaeonthophagus lemur	0
-25	104	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2366-24_r_1_s_100	Palaeonthophagus lemur	0
-6	15	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	654	1530	Scarabaeidae	BBIOP2366-24_r_1.3_s_50	Palaeonthophagus lemur	0
-8	11	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1530	Scarabaeidae	BBIOP2366-24_r_1.3_s_100	Palaeonthophagus lemur	0
-0	17	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	643	1482	Staphylinidae,Scarabaeidae,Drosophilidae	BBIOP2366-24_r_1.5_s_50	Palaeonthophagus lemur	0
-0	17	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	645	1482	Staphylinidae,Scarabaeidae,Drosophilidae	BBIOP2366-24_r_1.5_s_100	Palaeonthophagus lemur	0
-5	40	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	604	1365	Hydraenidae,Histeridae,Scarabaeidae	BBIOP2367-24_r_1_s_50	Palaeonthophagus lemur	0
-0	7	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	404	1038	Ectobiidae,Pentatomidae,Pyrrhocoridae,Aphrophoridae	BBIOP2367-24_r_1_s_100	Palaeonthophagus lemur	0
-5	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	447	1173	Scarabaeidae,Trogidae	BBIOP2367-24_r_1.3_s_50	Palaeonthophagus lemur	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	184	726	Scarabaeidae	BBIOP2367-24_r_1.3_s_100	Palaeonthophagus lemur	0
-0	10	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	382	1020	Staphylinidae,Scarabaeidae	BBIOP2367-24_r_1.5_s_50	Palaeonthophagus lemur	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	84	456	Scarabaeidae,Cecidomyiidae	BBIOP2367-24_r_1.5_s_100	Palaeonthophagus lemur	1
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1548	Scarabaeidae	BBIOP2368-24_r_1_s_50	Onthophagus latigena	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2368-24_r_1_s_100	Onthophagus latigena	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1548	Scarabaeidae	BBIOP2368-24_r_1.3_s_50	Onthophagus latigena	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2368-24_r_1.3_s_100	Onthophagus latigena	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1548	Scarabaeidae	BBIOP2368-24_r_1.5_s_50	Onthophagus latigena	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1536	Scarabaeidae	BBIOP2368-24_r_1.5_s_100	Onthophagus latigena	0
-9	19	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	583	1371	Scarabaeidae	BBIOP2369-24_r_1_s_50	Onthophagus baraudi	0
-0	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	587	1362	Carabidae,Scarabaeidae,Nitidulidae	BBIOP2369-24_r_1_s_100	Onthophagus baraudi	1
-4	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	498	1200	Carabidae,Scarabaeidae,Chironomidae,Drosophilidae	BBIOP2369-24_r_1.3_s_50	Onthophagus baraudi	4
-0	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	203	831	Scarabaeidae,Nitidulidae	BBIOP2369-24_r_1.3_s_100	Onthophagus baraudi	0
-4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	380	924	Scarabaeidae	BBIOP2369-24_r_1.5_s_50	Onthophagus baraudi	0
-0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	147	474	Staphylinidae,Scarabaeidae	BBIOP2369-24_r_1.5_s_100	Onthophagus baraudi	0
-1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1548	Scarabaeidae	BBIOP2370-24_r_1_s_50	Onthophagus baraudi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1545	Scarabaeidae	BBIOP2370-24_r_1_s_100	Onthophagus baraudi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1548	Scarabaeidae	BBIOP2370-24_r_1.3_s_50	Onthophagus baraudi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1545	Scarabaeidae	BBIOP2370-24_r_1.3_s_100	Onthophagus baraudi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1545	Scarabaeidae	BBIOP2370-24_r_1.5_s_50	Onthophagus baraudi	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1545	Scarabaeidae	BBIOP2370-24_r_1.5_s_100	Onthophagus baraudi	0
-26	79	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1548	Scarabaeidae	BBIOP2371-24_r_1_s_50	Onthophagus basipostulatus	0
-15	49	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	643	1452	Scarabaeidae	BBIOP2371-24_r_1_s_100	Onthophagus basipostulatus	0
-0	13	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1548	Scarabaeidae	BBIOP2371-24_r_1.3_s_50	Onthophagus basipostulatus	0
-22	26	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	643	1452	Scarabaeidae	BBIOP2371-24_r_1.3_s_100	Onthophagus basipostulatus	0
-0	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1542	Scarabaeidae	BBIOP2371-24_r_1.5_s_50	Onthophagus basipostulatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	643	1446	Scarabaeidae	BBIOP2371-24_r_1.5_s_100	Onthophagus basipostulatus	0
-2	7	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	347	1290	Scarabaeidae	BBIOP2372-24_r_1_s_50	Onthophagus basipostulatus	0
-2	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	341	1056		BBIOP2372-24_r_1_s_100	Onthophagus basipostulatus	0
-0	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	197	948	Scarabaeidae	BBIOP2372-24_r_1.3_s_50	Onthophagus basipostulatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	132	546	Scarabaeidae	BBIOP2372-24_r_1.3_s_100	Onthophagus basipostulatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	111	678	Scarabaeidae	BBIOP2372-24_r_1.5_s_50	Onthophagus basipostulatus	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	132	336	Scarabaeidae	BBIOP2372-24_r_1.5_s_100	Onthophagus basipostulatus	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2373-24_r_1_s_50	Onthophagus dellacasai	0
-0	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2373-24_r_1_s_100	Onthophagus dellacasai	0
-0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2373-24_r_1.3_s_50	Onthophagus dellacasai	0
-0	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2373-24_r_1.3_s_100	Onthophagus dellacasai	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2373-24_r_1.5_s_50	Onthophagus dellacasai	0
-0	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2373-24_r_1.5_s_100	Onthophagus dellacasai	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1548	Scarabaeidae	BBIOP2374-24_r_1_s_50	Onthophagus dellacasai	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2374-24_r_1_s_100	Onthophagus dellacasai	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2374-24_r_1.3_s_50	Onthophagus dellacasai	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2374-24_r_1.3_s_100	Onthophagus dellacasai	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2374-24_r_1.5_s_50	Onthophagus dellacasai	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2374-24_r_1.5_s_100	Onthophagus dellacasai	0
-21	62	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1545	Scarabaeidae	BBIOP2375-24_r_1_s_50	Onthophagus fissicornis	0
-10	27	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1545	Scarabaeidae	BBIOP2375-24_r_1_s_100	Onthophagus fissicornis	0
-3	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	656	1545	Scarabaeidae	BBIOP2375-24_r_1.3_s_50	Onthophagus fissicornis	0
-8	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	644	1533	Scarabaeidae	BBIOP2375-24_r_1.3_s_100	Onthophagus fissicornis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	657	1545	Scarabaeidae	BBIOP2375-24_r_1.5_s_50	Onthophagus fissicornis	0
-0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	645	1533	Scarabaeidae	BBIOP2375-24_r_1.5_s_100	Onthophagus fissicornis	0
+ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	marker_code	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons
+45	48	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2281-24_r_1_s_50	Elaphocera carteiensis	0
+42	55	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2281-24_r_1_s_100	Elaphocera carteiensis	0
+5	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Hydraenidae,Scarabaeidae	BBIOP2281-24_r_1.3_s_50	Elaphocera carteiensis	0
+21	21	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Hydraenidae,Scarabaeidae	BBIOP2281-24_r_1.3_s_100	Elaphocera carteiensis	0
+9	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1524	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2281-24_r_1.5_s_50	Elaphocera carteiensis	0
+18	18	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1512	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2281-24_r_1.5_s_100	Elaphocera carteiensis	0
+10	55	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Reduviidae,Hydraenidae,Scarabaeidae,Tenebrionidae,Cerambycidae	BBIOP2282-24_r_1_s_50	Elaphocera martorelli	0
+1	32	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	560	1269	Drosophilidae,Choreutidae,Erebidae,Crambidae	BBIOP2282-24_r_1_s_100	Elaphocera martorelli	0
+2	11	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Staphylinidae,Scarabaeidae,Cleridae,Syrphidae	BBIOP2282-24_r_1.3_s_50	Elaphocera martorelli	0
+1	14	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	264	924	Tenebrionidae,Mycetophilidae,Pipunculidae,Chamaemyiidae	BBIOP2282-24_r_1.3_s_100	Elaphocera martorelli	0
+0	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	635	1482	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2282-24_r_1.5_s_50	Elaphocera martorelli	0
+6	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	552	909	Staphylinidae,Hydraenidae,Scarabaeidae,Lucanidae,Lycidae	BBIOP2282-24_r_1.5_s_100	Elaphocera martorelli	6
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Scarabaeidae	BBIOP2283-24_r_1_s_50	Elaphocera dilatata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Scarabaeidae	BBIOP2283-24_r_1_s_100	Elaphocera dilatata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Scarabaeidae	BBIOP2283-24_r_1.3_s_50	Elaphocera dilatata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Scarabaeidae	BBIOP2283-24_r_1.3_s_100	Elaphocera dilatata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1515	Staphylinidae,Scarabaeidae	BBIOP2283-24_r_1.5_s_50	Elaphocera dilatata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1443	Hydrophilidae,Staphylinidae,Scarabaeidae	BBIOP2283-24_r_1.5_s_100	Elaphocera dilatata	0
+5	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2284-24_r_1_s_50	Elaphocera dilatata	0
+5	19	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1518	Dytiscidae,Carabidae,Scarabaeidae,Syrphidae	BBIOP2284-24_r_1_s_100	Elaphocera dilatata	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1533	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2284-24_r_1.3_s_50	Elaphocera dilatata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1482	Scarabaeidae	BBIOP2284-24_r_1.3_s_100	Elaphocera dilatata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1533	Hydrophilidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2284-24_r_1.5_s_50	Elaphocera dilatata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1461	Hydrophilidae,Scarabaeidae	BBIOP2284-24_r_1.5_s_100	Elaphocera dilatata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1542	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2285-24_r_1_s_50	Elaphocera emarginata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2285-24_r_1_s_100	Elaphocera emarginata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2285-24_r_1.3_s_50	Elaphocera emarginata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2285-24_r_1.3_s_100	Elaphocera emarginata	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2285-24_r_1.5_s_50	Elaphocera emarginata	0
+2	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2285-24_r_1.5_s_100	Elaphocera emarginata	0
+5	27	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	641	1356	Staphylinidae,Scarabaeidae,Elateridae,Chrysomelidae	BBIOP2286-24_r_1_s_50	Elaphocera emarginata	0
+12	29	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	539	1203	Tettigoniidae,Staphylinidae,Scarabaeidae,Chrysomelidae	BBIOP2286-24_r_1_s_100	Elaphocera emarginata	0
+4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	608	1227	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2286-24_r_1.3_s_50	Elaphocera emarginata	0
+23	27	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	494	930	Carabidae,Hydraenidae,Scarabaeidae	BBIOP2286-24_r_1.3_s_100	Elaphocera emarginata	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	471	1038	Carabidae,Staphylinidae,Ptiliidae,Scarabaeidae,Trogidae,Culicidae,Chironomidae,Calliphoridae,Geometridae,Corydalidae	BBIOP2286-24_r_1.5_s_50	Elaphocera emarginata	0
+0	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	278	720	Carabidae,Hydraenidae,Scarabaeidae	BBIOP2286-24_r_1.5_s_100	Elaphocera emarginata	0
+1	10	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1533	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2287-24_r_1_s_50	Elaphocera granatensis	0
+3	21	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1533	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2287-24_r_1_s_100	Elaphocera granatensis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1533	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2287-24_r_1.3_s_50	Elaphocera granatensis	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1533	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2287-24_r_1.3_s_100	Elaphocera granatensis	0
+2	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1524	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2287-24_r_1.5_s_50	Elaphocera granatensis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1494	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2287-24_r_1.5_s_100	Elaphocera granatensis	0
+28	67	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1533	Scarabaeidae	BBIOP2288-24_r_1_s_50	Elaphocera granatensis	0
+31	41	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	650	1410	Tettigoniidae,Scarabaeidae,Lauxaniidae,Vespidae,Corydalidae	BBIOP2288-24_r_1_s_100	Elaphocera granatensis	0
+17	43	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	649	1497	Staphylinidae,Tenebrionidae,Ptinidae,Phoridae	BBIOP2288-24_r_1.3_s_50	Elaphocera granatensis	0
+6	16	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	558	1257	Pseudophyllodromiidae,Termitidae,Ninidae,Scarabaeidae,Chrysomelidae,Curculionidae,Agromyzidae	BBIOP2288-24_r_1.3_s_100	Elaphocera granatensis	0
+6	22	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	596	1434	Silphidae,Scarabaeidae	BBIOP2288-24_r_1.5_s_50	Elaphocera granatensis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	276	711	Staphylinidae,Hydraenidae,Scarabaeidae,Cleridae	BBIOP2288-24_r_1.5_s_100	Elaphocera granatensis	0
+1	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Staphylinidae,Scarabaeidae	BBIOP2289-24_r_1_s_50	Amaladera cobosi	0
+3	11	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2289-24_r_1_s_100	Amaladera cobosi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Staphylinidae,Scarabaeidae	BBIOP2289-24_r_1.3_s_50	Amaladera cobosi	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2289-24_r_1.3_s_100	Amaladera cobosi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1497	Scarabaeidae	BBIOP2289-24_r_1.5_s_50	Amaladera cobosi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1425	Scarabaeidae	BBIOP2289-24_r_1.5_s_100	Amaladera cobosi	0
+6	33	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	653	1527	Tettigoniidae,Ninidae,Hydrochidae,Staphylinidae,Scarabaeidae,Ulidiidae,Vespidae	BBIOP2290-24_r_1_s_50	Euserica lucipeta	0
+7	15	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	654	1368	Tettigoniidae,Ninidae,Dermestidae,Bostrichidae,Psychodidae,Ulidiidae,Vespidae,Tetracampidae	BBIOP2290-24_r_1_s_100	Euserica lucipeta	0
+1	27	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	503	1155	Tettigoniidae,Acrididae,Curculionidae,Dermestidae,Bostrichidae,Ulidiidae,Vespidae	BBIOP2290-24_r_1.3_s_50	Euserica lucipeta	0
+1	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	503	966	Tettigoniidae,Acrididae,Curculionidae,Dermestidae,Bostrichidae,Ulidiidae,Vespidae	BBIOP2290-24_r_1.3_s_100	Euserica lucipeta	0
+0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	140	504	Acrididae,Nitidulidae,Curculionidae,Dermestidae,Bostrichidae,Ptinidae,Vespidae	BBIOP2290-24_r_1.5_s_50	Euserica lucipeta	0
+0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	140	390	Acrididae,Nitidulidae,Curculionidae,Dermestidae,Bostrichidae,Ptinidae,Vespidae	BBIOP2290-24_r_1.5_s_100	Euserica lucipeta	0
+20	32	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Scarabaeidae,Geotrupidae,Chrysomelidae	BBIOP2291-24_r_1_s_50	Euserica mulsanti	0
+5	21	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Hydraenidae,Scarabaeidae	BBIOP2291-24_r_1_s_100	Euserica mulsanti	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Scarabaeidae	BBIOP2291-24_r_1.3_s_50	Euserica mulsanti	0
+3	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Scarabaeidae	BBIOP2291-24_r_1.3_s_100	Euserica mulsanti	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Scarabaeidae	BBIOP2291-24_r_1.5_s_50	Euserica mulsanti	0
+4	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1521	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2291-24_r_1.5_s_100	Euserica mulsanti	0
+1	17	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1536	Scarabaeidae	BBIOP2292-24_r_1_s_50	Euserica villarreali	0
+3	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1536	Staphylinidae,Scarabaeidae	BBIOP2292-24_r_1_s_100	Euserica villarreali	0
+2	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1536	Staphylinidae,Scarabaeidae	BBIOP2292-24_r_1.3_s_50	Euserica villarreali	0
+2	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1536	Staphylinidae,Scarabaeidae	BBIOP2292-24_r_1.3_s_100	Euserica villarreali	0
+1	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1536	Staphylinidae,Scarabaeidae	BBIOP2292-24_r_1.5_s_50	Euserica villarreali	0
+1	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1536	Staphylinidae,Scarabaeidae	BBIOP2292-24_r_1.5_s_100	Euserica villarreali	0
+9	43	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1536	Scarabaeidae	BBIOP2293-24_r_1_s_50	Euserica villarreali	0
+0	35	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	574	1455	Scarabaeidae	BBIOP2293-24_r_1_s_100	Euserica villarreali	0
+12	36	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	654	1536	Staphylinidae,Scarabaeidae,Bostrichidae	BBIOP2293-24_r_1.3_s_50	Euserica villarreali	0
+8	26	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	568	1422	Scarabaeidae	BBIOP2293-24_r_1.3_s_100	Euserica villarreali	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	654	1530	Staphylinidae,Scarabaeidae	BBIOP2293-24_r_1.5_s_50	Euserica villarreali	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	550	1341	Scarabaeidae	BBIOP2293-24_r_1.5_s_100	Euserica villarreali	0
+31	76	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1533	Scarabaeidae,Lucanidae	BBIOP2294-24_r_1_s_50	Hymenoplia castiliana	0
+26	65	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1533	Scarabaeidae	BBIOP2294-24_r_1_s_100	Hymenoplia castiliana	0
+14	28	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1533	Scarabaeidae	BBIOP2294-24_r_1.3_s_50	Hymenoplia castiliana	0
+12	30	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1533	Scarabaeidae	BBIOP2294-24_r_1.3_s_100	Hymenoplia castiliana	0
+0	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1506	Leiodidae,Scarabaeidae,Geotrupidae	BBIOP2294-24_r_1.5_s_50	Hymenoplia castiliana	0
+0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	609	1395	Scarabaeidae	BBIOP2294-24_r_1.5_s_100	Hymenoplia castiliana	0
+8	25	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	653	1503	Hydrophilidae,Staphylinidae,Hydraenidae,Scarabaeidae,Hybosoridae,Apionidae,Hesperiidae	BBIOP2295-24_r_1_s_50	Hymenoplia castiliana	0
+32	35	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	585	1320	Hydrophilidae,Scarabaeidae,Hybosoridae,Apionidae	BBIOP2295-24_r_1_s_100	Hymenoplia castiliana	0
+9	23	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	630	1359	Scarabaeidae,Lucanidae,Tenebrionidae,Chrysomelidae	BBIOP2295-24_r_1.3_s_50	Hymenoplia castiliana	0
+0	17	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	500	915	Chironomidae	BBIOP2295-24_r_1.3_s_100	Hymenoplia castiliana	0
+3	7	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	502	1116	Staphylinidae,Scarabaeidae,Trogidae,Chrysomelidae	BBIOP2295-24_r_1.5_s_50	Hymenoplia castiliana	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	522	564	Scarabaeidae,Ptilodactylidae	BBIOP2295-24_r_1.5_s_100	Hymenoplia castiliana	1
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2296-24_r_1_s_50	Maladera apfelbecki	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2296-24_r_1_s_100	Maladera apfelbecki	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2296-24_r_1.3_s_50	Maladera apfelbecki	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2296-24_r_1.3_s_100	Maladera apfelbecki	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2296-24_r_1.5_s_50	Maladera apfelbecki	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2296-24_r_1.5_s_100	Maladera apfelbecki	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1533	Scarabaeidae	BBIOP2297-24_r_1_s_50	Maladera apfelbecki	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2297-24_r_1_s_100	Maladera apfelbecki	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1533	Scarabaeidae	BBIOP2297-24_r_1.3_s_50	Maladera apfelbecki	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2297-24_r_1.3_s_100	Maladera apfelbecki	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2297-24_r_1.5_s_50	Maladera apfelbecki	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2297-24_r_1.5_s_100	Maladera apfelbecki	0
+23	47	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	652	1533	Hydrophilidae,Asilidae	BBIOP2298-24_r_1_s_50	Hymenoplia chevrolati	1
+2	35	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	607	1332	Tettigoniidae,Scarabaeidae,Vespidae	BBIOP2298-24_r_1_s_100	Hymenoplia chevrolati	0
+4	27	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	643	1488	Scarabaeidae,Lucanidae,Calliphoridae	BBIOP2298-24_r_1.3_s_50	Hymenoplia chevrolati	0
+1	11	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	514	1119	Scarabaeidae	BBIOP2298-24_r_1.3_s_100	Hymenoplia chevrolati	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	608	1335	Hydrophilidae,Hydrochidae,Staphylinidae,Scarabaeidae	BBIOP2298-24_r_1.5_s_50	Hymenoplia chevrolati	0
+4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	488	1026	Hydrochidae,Scarabaeidae,Trogidae	BBIOP2298-24_r_1.5_s_100	Hymenoplia chevrolati	0
+3	34	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	600	1359	Termopsidae,Gryllidae,Lucanidae,Ceratopogonidae,Dolichopodidae,Lonchaeidae	BBIOP2299-24_r_1_s_50	Hymenoplia chevrolati	0
+0	34	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	545	1287	Chrysomelidae,Dolichopodidae	BBIOP2299-24_r_1_s_100	Hymenoplia chevrolati	0
+5	17	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	513	1062	Scarabaeidae,Muscidae,Calliphoridae	BBIOP2299-24_r_1.3_s_50	Hymenoplia chevrolati	0
+3	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	161	636	Cercopidae,Scarabaeidae,Mordellidae,Chrysomelidae,Curculionidae,Anthribidae,Tabanidae,Sphingidae	BBIOP2299-24_r_1.3_s_100	Hymenoplia chevrolati	0
+0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	70	690	Scarabaeidae	BBIOP2299-24_r_1.5_s_50	Hymenoplia chevrolati	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	65	336	Scarabaeidae,Lucanidae,Meloidae	BBIOP2299-24_r_1.5_s_100	Hymenoplia chevrolati	0
+17	30	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2300-24_r_1_s_50	Hymenoplia cinerascens	0
+5	28	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2300-24_r_1_s_100	Hymenoplia cinerascens	0
+1	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2300-24_r_1.3_s_50	Hymenoplia cinerascens	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	627	1374	Scarabaeidae	BBIOP2300-24_r_1.3_s_100	Hymenoplia cinerascens	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1518	Staphylinidae,Scarabaeidae,Geotrupidae,Sarcophagidae	BBIOP2300-24_r_1.5_s_50	Hymenoplia cinerascens	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	627	1335	Scarabaeidae	BBIOP2300-24_r_1.5_s_100	Hymenoplia cinerascens	0
+1	24	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1536	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2301-24_r_1_s_50	Hymenoplia lata	0
+1	16	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1467	Staphylinidae,Scarabaeidae,Chrysomelidae	BBIOP2301-24_r_1_s_100	Hymenoplia lata	0
+1	10	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	646	1509	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2301-24_r_1.3_s_50	Hymenoplia lata	0
+0	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	646	1437	Hydrophilidae,Scarabaeidae,Buprestidae,Tephritidae	BBIOP2301-24_r_1.3_s_100	Hymenoplia lata	0
+2	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	647	1503	Scarabaeidae,Geotrupidae	BBIOP2301-24_r_1.5_s_50	Hymenoplia lata	0
+3	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	647	1431	Scarabaeidae,Geotrupidae	BBIOP2301-24_r_1.5_s_100	Hymenoplia lata	0
+20	24	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	654	1458	Scarabaeidae	BBIOP2302-24_r_1_s_50	Hymenoplia cinerascens	0
+42	68	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1437	Scarabaeidae,Zopheridae	BBIOP2302-24_r_1_s_100	Hymenoplia cinerascens	0
+18	27	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	516	1152	Scarabaeidae	BBIOP2302-24_r_1.3_s_50	Hymenoplia cinerascens	0
+4	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	317	963	Scarabaeidae	BBIOP2302-24_r_1.3_s_100	Hymenoplia cinerascens	0
+5	7	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	496	1056	Scarabaeidae,Cerambycidae,Endomychidae,Ptychopteridae	BBIOP2302-24_r_1.5_s_50	Hymenoplia cinerascens	0
+2	15	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	206	669	Scarabaeidae	BBIOP2302-24_r_1.5_s_100	Hymenoplia cinerascens	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2303-24_r_1_s_50	Hymenoplia lineolata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2303-24_r_1_s_100	Hymenoplia lineolata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2303-24_r_1.3_s_50	Hymenoplia lineolata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2303-24_r_1.3_s_100	Hymenoplia lineolata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1518	Scarabaeidae	BBIOP2303-24_r_1.5_s_50	Hymenoplia lineolata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1500	Scarabaeidae	BBIOP2303-24_r_1.5_s_100	Hymenoplia lineolata	0
+12	21	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Hydraenidae,Scarabaeidae,Syrphidae	BBIOP2304-24_r_1_s_50	Hymenoplia miegii	0
+14	24	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	524	1335	Scarabaeidae,Bothrideridae,Dermestidae,Syrphidae,Tephritidae	BBIOP2304-24_r_1_s_100	Hymenoplia miegii	0
+3	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2304-24_r_1.3_s_50	Hymenoplia miegii	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	524	1329	Dytiscidae,Staphylinidae,Scarabaeidae,Lucanidae,Drosophilidae,Tephritidae,Gelechiidae	BBIOP2304-24_r_1.3_s_100	Hymenoplia miegii	0
+0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	650	1503	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2304-24_r_1.5_s_50	Hymenoplia miegii	0
+0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	524	1311	Dytiscidae,Staphylinidae,Scarabaeidae,Lucanidae,Drosophilidae,Tephritidae,Gelechiidae	BBIOP2304-24_r_1.5_s_100	Hymenoplia miegii	0
+34	69	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	635	1494	Hydrophilidae,Tachinidae	BBIOP2305-24_r_1_s_50	Hymenoplia miegii	0
+10	19	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	612	1269	Dermestidae,Asilidae,Syrphidae	BBIOP2305-24_r_1_s_100	Hymenoplia miegii	0
+1	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	555	1284	Reduviidae	BBIOP2305-24_r_1.3_s_50	Hymenoplia miegii	0
+1	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	317	954	Reduviidae	BBIOP2305-24_r_1.3_s_100	Hymenoplia miegii	0
+0	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	312	1047	Reduviidae	BBIOP2305-24_r_1.5_s_50	Hymenoplia miegii	0
+1	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	210	759	Reduviidae	BBIOP2305-24_r_1.5_s_100	Hymenoplia miegii	0
+2	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1527	Staphylinidae,Geotrupidae,Cleridae,Pyrochroidae	BBIOP2306-24_r_1_s_50	Hymenoplia rugulosa	0
+1	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1509	Scarabaeidae	BBIOP2306-24_r_1_s_100	Hymenoplia rugulosa	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1527	Staphylinidae,Geotrupidae,Cleridae,Pyrochroidae	BBIOP2306-24_r_1.3_s_50	Hymenoplia rugulosa	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1509	Scarabaeidae	BBIOP2306-24_r_1.3_s_100	Hymenoplia rugulosa	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1488	Carabidae,Staphylinidae,Geotrupidae,Cleridae,Pyrochroidae	BBIOP2306-24_r_1.5_s_50	Hymenoplia rugulosa	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1419	Scarabaeidae,Geotrupidae	BBIOP2306-24_r_1.5_s_100	Hymenoplia rugulosa	0
+12	20	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	622	1380		BBIOP2307-24_r_1_s_50	Omaloplia hericius	0
+0	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	600	1293		BBIOP2307-24_r_1_s_100	Omaloplia hericius	0
+0	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	233	966	Scarabaeidae,Geotrupidae	BBIOP2307-24_r_1.3_s_50	Omaloplia hericius	0
+0	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	140	750	Scarabaeidae	BBIOP2307-24_r_1.3_s_100	Omaloplia hericius	0
+0	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	240	795	Scarabaeidae	BBIOP2307-24_r_1.5_s_50	Omaloplia hericius	0
+0	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	142	627	Scarabaeidae	BBIOP2307-24_r_1.5_s_100	Omaloplia hericius	0
+0	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2308-24_r_1_s_50	Omaloplia nigromarginata	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2308-24_r_1_s_100	Omaloplia nigromarginata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2308-24_r_1.3_s_50	Omaloplia nigromarginata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2308-24_r_1.3_s_100	Omaloplia nigromarginata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1515	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2308-24_r_1.5_s_50	Omaloplia nigromarginata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1431	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2308-24_r_1.5_s_100	Omaloplia nigromarginata	0
+9	28	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae,Syrphidae,Drosophilidae,Tachinidae,Noctuidae,Geometridae	BBIOP2309-24_r_1_s_50	Omaloplia nigromarginata	0
+1	7	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	600	1398	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2309-24_r_1_s_100	Omaloplia nigromarginata	0
+2	10	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1506	Staphylinidae,Scarabaeidae,Drosophilidae	BBIOP2309-24_r_1.3_s_50	Omaloplia nigromarginata	0
+1	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	600	1371	Scarabaeidae,Geotrupidae	BBIOP2309-24_r_1.3_s_100	Omaloplia nigromarginata	0
+1	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1404	Staphylinidae,Scarabaeidae,Drosophilidae	BBIOP2309-24_r_1.5_s_50	Omaloplia nigromarginata	0
+1	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	600	1266	Scarabaeidae,Geotrupidae	BBIOP2309-24_r_1.5_s_100	Omaloplia nigromarginata	0
+4	10	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Muscidae	BBIOP2310-24_r_1_s_50	Omaloplia spireae	0
+6	18	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Scarabaeidae,Cleridae	BBIOP2310-24_r_1_s_100	Omaloplia spireae	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2310-24_r_1.3_s_50	Omaloplia spireae	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2310-24_r_1.3_s_100	Omaloplia spireae	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1506	Staphylinidae,Scarabaeidae	BBIOP2310-24_r_1.5_s_50	Omaloplia spireae	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1503	Staphylinidae,Scarabaeidae	BBIOP2310-24_r_1.5_s_100	Omaloplia spireae	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2311-24_r_1_s_50	Omaloplia spireae	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2311-24_r_1_s_100	Omaloplia spireae	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2311-24_r_1.3_s_50	Omaloplia spireae	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2311-24_r_1.3_s_100	Omaloplia spireae	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2311-24_r_1.5_s_50	Omaloplia spireae	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1527	Staphylinidae,Hydraenidae,Scarabaeidae	BBIOP2311-24_r_1.5_s_100	Omaloplia spireae	0
+7	50	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1467	Scarabaeidae,Chrysomelidae,Curculionidae,Drosophilidae,Tachinidae	BBIOP2312-24_r_1_s_50	Paratriodonta alicantina	0
+9	46	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	592	1302	Staphylinidae,Scarabaeidae,Nitidulidae,Chrysomelidae,Blastobasidae,Noctuidae,Nymphalidae	BBIOP2312-24_r_1_s_100	Paratriodonta alicantina	0
+2	25	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	647	1434	Silphidae,Scarabaeidae,Melyridae,Nitidulidae,Tephritidae	BBIOP2312-24_r_1.3_s_50	Paratriodonta alicantina	0
+16	35	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	574	1284	Staphylinidae,Scarabaeidae,Trogidae	BBIOP2312-24_r_1.3_s_100	Paratriodonta alicantina	0
+4	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	599	1218	Staphylinidae,Geotrupidae,Drosophilidae,Ephydridae,Muscidae,Tachinidae	BBIOP2312-24_r_1.5_s_50	Paratriodonta alicantina	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	507	1071	Staphylinidae,Scarabaeidae,Trogidae,Geotrupidae,Culicidae,Muscidae	BBIOP2312-24_r_1.5_s_100	Paratriodonta alicantina	4
+6	29	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	654	1536	Scarabaeidae	BBIOP2313-24_r_1_s_50	Paratriodonta alicantina	0
+13	38	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	628	1413	Scarabaeidae,Mydidae,Sphaeroceridae	BBIOP2313-24_r_1_s_100	Paratriodonta alicantina	0
+2	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	654	1512	Hydraenidae,Scarabaeidae,Hybosoridae,Muscidae	BBIOP2313-24_r_1.3_s_50	Paratriodonta alicantina	0
+13	17	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	626	1326	Scarabaeidae	BBIOP2313-24_r_1.3_s_100	Paratriodonta alicantina	0
+3	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	643	1464	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2313-24_r_1.5_s_50	Paratriodonta alicantina	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	564	1245	Carabidae,Scarabaeidae,Geotrupidae,Pyrochroidae,Endomychidae,Syrphidae	BBIOP2313-24_r_1.5_s_100	Paratriodonta alicantina	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2314-24_r_1_s_50	Paratriodonta cinctipennis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2314-24_r_1_s_100	Paratriodonta cinctipennis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2314-24_r_1.3_s_50	Paratriodonta cinctipennis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2314-24_r_1.3_s_100	Paratriodonta cinctipennis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2314-24_r_1.5_s_50	Paratriodonta cinctipennis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1482	Staphylinidae,Scarabaeidae,Geotrupidae	BBIOP2314-24_r_1.5_s_100	Paratriodonta cinctipennis	0
+13	43	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	636	1476	Carabidae,Hydraenidae,Aderidae,Chrysomelidae,Chironomidae	BBIOP2315-24_r_1_s_50	Paratriodonta cinctipennis	0
+7	40	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	616	1389	Staphylinidae,Hydraenidae,Aderidae,Chrysomelidae,Limoniidae,Hepialidae	BBIOP2315-24_r_1_s_100	Paratriodonta cinctipennis	0
+0	34	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	531	1221	Carabidae,Scarabaeidae,Ephydridae,Opomyzidae	BBIOP2315-24_r_1.3_s_50	Paratriodonta cinctipennis	0
+0	37	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	333	771	Staphylinidae,Hydraenidae,Aderidae,Chrysomelidae,Limoniidae,Hepialidae	BBIOP2315-24_r_1.3_s_100	Paratriodonta cinctipennis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	311	936	Hydrophilidae,Scarabaeidae,Melyridae	BBIOP2315-24_r_1.5_s_50	Paratriodonta cinctipennis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	260	558	Hydrophilidae,Staphylinidae,Scarabaeidae,Curculionidae	BBIOP2315-24_r_1.5_s_100	Paratriodonta cinctipennis	0
+26	84	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	653	1497	Hydraenidae,Chironomidae,Ceratopogonidae	BBIOP2316-24_r_1_s_50	Paratriodonta romana	0
+10	31	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	615	1371	Staphylinidae,Byrrhidae,Curculionidae,Hesperiidae	BBIOP2316-24_r_1_s_100	Paratriodonta romana	0
+7	21	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	654	1404	Hydraenidae,Chrysomelidae,Hepialidae,Hesperiidae,Geometridae	BBIOP2316-24_r_1.3_s_50	Paratriodonta romana	0
+1	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	606	1272	Staphylinidae,Byrrhidae,Curculionidae,Hesperiidae	BBIOP2316-24_r_1.3_s_100	Paratriodonta romana	0
+7	18	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	591	1296	Rhaphidophoridae,Staphylinidae,Scarabaeidae,Endomychidae,Empididae,Drosophilidae,Agromyzidae,Tephritidae	BBIOP2316-24_r_1.5_s_50	Paratriodonta romana	0
+2	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	309	780	Reduviidae	BBIOP2316-24_r_1.5_s_100	Paratriodonta romana	0
+3	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	632	1425		BBIOP2317-24_r_1_s_50	Paratriodonta romana	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	458	1194	Kalotermitidae,Lonchodidae,Miridae,Dinidoridae,Cicadellidae	BBIOP2317-24_r_1_s_100	Paratriodonta romana	0
+0	24	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	156	930	Tettigoniidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Ulidiidae,Vespidae,Tetracampidae	BBIOP2317-24_r_1.3_s_50	Paratriodonta romana	0
+0	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	129	756	Tettigoniidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Ulidiidae,Vespidae,Tetracampidae	BBIOP2317-24_r_1.3_s_100	Paratriodonta romana	0
+0	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	130	474	Tettigoniidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Ulidiidae,Vespidae,Tetracampidae	BBIOP2317-24_r_1.5_s_50	Paratriodonta romana	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	128	213	Tettigoniidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Ulidiidae,Vespidae,Tetracampidae	BBIOP2317-24_r_1.5_s_100	Paratriodonta romana	0
+65	154	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1536	Lonchodidae,Scarabaeidae,Geotrupidae	BBIOP2318-24_r_1_s_50	Triodontella lajonquierei	0
+52	124	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1497	Scarabaeidae	BBIOP2318-24_r_1_s_100	Triodontella lajonquierei	0
+8	26	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1518	Staphylinidae,Geotrupidae,Chloropidae	BBIOP2318-24_r_1.3_s_50	Triodontella lajonquierei	0
+3	20	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1452	Staphylinidae,Scarabaeidae,Geotrupidae,Psilidae	BBIOP2318-24_r_1.3_s_100	Triodontella lajonquierei	0
+3	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1413	Scarabaeidae	BBIOP2318-24_r_1.5_s_50	Triodontella lajonquierei	0
+2	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1404	Scarabaeidae,Geotrupidae	BBIOP2318-24_r_1.5_s_100	Triodontella lajonquierei	0
+6	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	600	1383	Cryptocercidae,Acrididae,Scarabaeidae,Scirtidae,Tephritidae,Polleniidae	BBIOP2319-24_r_1_s_50	Triodontella alni	0
+0	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	470	1080	Scarabaeidae,Scirtidae,Elmidae	BBIOP2319-24_r_1_s_100	Triodontella alni	0
+2	15	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	486	1143	Dytiscidae,Carabidae,Scarabaeidae	BBIOP2319-24_r_1.3_s_50	Triodontella alni	0
+0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	150	717	Dytiscidae,Carabidae,Scarabaeidae	BBIOP2319-24_r_1.3_s_100	Triodontella alni	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	396	813	Dytiscidae,Carabidae,Scarabaeidae	BBIOP2319-24_r_1.5_s_50	Triodontella alni	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	150	528	Dytiscidae,Carabidae,Scarabaeidae	BBIOP2319-24_r_1.5_s_100	Triodontella alni	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2320-24_r_1_s_50	Triodontella alni	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2320-24_r_1_s_100	Triodontella alni	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2320-24_r_1.3_s_50	Triodontella alni	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2320-24_r_1.3_s_100	Triodontella alni	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1503	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2320-24_r_1.5_s_50	Triodontella alni	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1437	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2320-24_r_1.5_s_100	Triodontella alni	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae,Geotrupidae	BBIOP2321-24_r_1_s_50	Triodontella bucculenta	0
+0	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1524	Scarabaeidae,Lucanidae,Geotrupidae	BBIOP2321-24_r_1_s_100	Triodontella bucculenta	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae,Geotrupidae	BBIOP2321-24_r_1.3_s_50	Triodontella bucculenta	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1524	Scarabaeidae,Geotrupidae	BBIOP2321-24_r_1.3_s_100	Triodontella bucculenta	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1518	Scarabaeidae	BBIOP2321-24_r_1.5_s_50	Triodontella bucculenta	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1431	Scarabaeidae	BBIOP2321-24_r_1.5_s_100	Triodontella bucculenta	0
+9	23	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	542	1377		BBIOP2322-24_r_1_s_50	Triodontella bucculenta	0
+0	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	542	1212	Tettigoniidae,Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Ulidiidae,Vespidae,Tetracampidae	BBIOP2322-24_r_1_s_100	Triodontella bucculenta	0
+1	7	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	237	855	Rhinotermitidae,Hybosoridae,Attelabidae	BBIOP2322-24_r_1.3_s_50	Triodontella bucculenta	0
+0	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	204	726	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	BBIOP2322-24_r_1.3_s_100	Triodontella bucculenta	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	164	591	Termitidae,Oestridae	BBIOP2322-24_r_1.5_s_50	Triodontella bucculenta	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	130	471	Termitidae,Oestridae	BBIOP2322-24_r_1.5_s_100	Triodontella bucculenta	0
+25	72	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	636	1500	Staphylinidae,Hydraenidae,Scarabaeidae,Lucanidae	BBIOP2323-24_r_1_s_50	Triodontella corsica	0
+15	58	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	582	1308		BBIOP2323-24_r_1_s_100	Triodontella corsica	0
+5	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	315	1173	Reduviidae	BBIOP2323-24_r_1.3_s_50	Triodontella corsica	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	176	927	Reduviidae	BBIOP2323-24_r_1.3_s_100	Triodontella corsica	0
+0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	264	738	Psychodidae	BBIOP2323-24_r_1.5_s_50	Triodontella corsica	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	218	534	Psychodidae	BBIOP2323-24_r_1.5_s_100	Triodontella corsica	0
+11	25	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	620	1395		BBIOP2324-24_r_1_s_50	Triodontella corsica	0
+2	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	511	1287		BBIOP2324-24_r_1_s_100	Triodontella corsica	0
+7	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	563	1119	Chironomidae,Tipulidae,Pediciidae,Syrphidae	BBIOP2324-24_r_1.3_s_50	Triodontella corsica	0
+6	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	157	690	Tettigoniidae,Tingidae,Lampyridae,Chrysomelidae,Noctuidae	BBIOP2324-24_r_1.3_s_100	Triodontella corsica	0
+13	13	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	435	879	Dytiscidae,Cecidomyiidae,Limoniidae,Phoridae,Pyralidae	BBIOP2324-24_r_1.5_s_50	Triodontella corsica	0
+2	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	158	360	Rhinotermitidae,Tettigoniidae,Dascillidae,Dermestidae	BBIOP2324-24_r_1.5_s_100	Triodontella corsica	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Scarabaeidae	BBIOP2325-24_r_1_s_50	Triodontella dalmatica	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Scarabaeidae	BBIOP2325-24_r_1_s_100	Triodontella dalmatica	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Scarabaeidae	BBIOP2325-24_r_1.3_s_50	Triodontella dalmatica	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Scarabaeidae	BBIOP2325-24_r_1.3_s_100	Triodontella dalmatica	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1506	Scarabaeidae	BBIOP2325-24_r_1.5_s_50	Triodontella dalmatica	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1446	Scarabaeidae	BBIOP2325-24_r_1.5_s_100	Triodontella dalmatica	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Tachinidae	BBIOP2326-24_r_1_s_50	Triodontella cribellata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Tachinidae	BBIOP2326-24_r_1_s_100	Triodontella cribellata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Tachinidae	BBIOP2326-24_r_1.3_s_50	Triodontella cribellata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Tachinidae	BBIOP2326-24_r_1.3_s_100	Triodontella cribellata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1518	Staphylinidae,Scarabaeidae,Sarcophagidae,Tachinidae	BBIOP2326-24_r_1.5_s_50	Triodontella cribellata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1509	Staphylinidae,Scarabaeidae,Sarcophagidae,Tachinidae	BBIOP2326-24_r_1.5_s_100	Triodontella cribellata	0
+0	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Silphidae,Scarabaeidae,Geotrupidae,Drosophilidae,Sarcophagidae	BBIOP2327-24_r_1_s_50	Triodontella cribellata	0
+1	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Silphidae,Scarabaeidae,Geotrupidae,Drosophilidae,Sarcophagidae	BBIOP2327-24_r_1_s_100	Triodontella cribellata	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Scarabaeidae,Tachinidae	BBIOP2327-24_r_1.3_s_50	Triodontella cribellata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Scarabaeidae,Tachinidae	BBIOP2327-24_r_1.3_s_100	Triodontella cribellata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1518	Staphylinidae,Scarabaeidae,Tachinidae	BBIOP2327-24_r_1.5_s_50	Triodontella cribellata	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1509	Staphylinidae,Scarabaeidae,Tachinidae	BBIOP2327-24_r_1.5_s_100	Triodontella cribellata	0
+4	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae	BBIOP2328-24_r_1_s_50	Triodontella nitidula	0
+9	16	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Scarabaeidae,Melyridae,Muscidae	BBIOP2328-24_r_1_s_100	Triodontella nitidula	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae	BBIOP2328-24_r_1.3_s_50	Triodontella nitidula	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1485	Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae	BBIOP2328-24_r_1.3_s_100	Triodontella nitidula	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1509	Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae,Sphaeroceridae	BBIOP2328-24_r_1.5_s_50	Triodontella nitidula	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1446	Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae,Sphaeroceridae	BBIOP2328-24_r_1.5_s_100	Triodontella nitidula	0
+4	33	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae,Drosophilidae	BBIOP2329-24_r_1_s_50	Triodontella nitidula	0
+4	28	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Staphylinidae,Geotrupidae,Silvanidae,Chironomidae,Drosophilidae,Muscidae,Tachinidae	BBIOP2329-24_r_1_s_100	Triodontella nitidula	0
+3	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae	BBIOP2329-24_r_1.3_s_50	Triodontella nitidula	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Staphylinidae,Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae	BBIOP2329-24_r_1.3_s_100	Triodontella nitidula	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1509	Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae,Sphaeroceridae	BBIOP2329-24_r_1.5_s_50	Triodontella nitidula	0
+4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1422	Hydraenidae,Scarabaeidae,Geotrupidae,Nosodendridae,Sphaeroceridae	BBIOP2329-24_r_1.5_s_100	Triodontella nitidula	0
+14	42	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	647	1512	Termitidae,Tettigoniidae,Ninidae,Ulidiidae,Vespidae	BBIOP2330-24_r_1_s_50	Triodontella raymondi	0
+1	30	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	605	1410	Kalotermitidae,Termitidae,Tettigoniidae,Ninidae,Scarabaeidae,Tenebrionidae,Asilidae,Ulidiidae,Vespidae	BBIOP2330-24_r_1_s_100	Triodontella raymondi	0
+6	13	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	531	1281	Tettigoniidae,Hydrophilidae,Staphylinidae,Scarabaeidae,Vespidae	BBIOP2330-24_r_1.3_s_50	Triodontella raymondi	0
+1	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	458	1137	Tettigoniidae,Staphylinidae,Scarabaeidae,Lucanidae,Lophocateridae,Vespidae	BBIOP2330-24_r_1.3_s_100	Triodontella raymondi	0
+6	14	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	486	1137	Scarabaeidae,Syrphidae	BBIOP2330-24_r_1.5_s_50	Triodontella raymondi	0
+3	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	419	1008	Scarabaeidae,Erotylidae,Culicidae,Apidae	BBIOP2330-24_r_1.5_s_100	Triodontella raymondi	0
+4	23	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	524	1323	Carabidae,Hydrophilidae,Staphylinidae,Scarabaeidae,Prionoceridae	BBIOP2331-24_r_1_s_50	Triodontella raymondi	0
+0	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	446	1065		BBIOP2331-24_r_1_s_100	Triodontella raymondi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	445	912	Dytiscidae,Carabidae,Staphylinidae,Scarabaeidae,Scraptiidae,Cerambycidae,Derodontidae	BBIOP2331-24_r_1.3_s_50	Triodontella raymondi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	359	573	Dytiscidae,Carabidae,Hydrophilidae,Scarabaeidae,Cerambycidae,Derodontidae,Chamaemyiidae	BBIOP2331-24_r_1.3_s_100	Triodontella raymondi	0
+0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	409	786	Dytiscidae,Carabidae,Scarabaeidae,Scraptiidae,Cerambycidae,Derodontidae,Chamaemyiidae	BBIOP2331-24_r_1.5_s_50	Triodontella raymondi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	359	552	Dytiscidae,Carabidae,Hydrophilidae,Scarabaeidae,Cerambycidae,Derodontidae,Chamaemyiidae	BBIOP2331-24_r_1.5_s_100	Triodontella raymondi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1542	Scarabaeidae	BBIOP2332-24_r_1_s_50	Ateuchetus puncticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2332-24_r_1_s_100	Ateuchetus puncticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2332-24_r_1.3_s_50	Ateuchetus puncticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2332-24_r_1.3_s_100	Ateuchetus puncticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2332-24_r_1.5_s_50	Ateuchetus puncticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1512	Scarabaeidae	BBIOP2332-24_r_1.5_s_100	Ateuchetus puncticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2333-24_r_1_s_50	Ateuchetus puncticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2333-24_r_1_s_100	Ateuchetus puncticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2333-24_r_1.3_s_50	Ateuchetus puncticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2333-24_r_1.3_s_100	Ateuchetus puncticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2333-24_r_1.5_s_50	Ateuchetus puncticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2333-24_r_1.5_s_100	Ateuchetus puncticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1533	Scarabaeidae	BBIOP2334-24_r_1_s_50	Ateuchetus variolosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2334-24_r_1_s_100	Ateuchetus variolosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1533	Scarabaeidae	BBIOP2334-24_r_1.3_s_50	Ateuchetus variolosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2334-24_r_1.3_s_100	Ateuchetus variolosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1518	Scarabaeidae	BBIOP2334-24_r_1.5_s_50	Ateuchetus variolosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1440	Scarabaeidae	BBIOP2334-24_r_1.5_s_100	Ateuchetus variolosus	0
+8	24	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2335-24_r_1_s_50	Ateuchetus variolosus	0
+15	24	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2335-24_r_1_s_100	Ateuchetus variolosus	0
+6	10	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2335-24_r_1.3_s_50	Ateuchetus variolosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Carabidae,Scarabaeidae,Protocucujidae,Syrphidae	BBIOP2335-24_r_1.3_s_100	Ateuchetus variolosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1503	Scarabaeidae	BBIOP2335-24_r_1.5_s_50	Ateuchetus variolosus	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1440	Scarabaeidae	BBIOP2335-24_r_1.5_s_100	Ateuchetus variolosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2336-24_r_1_s_50	Ateuchetus laticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2336-24_r_1_s_100	Ateuchetus laticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2336-24_r_1.3_s_50	Ateuchetus laticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2336-24_r_1.3_s_100	Ateuchetus laticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	654	1509	Scarabaeidae	BBIOP2336-24_r_1.5_s_50	Ateuchetus laticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	654	1437	Scarabaeidae	BBIOP2336-24_r_1.5_s_100	Ateuchetus laticollis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2337-24_r_1_s_50	Scarabaeus semipunctatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2337-24_r_1_s_100	Scarabaeus semipunctatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2337-24_r_1.3_s_50	Scarabaeus semipunctatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2337-24_r_1.3_s_100	Scarabaeus semipunctatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2337-24_r_1.5_s_50	Scarabaeus semipunctatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1527	Scarabaeidae	BBIOP2337-24_r_1.5_s_100	Scarabaeus semipunctatus	0
+2	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1542	Scarabaeidae	BBIOP2338-24_r_1_s_50	Scarabaeus semipunctatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1539	Scarabaeidae	BBIOP2338-24_r_1_s_100	Scarabaeus semipunctatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1539	Scarabaeidae	BBIOP2338-24_r_1.3_s_50	Scarabaeus semipunctatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1539	Scarabaeidae	BBIOP2338-24_r_1.3_s_100	Scarabaeus semipunctatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1515	Scarabaeidae	BBIOP2338-24_r_1.5_s_50	Scarabaeus semipunctatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1449	Scarabaeidae	BBIOP2338-24_r_1.5_s_100	Scarabaeus semipunctatus	0
+0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Lucanidae	BLAST	family	COI-5P	657	1533	Staphylinidae,Leiodidae,Hydraenidae,Scarabaeidae	BBIOP2339-24_r_1_s_50	Platycerus spinifer	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Lucanidae	BLAST	family	COI-5P	657	1530	Staphylinidae,Leiodidae,Hydraenidae,Scarabaeidae	BBIOP2339-24_r_1_s_100	Platycerus spinifer	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Lucanidae	BLAST	family	COI-5P	657	1530	Staphylinidae,Leiodidae,Hydraenidae,Scarabaeidae	BBIOP2339-24_r_1.3_s_50	Platycerus spinifer	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Lucanidae	BLAST	family	COI-5P	657	1530	Staphylinidae,Leiodidae,Hydraenidae,Scarabaeidae	BBIOP2339-24_r_1.3_s_100	Platycerus spinifer	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Lucanidae	BLAST	family	COI-5P	657	1530	Staphylinidae,Leiodidae,Hydraenidae,Scarabaeidae	BBIOP2339-24_r_1.5_s_50	Platycerus spinifer	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Lucanidae	BLAST	family	COI-5P	657	1530	Staphylinidae,Leiodidae,Hydraenidae,Scarabaeidae	BBIOP2339-24_r_1.5_s_100	Platycerus spinifer	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae	BBIOP2340-24_r_1_s_50	Gymnopleurus geoffroyi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae	BBIOP2340-24_r_1_s_100	Gymnopleurus geoffroyi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae	BBIOP2340-24_r_1.3_s_50	Gymnopleurus geoffroyi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae	BBIOP2340-24_r_1.3_s_100	Gymnopleurus geoffroyi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae	BBIOP2340-24_r_1.5_s_50	Gymnopleurus geoffroyi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae	BBIOP2340-24_r_1.5_s_100	Gymnopleurus geoffroyi	0
+1	15	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae	BBIOP2341-24_r_1_s_50	Gymnopleurus geoffroyi	0
+3	17	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae	BBIOP2341-24_r_1_s_100	Gymnopleurus geoffroyi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae	BBIOP2341-24_r_1.3_s_50	Gymnopleurus geoffroyi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae	BBIOP2341-24_r_1.3_s_100	Gymnopleurus geoffroyi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae	BBIOP2341-24_r_1.5_s_50	Gymnopleurus geoffroyi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae	BBIOP2341-24_r_1.5_s_100	Gymnopleurus geoffroyi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2342-24_r_1_s_50	Bubas bubaloides	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2342-24_r_1_s_100	Bubas bubaloides	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2342-24_r_1.3_s_50	Bubas bubaloides	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2342-24_r_1.3_s_100	Bubas bubaloides	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2342-24_r_1.5_s_50	Bubas bubaloides	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2342-24_r_1.5_s_100	Bubas bubaloides	0
+5	32	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	638	1485	Reduviidae,Culicidae	BBIOP2343-24_r_1_s_50	Cheironitis furcifer	0
+4	11	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	553	1254	Phasmatidae,Lonchodidae,Reduviidae,Cicadellidae,Tachinidae	BBIOP2343-24_r_1_s_100	Cheironitis furcifer	0
+3	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	548	1302	Ptinidae,Culicidae,Agromyzidae,Lycaenidae	BBIOP2343-24_r_1.3_s_50	Cheironitis furcifer	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	457	804	Reduviidae,Phoridae,Tachinidae	BBIOP2343-24_r_1.3_s_100	Cheironitis furcifer	0
+4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	434	990	Staphylinidae,Chrysomelidae	BBIOP2343-24_r_1.5_s_50	Cheironitis furcifer	0
+3	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	213	405	Ectobiidae,Cecidomyiidae,Chironomidae,Chrysopidae	BBIOP2343-24_r_1.5_s_100	Cheironitis furcifer	0
+0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1539	Scarabaeidae	BBIOP2344-24_r_1_s_50	Cheironitis furcifer	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1539	Scarabaeidae	BBIOP2344-24_r_1_s_100	Cheironitis furcifer	0
+0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1539	Scarabaeidae	BBIOP2344-24_r_1.3_s_50	Cheironitis furcifer	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1539	Scarabaeidae	BBIOP2344-24_r_1.3_s_100	Cheironitis furcifer	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1539	Scarabaeidae	BBIOP2344-24_r_1.5_s_50	Cheironitis furcifer	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1539	Scarabaeidae	BBIOP2344-24_r_1.5_s_100	Cheironitis furcifer	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2345-24_r_1_s_50	Cheironitis furcifer	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2345-24_r_1_s_100	Cheironitis furcifer	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2345-24_r_1.3_s_50	Cheironitis furcifer	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2345-24_r_1.3_s_100	Cheironitis furcifer	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae	BBIOP2345-24_r_1.5_s_50	Cheironitis furcifer	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1536	Scarabaeidae	BBIOP2345-24_r_1.5_s_100	Cheironitis furcifer	0
+73	126	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1539	Scarabaeidae	BBIOP2346-24_r_1_s_50	Cheironitis haroldi	0
+66	113	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1539	Staphylinidae,Scarabaeidae	BBIOP2346-24_r_1_s_100	Cheironitis haroldi	0
+13	16	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1539	Scarabaeidae	BBIOP2346-24_r_1.3_s_50	Cheironitis haroldi	0
+7	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1539	Scarabaeidae	BBIOP2346-24_r_1.3_s_100	Cheironitis haroldi	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1539	Scarabaeidae	BBIOP2346-24_r_1.5_s_50	Cheironitis haroldi	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1539	Scarabaeidae	BBIOP2346-24_r_1.5_s_100	Cheironitis haroldi	0
+48	150	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1542	Timematidae,Staphylinidae,Hydraenidae,Salpingidae,Oecophoridae,Noctuidae,Geometridae	BBIOP2347-24_r_1_s_50	Cheironitis haroldi	0
+49	169	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1542	Timematidae,Staphylinidae,Hydraenidae,Scarabaeidae,Curculionidae,Noctuidae,Geometridae	BBIOP2347-24_r_1_s_100	Cheironitis haroldi	0
+21	37	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1542	Scarabaeidae	BBIOP2347-24_r_1.3_s_50	Cheironitis haroldi	0
+18	31	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1542	Scarabaeidae	BBIOP2347-24_r_1.3_s_100	Cheironitis haroldi	0
+7	19	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1542	Scarabaeidae	BBIOP2347-24_r_1.5_s_50	Cheironitis haroldi	0
+5	16	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1542	Scarabaeidae	BBIOP2347-24_r_1.5_s_100	Cheironitis haroldi	0
+11	26	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae,Tephritidae,Calliphoridae,Sarcophagidae	BBIOP2348-24_r_1_s_50	Cheironitis irroratus	0
+13	23	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Staphylinidae,Scarabaeidae	BBIOP2348-24_r_1_s_100	Cheironitis irroratus	0
+0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2348-24_r_1.3_s_50	Cheironitis irroratus	0
+14	15	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2348-24_r_1.3_s_100	Cheironitis irroratus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2348-24_r_1.5_s_50	Cheironitis irroratus	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	641	1458	Staphylinidae,Scarabaeidae,Calliphoridae	BBIOP2348-24_r_1.5_s_100	Cheironitis irroratus	0
+7	7	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1545	Scarabaeidae	BBIOP2349-24_r_1_s_50	Cheironitis irroratus	0
+29	58	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2349-24_r_1_s_100	Cheironitis irroratus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1545	Scarabaeidae	BBIOP2349-24_r_1.3_s_50	Cheironitis irroratus	0
+2	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2349-24_r_1.3_s_100	Cheironitis irroratus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2349-24_r_1.5_s_50	Cheironitis irroratus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1500	Scarabaeidae	BBIOP2349-24_r_1.5_s_100	Cheironitis irroratus	0
+4	15	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Lucanidae,Nitidulidae,Syrphidae,Tephritidae	BBIOP2350-24_r_1_s_50	Copris pueli	0
+5	19	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Nabidae,Scarabaeidae,Lucanidae,Syrphidae,Tephritidae	BBIOP2350-24_r_1_s_100	Copris pueli	0
+3	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1527	Scarabaeidae,Geotrupidae	BBIOP2350-24_r_1.3_s_50	Copris pueli	0
+2	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1488	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2350-24_r_1.3_s_100	Copris pueli	0
+0	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1509	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2350-24_r_1.5_s_50	Copris pueli	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1470	Hydraenidae,Scarabaeidae,Geotrupidae	BBIOP2350-24_r_1.5_s_100	Copris pueli	0
+84	184	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Staphylinidae,Scarabaeidae,Xyelidae	BBIOP2351-24_r_1_s_50	Copris pueli	0
+74	154	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	654	1527	Dytiscidae,Scarabaeidae,Melyridae,Sphaeriusidae,Hemerobiidae	BBIOP2351-24_r_1_s_100	Copris pueli	0
+31	72	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae,Geotrupidae	BBIOP2351-24_r_1.3_s_50	Copris pueli	0
+16	46	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1530	Scarabaeidae	BBIOP2351-24_r_1.3_s_100	Copris pueli	0
+16	32	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1497	Scarabaeidae,Geotrupidae	BBIOP2351-24_r_1.5_s_50	Copris pueli	0
+14	21	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1494	Scarabaeidae	BBIOP2351-24_r_1.5_s_100	Copris pueli	0
+60	114	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1521	Scarabaeidae	BBIOP2352-24_r_1_s_50	Copris umbilicatus	0
+26	77	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1416	Scarabaeidae	BBIOP2352-24_r_1_s_100	Copris umbilicatus	0
+9	24	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1485	Scarabaeidae,Geotrupidae	BBIOP2352-24_r_1.3_s_50	Copris umbilicatus	0
+6	22	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	566	1296	Scarabaeidae	BBIOP2352-24_r_1.3_s_100	Copris umbilicatus	0
+5	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	655	1485	Scarabaeidae,Geotrupidae	BBIOP2352-24_r_1.5_s_50	Copris umbilicatus	0
+7	14	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	566	1290	Scarabaeidae,Geotrupidae,Calliphoridae	BBIOP2352-24_r_1.5_s_100	Copris umbilicatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2353-24_r_1_s_50	Copris umbilicatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2353-24_r_1_s_100	Copris umbilicatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2353-24_r_1.3_s_50	Copris umbilicatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2353-24_r_1.3_s_100	Copris umbilicatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2353-24_r_1.5_s_50	Copris umbilicatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2353-24_r_1.5_s_100	Copris umbilicatus	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1542	Scarabaeidae	BBIOP2354-24_r_1_s_50	Euonthophagus amyntas	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1542	Scarabaeidae	BBIOP2354-24_r_1_s_100	Euonthophagus amyntas	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1542	Scarabaeidae	BBIOP2354-24_r_1.3_s_50	Euonthophagus amyntas	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1542	Scarabaeidae	BBIOP2354-24_r_1.3_s_100	Euonthophagus amyntas	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1542	Scarabaeidae	BBIOP2354-24_r_1.5_s_50	Euonthophagus amyntas	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1542	Scarabaeidae	BBIOP2354-24_r_1.5_s_100	Euonthophagus amyntas	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1542	Scarabaeidae	BBIOP2355-24_r_1_s_50	Euonthophagus gibbosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1542	Scarabaeidae	BBIOP2355-24_r_1_s_100	Euonthophagus gibbosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1542	Scarabaeidae	BBIOP2355-24_r_1.3_s_50	Euonthophagus gibbosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1542	Scarabaeidae	BBIOP2355-24_r_1.3_s_100	Euonthophagus gibbosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1542	Scarabaeidae	BBIOP2355-24_r_1.5_s_50	Euonthophagus gibbosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1542	Scarabaeidae	BBIOP2355-24_r_1.5_s_100	Euonthophagus gibbosus	0
+5	33	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	517	1380	Scarabaeidae	BBIOP2356-24_r_1_s_50	Euonthophagus gibbosus	0
+0	25	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	429	1152	Scarabaeidae,Ptilodactylidae	BBIOP2356-24_r_1_s_100	Euonthophagus gibbosus	0
+0	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	267	1095	Scarabaeidae	BBIOP2356-24_r_1.3_s_50	Euonthophagus gibbosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	128	603	Staphylinidae,Scarabaeidae	BBIOP2356-24_r_1.3_s_100	Euonthophagus gibbosus	0
+4	13	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	347	978	Scarabaeidae	BBIOP2356-24_r_1.5_s_50	Euonthophagus gibbosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	305	519	Staphylinidae,Scarabaeidae	BBIOP2356-24_r_1.5_s_100	Euonthophagus gibbosus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2357-24_r_1_s_50	Euonthophagus crocatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2357-24_r_1_s_100	Euonthophagus crocatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2357-24_r_1.3_s_50	Euonthophagus crocatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2357-24_r_1.3_s_100	Euonthophagus crocatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2357-24_r_1.5_s_50	Euonthophagus crocatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2357-24_r_1.5_s_100	Euonthophagus crocatus	0
+31	42	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	653	1533	Scarabaeidae	BBIOP2358-24_r_1_s_50	Euonthophagus crocatus	0
+21	31	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	653	1404	Scarabaeidae	BBIOP2358-24_r_1_s_100	Euonthophagus crocatus	0
+5	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2358-24_r_1.3_s_50	Euonthophagus crocatus	0
+11	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	584	1287	Scarabaeidae	BBIOP2358-24_r_1.3_s_100	Euonthophagus crocatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	647	1527	Scarabaeidae	BBIOP2358-24_r_1.5_s_50	Euonthophagus crocatus	0
+4	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	575	1278	Scarabaeidae	BBIOP2358-24_r_1.5_s_100	Euonthophagus crocatus	0
+0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2359-24_r_1_s_50	Euonthophagus atramentarius	0
+0	10	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2359-24_r_1_s_100	Euonthophagus atramentarius	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2359-24_r_1.3_s_50	Euonthophagus atramentarius	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2359-24_r_1.3_s_100	Euonthophagus atramentarius	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2359-24_r_1.5_s_50	Euonthophagus atramentarius	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2359-24_r_1.5_s_100	Euonthophagus atramentarius	0
+8	16	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1539	Scarabaeidae	BBIOP2360-24_r_1_s_50	Euonthophagus atramentarius	0
+2	13	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1527	Staphylinidae,Scarabaeidae,Salpingidae,Sphaeroceridae	BBIOP2360-24_r_1_s_100	Euonthophagus atramentarius	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1539	Scarabaeidae	BBIOP2360-24_r_1.3_s_50	Euonthophagus atramentarius	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1527	Scarabaeidae	BBIOP2360-24_r_1.3_s_100	Euonthophagus atramentarius	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2360-24_r_1.5_s_50	Euonthophagus atramentarius	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1527	Scarabaeidae	BBIOP2360-24_r_1.5_s_100	Euonthophagus atramentarius	0
+3	20	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2361-24_r_1_s_50	Euonthophagus atramentarius	0
+3	23	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2361-24_r_1_s_100	Euonthophagus atramentarius	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2361-24_r_1.3_s_50	Euonthophagus atramentarius	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2361-24_r_1.3_s_100	Euonthophagus atramentarius	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2361-24_r_1.5_s_50	Euonthophagus atramentarius	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2361-24_r_1.5_s_100	Euonthophagus atramentarius	0
+5	57	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	286	1017	Staphylinidae,Scarabaeidae	BBIOP2362-24_r_1_s_50	Onthophagus emarginatus	0
+4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	94	288	Tetrigidae,Carabidae,Scarabaeidae,Glaphyridae	BBIOP2362-24_r_1_s_100	Onthophagus emarginatus	0
+5	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	287	900	Scarabaeidae,Buprestidae	BBIOP2362-24_r_1.3_s_50	Onthophagus emarginatus	0
+4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	94	288	Tetrigidae,Carabidae,Scarabaeidae,Glaphyridae	BBIOP2362-24_r_1.3_s_100	Onthophagus emarginatus	0
+5	12	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	287	825	Scarabaeidae,Buprestidae	BBIOP2362-24_r_1.5_s_50	Onthophagus emarginatus	0
+4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	94	288	Tetrigidae,Carabidae,Scarabaeidae,Glaphyridae	BBIOP2362-24_r_1.5_s_100	Onthophagus emarginatus	0
+1	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1548	Scarabaeidae	BBIOP2363-24_r_1_s_50	Onthophagus emarginatus	0
+4	19	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2363-24_r_1_s_100	Onthophagus emarginatus	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1548	Scarabaeidae	BBIOP2363-24_r_1.3_s_50	Onthophagus emarginatus	0
+0	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2363-24_r_1.3_s_100	Onthophagus emarginatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1539	Scarabaeidae	BBIOP2363-24_r_1.5_s_50	Onthophagus emarginatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1539	Scarabaeidae	BBIOP2363-24_r_1.5_s_100	Onthophagus emarginatus	0
+3	25	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	545	1329	Nitidulidae,Chrysomelidae,Coccinellidae,Gelechiidae,Lacturidae,Lycaenidae	BBIOP2364-24_r_1_s_50	Onthophagus punctatus	0
+0	37	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	506	1227	Staphylinidae,Hydraenidae,Nitidulidae,Gelechiidae,Lycaenidae	BBIOP2364-24_r_1_s_100	Onthophagus punctatus	0
+16	56	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	509	1101	Hydraenidae,Mordellidae,Sarcophagidae,Geometridae	BBIOP2364-24_r_1.3_s_50	Onthophagus punctatus	0
+5	26	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	479	822	Cleridae,Nitidulidae,Lycaenidae	BBIOP2364-24_r_1.3_s_100	Onthophagus punctatus	0
+0	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	93	528	Hydrophilidae,Staphylinidae,Mycetophilidae,Chironomidae,Papilionidae,Nymphalidae	BBIOP2364-24_r_1.5_s_50	Onthophagus punctatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	62	198	Ichneumonidae,Megachilidae,Torymidae,Ormyridae,Chrysopidae	BBIOP2364-24_r_1.5_s_100	Onthophagus punctatus	0
+1	32	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1545	Staphylinidae,Scarabaeidae	BBIOP2365-24_r_1_s_50	Onthophagus punctatus	0
+2	26	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1539	Staphylinidae,Scarabaeidae	BBIOP2365-24_r_1_s_100	Onthophagus punctatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2365-24_r_1.3_s_50	Onthophagus punctatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1527	Scarabaeidae	BBIOP2365-24_r_1.3_s_100	Onthophagus punctatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1497	Scarabaeidae	BBIOP2365-24_r_1.5_s_50	Onthophagus punctatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1479	Scarabaeidae	BBIOP2365-24_r_1.5_s_100	Onthophagus punctatus	0
+35	112	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	654	1530	Scarabaeidae	BBIOP2366-24_r_1_s_50	Palaeonthophagus lemur	0
+25	104	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2366-24_r_1_s_100	Palaeonthophagus lemur	0
+6	15	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	654	1530	Scarabaeidae	BBIOP2366-24_r_1.3_s_50	Palaeonthophagus lemur	0
+8	11	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1530	Scarabaeidae	BBIOP2366-24_r_1.3_s_100	Palaeonthophagus lemur	0
+0	17	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	643	1482	Staphylinidae,Scarabaeidae,Drosophilidae	BBIOP2366-24_r_1.5_s_50	Palaeonthophagus lemur	0
+0	17	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	645	1482	Staphylinidae,Scarabaeidae,Drosophilidae	BBIOP2366-24_r_1.5_s_100	Palaeonthophagus lemur	0
+5	40	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	604	1365	Hydraenidae,Histeridae,Scarabaeidae	BBIOP2367-24_r_1_s_50	Palaeonthophagus lemur	0
+0	7	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	404	1038	Ectobiidae,Pentatomidae,Pyrrhocoridae,Aphrophoridae	BBIOP2367-24_r_1_s_100	Palaeonthophagus lemur	0
+5	9	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	447	1173	Scarabaeidae,Trogidae	BBIOP2367-24_r_1.3_s_50	Palaeonthophagus lemur	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	184	726	Scarabaeidae	BBIOP2367-24_r_1.3_s_100	Palaeonthophagus lemur	0
+0	10	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	382	1020	Staphylinidae,Scarabaeidae	BBIOP2367-24_r_1.5_s_50	Palaeonthophagus lemur	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	84	456	Scarabaeidae,Cecidomyiidae	BBIOP2367-24_r_1.5_s_100	Palaeonthophagus lemur	1
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1548	Scarabaeidae	BBIOP2368-24_r_1_s_50	Onthophagus latigena	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2368-24_r_1_s_100	Onthophagus latigena	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1548	Scarabaeidae	BBIOP2368-24_r_1.3_s_50	Onthophagus latigena	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2368-24_r_1.3_s_100	Onthophagus latigena	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1548	Scarabaeidae	BBIOP2368-24_r_1.5_s_50	Onthophagus latigena	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1536	Scarabaeidae	BBIOP2368-24_r_1.5_s_100	Onthophagus latigena	0
+9	19	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	583	1371	Scarabaeidae	BBIOP2369-24_r_1_s_50	Onthophagus baraudi	0
+0	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	587	1362	Carabidae,Scarabaeidae,Nitidulidae	BBIOP2369-24_r_1_s_100	Onthophagus baraudi	1
+4	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	498	1200	Carabidae,Scarabaeidae,Chironomidae,Drosophilidae	BBIOP2369-24_r_1.3_s_50	Onthophagus baraudi	4
+0	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	203	831	Scarabaeidae,Nitidulidae	BBIOP2369-24_r_1.3_s_100	Onthophagus baraudi	0
+4	4	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	380	924	Scarabaeidae	BBIOP2369-24_r_1.5_s_50	Onthophagus baraudi	0
+0	2	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	147	474	Staphylinidae,Scarabaeidae	BBIOP2369-24_r_1.5_s_100	Onthophagus baraudi	0
+1	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1548	Scarabaeidae	BBIOP2370-24_r_1_s_50	Onthophagus baraudi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1545	Scarabaeidae	BBIOP2370-24_r_1_s_100	Onthophagus baraudi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1548	Scarabaeidae	BBIOP2370-24_r_1.3_s_50	Onthophagus baraudi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1545	Scarabaeidae	BBIOP2370-24_r_1.3_s_100	Onthophagus baraudi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1545	Scarabaeidae	BBIOP2370-24_r_1.5_s_50	Onthophagus baraudi	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1545	Scarabaeidae	BBIOP2370-24_r_1.5_s_100	Onthophagus baraudi	0
+26	79	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1548	Scarabaeidae	BBIOP2371-24_r_1_s_50	Onthophagus basipostulatus	0
+15	49	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	643	1452	Scarabaeidae	BBIOP2371-24_r_1_s_100	Onthophagus basipostulatus	0
+0	13	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1548	Scarabaeidae	BBIOP2371-24_r_1.3_s_50	Onthophagus basipostulatus	0
+22	26	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	643	1452	Scarabaeidae	BBIOP2371-24_r_1.3_s_100	Onthophagus basipostulatus	0
+0	6	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1542	Scarabaeidae	BBIOP2371-24_r_1.5_s_50	Onthophagus basipostulatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	643	1446	Scarabaeidae	BBIOP2371-24_r_1.5_s_100	Onthophagus basipostulatus	0
+2	7	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	347	1290	Scarabaeidae	BBIOP2372-24_r_1_s_50	Onthophagus basipostulatus	0
+2	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	341	1056		BBIOP2372-24_r_1_s_100	Onthophagus basipostulatus	0
+0	5	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	197	948	Scarabaeidae	BBIOP2372-24_r_1.3_s_50	Onthophagus basipostulatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	132	546	Scarabaeidae	BBIOP2372-24_r_1.3_s_100	Onthophagus basipostulatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	111	678	Scarabaeidae	BBIOP2372-24_r_1.5_s_50	Onthophagus basipostulatus	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	132	336	Scarabaeidae	BBIOP2372-24_r_1.5_s_100	Onthophagus basipostulatus	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2373-24_r_1_s_50	Onthophagus dellacasai	0
+0	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2373-24_r_1_s_100	Onthophagus dellacasai	0
+0	1	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2373-24_r_1.3_s_50	Onthophagus dellacasai	0
+0	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2373-24_r_1.3_s_100	Onthophagus dellacasai	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2373-24_r_1.5_s_50	Onthophagus dellacasai	0
+0	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2373-24_r_1.5_s_100	Onthophagus dellacasai	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1548	Scarabaeidae	BBIOP2374-24_r_1_s_50	Onthophagus dellacasai	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2374-24_r_1_s_100	Onthophagus dellacasai	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2374-24_r_1.3_s_50	Onthophagus dellacasai	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2374-24_r_1.3_s_100	Onthophagus dellacasai	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2374-24_r_1.5_s_50	Onthophagus dellacasai	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2374-24_r_1.5_s_100	Onthophagus dellacasai	0
+21	62	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1545	Scarabaeidae	BBIOP2375-24_r_1_s_50	Onthophagus fissicornis	0
+10	27	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1545	Scarabaeidae	BBIOP2375-24_r_1_s_100	Onthophagus fissicornis	0
+3	3	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	656	1545	Scarabaeidae	BBIOP2375-24_r_1.3_s_50	Onthophagus fissicornis	0
+8	8	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	644	1533	Scarabaeidae	BBIOP2375-24_r_1.3_s_100	Onthophagus fissicornis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	657	1545	Scarabaeidae	BBIOP2375-24_r_1.5_s_50	Onthophagus fissicornis	0
+0	0	data/BGE00104_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Scarabaeidae	BLAST	family	COI-5P	645	1533	Scarabaeidae	BBIOP2375-24_r_1.5_s_100	Onthophagus fissicornis	0
