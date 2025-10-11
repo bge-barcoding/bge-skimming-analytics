@@ -77,14 +77,14 @@ def test_parse_sequence_id_invalid_missing_s():
 
 def test_find_tsv_files_to_fix(temp_dir):
     """Test finding TSV files that need fixing."""
-    # Create a file that needs fixing
+    # Create a file that needs fixing (missing all three columns)
     test_file1 = temp_dir / "needs_fixing.tsv"
     with open(test_file1, 'w', newline='') as f:
         writer = csv.writer(f, delimiter='\t')
         writer.writerow(['sequence_id', 'error', 'identification'])
         writer.writerow(['UNIFI571-24_r_1_s_50', 'None', 'Test'])
     
-    # Create a file that doesn't need fixing (has group_id)
+    # Create a file that needs fixing (has group_id but missing r and s)
     test_file2 = temp_dir / "has_group_id.tsv"
     with open(test_file2, 'w', newline='') as f:
         writer = csv.writer(f, delimiter='\t')
@@ -106,8 +106,9 @@ def test_find_tsv_files_to_fix(temp_dir):
         writer.writerow(['INVALID_ID', 'None'])
     
     files = find_tsv_files_to_fix(temp_dir)
-    assert len(files) == 1
+    assert len(files) == 2
     assert test_file1 in files
+    assert test_file2 in files
 
 
 def test_analyze_file_all_parseable(temp_dir):
@@ -288,3 +289,45 @@ def test_parse_sequence_id_with_underscore_in_process_id():
     assert group_id == "BGE_TEST001-24"
     assert r == "1.5"
     assert s == "50"
+
+
+def test_fix_file_with_existing_group_id(temp_dir):
+    """Test fixing a TSV file that has group_id but missing r and s columns."""
+    test_file = temp_dir / "test_with_group_id.tsv"
+    with open(test_file, 'w', newline='') as f:
+        writer = csv.writer(f, delimiter='\t')
+        writer.writerow(['sequence_id', 'group_id', 'error', 'identification'])
+        writer.writerow(['UNIFI571-24_r_1_s_50', 'UNIFI571-24', 'None', 'Test1'])
+        writer.writerow(['BBIOP1901-24_r_1.5_s_100', 'BBIOP1901-24', 'None', 'Test2'])
+    
+    # Fix the file
+    result = fix_file(test_file, dry_run=False)
+    assert result is True
+    
+    # Verify the result
+    with open(test_file, 'r') as f:
+        reader = csv.DictReader(f, delimiter='\t')
+        headers = reader.fieldnames
+        rows = list(reader)
+    
+    # Check headers - group_id should still be there, r and s should be added
+    assert 'group_id' in headers
+    assert 'r' in headers
+    assert 's' in headers
+    # group_id should be before r and s in the header order
+    assert headers.index('group_id') < headers.index('r')
+    assert headers.index('r') < headers.index('s')
+    
+    # Check row 1
+    assert rows[0]['sequence_id'] == 'UNIFI571-24_r_1_s_50'
+    assert rows[0]['group_id'] == 'UNIFI571-24'
+    assert rows[0]['r'] == '1'
+    assert rows[0]['s'] == '50'
+    assert rows[0]['identification'] == 'Test1'
+    
+    # Check row 2
+    assert rows[1]['sequence_id'] == 'BBIOP1901-24_r_1.5_s_100'
+    assert rows[1]['group_id'] == 'BBIOP1901-24'
+    assert rows[1]['r'] == '1.5'
+    assert rows[1]['s'] == '100'
+    assert rows[1]['identification'] == 'Test2'
