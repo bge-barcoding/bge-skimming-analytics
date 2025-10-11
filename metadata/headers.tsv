@@ -2,7 +2,6 @@ barcode_validator TSV header	Definition
 ambig_basecount	Number of ambiguous (N) bases within the extracted barcode region
 ambig_full_basecount	Number of ambiguous bases across the full barcode consensus sequence
 ambig_original	Number of ambiguous bases in full the barcode consensus sequence prior to barcode region extraction
-cleaned	Boolean denoting whether the barcode consensus sequence was generated pre- or post-cleaning
 cleaning_ambig_bases	Number of ambiguous bases in the post-cleaned barcode consensus sequence
 cleaning_cov_percent	Percentage coverage of psuedo-reference used for read alignment and barcode extraction in the post-cleaning consensus sequence
 cleaning_removed_at	Number of aligned reads removed due to AT content filtering in BGEE pipeline
@@ -21,7 +20,7 @@ identification_method	Taxonomic validation method (e.g. bold/blast)
 identification_rank	Taxonomic rank to validate molecular taxonomy of consensus sequence to (e.g. family)
 marker_code	Target barcode (e.g. COI-5P)
 mge_params	MitoGeneExtractor (MGE) parameter string used for consenus recovery within the BGEE pipeline
-n_reads_aligned	Number of input reads aligned to the pseudo-reference by MGE and used for generation of the consensus sequence 
+n_reads_aligned	Number of input reads aligned to the pseudo-reference by MGE and used for generation of the consensus sequence
 n_reads_in	Number of QC'd/trimmed reads input into MGE
 n_reads_skipped	Number of input reads omitted from alignment (e.g. due to frame shifts/multiple alignment positions/mismatches/etc.)
 nuc_basecount	Basecount of HMM-extracted barcode region (i.e. 'nuc')
@@ -39,16 +38,7 @@ ref_accession	Reference sequence accession number
 ref_rank	Taxonomic rank of reference sequence
 BOLD_submission	BOLD Systems submission identifier
 cleaning_removed_reference	Number of reads removed due to reference filtering during cleaning
-family	Taxonomic family identification
-fasta_file	Source FASTA file path
-genes	Genes identified in sequence
 length	Sequence length
 n_aligned	Number of aligned reads (alternative column name)
 n_reads	Total number of reads (alternative column name)
-output_dir	Output directory path
-protein_reference_file	Path to protein reference file
-r	MGE parameter r value
-s	MGE parameter s value
-run_name	Name of the sequencing/analysis run
-samples_file	Path to samples file
 skipped_reads_low_rel	Number of reads skipped due to low relative score
