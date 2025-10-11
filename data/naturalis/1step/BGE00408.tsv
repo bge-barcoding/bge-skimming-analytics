@@ -1,571 +1,571 @@
-ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	marker_code	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons
-37	79	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1509	Braconidae	BGLIB666-24_r_1_s_50	Bracon abbreviator	0
-44	74	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	645	1458	Braconidae	BGLIB666-24_r_1_s_100	Bracon abbreviator	0
-12	12	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	631	1467	Braconidae	BGLIB666-24_r_1.3_s_50	Bracon abbreviator	0
-14	14	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	646	1452	Braconidae	BGLIB666-24_r_1.3_s_100	Bracon abbreviator	0
-3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	532	1338	Braconidae	BGLIB666-24_r_1.5_s_50	Bracon abbreviator	0
-3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	481	1263	Braconidae	BGLIB666-24_r_1.5_s_100	Bracon abbreviator	0
-34	93	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1515	Braconidae,Ichneumonidae	BGLIB667-24_r_1_s_50	Bracon conjugellae	0
-17	65	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	625	1461	Braconidae,Ichneumonidae	BGLIB667-24_r_1_s_100	Bracon conjugellae	0
-14	19	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	652	1503	Braconidae,Ichneumonidae	BGLIB667-24_r_1.3_s_50	Bracon conjugellae	0
-15	23	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	625	1398	Braconidae,Ichneumonidae	BGLIB667-24_r_1.3_s_100	Bracon conjugellae	0
-8	12	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	520	1275	Braconidae,Ichneumonidae	BGLIB667-24_r_1.5_s_50	Bracon conjugellae	0
-7	16	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	493	1209	Braconidae,Ichneumonidae	BGLIB667-24_r_1.5_s_100	Bracon conjugellae	0
-0	13	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB668-24_r_1_s_50	Bracon crassiceps	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1509	Braconidae	BGLIB668-24_r_1_s_100	Bracon crassiceps	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1509	Braconidae	BGLIB668-24_r_1.3_s_50	Bracon crassiceps	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1509	Braconidae	BGLIB668-24_r_1.3_s_100	Bracon crassiceps	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	601	1455	Braconidae	BGLIB668-24_r_1.5_s_50	Bracon crassiceps	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	598	1452	Braconidae	BGLIB668-24_r_1.5_s_100	Bracon crassiceps	0
-35	103	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Tettigoniidae,Acrididae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Vespidae,Tetracampidae	BGLIB669-24_r_1_s_50	Bracon curticaudis	0
-12	66	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	638	1449	Tettigoniidae,Acrididae,Reduviidae,Curculionidae,Bostrichidae,Ptinidae,Vespidae	BGLIB669-24_r_1_s_100	Bracon curticaudis	0
-12	34	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB669-24_r_1.3_s_50	Bracon curticaudis	0
-5	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	636	1449	Acrididae,Cicadellidae,Syrphidae,Ephydridae,Braconidae,Ichneumonidae	BGLIB669-24_r_1.3_s_100	Bracon curticaudis	0
-6	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	567	1302	Culicidae,Syrphidae,Drosophilidae,Tephritidae	BGLIB669-24_r_1.5_s_50	Bracon curticaudis	0
-4	8	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	567	1248	Acrididae,Reduviidae,Braconidae	BGLIB669-24_r_1.5_s_100	Bracon curticaudis	0
-1	15	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1506	Braconidae	BGLIB670-24_r_1_s_50	Bracon delibator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1503	Braconidae	BGLIB670-24_r_1_s_100	Bracon delibator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1488	Braconidae	BGLIB670-24_r_1.3_s_50	Bracon delibator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1458	Braconidae	BGLIB670-24_r_1.3_s_100	Bracon delibator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	623	1368	Braconidae	BGLIB670-24_r_1.5_s_50	Bracon delibator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	623	1368	Braconidae	BGLIB670-24_r_1.5_s_100	Bracon delibator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB671-24_r_1_s_50	Bracon erraticus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1506	Braconidae	BGLIB671-24_r_1_s_100	Bracon erraticus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB671-24_r_1.3_s_50	Bracon erraticus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1506	Braconidae	BGLIB671-24_r_1.3_s_100	Bracon erraticus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	577	1398	Braconidae	BGLIB671-24_r_1.5_s_50	Bracon erraticus	0
-1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	568	1389	Braconidae	BGLIB671-24_r_1.5_s_100	Bracon erraticus	0
-33	62	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	606	1377	Braconidae,Geometridae	BGLIB672-24_r_1_s_50	Bracon exarator	0
-28	47	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	537	1218	Braconidae,Geometridae	BGLIB672-24_r_1_s_100	Bracon exarator	0
-19	19	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	371	990	Braconidae	BGLIB672-24_r_1.3_s_50	Bracon exarator	0
-15	21	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	363	840	Braconidae	BGLIB672-24_r_1.3_s_100	Bracon exarator	0
-2	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	205	744	Culicidae,Braconidae	BGLIB672-24_r_1.5_s_50	Bracon exarator	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	173	525	Culicidae,Braconidae,Ichneumonidae,Limacodidae,Erebidae,Nymphalidae,Pyralidae	BGLIB672-24_r_1.5_s_100	Bracon exarator	0
-15	28	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	433	1242	Carabidae,Helophoridae,Meloidae,Mydidae	BGLIB673-24_r_1_s_50	Bracon exhilarator	0
-9	18	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	330	972	Mydidae,Megalodontesidae,Coniopterygidae	BGLIB673-24_r_1_s_100	Bracon exhilarator	0
-8	18	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	360	912	Tingidae,Chrysomelidae,Dolichopodidae,Argidae,Tortricidae,Lycaenidae,Nymphalidae	BGLIB673-24_r_1.3_s_50	Bracon exhilarator	0
-6	17	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	269	723	Kalotermitidae,Termitidae,Notonectidae,Naucoridae,Tingidae,Pentatomidae,Athericidae,Crambidae	BGLIB673-24_r_1.3_s_100	Bracon exhilarator	0
-2	7	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	159	498	Libellulidae,Tingidae,Pentatomidae,Crambidae	BGLIB673-24_r_1.5_s_50	Bracon exhilarator	4
-0	6	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	119	366	Termitidae,Naucoridae,Tingidae,Pentatomidae,Elmidae,Curculionidae,Dolichopodidae,Sarcophagidae	BGLIB673-24_r_1.5_s_100	Bracon exhilarator	0
-6	21	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	633	1446	Braconidae	BGLIB674-24_r_1_s_50	Bracon flavipes	0
-11	24	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	417	1185	Braconidae,Noctuidae,Geometridae	BGLIB674-24_r_1_s_100	Bracon flavipes	0
-1	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	604	1398	Braconidae	BGLIB674-24_r_1.3_s_50	Bracon flavipes	0
-3	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	417	930	Culicidae,Braconidae,Tortricidae,Noctuidae,Geometridae	BGLIB674-24_r_1.3_s_100	Bracon flavipes	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	487	1152	Braconidae,Formicidae	BGLIB674-24_r_1.5_s_50	Bracon flavipes	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	333	765	Braconidae,Noctuidae,Geometridae	BGLIB674-24_r_1.5_s_100	Bracon flavipes	0
-38	73	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	633	1386	Braconidae,Nevrorthidae	BGLIB675-24_r_1_s_50	Bracon immutator	0
-25	42	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	531	1278	Tettigoniidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Ulidiidae,Vespidae,Tetracampidae	BGLIB675-24_r_1_s_100	Bracon immutator	0
-38	47	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	627	1260	Syrphidae,Tephritidae,Braconidae	BGLIB675-24_r_1.3_s_50	Bracon immutator	0
-29	30	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	495	945	Tettigoniidae,Syrphidae,Ulidiidae,Braconidae,Vespidae	BGLIB675-24_r_1.3_s_100	Bracon immutator	4
-9	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	355	927	Miridae,Braconidae,Lycaenidae,Geometridae	BGLIB675-24_r_1.5_s_50	Bracon immutator	0
-9	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	229	660	Miridae,Braconidae,Noctuidae,Lycaenidae,Geometridae	BGLIB675-24_r_1.5_s_100	Bracon immutator	3
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB676-24_r_1_s_50	Bracon laetus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1524	Braconidae	BGLIB676-24_r_1_s_100	Bracon laetus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB676-24_r_1.3_s_50	Bracon laetus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1524	Braconidae	BGLIB676-24_r_1.3_s_100	Bracon laetus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	601	1458	Braconidae	BGLIB676-24_r_1.5_s_50	Bracon laetus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	601	1392	Braconidae	BGLIB676-24_r_1.5_s_100	Bracon laetus	0
-13	52	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB677-24_r_1_s_50	Bracon longicollis	0
-11	46	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1509	Braconidae	BGLIB677-24_r_1_s_100	Bracon longicollis	0
-0	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB677-24_r_1.3_s_50	Bracon longicollis	0
-4	8	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	649	1503	Braconidae	BGLIB677-24_r_1.3_s_100	Bracon longicollis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	577	1407	Braconidae	BGLIB677-24_r_1.5_s_50	Bracon longicollis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	529	1326	Braconidae	BGLIB677-24_r_1.5_s_100	Bracon longicollis	0
-0	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	637	1527	Braconidae	BGLIB678-24_r_1_s_50	Bracon luteator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB678-24_r_1_s_100	Bracon luteator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1482	Braconidae	BGLIB678-24_r_1.3_s_50	Bracon luteator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1446	Braconidae	BGLIB678-24_r_1.3_s_100	Bracon luteator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	623	1347	Braconidae	BGLIB678-24_r_1.5_s_50	Bracon luteator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	623	1347	Braconidae	BGLIB678-24_r_1.5_s_100	Bracon luteator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB679-24_r_1_s_50	Bracon minutator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB679-24_r_1_s_100	Bracon minutator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1440	Braconidae	BGLIB679-24_r_1.3_s_50	Bracon minutator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1440	Braconidae	BGLIB679-24_r_1.3_s_100	Bracon minutator	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	629	1392	Braconidae	BGLIB679-24_r_1.5_s_50	Bracon minutator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	629	1392	Braconidae	BGLIB679-24_r_1.5_s_100	Bracon minutator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB680-24_r_1_s_50	Bracon nigricollis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB680-24_r_1_s_100	Bracon nigricollis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB680-24_r_1.3_s_50	Bracon nigricollis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB680-24_r_1.3_s_100	Bracon nigricollis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	613	1467	Braconidae	BGLIB680-24_r_1.5_s_50	Bracon nigricollis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	580	1401	Braconidae	BGLIB680-24_r_1.5_s_100	Bracon nigricollis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB681-24_r_1_s_50	Bracon praecox	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB681-24_r_1_s_100	Bracon praecox	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB681-24_r_1.3_s_50	Bracon praecox	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB681-24_r_1.3_s_100	Bracon praecox	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1494	Braconidae	BGLIB681-24_r_1.5_s_50	Bracon praecox	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1458	Braconidae	BGLIB681-24_r_1.5_s_100	Bracon praecox	0
-2	21	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB682-24_r_1_s_50	Bracon pulcher	0
-8	16	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1476	Braconidae	BGLIB682-24_r_1_s_100	Bracon pulcher	0
-0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB682-24_r_1.3_s_50	Bracon pulcher	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1476	Braconidae	BGLIB682-24_r_1.3_s_100	Bracon pulcher	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	525	1347	Braconidae	BGLIB682-24_r_1.5_s_50	Bracon pulcher	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	498	1269	Braconidae	BGLIB682-24_r_1.5_s_100	Bracon pulcher	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB683-24_r_1_s_50	Bracon speerschneideri	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB683-24_r_1_s_100	Bracon speerschneideri	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB683-24_r_1.3_s_50	Bracon speerschneideri	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB683-24_r_1.3_s_100	Bracon speerschneideri	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1476	Braconidae	BGLIB683-24_r_1.5_s_50	Bracon speerschneideri	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1473	Braconidae	BGLIB683-24_r_1.5_s_100	Bracon speerschneideri	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB684-24_r_1_s_50	Bracon stabilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1500	Braconidae	BGLIB684-24_r_1_s_100	Bracon stabilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB684-24_r_1.3_s_50	Bracon stabilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1491	Braconidae	BGLIB684-24_r_1.3_s_100	Bracon stabilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1503	Braconidae	BGLIB684-24_r_1.5_s_50	Bracon stabilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1440	Braconidae	BGLIB684-24_r_1.5_s_100	Bracon stabilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB685-24_r_1_s_50	Bracon subrugosus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB685-24_r_1_s_100	Bracon subrugosus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1452	Braconidae	BGLIB685-24_r_1.3_s_50	Bracon subrugosus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1452	Braconidae	BGLIB685-24_r_1.3_s_100	Bracon subrugosus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	638	1398	Braconidae	BGLIB685-24_r_1.5_s_50	Bracon subrugosus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	638	1398	Braconidae	BGLIB685-24_r_1.5_s_100	Bracon subrugosus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB686-24_r_1_s_50	Bracon subsinuatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB686-24_r_1_s_100	Bracon subsinuatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1524	Braconidae	BGLIB686-24_r_1.3_s_50	Bracon subsinuatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1524	Braconidae	BGLIB686-24_r_1.3_s_100	Bracon subsinuatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	652	1473	Braconidae	BGLIB686-24_r_1.5_s_50	Bracon subsinuatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	634	1455	Braconidae	BGLIB686-24_r_1.5_s_100	Bracon subsinuatus	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB687-24_r_1_s_50	Bracon terebella	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1512	Braconidae	BGLIB687-24_r_1_s_100	Bracon terebella	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB687-24_r_1.3_s_50	Bracon terebella	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1494	Braconidae	BGLIB687-24_r_1.3_s_100	Bracon terebella	0
-0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	646	1485	Braconidae,Vespidae,Melittidae,Trichogrammatidae	BGLIB687-24_r_1.5_s_50	Bracon terebella	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	643	1434	Braconidae	BGLIB687-24_r_1.5_s_100	Bracon terebella	0
-8	24	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	461	1125	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	BGLIB688-24_r_1_s_50	Bracon urinator	0
-6	15	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	392	966	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	BGLIB688-24_r_1_s_100	Bracon urinator	0
-3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	234	612	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	BGLIB688-24_r_1.3_s_50	Bracon urinator	0
-3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	202	462	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	BGLIB688-24_r_1.3_s_100	Bracon urinator	0
-3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	129	210	Blaberidae,Rhaphidophoridae,Reduviidae,Alydidae,Cercopidae,Lampyridae,Cerambycidae,Cecidomyiidae,Bethylidae	BGLIB688-24_r_1.5_s_50	Bracon urinator	0
-3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	121	147	Blaberidae,Rhaphidophoridae,Reduviidae,Alydidae,Cercopidae,Lampyridae,Cerambycidae,Cecidomyiidae,Bethylidae	BGLIB688-24_r_1.5_s_100	Bracon urinator	0
-27	53	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	650	1467	Tettigoniidae,Braconidae,Vespidae	BGLIB689-24_r_1_s_50	Bracon variator	0
-14	22	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	530	1263	Tettigoniidae,Perlidae,Ninidae,Ulidiidae,Vespidae	BGLIB689-24_r_1_s_100	Bracon variator	0
-14	31	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	585	1335	Cecidomyiidae,Braconidae	BGLIB689-24_r_1.3_s_50	Bracon variator	0
-14	17	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	417	1029	Culicidae,Sarcophagidae,Tachinidae,Nymphalidae,Crambidae	BGLIB689-24_r_1.3_s_100	Bracon variator	0
-9	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	426	1062	Tachinidae,Nymphalidae,Crambidae	BGLIB689-24_r_1.5_s_50	Bracon variator	1
-11	11	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	372	885	Cecidomyiidae,Sarcophagidae,Halictidae,Nymphalidae,Crambidae	BGLIB689-24_r_1.5_s_100	Bracon variator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Braconidae	BGLIB690-24_r_1_s_50	Chelonus annulatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Braconidae	BGLIB690-24_r_1_s_100	Chelonus annulatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB690-24_r_1.3_s_50	Chelonus annulatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB690-24_r_1.3_s_100	Chelonus annulatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB690-24_r_1.5_s_50	Chelonus annulatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1515	Braconidae	BGLIB690-24_r_1.5_s_100	Chelonus annulatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB691-24_r_1_s_50	Chelonus bonellii	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB691-24_r_1_s_100	Chelonus bonellii	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB691-24_r_1.3_s_50	Chelonus bonellii	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB691-24_r_1.3_s_100	Chelonus bonellii	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB691-24_r_1.5_s_50	Chelonus bonellii	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB691-24_r_1.5_s_100	Chelonus bonellii	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB692-24_r_1_s_50	Chelonus carbonator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB692-24_r_1_s_100	Chelonus carbonator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB692-24_r_1.3_s_50	Chelonus carbonator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB692-24_r_1.3_s_100	Chelonus carbonator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB692-24_r_1.5_s_50	Chelonus carbonator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB692-24_r_1.5_s_100	Chelonus carbonator	0
-0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB693-24_r_1_s_50	Chelonus catulus	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB693-24_r_1_s_100	Chelonus catulus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB693-24_r_1.3_s_50	Chelonus catulus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB693-24_r_1.3_s_100	Chelonus catulus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB693-24_r_1.5_s_50	Chelonus catulus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB693-24_r_1.5_s_100	Chelonus catulus	0
-13	27	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Vespidae,Hystrichopsyllidae,Noctuidae,Lycaenidae	BGLIB694-24_r_1_s_50	Chelonus contractus	0
-1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1530	Nolidae,Lycaenidae,Nymphalidae	BGLIB694-24_r_1_s_100	Chelonus contractus	0
-2	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	629	1479	Cicadidae,Vespidae,Melittidae,Nolidae,Lycaenidae,Nymphalidae	BGLIB694-24_r_1.3_s_50	Chelonus contractus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	538	1383	Cicadidae,Vespidae,Hystrichopsyllidae,Lycaenidae,Nymphalidae	BGLIB694-24_r_1.3_s_100	Chelonus contractus	11
-1	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	487	1302	Braconidae,Limacodidae,Lycaenidae	BGLIB694-24_r_1.5_s_50	Chelonus contractus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	398	1098	Chironomidae,Braconidae,Hepialidae	BGLIB694-24_r_1.5_s_100	Chelonus contractus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Braconidae	BGLIB695-24_r_1_s_50	Chelonus corvulus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Braconidae	BGLIB695-24_r_1_s_100	Chelonus corvulus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1533	Braconidae	BGLIB695-24_r_1.3_s_50	Chelonus corvulus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB695-24_r_1.3_s_100	Chelonus corvulus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB695-24_r_1.5_s_50	Chelonus corvulus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1515	Braconidae	BGLIB695-24_r_1.5_s_100	Chelonus corvulus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB696-24_r_1_s_50	Chelonus humilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB696-24_r_1_s_100	Chelonus humilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB696-24_r_1.3_s_50	Chelonus humilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB696-24_r_1.3_s_100	Chelonus humilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB696-24_r_1.5_s_50	Chelonus humilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB696-24_r_1.5_s_100	Chelonus humilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB697-24_r_1_s_50	Chelonus microphtalmus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB697-24_r_1_s_100	Chelonus microphtalmus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB697-24_r_1.3_s_50	Chelonus microphtalmus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB697-24_r_1.3_s_100	Chelonus microphtalmus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB697-24_r_1.5_s_50	Chelonus microphtalmus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1491	Braconidae	BGLIB697-24_r_1.5_s_100	Chelonus microphtalmus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Braconidae	BGLIB698-24_r_1_s_50	Chelonus obscuratus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Braconidae	BGLIB698-24_r_1_s_100	Chelonus obscuratus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Braconidae	BGLIB698-24_r_1.3_s_50	Chelonus obscuratus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB698-24_r_1.3_s_100	Chelonus obscuratus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB698-24_r_1.5_s_50	Chelonus obscuratus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB698-24_r_1.5_s_100	Chelonus obscuratus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB699-24_r_1_s_50	Chelonus oculator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB699-24_r_1_s_100	Chelonus oculator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB699-24_r_1.3_s_50	Chelonus oculator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB699-24_r_1.3_s_100	Chelonus oculator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB699-24_r_1.5_s_50	Chelonus oculator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB699-24_r_1.5_s_100	Chelonus oculator	0
-0	8	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Braconidae	BGLIB700-24_r_1_s_50	Chelonus retusus	0
-0	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB700-24_r_1_s_100	Chelonus retusus	0
-0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1518	Braconidae	BGLIB700-24_r_1.3_s_50	Chelonus retusus	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB700-24_r_1.3_s_100	Chelonus retusus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	609	1470	Braconidae	BGLIB700-24_r_1.5_s_50	Chelonus retusus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	591	1449	Braconidae	BGLIB700-24_r_1.5_s_100	Chelonus retusus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Braconidae	BGLIB701-24_r_1_s_50	Chelonus scabrator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Braconidae	BGLIB701-24_r_1_s_100	Chelonus scabrator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Braconidae	BGLIB701-24_r_1.3_s_50	Chelonus scabrator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Braconidae	BGLIB701-24_r_1.3_s_100	Chelonus scabrator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB701-24_r_1.5_s_50	Chelonus scabrator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB701-24_r_1.5_s_100	Chelonus scabrator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB702-24_r_1_s_50	Chelonus submuticus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB702-24_r_1_s_100	Chelonus submuticus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB702-24_r_1.3_s_50	Chelonus submuticus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB702-24_r_1.3_s_100	Chelonus submuticus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB702-24_r_1.5_s_50	Chelonus submuticus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB702-24_r_1.5_s_100	Chelonus submuticus	0
-22	24	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1512	Braconidae	BGLIB703-24_r_1_s_50	Blacus instabilis	0
-27	29	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1464	Braconidae	BGLIB703-24_r_1_s_100	Blacus instabilis	0
-13	13	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	635	1371	Braconidae	BGLIB703-24_r_1.3_s_50	Blacus instabilis	0
-7	7	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	599	1308	Braconidae	BGLIB703-24_r_1.3_s_100	Blacus instabilis	0
-1	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	472	1170	Braconidae	BGLIB703-24_r_1.5_s_50	Blacus instabilis	0
-5	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	527	1014	Braconidae	BGLIB703-24_r_1.5_s_100	Blacus instabilis	2
-0	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	426	1080	Staphylinidae,Mycetophilidae,Dixidae,Mydidae,Tachinidae,Pompilidae,Hepialidae	BGLIB704-24_r_1_s_50	Blacus pallipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	386	828	Staphylinidae,Mycetophilidae,Dixidae,Mydidae,Tachinidae,Pompilidae,Hepialidae	BGLIB704-24_r_1_s_100	Blacus pallipes	0
-15	20	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	144	453		BGLIB704-24_r_1.3_s_50	Blacus pallipes	0
-13	15	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	118	225		BGLIB704-24_r_1.3_s_100	Blacus pallipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	33	102		BGLIB704-24_r_1.5_s_50	Blacus pallipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	33	66		BGLIB704-24_r_1.5_s_100	Blacus pallipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB705-24_r_1_s_50	Blacus exilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB705-24_r_1_s_100	Blacus exilis	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	630	1422	Braconidae	BGLIB705-24_r_1.3_s_50	Blacus exilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	630	1422	Braconidae	BGLIB705-24_r_1.3_s_100	Blacus exilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	472	1167	Braconidae	BGLIB705-24_r_1.5_s_50	Blacus exilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	574	1032	Braconidae	BGLIB705-24_r_1.5_s_100	Blacus exilis	2
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1491	Braconidae	BGLIB706-24_r_1_s_50	Atanycolus initiator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1491	Braconidae	BGLIB706-24_r_1_s_100	Atanycolus initiator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1431	Braconidae	BGLIB706-24_r_1.3_s_50	Atanycolus initiator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1419	Braconidae	BGLIB706-24_r_1.3_s_100	Atanycolus initiator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	648	1383	Braconidae	BGLIB706-24_r_1.5_s_50	Atanycolus initiator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	648	1383	Braconidae	BGLIB706-24_r_1.5_s_100	Atanycolus initiator	0
-38	70	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1419	Braconidae,Eulophidae	BGLIB707-24_r_1_s_50	Atanycolus neesii	0
-47	81	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1347	Braconidae	BGLIB707-24_r_1_s_100	Atanycolus neesii	0
-12	12	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1347	Braconidae	BGLIB707-24_r_1.3_s_50	Atanycolus neesii	0
-19	20	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1317	Braconidae	BGLIB707-24_r_1.3_s_100	Atanycolus neesii	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	552	1242	Braconidae	BGLIB707-24_r_1.5_s_50	Atanycolus neesii	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	437	1035	Braconidae	BGLIB707-24_r_1.5_s_100	Atanycolus neesii	3
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB708-24_r_1_s_50	Atanycolus sculpturatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1497	Braconidae	BGLIB708-24_r_1_s_100	Atanycolus sculpturatus	0
-0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1500	Braconidae	BGLIB708-24_r_1.3_s_50	Atanycolus sculpturatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1440	Braconidae	BGLIB708-24_r_1.3_s_100	Atanycolus sculpturatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1461	Braconidae	BGLIB708-24_r_1.5_s_50	Atanycolus sculpturatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1410	Braconidae	BGLIB708-24_r_1.5_s_100	Atanycolus sculpturatus	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1557	Braconidae	BGLIB709-24_r_1_s_50	Baryproctus barypus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1455	Braconidae	BGLIB709-24_r_1_s_100	Baryproctus barypus	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	648	1524	Braconidae	BGLIB709-24_r_1.3_s_50	Baryproctus barypus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	648	1404	Braconidae	BGLIB709-24_r_1.3_s_100	Baryproctus barypus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	552	1350	Braconidae	BGLIB709-24_r_1.5_s_50	Baryproctus barypus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	417	1137	Braconidae	BGLIB709-24_r_1.5_s_100	Baryproctus barypus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB710-24_r_1_s_50	Doryctes undulatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1524	Braconidae	BGLIB710-24_r_1_s_100	Doryctes undulatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	642	1458	Braconidae	BGLIB710-24_r_1.3_s_50	Doryctes undulatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	642	1416	Braconidae	BGLIB710-24_r_1.3_s_100	Doryctes undulatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	579	1329	Braconidae	BGLIB710-24_r_1.5_s_50	Doryctes undulatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	579	1296	Braconidae	BGLIB710-24_r_1.5_s_100	Doryctes undulatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	652	1524	Braconidae	BGLIB711-24_r_1_s_50	Hecabolus sulcatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	652	1521	Braconidae	BGLIB711-24_r_1_s_100	Hecabolus sulcatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	634	1485	Braconidae	BGLIB711-24_r_1.3_s_50	Hecabolus sulcatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	634	1425	Braconidae	BGLIB711-24_r_1.3_s_100	Hecabolus sulcatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	532	1278	Braconidae	BGLIB711-24_r_1.5_s_50	Hecabolus sulcatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	493	1239	Braconidae	BGLIB711-24_r_1.5_s_100	Hecabolus sulcatus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1545	Braconidae	BGLIB712-24_r_1_s_50	Rhoptocentrus piceus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1500	Braconidae	BGLIB712-24_r_1_s_100	Rhoptocentrus piceus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	640	1506	Braconidae	BGLIB712-24_r_1.3_s_50	Rhoptocentrus piceus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	610	1377	Braconidae	BGLIB712-24_r_1.3_s_100	Rhoptocentrus piceus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	523	1263	Braconidae	BGLIB712-24_r_1.5_s_50	Rhoptocentrus piceus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	544	1095	Braconidae	BGLIB712-24_r_1.5_s_100	Rhoptocentrus piceus	1
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB713-24_r_1_s_50	Spathius pedestris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB713-24_r_1_s_100	Spathius pedestris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB713-24_r_1.3_s_50	Spathius pedestris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB713-24_r_1.3_s_100	Spathius pedestris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	649	1527	Braconidae	BGLIB713-24_r_1.5_s_50	Spathius pedestris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	649	1527	Braconidae	BGLIB713-24_r_1.5_s_100	Spathius pedestris	0
-12	19	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB714-24_r_1_s_50	Ascogaster klugii	0
-18	18	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1491	Braconidae	BGLIB714-24_r_1_s_100	Ascogaster klugii	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	635	1452	Braconidae	BGLIB714-24_r_1.3_s_50	Ascogaster klugii	1
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	629	1365	Braconidae	BGLIB714-24_r_1.3_s_100	Ascogaster klugii	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	482	1221	Braconidae	BGLIB714-24_r_1.5_s_50	Ascogaster klugii	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	467	1158	Braconidae	BGLIB714-24_r_1.5_s_100	Ascogaster klugii	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB715-24_r_1_s_50	Ascogaster rufipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB715-24_r_1_s_100	Ascogaster rufipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB715-24_r_1.3_s_50	Ascogaster rufipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1392	Braconidae	BGLIB715-24_r_1.3_s_100	Ascogaster rufipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	645	1419	Braconidae	BGLIB715-24_r_1.5_s_50	Ascogaster rufipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	618	1344	Braconidae	BGLIB715-24_r_1.5_s_100	Ascogaster rufipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1497	Braconidae	BGLIB716-24_r_1_s_50	Phaenocarpa planifrons	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1464	Braconidae	BGLIB716-24_r_1_s_100	Phaenocarpa planifrons	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1440	Braconidae	BGLIB716-24_r_1.3_s_50	Phaenocarpa planifrons	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	636	1353	Braconidae	BGLIB716-24_r_1.3_s_100	Phaenocarpa planifrons	0
-0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	585	1356	Braconidae	BGLIB716-24_r_1.5_s_50	Phaenocarpa planifrons	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	501	1209	Braconidae	BGLIB716-24_r_1.5_s_100	Phaenocarpa planifrons	0
-29	59	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1494	Braconidae,Figitidae,Cynipidae,Diapriidae	BGLIB717-24_r_1_s_50	Coeloides abdominalis	0
-30	53	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1485	Culicidae,Braconidae,Figitidae,Diapriidae	BGLIB717-24_r_1_s_100	Coeloides abdominalis	0
-15	17	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1434	Braconidae	BGLIB717-24_r_1.3_s_50	Coeloides abdominalis	0
-16	19	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1416	Braconidae,Ibaliidae	BGLIB717-24_r_1.3_s_100	Coeloides abdominalis	0
-5	7	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	643	1404	Braconidae	BGLIB717-24_r_1.5_s_50	Coeloides abdominalis	0
-5	9	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	517	1242	Braconidae	BGLIB717-24_r_1.5_s_100	Coeloides abdominalis	0
-43	117	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae,Aulacidae,Pamphiliidae,Lycaenidae,Nymphalidae,Pterophoridae	BGLIB718-24_r_1_s_50	Coeloides scolyticida	0
-38	73	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	647	1416	Braconidae	BGLIB718-24_r_1_s_100	Coeloides scolyticida	0
-10	21	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1500	Braconidae	BGLIB718-24_r_1.3_s_50	Coeloides scolyticida	0
-15	22	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	596	1362	Braconidae	BGLIB718-24_r_1.3_s_100	Coeloides scolyticida	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	462	1209	Braconidae	BGLIB718-24_r_1.5_s_50	Coeloides scolyticida	2
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	292	939	Braconidae	BGLIB718-24_r_1.5_s_100	Coeloides scolyticida	2
-0	9	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB719-24_r_1_s_50	Iphiaulax impostor	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1503	Braconidae	BGLIB719-24_r_1_s_100	Iphiaulax impostor	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1476	Braconidae	BGLIB719-24_r_1.3_s_50	Iphiaulax impostor	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1446	Braconidae	BGLIB719-24_r_1.3_s_100	Iphiaulax impostor	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1431	Braconidae	BGLIB719-24_r_1.5_s_50	Iphiaulax impostor	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	651	1398	Braconidae	BGLIB719-24_r_1.5_s_100	Iphiaulax impostor	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1512	Braconidae	BGLIB720-24_r_1_s_50	Pseudovipio gracilis	0
-0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	634	1407	Braconidae	BGLIB720-24_r_1_s_100	Pseudovipio gracilis	0
-0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	637	1437	Braconidae	BGLIB720-24_r_1.3_s_50	Pseudovipio gracilis	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	625	1332	Braconidae	BGLIB720-24_r_1.3_s_100	Pseudovipio gracilis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	577	1290	Braconidae	BGLIB720-24_r_1.5_s_50	Pseudovipio gracilis	0
-1	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	532	1203	Braconidae	BGLIB720-24_r_1.5_s_100	Pseudovipio gracilis	0
-34	54	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1500	Braconidae	BGLIB721-24_r_1_s_50	Vipio intermedius	0
-52	76	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	634	1398	Syrphidae,Braconidae,Pteromalidae,Encyrtidae	BGLIB721-24_r_1_s_100	Vipio intermedius	0
-3	6	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1494	Braconidae	BGLIB721-24_r_1.3_s_50	Vipio intermedius	0
-5	9	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	631	1356	Braconidae	BGLIB721-24_r_1.3_s_100	Vipio intermedius	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	526	1248	Braconidae	BGLIB721-24_r_1.5_s_50	Vipio intermedius	0
-3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	446	1077	Braconidae	BGLIB721-24_r_1.5_s_100	Vipio intermedius	0
-13	29	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	413	1272	Acrididae,Reduviidae,Dermestidae,Tortricidae	BGLIB722-24_r_1_s_50	Vipio sareptanus	0
-0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	276	1038	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	BGLIB722-24_r_1_s_100	Vipio sareptanus	0
-0	11	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	104	750	Termitidae,Reduviidae	BGLIB722-24_r_1.3_s_50	Vipio sareptanus	0
-0	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	105	537	Termitidae,Reduviidae	BGLIB722-24_r_1.3_s_100	Vipio sareptanus	0
-3	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	60	465	Termitidae,Acrididae,Reduviidae,Tortricidae	BGLIB722-24_r_1.5_s_50	Vipio sareptanus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	47	363	Termitidae,Acrididae,Reduviidae,Elateridae,Tortricidae	BGLIB722-24_r_1.5_s_100	Vipio sareptanus	0
-43	85	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	616	1413	Braconidae	BGLIB723-24_r_1_s_50	Vipio terrefactor	0
-26	38	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	547	1161	Dytiscidae,Stratiomyidae,Braconidae,Riodinidae	BGLIB723-24_r_1_s_100	Vipio terrefactor	0
-16	24	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	597	1350	Braconidae	BGLIB723-24_r_1.3_s_50	Vipio terrefactor	0
-24	25	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	478	858	Rhinotermitidae,Braconidae,Ichneumonidae	BGLIB723-24_r_1.3_s_100	Vipio terrefactor	0
-6	13	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	435	1032	Drosophilidae,Braconidae,Nymphalidae	BGLIB723-24_r_1.5_s_50	Vipio terrefactor	0
-1	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	377	756	Tettigoniidae,Miridae,Cydnidae,Chironomidae,Ulidiidae,Vespidae,Limnephilidae	BGLIB723-24_r_1.5_s_100	Vipio terrefactor	0
-2	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1539	Braconidae	BGLIB724-24_r_1_s_50	Pauesia infulata	0
-0	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB724-24_r_1_s_100	Pauesia infulata	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1539	Braconidae	BGLIB724-24_r_1.3_s_50	Pauesia infulata	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	636	1515	Braconidae	BGLIB724-24_r_1.3_s_100	Pauesia infulata	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	597	1443	Braconidae	BGLIB724-24_r_1.5_s_50	Pauesia infulata	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	489	1275	Braconidae	BGLIB724-24_r_1.5_s_100	Pauesia infulata	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB725-24_r_1_s_50	Epimicta marginalis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB725-24_r_1_s_100	Epimicta marginalis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB725-24_r_1.3_s_50	Epimicta marginalis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB725-24_r_1.3_s_100	Epimicta marginalis	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	601	1479	Braconidae	BGLIB725-24_r_1.5_s_50	Epimicta marginalis	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	601	1479	Braconidae	BGLIB725-24_r_1.5_s_100	Epimicta marginalis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB726-24_r_1_s_50	Orthostigma pumilum	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB726-24_r_1_s_100	Orthostigma pumilum	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB726-24_r_1.3_s_50	Orthostigma pumilum	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB726-24_r_1.3_s_100	Orthostigma pumilum	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	649	1485	Braconidae	BGLIB726-24_r_1.5_s_50	Orthostigma pumilum	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	628	1398	Braconidae	BGLIB726-24_r_1.5_s_100	Orthostigma pumilum	0
-7	8	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1512	Braconidae	BGLIB727-24_r_1_s_50	Phaenocarpa ruficeps	0
-2	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB727-24_r_1_s_100	Phaenocarpa ruficeps	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1512	Braconidae	BGLIB727-24_r_1.3_s_50	Phaenocarpa ruficeps	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB727-24_r_1.3_s_100	Phaenocarpa ruficeps	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	636	1488	Braconidae	BGLIB727-24_r_1.5_s_50	Phaenocarpa ruficeps	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	627	1479	Braconidae	BGLIB727-24_r_1.5_s_100	Phaenocarpa ruficeps	0
-20	37	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	575	1332		BGLIB728-24_r_1_s_50	Trachionus hians	9
-21	39	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	531	1170	Vespidae,Formicidae	BGLIB728-24_r_1_s_100	Trachionus hians	0
-13	28	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	480	1230	Calliphoridae,Papilionidae,Lycaenidae,Geometridae	BGLIB728-24_r_1.3_s_50	Trachionus hians	0
-3	9	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	434	1014	Vespidae,Formicidae,Torymidae	BGLIB728-24_r_1.3_s_100	Trachionus hians	0
-4	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	454	816	Syrphidae,Vespidae,Papilionidae,Lycaenidae,Geometridae	BGLIB728-24_r_1.5_s_50	Trachionus hians	1
-5	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	402	663	Cecidomyiidae,Braconidae,Vespidae,Apidae,Formicidae	BGLIB728-24_r_1.5_s_100	Trachionus hians	5
-0	15	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB729-24_r_1_s_50	Agathis griseifrons	0
-0	7	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1431	Braconidae	BGLIB729-24_r_1_s_100	Agathis griseifrons	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	576	1341	Braconidae,Formicidae	BGLIB729-24_r_1.3_s_50	Agathis griseifrons	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	576	1236	Braconidae	BGLIB729-24_r_1.3_s_100	Agathis griseifrons	0
-0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	514	1170	Braconidae,Formicidae	BGLIB729-24_r_1.5_s_50	Agathis griseifrons	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	390	996	Braconidae,Formicidae	BGLIB729-24_r_1.5_s_100	Agathis griseifrons	0
-1	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1494	Braconidae	BGLIB730-24_r_1_s_50	Agathis malvacearum	0
-1	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1470	Braconidae	BGLIB730-24_r_1_s_100	Agathis malvacearum	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	567	1332	Braconidae	BGLIB730-24_r_1.3_s_50	Agathis malvacearum	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	567	1278	Braconidae	BGLIB730-24_r_1.3_s_100	Agathis malvacearum	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	475	1194	Braconidae	BGLIB730-24_r_1.5_s_50	Agathis malvacearum	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	468	1092	Braconidae	BGLIB730-24_r_1.5_s_100	Agathis malvacearum	0
-0	8	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1545	Braconidae	BGLIB731-24_r_1_s_50	Agathis nigra	0
-1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1464	Braconidae	BGLIB731-24_r_1_s_100	Agathis nigra	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	600	1401	Braconidae	BGLIB731-24_r_1.3_s_50	Agathis nigra	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	600	1278	Braconidae,Micropterigidae,Zygaenidae,Nymphalidae	BGLIB731-24_r_1.3_s_100	Agathis nigra	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	560	1293	Braconidae	BGLIB731-24_r_1.5_s_50	Agathis nigra	4
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	458	1089	Braconidae,Formicidae	BGLIB731-24_r_1.5_s_100	Agathis nigra	0
-3	6	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1539	Braconidae	BGLIB732-24_r_1_s_50	Agathis tibialis	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1518	Braconidae	BGLIB732-24_r_1_s_100	Agathis tibialis	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	573	1368	Braconidae	BGLIB732-24_r_1.3_s_50	Agathis tibialis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	546	1224	Braconidae,Formicidae	BGLIB732-24_r_1.3_s_100	Agathis tibialis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	513	1173	Braconidae,Formicidae	BGLIB732-24_r_1.5_s_50	Agathis tibialis	3
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	498	1062	Braconidae,Formicidae	BGLIB732-24_r_1.5_s_100	Agathis tibialis	4
-1	7	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1518	Braconidae	BGLIB733-24_r_1_s_50	Agathis umbellatarum	0
-0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1494	Braconidae	BGLIB733-24_r_1_s_100	Agathis umbellatarum	0
-0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	614	1389	Braconidae	BGLIB733-24_r_1.3_s_50	Agathis umbellatarum	0
-1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	614	1338	Braconidae,Formicidae,Eulophidae,Aphelinidae	BGLIB733-24_r_1.3_s_100	Agathis umbellatarum	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	510	1188	Braconidae	BGLIB733-24_r_1.5_s_50	Agathis umbellatarum	18
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	480	1122	Braconidae	BGLIB733-24_r_1.5_s_100	Agathis umbellatarum	17
-1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB734-24_r_1_s_50	Bassus calculator	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB734-24_r_1_s_100	Bassus calculator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae,Eulophidae	BGLIB734-24_r_1.3_s_50	Bassus calculator	0
-1	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB734-24_r_1.3_s_100	Bassus calculator	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1524	Braconidae	BGLIB734-24_r_1.5_s_50	Bassus calculator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1503	Braconidae	BGLIB734-24_r_1.5_s_100	Bassus calculator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB735-24_r_1_s_50	Bassus cingulipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB735-24_r_1_s_100	Bassus cingulipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB735-24_r_1.3_s_50	Bassus cingulipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB735-24_r_1.3_s_100	Bassus cingulipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1488	Braconidae	BGLIB735-24_r_1.5_s_50	Bassus cingulipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1410	Braconidae	BGLIB735-24_r_1.5_s_100	Bassus cingulipes	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB736-24_r_1_s_50	Bassus clausthalianus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB736-24_r_1_s_100	Bassus clausthalianus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB736-24_r_1.3_s_50	Bassus clausthalianus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB736-24_r_1.3_s_100	Bassus clausthalianus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB736-24_r_1.5_s_50	Bassus clausthalianus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB736-24_r_1.5_s_100	Bassus clausthalianus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB737-24_r_1_s_50	Bassus conspicuus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB737-24_r_1_s_100	Bassus conspicuus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB737-24_r_1.3_s_50	Bassus conspicuus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB737-24_r_1.3_s_100	Bassus conspicuus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB737-24_r_1.5_s_50	Bassus conspicuus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB737-24_r_1.5_s_100	Bassus conspicuus	0
-11	32	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	515	1224	Cicadidae,Formicidae,Noctuidae,Nolidae,Erebidae,Nymphalidae	BGLIB738-24_r_1_s_50	Bassus linguarius	0
-11	25	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	504	1053	Formicidae,Torymidae,Nolidae,Erebidae,Nymphalidae	BGLIB738-24_r_1_s_100	Bassus linguarius	0
-15	16	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	154	858	Cicadidae,Scathophagidae,Noctuidae,Erebidae,Nymphalidae	BGLIB738-24_r_1.3_s_50	Bassus linguarius	0
-19	19	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	197	516	Chrysomelidae,Curculionidae,Torymidae,Tortricidae,Noctuidae,Erebidae,Nymphalidae,Pyralidae,Pseudobistonidae	BGLIB738-24_r_1.3_s_100	Bassus linguarius	2
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	128	423	Cicadidae,Coleophoridae,Tortricidae,Noctuidae,Erebidae,Nymphalidae,Pyralidae	BGLIB738-24_r_1.5_s_50	Bassus linguarius	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	121	294	Formicidae,Torymidae,Coleophoridae,Noctuidae,Erebidae,Nymphalidae,Pyralidae,Pseudobistonidae	BGLIB738-24_r_1.5_s_100	Bassus linguarius	0
-0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB739-24_r_1_s_50	Bassus mediator	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB739-24_r_1_s_100	Bassus mediator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB739-24_r_1.3_s_50	Bassus mediator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1494	Braconidae	BGLIB739-24_r_1.3_s_100	Bassus mediator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	651	1527	Braconidae	BGLIB739-24_r_1.5_s_50	Bassus mediator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	651	1488	Braconidae	BGLIB739-24_r_1.5_s_100	Bassus mediator	0
-0	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB740-24_r_1_s_50	Bassus nugax	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB740-24_r_1_s_100	Bassus nugax	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB740-24_r_1.3_s_50	Bassus nugax	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1500	Braconidae	BGLIB740-24_r_1.3_s_100	Bassus nugax	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB740-24_r_1.5_s_50	Bassus nugax	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1494	Braconidae	BGLIB740-24_r_1.5_s_100	Bassus nugax	0
-0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB741-24_r_1_s_50	Therophilus tumidulus	0
-0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB741-24_r_1_s_100	Therophilus tumidulus	0
-0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB741-24_r_1.3_s_50	Therophilus tumidulus	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB741-24_r_1.3_s_100	Therophilus tumidulus	0
-0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB741-24_r_1.5_s_50	Therophilus tumidulus	0
-0	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB741-24_r_1.5_s_100	Therophilus tumidulus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB742-24_r_1_s_50	Cremnops desertor	0
-1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB742-24_r_1_s_100	Cremnops desertor	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1524	Braconidae	BGLIB742-24_r_1.3_s_50	Cremnops desertor	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1452	Braconidae	BGLIB742-24_r_1.3_s_100	Cremnops desertor	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	639	1398	Braconidae	BGLIB742-24_r_1.5_s_50	Cremnops desertor	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	639	1398	Braconidae	BGLIB742-24_r_1.5_s_100	Cremnops desertor	0
-22	31	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1530	Braconidae	BGLIB743-24_r_1_s_50	Troticus ovalis	0
-29	40	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	469	1347	Braconidae,Vespidae,Formicidae,Lycaenidae	BGLIB743-24_r_1_s_100	Troticus ovalis	0
-14	16	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	586	1323	Braconidae,Formicidae	BGLIB743-24_r_1.3_s_50	Troticus ovalis	0
-17	29	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	400	1143	Braconidae,Formicidae,Lycaenidae,Riodinidae,Prodoxidae	BGLIB743-24_r_1.3_s_100	Troticus ovalis	0
-5	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	467	1098	Braconidae,Formicidae,Lycaenidae	BGLIB743-24_r_1.5_s_50	Troticus ovalis	0
-10	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	444	801	Braconidae,Formicidae,Lycaenidae,Riodinidae,Pyralidae,Prodoxidae	BGLIB743-24_r_1.5_s_100	Troticus ovalis	2
-14	14	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1530	Braconidae	BGLIB744-24_r_1_s_50	Apanteles adjuntus	0
-13	16	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1530	Braconidae	BGLIB744-24_r_1_s_100	Apanteles adjuntus	0
-2	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1479	Braconidae	BGLIB744-24_r_1.3_s_50	Apanteles adjuntus	0
-3	6	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1455	Braconidae	BGLIB744-24_r_1.3_s_100	Apanteles adjuntus	0
-3	6	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	581	1299	Braconidae	BGLIB744-24_r_1.5_s_50	Apanteles adjuntus	0
-3	6	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	578	1296	Braconidae	BGLIB744-24_r_1.5_s_100	Apanteles adjuntus	0
-36	73	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1533	Braconidae	BGLIB745-24_r_1_s_50	Apanteles bicolor	0
-12	34	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1530	Braconidae	BGLIB745-24_r_1_s_100	Apanteles bicolor	0
-14	16	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB745-24_r_1.3_s_50	Apanteles bicolor	0
-7	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB745-24_r_1.3_s_100	Apanteles bicolor	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1479	Braconidae	BGLIB745-24_r_1.5_s_50	Apanteles bicolor	0
-0	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	562	1368	Braconidae	BGLIB745-24_r_1.5_s_100	Apanteles bicolor	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB746-24_r_1_s_50	Apanteles breviventris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB746-24_r_1_s_100	Apanteles breviventris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB746-24_r_1.3_s_50	Apanteles breviventris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB746-24_r_1.3_s_100	Apanteles breviventris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB746-24_r_1.5_s_50	Apanteles breviventris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB746-24_r_1.5_s_100	Apanteles breviventris	0
-0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB747-24_r_1_s_50	Apanteles corvinus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB747-24_r_1_s_100	Apanteles corvinus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB747-24_r_1.3_s_50	Apanteles corvinus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB747-24_r_1.3_s_100	Apanteles corvinus	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1515	Braconidae	BGLIB747-24_r_1.5_s_50	Apanteles corvinus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1446	Braconidae	BGLIB747-24_r_1.5_s_100	Apanteles corvinus	0
-3	7	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Braconidae	BGLIB748-24_r_1_s_50	Apanteles coleophorae	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB748-24_r_1_s_100	Apanteles coleophorae	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Braconidae	BGLIB748-24_r_1.3_s_50	Apanteles coleophorae	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB748-24_r_1.3_s_100	Apanteles coleophorae	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1494	Braconidae	BGLIB748-24_r_1.5_s_50	Apanteles coleophorae	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	641	1428	Braconidae	BGLIB748-24_r_1.5_s_100	Apanteles coleophorae	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB749-24_r_1_s_50	Apanteles breviventris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB749-24_r_1_s_100	Apanteles breviventris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB749-24_r_1.3_s_50	Apanteles breviventris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB749-24_r_1.5_s_50	Apanteles breviventris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB749-24_r_1.3_s_100	Apanteles breviventris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB749-24_r_1.5_s_100	Apanteles breviventris	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1521	Braconidae	BGLIB750-24_r_1_s_50	Apanteles impurus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1521	Braconidae	BGLIB750-24_r_1_s_100	Apanteles impurus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1521	Braconidae	BGLIB750-24_r_1.3_s_50	Apanteles impurus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1521	Braconidae	BGLIB750-24_r_1.3_s_100	Apanteles impurus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB750-24_r_1.5_s_50	Apanteles impurus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1482	Braconidae	BGLIB750-24_r_1.5_s_100	Apanteles impurus	0
-1	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	650	1500	Braconidae	BGLIB751-24_r_1_s_50	Aleiodes pallidator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	634	1467	Braconidae	BGLIB751-24_r_1_s_100	Aleiodes pallidator	0
-0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	649	1491	Braconidae	BGLIB751-24_r_1.3_s_50	Aleiodes pallidator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	632	1437	Braconidae	BGLIB751-24_r_1.3_s_100	Aleiodes pallidator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	564	1371	Braconidae	BGLIB751-24_r_1.5_s_50	Aleiodes pallidator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	529	1281	Braconidae	BGLIB751-24_r_1.5_s_100	Aleiodes pallidator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB752-24_r_1_s_50	Apanteles infimus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB752-24_r_1_s_100	Apanteles infimus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB752-24_r_1.3_s_50	Apanteles infimus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB752-24_r_1.3_s_100	Apanteles infimus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1530	Braconidae	BGLIB752-24_r_1.5_s_50	Apanteles infimus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1518	Braconidae	BGLIB752-24_r_1.5_s_100	Apanteles infimus	0
-0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB753-24_r_1_s_50	Apanteles infimus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB753-24_r_1_s_100	Apanteles infimus	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB753-24_r_1.3_s_50	Apanteles infimus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB753-24_r_1.3_s_100	Apanteles infimus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	641	1470	Braconidae	BGLIB753-24_r_1.5_s_50	Apanteles infimus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	635	1380	Braconidae	BGLIB753-24_r_1.5_s_100	Apanteles infimus	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB754-24_r_1_s_50	Dolichogenidea gagates	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB754-24_r_1_s_100	Dolichogenidea gagates	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB754-24_r_1.3_s_50	Dolichogenidea gagates	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB754-24_r_1.3_s_100	Dolichogenidea gagates	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	648	1452	Braconidae	BGLIB754-24_r_1.5_s_50	Dolichogenidea gagates	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	648	1452	Braconidae	BGLIB754-24_r_1.5_s_100	Dolichogenidea gagates	0
-0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB755-24_r_1_s_50	Apanteles sicarius	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB755-24_r_1_s_100	Apanteles sicarius	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB755-24_r_1.3_s_50	Apanteles sicarius	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB755-24_r_1.3_s_100	Apanteles sicarius	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB755-24_r_1.5_s_50	Apanteles sicarius	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB755-24_r_1.5_s_100	Apanteles sicarius	0
-5	8	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB756-24_r_1_s_50	Helcon tardator	0
-2	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	633	1395	Braconidae	BGLIB756-24_r_1_s_100	Helcon tardator	0
-1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	514	1290	Braconidae	BGLIB756-24_r_1.3_s_50	Helcon tardator	0
-1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	438	1125	Braconidae	BGLIB756-24_r_1.3_s_100	Helcon tardator	0
-3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	371	1071	Braconidae	BGLIB756-24_r_1.5_s_50	Helcon tardator	0
-1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	309	951	Braconidae,Lycaenidae	BGLIB756-24_r_1.5_s_100	Helcon tardator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB757-24_r_1_s_50	Alysia manducator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB757-24_r_1_s_100	Alysia manducator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB757-24_r_1.3_s_50	Alysia manducator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB757-24_r_1.3_s_100	Alysia manducator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	646	1509	Braconidae	BGLIB757-24_r_1.5_s_50	Alysia manducator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	646	1509	Braconidae	BGLIB757-24_r_1.5_s_100	Alysia manducator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB758-24_r_1_s_50	Aspilota hirticornis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB758-24_r_1_s_100	Aspilota hirticornis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB758-24_r_1.3_s_50	Aspilota hirticornis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB758-24_r_1.3_s_100	Aspilota hirticornis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	646	1461	Braconidae	BGLIB758-24_r_1.5_s_50	Aspilota hirticornis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	640	1410	Braconidae	BGLIB758-24_r_1.5_s_100	Aspilota hirticornis	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1530	Braconidae	BGLIB759-24_r_1_s_50	Dapsilarthra florimela	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB759-24_r_1_s_100	Dapsilarthra florimela	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1530	Braconidae	BGLIB759-24_r_1.3_s_50	Dapsilarthra florimela	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB759-24_r_1.3_s_100	Dapsilarthra florimela	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	646	1455	Braconidae	BGLIB759-24_r_1.5_s_50	Dapsilarthra florimela	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	595	1359	Braconidae	BGLIB759-24_r_1.5_s_100	Dapsilarthra florimela	0
-0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1551	Braconidae	BGLIB760-24_r_1_s_50	Orgilus puctulator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1503	Braconidae	BGLIB760-24_r_1_s_100	Orgilus puctulator	0
-0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	618	1455	Braconidae	BGLIB760-24_r_1.3_s_50	Orgilus puctulator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	618	1338	Braconidae	BGLIB760-24_r_1.3_s_100	Orgilus puctulator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	510	1230	Braconidae	BGLIB760-24_r_1.5_s_50	Orgilus puctulator	0
-0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	456	1140	Braconidae	BGLIB760-24_r_1.5_s_100	Orgilus puctulator	0
+ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	marker_code	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons	group_id	r	s
+37	79	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1509	Braconidae	BGLIB666-24_r_1_s_50	Bracon abbreviator	0	BGLIB666-24	1	50
+44	74	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	645	1458	Braconidae	BGLIB666-24_r_1_s_100	Bracon abbreviator	0	BGLIB666-24	1	100
+12	12	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	631	1467	Braconidae	BGLIB666-24_r_1.3_s_50	Bracon abbreviator	0	BGLIB666-24	1.3	50
+14	14	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	646	1452	Braconidae	BGLIB666-24_r_1.3_s_100	Bracon abbreviator	0	BGLIB666-24	1.3	100
+3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	532	1338	Braconidae	BGLIB666-24_r_1.5_s_50	Bracon abbreviator	0	BGLIB666-24	1.5	50
+3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	481	1263	Braconidae	BGLIB666-24_r_1.5_s_100	Bracon abbreviator	0	BGLIB666-24	1.5	100
+34	93	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1515	Braconidae,Ichneumonidae	BGLIB667-24_r_1_s_50	Bracon conjugellae	0	BGLIB667-24	1	50
+17	65	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	625	1461	Braconidae,Ichneumonidae	BGLIB667-24_r_1_s_100	Bracon conjugellae	0	BGLIB667-24	1	100
+14	19	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	652	1503	Braconidae,Ichneumonidae	BGLIB667-24_r_1.3_s_50	Bracon conjugellae	0	BGLIB667-24	1.3	50
+15	23	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	625	1398	Braconidae,Ichneumonidae	BGLIB667-24_r_1.3_s_100	Bracon conjugellae	0	BGLIB667-24	1.3	100
+8	12	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	520	1275	Braconidae,Ichneumonidae	BGLIB667-24_r_1.5_s_50	Bracon conjugellae	0	BGLIB667-24	1.5	50
+7	16	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	493	1209	Braconidae,Ichneumonidae	BGLIB667-24_r_1.5_s_100	Bracon conjugellae	0	BGLIB667-24	1.5	100
+0	13	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB668-24_r_1_s_50	Bracon crassiceps	0	BGLIB668-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1509	Braconidae	BGLIB668-24_r_1_s_100	Bracon crassiceps	0	BGLIB668-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1509	Braconidae	BGLIB668-24_r_1.3_s_50	Bracon crassiceps	0	BGLIB668-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1509	Braconidae	BGLIB668-24_r_1.3_s_100	Bracon crassiceps	0	BGLIB668-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	601	1455	Braconidae	BGLIB668-24_r_1.5_s_50	Bracon crassiceps	0	BGLIB668-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	598	1452	Braconidae	BGLIB668-24_r_1.5_s_100	Bracon crassiceps	0	BGLIB668-24	1.5	100
+35	103	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Tettigoniidae,Acrididae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Vespidae,Tetracampidae	BGLIB669-24_r_1_s_50	Bracon curticaudis	0	BGLIB669-24	1	50
+12	66	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	638	1449	Tettigoniidae,Acrididae,Reduviidae,Curculionidae,Bostrichidae,Ptinidae,Vespidae	BGLIB669-24_r_1_s_100	Bracon curticaudis	0	BGLIB669-24	1	100
+12	34	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB669-24_r_1.3_s_50	Bracon curticaudis	0	BGLIB669-24	1.3	50
+5	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	636	1449	Acrididae,Cicadellidae,Syrphidae,Ephydridae,Braconidae,Ichneumonidae	BGLIB669-24_r_1.3_s_100	Bracon curticaudis	0	BGLIB669-24	1.3	100
+6	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	567	1302	Culicidae,Syrphidae,Drosophilidae,Tephritidae	BGLIB669-24_r_1.5_s_50	Bracon curticaudis	0	BGLIB669-24	1.5	50
+4	8	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	567	1248	Acrididae,Reduviidae,Braconidae	BGLIB669-24_r_1.5_s_100	Bracon curticaudis	0	BGLIB669-24	1.5	100
+1	15	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1506	Braconidae	BGLIB670-24_r_1_s_50	Bracon delibator	0	BGLIB670-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1503	Braconidae	BGLIB670-24_r_1_s_100	Bracon delibator	0	BGLIB670-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1488	Braconidae	BGLIB670-24_r_1.3_s_50	Bracon delibator	0	BGLIB670-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1458	Braconidae	BGLIB670-24_r_1.3_s_100	Bracon delibator	0	BGLIB670-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	623	1368	Braconidae	BGLIB670-24_r_1.5_s_50	Bracon delibator	0	BGLIB670-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	623	1368	Braconidae	BGLIB670-24_r_1.5_s_100	Bracon delibator	0	BGLIB670-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB671-24_r_1_s_50	Bracon erraticus	0	BGLIB671-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1506	Braconidae	BGLIB671-24_r_1_s_100	Bracon erraticus	0	BGLIB671-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB671-24_r_1.3_s_50	Bracon erraticus	0	BGLIB671-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1506	Braconidae	BGLIB671-24_r_1.3_s_100	Bracon erraticus	0	BGLIB671-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	577	1398	Braconidae	BGLIB671-24_r_1.5_s_50	Bracon erraticus	0	BGLIB671-24	1.5	50
+1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	568	1389	Braconidae	BGLIB671-24_r_1.5_s_100	Bracon erraticus	0	BGLIB671-24	1.5	100
+33	62	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	606	1377	Braconidae,Geometridae	BGLIB672-24_r_1_s_50	Bracon exarator	0	BGLIB672-24	1	50
+28	47	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	537	1218	Braconidae,Geometridae	BGLIB672-24_r_1_s_100	Bracon exarator	0	BGLIB672-24	1	100
+19	19	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	371	990	Braconidae	BGLIB672-24_r_1.3_s_50	Bracon exarator	0	BGLIB672-24	1.3	50
+15	21	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	363	840	Braconidae	BGLIB672-24_r_1.3_s_100	Bracon exarator	0	BGLIB672-24	1.3	100
+2	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	205	744	Culicidae,Braconidae	BGLIB672-24_r_1.5_s_50	Bracon exarator	0	BGLIB672-24	1.5	50
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	173	525	Culicidae,Braconidae,Ichneumonidae,Limacodidae,Erebidae,Nymphalidae,Pyralidae	BGLIB672-24_r_1.5_s_100	Bracon exarator	0	BGLIB672-24	1.5	100
+15	28	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	433	1242	Carabidae,Helophoridae,Meloidae,Mydidae	BGLIB673-24_r_1_s_50	Bracon exhilarator	0	BGLIB673-24	1	50
+9	18	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	330	972	Mydidae,Megalodontesidae,Coniopterygidae	BGLIB673-24_r_1_s_100	Bracon exhilarator	0	BGLIB673-24	1	100
+8	18	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	360	912	Tingidae,Chrysomelidae,Dolichopodidae,Argidae,Tortricidae,Lycaenidae,Nymphalidae	BGLIB673-24_r_1.3_s_50	Bracon exhilarator	0	BGLIB673-24	1.3	50
+6	17	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	269	723	Kalotermitidae,Termitidae,Notonectidae,Naucoridae,Tingidae,Pentatomidae,Athericidae,Crambidae	BGLIB673-24_r_1.3_s_100	Bracon exhilarator	0	BGLIB673-24	1.3	100
+2	7	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	159	498	Libellulidae,Tingidae,Pentatomidae,Crambidae	BGLIB673-24_r_1.5_s_50	Bracon exhilarator	4	BGLIB673-24	1.5	50
+0	6	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	119	366	Termitidae,Naucoridae,Tingidae,Pentatomidae,Elmidae,Curculionidae,Dolichopodidae,Sarcophagidae	BGLIB673-24_r_1.5_s_100	Bracon exhilarator	0	BGLIB673-24	1.5	100
+6	21	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	633	1446	Braconidae	BGLIB674-24_r_1_s_50	Bracon flavipes	0	BGLIB674-24	1	50
+11	24	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	417	1185	Braconidae,Noctuidae,Geometridae	BGLIB674-24_r_1_s_100	Bracon flavipes	0	BGLIB674-24	1	100
+1	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	604	1398	Braconidae	BGLIB674-24_r_1.3_s_50	Bracon flavipes	0	BGLIB674-24	1.3	50
+3	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	417	930	Culicidae,Braconidae,Tortricidae,Noctuidae,Geometridae	BGLIB674-24_r_1.3_s_100	Bracon flavipes	0	BGLIB674-24	1.3	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	487	1152	Braconidae,Formicidae	BGLIB674-24_r_1.5_s_50	Bracon flavipes	0	BGLIB674-24	1.5	50
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	333	765	Braconidae,Noctuidae,Geometridae	BGLIB674-24_r_1.5_s_100	Bracon flavipes	0	BGLIB674-24	1.5	100
+38	73	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	633	1386	Braconidae,Nevrorthidae	BGLIB675-24_r_1_s_50	Bracon immutator	0	BGLIB675-24	1	50
+25	42	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	531	1278	Tettigoniidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Ulidiidae,Vespidae,Tetracampidae	BGLIB675-24_r_1_s_100	Bracon immutator	0	BGLIB675-24	1	100
+38	47	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	627	1260	Syrphidae,Tephritidae,Braconidae	BGLIB675-24_r_1.3_s_50	Bracon immutator	0	BGLIB675-24	1.3	50
+29	30	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	495	945	Tettigoniidae,Syrphidae,Ulidiidae,Braconidae,Vespidae	BGLIB675-24_r_1.3_s_100	Bracon immutator	4	BGLIB675-24	1.3	100
+9	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	355	927	Miridae,Braconidae,Lycaenidae,Geometridae	BGLIB675-24_r_1.5_s_50	Bracon immutator	0	BGLIB675-24	1.5	50
+9	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	229	660	Miridae,Braconidae,Noctuidae,Lycaenidae,Geometridae	BGLIB675-24_r_1.5_s_100	Bracon immutator	3	BGLIB675-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB676-24_r_1_s_50	Bracon laetus	0	BGLIB676-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1524	Braconidae	BGLIB676-24_r_1_s_100	Bracon laetus	0	BGLIB676-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB676-24_r_1.3_s_50	Bracon laetus	0	BGLIB676-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1524	Braconidae	BGLIB676-24_r_1.3_s_100	Bracon laetus	0	BGLIB676-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	601	1458	Braconidae	BGLIB676-24_r_1.5_s_50	Bracon laetus	0	BGLIB676-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	601	1392	Braconidae	BGLIB676-24_r_1.5_s_100	Bracon laetus	0	BGLIB676-24	1.5	100
+13	52	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB677-24_r_1_s_50	Bracon longicollis	0	BGLIB677-24	1	50
+11	46	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1509	Braconidae	BGLIB677-24_r_1_s_100	Bracon longicollis	0	BGLIB677-24	1	100
+0	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB677-24_r_1.3_s_50	Bracon longicollis	0	BGLIB677-24	1.3	50
+4	8	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	649	1503	Braconidae	BGLIB677-24_r_1.3_s_100	Bracon longicollis	0	BGLIB677-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	577	1407	Braconidae	BGLIB677-24_r_1.5_s_50	Bracon longicollis	0	BGLIB677-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	529	1326	Braconidae	BGLIB677-24_r_1.5_s_100	Bracon longicollis	0	BGLIB677-24	1.5	100
+0	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	637	1527	Braconidae	BGLIB678-24_r_1_s_50	Bracon luteator	0	BGLIB678-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB678-24_r_1_s_100	Bracon luteator	0	BGLIB678-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1482	Braconidae	BGLIB678-24_r_1.3_s_50	Bracon luteator	0	BGLIB678-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1446	Braconidae	BGLIB678-24_r_1.3_s_100	Bracon luteator	0	BGLIB678-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	623	1347	Braconidae	BGLIB678-24_r_1.5_s_50	Bracon luteator	0	BGLIB678-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	623	1347	Braconidae	BGLIB678-24_r_1.5_s_100	Bracon luteator	0	BGLIB678-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB679-24_r_1_s_50	Bracon minutator	0	BGLIB679-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB679-24_r_1_s_100	Bracon minutator	0	BGLIB679-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1440	Braconidae	BGLIB679-24_r_1.3_s_50	Bracon minutator	0	BGLIB679-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1440	Braconidae	BGLIB679-24_r_1.3_s_100	Bracon minutator	0	BGLIB679-24	1.3	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	629	1392	Braconidae	BGLIB679-24_r_1.5_s_50	Bracon minutator	0	BGLIB679-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	629	1392	Braconidae	BGLIB679-24_r_1.5_s_100	Bracon minutator	0	BGLIB679-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB680-24_r_1_s_50	Bracon nigricollis	0	BGLIB680-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB680-24_r_1_s_100	Bracon nigricollis	0	BGLIB680-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB680-24_r_1.3_s_50	Bracon nigricollis	0	BGLIB680-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB680-24_r_1.3_s_100	Bracon nigricollis	0	BGLIB680-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	613	1467	Braconidae	BGLIB680-24_r_1.5_s_50	Bracon nigricollis	0	BGLIB680-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	580	1401	Braconidae	BGLIB680-24_r_1.5_s_100	Bracon nigricollis	0	BGLIB680-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB681-24_r_1_s_50	Bracon praecox	0	BGLIB681-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB681-24_r_1_s_100	Bracon praecox	0	BGLIB681-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB681-24_r_1.3_s_50	Bracon praecox	0	BGLIB681-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB681-24_r_1.3_s_100	Bracon praecox	0	BGLIB681-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1494	Braconidae	BGLIB681-24_r_1.5_s_50	Bracon praecox	0	BGLIB681-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1458	Braconidae	BGLIB681-24_r_1.5_s_100	Bracon praecox	0	BGLIB681-24	1.5	100
+2	21	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB682-24_r_1_s_50	Bracon pulcher	0	BGLIB682-24	1	50
+8	16	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1476	Braconidae	BGLIB682-24_r_1_s_100	Bracon pulcher	0	BGLIB682-24	1	100
+0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB682-24_r_1.3_s_50	Bracon pulcher	0	BGLIB682-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1476	Braconidae	BGLIB682-24_r_1.3_s_100	Bracon pulcher	0	BGLIB682-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	525	1347	Braconidae	BGLIB682-24_r_1.5_s_50	Bracon pulcher	0	BGLIB682-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	498	1269	Braconidae	BGLIB682-24_r_1.5_s_100	Bracon pulcher	0	BGLIB682-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB683-24_r_1_s_50	Bracon speerschneideri	0	BGLIB683-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB683-24_r_1_s_100	Bracon speerschneideri	0	BGLIB683-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB683-24_r_1.3_s_50	Bracon speerschneideri	0	BGLIB683-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB683-24_r_1.3_s_100	Bracon speerschneideri	0	BGLIB683-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1476	Braconidae	BGLIB683-24_r_1.5_s_50	Bracon speerschneideri	0	BGLIB683-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1473	Braconidae	BGLIB683-24_r_1.5_s_100	Bracon speerschneideri	0	BGLIB683-24	1.5	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB684-24_r_1_s_50	Bracon stabilis	0	BGLIB684-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1500	Braconidae	BGLIB684-24_r_1_s_100	Bracon stabilis	0	BGLIB684-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB684-24_r_1.3_s_50	Bracon stabilis	0	BGLIB684-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1491	Braconidae	BGLIB684-24_r_1.3_s_100	Bracon stabilis	0	BGLIB684-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1503	Braconidae	BGLIB684-24_r_1.5_s_50	Bracon stabilis	0	BGLIB684-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1440	Braconidae	BGLIB684-24_r_1.5_s_100	Bracon stabilis	0	BGLIB684-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB685-24_r_1_s_50	Bracon subrugosus	0	BGLIB685-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB685-24_r_1_s_100	Bracon subrugosus	0	BGLIB685-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1452	Braconidae	BGLIB685-24_r_1.3_s_50	Bracon subrugosus	0	BGLIB685-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1452	Braconidae	BGLIB685-24_r_1.3_s_100	Bracon subrugosus	0	BGLIB685-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	638	1398	Braconidae	BGLIB685-24_r_1.5_s_50	Bracon subrugosus	0	BGLIB685-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	638	1398	Braconidae	BGLIB685-24_r_1.5_s_100	Bracon subrugosus	0	BGLIB685-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB686-24_r_1_s_50	Bracon subsinuatus	0	BGLIB686-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB686-24_r_1_s_100	Bracon subsinuatus	0	BGLIB686-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1524	Braconidae	BGLIB686-24_r_1.3_s_50	Bracon subsinuatus	0	BGLIB686-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1524	Braconidae	BGLIB686-24_r_1.3_s_100	Bracon subsinuatus	0	BGLIB686-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	652	1473	Braconidae	BGLIB686-24_r_1.5_s_50	Bracon subsinuatus	0	BGLIB686-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	634	1455	Braconidae	BGLIB686-24_r_1.5_s_100	Bracon subsinuatus	0	BGLIB686-24	1.5	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB687-24_r_1_s_50	Bracon terebella	0	BGLIB687-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1512	Braconidae	BGLIB687-24_r_1_s_100	Bracon terebella	0	BGLIB687-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB687-24_r_1.3_s_50	Bracon terebella	0	BGLIB687-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1494	Braconidae	BGLIB687-24_r_1.3_s_100	Bracon terebella	0	BGLIB687-24	1.3	100
+0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	646	1485	Braconidae,Vespidae,Melittidae,Trichogrammatidae	BGLIB687-24_r_1.5_s_50	Bracon terebella	0	BGLIB687-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	643	1434	Braconidae	BGLIB687-24_r_1.5_s_100	Bracon terebella	0	BGLIB687-24	1.5	100
+8	24	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	461	1125	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	BGLIB688-24_r_1_s_50	Bracon urinator	0	BGLIB688-24	1	50
+6	15	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	392	966	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	BGLIB688-24_r_1_s_100	Bracon urinator	0	BGLIB688-24	1	100
+3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	234	612	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	BGLIB688-24_r_1.3_s_50	Bracon urinator	0	BGLIB688-24	1.3	50
+3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	202	462	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	BGLIB688-24_r_1.3_s_100	Bracon urinator	0	BGLIB688-24	1.3	100
+3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	129	210	Blaberidae,Rhaphidophoridae,Reduviidae,Alydidae,Cercopidae,Lampyridae,Cerambycidae,Cecidomyiidae,Bethylidae	BGLIB688-24_r_1.5_s_50	Bracon urinator	0	BGLIB688-24	1.5	50
+3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	121	147	Blaberidae,Rhaphidophoridae,Reduviidae,Alydidae,Cercopidae,Lampyridae,Cerambycidae,Cecidomyiidae,Bethylidae	BGLIB688-24_r_1.5_s_100	Bracon urinator	0	BGLIB688-24	1.5	100
+27	53	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	650	1467	Tettigoniidae,Braconidae,Vespidae	BGLIB689-24_r_1_s_50	Bracon variator	0	BGLIB689-24	1	50
+14	22	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	530	1263	Tettigoniidae,Perlidae,Ninidae,Ulidiidae,Vespidae	BGLIB689-24_r_1_s_100	Bracon variator	0	BGLIB689-24	1	100
+14	31	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	585	1335	Cecidomyiidae,Braconidae	BGLIB689-24_r_1.3_s_50	Bracon variator	0	BGLIB689-24	1.3	50
+14	17	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	417	1029	Culicidae,Sarcophagidae,Tachinidae,Nymphalidae,Crambidae	BGLIB689-24_r_1.3_s_100	Bracon variator	0	BGLIB689-24	1.3	100
+9	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	426	1062	Tachinidae,Nymphalidae,Crambidae	BGLIB689-24_r_1.5_s_50	Bracon variator	1	BGLIB689-24	1.5	50
+11	11	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	372	885	Cecidomyiidae,Sarcophagidae,Halictidae,Nymphalidae,Crambidae	BGLIB689-24_r_1.5_s_100	Bracon variator	0	BGLIB689-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Braconidae	BGLIB690-24_r_1_s_50	Chelonus annulatus	0	BGLIB690-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Braconidae	BGLIB690-24_r_1_s_100	Chelonus annulatus	0	BGLIB690-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB690-24_r_1.3_s_50	Chelonus annulatus	0	BGLIB690-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB690-24_r_1.3_s_100	Chelonus annulatus	0	BGLIB690-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB690-24_r_1.5_s_50	Chelonus annulatus	0	BGLIB690-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1515	Braconidae	BGLIB690-24_r_1.5_s_100	Chelonus annulatus	0	BGLIB690-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB691-24_r_1_s_50	Chelonus bonellii	0	BGLIB691-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB691-24_r_1_s_100	Chelonus bonellii	0	BGLIB691-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB691-24_r_1.3_s_50	Chelonus bonellii	0	BGLIB691-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB691-24_r_1.3_s_100	Chelonus bonellii	0	BGLIB691-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB691-24_r_1.5_s_50	Chelonus bonellii	0	BGLIB691-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB691-24_r_1.5_s_100	Chelonus bonellii	0	BGLIB691-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB692-24_r_1_s_50	Chelonus carbonator	0	BGLIB692-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB692-24_r_1_s_100	Chelonus carbonator	0	BGLIB692-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB692-24_r_1.3_s_50	Chelonus carbonator	0	BGLIB692-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB692-24_r_1.3_s_100	Chelonus carbonator	0	BGLIB692-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB692-24_r_1.5_s_50	Chelonus carbonator	0	BGLIB692-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB692-24_r_1.5_s_100	Chelonus carbonator	0	BGLIB692-24	1.5	100
+0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB693-24_r_1_s_50	Chelonus catulus	0	BGLIB693-24	1	50
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB693-24_r_1_s_100	Chelonus catulus	0	BGLIB693-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB693-24_r_1.3_s_50	Chelonus catulus	0	BGLIB693-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB693-24_r_1.3_s_100	Chelonus catulus	0	BGLIB693-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB693-24_r_1.5_s_50	Chelonus catulus	0	BGLIB693-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB693-24_r_1.5_s_100	Chelonus catulus	0	BGLIB693-24	1.5	100
+13	27	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Vespidae,Hystrichopsyllidae,Noctuidae,Lycaenidae	BGLIB694-24_r_1_s_50	Chelonus contractus	0	BGLIB694-24	1	50
+1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1530	Nolidae,Lycaenidae,Nymphalidae	BGLIB694-24_r_1_s_100	Chelonus contractus	0	BGLIB694-24	1	100
+2	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	629	1479	Cicadidae,Vespidae,Melittidae,Nolidae,Lycaenidae,Nymphalidae	BGLIB694-24_r_1.3_s_50	Chelonus contractus	0	BGLIB694-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	538	1383	Cicadidae,Vespidae,Hystrichopsyllidae,Lycaenidae,Nymphalidae	BGLIB694-24_r_1.3_s_100	Chelonus contractus	11	BGLIB694-24	1.3	100
+1	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	487	1302	Braconidae,Limacodidae,Lycaenidae	BGLIB694-24_r_1.5_s_50	Chelonus contractus	0	BGLIB694-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	398	1098	Chironomidae,Braconidae,Hepialidae	BGLIB694-24_r_1.5_s_100	Chelonus contractus	0	BGLIB694-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Braconidae	BGLIB695-24_r_1_s_50	Chelonus corvulus	0	BGLIB695-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Braconidae	BGLIB695-24_r_1_s_100	Chelonus corvulus	0	BGLIB695-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1533	Braconidae	BGLIB695-24_r_1.3_s_50	Chelonus corvulus	0	BGLIB695-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB695-24_r_1.3_s_100	Chelonus corvulus	0	BGLIB695-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB695-24_r_1.5_s_50	Chelonus corvulus	0	BGLIB695-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1515	Braconidae	BGLIB695-24_r_1.5_s_100	Chelonus corvulus	0	BGLIB695-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB696-24_r_1_s_50	Chelonus humilis	0	BGLIB696-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB696-24_r_1_s_100	Chelonus humilis	0	BGLIB696-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB696-24_r_1.3_s_50	Chelonus humilis	0	BGLIB696-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB696-24_r_1.3_s_100	Chelonus humilis	0	BGLIB696-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB696-24_r_1.5_s_50	Chelonus humilis	0	BGLIB696-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1536	Braconidae	BGLIB696-24_r_1.5_s_100	Chelonus humilis	0	BGLIB696-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB697-24_r_1_s_50	Chelonus microphtalmus	0	BGLIB697-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB697-24_r_1_s_100	Chelonus microphtalmus	0	BGLIB697-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB697-24_r_1.3_s_50	Chelonus microphtalmus	0	BGLIB697-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB697-24_r_1.3_s_100	Chelonus microphtalmus	0	BGLIB697-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB697-24_r_1.5_s_50	Chelonus microphtalmus	0	BGLIB697-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1491	Braconidae	BGLIB697-24_r_1.5_s_100	Chelonus microphtalmus	0	BGLIB697-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Braconidae	BGLIB698-24_r_1_s_50	Chelonus obscuratus	0	BGLIB698-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Braconidae	BGLIB698-24_r_1_s_100	Chelonus obscuratus	0	BGLIB698-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1536	Braconidae	BGLIB698-24_r_1.3_s_50	Chelonus obscuratus	0	BGLIB698-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB698-24_r_1.3_s_100	Chelonus obscuratus	0	BGLIB698-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB698-24_r_1.5_s_50	Chelonus obscuratus	0	BGLIB698-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB698-24_r_1.5_s_100	Chelonus obscuratus	0	BGLIB698-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB699-24_r_1_s_50	Chelonus oculator	0	BGLIB699-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB699-24_r_1_s_100	Chelonus oculator	0	BGLIB699-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB699-24_r_1.3_s_50	Chelonus oculator	0	BGLIB699-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB699-24_r_1.3_s_100	Chelonus oculator	0	BGLIB699-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB699-24_r_1.5_s_50	Chelonus oculator	0	BGLIB699-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB699-24_r_1.5_s_100	Chelonus oculator	0	BGLIB699-24	1.5	100
+0	8	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Braconidae	BGLIB700-24_r_1_s_50	Chelonus retusus	0	BGLIB700-24	1	50
+0	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB700-24_r_1_s_100	Chelonus retusus	0	BGLIB700-24	1	100
+0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1518	Braconidae	BGLIB700-24_r_1.3_s_50	Chelonus retusus	0	BGLIB700-24	1.3	50
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB700-24_r_1.3_s_100	Chelonus retusus	0	BGLIB700-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	609	1470	Braconidae	BGLIB700-24_r_1.5_s_50	Chelonus retusus	0	BGLIB700-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	591	1449	Braconidae	BGLIB700-24_r_1.5_s_100	Chelonus retusus	0	BGLIB700-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Braconidae	BGLIB701-24_r_1_s_50	Chelonus scabrator	0	BGLIB701-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Braconidae	BGLIB701-24_r_1_s_100	Chelonus scabrator	0	BGLIB701-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Braconidae	BGLIB701-24_r_1.3_s_50	Chelonus scabrator	0	BGLIB701-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Braconidae	BGLIB701-24_r_1.3_s_100	Chelonus scabrator	0	BGLIB701-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB701-24_r_1.5_s_50	Chelonus scabrator	0	BGLIB701-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB701-24_r_1.5_s_100	Chelonus scabrator	0	BGLIB701-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB702-24_r_1_s_50	Chelonus submuticus	0	BGLIB702-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB702-24_r_1_s_100	Chelonus submuticus	0	BGLIB702-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB702-24_r_1.3_s_50	Chelonus submuticus	0	BGLIB702-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB702-24_r_1.3_s_100	Chelonus submuticus	0	BGLIB702-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB702-24_r_1.5_s_50	Chelonus submuticus	0	BGLIB702-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB702-24_r_1.5_s_100	Chelonus submuticus	0	BGLIB702-24	1.5	100
+22	24	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1512	Braconidae	BGLIB703-24_r_1_s_50	Blacus instabilis	0	BGLIB703-24	1	50
+27	29	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1464	Braconidae	BGLIB703-24_r_1_s_100	Blacus instabilis	0	BGLIB703-24	1	100
+13	13	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	635	1371	Braconidae	BGLIB703-24_r_1.3_s_50	Blacus instabilis	0	BGLIB703-24	1.3	50
+7	7	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	599	1308	Braconidae	BGLIB703-24_r_1.3_s_100	Blacus instabilis	0	BGLIB703-24	1.3	100
+1	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	472	1170	Braconidae	BGLIB703-24_r_1.5_s_50	Blacus instabilis	0	BGLIB703-24	1.5	50
+5	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	527	1014	Braconidae	BGLIB703-24_r_1.5_s_100	Blacus instabilis	2	BGLIB703-24	1.5	100
+0	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	426	1080	Staphylinidae,Mycetophilidae,Dixidae,Mydidae,Tachinidae,Pompilidae,Hepialidae	BGLIB704-24_r_1_s_50	Blacus pallipes	0	BGLIB704-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	386	828	Staphylinidae,Mycetophilidae,Dixidae,Mydidae,Tachinidae,Pompilidae,Hepialidae	BGLIB704-24_r_1_s_100	Blacus pallipes	0	BGLIB704-24	1	100
+15	20	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	144	453		BGLIB704-24_r_1.3_s_50	Blacus pallipes	0	BGLIB704-24	1.3	50
+13	15	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	118	225		BGLIB704-24_r_1.3_s_100	Blacus pallipes	0	BGLIB704-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	33	102		BGLIB704-24_r_1.5_s_50	Blacus pallipes	0	BGLIB704-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	33	66		BGLIB704-24_r_1.5_s_100	Blacus pallipes	0	BGLIB704-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB705-24_r_1_s_50	Blacus exilis	0	BGLIB705-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB705-24_r_1_s_100	Blacus exilis	0	BGLIB705-24	1	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	630	1422	Braconidae	BGLIB705-24_r_1.3_s_50	Blacus exilis	0	BGLIB705-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	630	1422	Braconidae	BGLIB705-24_r_1.3_s_100	Blacus exilis	0	BGLIB705-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	472	1167	Braconidae	BGLIB705-24_r_1.5_s_50	Blacus exilis	0	BGLIB705-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	574	1032	Braconidae	BGLIB705-24_r_1.5_s_100	Blacus exilis	2	BGLIB705-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1491	Braconidae	BGLIB706-24_r_1_s_50	Atanycolus initiator	0	BGLIB706-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1491	Braconidae	BGLIB706-24_r_1_s_100	Atanycolus initiator	0	BGLIB706-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1431	Braconidae	BGLIB706-24_r_1.3_s_50	Atanycolus initiator	0	BGLIB706-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1419	Braconidae	BGLIB706-24_r_1.3_s_100	Atanycolus initiator	0	BGLIB706-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	648	1383	Braconidae	BGLIB706-24_r_1.5_s_50	Atanycolus initiator	0	BGLIB706-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	648	1383	Braconidae	BGLIB706-24_r_1.5_s_100	Atanycolus initiator	0	BGLIB706-24	1.5	100
+38	70	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1419	Braconidae,Eulophidae	BGLIB707-24_r_1_s_50	Atanycolus neesii	0	BGLIB707-24	1	50
+47	81	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1347	Braconidae	BGLIB707-24_r_1_s_100	Atanycolus neesii	0	BGLIB707-24	1	100
+12	12	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1347	Braconidae	BGLIB707-24_r_1.3_s_50	Atanycolus neesii	0	BGLIB707-24	1.3	50
+19	20	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1317	Braconidae	BGLIB707-24_r_1.3_s_100	Atanycolus neesii	0	BGLIB707-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	552	1242	Braconidae	BGLIB707-24_r_1.5_s_50	Atanycolus neesii	0	BGLIB707-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	437	1035	Braconidae	BGLIB707-24_r_1.5_s_100	Atanycolus neesii	3	BGLIB707-24	1.5	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB708-24_r_1_s_50	Atanycolus sculpturatus	0	BGLIB708-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1497	Braconidae	BGLIB708-24_r_1_s_100	Atanycolus sculpturatus	0	BGLIB708-24	1	100
+0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1500	Braconidae	BGLIB708-24_r_1.3_s_50	Atanycolus sculpturatus	0	BGLIB708-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1440	Braconidae	BGLIB708-24_r_1.3_s_100	Atanycolus sculpturatus	0	BGLIB708-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1461	Braconidae	BGLIB708-24_r_1.5_s_50	Atanycolus sculpturatus	0	BGLIB708-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1410	Braconidae	BGLIB708-24_r_1.5_s_100	Atanycolus sculpturatus	0	BGLIB708-24	1.5	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1557	Braconidae	BGLIB709-24_r_1_s_50	Baryproctus barypus	0	BGLIB709-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1455	Braconidae	BGLIB709-24_r_1_s_100	Baryproctus barypus	0	BGLIB709-24	1	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	648	1524	Braconidae	BGLIB709-24_r_1.3_s_50	Baryproctus barypus	0	BGLIB709-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	648	1404	Braconidae	BGLIB709-24_r_1.3_s_100	Baryproctus barypus	0	BGLIB709-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	552	1350	Braconidae	BGLIB709-24_r_1.5_s_50	Baryproctus barypus	0	BGLIB709-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	417	1137	Braconidae	BGLIB709-24_r_1.5_s_100	Baryproctus barypus	0	BGLIB709-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB710-24_r_1_s_50	Doryctes undulatus	0	BGLIB710-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1524	Braconidae	BGLIB710-24_r_1_s_100	Doryctes undulatus	0	BGLIB710-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	642	1458	Braconidae	BGLIB710-24_r_1.3_s_50	Doryctes undulatus	0	BGLIB710-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	642	1416	Braconidae	BGLIB710-24_r_1.3_s_100	Doryctes undulatus	0	BGLIB710-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	579	1329	Braconidae	BGLIB710-24_r_1.5_s_50	Doryctes undulatus	0	BGLIB710-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	579	1296	Braconidae	BGLIB710-24_r_1.5_s_100	Doryctes undulatus	0	BGLIB710-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	652	1524	Braconidae	BGLIB711-24_r_1_s_50	Hecabolus sulcatus	0	BGLIB711-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	652	1521	Braconidae	BGLIB711-24_r_1_s_100	Hecabolus sulcatus	0	BGLIB711-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	634	1485	Braconidae	BGLIB711-24_r_1.3_s_50	Hecabolus sulcatus	0	BGLIB711-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	634	1425	Braconidae	BGLIB711-24_r_1.3_s_100	Hecabolus sulcatus	0	BGLIB711-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	532	1278	Braconidae	BGLIB711-24_r_1.5_s_50	Hecabolus sulcatus	0	BGLIB711-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	493	1239	Braconidae	BGLIB711-24_r_1.5_s_100	Hecabolus sulcatus	0	BGLIB711-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1545	Braconidae	BGLIB712-24_r_1_s_50	Rhoptocentrus piceus	0	BGLIB712-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1500	Braconidae	BGLIB712-24_r_1_s_100	Rhoptocentrus piceus	0	BGLIB712-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	640	1506	Braconidae	BGLIB712-24_r_1.3_s_50	Rhoptocentrus piceus	0	BGLIB712-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	610	1377	Braconidae	BGLIB712-24_r_1.3_s_100	Rhoptocentrus piceus	0	BGLIB712-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	523	1263	Braconidae	BGLIB712-24_r_1.5_s_50	Rhoptocentrus piceus	0	BGLIB712-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	544	1095	Braconidae	BGLIB712-24_r_1.5_s_100	Rhoptocentrus piceus	1	BGLIB712-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB713-24_r_1_s_50	Spathius pedestris	0	BGLIB713-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB713-24_r_1_s_100	Spathius pedestris	0	BGLIB713-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB713-24_r_1.3_s_50	Spathius pedestris	0	BGLIB713-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB713-24_r_1.3_s_100	Spathius pedestris	0	BGLIB713-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	649	1527	Braconidae	BGLIB713-24_r_1.5_s_50	Spathius pedestris	0	BGLIB713-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	649	1527	Braconidae	BGLIB713-24_r_1.5_s_100	Spathius pedestris	0	BGLIB713-24	1.5	100
+12	19	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB714-24_r_1_s_50	Ascogaster klugii	0	BGLIB714-24	1	50
+18	18	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1491	Braconidae	BGLIB714-24_r_1_s_100	Ascogaster klugii	0	BGLIB714-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	635	1452	Braconidae	BGLIB714-24_r_1.3_s_50	Ascogaster klugii	1	BGLIB714-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	629	1365	Braconidae	BGLIB714-24_r_1.3_s_100	Ascogaster klugii	0	BGLIB714-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	482	1221	Braconidae	BGLIB714-24_r_1.5_s_50	Ascogaster klugii	0	BGLIB714-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	467	1158	Braconidae	BGLIB714-24_r_1.5_s_100	Ascogaster klugii	0	BGLIB714-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB715-24_r_1_s_50	Ascogaster rufipes	0	BGLIB715-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB715-24_r_1_s_100	Ascogaster rufipes	0	BGLIB715-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB715-24_r_1.3_s_50	Ascogaster rufipes	0	BGLIB715-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1392	Braconidae	BGLIB715-24_r_1.3_s_100	Ascogaster rufipes	0	BGLIB715-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	645	1419	Braconidae	BGLIB715-24_r_1.5_s_50	Ascogaster rufipes	0	BGLIB715-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	618	1344	Braconidae	BGLIB715-24_r_1.5_s_100	Ascogaster rufipes	0	BGLIB715-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1497	Braconidae	BGLIB716-24_r_1_s_50	Phaenocarpa planifrons	0	BGLIB716-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1464	Braconidae	BGLIB716-24_r_1_s_100	Phaenocarpa planifrons	0	BGLIB716-24	1	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1440	Braconidae	BGLIB716-24_r_1.3_s_50	Phaenocarpa planifrons	0	BGLIB716-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	636	1353	Braconidae	BGLIB716-24_r_1.3_s_100	Phaenocarpa planifrons	0	BGLIB716-24	1.3	100
+0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	585	1356	Braconidae	BGLIB716-24_r_1.5_s_50	Phaenocarpa planifrons	0	BGLIB716-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	501	1209	Braconidae	BGLIB716-24_r_1.5_s_100	Phaenocarpa planifrons	0	BGLIB716-24	1.5	100
+29	59	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1494	Braconidae,Figitidae,Cynipidae,Diapriidae	BGLIB717-24_r_1_s_50	Coeloides abdominalis	0	BGLIB717-24	1	50
+30	53	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1485	Culicidae,Braconidae,Figitidae,Diapriidae	BGLIB717-24_r_1_s_100	Coeloides abdominalis	0	BGLIB717-24	1	100
+15	17	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1434	Braconidae	BGLIB717-24_r_1.3_s_50	Coeloides abdominalis	0	BGLIB717-24	1.3	50
+16	19	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1416	Braconidae,Ibaliidae	BGLIB717-24_r_1.3_s_100	Coeloides abdominalis	0	BGLIB717-24	1.3	100
+5	7	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	643	1404	Braconidae	BGLIB717-24_r_1.5_s_50	Coeloides abdominalis	0	BGLIB717-24	1.5	50
+5	9	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	517	1242	Braconidae	BGLIB717-24_r_1.5_s_100	Coeloides abdominalis	0	BGLIB717-24	1.5	100
+43	117	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae,Aulacidae,Pamphiliidae,Lycaenidae,Nymphalidae,Pterophoridae	BGLIB718-24_r_1_s_50	Coeloides scolyticida	0	BGLIB718-24	1	50
+38	73	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	647	1416	Braconidae	BGLIB718-24_r_1_s_100	Coeloides scolyticida	0	BGLIB718-24	1	100
+10	21	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1500	Braconidae	BGLIB718-24_r_1.3_s_50	Coeloides scolyticida	0	BGLIB718-24	1.3	50
+15	22	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	596	1362	Braconidae	BGLIB718-24_r_1.3_s_100	Coeloides scolyticida	0	BGLIB718-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	462	1209	Braconidae	BGLIB718-24_r_1.5_s_50	Coeloides scolyticida	2	BGLIB718-24	1.5	50
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	292	939	Braconidae	BGLIB718-24_r_1.5_s_100	Coeloides scolyticida	2	BGLIB718-24	1.5	100
+0	9	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB719-24_r_1_s_50	Iphiaulax impostor	0	BGLIB719-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1503	Braconidae	BGLIB719-24_r_1_s_100	Iphiaulax impostor	0	BGLIB719-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1476	Braconidae	BGLIB719-24_r_1.3_s_50	Iphiaulax impostor	0	BGLIB719-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1446	Braconidae	BGLIB719-24_r_1.3_s_100	Iphiaulax impostor	0	BGLIB719-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1431	Braconidae	BGLIB719-24_r_1.5_s_50	Iphiaulax impostor	0	BGLIB719-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	651	1398	Braconidae	BGLIB719-24_r_1.5_s_100	Iphiaulax impostor	0	BGLIB719-24	1.5	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1512	Braconidae	BGLIB720-24_r_1_s_50	Pseudovipio gracilis	0	BGLIB720-24	1	50
+0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	634	1407	Braconidae	BGLIB720-24_r_1_s_100	Pseudovipio gracilis	0	BGLIB720-24	1	100
+0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	637	1437	Braconidae	BGLIB720-24_r_1.3_s_50	Pseudovipio gracilis	0	BGLIB720-24	1.3	50
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	625	1332	Braconidae	BGLIB720-24_r_1.3_s_100	Pseudovipio gracilis	0	BGLIB720-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	577	1290	Braconidae	BGLIB720-24_r_1.5_s_50	Pseudovipio gracilis	0	BGLIB720-24	1.5	50
+1	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	532	1203	Braconidae	BGLIB720-24_r_1.5_s_100	Pseudovipio gracilis	0	BGLIB720-24	1.5	100
+34	54	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1500	Braconidae	BGLIB721-24_r_1_s_50	Vipio intermedius	0	BGLIB721-24	1	50
+52	76	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	634	1398	Syrphidae,Braconidae,Pteromalidae,Encyrtidae	BGLIB721-24_r_1_s_100	Vipio intermedius	0	BGLIB721-24	1	100
+3	6	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1494	Braconidae	BGLIB721-24_r_1.3_s_50	Vipio intermedius	0	BGLIB721-24	1.3	50
+5	9	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	631	1356	Braconidae	BGLIB721-24_r_1.3_s_100	Vipio intermedius	0	BGLIB721-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	526	1248	Braconidae	BGLIB721-24_r_1.5_s_50	Vipio intermedius	0	BGLIB721-24	1.5	50
+3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	446	1077	Braconidae	BGLIB721-24_r_1.5_s_100	Vipio intermedius	0	BGLIB721-24	1.5	100
+13	29	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	413	1272	Acrididae,Reduviidae,Dermestidae,Tortricidae	BGLIB722-24_r_1_s_50	Vipio sareptanus	0	BGLIB722-24	1	50
+0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	276	1038	Curculionidae,Dermestidae,Bostrichidae,Psychodidae,Vespidae,Tetracampidae	BGLIB722-24_r_1_s_100	Vipio sareptanus	0	BGLIB722-24	1	100
+0	11	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	104	750	Termitidae,Reduviidae	BGLIB722-24_r_1.3_s_50	Vipio sareptanus	0	BGLIB722-24	1.3	50
+0	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	105	537	Termitidae,Reduviidae	BGLIB722-24_r_1.3_s_100	Vipio sareptanus	0	BGLIB722-24	1.3	100
+3	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	60	465	Termitidae,Acrididae,Reduviidae,Tortricidae	BGLIB722-24_r_1.5_s_50	Vipio sareptanus	0	BGLIB722-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	47	363	Termitidae,Acrididae,Reduviidae,Elateridae,Tortricidae	BGLIB722-24_r_1.5_s_100	Vipio sareptanus	0	BGLIB722-24	1.5	100
+43	85	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	616	1413	Braconidae	BGLIB723-24_r_1_s_50	Vipio terrefactor	0	BGLIB723-24	1	50
+26	38	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	547	1161	Dytiscidae,Stratiomyidae,Braconidae,Riodinidae	BGLIB723-24_r_1_s_100	Vipio terrefactor	0	BGLIB723-24	1	100
+16	24	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	597	1350	Braconidae	BGLIB723-24_r_1.3_s_50	Vipio terrefactor	0	BGLIB723-24	1.3	50
+24	25	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	478	858	Rhinotermitidae,Braconidae,Ichneumonidae	BGLIB723-24_r_1.3_s_100	Vipio terrefactor	0	BGLIB723-24	1.3	100
+6	13	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	435	1032	Drosophilidae,Braconidae,Nymphalidae	BGLIB723-24_r_1.5_s_50	Vipio terrefactor	0	BGLIB723-24	1.5	50
+1	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	377	756	Tettigoniidae,Miridae,Cydnidae,Chironomidae,Ulidiidae,Vespidae,Limnephilidae	BGLIB723-24_r_1.5_s_100	Vipio terrefactor	0	BGLIB723-24	1.5	100
+2	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1539	Braconidae	BGLIB724-24_r_1_s_50	Pauesia infulata	0	BGLIB724-24	1	50
+0	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB724-24_r_1_s_100	Pauesia infulata	0	BGLIB724-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1539	Braconidae	BGLIB724-24_r_1.3_s_50	Pauesia infulata	0	BGLIB724-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	636	1515	Braconidae	BGLIB724-24_r_1.3_s_100	Pauesia infulata	0	BGLIB724-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	597	1443	Braconidae	BGLIB724-24_r_1.5_s_50	Pauesia infulata	0	BGLIB724-24	1.5	50
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	489	1275	Braconidae	BGLIB724-24_r_1.5_s_100	Pauesia infulata	0	BGLIB724-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB725-24_r_1_s_50	Epimicta marginalis	0	BGLIB725-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB725-24_r_1_s_100	Epimicta marginalis	0	BGLIB725-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB725-24_r_1.3_s_50	Epimicta marginalis	0	BGLIB725-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB725-24_r_1.3_s_100	Epimicta marginalis	0	BGLIB725-24	1.3	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	601	1479	Braconidae	BGLIB725-24_r_1.5_s_50	Epimicta marginalis	0	BGLIB725-24	1.5	50
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	601	1479	Braconidae	BGLIB725-24_r_1.5_s_100	Epimicta marginalis	0	BGLIB725-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB726-24_r_1_s_50	Orthostigma pumilum	0	BGLIB726-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB726-24_r_1_s_100	Orthostigma pumilum	0	BGLIB726-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB726-24_r_1.3_s_50	Orthostigma pumilum	0	BGLIB726-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB726-24_r_1.3_s_100	Orthostigma pumilum	0	BGLIB726-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	649	1485	Braconidae	BGLIB726-24_r_1.5_s_50	Orthostigma pumilum	0	BGLIB726-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	628	1398	Braconidae	BGLIB726-24_r_1.5_s_100	Orthostigma pumilum	0	BGLIB726-24	1.5	100
+7	8	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1512	Braconidae	BGLIB727-24_r_1_s_50	Phaenocarpa ruficeps	0	BGLIB727-24	1	50
+2	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB727-24_r_1_s_100	Phaenocarpa ruficeps	0	BGLIB727-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1512	Braconidae	BGLIB727-24_r_1.3_s_50	Phaenocarpa ruficeps	0	BGLIB727-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB727-24_r_1.3_s_100	Phaenocarpa ruficeps	0	BGLIB727-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	636	1488	Braconidae	BGLIB727-24_r_1.5_s_50	Phaenocarpa ruficeps	0	BGLIB727-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	627	1479	Braconidae	BGLIB727-24_r_1.5_s_100	Phaenocarpa ruficeps	0	BGLIB727-24	1.5	100
+20	37	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	575	1332		BGLIB728-24_r_1_s_50	Trachionus hians	9	BGLIB728-24	1	50
+21	39	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	531	1170	Vespidae,Formicidae	BGLIB728-24_r_1_s_100	Trachionus hians	0	BGLIB728-24	1	100
+13	28	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	480	1230	Calliphoridae,Papilionidae,Lycaenidae,Geometridae	BGLIB728-24_r_1.3_s_50	Trachionus hians	0	BGLIB728-24	1.3	50
+3	9	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	434	1014	Vespidae,Formicidae,Torymidae	BGLIB728-24_r_1.3_s_100	Trachionus hians	0	BGLIB728-24	1.3	100
+4	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	454	816	Syrphidae,Vespidae,Papilionidae,Lycaenidae,Geometridae	BGLIB728-24_r_1.5_s_50	Trachionus hians	1	BGLIB728-24	1.5	50
+5	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	402	663	Cecidomyiidae,Braconidae,Vespidae,Apidae,Formicidae	BGLIB728-24_r_1.5_s_100	Trachionus hians	5	BGLIB728-24	1.5	100
+0	15	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB729-24_r_1_s_50	Agathis griseifrons	0	BGLIB729-24	1	50
+0	7	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1431	Braconidae	BGLIB729-24_r_1_s_100	Agathis griseifrons	0	BGLIB729-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	576	1341	Braconidae,Formicidae	BGLIB729-24_r_1.3_s_50	Agathis griseifrons	0	BGLIB729-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	576	1236	Braconidae	BGLIB729-24_r_1.3_s_100	Agathis griseifrons	0	BGLIB729-24	1.3	100
+0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	514	1170	Braconidae,Formicidae	BGLIB729-24_r_1.5_s_50	Agathis griseifrons	0	BGLIB729-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	390	996	Braconidae,Formicidae	BGLIB729-24_r_1.5_s_100	Agathis griseifrons	0	BGLIB729-24	1.5	100
+1	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1494	Braconidae	BGLIB730-24_r_1_s_50	Agathis malvacearum	0	BGLIB730-24	1	50
+1	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1470	Braconidae	BGLIB730-24_r_1_s_100	Agathis malvacearum	0	BGLIB730-24	1	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	567	1332	Braconidae	BGLIB730-24_r_1.3_s_50	Agathis malvacearum	0	BGLIB730-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	567	1278	Braconidae	BGLIB730-24_r_1.3_s_100	Agathis malvacearum	0	BGLIB730-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	475	1194	Braconidae	BGLIB730-24_r_1.5_s_50	Agathis malvacearum	0	BGLIB730-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	468	1092	Braconidae	BGLIB730-24_r_1.5_s_100	Agathis malvacearum	0	BGLIB730-24	1.5	100
+0	8	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1545	Braconidae	BGLIB731-24_r_1_s_50	Agathis nigra	0	BGLIB731-24	1	50
+1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1464	Braconidae	BGLIB731-24_r_1_s_100	Agathis nigra	0	BGLIB731-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	600	1401	Braconidae	BGLIB731-24_r_1.3_s_50	Agathis nigra	0	BGLIB731-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	600	1278	Braconidae,Micropterigidae,Zygaenidae,Nymphalidae	BGLIB731-24_r_1.3_s_100	Agathis nigra	0	BGLIB731-24	1.3	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	560	1293	Braconidae	BGLIB731-24_r_1.5_s_50	Agathis nigra	4	BGLIB731-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	458	1089	Braconidae,Formicidae	BGLIB731-24_r_1.5_s_100	Agathis nigra	0	BGLIB731-24	1.5	100
+3	6	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1539	Braconidae	BGLIB732-24_r_1_s_50	Agathis tibialis	0	BGLIB732-24	1	50
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1518	Braconidae	BGLIB732-24_r_1_s_100	Agathis tibialis	0	BGLIB732-24	1	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	573	1368	Braconidae	BGLIB732-24_r_1.3_s_50	Agathis tibialis	0	BGLIB732-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	546	1224	Braconidae,Formicidae	BGLIB732-24_r_1.3_s_100	Agathis tibialis	0	BGLIB732-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	513	1173	Braconidae,Formicidae	BGLIB732-24_r_1.5_s_50	Agathis tibialis	3	BGLIB732-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	498	1062	Braconidae,Formicidae	BGLIB732-24_r_1.5_s_100	Agathis tibialis	4	BGLIB732-24	1.5	100
+1	7	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1518	Braconidae	BGLIB733-24_r_1_s_50	Agathis umbellatarum	0	BGLIB733-24	1	50
+0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1494	Braconidae	BGLIB733-24_r_1_s_100	Agathis umbellatarum	0	BGLIB733-24	1	100
+0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	614	1389	Braconidae	BGLIB733-24_r_1.3_s_50	Agathis umbellatarum	0	BGLIB733-24	1.3	50
+1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	614	1338	Braconidae,Formicidae,Eulophidae,Aphelinidae	BGLIB733-24_r_1.3_s_100	Agathis umbellatarum	0	BGLIB733-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	510	1188	Braconidae	BGLIB733-24_r_1.5_s_50	Agathis umbellatarum	18	BGLIB733-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	480	1122	Braconidae	BGLIB733-24_r_1.5_s_100	Agathis umbellatarum	17	BGLIB733-24	1.5	100
+1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB734-24_r_1_s_50	Bassus calculator	0	BGLIB734-24	1	50
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB734-24_r_1_s_100	Bassus calculator	0	BGLIB734-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae,Eulophidae	BGLIB734-24_r_1.3_s_50	Bassus calculator	0	BGLIB734-24	1.3	50
+1	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB734-24_r_1.3_s_100	Bassus calculator	0	BGLIB734-24	1.3	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1524	Braconidae	BGLIB734-24_r_1.5_s_50	Bassus calculator	0	BGLIB734-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1503	Braconidae	BGLIB734-24_r_1.5_s_100	Bassus calculator	0	BGLIB734-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB735-24_r_1_s_50	Bassus cingulipes	0	BGLIB735-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB735-24_r_1_s_100	Bassus cingulipes	0	BGLIB735-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB735-24_r_1.3_s_50	Bassus cingulipes	0	BGLIB735-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB735-24_r_1.3_s_100	Bassus cingulipes	0	BGLIB735-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1488	Braconidae	BGLIB735-24_r_1.5_s_50	Bassus cingulipes	0	BGLIB735-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1410	Braconidae	BGLIB735-24_r_1.5_s_100	Bassus cingulipes	0	BGLIB735-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB736-24_r_1_s_50	Bassus clausthalianus	0	BGLIB736-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB736-24_r_1_s_100	Bassus clausthalianus	0	BGLIB736-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB736-24_r_1.3_s_50	Bassus clausthalianus	0	BGLIB736-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB736-24_r_1.3_s_100	Bassus clausthalianus	0	BGLIB736-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB736-24_r_1.5_s_50	Bassus clausthalianus	0	BGLIB736-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB736-24_r_1.5_s_100	Bassus clausthalianus	0	BGLIB736-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB737-24_r_1_s_50	Bassus conspicuus	0	BGLIB737-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB737-24_r_1_s_100	Bassus conspicuus	0	BGLIB737-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB737-24_r_1.3_s_50	Bassus conspicuus	0	BGLIB737-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB737-24_r_1.3_s_100	Bassus conspicuus	0	BGLIB737-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB737-24_r_1.5_s_50	Bassus conspicuus	0	BGLIB737-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1527	Braconidae	BGLIB737-24_r_1.5_s_100	Bassus conspicuus	0	BGLIB737-24	1.5	100
+11	32	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	515	1224	Cicadidae,Formicidae,Noctuidae,Nolidae,Erebidae,Nymphalidae	BGLIB738-24_r_1_s_50	Bassus linguarius	0	BGLIB738-24	1	50
+11	25	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	504	1053	Formicidae,Torymidae,Nolidae,Erebidae,Nymphalidae	BGLIB738-24_r_1_s_100	Bassus linguarius	0	BGLIB738-24	1	100
+15	16	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	154	858	Cicadidae,Scathophagidae,Noctuidae,Erebidae,Nymphalidae	BGLIB738-24_r_1.3_s_50	Bassus linguarius	0	BGLIB738-24	1.3	50
+19	19	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	197	516	Chrysomelidae,Curculionidae,Torymidae,Tortricidae,Noctuidae,Erebidae,Nymphalidae,Pyralidae,Pseudobistonidae	BGLIB738-24_r_1.3_s_100	Bassus linguarius	2	BGLIB738-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	128	423	Cicadidae,Coleophoridae,Tortricidae,Noctuidae,Erebidae,Nymphalidae,Pyralidae	BGLIB738-24_r_1.5_s_50	Bassus linguarius	0	BGLIB738-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	121	294	Formicidae,Torymidae,Coleophoridae,Noctuidae,Erebidae,Nymphalidae,Pyralidae,Pseudobistonidae	BGLIB738-24_r_1.5_s_100	Bassus linguarius	0	BGLIB738-24	1.5	100
+0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB739-24_r_1_s_50	Bassus mediator	0	BGLIB739-24	1	50
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB739-24_r_1_s_100	Bassus mediator	0	BGLIB739-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB739-24_r_1.3_s_50	Bassus mediator	0	BGLIB739-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1494	Braconidae	BGLIB739-24_r_1.3_s_100	Bassus mediator	0	BGLIB739-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	651	1527	Braconidae	BGLIB739-24_r_1.5_s_50	Bassus mediator	0	BGLIB739-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	651	1488	Braconidae	BGLIB739-24_r_1.5_s_100	Bassus mediator	0	BGLIB739-24	1.5	100
+0	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB740-24_r_1_s_50	Bassus nugax	0	BGLIB740-24	1	50
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB740-24_r_1_s_100	Bassus nugax	0	BGLIB740-24	1	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB740-24_r_1.3_s_50	Bassus nugax	0	BGLIB740-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1500	Braconidae	BGLIB740-24_r_1.3_s_100	Bassus nugax	0	BGLIB740-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB740-24_r_1.5_s_50	Bassus nugax	0	BGLIB740-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1494	Braconidae	BGLIB740-24_r_1.5_s_100	Bassus nugax	0	BGLIB740-24	1.5	100
+0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB741-24_r_1_s_50	Therophilus tumidulus	0	BGLIB741-24	1	50
+0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB741-24_r_1_s_100	Therophilus tumidulus	0	BGLIB741-24	1	100
+0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB741-24_r_1.3_s_50	Therophilus tumidulus	0	BGLIB741-24	1.3	50
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB741-24_r_1.3_s_100	Therophilus tumidulus	0	BGLIB741-24	1.3	100
+0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB741-24_r_1.5_s_50	Therophilus tumidulus	0	BGLIB741-24	1.5	50
+0	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB741-24_r_1.5_s_100	Therophilus tumidulus	0	BGLIB741-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB742-24_r_1_s_50	Cremnops desertor	0	BGLIB742-24	1	50
+1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB742-24_r_1_s_100	Cremnops desertor	0	BGLIB742-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1524	Braconidae	BGLIB742-24_r_1.3_s_50	Cremnops desertor	0	BGLIB742-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1452	Braconidae	BGLIB742-24_r_1.3_s_100	Cremnops desertor	0	BGLIB742-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	639	1398	Braconidae	BGLIB742-24_r_1.5_s_50	Cremnops desertor	0	BGLIB742-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	639	1398	Braconidae	BGLIB742-24_r_1.5_s_100	Cremnops desertor	0	BGLIB742-24	1.5	100
+22	31	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1530	Braconidae	BGLIB743-24_r_1_s_50	Troticus ovalis	0	BGLIB743-24	1	50
+29	40	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	469	1347	Braconidae,Vespidae,Formicidae,Lycaenidae	BGLIB743-24_r_1_s_100	Troticus ovalis	0	BGLIB743-24	1	100
+14	16	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	586	1323	Braconidae,Formicidae	BGLIB743-24_r_1.3_s_50	Troticus ovalis	0	BGLIB743-24	1.3	50
+17	29	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	400	1143	Braconidae,Formicidae,Lycaenidae,Riodinidae,Prodoxidae	BGLIB743-24_r_1.3_s_100	Troticus ovalis	0	BGLIB743-24	1.3	100
+5	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	467	1098	Braconidae,Formicidae,Lycaenidae	BGLIB743-24_r_1.5_s_50	Troticus ovalis	0	BGLIB743-24	1.5	50
+10	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	444	801	Braconidae,Formicidae,Lycaenidae,Riodinidae,Pyralidae,Prodoxidae	BGLIB743-24_r_1.5_s_100	Troticus ovalis	2	BGLIB743-24	1.5	100
+14	14	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1530	Braconidae	BGLIB744-24_r_1_s_50	Apanteles adjuntus	0	BGLIB744-24	1	50
+13	16	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1530	Braconidae	BGLIB744-24_r_1_s_100	Apanteles adjuntus	0	BGLIB744-24	1	100
+2	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1479	Braconidae	BGLIB744-24_r_1.3_s_50	Apanteles adjuntus	0	BGLIB744-24	1.3	50
+3	6	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1455	Braconidae	BGLIB744-24_r_1.3_s_100	Apanteles adjuntus	0	BGLIB744-24	1.3	100
+3	6	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	581	1299	Braconidae	BGLIB744-24_r_1.5_s_50	Apanteles adjuntus	0	BGLIB744-24	1.5	50
+3	6	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	578	1296	Braconidae	BGLIB744-24_r_1.5_s_100	Apanteles adjuntus	0	BGLIB744-24	1.5	100
+36	73	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1533	Braconidae	BGLIB745-24_r_1_s_50	Apanteles bicolor	0	BGLIB745-24	1	50
+12	34	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1530	Braconidae	BGLIB745-24_r_1_s_100	Apanteles bicolor	0	BGLIB745-24	1	100
+14	16	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	654	1527	Braconidae	BGLIB745-24_r_1.3_s_50	Apanteles bicolor	0	BGLIB745-24	1.3	50
+7	10	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB745-24_r_1.3_s_100	Apanteles bicolor	0	BGLIB745-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1479	Braconidae	BGLIB745-24_r_1.5_s_50	Apanteles bicolor	0	BGLIB745-24	1.5	50
+0	4	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	562	1368	Braconidae	BGLIB745-24_r_1.5_s_100	Apanteles bicolor	0	BGLIB745-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB746-24_r_1_s_50	Apanteles breviventris	0	BGLIB746-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB746-24_r_1_s_100	Apanteles breviventris	0	BGLIB746-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB746-24_r_1.3_s_50	Apanteles breviventris	0	BGLIB746-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB746-24_r_1.3_s_100	Apanteles breviventris	0	BGLIB746-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB746-24_r_1.5_s_50	Apanteles breviventris	0	BGLIB746-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB746-24_r_1.5_s_100	Apanteles breviventris	0	BGLIB746-24	1.5	100
+0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB747-24_r_1_s_50	Apanteles corvinus	0	BGLIB747-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB747-24_r_1_s_100	Apanteles corvinus	0	BGLIB747-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB747-24_r_1.3_s_50	Apanteles corvinus	0	BGLIB747-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB747-24_r_1.3_s_100	Apanteles corvinus	0	BGLIB747-24	1.3	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1515	Braconidae	BGLIB747-24_r_1.5_s_50	Apanteles corvinus	0	BGLIB747-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1446	Braconidae	BGLIB747-24_r_1.5_s_100	Apanteles corvinus	0	BGLIB747-24	1.5	100
+3	7	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Braconidae	BGLIB748-24_r_1_s_50	Apanteles coleophorae	0	BGLIB748-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB748-24_r_1_s_100	Apanteles coleophorae	0	BGLIB748-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1536	Braconidae	BGLIB748-24_r_1.3_s_50	Apanteles coleophorae	0	BGLIB748-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1527	Braconidae	BGLIB748-24_r_1.3_s_100	Apanteles coleophorae	0	BGLIB748-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1494	Braconidae	BGLIB748-24_r_1.5_s_50	Apanteles coleophorae	0	BGLIB748-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	641	1428	Braconidae	BGLIB748-24_r_1.5_s_100	Apanteles coleophorae	0	BGLIB748-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB749-24_r_1_s_50	Apanteles breviventris	0	BGLIB749-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB749-24_r_1_s_100	Apanteles breviventris	0	BGLIB749-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB749-24_r_1.3_s_50	Apanteles breviventris	0	BGLIB749-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1536	Braconidae	BGLIB749-24_r_1.5_s_50	Apanteles breviventris	0	BGLIB749-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB749-24_r_1.3_s_100	Apanteles breviventris	0	BGLIB749-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1530	Braconidae	BGLIB749-24_r_1.5_s_100	Apanteles breviventris	0	BGLIB749-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1521	Braconidae	BGLIB750-24_r_1_s_50	Apanteles impurus	0	BGLIB750-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1521	Braconidae	BGLIB750-24_r_1_s_100	Apanteles impurus	0	BGLIB750-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1521	Braconidae	BGLIB750-24_r_1.3_s_50	Apanteles impurus	0	BGLIB750-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1521	Braconidae	BGLIB750-24_r_1.3_s_100	Apanteles impurus	0	BGLIB750-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1509	Braconidae	BGLIB750-24_r_1.5_s_50	Apanteles impurus	0	BGLIB750-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1482	Braconidae	BGLIB750-24_r_1.5_s_100	Apanteles impurus	0	BGLIB750-24	1.5	100
+1	5	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	650	1500	Braconidae	BGLIB751-24_r_1_s_50	Aleiodes pallidator	0	BGLIB751-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	634	1467	Braconidae	BGLIB751-24_r_1_s_100	Aleiodes pallidator	0	BGLIB751-24	1	100
+0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	649	1491	Braconidae	BGLIB751-24_r_1.3_s_50	Aleiodes pallidator	0	BGLIB751-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	632	1437	Braconidae	BGLIB751-24_r_1.3_s_100	Aleiodes pallidator	0	BGLIB751-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	564	1371	Braconidae	BGLIB751-24_r_1.5_s_50	Aleiodes pallidator	0	BGLIB751-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	529	1281	Braconidae	BGLIB751-24_r_1.5_s_100	Aleiodes pallidator	0	BGLIB751-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB752-24_r_1_s_50	Apanteles infimus	0	BGLIB752-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB752-24_r_1_s_100	Apanteles infimus	0	BGLIB752-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB752-24_r_1.3_s_50	Apanteles infimus	0	BGLIB752-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB752-24_r_1.3_s_100	Apanteles infimus	0	BGLIB752-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1530	Braconidae	BGLIB752-24_r_1.5_s_50	Apanteles infimus	0	BGLIB752-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1518	Braconidae	BGLIB752-24_r_1.5_s_100	Apanteles infimus	0	BGLIB752-24	1.5	100
+0	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB753-24_r_1_s_50	Apanteles infimus	0	BGLIB753-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB753-24_r_1_s_100	Apanteles infimus	0	BGLIB753-24	1	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB753-24_r_1.3_s_50	Apanteles infimus	0	BGLIB753-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	656	1533	Braconidae	BGLIB753-24_r_1.3_s_100	Apanteles infimus	0	BGLIB753-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	641	1470	Braconidae	BGLIB753-24_r_1.5_s_50	Apanteles infimus	0	BGLIB753-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	635	1380	Braconidae	BGLIB753-24_r_1.5_s_100	Apanteles infimus	0	BGLIB753-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB754-24_r_1_s_50	Dolichogenidea gagates	0	BGLIB754-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB754-24_r_1_s_100	Dolichogenidea gagates	0	BGLIB754-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB754-24_r_1.3_s_50	Dolichogenidea gagates	0	BGLIB754-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB754-24_r_1.3_s_100	Dolichogenidea gagates	0	BGLIB754-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	648	1452	Braconidae	BGLIB754-24_r_1.5_s_50	Dolichogenidea gagates	0	BGLIB754-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	648	1452	Braconidae	BGLIB754-24_r_1.5_s_100	Dolichogenidea gagates	0	BGLIB754-24	1.5	100
+0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB755-24_r_1_s_50	Apanteles sicarius	0	BGLIB755-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB755-24_r_1_s_100	Apanteles sicarius	0	BGLIB755-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB755-24_r_1.3_s_50	Apanteles sicarius	0	BGLIB755-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB755-24_r_1.3_s_100	Apanteles sicarius	0	BGLIB755-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB755-24_r_1.5_s_50	Apanteles sicarius	0	BGLIB755-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1533	Braconidae	BGLIB755-24_r_1.5_s_100	Apanteles sicarius	0	BGLIB755-24	1.5	100
+5	8	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1515	Braconidae	BGLIB756-24_r_1_s_50	Helcon tardator	0	BGLIB756-24	1	50
+2	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	633	1395	Braconidae	BGLIB756-24_r_1_s_100	Helcon tardator	0	BGLIB756-24	1	100
+1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	514	1290	Braconidae	BGLIB756-24_r_1.3_s_50	Helcon tardator	0	BGLIB756-24	1.3	50
+1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	438	1125	Braconidae	BGLIB756-24_r_1.3_s_100	Helcon tardator	0	BGLIB756-24	1.3	100
+3	3	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	371	1071	Braconidae	BGLIB756-24_r_1.5_s_50	Helcon tardator	0	BGLIB756-24	1.5	50
+1	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	309	951	Braconidae,Lycaenidae	BGLIB756-24_r_1.5_s_100	Helcon tardator	0	BGLIB756-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB757-24_r_1_s_50	Alysia manducator	0	BGLIB757-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB757-24_r_1_s_100	Alysia manducator	0	BGLIB757-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB757-24_r_1.3_s_50	Alysia manducator	0	BGLIB757-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1533	Braconidae	BGLIB757-24_r_1.3_s_100	Alysia manducator	0	BGLIB757-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	646	1509	Braconidae	BGLIB757-24_r_1.5_s_50	Alysia manducator	0	BGLIB757-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	646	1509	Braconidae	BGLIB757-24_r_1.5_s_100	Alysia manducator	0	BGLIB757-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB758-24_r_1_s_50	Aspilota hirticornis	0	BGLIB758-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB758-24_r_1_s_100	Aspilota hirticornis	0	BGLIB758-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB758-24_r_1.3_s_50	Aspilota hirticornis	0	BGLIB758-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1527	Braconidae	BGLIB758-24_r_1.3_s_100	Aspilota hirticornis	0	BGLIB758-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	646	1461	Braconidae	BGLIB758-24_r_1.5_s_50	Aspilota hirticornis	0	BGLIB758-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	640	1410	Braconidae	BGLIB758-24_r_1.5_s_100	Aspilota hirticornis	0	BGLIB758-24	1.5	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1530	Braconidae	BGLIB759-24_r_1_s_50	Dapsilarthra florimela	0	BGLIB759-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB759-24_r_1_s_100	Dapsilarthra florimela	0	BGLIB759-24	1	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1530	Braconidae	BGLIB759-24_r_1.3_s_50	Dapsilarthra florimela	0	BGLIB759-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	655	1521	Braconidae	BGLIB759-24_r_1.3_s_100	Dapsilarthra florimela	0	BGLIB759-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	646	1455	Braconidae	BGLIB759-24_r_1.5_s_50	Dapsilarthra florimela	0	BGLIB759-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	595	1359	Braconidae	BGLIB759-24_r_1.5_s_100	Dapsilarthra florimela	0	BGLIB759-24	1.5	100
+0	2	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1551	Braconidae	BGLIB760-24_r_1_s_50	Orgilus puctulator	0	BGLIB760-24	1	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	657	1503	Braconidae	BGLIB760-24_r_1_s_100	Orgilus puctulator	0	BGLIB760-24	1	100
+0	1	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	618	1455	Braconidae	BGLIB760-24_r_1.3_s_50	Orgilus puctulator	0	BGLIB760-24	1.3	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	618	1338	Braconidae	BGLIB760-24_r_1.3_s_100	Orgilus puctulator	0	BGLIB760-24	1.3	100
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	510	1230	Braconidae	BGLIB760-24_r_1.5_s_50	Orgilus puctulator	0	BGLIB760-24	1.5	50
+0	0	data/BGE00408_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Braconidae	BLAST	family	COI-5P	456	1140	Braconidae	BGLIB760-24_r_1.5_s_100	Orgilus puctulator	0	BGLIB760-24	1.5	100

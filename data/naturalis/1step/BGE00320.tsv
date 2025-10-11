@@ -1,571 +1,571 @@
-ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	marker_code	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons
-9	24	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	457	1278	Miridae,Anthocoridae	BGSNH381-24_r_1_s_50	Chlamydatus eurotiae	0
-12	17	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1194	Miridae	BGSNH381-24_r_1_s_100	Chlamydatus eurotiae	0
-1	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae	BGSNH381-24_r_1.3_s_50	Chlamydatus eurotiae	0
-2	4	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	449	1185	Miridae	BGSNH381-24_r_1.3_s_100	Chlamydatus eurotiae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	449	1239	Miridae	BGSNH381-24_r_1.5_s_50	Chlamydatus eurotiae	0
-1	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	449	1056	Miridae,Reduviidae,Dermestidae	BGSNH381-24_r_1.5_s_100	Chlamydatus eurotiae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH382-24_r_1_s_50	Chlamydatus eurotiae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH382-24_r_1_s_100	Chlamydatus eurotiae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH382-24_r_1.3_s_50	Chlamydatus eurotiae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH382-24_r_1.3_s_100	Chlamydatus eurotiae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH382-24_r_1.5_s_50	Chlamydatus eurotiae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH382-24_r_1.5_s_100	Chlamydatus eurotiae	0
-53	123	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	456	1278	Tettigoniidae,Acrididae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Vespidae,Tetracampidae	BGSNH383-24_r_1_s_50	Chlamydatus eurotiae	0
-37	69	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	456	1275	Tettigoniidae,Acrididae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Vespidae,Tetracampidae	BGSNH383-24_r_1_s_100	Chlamydatus eurotiae	0
-17	33	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	447	1269	Tettigoniidae,Acrididae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Vespidae,Tetracampidae	BGSNH383-24_r_1.3_s_50	Chlamydatus eurotiae	0
-17	21	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	429	1236	Tettigoniidae,Acrididae,Reduviidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Vespidae,Tetracampidae	BGSNH383-24_r_1.3_s_100	Chlamydatus eurotiae	0
-9	25	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	448	1257	Miridae	BGSNH383-24_r_1.5_s_50	Chlamydatus eurotiae	0
-8	15	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	393	1050	Reduviidae	BGSNH383-24_r_1.5_s_100	Chlamydatus eurotiae	0
-17	49	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae	BGSNH384-24_r_1_s_50	Chlamydatus eurotiae	0
-19	39	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	457	1251	Miridae	BGSNH384-24_r_1_s_100	Chlamydatus eurotiae	0
-2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH384-24_r_1.3_s_50	Chlamydatus eurotiae	0
-8	10	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1251	Miridae	BGSNH384-24_r_1.3_s_100	Chlamydatus eurotiae	0
-2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1260	Miridae	BGSNH384-24_r_1.5_s_50	Chlamydatus eurotiae	0
-1	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1230	Miridae	BGSNH384-24_r_1.5_s_100	Chlamydatus eurotiae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH385-24_r_1_s_50	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH385-24_r_1_s_100	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH385-24_r_1.3_s_50	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH385-24_r_1.3_s_100	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1491	Miridae	BGSNH385-24_r_1.5_s_50	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1491	Miridae	BGSNH385-24_r_1.5_s_100	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH386-24_r_1_s_50	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH386-24_r_1_s_100	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH386-24_r_1.3_s_50	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH386-24_r_1.3_s_100	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1494	Miridae	BGSNH386-24_r_1.5_s_50	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1494	Miridae	BGSNH386-24_r_1.5_s_100	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH387-24_r_1_s_50	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH387-24_r_1_s_100	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH387-24_r_1.3_s_50	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH387-24_r_1.3_s_100	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1479	Miridae	BGSNH387-24_r_1.5_s_50	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1479	Miridae	BGSNH387-24_r_1.5_s_100	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH388-24_r_1_s_50	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH388-24_r_1_s_100	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH388-24_r_1.3_s_50	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH388-24_r_1.3_s_100	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1494	Miridae	BGSNH388-24_r_1.5_s_50	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1494	Miridae	BGSNH388-24_r_1.5_s_100	Chlorillus pictus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH389-24_r_1_s_50	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH389-24_r_1_s_100	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH389-24_r_1.3_s_50	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH389-24_r_1.3_s_100	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1506	Miridae	BGSNH389-24_r_1.5_s_50	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1506	Miridae	BGSNH389-24_r_1.5_s_100	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH390-24_r_1_s_50	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH390-24_r_1_s_100	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH390-24_r_1.3_s_50	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH390-24_r_1.3_s_100	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1461	Miridae	BGSNH390-24_r_1.5_s_50	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1455	Miridae	BGSNH390-24_r_1.5_s_100	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH391-24_r_1_s_50	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH391-24_r_1_s_100	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH391-24_r_1.3_s_50	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH391-24_r_1.3_s_100	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1515	Miridae,Braconidae	BGSNH391-24_r_1.5_s_50	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1515	Miridae,Braconidae	BGSNH391-24_r_1.5_s_100	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH392-24_r_1_s_50	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH392-24_r_1_s_100	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH392-24_r_1.3_s_50	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH392-24_r_1.3_s_100	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1479	Miridae	BGSNH392-24_r_1.5_s_50	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1473	Miridae	BGSNH392-24_r_1.5_s_100	Chorosomella jakowleffi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH393-24_r_1_s_50	Closterotomus annulus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH393-24_r_1_s_100	Closterotomus annulus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH393-24_r_1.3_s_50	Closterotomus annulus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH393-24_r_1.3_s_100	Closterotomus annulus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH393-24_r_1.5_s_50	Closterotomus annulus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH393-24_r_1.5_s_100	Closterotomus annulus	0
-0	20	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH394-24_r_1_s_50	Closterotomus annulus	0
-0	18	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH394-24_r_1_s_100	Closterotomus annulus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH394-24_r_1.3_s_50	Closterotomus annulus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH394-24_r_1.3_s_100	Closterotomus annulus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH394-24_r_1.5_s_50	Closterotomus annulus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH394-24_r_1.5_s_100	Closterotomus annulus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH395-24_r_1_s_50	Closterotomus annulus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH395-24_r_1_s_100	Closterotomus annulus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH395-24_r_1.3_s_50	Closterotomus annulus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH395-24_r_1.3_s_100	Closterotomus annulus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH395-24_r_1.5_s_50	Closterotomus annulus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH395-24_r_1.5_s_100	Closterotomus annulus	0
-42	113	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Anthocoridae	BGSNH396-24_r_1_s_50	Closterotomus annulus	0
-29	87	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Anthocoridae	BGSNH396-24_r_1_s_100	Closterotomus annulus	0
-23	56	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH396-24_r_1.3_s_50	Closterotomus annulus	0
-19	45	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH396-24_r_1.3_s_100	Closterotomus annulus	0
-7	23	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH396-24_r_1.5_s_50	Closterotomus annulus	0
-0	10	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH396-24_r_1.5_s_100	Closterotomus annulus	0
-25	45	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	653	1485	Tettigoniidae,Miridae,Anthocoridae,Ulidiidae,Vespidae	BGSNH397-24_r_1_s_50	Closterotomus costae	0
-16	20	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	614	1353	Termitidae,Tettigoniidae,Miridae,Anthocoridae,Pachygronthidae,Ulidiidae,Vespidae	BGSNH397-24_r_1_s_100	Closterotomus costae	0
-9	37	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	578	1269	Reduviidae	BGSNH397-24_r_1.3_s_50	Closterotomus costae	0
-6	20	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	362	975	Reduviidae	BGSNH397-24_r_1.3_s_100	Closterotomus costae	0
-14	18	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	511	1164	Miridae,Staphylinidae	BGSNH397-24_r_1.5_s_50	Closterotomus costae	0
-6	6	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	364	915	Miridae,Staphylinidae	BGSNH397-24_r_1.5_s_100	Closterotomus costae	0
-15	29	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	645	1434	Miridae	BGSNH398-24_r_1_s_50	Closterotomus costae	0
-9	9	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	550	1245	Plataspidae	BGSNH398-24_r_1_s_100	Closterotomus costae	0
-1	4	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	609	1299	Miridae	BGSNH398-24_r_1.3_s_50	Closterotomus costae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	284	978	Micronectidae,Miridae	BGSNH398-24_r_1.3_s_100	Closterotomus costae	0
-2	19	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	513	1053	Miridae	BGSNH398-24_r_1.5_s_50	Closterotomus costae	0
-0	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	86	537	Veliidae,Notonectidae,Micronectidae,Miridae,Xyloryctidae	BGSNH398-24_r_1.5_s_100	Closterotomus costae	0
-11	43	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae	BGSNH399-24_r_1_s_50	Closterotomus costae	0
-9	35	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH399-24_r_1_s_100	Closterotomus costae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH399-24_r_1.3_s_50	Closterotomus costae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH399-24_r_1.3_s_100	Closterotomus costae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH399-24_r_1.5_s_50	Closterotomus costae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH399-24_r_1.5_s_100	Closterotomus costae	0
-0	11	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH400-24_r_1_s_50	Closterotomus costae	0
-0	12	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH400-24_r_1_s_100	Closterotomus costae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH400-24_r_1.3_s_50	Closterotomus costae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH400-24_r_1.3_s_100	Closterotomus costae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH400-24_r_1.5_s_50	Closterotomus costae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH400-24_r_1.5_s_100	Closterotomus costae	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH401-24_r_1_s_50	Closterotomus histrio	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH401-24_r_1_s_100	Closterotomus histrio	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH401-24_r_1.3_s_50	Closterotomus histrio	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH401-24_r_1.3_s_100	Closterotomus histrio	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH401-24_r_1.5_s_50	Closterotomus histrio	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH401-24_r_1.5_s_100	Closterotomus histrio	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH402-24_r_1_s_50	Closterotomus krueperi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH402-24_r_1_s_100	Closterotomus krueperi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH402-24_r_1.3_s_50	Closterotomus krueperi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH402-24_r_1.3_s_100	Closterotomus krueperi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH402-24_r_1.5_s_50	Closterotomus krueperi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH402-24_r_1.5_s_100	Closterotomus krueperi	0
-20	28	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	618	1491	Miridae	BGSNH403-24_r_1_s_50	Closterotomus krueperi	0
-10	17	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	538	1293	Miridae,Chrysomelidae	BGSNH403-24_r_1_s_100	Closterotomus krueperi	0
-10	10	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	579	1341	Miridae	BGSNH403-24_r_1.3_s_50	Closterotomus krueperi	0
-10	10	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	493	993	Miridae	BGSNH403-24_r_1.3_s_100	Closterotomus krueperi	0
-1	10	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	504	1107	Miridae	BGSNH403-24_r_1.5_s_50	Closterotomus krueperi	0
-0	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	400	798	Miridae	BGSNH403-24_r_1.5_s_100	Closterotomus krueperi	0
-44	54	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1500	Tettigoniidae,Miridae,Ninidae,Ulidiidae,Vespidae	BGSNH404-24_r_1_s_50	Closterotomus krueperi	0
-37	40	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1497	Tettigoniidae,Anthocoridae,Scarabaeidae,Elateridae,Simuliidae,Ceratopogonidae,Psychodidae,Drosophilidae,Vespidae	BGSNH404-24_r_1_s_100	Closterotomus krueperi	0
-38	59	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1503	Miridae	BGSNH404-24_r_1.3_s_50	Closterotomus krueperi	0
-26	42	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1500	Miridae	BGSNH404-24_r_1.3_s_100	Closterotomus krueperi	0
-14	16	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1503	Miridae	BGSNH404-24_r_1.5_s_50	Closterotomus krueperi	0
-7	9	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	617	1461	Miridae	BGSNH404-24_r_1.5_s_100	Closterotomus krueperi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH405-24_r_1_s_50	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH405-24_r_1_s_100	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH405-24_r_1.3_s_50	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH405-24_r_1.3_s_100	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH405-24_r_1.5_s_50	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH405-24_r_1.5_s_100	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH406-24_r_1_s_50	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH406-24_r_1_s_100	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH406-24_r_1.3_s_50	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH406-24_r_1.3_s_100	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH406-24_r_1.5_s_50	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH406-24_r_1.5_s_100	Closterotomus picturatus	0
-0	6	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH407-24_r_1_s_50	Closterotomus picturatus	0
-0	16	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH407-24_r_1_s_100	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH407-24_r_1.3_s_50	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH407-24_r_1.3_s_100	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH407-24_r_1.5_s_50	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH407-24_r_1.5_s_100	Closterotomus picturatus	0
-27	48	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH408-24_r_1_s_50	Closterotomus picturatus	0
-12	33	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	653	1515	Miridae	BGSNH408-24_r_1_s_100	Closterotomus picturatus	0
-1	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH408-24_r_1.3_s_50	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1518	Miridae	BGSNH408-24_r_1.3_s_100	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH408-24_r_1.5_s_50	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1518	Miridae	BGSNH408-24_r_1.5_s_100	Closterotomus picturatus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH409-24_r_1_s_50	Closterotomus princeps	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH409-24_r_1_s_100	Closterotomus princeps	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH409-24_r_1.3_s_50	Closterotomus princeps	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH409-24_r_1.3_s_100	Closterotomus princeps	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH409-24_r_1.5_s_50	Closterotomus princeps	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH409-24_r_1.5_s_100	Closterotomus princeps	0
-5	24	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH410-24_r_1_s_50	Closterotomus princeps	0
-5	29	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH410-24_r_1_s_100	Closterotomus princeps	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH410-24_r_1.3_s_50	Closterotomus princeps	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH410-24_r_1.3_s_100	Closterotomus princeps	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH410-24_r_1.5_s_50	Closterotomus princeps	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH410-24_r_1.5_s_100	Closterotomus princeps	0
-7	12	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	654	1536	Miridae	BGSNH411-24_r_1_s_50	Closterotomus putoni	0
-4	9	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	588	1395	Miridae	BGSNH411-24_r_1_s_100	Closterotomus putoni	0
-5	7	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	654	1524	Miridae	BGSNH411-24_r_1.3_s_50	Closterotomus putoni	0
-2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	590	1389	Anostostomatidae,Corixidae,Micronectidae,Miridae,Lauxaniidae	BGSNH411-24_r_1.3_s_100	Closterotomus putoni	0
-2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	654	1470	Miridae	BGSNH411-24_r_1.5_s_50	Closterotomus putoni	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	590	1389	Miridae	BGSNH411-24_r_1.5_s_100	Closterotomus putoni	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH412-24_r_1_s_50	Closterotomus reuteri	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH412-24_r_1_s_100	Closterotomus reuteri	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH412-24_r_1.3_s_50	Closterotomus reuteri	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH412-24_r_1.3_s_100	Closterotomus reuteri	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH412-24_r_1.5_s_50	Closterotomus reuteri	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH412-24_r_1.5_s_100	Closterotomus reuteri	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH413-24_r_1_s_50	Closterotomus reuteri	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH413-24_r_1_s_100	Closterotomus reuteri	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH413-24_r_1.3_s_50	Closterotomus reuteri	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH413-24_r_1.3_s_100	Closterotomus reuteri	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH413-24_r_1.5_s_50	Closterotomus reuteri	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH413-24_r_1.5_s_100	Closterotomus reuteri	0
-49	152	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	653	1536	Miridae	BGSNH414-24_r_1_s_50	Closterotomus reuteri	0
-36	111	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH414-24_r_1_s_100	Closterotomus reuteri	0
-25	61	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	653	1536	Micronectidae,Miridae,Anthocoridae,Reduviidae,Scutelleridae	BGSNH414-24_r_1.3_s_50	Closterotomus reuteri	0
-21	53	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH414-24_r_1.3_s_100	Closterotomus reuteri	0
-21	33	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	651	1494	Miridae	BGSNH414-24_r_1.5_s_50	Closterotomus reuteri	0
-19	32	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	653	1488	Gerridae,Miridae,Anthocoridae,Pentatomidae,Staphylinidae	BGSNH414-24_r_1.5_s_100	Closterotomus reuteri	0
-23	60	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH415-24_r_1_s_50	Closterotomus tunetanus	0
-2	48	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH415-24_r_1_s_100	Closterotomus tunetanus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH415-24_r_1.3_s_50	Closterotomus tunetanus	0
-3	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH415-24_r_1.3_s_100	Closterotomus tunetanus	0
-1	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH415-24_r_1.5_s_50	Closterotomus tunetanus	0
-5	5	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH415-24_r_1.5_s_100	Closterotomus tunetanus	0
-5	6	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	650	1440		BGSNH416-24_r_1_s_50	Closterotomus vicinus	1
-0	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	653	1377	Argiolestidae,Rhinotermitidae,Kalotermitidae,Termitidae,Tettigoniidae,Acrididae,Asilidae,Ulidiidae,Vespidae	BGSNH416-24_r_1_s_100	Closterotomus vicinus	1
-8	14	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	441	1212	Kalotermitidae,Tettigoniidae,Perlidae,Scirtidae,Curculionidae,Tephritidae,Ulidiidae,Vespidae	BGSNH416-24_r_1.3_s_50	Closterotomus vicinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	250	984	Tettigoniidae,Ulidiidae,Vespidae	BGSNH416-24_r_1.3_s_100	Closterotomus vicinus	0
-7	18	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	282	906	Tettigoniidae,Reduviidae,Ulidiidae,Vespidae	BGSNH416-24_r_1.5_s_50	Closterotomus vicinus	0
-0	6	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	224	768	Tettigoniidae,Reduviidae,Ulidiidae,Vespidae	BGSNH416-24_r_1.5_s_100	Closterotomus vicinus	0
-1	6	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	475	1278	Miridae	BGSNH417-24_r_1_s_50	Compsidolon balachowskyi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	467	1278	Miridae	BGSNH417-24_r_1_s_100	Compsidolon balachowskyi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1278	Miridae	BGSNH417-24_r_1.3_s_50	Compsidolon balachowskyi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	467	1278	Miridae	BGSNH417-24_r_1.3_s_100	Compsidolon balachowskyi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	467	1278	Miridae	BGSNH417-24_r_1.5_s_50	Compsidolon balachowskyi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	467	1278	Miridae	BGSNH417-24_r_1.5_s_100	Compsidolon balachowskyi	0
-2	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	474	1278	Miridae	BGSNH418-24_r_1_s_50	Compsidolon balachowskyi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	467	1278	Miridae	BGSNH418-24_r_1_s_100	Compsidolon balachowskyi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1278	Miridae	BGSNH418-24_r_1.3_s_50	Compsidolon balachowskyi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	467	1278	Miridae	BGSNH418-24_r_1.3_s_100	Compsidolon balachowskyi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	466	1260	Miridae	BGSNH418-24_r_1.5_s_50	Compsidolon balachowskyi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	467	1260	Miridae	BGSNH418-24_r_1.5_s_100	Compsidolon balachowskyi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH419-24_r_1_s_50	Compsidolon longiceps	2
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH419-24_r_1_s_100	Compsidolon longiceps	2
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH419-24_r_1.3_s_50	Compsidolon longiceps	2
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH419-24_r_1.3_s_100	Compsidolon longiceps	2
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH419-24_r_1.5_s_50	Compsidolon longiceps	2
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH419-24_r_1.5_s_100	Compsidolon longiceps	2
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH420-24_r_1_s_50	Compsidolon longiceps	2
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH420-24_r_1_s_100	Compsidolon longiceps	2
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH420-24_r_1.3_s_50	Compsidolon longiceps	2
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH420-24_r_1.3_s_100	Compsidolon longiceps	2
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH420-24_r_1.5_s_50	Compsidolon longiceps	2
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH420-24_r_1.5_s_100	Compsidolon longiceps	2
-3	13	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Plataspidae	BGSNH421-24_r_1_s_50	Conostethus angustus	0
-2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH421-24_r_1_s_100	Conostethus angustus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH421-24_r_1.3_s_50	Conostethus angustus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH421-24_r_1.3_s_100	Conostethus angustus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1266	Miridae,Plataspidae	BGSNH421-24_r_1.5_s_50	Conostethus angustus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1266	Miridae,Pentatomidae,Plataspidae	BGSNH421-24_r_1.5_s_100	Conostethus angustus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH422-24_r_1_s_50	Conostethus angustus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH422-24_r_1_s_100	Conostethus angustus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH422-24_r_1.3_s_50	Conostethus angustus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH422-24_r_1.3_s_100	Conostethus angustus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH422-24_r_1.5_s_50	Conostethus angustus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH422-24_r_1.5_s_100	Conostethus angustus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH423-24_r_1_s_50	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH423-24_r_1_s_100	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH423-24_r_1.3_s_50	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH423-24_r_1.3_s_100	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH423-24_r_1.5_s_50	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH423-24_r_1.5_s_100	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH424-24_r_1_s_50	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH424-24_r_1_s_100	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH424-24_r_1.3_s_50	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH424-24_r_1.3_s_100	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH424-24_r_1.5_s_50	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH424-24_r_1.5_s_100	Conostethus hungaricus	0
-0	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1278	Miridae	BGSNH425-24_r_1_s_50	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1278	Miridae,Pentatomidae,Plataspidae	BGSNH425-24_r_1_s_100	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1278	Miridae,Plataspidae	BGSNH425-24_r_1.3_s_50	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1278	Miridae,Pentatomidae,Plataspidae	BGSNH425-24_r_1.3_s_100	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1263	Miridae,Pentatomidae,Plataspidae	BGSNH425-24_r_1.5_s_50	Conostethus hungaricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1263	Miridae,Pentatomidae,Plataspidae	BGSNH425-24_r_1.5_s_100	Conostethus hungaricus	0
-12	54	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	456	1275	Reduviidae,Membracidae,Buprestidae,Cleridae,Notodontidae,Lycaenidae,Crambidae,Mantispidae	BGSNH426-24_r_1_s_50	Conostethus hungaricus	0
-29	67	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	456	1275	Reduviidae,Membracidae,Buprestidae,Drosophilidae,Lycaenidae,Crambidae,Mantispidae	BGSNH426-24_r_1_s_100	Conostethus hungaricus	0
-14	33	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	456	1278	Notonectidae,Miridae,Anthocoridae,Pentatomidae,Tessaratomidae,Lygaeidae,Pyrrhocoridae	BGSNH426-24_r_1.3_s_50	Conostethus hungaricus	0
-17	40	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	456	1278	Notonectidae,Miridae,Pentatomidae,Lygaeidae,Berytidae,Tephritidae,Notodontidae	BGSNH426-24_r_1.3_s_100	Conostethus hungaricus	0
-7	18	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	457	1242	Miridae	BGSNH426-24_r_1.5_s_50	Conostethus hungaricus	0
-7	14	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	457	1242	Miridae	BGSNH426-24_r_1.5_s_100	Conostethus hungaricus	0
-8	18	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH427-24_r_1_s_50	Criocoris nigricornis	0
-1	5	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH427-24_r_1_s_100	Criocoris nigricornis	0
-1	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH427-24_r_1.3_s_50	Criocoris nigricornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH427-24_r_1.3_s_100	Criocoris nigricornis	0
-0	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1269	Miridae	BGSNH427-24_r_1.5_s_50	Criocoris nigricornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1269	Miridae	BGSNH427-24_r_1.5_s_100	Criocoris nigricornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH428-24_r_1_s_50	Criocoris nigricornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH428-24_r_1_s_100	Criocoris nigricornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH428-24_r_1.3_s_50	Criocoris nigricornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH428-24_r_1.3_s_100	Criocoris nigricornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH428-24_r_1.5_s_50	Criocoris nigricornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH428-24_r_1.5_s_100	Criocoris nigricornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH429-24_r_1_s_50	Criocoris nigripes	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH429-24_r_1_s_100	Criocoris nigripes	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH429-24_r_1.3_s_50	Criocoris nigripes	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH429-24_r_1.3_s_100	Criocoris nigripes	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH429-24_r_1.5_s_50	Criocoris nigripes	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH429-24_r_1.5_s_100	Criocoris nigripes	0
-19	49	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	518	1257	Miridae	BGSNH430-24_r_1_s_50	Criocoris nigripes	0
-7	21	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	488	1224	Miridae	BGSNH430-24_r_1_s_100	Criocoris nigripes	0
-1	9	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	518	1230	Miridae	BGSNH430-24_r_1.3_s_50	Criocoris nigripes	0
-0	6	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	488	1197	Miridae	BGSNH430-24_r_1.3_s_100	Criocoris nigripes	0
-0	4	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	518	1230	Miridae	BGSNH430-24_r_1.5_s_50	Criocoris nigripes	0
-0	6	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	408	1179	Miridae	BGSNH430-24_r_1.5_s_100	Criocoris nigripes	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH431-24_r_1_s_50	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH431-24_r_1_s_100	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH431-24_r_1.3_s_50	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH431-24_r_1.3_s_100	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH431-24_r_1.5_s_50	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH431-24_r_1.5_s_100	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH432-24_r_1_s_50	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH432-24_r_1_s_100	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH432-24_r_1.3_s_50	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH432-24_r_1.3_s_100	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH432-24_r_1.5_s_50	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH432-24_r_1.5_s_100	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH433-24_r_1_s_50	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH433-24_r_1_s_100	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH433-24_r_1.3_s_50	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH433-24_r_1.3_s_100	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH433-24_r_1.5_s_50	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH433-24_r_1.5_s_100	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH434-24_r_1_s_50	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH434-24_r_1_s_100	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH434-24_r_1.3_s_50	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH434-24_r_1.3_s_100	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH434-24_r_1.5_s_50	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH434-24_r_1.5_s_100	Criocoris piceicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH435-24_r_1_s_50	Criocoris sulcicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH435-24_r_1_s_100	Criocoris sulcicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH435-24_r_1.3_s_50	Criocoris sulcicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH435-24_r_1.3_s_100	Criocoris sulcicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH435-24_r_1.5_s_50	Criocoris sulcicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH435-24_r_1.5_s_100	Criocoris sulcicornis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1530	Miridae,Anthocoridae,Pentatomidae	BGSNH436-24_r_1_s_50	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1530	Miridae,Anthocoridae,Pentatomidae	BGSNH436-24_r_1_s_100	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1530	Miridae,Anthocoridae,Pentatomidae	BGSNH436-24_r_1.3_s_50	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1530	Miridae,Anthocoridae,Pentatomidae	BGSNH436-24_r_1.3_s_100	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH436-24_r_1.5_s_50	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH436-24_r_1.5_s_100	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH437-24_r_1_s_50	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH437-24_r_1_s_100	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH437-24_r_1.3_s_50	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH437-24_r_1.3_s_100	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH437-24_r_1.5_s_50	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH437-24_r_1.5_s_100	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1530	Miridae,Anthocoridae,Pentatomidae	BGSNH438-24_r_1_s_50	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH438-24_r_1_s_100	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1530	Miridae,Anthocoridae,Pentatomidae	BGSNH438-24_r_1.3_s_50	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH438-24_r_1.3_s_100	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1530	Miridae,Anthocoridae,Pentatomidae	BGSNH438-24_r_1.5_s_50	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH438-24_r_1.5_s_100	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH439-24_r_1_s_50	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH439-24_r_1_s_100	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH439-24_r_1.3_s_50	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH439-24_r_1.3_s_100	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH439-24_r_1.5_s_50	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH439-24_r_1.5_s_100	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH440-24_r_1_s_50	Cyrtopeltis geniculata	0
-5	5	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH440-24_r_1_s_100	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH440-24_r_1.3_s_50	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH440-24_r_1.3_s_100	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH440-24_r_1.5_s_50	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH440-24_r_1.5_s_100	Cyrtopeltis geniculata	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH441-24_r_1_s_50	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH441-24_r_1_s_100	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH441-24_r_1.3_s_50	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH441-24_r_1.3_s_100	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1491	Miridae	BGSNH441-24_r_1.5_s_50	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1491	Miridae	BGSNH441-24_r_1.5_s_100	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH442-24_r_1_s_50	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH442-24_r_1_s_100	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH442-24_r_1.3_s_50	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH442-24_r_1.3_s_100	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1494	Miridae	BGSNH442-24_r_1.5_s_50	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1494	Miridae	BGSNH442-24_r_1.5_s_100	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH443-24_r_1_s_50	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH443-24_r_1_s_100	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1518	Miridae	BGSNH443-24_r_1.3_s_50	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1518	Miridae	BGSNH443-24_r_1.3_s_100	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	649	1452	Miridae	BGSNH443-24_r_1.5_s_50	Damioscea komaroffii	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	649	1452	Miridae	BGSNH443-24_r_1.5_s_100	Damioscea komaroffii	0
-2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH444-24_r_1_s_50	Damioscea komaroffii	0
-3	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH444-24_r_1_s_100	Damioscea komaroffii	0
-2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1518	Miridae	BGSNH444-24_r_1.3_s_50	Damioscea komaroffii	0
-3	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1518	Miridae	BGSNH444-24_r_1.3_s_100	Damioscea komaroffii	0
-2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	643	1440	Miridae	BGSNH444-24_r_1.5_s_50	Damioscea komaroffii	0
-3	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	640	1428	Miridae	BGSNH444-24_r_1.5_s_100	Damioscea komaroffii	0
-3	16	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH445-24_r_1_s_50	Deraeocoris cordiger	0
-5	26	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae	BGSNH445-24_r_1_s_100	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Pentatomidae,Largidae	BGSNH445-24_r_1.3_s_50	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Pentatomidae,Largidae	BGSNH445-24_r_1.3_s_100	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	649	1503	Gerridae,Miridae,Pentatomidae,Rhyparochromidae,Heterogastridae,Geocoridae,Coreidae	BGSNH445-24_r_1.5_s_50	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	649	1392	Gerridae,Miridae,Pentatomidae,Rhyparochromidae,Heterogastridae,Geocoridae,Coreidae	BGSNH445-24_r_1.5_s_100	Deraeocoris cordiger	0
-2	32	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae	BGSNH446-24_r_1_s_50	Deraeocoris cordiger	0
-13	41	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1503	Miridae	BGSNH446-24_r_1_s_100	Deraeocoris cordiger	0
-0	8	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Reduviidae,Scutelleridae	BGSNH446-24_r_1.3_s_50	Deraeocoris cordiger	0
-0	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1482	Miridae	BGSNH446-24_r_1.3_s_100	Deraeocoris cordiger	0
-3	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1437	Miridae,Pentatomidae,Largidae	BGSNH446-24_r_1.5_s_50	Deraeocoris cordiger	0
-4	7	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	631	1356	Miridae,Pentatomidae,Heterogastridae	BGSNH446-24_r_1.5_s_100	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Pentatomidae,Largidae	BGSNH447-24_r_1_s_50	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Pentatomidae,Largidae	BGSNH447-24_r_1_s_100	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Pentatomidae,Largidae	BGSNH447-24_r_1.3_s_50	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Pentatomidae,Largidae	BGSNH447-24_r_1.3_s_100	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1518	Miridae,Pentatomidae,Largidae	BGSNH447-24_r_1.5_s_50	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1422	Miridae,Pentatomidae,Heterogastridae,Largidae	BGSNH447-24_r_1.5_s_100	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Pentatomidae,Largidae	BGSNH448-24_r_1_s_50	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Pentatomidae,Largidae	BGSNH448-24_r_1_s_100	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Pentatomidae,Largidae	BGSNH448-24_r_1.3_s_50	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Pentatomidae,Largidae	BGSNH448-24_r_1.3_s_100	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1518	Miridae,Pentatomidae,Largidae	BGSNH448-24_r_1.5_s_50	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1437	Miridae,Pentatomidae,Heterogastridae,Largidae	BGSNH448-24_r_1.5_s_100	Deraeocoris cordiger	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH449-24_r_1_s_50	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH449-24_r_1_s_100	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH449-24_r_1.3_s_50	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH449-24_r_1.3_s_100	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1524	Miridae	BGSNH449-24_r_1.5_s_50	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1467	Miridae	BGSNH449-24_r_1.5_s_100	Deraeocoris punctum	0
-6	72	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	654	1527	Miridae	BGSNH450-24_r_1_s_50	Deraeocoris punctum	0
-3	53	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	652	1413	Miridae	BGSNH450-24_r_1_s_100	Deraeocoris punctum	0
-0	16	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	654	1530	Miridae	BGSNH450-24_r_1.3_s_50	Deraeocoris punctum	0
-0	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1371	Miridae	BGSNH450-24_r_1.3_s_100	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	654	1482	Miridae	BGSNH450-24_r_1.5_s_50	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	595	1233	Miridae	BGSNH450-24_r_1.5_s_100	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH451-24_r_1_s_50	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH451-24_r_1_s_100	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH451-24_r_1.3_s_50	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH451-24_r_1.3_s_100	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1521	Miridae	BGSNH451-24_r_1.5_s_50	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1431	Miridae	BGSNH451-24_r_1.5_s_100	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH452-24_r_1_s_50	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae	BGSNH452-24_r_1_s_100	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH452-24_r_1.3_s_50	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae	BGSNH452-24_r_1.3_s_100	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1524	Miridae	BGSNH452-24_r_1.5_s_50	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1425	Miridae	BGSNH452-24_r_1.5_s_100	Deraeocoris punctum	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH453-24_r_1_s_50	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH453-24_r_1_s_100	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH453-24_r_1.3_s_50	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH453-24_r_1.3_s_100	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1506	Miridae,Braconidae	BGSNH453-24_r_1.5_s_50	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1443	Miridae,Braconidae	BGSNH453-24_r_1.5_s_100	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH454-24_r_1_s_50	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH454-24_r_1_s_100	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH454-24_r_1.3_s_50	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH454-24_r_1.3_s_100	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1500	Miridae,Braconidae	BGSNH454-24_r_1.5_s_50	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1434	Miridae,Braconidae	BGSNH454-24_r_1.5_s_100	Deraeocoris ribauti	0
-1	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH455-24_r_1_s_50	Deraeocoris ribauti	0
-3	8	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH455-24_r_1_s_100	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH455-24_r_1.3_s_50	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH455-24_r_1.3_s_100	Deraeocoris ribauti	0
-0	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1449	Miridae,Braconidae	BGSNH455-24_r_1.5_s_50	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1386	Miridae,Braconidae	BGSNH455-24_r_1.5_s_100	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH456-24_r_1_s_50	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH456-24_r_1_s_100	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH456-24_r_1.3_s_50	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH456-24_r_1.3_s_100	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1482	Miridae,Braconidae	BGSNH456-24_r_1.5_s_50	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1401	Miridae,Braconidae	BGSNH456-24_r_1.5_s_100	Deraeocoris ribauti	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH457-24_r_1_s_50	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH457-24_r_1_s_100	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH457-24_r_1.3_s_50	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH457-24_r_1.3_s_100	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1485	Miridae,Braconidae	BGSNH457-24_r_1.5_s_50	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1422	Miridae,Braconidae	BGSNH457-24_r_1.5_s_100	Deraeocoris rutilus	0
-1	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH458-24_r_1_s_50	Deraeocoris rutilus	0
-2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae	BGSNH458-24_r_1_s_100	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH458-24_r_1.3_s_50	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH458-24_r_1.3_s_100	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1446	Miridae,Braconidae	BGSNH458-24_r_1.5_s_50	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	649	1377	Miridae,Pentatomidae,Malcidae	BGSNH458-24_r_1.5_s_100	Deraeocoris rutilus	0
-2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH459-24_r_1_s_50	Deraeocoris rutilus	0
-0	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH459-24_r_1_s_100	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH459-24_r_1.3_s_50	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH459-24_r_1.3_s_100	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1479	Miridae,Braconidae	BGSNH459-24_r_1.5_s_50	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1383	Miridae,Braconidae	BGSNH459-24_r_1.5_s_100	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH460-24_r_1_s_50	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH460-24_r_1_s_100	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH460-24_r_1.3_s_50	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH460-24_r_1.3_s_100	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1455	Miridae,Braconidae	BGSNH460-24_r_1.5_s_50	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1392	Miridae,Braconidae	BGSNH460-24_r_1.5_s_100	Deraeocoris rutilus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH461-24_r_1_s_50	Dichrooscytus algiricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH461-24_r_1_s_100	Dichrooscytus algiricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH461-24_r_1.3_s_50	Dichrooscytus algiricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH461-24_r_1.3_s_100	Dichrooscytus algiricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH461-24_r_1.5_s_50	Dichrooscytus algiricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH461-24_r_1.5_s_100	Dichrooscytus algiricus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH462-24_r_1_s_50	Dichrooscytus bureschi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH462-24_r_1_s_100	Dichrooscytus bureschi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH462-24_r_1.3_s_50	Dichrooscytus bureschi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH462-24_r_1.3_s_100	Dichrooscytus bureschi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH462-24_r_1.5_s_50	Dichrooscytus bureschi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH462-24_r_1.5_s_100	Dichrooscytus bureschi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH463-24_r_1_s_50	Dichrooscytus bureschi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH463-24_r_1_s_100	Dichrooscytus bureschi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH463-24_r_1.3_s_50	Dichrooscytus bureschi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH463-24_r_1.3_s_100	Dichrooscytus bureschi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH463-24_r_1.5_s_50	Dichrooscytus bureschi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH463-24_r_1.5_s_100	Dichrooscytus bureschi	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH464-24_r_1_s_50	Dichrooscytus cyprius	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH464-24_r_1_s_100	Dichrooscytus cyprius	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH464-24_r_1.3_s_50	Dichrooscytus cyprius	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH464-24_r_1.3_s_100	Dichrooscytus cyprius	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH464-24_r_1.5_s_50	Dichrooscytus cyprius	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH464-24_r_1.5_s_100	Dichrooscytus cyprius	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH465-24_r_1_s_50	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH465-24_r_1_s_100	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH465-24_r_1.3_s_50	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH465-24_r_1.3_s_100	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH465-24_r_1.5_s_50	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH465-24_r_1.5_s_100	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH466-24_r_1_s_50	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH466-24_r_1_s_100	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH466-24_r_1.3_s_50	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH466-24_r_1.3_s_100	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH466-24_r_1.5_s_50	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH466-24_r_1.5_s_100	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH467-24_r_1_s_50	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH467-24_r_1_s_100	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH467-24_r_1.3_s_50	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH467-24_r_1.3_s_100	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH467-24_r_1.5_s_50	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH467-24_r_1.5_s_100	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH468-24_r_1_s_50	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH468-24_r_1_s_100	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH468-24_r_1.3_s_50	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH468-24_r_1.3_s_100	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH468-24_r_1.5_s_50	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH468-24_r_1.5_s_100	Dichrooscytus dalmatinus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH469-24_r_1_s_50	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH469-24_r_1_s_100	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH469-24_r_1.3_s_50	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH469-24_r_1.3_s_100	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH469-24_r_1.5_s_50	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH469-24_r_1.5_s_100	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH470-24_r_1_s_50	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH470-24_r_1_s_100	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH470-24_r_1.3_s_50	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH470-24_r_1.3_s_100	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH470-24_r_1.5_s_50	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH470-24_r_1.5_s_100	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH471-24_r_1_s_50	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH471-24_r_1_s_100	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH471-24_r_1.3_s_50	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH471-24_r_1.3_s_100	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH471-24_r_1.5_s_50	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH471-24_r_1.5_s_100	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH472-24_r_1_s_50	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH472-24_r_1_s_100	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH472-24_r_1.3_s_50	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH472-24_r_1.3_s_100	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH472-24_r_1.5_s_50	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH472-24_r_1.5_s_100	Dichrooscytus valesianus	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH473-24_r_1_s_50	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH473-24_r_1_s_100	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH473-24_r_1.3_s_50	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH473-24_r_1.3_s_100	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH473-24_r_1.5_s_50	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH473-24_r_1.5_s_100	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH474-24_r_1_s_50	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH474-24_r_1_s_100	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH474-24_r_1.3_s_50	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH474-24_r_1.3_s_100	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH474-24_r_1.5_s_50	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH474-24_r_1.5_s_100	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH475-24_r_1_s_50	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH475-24_r_1_s_100	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH475-24_r_1.3_s_50	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH475-24_r_1.3_s_100	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH475-24_r_1.5_s_50	Dicyphus botrydis	0
-0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH475-24_r_1.5_s_100	Dicyphus botrydis	0
+ambig_basecount	ambig_full_basecount	dataset	error	identification	identification_method	identification_rank	marker_code	nuc_basecount	nuc_full_basecount	obs_taxon	sequence_id	species	stop_codons	group_id	r	s
+9	24	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	457	1278	Miridae,Anthocoridae	BGSNH381-24_r_1_s_50	Chlamydatus eurotiae	0	BGSNH381-24	1	50
+12	17	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1194	Miridae	BGSNH381-24_r_1_s_100	Chlamydatus eurotiae	0	BGSNH381-24	1	100
+1	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae	BGSNH381-24_r_1.3_s_50	Chlamydatus eurotiae	0	BGSNH381-24	1.3	50
+2	4	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	449	1185	Miridae	BGSNH381-24_r_1.3_s_100	Chlamydatus eurotiae	0	BGSNH381-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	449	1239	Miridae	BGSNH381-24_r_1.5_s_50	Chlamydatus eurotiae	0	BGSNH381-24	1.5	50
+1	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	449	1056	Miridae,Reduviidae,Dermestidae	BGSNH381-24_r_1.5_s_100	Chlamydatus eurotiae	0	BGSNH381-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH382-24_r_1_s_50	Chlamydatus eurotiae	0	BGSNH382-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH382-24_r_1_s_100	Chlamydatus eurotiae	0	BGSNH382-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH382-24_r_1.3_s_50	Chlamydatus eurotiae	0	BGSNH382-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH382-24_r_1.3_s_100	Chlamydatus eurotiae	0	BGSNH382-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH382-24_r_1.5_s_50	Chlamydatus eurotiae	0	BGSNH382-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH382-24_r_1.5_s_100	Chlamydatus eurotiae	0	BGSNH382-24	1.5	100
+53	123	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	456	1278	Tettigoniidae,Acrididae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Vespidae,Tetracampidae	BGSNH383-24_r_1_s_50	Chlamydatus eurotiae	0	BGSNH383-24	1	50
+37	69	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	456	1275	Tettigoniidae,Acrididae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Vespidae,Tetracampidae	BGSNH383-24_r_1_s_100	Chlamydatus eurotiae	0	BGSNH383-24	1	100
+17	33	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	447	1269	Tettigoniidae,Acrididae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Vespidae,Tetracampidae	BGSNH383-24_r_1.3_s_50	Chlamydatus eurotiae	0	BGSNH383-24	1.3	50
+17	21	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	429	1236	Tettigoniidae,Acrididae,Reduviidae,Nitidulidae,Curculionidae,Bostrichidae,Ptinidae,Vespidae,Tetracampidae	BGSNH383-24_r_1.3_s_100	Chlamydatus eurotiae	0	BGSNH383-24	1.3	100
+9	25	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	448	1257	Miridae	BGSNH383-24_r_1.5_s_50	Chlamydatus eurotiae	0	BGSNH383-24	1.5	50
+8	15	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	393	1050	Reduviidae	BGSNH383-24_r_1.5_s_100	Chlamydatus eurotiae	0	BGSNH383-24	1.5	100
+17	49	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae	BGSNH384-24_r_1_s_50	Chlamydatus eurotiae	0	BGSNH384-24	1	50
+19	39	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	457	1251	Miridae	BGSNH384-24_r_1_s_100	Chlamydatus eurotiae	0	BGSNH384-24	1	100
+2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH384-24_r_1.3_s_50	Chlamydatus eurotiae	0	BGSNH384-24	1.3	50
+8	10	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1251	Miridae	BGSNH384-24_r_1.3_s_100	Chlamydatus eurotiae	0	BGSNH384-24	1.3	100
+2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1260	Miridae	BGSNH384-24_r_1.5_s_50	Chlamydatus eurotiae	0	BGSNH384-24	1.5	50
+1	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1230	Miridae	BGSNH384-24_r_1.5_s_100	Chlamydatus eurotiae	0	BGSNH384-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH385-24_r_1_s_50	Chlorillus pictus	0	BGSNH385-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH385-24_r_1_s_100	Chlorillus pictus	0	BGSNH385-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH385-24_r_1.3_s_50	Chlorillus pictus	0	BGSNH385-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH385-24_r_1.3_s_100	Chlorillus pictus	0	BGSNH385-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1491	Miridae	BGSNH385-24_r_1.5_s_50	Chlorillus pictus	0	BGSNH385-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1491	Miridae	BGSNH385-24_r_1.5_s_100	Chlorillus pictus	0	BGSNH385-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH386-24_r_1_s_50	Chlorillus pictus	0	BGSNH386-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH386-24_r_1_s_100	Chlorillus pictus	0	BGSNH386-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH386-24_r_1.3_s_50	Chlorillus pictus	0	BGSNH386-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH386-24_r_1.3_s_100	Chlorillus pictus	0	BGSNH386-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1494	Miridae	BGSNH386-24_r_1.5_s_50	Chlorillus pictus	0	BGSNH386-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1494	Miridae	BGSNH386-24_r_1.5_s_100	Chlorillus pictus	0	BGSNH386-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH387-24_r_1_s_50	Chlorillus pictus	0	BGSNH387-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH387-24_r_1_s_100	Chlorillus pictus	0	BGSNH387-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH387-24_r_1.3_s_50	Chlorillus pictus	0	BGSNH387-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH387-24_r_1.3_s_100	Chlorillus pictus	0	BGSNH387-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1479	Miridae	BGSNH387-24_r_1.5_s_50	Chlorillus pictus	0	BGSNH387-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1479	Miridae	BGSNH387-24_r_1.5_s_100	Chlorillus pictus	0	BGSNH387-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH388-24_r_1_s_50	Chlorillus pictus	0	BGSNH388-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH388-24_r_1_s_100	Chlorillus pictus	0	BGSNH388-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH388-24_r_1.3_s_50	Chlorillus pictus	0	BGSNH388-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH388-24_r_1.3_s_100	Chlorillus pictus	0	BGSNH388-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1494	Miridae	BGSNH388-24_r_1.5_s_50	Chlorillus pictus	0	BGSNH388-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1494	Miridae	BGSNH388-24_r_1.5_s_100	Chlorillus pictus	0	BGSNH388-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH389-24_r_1_s_50	Chorosomella jakowleffi	0	BGSNH389-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH389-24_r_1_s_100	Chorosomella jakowleffi	0	BGSNH389-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH389-24_r_1.3_s_50	Chorosomella jakowleffi	0	BGSNH389-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH389-24_r_1.3_s_100	Chorosomella jakowleffi	0	BGSNH389-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1506	Miridae	BGSNH389-24_r_1.5_s_50	Chorosomella jakowleffi	0	BGSNH389-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1506	Miridae	BGSNH389-24_r_1.5_s_100	Chorosomella jakowleffi	0	BGSNH389-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH390-24_r_1_s_50	Chorosomella jakowleffi	0	BGSNH390-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH390-24_r_1_s_100	Chorosomella jakowleffi	0	BGSNH390-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH390-24_r_1.3_s_50	Chorosomella jakowleffi	0	BGSNH390-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH390-24_r_1.3_s_100	Chorosomella jakowleffi	0	BGSNH390-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1461	Miridae	BGSNH390-24_r_1.5_s_50	Chorosomella jakowleffi	0	BGSNH390-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1455	Miridae	BGSNH390-24_r_1.5_s_100	Chorosomella jakowleffi	0	BGSNH390-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH391-24_r_1_s_50	Chorosomella jakowleffi	0	BGSNH391-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH391-24_r_1_s_100	Chorosomella jakowleffi	0	BGSNH391-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH391-24_r_1.3_s_50	Chorosomella jakowleffi	0	BGSNH391-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH391-24_r_1.3_s_100	Chorosomella jakowleffi	0	BGSNH391-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1515	Miridae,Braconidae	BGSNH391-24_r_1.5_s_50	Chorosomella jakowleffi	0	BGSNH391-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1515	Miridae,Braconidae	BGSNH391-24_r_1.5_s_100	Chorosomella jakowleffi	0	BGSNH391-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH392-24_r_1_s_50	Chorosomella jakowleffi	0	BGSNH392-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH392-24_r_1_s_100	Chorosomella jakowleffi	0	BGSNH392-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH392-24_r_1.3_s_50	Chorosomella jakowleffi	0	BGSNH392-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1530	Miridae,Braconidae	BGSNH392-24_r_1.3_s_100	Chorosomella jakowleffi	0	BGSNH392-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1479	Miridae	BGSNH392-24_r_1.5_s_50	Chorosomella jakowleffi	0	BGSNH392-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1473	Miridae	BGSNH392-24_r_1.5_s_100	Chorosomella jakowleffi	0	BGSNH392-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH393-24_r_1_s_50	Closterotomus annulus	0	BGSNH393-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH393-24_r_1_s_100	Closterotomus annulus	0	BGSNH393-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH393-24_r_1.3_s_50	Closterotomus annulus	0	BGSNH393-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH393-24_r_1.3_s_100	Closterotomus annulus	0	BGSNH393-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH393-24_r_1.5_s_50	Closterotomus annulus	0	BGSNH393-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH393-24_r_1.5_s_100	Closterotomus annulus	0	BGSNH393-24	1.5	100
+0	20	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH394-24_r_1_s_50	Closterotomus annulus	0	BGSNH394-24	1	50
+0	18	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH394-24_r_1_s_100	Closterotomus annulus	0	BGSNH394-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH394-24_r_1.3_s_50	Closterotomus annulus	0	BGSNH394-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH394-24_r_1.3_s_100	Closterotomus annulus	0	BGSNH394-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH394-24_r_1.5_s_50	Closterotomus annulus	0	BGSNH394-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH394-24_r_1.5_s_100	Closterotomus annulus	0	BGSNH394-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH395-24_r_1_s_50	Closterotomus annulus	0	BGSNH395-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH395-24_r_1_s_100	Closterotomus annulus	0	BGSNH395-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH395-24_r_1.3_s_50	Closterotomus annulus	0	BGSNH395-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH395-24_r_1.3_s_100	Closterotomus annulus	0	BGSNH395-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH395-24_r_1.5_s_50	Closterotomus annulus	0	BGSNH395-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH395-24_r_1.5_s_100	Closterotomus annulus	0	BGSNH395-24	1.5	100
+42	113	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Anthocoridae	BGSNH396-24_r_1_s_50	Closterotomus annulus	0	BGSNH396-24	1	50
+29	87	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Anthocoridae	BGSNH396-24_r_1_s_100	Closterotomus annulus	0	BGSNH396-24	1	100
+23	56	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH396-24_r_1.3_s_50	Closterotomus annulus	0	BGSNH396-24	1.3	50
+19	45	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH396-24_r_1.3_s_100	Closterotomus annulus	0	BGSNH396-24	1.3	100
+7	23	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH396-24_r_1.5_s_50	Closterotomus annulus	0	BGSNH396-24	1.5	50
+0	10	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH396-24_r_1.5_s_100	Closterotomus annulus	0	BGSNH396-24	1.5	100
+25	45	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	653	1485	Tettigoniidae,Miridae,Anthocoridae,Ulidiidae,Vespidae	BGSNH397-24_r_1_s_50	Closterotomus costae	0	BGSNH397-24	1	50
+16	20	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	614	1353	Termitidae,Tettigoniidae,Miridae,Anthocoridae,Pachygronthidae,Ulidiidae,Vespidae	BGSNH397-24_r_1_s_100	Closterotomus costae	0	BGSNH397-24	1	100
+9	37	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	578	1269	Reduviidae	BGSNH397-24_r_1.3_s_50	Closterotomus costae	0	BGSNH397-24	1.3	50
+6	20	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	362	975	Reduviidae	BGSNH397-24_r_1.3_s_100	Closterotomus costae	0	BGSNH397-24	1.3	100
+14	18	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	511	1164	Miridae,Staphylinidae	BGSNH397-24_r_1.5_s_50	Closterotomus costae	0	BGSNH397-24	1.5	50
+6	6	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	364	915	Miridae,Staphylinidae	BGSNH397-24_r_1.5_s_100	Closterotomus costae	0	BGSNH397-24	1.5	100
+15	29	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	645	1434	Miridae	BGSNH398-24_r_1_s_50	Closterotomus costae	0	BGSNH398-24	1	50
+9	9	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	550	1245	Plataspidae	BGSNH398-24_r_1_s_100	Closterotomus costae	0	BGSNH398-24	1	100
+1	4	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	609	1299	Miridae	BGSNH398-24_r_1.3_s_50	Closterotomus costae	0	BGSNH398-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	284	978	Micronectidae,Miridae	BGSNH398-24_r_1.3_s_100	Closterotomus costae	0	BGSNH398-24	1.3	100
+2	19	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	513	1053	Miridae	BGSNH398-24_r_1.5_s_50	Closterotomus costae	0	BGSNH398-24	1.5	50
+0	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	86	537	Veliidae,Notonectidae,Micronectidae,Miridae,Xyloryctidae	BGSNH398-24_r_1.5_s_100	Closterotomus costae	0	BGSNH398-24	1.5	100
+11	43	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae	BGSNH399-24_r_1_s_50	Closterotomus costae	0	BGSNH399-24	1	50
+9	35	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH399-24_r_1_s_100	Closterotomus costae	0	BGSNH399-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH399-24_r_1.3_s_50	Closterotomus costae	0	BGSNH399-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH399-24_r_1.3_s_100	Closterotomus costae	0	BGSNH399-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH399-24_r_1.5_s_50	Closterotomus costae	0	BGSNH399-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH399-24_r_1.5_s_100	Closterotomus costae	0	BGSNH399-24	1.5	100
+0	11	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH400-24_r_1_s_50	Closterotomus costae	0	BGSNH400-24	1	50
+0	12	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH400-24_r_1_s_100	Closterotomus costae	0	BGSNH400-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH400-24_r_1.3_s_50	Closterotomus costae	0	BGSNH400-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH400-24_r_1.3_s_100	Closterotomus costae	0	BGSNH400-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH400-24_r_1.5_s_50	Closterotomus costae	0	BGSNH400-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH400-24_r_1.5_s_100	Closterotomus costae	0	BGSNH400-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH401-24_r_1_s_50	Closterotomus histrio	0	BGSNH401-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH401-24_r_1_s_100	Closterotomus histrio	0	BGSNH401-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH401-24_r_1.3_s_50	Closterotomus histrio	0	BGSNH401-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH401-24_r_1.3_s_100	Closterotomus histrio	0	BGSNH401-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH401-24_r_1.5_s_50	Closterotomus histrio	0	BGSNH401-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH401-24_r_1.5_s_100	Closterotomus histrio	0	BGSNH401-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH402-24_r_1_s_50	Closterotomus krueperi	0	BGSNH402-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH402-24_r_1_s_100	Closterotomus krueperi	0	BGSNH402-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH402-24_r_1.3_s_50	Closterotomus krueperi	0	BGSNH402-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH402-24_r_1.3_s_100	Closterotomus krueperi	0	BGSNH402-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH402-24_r_1.5_s_50	Closterotomus krueperi	0	BGSNH402-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH402-24_r_1.5_s_100	Closterotomus krueperi	0	BGSNH402-24	1.5	100
+20	28	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	618	1491	Miridae	BGSNH403-24_r_1_s_50	Closterotomus krueperi	0	BGSNH403-24	1	50
+10	17	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	538	1293	Miridae,Chrysomelidae	BGSNH403-24_r_1_s_100	Closterotomus krueperi	0	BGSNH403-24	1	100
+10	10	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	579	1341	Miridae	BGSNH403-24_r_1.3_s_50	Closterotomus krueperi	0	BGSNH403-24	1.3	50
+10	10	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	493	993	Miridae	BGSNH403-24_r_1.3_s_100	Closterotomus krueperi	0	BGSNH403-24	1.3	100
+1	10	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	504	1107	Miridae	BGSNH403-24_r_1.5_s_50	Closterotomus krueperi	0	BGSNH403-24	1.5	50
+0	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	400	798	Miridae	BGSNH403-24_r_1.5_s_100	Closterotomus krueperi	0	BGSNH403-24	1.5	100
+44	54	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1500	Tettigoniidae,Miridae,Ninidae,Ulidiidae,Vespidae	BGSNH404-24_r_1_s_50	Closterotomus krueperi	0	BGSNH404-24	1	50
+37	40	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1497	Tettigoniidae,Anthocoridae,Scarabaeidae,Elateridae,Simuliidae,Ceratopogonidae,Psychodidae,Drosophilidae,Vespidae	BGSNH404-24_r_1_s_100	Closterotomus krueperi	0	BGSNH404-24	1	100
+38	59	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1503	Miridae	BGSNH404-24_r_1.3_s_50	Closterotomus krueperi	0	BGSNH404-24	1.3	50
+26	42	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1500	Miridae	BGSNH404-24_r_1.3_s_100	Closterotomus krueperi	0	BGSNH404-24	1.3	100
+14	16	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1503	Miridae	BGSNH404-24_r_1.5_s_50	Closterotomus krueperi	0	BGSNH404-24	1.5	50
+7	9	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	617	1461	Miridae	BGSNH404-24_r_1.5_s_100	Closterotomus krueperi	0	BGSNH404-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH405-24_r_1_s_50	Closterotomus picturatus	0	BGSNH405-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH405-24_r_1_s_100	Closterotomus picturatus	0	BGSNH405-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH405-24_r_1.3_s_50	Closterotomus picturatus	0	BGSNH405-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH405-24_r_1.3_s_100	Closterotomus picturatus	0	BGSNH405-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH405-24_r_1.5_s_50	Closterotomus picturatus	0	BGSNH405-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH405-24_r_1.5_s_100	Closterotomus picturatus	0	BGSNH405-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH406-24_r_1_s_50	Closterotomus picturatus	0	BGSNH406-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH406-24_r_1_s_100	Closterotomus picturatus	0	BGSNH406-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH406-24_r_1.3_s_50	Closterotomus picturatus	0	BGSNH406-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH406-24_r_1.3_s_100	Closterotomus picturatus	0	BGSNH406-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH406-24_r_1.5_s_50	Closterotomus picturatus	0	BGSNH406-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH406-24_r_1.5_s_100	Closterotomus picturatus	0	BGSNH406-24	1.5	100
+0	6	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH407-24_r_1_s_50	Closterotomus picturatus	0	BGSNH407-24	1	50
+0	16	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH407-24_r_1_s_100	Closterotomus picturatus	0	BGSNH407-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH407-24_r_1.3_s_50	Closterotomus picturatus	0	BGSNH407-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH407-24_r_1.3_s_100	Closterotomus picturatus	0	BGSNH407-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH407-24_r_1.5_s_50	Closterotomus picturatus	0	BGSNH407-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH407-24_r_1.5_s_100	Closterotomus picturatus	0	BGSNH407-24	1.5	100
+27	48	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH408-24_r_1_s_50	Closterotomus picturatus	0	BGSNH408-24	1	50
+12	33	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	653	1515	Miridae	BGSNH408-24_r_1_s_100	Closterotomus picturatus	0	BGSNH408-24	1	100
+1	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH408-24_r_1.3_s_50	Closterotomus picturatus	0	BGSNH408-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1518	Miridae	BGSNH408-24_r_1.3_s_100	Closterotomus picturatus	0	BGSNH408-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH408-24_r_1.5_s_50	Closterotomus picturatus	0	BGSNH408-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1518	Miridae	BGSNH408-24_r_1.5_s_100	Closterotomus picturatus	0	BGSNH408-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH409-24_r_1_s_50	Closterotomus princeps	0	BGSNH409-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH409-24_r_1_s_100	Closterotomus princeps	0	BGSNH409-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH409-24_r_1.3_s_50	Closterotomus princeps	0	BGSNH409-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH409-24_r_1.3_s_100	Closterotomus princeps	0	BGSNH409-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH409-24_r_1.5_s_50	Closterotomus princeps	0	BGSNH409-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH409-24_r_1.5_s_100	Closterotomus princeps	0	BGSNH409-24	1.5	100
+5	24	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH410-24_r_1_s_50	Closterotomus princeps	0	BGSNH410-24	1	50
+5	29	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH410-24_r_1_s_100	Closterotomus princeps	0	BGSNH410-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH410-24_r_1.3_s_50	Closterotomus princeps	0	BGSNH410-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH410-24_r_1.3_s_100	Closterotomus princeps	0	BGSNH410-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH410-24_r_1.5_s_50	Closterotomus princeps	0	BGSNH410-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH410-24_r_1.5_s_100	Closterotomus princeps	0	BGSNH410-24	1.5	100
+7	12	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	654	1536	Miridae	BGSNH411-24_r_1_s_50	Closterotomus putoni	0	BGSNH411-24	1	50
+4	9	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	588	1395	Miridae	BGSNH411-24_r_1_s_100	Closterotomus putoni	0	BGSNH411-24	1	100
+5	7	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	654	1524	Miridae	BGSNH411-24_r_1.3_s_50	Closterotomus putoni	0	BGSNH411-24	1.3	50
+2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	590	1389	Anostostomatidae,Corixidae,Micronectidae,Miridae,Lauxaniidae	BGSNH411-24_r_1.3_s_100	Closterotomus putoni	0	BGSNH411-24	1.3	100
+2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	654	1470	Miridae	BGSNH411-24_r_1.5_s_50	Closterotomus putoni	0	BGSNH411-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	590	1389	Miridae	BGSNH411-24_r_1.5_s_100	Closterotomus putoni	0	BGSNH411-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH412-24_r_1_s_50	Closterotomus reuteri	0	BGSNH412-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH412-24_r_1_s_100	Closterotomus reuteri	0	BGSNH412-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH412-24_r_1.3_s_50	Closterotomus reuteri	0	BGSNH412-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH412-24_r_1.3_s_100	Closterotomus reuteri	0	BGSNH412-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH412-24_r_1.5_s_50	Closterotomus reuteri	0	BGSNH412-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH412-24_r_1.5_s_100	Closterotomus reuteri	0	BGSNH412-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH413-24_r_1_s_50	Closterotomus reuteri	0	BGSNH413-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH413-24_r_1_s_100	Closterotomus reuteri	0	BGSNH413-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH413-24_r_1.3_s_50	Closterotomus reuteri	0	BGSNH413-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH413-24_r_1.3_s_100	Closterotomus reuteri	0	BGSNH413-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH413-24_r_1.5_s_50	Closterotomus reuteri	0	BGSNH413-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH413-24_r_1.5_s_100	Closterotomus reuteri	0	BGSNH413-24	1.5	100
+49	152	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	653	1536	Miridae	BGSNH414-24_r_1_s_50	Closterotomus reuteri	0	BGSNH414-24	1	50
+36	111	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH414-24_r_1_s_100	Closterotomus reuteri	0	BGSNH414-24	1	100
+25	61	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	653	1536	Micronectidae,Miridae,Anthocoridae,Reduviidae,Scutelleridae	BGSNH414-24_r_1.3_s_50	Closterotomus reuteri	0	BGSNH414-24	1.3	50
+21	53	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae	BGSNH414-24_r_1.3_s_100	Closterotomus reuteri	0	BGSNH414-24	1.3	100
+21	33	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	651	1494	Miridae	BGSNH414-24_r_1.5_s_50	Closterotomus reuteri	0	BGSNH414-24	1.5	50
+19	32	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	653	1488	Gerridae,Miridae,Anthocoridae,Pentatomidae,Staphylinidae	BGSNH414-24_r_1.5_s_100	Closterotomus reuteri	0	BGSNH414-24	1.5	100
+23	60	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH415-24_r_1_s_50	Closterotomus tunetanus	0	BGSNH415-24	1	50
+2	48	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH415-24_r_1_s_100	Closterotomus tunetanus	0	BGSNH415-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH415-24_r_1.3_s_50	Closterotomus tunetanus	0	BGSNH415-24	1.3	50
+3	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH415-24_r_1.3_s_100	Closterotomus tunetanus	0	BGSNH415-24	1.3	100
+1	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH415-24_r_1.5_s_50	Closterotomus tunetanus	0	BGSNH415-24	1.5	50
+5	5	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae	BGSNH415-24_r_1.5_s_100	Closterotomus tunetanus	0	BGSNH415-24	1.5	100
+5	6	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	650	1440		BGSNH416-24_r_1_s_50	Closterotomus vicinus	1	BGSNH416-24	1	50
+0	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	653	1377	Argiolestidae,Rhinotermitidae,Kalotermitidae,Termitidae,Tettigoniidae,Acrididae,Asilidae,Ulidiidae,Vespidae	BGSNH416-24_r_1_s_100	Closterotomus vicinus	1	BGSNH416-24	1	100
+8	14	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	441	1212	Kalotermitidae,Tettigoniidae,Perlidae,Scirtidae,Curculionidae,Tephritidae,Ulidiidae,Vespidae	BGSNH416-24_r_1.3_s_50	Closterotomus vicinus	0	BGSNH416-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	250	984	Tettigoniidae,Ulidiidae,Vespidae	BGSNH416-24_r_1.3_s_100	Closterotomus vicinus	0	BGSNH416-24	1.3	100
+7	18	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	282	906	Tettigoniidae,Reduviidae,Ulidiidae,Vespidae	BGSNH416-24_r_1.5_s_50	Closterotomus vicinus	0	BGSNH416-24	1.5	50
+0	6	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	224	768	Tettigoniidae,Reduviidae,Ulidiidae,Vespidae	BGSNH416-24_r_1.5_s_100	Closterotomus vicinus	0	BGSNH416-24	1.5	100
+1	6	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	475	1278	Miridae	BGSNH417-24_r_1_s_50	Compsidolon balachowskyi	0	BGSNH417-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	467	1278	Miridae	BGSNH417-24_r_1_s_100	Compsidolon balachowskyi	0	BGSNH417-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1278	Miridae	BGSNH417-24_r_1.3_s_50	Compsidolon balachowskyi	0	BGSNH417-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	467	1278	Miridae	BGSNH417-24_r_1.3_s_100	Compsidolon balachowskyi	0	BGSNH417-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	467	1278	Miridae	BGSNH417-24_r_1.5_s_50	Compsidolon balachowskyi	0	BGSNH417-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	467	1278	Miridae	BGSNH417-24_r_1.5_s_100	Compsidolon balachowskyi	0	BGSNH417-24	1.5	100
+2	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	474	1278	Miridae	BGSNH418-24_r_1_s_50	Compsidolon balachowskyi	0	BGSNH418-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	467	1278	Miridae	BGSNH418-24_r_1_s_100	Compsidolon balachowskyi	0	BGSNH418-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1278	Miridae	BGSNH418-24_r_1.3_s_50	Compsidolon balachowskyi	0	BGSNH418-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	467	1278	Miridae	BGSNH418-24_r_1.3_s_100	Compsidolon balachowskyi	0	BGSNH418-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	466	1260	Miridae	BGSNH418-24_r_1.5_s_50	Compsidolon balachowskyi	0	BGSNH418-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	467	1260	Miridae	BGSNH418-24_r_1.5_s_100	Compsidolon balachowskyi	0	BGSNH418-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH419-24_r_1_s_50	Compsidolon longiceps	2	BGSNH419-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH419-24_r_1_s_100	Compsidolon longiceps	2	BGSNH419-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH419-24_r_1.3_s_50	Compsidolon longiceps	2	BGSNH419-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH419-24_r_1.3_s_100	Compsidolon longiceps	2	BGSNH419-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH419-24_r_1.5_s_50	Compsidolon longiceps	2	BGSNH419-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH419-24_r_1.5_s_100	Compsidolon longiceps	2	BGSNH419-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH420-24_r_1_s_50	Compsidolon longiceps	2	BGSNH420-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH420-24_r_1_s_100	Compsidolon longiceps	2	BGSNH420-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH420-24_r_1.3_s_50	Compsidolon longiceps	2	BGSNH420-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH420-24_r_1.3_s_100	Compsidolon longiceps	2	BGSNH420-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH420-24_r_1.5_s_50	Compsidolon longiceps	2	BGSNH420-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	524	1278	Miridae	BGSNH420-24_r_1.5_s_100	Compsidolon longiceps	2	BGSNH420-24	1.5	100
+3	13	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Plataspidae	BGSNH421-24_r_1_s_50	Conostethus angustus	0	BGSNH421-24	1	50
+2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH421-24_r_1_s_100	Conostethus angustus	0	BGSNH421-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae	BGSNH421-24_r_1.3_s_50	Conostethus angustus	0	BGSNH421-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH421-24_r_1.3_s_100	Conostethus angustus	0	BGSNH421-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1266	Miridae,Plataspidae	BGSNH421-24_r_1.5_s_50	Conostethus angustus	0	BGSNH421-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1266	Miridae,Pentatomidae,Plataspidae	BGSNH421-24_r_1.5_s_100	Conostethus angustus	0	BGSNH421-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH422-24_r_1_s_50	Conostethus angustus	0	BGSNH422-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH422-24_r_1_s_100	Conostethus angustus	0	BGSNH422-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH422-24_r_1.3_s_50	Conostethus angustus	0	BGSNH422-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH422-24_r_1.3_s_100	Conostethus angustus	0	BGSNH422-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH422-24_r_1.5_s_50	Conostethus angustus	0	BGSNH422-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	459	1278	Miridae,Pentatomidae,Plataspidae	BGSNH422-24_r_1.5_s_100	Conostethus angustus	0	BGSNH422-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH423-24_r_1_s_50	Conostethus hungaricus	0	BGSNH423-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH423-24_r_1_s_100	Conostethus hungaricus	0	BGSNH423-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH423-24_r_1.3_s_50	Conostethus hungaricus	0	BGSNH423-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH423-24_r_1.3_s_100	Conostethus hungaricus	0	BGSNH423-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH423-24_r_1.5_s_50	Conostethus hungaricus	0	BGSNH423-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH423-24_r_1.5_s_100	Conostethus hungaricus	0	BGSNH423-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH424-24_r_1_s_50	Conostethus hungaricus	0	BGSNH424-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH424-24_r_1_s_100	Conostethus hungaricus	0	BGSNH424-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH424-24_r_1.3_s_50	Conostethus hungaricus	0	BGSNH424-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH424-24_r_1.3_s_100	Conostethus hungaricus	0	BGSNH424-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH424-24_r_1.5_s_50	Conostethus hungaricus	0	BGSNH424-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	458	1278	Miridae,Pentatomidae,Plataspidae	BGSNH424-24_r_1.5_s_100	Conostethus hungaricus	0	BGSNH424-24	1.5	100
+0	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1278	Miridae	BGSNH425-24_r_1_s_50	Conostethus hungaricus	0	BGSNH425-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1278	Miridae,Pentatomidae,Plataspidae	BGSNH425-24_r_1_s_100	Conostethus hungaricus	0	BGSNH425-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1278	Miridae,Plataspidae	BGSNH425-24_r_1.3_s_50	Conostethus hungaricus	0	BGSNH425-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1278	Miridae,Pentatomidae,Plataspidae	BGSNH425-24_r_1.3_s_100	Conostethus hungaricus	0	BGSNH425-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1263	Miridae,Pentatomidae,Plataspidae	BGSNH425-24_r_1.5_s_50	Conostethus hungaricus	0	BGSNH425-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	465	1263	Miridae,Pentatomidae,Plataspidae	BGSNH425-24_r_1.5_s_100	Conostethus hungaricus	0	BGSNH425-24	1.5	100
+12	54	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	456	1275	Reduviidae,Membracidae,Buprestidae,Cleridae,Notodontidae,Lycaenidae,Crambidae,Mantispidae	BGSNH426-24_r_1_s_50	Conostethus hungaricus	0	BGSNH426-24	1	50
+29	67	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	456	1275	Reduviidae,Membracidae,Buprestidae,Drosophilidae,Lycaenidae,Crambidae,Mantispidae	BGSNH426-24_r_1_s_100	Conostethus hungaricus	0	BGSNH426-24	1	100
+14	33	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	456	1278	Notonectidae,Miridae,Anthocoridae,Pentatomidae,Tessaratomidae,Lygaeidae,Pyrrhocoridae	BGSNH426-24_r_1.3_s_50	Conostethus hungaricus	0	BGSNH426-24	1.3	50
+17	40	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	456	1278	Notonectidae,Miridae,Pentatomidae,Lygaeidae,Berytidae,Tephritidae,Notodontidae	BGSNH426-24_r_1.3_s_100	Conostethus hungaricus	0	BGSNH426-24	1.3	100
+7	18	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	457	1242	Miridae	BGSNH426-24_r_1.5_s_50	Conostethus hungaricus	0	BGSNH426-24	1.5	50
+7	14	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	457	1242	Miridae	BGSNH426-24_r_1.5_s_100	Conostethus hungaricus	0	BGSNH426-24	1.5	100
+8	18	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH427-24_r_1_s_50	Criocoris nigricornis	0	BGSNH427-24	1	50
+1	5	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH427-24_r_1_s_100	Criocoris nigricornis	0	BGSNH427-24	1	100
+1	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH427-24_r_1.3_s_50	Criocoris nigricornis	0	BGSNH427-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH427-24_r_1.3_s_100	Criocoris nigricornis	0	BGSNH427-24	1.3	100
+0	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1269	Miridae	BGSNH427-24_r_1.5_s_50	Criocoris nigricornis	0	BGSNH427-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1269	Miridae	BGSNH427-24_r_1.5_s_100	Criocoris nigricornis	0	BGSNH427-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH428-24_r_1_s_50	Criocoris nigricornis	0	BGSNH428-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH428-24_r_1_s_100	Criocoris nigricornis	0	BGSNH428-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH428-24_r_1.3_s_50	Criocoris nigricornis	0	BGSNH428-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH428-24_r_1.3_s_100	Criocoris nigricornis	0	BGSNH428-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH428-24_r_1.5_s_50	Criocoris nigricornis	0	BGSNH428-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH428-24_r_1.5_s_100	Criocoris nigricornis	0	BGSNH428-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH429-24_r_1_s_50	Criocoris nigripes	0	BGSNH429-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH429-24_r_1_s_100	Criocoris nigripes	0	BGSNH429-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH429-24_r_1.3_s_50	Criocoris nigripes	0	BGSNH429-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH429-24_r_1.3_s_100	Criocoris nigripes	0	BGSNH429-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH429-24_r_1.5_s_50	Criocoris nigripes	0	BGSNH429-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH429-24_r_1.5_s_100	Criocoris nigripes	0	BGSNH429-24	1.5	100
+19	49	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	518	1257	Miridae	BGSNH430-24_r_1_s_50	Criocoris nigripes	0	BGSNH430-24	1	50
+7	21	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	488	1224	Miridae	BGSNH430-24_r_1_s_100	Criocoris nigripes	0	BGSNH430-24	1	100
+1	9	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	518	1230	Miridae	BGSNH430-24_r_1.3_s_50	Criocoris nigripes	0	BGSNH430-24	1.3	50
+0	6	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	488	1197	Miridae	BGSNH430-24_r_1.3_s_100	Criocoris nigripes	0	BGSNH430-24	1.3	100
+0	4	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	518	1230	Miridae	BGSNH430-24_r_1.5_s_50	Criocoris nigripes	0	BGSNH430-24	1.5	50
+0	6	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	408	1179	Miridae	BGSNH430-24_r_1.5_s_100	Criocoris nigripes	0	BGSNH430-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH431-24_r_1_s_50	Criocoris piceicornis	0	BGSNH431-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH431-24_r_1_s_100	Criocoris piceicornis	0	BGSNH431-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH431-24_r_1.3_s_50	Criocoris piceicornis	0	BGSNH431-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH431-24_r_1.3_s_100	Criocoris piceicornis	0	BGSNH431-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH431-24_r_1.5_s_50	Criocoris piceicornis	0	BGSNH431-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH431-24_r_1.5_s_100	Criocoris piceicornis	0	BGSNH431-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH432-24_r_1_s_50	Criocoris piceicornis	0	BGSNH432-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH432-24_r_1_s_100	Criocoris piceicornis	0	BGSNH432-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH432-24_r_1.3_s_50	Criocoris piceicornis	0	BGSNH432-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH432-24_r_1.3_s_100	Criocoris piceicornis	0	BGSNH432-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH432-24_r_1.5_s_50	Criocoris piceicornis	0	BGSNH432-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH432-24_r_1.5_s_100	Criocoris piceicornis	0	BGSNH432-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH433-24_r_1_s_50	Criocoris piceicornis	0	BGSNH433-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH433-24_r_1_s_100	Criocoris piceicornis	0	BGSNH433-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH433-24_r_1.3_s_50	Criocoris piceicornis	0	BGSNH433-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH433-24_r_1.3_s_100	Criocoris piceicornis	0	BGSNH433-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH433-24_r_1.5_s_50	Criocoris piceicornis	0	BGSNH433-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH433-24_r_1.5_s_100	Criocoris piceicornis	0	BGSNH433-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH434-24_r_1_s_50	Criocoris piceicornis	0	BGSNH434-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH434-24_r_1_s_100	Criocoris piceicornis	0	BGSNH434-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH434-24_r_1.3_s_50	Criocoris piceicornis	0	BGSNH434-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH434-24_r_1.3_s_100	Criocoris piceicornis	0	BGSNH434-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH434-24_r_1.5_s_50	Criocoris piceicornis	0	BGSNH434-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH434-24_r_1.5_s_100	Criocoris piceicornis	0	BGSNH434-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH435-24_r_1_s_50	Criocoris sulcicornis	0	BGSNH435-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH435-24_r_1_s_100	Criocoris sulcicornis	0	BGSNH435-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH435-24_r_1.3_s_50	Criocoris sulcicornis	0	BGSNH435-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH435-24_r_1.3_s_100	Criocoris sulcicornis	0	BGSNH435-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH435-24_r_1.5_s_50	Criocoris sulcicornis	0	BGSNH435-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	519	1278	Miridae	BGSNH435-24_r_1.5_s_100	Criocoris sulcicornis	0	BGSNH435-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1530	Miridae,Anthocoridae,Pentatomidae	BGSNH436-24_r_1_s_50	Cyrtopeltis geniculata	0	BGSNH436-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1530	Miridae,Anthocoridae,Pentatomidae	BGSNH436-24_r_1_s_100	Cyrtopeltis geniculata	0	BGSNH436-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1530	Miridae,Anthocoridae,Pentatomidae	BGSNH436-24_r_1.3_s_50	Cyrtopeltis geniculata	0	BGSNH436-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1530	Miridae,Anthocoridae,Pentatomidae	BGSNH436-24_r_1.3_s_100	Cyrtopeltis geniculata	0	BGSNH436-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH436-24_r_1.5_s_50	Cyrtopeltis geniculata	0	BGSNH436-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH436-24_r_1.5_s_100	Cyrtopeltis geniculata	0	BGSNH436-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH437-24_r_1_s_50	Cyrtopeltis geniculata	0	BGSNH437-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH437-24_r_1_s_100	Cyrtopeltis geniculata	0	BGSNH437-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH437-24_r_1.3_s_50	Cyrtopeltis geniculata	0	BGSNH437-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH437-24_r_1.3_s_100	Cyrtopeltis geniculata	0	BGSNH437-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH437-24_r_1.5_s_50	Cyrtopeltis geniculata	0	BGSNH437-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH437-24_r_1.5_s_100	Cyrtopeltis geniculata	0	BGSNH437-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1530	Miridae,Anthocoridae,Pentatomidae	BGSNH438-24_r_1_s_50	Cyrtopeltis geniculata	0	BGSNH438-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH438-24_r_1_s_100	Cyrtopeltis geniculata	0	BGSNH438-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1530	Miridae,Anthocoridae,Pentatomidae	BGSNH438-24_r_1.3_s_50	Cyrtopeltis geniculata	0	BGSNH438-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH438-24_r_1.3_s_100	Cyrtopeltis geniculata	0	BGSNH438-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1530	Miridae,Anthocoridae,Pentatomidae	BGSNH438-24_r_1.5_s_50	Cyrtopeltis geniculata	0	BGSNH438-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH438-24_r_1.5_s_100	Cyrtopeltis geniculata	0	BGSNH438-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH439-24_r_1_s_50	Cyrtopeltis geniculata	0	BGSNH439-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH439-24_r_1_s_100	Cyrtopeltis geniculata	0	BGSNH439-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH439-24_r_1.3_s_50	Cyrtopeltis geniculata	0	BGSNH439-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH439-24_r_1.3_s_100	Cyrtopeltis geniculata	0	BGSNH439-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH439-24_r_1.5_s_50	Cyrtopeltis geniculata	0	BGSNH439-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH439-24_r_1.5_s_100	Cyrtopeltis geniculata	0	BGSNH439-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH440-24_r_1_s_50	Cyrtopeltis geniculata	0	BGSNH440-24	1	50
+5	5	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH440-24_r_1_s_100	Cyrtopeltis geniculata	0	BGSNH440-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH440-24_r_1.3_s_50	Cyrtopeltis geniculata	0	BGSNH440-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH440-24_r_1.3_s_100	Cyrtopeltis geniculata	0	BGSNH440-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH440-24_r_1.5_s_50	Cyrtopeltis geniculata	0	BGSNH440-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1527	Miridae,Anthocoridae,Pentatomidae	BGSNH440-24_r_1.5_s_100	Cyrtopeltis geniculata	0	BGSNH440-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH441-24_r_1_s_50	Damioscea komaroffii	0	BGSNH441-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH441-24_r_1_s_100	Damioscea komaroffii	0	BGSNH441-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH441-24_r_1.3_s_50	Damioscea komaroffii	0	BGSNH441-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH441-24_r_1.3_s_100	Damioscea komaroffii	0	BGSNH441-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1491	Miridae	BGSNH441-24_r_1.5_s_50	Damioscea komaroffii	0	BGSNH441-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1491	Miridae	BGSNH441-24_r_1.5_s_100	Damioscea komaroffii	0	BGSNH441-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH442-24_r_1_s_50	Damioscea komaroffii	0	BGSNH442-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH442-24_r_1_s_100	Damioscea komaroffii	0	BGSNH442-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH442-24_r_1.3_s_50	Damioscea komaroffii	0	BGSNH442-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH442-24_r_1.3_s_100	Damioscea komaroffii	0	BGSNH442-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1494	Miridae	BGSNH442-24_r_1.5_s_50	Damioscea komaroffii	0	BGSNH442-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1494	Miridae	BGSNH442-24_r_1.5_s_100	Damioscea komaroffii	0	BGSNH442-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH443-24_r_1_s_50	Damioscea komaroffii	0	BGSNH443-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH443-24_r_1_s_100	Damioscea komaroffii	0	BGSNH443-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1518	Miridae	BGSNH443-24_r_1.3_s_50	Damioscea komaroffii	0	BGSNH443-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1518	Miridae	BGSNH443-24_r_1.3_s_100	Damioscea komaroffii	0	BGSNH443-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	649	1452	Miridae	BGSNH443-24_r_1.5_s_50	Damioscea komaroffii	0	BGSNH443-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	649	1452	Miridae	BGSNH443-24_r_1.5_s_100	Damioscea komaroffii	0	BGSNH443-24	1.5	100
+2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH444-24_r_1_s_50	Damioscea komaroffii	0	BGSNH444-24	1	50
+3	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1527	Miridae	BGSNH444-24_r_1_s_100	Damioscea komaroffii	0	BGSNH444-24	1	100
+2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1518	Miridae	BGSNH444-24_r_1.3_s_50	Damioscea komaroffii	0	BGSNH444-24	1.3	50
+3	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1518	Miridae	BGSNH444-24_r_1.3_s_100	Damioscea komaroffii	0	BGSNH444-24	1.3	100
+2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	643	1440	Miridae	BGSNH444-24_r_1.5_s_50	Damioscea komaroffii	0	BGSNH444-24	1.5	50
+3	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	640	1428	Miridae	BGSNH444-24_r_1.5_s_100	Damioscea komaroffii	0	BGSNH444-24	1.5	100
+3	16	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH445-24_r_1_s_50	Deraeocoris cordiger	0	BGSNH445-24	1	50
+5	26	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae	BGSNH445-24_r_1_s_100	Deraeocoris cordiger	0	BGSNH445-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Pentatomidae,Largidae	BGSNH445-24_r_1.3_s_50	Deraeocoris cordiger	0	BGSNH445-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Pentatomidae,Largidae	BGSNH445-24_r_1.3_s_100	Deraeocoris cordiger	0	BGSNH445-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	649	1503	Gerridae,Miridae,Pentatomidae,Rhyparochromidae,Heterogastridae,Geocoridae,Coreidae	BGSNH445-24_r_1.5_s_50	Deraeocoris cordiger	0	BGSNH445-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	649	1392	Gerridae,Miridae,Pentatomidae,Rhyparochromidae,Heterogastridae,Geocoridae,Coreidae	BGSNH445-24_r_1.5_s_100	Deraeocoris cordiger	0	BGSNH445-24	1.5	100
+2	32	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae	BGSNH446-24_r_1_s_50	Deraeocoris cordiger	0	BGSNH446-24	1	50
+13	41	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1503	Miridae	BGSNH446-24_r_1_s_100	Deraeocoris cordiger	0	BGSNH446-24	1	100
+0	8	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Reduviidae,Scutelleridae	BGSNH446-24_r_1.3_s_50	Deraeocoris cordiger	0	BGSNH446-24	1.3	50
+0	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1482	Miridae	BGSNH446-24_r_1.3_s_100	Deraeocoris cordiger	0	BGSNH446-24	1.3	100
+3	3	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1437	Miridae,Pentatomidae,Largidae	BGSNH446-24_r_1.5_s_50	Deraeocoris cordiger	0	BGSNH446-24	1.5	50
+4	7	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	631	1356	Miridae,Pentatomidae,Heterogastridae	BGSNH446-24_r_1.5_s_100	Deraeocoris cordiger	0	BGSNH446-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Pentatomidae,Largidae	BGSNH447-24_r_1_s_50	Deraeocoris cordiger	0	BGSNH447-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Pentatomidae,Largidae	BGSNH447-24_r_1_s_100	Deraeocoris cordiger	0	BGSNH447-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Pentatomidae,Largidae	BGSNH447-24_r_1.3_s_50	Deraeocoris cordiger	0	BGSNH447-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Pentatomidae,Largidae	BGSNH447-24_r_1.3_s_100	Deraeocoris cordiger	0	BGSNH447-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1518	Miridae,Pentatomidae,Largidae	BGSNH447-24_r_1.5_s_50	Deraeocoris cordiger	0	BGSNH447-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1422	Miridae,Pentatomidae,Heterogastridae,Largidae	BGSNH447-24_r_1.5_s_100	Deraeocoris cordiger	0	BGSNH447-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Pentatomidae,Largidae	BGSNH448-24_r_1_s_50	Deraeocoris cordiger	0	BGSNH448-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Pentatomidae,Largidae	BGSNH448-24_r_1_s_100	Deraeocoris cordiger	0	BGSNH448-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Pentatomidae,Largidae	BGSNH448-24_r_1.3_s_50	Deraeocoris cordiger	0	BGSNH448-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Pentatomidae,Largidae	BGSNH448-24_r_1.3_s_100	Deraeocoris cordiger	0	BGSNH448-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1518	Miridae,Pentatomidae,Largidae	BGSNH448-24_r_1.5_s_50	Deraeocoris cordiger	0	BGSNH448-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1437	Miridae,Pentatomidae,Heterogastridae,Largidae	BGSNH448-24_r_1.5_s_100	Deraeocoris cordiger	0	BGSNH448-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH449-24_r_1_s_50	Deraeocoris punctum	0	BGSNH449-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH449-24_r_1_s_100	Deraeocoris punctum	0	BGSNH449-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH449-24_r_1.3_s_50	Deraeocoris punctum	0	BGSNH449-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH449-24_r_1.3_s_100	Deraeocoris punctum	0	BGSNH449-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1524	Miridae	BGSNH449-24_r_1.5_s_50	Deraeocoris punctum	0	BGSNH449-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1467	Miridae	BGSNH449-24_r_1.5_s_100	Deraeocoris punctum	0	BGSNH449-24	1.5	100
+6	72	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	654	1527	Miridae	BGSNH450-24_r_1_s_50	Deraeocoris punctum	0	BGSNH450-24	1	50
+3	53	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	652	1413	Miridae	BGSNH450-24_r_1_s_100	Deraeocoris punctum	0	BGSNH450-24	1	100
+0	16	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	654	1530	Miridae	BGSNH450-24_r_1.3_s_50	Deraeocoris punctum	0	BGSNH450-24	1.3	50
+0	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1371	Miridae	BGSNH450-24_r_1.3_s_100	Deraeocoris punctum	0	BGSNH450-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	654	1482	Miridae	BGSNH450-24_r_1.5_s_50	Deraeocoris punctum	0	BGSNH450-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	595	1233	Miridae	BGSNH450-24_r_1.5_s_100	Deraeocoris punctum	0	BGSNH450-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH451-24_r_1_s_50	Deraeocoris punctum	0	BGSNH451-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH451-24_r_1_s_100	Deraeocoris punctum	0	BGSNH451-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH451-24_r_1.3_s_50	Deraeocoris punctum	0	BGSNH451-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH451-24_r_1.3_s_100	Deraeocoris punctum	0	BGSNH451-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1521	Miridae	BGSNH451-24_r_1.5_s_50	Deraeocoris punctum	0	BGSNH451-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1431	Miridae	BGSNH451-24_r_1.5_s_100	Deraeocoris punctum	0	BGSNH451-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH452-24_r_1_s_50	Deraeocoris punctum	0	BGSNH452-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae	BGSNH452-24_r_1_s_100	Deraeocoris punctum	0	BGSNH452-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae	BGSNH452-24_r_1.3_s_50	Deraeocoris punctum	0	BGSNH452-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae	BGSNH452-24_r_1.3_s_100	Deraeocoris punctum	0	BGSNH452-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1524	Miridae	BGSNH452-24_r_1.5_s_50	Deraeocoris punctum	0	BGSNH452-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1425	Miridae	BGSNH452-24_r_1.5_s_100	Deraeocoris punctum	0	BGSNH452-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH453-24_r_1_s_50	Deraeocoris ribauti	0	BGSNH453-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH453-24_r_1_s_100	Deraeocoris ribauti	0	BGSNH453-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH453-24_r_1.3_s_50	Deraeocoris ribauti	0	BGSNH453-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH453-24_r_1.3_s_100	Deraeocoris ribauti	0	BGSNH453-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1506	Miridae,Braconidae	BGSNH453-24_r_1.5_s_50	Deraeocoris ribauti	0	BGSNH453-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1443	Miridae,Braconidae	BGSNH453-24_r_1.5_s_100	Deraeocoris ribauti	0	BGSNH453-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH454-24_r_1_s_50	Deraeocoris ribauti	0	BGSNH454-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH454-24_r_1_s_100	Deraeocoris ribauti	0	BGSNH454-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH454-24_r_1.3_s_50	Deraeocoris ribauti	0	BGSNH454-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH454-24_r_1.3_s_100	Deraeocoris ribauti	0	BGSNH454-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1500	Miridae,Braconidae	BGSNH454-24_r_1.5_s_50	Deraeocoris ribauti	0	BGSNH454-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1434	Miridae,Braconidae	BGSNH454-24_r_1.5_s_100	Deraeocoris ribauti	0	BGSNH454-24	1.5	100
+1	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH455-24_r_1_s_50	Deraeocoris ribauti	0	BGSNH455-24	1	50
+3	8	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH455-24_r_1_s_100	Deraeocoris ribauti	0	BGSNH455-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH455-24_r_1.3_s_50	Deraeocoris ribauti	0	BGSNH455-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH455-24_r_1.3_s_100	Deraeocoris ribauti	0	BGSNH455-24	1.3	100
+0	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1449	Miridae,Braconidae	BGSNH455-24_r_1.5_s_50	Deraeocoris ribauti	0	BGSNH455-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1386	Miridae,Braconidae	BGSNH455-24_r_1.5_s_100	Deraeocoris ribauti	0	BGSNH455-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH456-24_r_1_s_50	Deraeocoris ribauti	0	BGSNH456-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH456-24_r_1_s_100	Deraeocoris ribauti	0	BGSNH456-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH456-24_r_1.3_s_50	Deraeocoris ribauti	0	BGSNH456-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH456-24_r_1.3_s_100	Deraeocoris ribauti	0	BGSNH456-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1482	Miridae,Braconidae	BGSNH456-24_r_1.5_s_50	Deraeocoris ribauti	0	BGSNH456-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1401	Miridae,Braconidae	BGSNH456-24_r_1.5_s_100	Deraeocoris ribauti	0	BGSNH456-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH457-24_r_1_s_50	Deraeocoris rutilus	0	BGSNH457-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH457-24_r_1_s_100	Deraeocoris rutilus	0	BGSNH457-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH457-24_r_1.3_s_50	Deraeocoris rutilus	0	BGSNH457-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH457-24_r_1.3_s_100	Deraeocoris rutilus	0	BGSNH457-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1485	Miridae,Braconidae	BGSNH457-24_r_1.5_s_50	Deraeocoris rutilus	0	BGSNH457-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1422	Miridae,Braconidae	BGSNH457-24_r_1.5_s_100	Deraeocoris rutilus	0	BGSNH457-24	1.5	100
+1	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH458-24_r_1_s_50	Deraeocoris rutilus	0	BGSNH458-24	1	50
+2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae	BGSNH458-24_r_1_s_100	Deraeocoris rutilus	0	BGSNH458-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH458-24_r_1.3_s_50	Deraeocoris rutilus	0	BGSNH458-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH458-24_r_1.3_s_100	Deraeocoris rutilus	0	BGSNH458-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1446	Miridae,Braconidae	BGSNH458-24_r_1.5_s_50	Deraeocoris rutilus	0	BGSNH458-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	649	1377	Miridae,Pentatomidae,Malcidae	BGSNH458-24_r_1.5_s_100	Deraeocoris rutilus	0	BGSNH458-24	1.5	100
+2	2	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH459-24_r_1_s_50	Deraeocoris rutilus	0	BGSNH459-24	1	50
+0	1	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH459-24_r_1_s_100	Deraeocoris rutilus	0	BGSNH459-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1533	Miridae,Braconidae	BGSNH459-24_r_1.3_s_50	Deraeocoris rutilus	0	BGSNH459-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH459-24_r_1.3_s_100	Deraeocoris rutilus	0	BGSNH459-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1479	Miridae,Braconidae	BGSNH459-24_r_1.5_s_50	Deraeocoris rutilus	0	BGSNH459-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1383	Miridae,Braconidae	BGSNH459-24_r_1.5_s_100	Deraeocoris rutilus	0	BGSNH459-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH460-24_r_1_s_50	Deraeocoris rutilus	0	BGSNH460-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH460-24_r_1_s_100	Deraeocoris rutilus	0	BGSNH460-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH460-24_r_1.3_s_50	Deraeocoris rutilus	0	BGSNH460-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1530	Miridae,Braconidae	BGSNH460-24_r_1.3_s_100	Deraeocoris rutilus	0	BGSNH460-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1455	Miridae,Braconidae	BGSNH460-24_r_1.5_s_50	Deraeocoris rutilus	0	BGSNH460-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1392	Miridae,Braconidae	BGSNH460-24_r_1.5_s_100	Deraeocoris rutilus	0	BGSNH460-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH461-24_r_1_s_50	Dichrooscytus algiricus	0	BGSNH461-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH461-24_r_1_s_100	Dichrooscytus algiricus	0	BGSNH461-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH461-24_r_1.3_s_50	Dichrooscytus algiricus	0	BGSNH461-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH461-24_r_1.3_s_100	Dichrooscytus algiricus	0	BGSNH461-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH461-24_r_1.5_s_50	Dichrooscytus algiricus	0	BGSNH461-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH461-24_r_1.5_s_100	Dichrooscytus algiricus	0	BGSNH461-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH462-24_r_1_s_50	Dichrooscytus bureschi	0	BGSNH462-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH462-24_r_1_s_100	Dichrooscytus bureschi	0	BGSNH462-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH462-24_r_1.3_s_50	Dichrooscytus bureschi	0	BGSNH462-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH462-24_r_1.3_s_100	Dichrooscytus bureschi	0	BGSNH462-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH462-24_r_1.5_s_50	Dichrooscytus bureschi	0	BGSNH462-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH462-24_r_1.5_s_100	Dichrooscytus bureschi	0	BGSNH462-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH463-24_r_1_s_50	Dichrooscytus bureschi	0	BGSNH463-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH463-24_r_1_s_100	Dichrooscytus bureschi	0	BGSNH463-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH463-24_r_1.3_s_50	Dichrooscytus bureschi	0	BGSNH463-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH463-24_r_1.3_s_100	Dichrooscytus bureschi	0	BGSNH463-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH463-24_r_1.5_s_50	Dichrooscytus bureschi	0	BGSNH463-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	655	1536	Miridae,Braconidae	BGSNH463-24_r_1.5_s_100	Dichrooscytus bureschi	0	BGSNH463-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH464-24_r_1_s_50	Dichrooscytus cyprius	0	BGSNH464-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH464-24_r_1_s_100	Dichrooscytus cyprius	0	BGSNH464-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH464-24_r_1.3_s_50	Dichrooscytus cyprius	0	BGSNH464-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH464-24_r_1.3_s_100	Dichrooscytus cyprius	0	BGSNH464-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH464-24_r_1.5_s_50	Dichrooscytus cyprius	0	BGSNH464-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	657	1536	Miridae,Braconidae	BGSNH464-24_r_1.5_s_100	Dichrooscytus cyprius	0	BGSNH464-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH465-24_r_1_s_50	Dichrooscytus dalmatinus	0	BGSNH465-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH465-24_r_1_s_100	Dichrooscytus dalmatinus	0	BGSNH465-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH465-24_r_1.3_s_50	Dichrooscytus dalmatinus	0	BGSNH465-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH465-24_r_1.3_s_100	Dichrooscytus dalmatinus	0	BGSNH465-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH465-24_r_1.5_s_50	Dichrooscytus dalmatinus	0	BGSNH465-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH465-24_r_1.5_s_100	Dichrooscytus dalmatinus	0	BGSNH465-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH466-24_r_1_s_50	Dichrooscytus dalmatinus	0	BGSNH466-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH466-24_r_1_s_100	Dichrooscytus dalmatinus	0	BGSNH466-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH466-24_r_1.3_s_50	Dichrooscytus dalmatinus	0	BGSNH466-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH466-24_r_1.3_s_100	Dichrooscytus dalmatinus	0	BGSNH466-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH466-24_r_1.5_s_50	Dichrooscytus dalmatinus	0	BGSNH466-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH466-24_r_1.5_s_100	Dichrooscytus dalmatinus	0	BGSNH466-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH467-24_r_1_s_50	Dichrooscytus dalmatinus	0	BGSNH467-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH467-24_r_1_s_100	Dichrooscytus dalmatinus	0	BGSNH467-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH467-24_r_1.3_s_50	Dichrooscytus dalmatinus	0	BGSNH467-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH467-24_r_1.3_s_100	Dichrooscytus dalmatinus	0	BGSNH467-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH467-24_r_1.5_s_50	Dichrooscytus dalmatinus	0	BGSNH467-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH467-24_r_1.5_s_100	Dichrooscytus dalmatinus	0	BGSNH467-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH468-24_r_1_s_50	Dichrooscytus dalmatinus	0	BGSNH468-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH468-24_r_1_s_100	Dichrooscytus dalmatinus	0	BGSNH468-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH468-24_r_1.3_s_50	Dichrooscytus dalmatinus	0	BGSNH468-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH468-24_r_1.3_s_100	Dichrooscytus dalmatinus	0	BGSNH468-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH468-24_r_1.5_s_50	Dichrooscytus dalmatinus	0	BGSNH468-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH468-24_r_1.5_s_100	Dichrooscytus dalmatinus	0	BGSNH468-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH469-24_r_1_s_50	Dichrooscytus valesianus	0	BGSNH469-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH469-24_r_1_s_100	Dichrooscytus valesianus	0	BGSNH469-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH469-24_r_1.3_s_50	Dichrooscytus valesianus	0	BGSNH469-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH469-24_r_1.3_s_100	Dichrooscytus valesianus	0	BGSNH469-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH469-24_r_1.5_s_50	Dichrooscytus valesianus	0	BGSNH469-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH469-24_r_1.5_s_100	Dichrooscytus valesianus	0	BGSNH469-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH470-24_r_1_s_50	Dichrooscytus valesianus	0	BGSNH470-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH470-24_r_1_s_100	Dichrooscytus valesianus	0	BGSNH470-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH470-24_r_1.3_s_50	Dichrooscytus valesianus	0	BGSNH470-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH470-24_r_1.3_s_100	Dichrooscytus valesianus	0	BGSNH470-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH470-24_r_1.5_s_50	Dichrooscytus valesianus	0	BGSNH470-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH470-24_r_1.5_s_100	Dichrooscytus valesianus	0	BGSNH470-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH471-24_r_1_s_50	Dichrooscytus valesianus	0	BGSNH471-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH471-24_r_1_s_100	Dichrooscytus valesianus	0	BGSNH471-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH471-24_r_1.3_s_50	Dichrooscytus valesianus	0	BGSNH471-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH471-24_r_1.3_s_100	Dichrooscytus valesianus	0	BGSNH471-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH471-24_r_1.5_s_50	Dichrooscytus valesianus	0	BGSNH471-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH471-24_r_1.5_s_100	Dichrooscytus valesianus	0	BGSNH471-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH472-24_r_1_s_50	Dichrooscytus valesianus	0	BGSNH472-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH472-24_r_1_s_100	Dichrooscytus valesianus	0	BGSNH472-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH472-24_r_1.3_s_50	Dichrooscytus valesianus	0	BGSNH472-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH472-24_r_1.3_s_100	Dichrooscytus valesianus	0	BGSNH472-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH472-24_r_1.5_s_50	Dichrooscytus valesianus	0	BGSNH472-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1536	Miridae,Braconidae	BGSNH472-24_r_1.5_s_100	Dichrooscytus valesianus	0	BGSNH472-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH473-24_r_1_s_50	Dicyphus botrydis	0	BGSNH473-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH473-24_r_1_s_100	Dicyphus botrydis	0	BGSNH473-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH473-24_r_1.3_s_50	Dicyphus botrydis	0	BGSNH473-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH473-24_r_1.3_s_100	Dicyphus botrydis	0	BGSNH473-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH473-24_r_1.5_s_50	Dicyphus botrydis	0	BGSNH473-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH473-24_r_1.5_s_100	Dicyphus botrydis	0	BGSNH473-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH474-24_r_1_s_50	Dicyphus botrydis	0	BGSNH474-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH474-24_r_1_s_100	Dicyphus botrydis	0	BGSNH474-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH474-24_r_1.3_s_50	Dicyphus botrydis	0	BGSNH474-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH474-24_r_1.3_s_100	Dicyphus botrydis	0	BGSNH474-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH474-24_r_1.5_s_50	Dicyphus botrydis	0	BGSNH474-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH474-24_r_1.5_s_100	Dicyphus botrydis	0	BGSNH474-24	1.5	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH475-24_r_1_s_50	Dicyphus botrydis	0	BGSNH475-24	1	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH475-24_r_1_s_100	Dicyphus botrydis	0	BGSNH475-24	1	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH475-24_r_1.3_s_50	Dicyphus botrydis	0	BGSNH475-24	1.3	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH475-24_r_1.3_s_100	Dicyphus botrydis	0	BGSNH475-24	1.3	100
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH475-24_r_1.5_s_50	Dicyphus botrydis	0	BGSNH475-24	1.5	50
+0	0	data/BGE00320_MGE-BGE_r1_1.3_1.5_s50_100.fasta	None	Miridae	BLAST	family	COI-5P	656	1533	Miridae	BGSNH475-24_r_1.5_s_100	Dicyphus botrydis	0	BGSNH475-24	1.5	100
