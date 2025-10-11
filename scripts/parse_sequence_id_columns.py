@@ -155,16 +155,23 @@ def fix_file(tsv_file: Path, dry_run: bool = False) -> bool:
         True if successful, False otherwise
     """
     try:
-        # Read the file
+        # Read the file using csv.reader to preserve all columns including duplicates
         with open(tsv_file, 'r', encoding='utf-8') as f:
-            reader = csv.DictReader(f, delimiter='\t')
-            fieldnames = list(reader.fieldnames)
+            reader = csv.reader(f, delimiter='\t')
+            header = next(reader)
             rows = list(reader)
         
         # Determine which columns to add
-        has_group_id = 'group_id' in fieldnames
-        has_r = 'r' in fieldnames
-        has_s = 's' in fieldnames
+        has_group_id = 'group_id' in header
+        has_r = 'r' in header
+        has_s = 's' in header
+        
+        # Find the index of sequence_id column
+        try:
+            sequence_id_idx = header.index('sequence_id')
+        except ValueError:
+            print(f"Error: sequence_id column not found in {tsv_file}", file=sys.stderr)
+            return False
         
         # Add new columns at the end (only the ones that are missing)
         columns_to_add = []
@@ -175,39 +182,39 @@ def fix_file(tsv_file: Path, dry_run: bool = False) -> bool:
         if not has_s:
             columns_to_add.append('s')
         
-        new_fieldnames = fieldnames + columns_to_add
+        new_header = header + columns_to_add
         
         # Parse and populate new columns
         new_rows = []
         for row in rows:
             new_row = row.copy()
-            seq_id = row.get('sequence_id', '')
+            seq_id = row[sequence_id_idx] if sequence_id_idx < len(row) else ''
             parsed = parse_sequence_id(seq_id)
             
             if parsed:
                 group_id, r, s = parsed
                 if not has_group_id:
-                    new_row['group_id'] = group_id
+                    new_row.append(group_id)
                 if not has_r:
-                    new_row['r'] = r
+                    new_row.append(r)
                 if not has_s:
-                    new_row['s'] = s
+                    new_row.append(s)
             else:
                 # If parsing fails, leave empty
                 if not has_group_id:
-                    new_row['group_id'] = ''
+                    new_row.append('')
                 if not has_r:
-                    new_row['r'] = ''
+                    new_row.append('')
                 if not has_s:
-                    new_row['s'] = ''
+                    new_row.append('')
             
             new_rows.append(new_row)
         
         if not dry_run:
             # Write the modified file
             with open(tsv_file, 'w', encoding='utf-8', newline='') as f:
-                writer = csv.DictWriter(f, fieldnames=new_fieldnames, delimiter='\t')
-                writer.writeheader()
+                writer = csv.writer(f, delimiter='\t')
+                writer.writerow(new_header)
                 writer.writerows(new_rows)
         
         return True
