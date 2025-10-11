@@ -38,5 +38,5 @@ ref_rank	false	Taxonomic rank of reference sequence
 BOLD_submission	false	BOLD Systems submission identifier
 cleaning_removed_reference	false	Number of reads removed due to reference filtering during cleaning
 length	false	Sequence length
-r	false	MGE parameter r value
-s	false	MGE parameter s value
+r	true	MGE parameter r value
+s	true	MGE parameter s value
