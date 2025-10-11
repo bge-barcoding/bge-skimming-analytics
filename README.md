@@ -45,7 +45,7 @@ The analysis found 5 unique coverage patterns across 168 TSV files, ranging from
 
 ### fix_filename_column.py
 
-Handles TSV files with a `Filename` column to identify and remove redundant data.
+Handles TSV files with a `Filename` column to identify and remove redundant data where Pattern 1 is detected.
 
 **Usage:**
 ```bash
@@ -56,18 +56,21 @@ python scripts/fix_filename_column.py [--dry-run] [--data-dir DIR]
 
 This script scans TSV files in the data directory for a `Filename` column and takes appropriate action:
 
-1. **Remove** the `Filename` column if `sequence_id` exists and all values match (redundant column)
-2. **Report** files where `Filename` and `sequence_id` values differ for manual review
+1. **Remove** the `Filename` column if files match Pattern 1 (sequence_id equals Filename or Filename + '_merge')
+2. **Report** files not matching Pattern 1 for manual review
 
-When the `Filename` column contains identical values to the `sequence_id` column, it is redundant and can be safely removed. However, when values differ, both columns may serve different purposes (e.g., original filename vs. normalized sequence identifier) and should be reviewed before removal.
+**Pattern 1 Definition:**
+Files where all rows satisfy: `sequence_id` == `Filename` OR `sequence_id` == `Filename + '_merge'`
+
+In Pattern 1 files, the `sequence_id` is the correct identifier and the `Filename` column is redundant. The script handles cases where some rows have an exact match and other rows have the `_merge` suffix pattern.
 
 **Options:**
 - `--dry-run`: Show what would be done without making changes
 - `--data-dir`: Data directory to search (default: `data/`)
 
 **Results:**
-- Automatically removed `Filename` from 1 file where all values matched `sequence_id`
-- Reported 54 files with differing values for manual review
+- Automatically removed `Filename` from 40 Pattern 1 files
+- Reported 14 files not matching Pattern 1 for manual review
 
 **Documentation:** See [docs/FILENAME_FIX.md](docs/FILENAME_FIX.md) for detailed information.
 

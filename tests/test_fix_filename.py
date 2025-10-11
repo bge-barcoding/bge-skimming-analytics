@@ -26,8 +26,8 @@ def temp_dir():
 
 
 def test_analyze_file_remove(temp_dir):
-    """Test that files with matching Filename and sequence_id are identified for removal."""
-    # Create a test file where Filename matches sequence_id
+    """Test that files matching Pattern 1 are identified for removal."""
+    # Create a test file where Filename matches sequence_id (Pattern 1)
     test_file = temp_dir / "test_remove.tsv"
     with open(test_file, 'w', newline='') as f:
         writer = csv.writer(f, delimiter='\t')
@@ -37,7 +37,23 @@ def test_analyze_file_remove(temp_dir):
     
     action, message = analyze_file(test_file)
     assert action == 'remove'
-    assert 'values match' in message.lower()
+    assert 'pattern 1' in message.lower()
+
+
+def test_analyze_file_remove_with_merge_suffix(temp_dir):
+    """Test that files where sequence_id = Filename + '_merge' are identified for removal (Pattern 1)."""
+    # Create a test file with the _merge pattern
+    test_file = temp_dir / "test_remove_merge.tsv"
+    with open(test_file, 'w', newline='') as f:
+        writer = csv.writer(f, delimiter='\t')
+        writer.writerow(['sequence_id', 'Filename', 'error'])
+        writer.writerow(['seq1_r_1_s_50', 'seq1_r_1_s_50', ''])
+        writer.writerow(['seq2_r_1_s_100_merge', 'seq2_r_1_s_100', ''])  # Pattern 1: has _merge suffix
+        writer.writerow(['seq3_r_1_s_50', 'seq3_r_1_s_50', ''])
+    
+    action, message = analyze_file(test_file)
+    assert action == 'remove'
+    assert 'pattern 1' in message.lower()
 
 
 def test_analyze_file_keep_no_sequence_id(temp_dir):
@@ -56,18 +72,18 @@ def test_analyze_file_keep_no_sequence_id(temp_dir):
 
 
 def test_analyze_file_keep_different_values(temp_dir):
-    """Test that files with different Filename and sequence_id are flagged to keep."""
-    # Create a test file where values don't match
+    """Test that files not matching Pattern 1 are flagged to keep."""
+    # Create a test file where values don't match Pattern 1 (e.g., Pattern 2 with trailing process ID)
     test_file = temp_dir / "test_keep_diff.tsv"
     with open(test_file, 'w', newline='') as f:
         writer = csv.writer(f, delimiter='\t')
         writer.writerow(['sequence_id', 'Filename', 'error'])
-        writer.writerow(['seq1_r_1_s_50', 'seq1_r_1_s_50', ''])
-        writer.writerow(['seq2_r_1_s_100_merge', 'seq2_r_1_s_100', ''])  # Mismatch
+        writer.writerow(['seq1_r_1_s_50', 'seq1_r_1_s_50_PROC123', ''])  # Filename has extra suffix
+        writer.writerow(['seq2_r_1_s_100', 'seq2_r_1_s_100_PROC456', ''])  # Filename has extra suffix
     
     action, message = analyze_file(test_file)
     assert action == 'keep'
-    assert "don't match" in message.lower()
+    assert 'pattern 1' in message.lower()
 
 
 def test_fix_file_remove(temp_dir):

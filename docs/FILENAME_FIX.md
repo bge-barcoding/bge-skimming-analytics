@@ -2,14 +2,22 @@
 
 ## Problem Statement
 
-Some TSV files in the `data` folder had a column named `Filename` in addition to a `sequence_id` column. In some cases, these columns contained identical values, making the `Filename` column redundant. In other cases, the values differed, indicating that the `Filename` column serves a different purpose and should be retained.
+Some TSV files in the `data` folder had a column named `Filename` in addition to a `sequence_id` column. Analysis revealed that in many cases, the `sequence_id` column followed a specific pattern where it was either identical to `Filename` or equal to `Filename + '_merge'`. This pattern (Pattern 1) indicates that the `sequence_id` is the correct identifier and the `Filename` column is redundant.
 
 The task was to:
 1. Identify all TSV files with a `Filename` column
 2. Check if they also have a `sequence_id` column
-3. Compare the values in both columns
-4. Remove the `Filename` column when all values match `sequence_id`
-5. Report files where the values differ for manual review
+3. Identify files matching Pattern 1 (sequence_id equals Filename or Filename + '_merge')
+4. Remove the `Filename` column from Pattern 1 files
+5. Report files with other patterns for manual review
+
+## Pattern 1 Definition
+
+Pattern 1 files are those where **all** rows satisfy one of the following conditions:
+- `sequence_id` == `Filename` (exact match)
+- `sequence_id` == `Filename + '_merge'` (sequence_id has merge suffix)
+
+In Pattern 1 files, the `sequence_id` is the correct identifier and the `Filename` column can be safely removed.
 
 ## Solution
 
@@ -18,11 +26,11 @@ Created a Python script `scripts/fix_filename_column.py` that:
 1. Scans all TSV files in the data directory for a `Filename` column
 2. For each file with a `Filename` column:
    - Checks if `sequence_id` column exists
-   - Compares all values between `Filename` and `sequence_id`
-   - If all values match: marks file for automatic fixing (removal of `Filename` column)
-   - If values differ or `sequence_id` is absent: marks file for manual review
-3. Removes the `Filename` column from files where values match
-4. Reports files requiring manual review with examples of differing values
+   - Analyzes all rows to determine if they match Pattern 1
+   - If all rows match Pattern 1: marks file for automatic fixing (removal of `Filename` column)
+   - If any row violates Pattern 1: marks file for manual review
+3. Removes the `Filename` column from Pattern 1 files
+4. Reports files not matching Pattern 1 with examples of violations
 
 ## Usage
 
@@ -41,43 +49,46 @@ python scripts/fix_filename_column.py --data-dir /path/to/data
 
 Initial scan found:
 - **55 files** total with a `Filename` column
-- **1 file** where `Filename` matched `sequence_id` exactly (automatically fixed)
-- **54 files** where values differed (reported for manual review)
+- **40 files** matching Pattern 1 (automatically fixed)
+- **14 files** not matching Pattern 1 (reported for manual review)
+- **1 file** was already fixed in a previous run
 
-### Fixed Files
+### Fixed Files (Pattern 1)
 
-The `Filename` column was automatically removed from:
-- `data/nhm/2step/24p/XE-4013.tsv`
+The `Filename` column was automatically removed from 40 files:
 
-In this file, all 32,173 rows had identical values in both `Filename` and `sequence_id` columns, making the `Filename` column redundant.
+**24p files (34 files):**
+- `data/naturalis/2step/24p/BGE00514.tsv`
+- `data/naturalis/2step/24p/BGE00317.tsv`
+- `data/naturalis/2step/24p/BGE00550.tsv`
+... and 31 more files in `data/naturalis/2step/24p/` and `data/nhm/2step/24p/`
 
-### Files Requiring Manual Review
+These files had rows where `sequence_id` was either identical to `Filename` or equal to `Filename + '_merge'`, indicating that the `sequence_id` is the correct identifier.
 
-54 files were identified where the `Filename` and `sequence_id` values differ. These files were **NOT** modified and require manual review to determine if the `Filename` column should be kept.
+### Files Requiring Manual Review (14 files)
 
-Common patterns observed in files requiring manual review:
+14 files were identified where the relationship between `Filename` and `sequence_id` does not match Pattern 1. These files were **NOT** modified and require manual review.
 
-1. **24p files with `_merge` suffix difference**: Most files in `data/naturalis/2step/24p/` and `data/nhm/2step/24p/` show patterns like:
-   - `Filename`: `BSCRO1521-25_r_1.3_s_100_BSCRO1521-25`
-   - `sequence_id`: `BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_merge`
-   
-   The difference is that some rows in `sequence_id` have a `_merge` suffix that is missing from `Filename`.
+**Common pattern in files requiring manual review (Pattern 2):**
 
-2. **6p files with trailing process ID difference**: Files in `data/naturalis/2step/6p/` show patterns like:
-   - `Filename`: `BGSNH001-24_r_1.3_s_100_BGSNH001-24`
-   - `sequence_id`: `BGSNH001-24_r_1.3_s_100`
-   
-   The difference is that `Filename` includes the trailing process ID while `sequence_id` does not.
+Most of these files are in `data/naturalis/2step/6p/` and show a pattern where:
+- `Filename`: `BGSNH001-24_r_1.3_s_100_BGSNH001-24` (includes trailing process ID)
+- `sequence_id`: `BGSNH001-24_r_1.3_s_100` (excludes trailing process ID)
 
-These patterns suggest that:
-- The `Filename` column may represent the original input filename from data processing steps
-- The `sequence_id` column may have been processed/normalized (e.g., adding `_merge` suffix, removing trailing process ID)
-- Both columns may be needed for traceability or data provenance purposes
+Example files:
+- `data/naturalis/2step/6p/BGE00197.tsv`
+- `data/naturalis/2step/6p/BGE00119.tsv`
+- `data/naturalis/2step/6p/BGE00513.tsv`
+... and 11 more
+
+This pattern suggests that `Filename` preserves the original input filename (with trailing process ID) while `sequence_id` has been normalized. Both columns may serve different purposes for data provenance and traceability.
 
 ## Tests
 
 Comprehensive unit tests are provided in `tests/test_fix_filename.py` covering:
-- Detection of files requiring removal vs. manual review
+- Detection of files matching Pattern 1 (exact match)
+- Detection of files matching Pattern 1 (with _merge suffix)
+- Correct identification of files not matching Pattern 1
 - Correct removal of the `Filename` column
 - Dry-run mode functionality
 - Data preservation during fixes
@@ -90,25 +101,29 @@ python -m pytest tests/test_fix_filename.py -v
 
 ## Examples
 
-### Before (file with matching values)
+### Pattern 1 - Before (exact match case)
 ```tsv
 ambig_basecount	Filename	error	sequence_id	species
 2	BGSNL096-23_r_1.3_s_100_BGSNL096-23	None	BGSNL096-23_r_1.3_s_100_BGSNL096-23	Species A
 ```
 
-### After (file with matching values)
+### Pattern 1 - Before (_merge suffix case)
+```tsv
+ambig_basecount	Filename	error	sequence_id	species
+2	BSCRO1521-25_r_1.3_s_100_BSCRO1521-25	None	BSCRO1521-25_r_1.3_s_100_BSCRO1521-25	Species A
+3	BSCRO1521-25_r_1.3_s_100_BSCRO1521-25	None	BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_merge	Species A
+```
+
+### Pattern 1 - After (Filename removed)
 ```tsv
 ambig_basecount	error	sequence_id	species
 2	None	BGSNL096-23_r_1.3_s_100_BGSNL096-23	Species A
+3	None	BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_merge	Species A
 ```
 
-### Files with Differing Values (NOT modified)
+### Pattern 2 - Files NOT Modified (trailing process ID difference)
 ```tsv
-# Example 1: _merge suffix difference
-Filename: BSCRO1521-25_r_1.3_s_100_BSCRO1521-25
-sequence_id: BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_merge
-
-# Example 2: Trailing process ID difference
+# sequence_id is missing the trailing process ID that Filename has
 Filename: BGSNH001-24_r_1.3_s_100_BGSNH001-24
 sequence_id: BGSNH001-24_r_1.3_s_100
 ```
@@ -120,11 +135,11 @@ sequence_id: BGSNH001-24_r_1.3_s_100
 
 ## Recommendations
 
-For the 54 files with differing values, consider:
+For the 14 files with Pattern 2 (not matching Pattern 1), consider:
 
-1. **Investigate the data pipeline**: Understand why `Filename` and `sequence_id` differ in these files
+1. **Investigate the data pipeline**: Understand why the trailing process ID is present in `Filename` but absent in `sequence_id`
 2. **Determine data provenance needs**: If `Filename` represents original input filenames, it may be valuable for traceability
-3. **Consider consolidation**: If the differences are systematic and not meaningful, create a rule to normalize one of the columns
-4. **Update metadata documentation**: Add `Filename` to `metadata/headers.tsv` if it should be a valid column, or document why it's temporary
+3. **Consider normalization**: If the difference is systematic and the trailing process ID is redundant information, consider normalizing `Filename` to match `sequence_id` format
+4. **Update metadata documentation**: Document the purpose and relationship between `Filename` and `sequence_id` columns
 
-The script provides detailed output showing the first 5 mismatches in each file to help with manual review decisions.
+The script provides detailed output showing examples of violations to help with manual review decisions.
