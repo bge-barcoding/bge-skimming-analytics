@@ -43,6 +43,34 @@ The analysis found 5 unique coverage patterns across 168 TSV files, ranging from
 
 **Documentation:** See [docs/TSV_COVERAGE_ANALYSIS.md](docs/TSV_COVERAGE_ANALYSIS.md) for detailed information.
 
+### fix_filename_column.py
+
+Handles TSV files with a `Filename` column to identify and remove redundant data.
+
+**Usage:**
+```bash
+python scripts/fix_filename_column.py [--dry-run] [--data-dir DIR]
+```
+
+**Description:**
+
+This script scans TSV files in the data directory for a `Filename` column and takes appropriate action:
+
+1. **Remove** the `Filename` column if `sequence_id` exists and all values match (redundant column)
+2. **Report** files where `Filename` and `sequence_id` values differ for manual review
+
+When the `Filename` column contains identical values to the `sequence_id` column, it is redundant and can be safely removed. However, when values differ, both columns may serve different purposes (e.g., original filename vs. normalized sequence identifier) and should be reviewed before removal.
+
+**Options:**
+- `--dry-run`: Show what would be done without making changes
+- `--data-dir`: Data directory to search (default: `data/`)
+
+**Results:**
+- Automatically removed `Filename` from 1 file where all values matched `sequence_id`
+- Reported 54 files with differing values for manual review
+
+**Documentation:** See [docs/FILENAME_FIX.md](docs/FILENAME_FIX.md) for detailed information.
+
 ### fix_process_id_column.py
 
 Handles TSV files with a `process_id` column to ensure consistency with the `group_id` standard.
@@ -69,6 +97,8 @@ According to the metadata specification in `metadata/headers.tsv`, `group_id` is
 **Exit codes:**
 - `0`: Success (all files fixed or no process_id columns found)
 - `1`: Manual review required (conflicts or errors detected)
+
+**Documentation:** See [docs/PROCESS_ID_FIX.md](docs/PROCESS_ID_FIX.md) for detailed information.
 
 ### merge_6p_data.py
 
