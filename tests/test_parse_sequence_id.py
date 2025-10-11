@@ -291,6 +291,78 @@ def test_parse_sequence_id_with_underscore_in_process_id():
     assert s == "50"
 
 
+def test_parse_sequence_id_with_repeated_process_id():
+    """Test parsing sequence_id with repeated process ID (no suffix)."""
+    seq_id = "MUSBA3189-25_r_1_s_50_MUSBA3189-25"
+    result = parse_sequence_id(seq_id)
+    assert result is not None
+    group_id, r, s = result
+    assert group_id == "MUSBA3189-25"
+    assert r == "1"
+    assert s == "50"
+
+
+def test_parse_sequence_id_with_merge_suffix():
+    """Test parsing sequence_id with _merge suffix."""
+    seq_id = "MUSBA3189-25_r_1_s_50_MUSBA3189-25_merge"
+    result = parse_sequence_id(seq_id)
+    assert result is not None
+    group_id, r, s = result
+    assert group_id == "MUSBA3189-25"
+    assert r == "1"
+    assert s == "50"
+
+
+def test_parse_sequence_id_with_fcleaner_suffix():
+    """Test parsing sequence_id with _fcleaner suffix."""
+    seq_id = "BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_fcleaner"
+    result = parse_sequence_id(seq_id)
+    assert result is not None
+    group_id, r, s = result
+    assert group_id == "BSCRO1521-25"
+    assert r == "1.3"
+    assert s == "100"
+
+
+def test_parse_sequence_id_with_fcleaner_merge_suffix():
+    """Test parsing sequence_id with _fcleaner_merge suffix."""
+    seq_id = "BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_fcleaner_merge"
+    result = parse_sequence_id(seq_id)
+    assert result is not None
+    group_id, r, s = result
+    assert group_id == "BSCRO1521-25"
+    assert r == "1.3"
+    assert s == "100"
+
+
+def test_parse_sequence_id_with_merge_only_no_repeated_id():
+    """Test parsing sequence_id with _merge but no repeated process ID."""
+    # Edge case: _merge directly after _s_<int>
+    # The regex allows this pattern even though it may not appear in actual data
+    seq_id = "MUSBA3189-25_r_1_s_50_merge"
+    result = parse_sequence_id(seq_id)
+    # This SHOULD match - the repeated process_id is optional
+    assert result is not None
+    group_id, r, s = result
+    assert group_id == "MUSBA3189-25"
+    assert r == "1"
+    assert s == "50"
+
+
+def test_parse_sequence_id_with_fcleaner_only_no_repeated_id():
+    """Test parsing sequence_id with _fcleaner but no repeated process ID."""
+    # Edge case: _fcleaner directly after _s_<int>
+    # The regex allows this pattern even though it may not appear in actual data
+    seq_id = "BSCRO1521-25_r_1.3_s_100_fcleaner"
+    result = parse_sequence_id(seq_id)
+    # This SHOULD match - the repeated process_id is optional
+    assert result is not None
+    group_id, r, s = result
+    assert group_id == "BSCRO1521-25"
+    assert r == "1.3"
+    assert s == "100"
+
+
 def test_fix_file_with_existing_group_id(temp_dir):
     """Test fixing a TSV file that has group_id but missing r and s columns."""
     test_file = temp_dir / "test_with_group_id.tsv"
@@ -331,3 +403,65 @@ def test_fix_file_with_existing_group_id(temp_dir):
     assert rows[1]['r'] == '1.5'
     assert rows[1]['s'] == '100'
     assert rows[1]['identification'] == 'Test2'
+
+
+def test_fix_file_with_merge_suffix(temp_dir):
+    """Test fixing a TSV file with sequence_id containing _merge suffix."""
+    test_file = temp_dir / "test_with_merge.tsv"
+    with open(test_file, 'w', newline='') as f:
+        writer = csv.writer(f, delimiter='\t')
+        writer.writerow(['sequence_id', 'group_id', 'error'])
+        writer.writerow(['MUSBA3189-25_r_1_s_50_MUSBA3189-25_merge', 'MUSBA3189-25', 'None'])
+        writer.writerow(['MUSBA3189-25_r_1.3_s_100_MUSBA3189-25_merge', 'MUSBA3189-25', 'None'])
+    
+    # Fix the file
+    result = fix_file(test_file, dry_run=False)
+    assert result is True
+    
+    # Verify the result
+    with open(test_file, 'r') as f:
+        reader = csv.DictReader(f, delimiter='\t')
+        rows = list(reader)
+    
+    # Check row 1
+    assert rows[0]['sequence_id'] == 'MUSBA3189-25_r_1_s_50_MUSBA3189-25_merge'
+    assert rows[0]['group_id'] == 'MUSBA3189-25'
+    assert rows[0]['r'] == '1'
+    assert rows[0]['s'] == '50'
+    
+    # Check row 2
+    assert rows[1]['sequence_id'] == 'MUSBA3189-25_r_1.3_s_100_MUSBA3189-25_merge'
+    assert rows[1]['group_id'] == 'MUSBA3189-25'
+    assert rows[1]['r'] == '1.3'
+    assert rows[1]['s'] == '100'
+
+
+def test_fix_file_with_fcleaner_merge_suffix(temp_dir):
+    """Test fixing a TSV file with sequence_id containing _fcleaner_merge suffix."""
+    test_file = temp_dir / "test_with_fcleaner_merge.tsv"
+    with open(test_file, 'w', newline='') as f:
+        writer = csv.writer(f, delimiter='\t')
+        writer.writerow(['sequence_id', 'group_id', 'error'])
+        writer.writerow(['BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_fcleaner_merge', 'BSCRO1521-25', 'None'])
+        writer.writerow(['BSCRO1521-25_r_1.5_s_50_BSCRO1521-25_fcleaner', 'BSCRO1521-25', 'None'])
+    
+    # Fix the file
+    result = fix_file(test_file, dry_run=False)
+    assert result is True
+    
+    # Verify the result
+    with open(test_file, 'r') as f:
+        reader = csv.DictReader(f, delimiter='\t')
+        rows = list(reader)
+    
+    # Check row 1
+    assert rows[0]['sequence_id'] == 'BSCRO1521-25_r_1.3_s_100_BSCRO1521-25_fcleaner_merge'
+    assert rows[0]['group_id'] == 'BSCRO1521-25'
+    assert rows[0]['r'] == '1.3'
+    assert rows[0]['s'] == '100'
+    
+    # Check row 2
+    assert rows[1]['sequence_id'] == 'BSCRO1521-25_r_1.5_s_50_BSCRO1521-25_fcleaner'
+    assert rows[1]['group_id'] == 'BSCRO1521-25'
+    assert rows[1]['r'] == '1.5'
+    assert rows[1]['s'] == '50'
