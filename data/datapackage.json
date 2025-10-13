@@ -1,7 +1,7 @@
 {
   "name": "bge-skimming-analytics",
   "title": "BGE Skimming Analytics - Merged Dataset",
-  "description": "Merged dataset containing all barcode validation results from BGE genome skimming project",
+  "description": "Merged dataset containing barcode validation results from BGE genome skimming project",
   "version": "1.0.0",
   "licenses": [
     {
