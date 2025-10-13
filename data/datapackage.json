@@ -55,7 +55,7 @@
             "name": "ambig_original",
             "type": "integer",
             "format": "default",
-            "description": "Number of ambiguous bases in full the barcode consensus sequence prior to barcode region extraction"
+            "description": "Number of ambiguous bases across the full barcode consensus sequence prior to barcode region extraction"
           },
           {
             "name": "assembly_params",
