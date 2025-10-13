@@ -60,8 +60,9 @@ The data processing workflow consists of several steps, each addressing specific
 - `parse_sequence_id_columns.py` - Extracts `group_id`, `r`, `s` from `sequence_id` patterns ([details](SEQUENCE_ID_PARSING.md))
 - `parse_mge_params_columns.py` - Extracts `r`, `s` from `mge_params` patterns ([details](MGE_PARAMS_PARSING.md))
 - `add_fcleaner_merge_columns.py` - Adds boolean flags for data processing steps ([details](FCLEANER_MERGE_COLUMNS.md))
+- `add_metadata_columns.py` - Adds metadata columns (`inst`, `validation_steps`, `assembly_params`) based on directory structure
 
-**Why**: Separating structured identifiers into components enables filtering, grouping, and analysis by individual parameters.
+**Why**: Separating structured identifiers into components enables filtering, grouping, and analysis by individual parameters. Metadata columns capture information about the institute, validation procedure, and assembly parameters used.
 
 ### 4. Data Merging
 
@@ -98,7 +99,7 @@ When processing new data files, follow this recommended order:
 
 1. **Standardize column names** (fix_process_id, fix_n_aligned)
 2. **Parse structured identifiers** (parse_sequence_id, parse_mge_params)
-3. **Add derived columns** (add_fcleaner_merge_columns)
+3. **Add derived columns** (add_fcleaner_merge_columns, add_metadata_columns)
 4. **Remove redundant columns** (fix_filename, remove_backbone_source)
 5. **Merge external data** (merge_6p_data, bv_metrics_merger)
 6. **Remove unwanted rows** (remove_negative_controls)

@@ -42,3 +42,6 @@ r	true	MGE parameter r value
 s	true	MGE parameter s value
 fcleaner	true	Indicates whether FASTA cleaner (fcleaner) data cleaning step was applied
 merge	true	Indicates whether data merging operation was applied
+inst	false	Institute that processed the data (Naturalis Biodiversity Center or Natural History Museum)
+validation_steps	false	Number of validation steps applied (1 or 2)
+assembly_params	false	Number of assembly parameters explored (6 or 24)

@@ -220,6 +220,35 @@ This script detects `_fcleaner` and `_merge` suffixes in `sequence_id` values an
 
 ---
 
+#### add_metadata_columns.py
+
+Adds metadata columns (`inst`, `validation_steps`, `assembly_params`) to TSV files based on their directory structure.
+
+**Usage:**
+```bash
+python scripts/add_metadata_columns.py [--dry-run] [--data-dir DIR]
+```
+
+**Description:**
+
+This script analyzes the directory path of each TSV file and adds three metadata columns:
+
+- `inst`: Institute that processed the data
+  - `naturalis/` → "Naturalis Biodiversity Center"
+  - `nhm/` → "Natural History Museum"
+- `validation_steps`: Number of validation steps applied
+  - `1step/` → 1 (single-step validation)
+  - `2step/` → 2 (two-step validation)
+- `assembly_params`: Number of assembly parameters explored
+  - `6p/` → 6 (explored r and s parameters only)
+  - `24p/` → 24 (also included fcleaner and merge parameters)
+
+**Options:**
+- `--dry-run`: Show what would be done without making changes
+- `--data-dir`: Data directory to search (default: `data/`)
+
+---
+
 ### Data Merging
 
 #### merge_6p_data.py
