@@ -5,14 +5,14 @@ Merge TSV and CSV files from 6p validation data.
 This script finds matching BGE00*** TSV and CSV files, performs preprocessing
 on the CSV files to create a join column, and merges them based on sequence_id.
 
-TSV files: data/naturalis/2step/6p/BGE00***.tsv
-CSV files: data/naturalis/2step/6p/inputs/BGE00***_MGE-BGE_r1_1.3_1.5_s50_100.csv
+TSV files: data/naturalis/1step/6p/BGE00***.tsv
+CSV files: data/naturalis/1step/6p/BGE00***_MGE-BGE_r1_1.3_1.5_s50_100.csv
 
 The CSV files have a 'Filename' column with values like "PROCESS-ID_r_1.3_s_100_PROCESS-ID"
 and a 'Process ID' column. The join column is created by stripping the suffix "_PROCESS-ID"
 from the Filename, which matches the 'sequence_id' column in the TSV files.
 
-Output files: data/naturalis/2step/6p/BGE00***_merged.tsv
+Output files: data/naturalis/1step/6p/BGE00***_merged.tsv
 
 Usage: python merge_6p_data.py
 """
@@ -78,11 +78,17 @@ def preprocess_csv(csv_df: pd.DataFrame) -> pd.DataFrame:
     and the 'Process ID' column contains "PROCESS-ID".
     We strip the suffix "_PROCESS-ID" from Filename to create the join column.
     
+    Also renames columns to match metadata/headers.tsv:
+    - n_reads -> n_reads_in
+    - n_aligned -> n_reads_aligned
+    - skipped_reads_low_rel -> n_reads_skipped
+    - length -> ref_length
+    
     Args:
         csv_df: DataFrame from CSV file
     
     Returns:
-        DataFrame with added 'sequence_id' column for joining
+        DataFrame with added 'sequence_id' column for joining and renamed columns
     """
     # Create a copy to avoid modifying the original
     df = csv_df.copy()
@@ -98,6 +104,15 @@ def preprocess_csv(csv_df: pd.DataFrame) -> pd.DataFrame:
         return filename
     
     df['sequence_id'] = df.apply(create_join_key, axis=1)
+    
+    # Rename columns to match expected headers
+    column_mapping = {
+        'n_reads': 'n_reads_in',
+        'n_aligned': 'n_reads_aligned',
+        'skipped_reads_low_rel': 'n_reads_skipped',
+        'length': 'ref_length'
+    }
+    df = df.rename(columns=column_mapping)
     
     return df
 
@@ -148,6 +163,13 @@ def merge_files(tsv_path: str, csv_path: str, output_path: str) -> pd.DataFrame:
     
     print(f"  Merged shape: {merged_df.shape}")
     
+    # Remove redundant columns (Filename and Process ID)
+    columns_to_remove = ['Filename', 'Process ID']
+    columns_to_drop = [col for col in columns_to_remove if col in merged_df.columns]
+    if columns_to_drop:
+        print(f"  Removing redundant columns: {columns_to_drop}")
+        merged_df = merged_df.drop(columns=columns_to_drop)
+    
     # Write output
     print(f"  Writing to {output_path}...")
     merged_df.to_csv(output_path, sep='\t', index=False)
@@ -167,18 +189,18 @@ def main():
     )
     parser.add_argument(
         '--tsv-dir',
-        default='data/naturalis/2step/6p',
-        help='Directory containing TSV files (default: data/naturalis/2step/6p)'
+        default='data/naturalis/1step/6p',
+        help='Directory containing TSV files (default: data/naturalis/1step/6p)'
     )
     parser.add_argument(
         '--csv-dir',
-        default='data/naturalis/2step/6p/inputs',
-        help='Directory containing CSV files (default: data/naturalis/2step/6p/inputs)'
+        default='data/naturalis/1step/6p',
+        help='Directory containing CSV files (default: data/naturalis/1step/6p)'
     )
     parser.add_argument(
         '--output-dir',
-        default='data/naturalis/2step/6p',
-        help='Directory for output files (default: data/naturalis/2step/6p)'
+        default='data/naturalis/1step/6p',
+        help='Directory for output files (default: data/naturalis/1step/6p)'
     )
     parser.add_argument(
         '--dry-run',
