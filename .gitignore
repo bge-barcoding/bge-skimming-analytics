@@ -39,5 +39,3 @@ build/
 
 # Generated reports
 reports/
-# Merged TSV files
-*_merged.tsv

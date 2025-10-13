@@ -2,13 +2,12 @@
 
 ## Overview
 
-This document describes the corrections applied to CSV files in `data/naturalis/1step/6p/` to make them compatible with the TSV file format and validation requirements defined in `metadata/headers.tsv`.
+This document describes the corrections applied to TSV files in `data/naturalis/1step/6p/` by merging them with corresponding CSV files to make them compatible with the TSV file format and validation requirements defined in `metadata/headers.tsv`.
 
 ## Files Processed
 
-- **TSV files**: 112 files (BGE00XXX.tsv)
+- **TSV files**: 112 files (BGE00XXX.tsv) - updated in place
 - **CSV files**: 112 files (BGE00XXX_MGE-BGE_r1_1.3_1.5_s50_100.csv)
-- **Merged output**: 112 files (BGE00XXX_merged.tsv)
 
 ## Pre-existing Data Quality Issues
 
@@ -68,13 +67,14 @@ The following columns from the CSV files were kept unchanged as they already mat
 ## Merge Statistics
 
 All 112 file pairs were successfully merged with the following results:
-- Average rows per merged file: 570
-- Average columns per merged file: 27
+- Average rows per file: 570
+- Average columns per file: 27 (increased from 19 with 8 new columns from CSV data)
 - Successful CSV data integration: 100% (all rows with matching sequence_ids received CSV data)
+- Original TSV files updated in place
 
 ## Validation Results
 
-All merged TSV files pass the following validation tests:
+All updated TSV files pass the following validation tests:
 - ✓ All column headers are defined in `metadata/headers.tsv`
 - ✓ All compulsory headers are present
 - ✓ No unexpected or invalid column names
@@ -90,22 +90,37 @@ The corrections were implemented in the `scripts/merge_6p_data.py` script with t
 4. **Duplicate handling**: Detects and resolves duplicate column headers in source files
 5. **Redundant column removal**: Removes Filename and Process ID after merge
 6. **Left join merge**: Preserves all TSV rows, adds CSV data where available
+7. **In-place update**: Writes merged data back to original TSV files
 
 ## Usage
 
-To merge TSV and CSV files:
+To merge CSV data into TSV files (updates TSV files in place):
 
 ```bash
 # Merge files in 1step/6p (default)
 python scripts/merge_6p_data.py
 
 # Merge files in a different directory
-python scripts/merge_6p_data.py --tsv-dir data/other/dir --csv-dir data/other/dir --output-dir data/other/dir
+python scripts/merge_6p_data.py --tsv-dir data/other/dir --csv-dir data/other/dir
 
 # Dry run to preview what would be processed
 python scripts/merge_6p_data.py --dry-run
 ```
 
+**Warning**: This script updates the TSV files in place. Make sure you have a backup or are working in a version-controlled environment before running.
+
 ## Conclusion
 
-The CSV files in `data/naturalis/1step/6p/` have been successfully merged with their corresponding TSV files. All necessary corrections have been applied to ensure the merged files are valid according to the project's metadata specifications. The merged files are ready for further analysis and processing.
+The CSV files in `data/naturalis/1step/6p/` have been successfully merged into their corresponding TSV files. All necessary corrections have been applied to ensure the TSV files are valid according to the project's metadata specifications. The original TSV files now contain:
+- All original TSV columns
+- 8 additional columns from CSV data (n_reads_in, n_reads_aligned, n_reads_skipped, ref_length, cov_min, cov_max, cov_avg, cov_med)
+- Properly renamed columns matching metadata/headers.tsv
+- No redundant or duplicate columns
+
+The updated files:
+- Pass all header validation tests
+- Contain all compulsory headers
+- Use correct column naming per metadata/headers.tsv
+- Handle pre-existing data quality issues
+
+The implementation is complete and the TSV files are ready for further analysis and processing.

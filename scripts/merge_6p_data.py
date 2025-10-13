@@ -4,6 +4,7 @@ Merge TSV and CSV files from 6p validation data.
 
 This script finds matching BGE00*** TSV and CSV files, performs preprocessing
 on the CSV files to create a join column, and merges them based on sequence_id.
+The merged data is written back to the original TSV files, updating them in place.
 
 TSV files: data/naturalis/1step/6p/BGE00***.tsv
 CSV files: data/naturalis/1step/6p/BGE00***_MGE-BGE_r1_1.3_1.5_s50_100.csv
@@ -12,7 +13,7 @@ The CSV files have a 'Filename' column with values like "PROCESS-ID_r_1.3_s_100_
 and a 'Process ID' column. The join column is created by stripping the suffix "_PROCESS-ID"
 from the Filename, which matches the 'sequence_id' column in the TSV files.
 
-Output files: data/naturalis/1step/6p/BGE00***_merged.tsv
+The original TSV files are updated with the CSV data columns.
 
 Usage: python merge_6p_data.py
 """
@@ -226,11 +227,6 @@ def main():
         help='Directory containing CSV files (default: data/naturalis/1step/6p)'
     )
     parser.add_argument(
-        '--output-dir',
-        default='data/naturalis/1step/6p',
-        help='Directory for output files (default: data/naturalis/1step/6p)'
-    )
-    parser.add_argument(
         '--dry-run',
         action='store_true',
         help='Only show what would be processed without writing files'
@@ -264,12 +260,10 @@ def main():
         print("Dry run completed, no files written")
         return
     
-    # Create output directory if it doesn't exist
-    os.makedirs(args.output_dir, exist_ok=True)
-    
     # Process each pair
     for bge_num, tsv_path, csv_path in matches:
-        output_path = os.path.join(args.output_dir, f"BGE{bge_num}_merged.tsv")
+        # Write merged data back to the original TSV file
+        output_path = tsv_path
         try:
             merge_files(tsv_path, csv_path, output_path)
         except Exception as e:
@@ -279,7 +273,7 @@ def main():
             sys.exit(1)
     
     print(f"All merges completed successfully!")
-    print(f"Output files written to: {args.output_dir}")
+    print(f"TSV files in {args.tsv_dir} have been updated with CSV data")
 
 
 if __name__ == "__main__":
