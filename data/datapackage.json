@@ -1,0 +1,376 @@
+{
+  "name": "bge-skimming-analytics",
+  "title": "BGE Skimming Analytics - Merged Dataset",
+  "description": "Merged dataset containing all barcode validation results from BGE genome skimming project",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0",
+      "title": "Creative Commons Attribution Share-Alike 4.0",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "BGE Consortium",
+      "role": "author"
+    }
+  ],
+  "profile": "tabular-data-resource",
+  "resources": [
+    {
+      "name": "bge-skimming-analytics",
+      "path": "bge-skimming-analytics.tsv.gz",
+      "hash": "md5:83cc180b83d2cb14a456c0dbc2df9777",
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8",
+      "compression": "gzip",
+      "schema": {
+        "fields": [
+          {
+            "name": "BOLD_submission",
+            "type": "string",
+            "format": "default",
+            "description": "BOLD Systems submission identifier"
+          },
+          {
+            "name": "ambig_basecount",
+            "type": "integer",
+            "format": "default",
+            "description": "Number of ambiguous (N) bases within the extracted barcode region",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "ambig_full_basecount",
+            "type": "integer",
+            "format": "default",
+            "description": "Number of ambiguous bases across the full barcode consensus sequence",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "ambig_original",
+            "type": "integer",
+            "format": "default",
+            "description": "Number of ambiguous bases in full the barcode consensus sequence prior to barcode region extraction"
+          },
+          {
+            "name": "assembly_params",
+            "type": "integer",
+            "format": "default",
+            "description": "Number of assembly parameters explored (6 or 24)",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "cleaning_ambig_bases",
+            "type": "integer",
+            "format": "default",
+            "description": "Number of ambiguous bases in the post-cleaned barcode consensus sequence"
+          },
+          {
+            "name": "cleaning_cov_percent",
+            "type": "number",
+            "format": "default",
+            "description": "Percentage coverage of pseudo-reference used for read alignment and barcode extraction in the post-cleaning consensus sequence"
+          },
+          {
+            "name": "cleaning_removed_at",
+            "type": "integer",
+            "format": "default",
+            "description": "Number of aligned reads removed due to AT content filtering in BGEE pipeline"
+          },
+          {
+            "name": "cleaning_removed_human",
+            "type": "integer",
+            "format": "default",
+            "description": "Number of aligned reads removed due to human COI similarity in BGEE pipeline"
+          },
+          {
+            "name": "cleaning_removed_outlier",
+            "type": "integer",
+            "format": "default",
+            "description": "Number of aligned reads flagged as statistical outliers and removed in BGEE pipeline"
+          },
+          {
+            "name": "cleaning_removed_reference",
+            "type": "integer",
+            "format": "default",
+            "description": "Number of reads removed due to reference filtering during cleaning"
+          },
+          {
+            "name": "cov_avg",
+            "type": "number",
+            "format": "default",
+            "description": "Average read coverage depth of pseudo-reference used for consensus sequence generation"
+          },
+          {
+            "name": "cov_max",
+            "type": "integer",
+            "format": "default",
+            "description": "Maximum read coverage depth at a single position"
+          },
+          {
+            "name": "cov_med",
+            "type": "number",
+            "format": "default",
+            "description": "Median read coverage depth across barcode consensus sequence"
+          },
+          {
+            "name": "cov_min",
+            "type": "integer",
+            "format": "default",
+            "description": "Minimum read coverage depth at a single position"
+          },
+          {
+            "name": "dataset",
+            "type": "string",
+            "format": "default",
+            "description": "Name of input multi-FASTA file that was validated",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "error",
+            "type": "string",
+            "format": "default",
+            "description": "Error message during barcode validation (if present)",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "fasta_header",
+            "type": "string",
+            "format": "default",
+            "description": "Sequence header parsed from input FASTA file"
+          },
+          {
+            "name": "fcleaner",
+            "type": "boolean",
+            "format": "default",
+            "description": "Indicates whether FASTA cleaner (fcleaner) data cleaning step was applied",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "group_id",
+            "type": "string",
+            "format": "default",
+            "description": "Identifier for a group of sequences (e.g. from the same sample), usually BOLD Process ID",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "identification",
+            "type": "string",
+            "format": "default",
+            "description": "Taxonomic identification from input taxonomy at 'identification_rank'",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "identification_method",
+            "type": "string",
+            "format": "default",
+            "description": "Taxonomic validation method (e.g. bold/blast)",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "identification_rank",
+            "type": "string",
+            "format": "default",
+            "description": "Taxonomic rank to validate molecular taxonomy of consensus sequence to (e.g. family)",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "inst",
+            "type": "string",
+            "format": "default",
+            "description": "Institute that processed the data (Naturalis Biodiversity Center or Natural History Museum)",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "length",
+            "type": "integer",
+            "format": "default",
+            "description": "Sequence length"
+          },
+          {
+            "name": "marker_code",
+            "type": "string",
+            "format": "default",
+            "description": "Target barcode (e.g. COI-5P)",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "merge",
+            "type": "boolean",
+            "format": "default",
+            "description": "Indicates whether data merging operation was applied",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "mge_params",
+            "type": "string",
+            "format": "default",
+            "description": "MitoGeneExtractor (MGE) parameter string used for consensus recovery within the BGEE pipeline"
+          },
+          {
+            "name": "n_reads_aligned",
+            "type": "integer",
+            "format": "default",
+            "description": "Number of input reads aligned to the pseudo-reference by MGE and used for generation of the consensus sequence"
+          },
+          {
+            "name": "n_reads_in",
+            "type": "integer",
+            "format": "default",
+            "description": "Number of QC'd/trimmed reads input into MGE"
+          },
+          {
+            "name": "n_reads_skipped",
+            "type": "integer",
+            "format": "default",
+            "description": "Number of input reads omitted from alignment (e.g. due to frame shifts/multiple alignment positions/mismatches/etc.)"
+          },
+          {
+            "name": "nuc_basecount",
+            "type": "integer",
+            "format": "default",
+            "description": "Base count of HMM-extracted barcode region (i.e. 'sequence')",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "nuc_full_basecount",
+            "type": "integer",
+            "format": "default",
+            "description": "Base count of full consensus sequence",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "obs_taxon",
+            "type": "string",
+            "format": "default",
+            "description": "Top taxonomic assignment(s) at the 'identification_rank' returned by the selected 'identification_method'",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "r",
+            "type": "number",
+            "format": "default",
+            "description": "MGE parameter r value",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "reading_frame",
+            "type": "string",
+            "format": "default",
+            "description": "Open reading frame (ORF) of 'sequence'"
+          },
+          {
+            "name": "ref_accession",
+            "type": "string",
+            "format": "default",
+            "description": "Reference sequence accession number"
+          },
+          {
+            "name": "ref_length",
+            "type": "integer",
+            "format": "default",
+            "description": "Length of pseudo-reference used for generation of the consensus sequence"
+          },
+          {
+            "name": "ref_rank",
+            "type": "string",
+            "format": "default",
+            "description": "Taxonomic rank of reference sequence"
+          },
+          {
+            "name": "s",
+            "type": "integer",
+            "format": "default",
+            "description": "MGE parameter s value",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "sample_taxid",
+            "type": "string",
+            "format": "default",
+            "description": "Sample taxonomic ID"
+          },
+          {
+            "name": "sequence",
+            "type": "string",
+            "format": "default",
+            "description": "HMM-extracted barcode region of consensus sequence generated by MGE"
+          },
+          {
+            "name": "sequence_id",
+            "type": "string",
+            "format": "default",
+            "description": "Consensus sequence unique identifier for the focal sequence from the input 'dataset'",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "species",
+            "type": "string",
+            "format": "default",
+            "description": "Morphological identification to the lowest available taxonomic rank (e.g. species, often)",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "stop_codons",
+            "type": "integer",
+            "format": "default",
+            "description": "Number of stop codons identified in 'sequence'",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "validation_steps",
+            "type": "integer",
+            "format": "default",
+            "description": "Number of validation steps applied (1 or 2)",
+            "constraints": {
+              "required": true
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
