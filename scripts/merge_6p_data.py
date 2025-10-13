@@ -4,20 +4,22 @@ Merge TSV and CSV files from 6p validation data.
 
 This script finds matching BGE00*** TSV and CSV files, performs preprocessing
 on the CSV files to create a join column, and merges them based on sequence_id.
+The merged data is written back to the original TSV files, updating them in place.
 
-TSV files: data/naturalis/2step/6p/BGE00***.tsv
-CSV files: data/naturalis/2step/6p/inputs/BGE00***_MGE-BGE_r1_1.3_1.5_s50_100.csv
+TSV files: data/naturalis/1step/6p/BGE00***.tsv
+CSV files: data/naturalis/1step/6p/BGE00***_MGE-BGE_r1_1.3_1.5_s50_100.csv
 
 The CSV files have a 'Filename' column with values like "PROCESS-ID_r_1.3_s_100_PROCESS-ID"
 and a 'Process ID' column. The join column is created by stripping the suffix "_PROCESS-ID"
 from the Filename, which matches the 'sequence_id' column in the TSV files.
 
-Output files: data/naturalis/2step/6p/BGE00***_merged.tsv
+The original TSV files are updated with the CSV data columns.
 
 Usage: python merge_6p_data.py
 """
 
 import argparse
+import csv
 import glob
 import os
 import re
@@ -78,11 +80,17 @@ def preprocess_csv(csv_df: pd.DataFrame) -> pd.DataFrame:
     and the 'Process ID' column contains "PROCESS-ID".
     We strip the suffix "_PROCESS-ID" from Filename to create the join column.
     
+    Also renames columns to match metadata/headers.tsv:
+    - n_reads -> n_reads_in
+    - n_aligned -> n_reads_aligned
+    - skipped_reads_low_rel -> n_reads_skipped
+    - length -> ref_length
+    
     Args:
         csv_df: DataFrame from CSV file
     
     Returns:
-        DataFrame with added 'sequence_id' column for joining
+        DataFrame with added 'sequence_id' column for joining and renamed columns
     """
     # Create a copy to avoid modifying the original
     df = csv_df.copy()
@@ -98,6 +106,15 @@ def preprocess_csv(csv_df: pd.DataFrame) -> pd.DataFrame:
         return filename
     
     df['sequence_id'] = df.apply(create_join_key, axis=1)
+    
+    # Rename columns to match expected headers
+    column_mapping = {
+        'n_reads': 'n_reads_in',
+        'n_aligned': 'n_reads_aligned',
+        'skipped_reads_low_rel': 'n_reads_skipped',
+        'length': 'ref_length'
+    }
+    df = df.rename(columns=column_mapping)
     
     return df
 
@@ -118,7 +135,34 @@ def merge_files(tsv_path: str, csv_path: str, output_path: str) -> pd.DataFrame:
     
     # Read TSV file
     print(f"  Reading {tsv_path}...")
-    tsv_df = pd.read_csv(tsv_path, sep='\t', dtype=str, keep_default_na=False)
+    # Use csv module to detect duplicate columns and handle them
+    import csv
+    with open(tsv_path, 'r', encoding='utf-8') as f:
+        reader = csv.reader(f, delimiter='\t')
+        headers = next(reader)
+        # Check for duplicates and deduplicate by keeping only unique headers
+        seen = {}
+        unique_headers = []
+        cols_to_keep = []
+        for i, header in enumerate(headers):
+            if header not in seen:
+                seen[header] = i
+                unique_headers.append(header)
+                cols_to_keep.append(i)
+            else:
+                print(f"  Warning: Duplicate column '{header}' found at positions {seen[header]} and {i}, keeping first occurrence")
+        
+        # Read the rest of the data with only unique columns
+        rows = []
+        for row in reader:
+            filtered_row = [row[i] for i in cols_to_keep if i < len(row)]
+            rows.append(filtered_row)
+    
+    tsv_df = pd.DataFrame(rows, columns=unique_headers)
+    # Convert all to string type
+    for col in tsv_df.columns:
+        tsv_df[col] = tsv_df[col].astype(str).replace('nan', '')
+    
     print(f"  TSV shape: {tsv_df.shape}")
     
     # Read CSV file
@@ -148,6 +192,13 @@ def merge_files(tsv_path: str, csv_path: str, output_path: str) -> pd.DataFrame:
     
     print(f"  Merged shape: {merged_df.shape}")
     
+    # Remove redundant columns (Filename and Process ID)
+    columns_to_remove = ['Filename', 'Process ID']
+    columns_to_drop = [col for col in columns_to_remove if col in merged_df.columns]
+    if columns_to_drop:
+        print(f"  Removing redundant columns: {columns_to_drop}")
+        merged_df = merged_df.drop(columns=columns_to_drop)
+    
     # Write output
     print(f"  Writing to {output_path}...")
     merged_df.to_csv(output_path, sep='\t', index=False)
@@ -167,18 +218,13 @@ def main():
     )
     parser.add_argument(
         '--tsv-dir',
-        default='data/naturalis/2step/6p',
-        help='Directory containing TSV files (default: data/naturalis/2step/6p)'
+        default='data/naturalis/1step/6p',
+        help='Directory containing TSV files (default: data/naturalis/1step/6p)'
     )
     parser.add_argument(
         '--csv-dir',
-        default='data/naturalis/2step/6p/inputs',
-        help='Directory containing CSV files (default: data/naturalis/2step/6p/inputs)'
-    )
-    parser.add_argument(
-        '--output-dir',
-        default='data/naturalis/2step/6p',
-        help='Directory for output files (default: data/naturalis/2step/6p)'
+        default='data/naturalis/1step/6p',
+        help='Directory containing CSV files (default: data/naturalis/1step/6p)'
     )
     parser.add_argument(
         '--dry-run',
@@ -214,12 +260,10 @@ def main():
         print("Dry run completed, no files written")
         return
     
-    # Create output directory if it doesn't exist
-    os.makedirs(args.output_dir, exist_ok=True)
-    
     # Process each pair
     for bge_num, tsv_path, csv_path in matches:
-        output_path = os.path.join(args.output_dir, f"BGE{bge_num}_merged.tsv")
+        # Write merged data back to the original TSV file
+        output_path = tsv_path
         try:
             merge_files(tsv_path, csv_path, output_path)
         except Exception as e:
@@ -229,7 +273,7 @@ def main():
             sys.exit(1)
     
     print(f"All merges completed successfully!")
-    print(f"Output files written to: {args.output_dir}")
+    print(f"TSV files in {args.tsv_dir} have been updated with CSV data")
 
 
 if __name__ == "__main__":
