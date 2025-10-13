@@ -1,0 +1,10 @@
+2025-10-10 10:20:30 - barcode_validator.cli - INFO - Starting DNA Barcode Validation CLI
+2025-10-10 10:20:30 - ValidationOrchestrator - INFO - Loading bold reference taxonomy from /data/ubuntu/BGEE_validation/bold_bge_container_plus-updated.xlsx
+2025-10-10 10:21:06 - ValidationOrchestrator - INFO - Parsing FASTA file: /data/ubuntu/BGEE_validation_015_out/structural-validation-outputs/BGE00333_structval_out.fasta
+2025-10-10 10:21:06 - ValidationOrchestrator - INFO - Validating 44 records from /data/ubuntu/BGEE_validation_015_out/structural-validation-outputs/BGE00333_structval_out.fasta
+2025-10-10 10:21:11 - TaxonomicValidator - INFO - Going to taxonomically validate 44 records
+2025-10-10 10:21:11 - TaxonomicValidator - INFO - Taxonomically validating batch 1 containing 44 records
+2025-10-10 10:21:12 - nbitk.Services.Galaxy.BaseClient - INFO - Uploading input file: /tmp/tmpn5ljx4lv.fasta
+2025-10-10 10:21:12 - nbitk.Services.Galaxy.BaseClient - INFO - Starting BLASTN analysis...
+2025-10-10 10:28:51 - GalaxyBLAST - INFO - 44 sequences found in BLAST result
+2025-10-10 10:28:51 - ValidationOrchestrator - INFO - Writing results
