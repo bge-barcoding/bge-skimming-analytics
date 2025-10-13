@@ -18,6 +18,7 @@ Usage: python merge_6p_data.py
 """
 
 import argparse
+import csv
 import glob
 import os
 import re
@@ -133,7 +134,34 @@ def merge_files(tsv_path: str, csv_path: str, output_path: str) -> pd.DataFrame:
     
     # Read TSV file
     print(f"  Reading {tsv_path}...")
-    tsv_df = pd.read_csv(tsv_path, sep='\t', dtype=str, keep_default_na=False)
+    # Use csv module to detect duplicate columns and handle them
+    import csv
+    with open(tsv_path, 'r', encoding='utf-8') as f:
+        reader = csv.reader(f, delimiter='\t')
+        headers = next(reader)
+        # Check for duplicates and deduplicate by keeping only unique headers
+        seen = {}
+        unique_headers = []
+        cols_to_keep = []
+        for i, header in enumerate(headers):
+            if header not in seen:
+                seen[header] = i
+                unique_headers.append(header)
+                cols_to_keep.append(i)
+            else:
+                print(f"  Warning: Duplicate column '{header}' found at positions {seen[header]} and {i}, keeping first occurrence")
+        
+        # Read the rest of the data with only unique columns
+        rows = []
+        for row in reader:
+            filtered_row = [row[i] for i in cols_to_keep if i < len(row)]
+            rows.append(filtered_row)
+    
+    tsv_df = pd.DataFrame(rows, columns=unique_headers)
+    # Convert all to string type
+    for col in tsv_df.columns:
+        tsv_df[col] = tsv_df[col].astype(str).replace('nan', '')
+    
     print(f"  TSV shape: {tsv_df.shape}")
     
     # Read CSV file
