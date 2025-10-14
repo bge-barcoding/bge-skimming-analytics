@@ -1,0 +1,238 @@
+---
+title: "COI-5P Sequencing Success by Institution"
+author: "BGE Project"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: show
+    theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+## Introduction
+
+This analysis examines COI-5P sequencing success rates across different institutions in the BGE project. For each institution, we calculate:
+
+- **Registered specimens**: Specimens with any data in the `COI-5P Seq. Length` column (indicating they were registered for COI-5P sequencing)
+- **Successfully sequenced**: Specimens where `COI-5P Seq. Length` is not `0[n]` (indicating a sequence of any length was recovered and uploaded to BOLD)
+
+## Load Required Libraries
+
+```{r libraries}
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(tidyr)
+```
+
+## Read Lab Data
+
+```{r read-data}
+# Read the lab.tsv file from BOLD metadata
+lab_data <- read_tsv("../metadata/bold/lab.tsv", show_col_types = FALSE)
+
+cat("Lab data dimensions:", nrow(lab_data), "rows,", 
+    ncol(lab_data), "columns\n")
+```
+
+## Data Processing
+
+### Group by Institution and Calculate Metrics
+
+```{r process-data}
+# Process the data to calculate registered and successfully sequenced specimens
+institution_summary <- lab_data %>%
+  # Filter to rows with Institution data
+  filter(!is.na(Institution) & Institution != "" & Institution != "Institution") %>%
+  # Group by institution
+  group_by(Institution) %>%
+  # Calculate metrics
+  summarise(
+    # Registered: any non-empty data in COI-5P Seq. Length
+    registered = sum(!is.na(`COI-5P Seq. Length`) & `COI-5P Seq. Length` != ""),
+    # Successfully sequenced: not "0[n]" and not empty
+    successful = sum(!is.na(`COI-5P Seq. Length`) & 
+                     `COI-5P Seq. Length` != "" & 
+                     `COI-5P Seq. Length` != "0[n]"),
+    .groups = "drop"
+  ) %>%
+  # Calculate failed (registered but not successful)
+  mutate(
+    failed = registered - successful
+  ) %>%
+  # Order by decreasing number of registered specimens
+  arrange(desc(registered))
+
+# Display summary statistics
+cat("\n=== Summary Statistics ===\n\n")
+cat("Total institutions:", nrow(institution_summary), "\n")
+cat("Total registered specimens:", sum(institution_summary$registered), "\n")
+cat("Total successfully sequenced:", sum(institution_summary$successful), "\n")
+cat("Overall success rate:", 
+    sprintf("%.1f%%", 100 * sum(institution_summary$successful) / sum(institution_summary$registered)), "\n")
+```
+
+## Data Preview
+
+```{r preview}
+# Show top 20 institutions
+institution_summary %>%
+  head(20) %>%
+  kable(caption = "Top 20 Institutions by Number of Registered Specimens")
+```
+
+## Visualization
+
+### Stacked Bar Chart of Sequencing Success by Institution
+
+```{r sequencing-success-chart, fig.width=12, fig.height=10}
+# Prepare data for stacked bar chart
+chart_data <- institution_summary %>%
+  # Convert to long format for stacking
+  pivot_longer(
+    cols = c(successful, failed),
+    names_to = "status",
+    values_to = "count"
+  ) %>%
+  # Create factor with desired order for stacking
+  mutate(
+    status = factor(status, 
+                   levels = c("successful", "failed"),
+                   labels = c("Successfully Sequenced", "Failed/Not Sequenced"))
+  )
+
+# Create the stacked bar chart
+ggplot(chart_data, aes(x = reorder(Institution, registered), y = count, fill = status)) +
+  geom_col() +
+  coord_flip() +
+  scale_fill_manual(
+    values = c("Successfully Sequenced" = "#2ecc71", "Failed/Not Sequenced" = "#e74c3c"),
+    name = "Status"
+  ) +
+  labs(
+    title = "COI-5P Sequencing Success by Institution",
+    subtitle = "Institutions ordered by total number of registered specimens",
+    x = "Institution",
+    y = "Number of Specimens"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
+    plot.subtitle = element_text(hjust = 0.5, size = 10),
+    legend.position = "bottom",
+    axis.text.y = element_text(size = 8)
+  )
+```
+
+### Top 15 Institutions with Success Rates
+
+```{r top-institutions-chart, fig.width=12, fig.height=8}
+# Focus on top 15 institutions for better readability
+top_15_data <- institution_summary %>%
+  head(15) %>%
+  pivot_longer(
+    cols = c(successful, failed),
+    names_to = "status",
+    values_to = "count"
+  ) %>%
+  mutate(
+    status = factor(status, 
+                   levels = c("successful", "failed"),
+                   labels = c("Successfully Sequenced", "Failed/Not Sequenced"))
+  )
+
+# Calculate success rate for annotation
+top_15_rates <- institution_summary %>%
+  head(15) %>%
+  mutate(
+    success_rate = 100 * successful / registered,
+    label_text = sprintf("%.1f%%", success_rate)
+  )
+
+ggplot(top_15_data, aes(x = reorder(Institution, registered), y = count, fill = status)) +
+  geom_col() +
+  geom_text(
+    data = top_15_rates,
+    aes(x = Institution, y = registered, label = label_text, fill = NULL),
+    hjust = -0.1,
+    size = 3
+  ) +
+  coord_flip() +
+  scale_fill_manual(
+    values = c("Successfully Sequenced" = "#2ecc71", "Failed/Not Sequenced" = "#e74c3c"),
+    name = "Status"
+  ) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15))) +
+  labs(
+    title = "Top 15 Institutions: COI-5P Sequencing Success",
+    subtitle = "Numbers show success rate percentage",
+    x = "Institution",
+    y = "Number of Specimens"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
+    plot.subtitle = element_text(hjust = 0.5, size = 10),
+    legend.position = "bottom",
+    axis.text.y = element_text(size = 9)
+  )
+```
+
+## Detailed Statistics by Institution
+
+### Success Rates Table
+
+```{r success-rates-table}
+# Create a detailed table with success rates
+detailed_stats <- institution_summary %>%
+  mutate(
+    success_rate = 100 * successful / registered,
+    failure_rate = 100 * failed / registered
+  ) %>%
+  select(Institution, registered, successful, failed, success_rate) %>%
+  arrange(desc(registered))
+
+# Show top 30 institutions
+detailed_stats %>%
+  head(30) %>%
+  kable(
+    digits = 1,
+    col.names = c("Institution", "Registered", "Successful", "Failed", "Success Rate (%)"),
+    caption = "Detailed Statistics for Top 30 Institutions"
+  )
+```
+
+### Distribution of Success Rates
+
+```{r success-rate-distribution, fig.width=10, fig.height=6}
+ggplot(institution_summary %>% mutate(success_rate = 100 * successful / registered), 
+       aes(x = success_rate)) +
+  geom_histogram(binwidth = 5, fill = "#3498db", color = "white") +
+  labs(
+    title = "Distribution of Success Rates Across Institutions",
+    x = "Success Rate (%)",
+    y = "Number of Institutions"
+  ) +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5, size = 14, face = "bold"))
+```
+
+## Session Info
+
+```{r session-info}
+sessionInfo()
+```
+
+## Notes
+
+- **Registered specimens**: Specimens with any data in the `COI-5P Seq. Length` column
+- **Successfully sequenced**: Specimens where `COI-5P Seq. Length` is not `0[n]` (meaning a sequence was recovered)
+- **Failed/Not sequenced**: Specimens registered but with `COI-5P Seq. Length` equal to `0[n]`
+- The `0[n]` notation indicates 0 base pairs with n ambiguous bases (i.e., no sequence recovered)
+- Success rates vary significantly across institutions, reflecting differences in specimen quality, age, preservation methods, and sequencing protocols

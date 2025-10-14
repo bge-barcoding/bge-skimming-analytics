@@ -39,3 +39,6 @@ build/
 
 # Generated reports
 reports/
+
+# RMarkdown generated HTML files
+analysis/*.html
