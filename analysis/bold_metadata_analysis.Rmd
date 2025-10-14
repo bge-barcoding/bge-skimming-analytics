@@ -28,6 +28,7 @@ This document demonstrates how to read the compressed, frictionless BGE skimming
 ```{r libraries}
 library(readr)
 library(dplyr)
+library(tidyr)
 library(ggplot2)
 library(knitr)
 ```
@@ -344,24 +345,53 @@ if (sum(!is.na(enriched_data$Phylum)) > 0) {
 
 ### Institution Distribution
 
-Visualize specimens by storing institution:
+Visualize registered specimens and those with valid output by storing institution:
 
 ```{r institution-distribution, fig.width=10, fig.height=6}
 if (sum(!is.na(enriched_data$`Institution Storing`)) > 0) {
-  enriched_data %>%
+  # Calculate total registered and valid specimens per institution
+  institution_summary <- enriched_data %>%
     filter(!is.na(`Institution Storing`)) %>%
-    count(`Institution Storing`) %>%
-    arrange(desc(n)) %>%
-    ggplot(aes(x = reorder(`Institution Storing`, n), y = n)) +
-    geom_col(fill = "coral") +
+    group_by(`Institution Storing`) %>%
+    summarise(
+      Registered = n(),
+      Valid = sum(validation_success, na.rm = TRUE),
+      .groups = "drop"
+    ) %>%
+    arrange(desc(Registered))
+  
+  # Reshape for grouped bar chart
+  institution_data <- institution_summary %>%
+    tidyr::pivot_longer(
+      cols = c(Registered, Valid),
+      names_to = "Type",
+      values_to = "Count"
+    ) %>%
+    mutate(
+      Type = factor(Type, levels = c("Registered", "Valid")),
+      # Create ordered factor for institutions based on total registered
+      `Institution Storing` = factor(`Institution Storing`, 
+                                      levels = institution_summary$`Institution Storing`)
+    )
+  
+  ggplot(institution_data, aes(x = `Institution Storing`, y = Count, fill = Type)) +
+    geom_col(position = "dodge") +
     coord_flip() +
+    scale_fill_manual(
+      values = c("Registered" = "coral", "Valid" = "forestgreen"),
+      labels = c("Registered Specimens", "Valid Output")
+    ) +
     labs(
       title = "Specimens by Storing Institution",
       x = "Institution",
-      y = "Number of Specimens"
+      y = "Number of Specimens",
+      fill = "Status"
     ) +
     theme_minimal() +
-    theme(plot.title = element_text(hjust = 0.5))
+    theme(
+      plot.title = element_text(hjust = 0.5),
+      legend.position = "bottom"
+    )
 } else {
   cat("No institution data available for visualization\n")
 }

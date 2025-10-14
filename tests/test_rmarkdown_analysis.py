@@ -86,7 +86,7 @@ def test_bold_metadata_analysis_has_required_libraries():
         content = f.read()
     
     # Check for required libraries
-    required_libraries = ['readr', 'dplyr', 'ggplot2', 'knitr']
+    required_libraries = ['readr', 'dplyr', 'tidyr', 'ggplot2', 'knitr']
     
     for lib in required_libraries:
         pattern = f'library\\({lib}\\)'
