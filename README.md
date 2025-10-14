@@ -4,7 +4,25 @@ Genome skimming assembly and validation analytics for the [Biodiversity Genomics
 
 ## About
 
-This repository contains tools and workflows for processing, validating, and analyzing genome skimming data produced by the BGE project. The primary goal is to transform raw barcode validation outputs into high-quality, standardized, FAIR (Findable, Accessible, Interoperable, Reusable) data packages suitable for scientific analysis and reporting.
+This repository contains tools and workflows for processing, validating, and analyzing genome skimming data produced by the BGE project. The validation process works as follows:
+
+1. For each BOLD process ID (the [group_id](metadata/headers.tsv#L17) in the metadata specification), multiple genome skimming assembly attempts have been performed using the BGEE pipeline.
+   Typically, this has been done either with six parameters (2 x 3 values for [r](metadata/headers.tsv#L41) and [s](metadata/headers.tsv#L42)) or with 24 parameters (i.e. the r and s values,
+   combined with [fcleaner](metadata/headers.tsv#L43) and [merge](metadata/headers.tsv#L44)).
+2. Across the assembly attempts we either to a [single-pass or a two-step validation](metadata/headers.tsv#L46). In both cases, we consider both structural validity and taxonomic validity.
+3. Structural checks assess whether the sequence inherently passes basic quality criteria:
+   - The [number of bases within the barcode region](metadata/headers.tsv#L26) must be >=500
+   - There must be zero [early stop codons](metadata/headers.tsv#L34)
+   - There must be zero [ambiguous bases within the barcode region](metadata/headers.tsv#L2)
+4. Taxonomic checks assess whether, at a [higher taxonomic level](metadata/headers.tsv#L20), the [expected taxon at that level](metadata/headers.tsv#L18), i.e. the taxon lineage as
+   provided by the specimen source, is among the [observed taxa at that level](metadata/headers.tsv#L28) when querying the sequence with an
+   [identification method](metadata/headers.tsv#L19) (typically this is either BLAST or BOLD's ID service).
+5. In a single-pass validation, all sequences that pass the structural checks are each checked for taxonomic validity, and then the longest sequence that passes both checks is selected.
+   In a two-step validation, the longest sequence that passes the structural checks is the only one that goes through taxonomic validation. This approach is less computationally demanding,
+   but in some cases, the longest structurally valid sequence is not taxonomically valid when another, shorter sequence exists that is taxonomically valid. Hence, the quick-and-dirty
+   method is somewhat more wasteful, causing false negatives across grouped assembly attempts.
+
+The primary goal of this repository is to transform raw barcode validation outputs into high-quality, standardized, FAIR (Findable, Accessible, Interoperable, Reusable) data packages suitable for scientific analysis and reporting.
 
 ### Project Goals
 
@@ -38,7 +56,7 @@ conda activate bge-skimming-analytics
 bge-skimming-analytics/
 ├── data/              # TSV files from barcode validation (naturalis/, nhm/)
 ├── docs/              # Detailed documentation for data processing steps
-├── metadata/          # Column definitions and metadata specifications
+├── metadata/          # Column definitions, metadata specifications, and BOLD container metadata
 ├── scripts/           # Data processing and analysis tools
 └── tests/             # Unit tests for validation and processing scripts
 ```
