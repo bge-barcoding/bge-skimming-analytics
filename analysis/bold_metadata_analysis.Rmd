@@ -141,6 +141,112 @@ cat("Final enriched data:", nrow(enriched_data), "rows,",
 cat("Rows with Phylum:", sum(!is.na(enriched_data$Phylum)), "\n")
 ```
 
+## Barcode Validation Success
+
+This section calculates whether a valid barcode was produced according to the validation logic specified in the root README.md.
+
+### Validation Criteria
+
+According to the README.md, a valid barcode must pass both structural and taxonomic checks:
+
+**Structural validity** requires:
+- Sequence length (nuc_basecount) >= 500 bases
+- Zero ambiguous bases (ambig_basecount = 0)
+- Zero stop codons (stop_codons = 0)
+
+**Taxonomic validity** requires:
+- The expected taxon (identification) must be among the observed taxa (obs_taxon)
+
+```{r validation-calculations}
+# Calculate structural validity
+enriched_data <- enriched_data %>%
+  mutate(
+    # Structural validity checks
+    valid_length = nuc_basecount >= 500,
+    valid_ambig = ambig_basecount == 0,
+    valid_stops = stop_codons == 0,
+    structural_valid = valid_length & valid_ambig & valid_stops,
+    
+    # Taxonomic validity check
+    # Check if identification is among the comma-separated obs_taxon list
+    taxonomic_valid = !is.na(identification) & !is.na(obs_taxon) & 
+                      grepl(paste0("(^|,)", identification, "(,|$)"), obs_taxon),
+    
+    # Overall validation success
+    validation_success = structural_valid & taxonomic_valid
+  )
+
+# Summary statistics
+cat("\n=== Validation Success Rates ===\n\n")
+cat("Structural Validity:\n")
+cat("  - Valid length (>=500 bp):", 
+    sprintf("%.1f%%", 100 * sum(enriched_data$valid_length, na.rm = TRUE) / nrow(enriched_data)), 
+    sprintf("(%d/%d)\n", sum(enriched_data$valid_length, na.rm = TRUE), nrow(enriched_data)))
+cat("  - No ambiguous bases:", 
+    sprintf("%.1f%%", 100 * sum(enriched_data$valid_ambig, na.rm = TRUE) / nrow(enriched_data)), 
+    sprintf("(%d/%d)\n", sum(enriched_data$valid_ambig, na.rm = TRUE), nrow(enriched_data)))
+cat("  - No stop codons:", 
+    sprintf("%.1f%%", 100 * sum(enriched_data$valid_stops, na.rm = TRUE) / nrow(enriched_data)), 
+    sprintf("(%d/%d)\n", sum(enriched_data$valid_stops, na.rm = TRUE), nrow(enriched_data)))
+cat("  - Overall structural valid:", 
+    sprintf("%.1f%%", 100 * sum(enriched_data$structural_valid, na.rm = TRUE) / nrow(enriched_data)), 
+    sprintf("(%d/%d)\n", sum(enriched_data$structural_valid, na.rm = TRUE), nrow(enriched_data)))
+
+cat("\nTaxonomic Validity:\n")
+cat("  - Taxonomic valid:", 
+    sprintf("%.1f%%", 100 * sum(enriched_data$taxonomic_valid, na.rm = TRUE) / nrow(enriched_data)), 
+    sprintf("(%d/%d)\n", sum(enriched_data$taxonomic_valid, na.rm = TRUE), nrow(enriched_data)))
+
+cat("\nOverall Validation Success:\n")
+cat("  - Both structural and taxonomic:", 
+    sprintf("%.1f%%", 100 * sum(enriched_data$validation_success, na.rm = TRUE) / nrow(enriched_data)), 
+    sprintf("(%d/%d)\n", sum(enriched_data$validation_success, na.rm = TRUE), nrow(enriched_data)))
+```
+
+### Data Preparation for Future Analyses
+
+The validation success data is now ready for exploring how various factors affect success:
+
+**Assembly-level factors** (available in the data):
+- `r`: MGE parameter r value
+- `s`: MGE parameter s value  
+- `fcleaner`: Whether FASTA cleaner was applied
+- `merge`: Whether data merging was applied
+- `validation_steps`: Number of validation steps (1 or 2)
+- `assembly_params`: Number of assembly parameters (6 or 24)
+
+**Specimen-level factors** (from BOLD metadata):
+- Collection age: Can be calculated from `Collection Date`
+- Taxonomic classification: Available via `Phylum`, `Class`, `Order`, `Family`, `Genus`, `Species`
+- Institution: Available via `Institution Storing`
+
+These analyses will be performed in subsequent sections as specified by the user.
+
+```{r validation-by-group}
+# Show validation success by group_id (specimen)
+# This groups all assembly attempts for each specimen
+validation_by_specimen <- enriched_data %>%
+  group_by(group_id) %>%
+  summarise(
+    n_attempts = n(),
+    n_structural_valid = sum(structural_valid, na.rm = TRUE),
+    n_taxonomic_valid = sum(taxonomic_valid, na.rm = TRUE),
+    n_overall_valid = sum(validation_success, na.rm = TRUE),
+    any_valid = any(validation_success, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+cat("\n=== Validation Success by Specimen (group_id) ===\n\n")
+cat("Total specimens:", nrow(validation_by_specimen), "\n")
+cat("Specimens with at least one valid barcode:", 
+    sum(validation_by_specimen$any_valid), 
+    sprintf("(%.1f%%)\n", 100 * sum(validation_by_specimen$any_valid) / nrow(validation_by_specimen)))
+cat("\nMean assembly attempts per specimen:", 
+    sprintf("%.1f\n", mean(validation_by_specimen$n_attempts)))
+cat("Mean valid barcodes per specimen:", 
+    sprintf("%.1f\n", mean(validation_by_specimen$n_overall_valid)))
+```
+
 ## Summary of Enriched Data
 
 ```{r summary}
