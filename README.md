@@ -54,6 +54,7 @@ conda activate bge-skimming-analytics
 
 ```
 bge-skimming-analytics/
+├── analysis/          # RMarkdown documents for data analysis
 ├── data/              # TSV files from barcode validation (naturalis/, nhm/)
 ├── docs/              # Detailed documentation for data processing steps
 ├── metadata/          # Column definitions, metadata specifications, and BOLD container metadata
@@ -66,6 +67,8 @@ bge-skimming-analytics/
 See the [scripts/README.md](scripts/README.md) for available tools and usage instructions.
 
 For detailed information about data processing steps and fixes applied, see the [docs/](docs/) folder.
+
+For RMarkdown-based data analysis and joining with BOLD metadata, see the [analysis/](analysis/) folder.
 
 ## Contributing
 

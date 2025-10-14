@@ -1,0 +1,293 @@
+---
+title: "BGE Skimming Analytics with BOLD Metadata"
+author: "BGE Project"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: show
+    theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+## Introduction
+
+This document demonstrates how to read the compressed, frictionless BGE skimming analytics data and join it with BOLD metadata files to enrich the dataset with:
+
+- **Sample ID**: Links validation results to BOLD metadata (from `lab.tsv`)
+- **Collection Date**: When specimens were collected (from `collection_data.tsv`)
+- **Institution Storing**: Source of specimens (from `voucher.tsv`)
+- **Taxonomic Lineage**: Phylum through Subspecies levels (from `taxonomy.tsv`)
+
+## Load Required Libraries
+
+```{r libraries}
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+```
+
+## Read Data Files
+
+### Main Analytics Data
+
+Read the compressed, frictionless data table directly from the gzip file:
+
+```{r read-main-data}
+# Read the main analytics data
+analytics_data <- read_tsv("../data/bge-skimming-analytics.tsv.gz")
+
+cat("Analytics data dimensions:", nrow(analytics_data), "rows,", 
+    ncol(analytics_data), "columns\n")
+```
+
+### BOLD Metadata Files
+
+According to `metadata/bold/README.md`, we need to join the following files:
+
+1. **lab.tsv**: Join on `Process ID` to get `Sample ID`
+2. **collection_data.tsv**: Join on `Sample ID` to get collection date
+3. **voucher.tsv**: Join on `Sample ID` to get institution storing
+4. **taxonomy.tsv**: Join on `Sample ID` to get taxonomic lineage
+
+```{r read-bold-metadata}
+# Read BOLD metadata files
+lab_data <- read_tsv("../metadata/bold/lab.tsv")
+collection_data <- read_tsv("../metadata/bold/collection_data.tsv")
+voucher_data <- read_tsv("../metadata/bold/voucher.tsv")
+taxonomy_data <- read_tsv("../metadata/bold/taxonomy.tsv")
+
+cat("Lab data:", nrow(lab_data), "rows\n")
+cat("Collection data:", nrow(collection_data), "rows\n")
+cat("Voucher data:", nrow(voucher_data), "rows\n")
+cat("Taxonomy data:", nrow(taxonomy_data), "rows\n")
+```
+
+## Join Data
+
+### Step 1: Join with Lab Data
+
+First, join with `lab.tsv` to link the `group_id` (which represents the Process ID in the analytics data) with the `Sample ID`:
+
+```{r join-lab}
+# Join analytics data with lab data
+# group_id in analytics_data corresponds to "Process ID" in lab.tsv
+enriched_data <- analytics_data %>%
+  left_join(
+    lab_data %>% select(`Process ID`, `Sample ID`, `Field ID`, BIN),
+    by = c("group_id" = "Process ID")
+  )
+
+cat("After joining with lab data:", nrow(enriched_data), "rows,", 
+    ncol(enriched_data), "columns\n")
+cat("Rows with Sample ID:", sum(!is.na(enriched_data$`Sample ID`)), "\n")
+```
+
+### Step 2: Join with Collection Data
+
+Join with `collection_data.tsv` to add collection date information:
+
+```{r join-collection}
+# Join with collection data to get collection date
+enriched_data <- enriched_data %>%
+  left_join(
+    collection_data %>% 
+      select(`Sample ID`, Collectors, `Collection Date`, `Country/Ocean`, `State/Province`),
+    by = "Sample ID"
+  )
+
+cat("After joining with collection data:", ncol(enriched_data), "columns\n")
+cat("Rows with Collection Date:", sum(!is.na(enriched_data$`Collection Date`)), "\n")
+```
+
+### Step 3: Join with Voucher Data
+
+Join with `voucher.tsv` to add institution storing information:
+
+```{r join-voucher}
+# Join with voucher data to get institution storing
+enriched_data <- enriched_data %>%
+  left_join(
+    voucher_data %>% 
+      select(`Sample ID`, `Institution Storing`, `Museum ID`, `Collection Code`),
+    by = "Sample ID",
+    suffix = c("", ".voucher")
+  )
+
+cat("After joining with voucher data:", ncol(enriched_data), "columns\n")
+cat("Rows with Institution Storing:", sum(!is.na(enriched_data$`Institution Storing`)), "\n")
+```
+
+### Step 4: Join with Taxonomy Data
+
+Finally, join with `taxonomy.tsv` to add taxonomic lineage:
+
+```{r join-taxonomy}
+# Join with taxonomy data to get taxonomic lineage
+enriched_data <- enriched_data %>%
+  left_join(
+    taxonomy_data %>% 
+      select(`Sample ID`, Phylum, Class, Order, Family, Subfamily, Tribe, Genus, Species, Subspecies),
+    by = "Sample ID"
+  )
+
+cat("Final enriched data:", nrow(enriched_data), "rows,", 
+    ncol(enriched_data), "columns\n")
+cat("Rows with Phylum:", sum(!is.na(enriched_data$Phylum)), "\n")
+```
+
+## Summary of Enriched Data
+
+```{r summary}
+# Display summary of key columns
+cat("\n=== Summary of Enriched Data ===\n\n")
+
+# Original analytics columns
+cat("Original analytics data columns:", ncol(analytics_data), "\n")
+
+# New columns added from BOLD metadata
+new_columns <- setdiff(names(enriched_data), names(analytics_data))
+cat("New columns added from BOLD metadata:", length(new_columns), "\n")
+cat("\nNew columns:\n")
+print(new_columns)
+
+# Coverage statistics
+cat("\n=== Data Coverage ===\n")
+cat("Rows with Sample ID:", 
+    sprintf("%.1f%%", 100 * sum(!is.na(enriched_data$`Sample ID`)) / nrow(enriched_data)), "\n")
+cat("Rows with Collection Date:", 
+    sprintf("%.1f%%", 100 * sum(!is.na(enriched_data$`Collection Date`)) / nrow(enriched_data)), "\n")
+cat("Rows with Institution Storing:", 
+    sprintf("%.1f%%", 100 * sum(!is.na(enriched_data$`Institution Storing`)) / nrow(enriched_data)), "\n")
+cat("Rows with Taxonomic Data:", 
+    sprintf("%.1f%%", 100 * sum(!is.na(enriched_data$Phylum)) / nrow(enriched_data)), "\n")
+```
+
+## Data Preview
+
+```{r preview}
+# Show a sample of the enriched data with key columns
+enriched_data %>%
+  select(group_id, `Sample ID`, sequence_id, 
+         `Collection Date`, `Institution Storing`,
+         Phylum, Class, Order, Family, Genus, Species) %>%
+  head(10) %>%
+  kable(caption = "Sample of Enriched Data with BOLD Metadata")
+```
+
+## Example Visualizations
+
+### Collection Dates Over Time
+
+Visualize when specimens were collected (requires date parsing):
+
+```{r collection-dates, fig.width=10, fig.height=6}
+# Parse collection dates (format: dd-Mmm-yyyy)
+enriched_data_with_dates <- enriched_data %>%
+  filter(!is.na(`Collection Date`)) %>%
+  mutate(
+    Collection_Year = as.integer(sub(".*-(\\d{4})$", "\\1", `Collection Date`))
+  ) %>%
+  filter(!is.na(Collection_Year))
+
+if (nrow(enriched_data_with_dates) > 0) {
+  ggplot(enriched_data_with_dates, aes(x = Collection_Year)) +
+    geom_histogram(binwidth = 1, fill = "steelblue", color = "white") +
+    labs(
+      title = "Distribution of Specimen Collection Years",
+      x = "Collection Year",
+      y = "Number of Specimens"
+    ) +
+    theme_minimal() +
+    theme(plot.title = element_text(hjust = 0.5))
+} else {
+  cat("No collection date data available for visualization\n")
+}
+```
+
+### Taxonomic Distribution
+
+Visualize the distribution of specimens across phyla:
+
+```{r taxonomy-distribution, fig.width=10, fig.height=6}
+if (sum(!is.na(enriched_data$Phylum)) > 0) {
+  enriched_data %>%
+    filter(!is.na(Phylum)) %>%
+    count(Phylum) %>%
+    arrange(desc(n)) %>%
+    head(10) %>%
+    ggplot(aes(x = reorder(Phylum, n), y = n)) +
+    geom_col(fill = "forestgreen") +
+    coord_flip() +
+    labs(
+      title = "Top 10 Phyla in Dataset",
+      x = "Phylum",
+      y = "Number of Specimens"
+    ) +
+    theme_minimal() +
+    theme(plot.title = element_text(hjust = 0.5))
+} else {
+  cat("No taxonomic data available for visualization\n")
+}
+```
+
+### Institution Distribution
+
+Visualize specimens by storing institution:
+
+```{r institution-distribution, fig.width=10, fig.height=6}
+if (sum(!is.na(enriched_data$`Institution Storing`)) > 0) {
+  enriched_data %>%
+    filter(!is.na(`Institution Storing`)) %>%
+    count(`Institution Storing`) %>%
+    arrange(desc(n)) %>%
+    ggplot(aes(x = reorder(`Institution Storing`, n), y = n)) +
+    geom_col(fill = "coral") +
+    coord_flip() +
+    labs(
+      title = "Specimens by Storing Institution",
+      x = "Institution",
+      y = "Number of Specimens"
+    ) +
+    theme_minimal() +
+    theme(plot.title = element_text(hjust = 0.5))
+} else {
+  cat("No institution data available for visualization\n")
+}
+```
+
+## Export Enriched Data
+
+Optionally, export the enriched data for further analysis:
+
+```{r export, eval=FALSE}
+# Save enriched data as compressed TSV
+write_tsv(enriched_data, "../data/bge-skimming-analytics-enriched.tsv.gz")
+
+cat("Enriched data saved to: data/bge-skimming-analytics-enriched.tsv.gz\n")
+```
+
+## Session Info
+
+```{r session-info}
+sessionInfo()
+```
+
+## Notes
+
+- The `group_id` column in the analytics data corresponds to the `Process ID` in BOLD metadata
+- Left joins are used to preserve all rows from the analytics data
+- Some rows may not have matching BOLD metadata (NAs in joined columns)
+- Collection dates are in dd-Mmm-yyyy format (e.g., "23-Aug-1983")
+- Lower taxonomic levels may be empty if specimens are not identified to that level
+
+## References
+
+- [BOLD Metadata README](../metadata/bold/README.md)
+- [Merged TSV Documentation](../docs/MERGE_ALL_TSV.md)
+- [Frictionless Data Specification](https://frictionlessdata.io/)
