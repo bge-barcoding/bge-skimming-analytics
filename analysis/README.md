@@ -21,12 +21,29 @@ The document includes:
 - Example visualizations (collection dates, taxonomic distribution, institution distribution)
 - Option to export enriched data
 
+### institution_sequencing_success.Rmd
+
+An RMarkdown document that analyzes COI-5P sequencing success rates by institution:
+
+1. Reads `metadata/bold/lab.tsv` directly
+2. Groups data by the `Institution` column
+3. Calculates for each institution:
+   - **Registered specimens**: Any data in `COI-5P Seq. Length` column (indicates specimen was registered for COI-5P sequencing)
+   - **Successfully sequenced**: `COI-5P Seq. Length` is not `0[n]` (indicates sequence was recovered and uploaded to BOLD)
+
+The document includes:
+- Summary statistics across 97 institutions (90,453 total registered specimens, 40.4% overall success rate)
+- Stacked bar chart showing successful vs. failed sequencing for all institutions (ordered by total registered)
+- Top 15 institutions chart with success rate percentages
+- Detailed statistics table with success rates
+- Distribution histogram of success rates across institutions
+
 ## Requirements
 
 To run these analyses, you need R with the following packages:
 
 ```r
-install.packages(c("readr", "dplyr", "ggplot2", "knitr", "rmarkdown"))
+install.packages(c("readr", "dplyr", "ggplot2", "knitr", "rmarkdown", "tidyr"))
 ```
 
 ## Usage
@@ -36,14 +53,18 @@ install.packages(c("readr", "dplyr", "ggplot2", "knitr", "rmarkdown"))
 From the repository root:
 
 ```bash
+# Render the BOLD metadata analysis
 Rscript -e "rmarkdown::render('analysis/bold_metadata_analysis.Rmd')"
+
+# Render the institution sequencing success analysis
+Rscript -e "rmarkdown::render('analysis/institution_sequencing_success.Rmd')"
 ```
 
-This will create `analysis/bold_metadata_analysis.html`.
+This will create HTML files in the `analysis/` directory.
 
 ### Interactive Use in RStudio
 
-1. Open `analysis/bold_metadata_analysis.Rmd` in RStudio
+1. Open an RMarkdown file (e.g., `analysis/bold_metadata_analysis.Rmd` or `analysis/institution_sequencing_success.Rmd`) in RStudio
 2. Click "Knit" to render the document
 3. Or run code chunks interactively
 
