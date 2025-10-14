@@ -116,5 +116,40 @@ def test_analysis_readme_documents_rmd():
     assert 'Usage' in content or 'usage' in content, "README must include usage instructions"
 
 
+def test_bold_metadata_analysis_has_validation_section():
+    """Test that the RMarkdown file includes a barcode validation section."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "bold_metadata_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for validation section header
+    assert 'Barcode Validation Success' in content, "RMarkdown must have a 'Barcode Validation Success' section"
+    
+    # Check for structural validity checks
+    assert 'structural_valid' in content, "RMarkdown must calculate structural_valid"
+    assert 'valid_length' in content, "RMarkdown must check valid_length (nuc_basecount >= 500)"
+    assert 'valid_ambig' in content, "RMarkdown must check valid_ambig (ambig_basecount == 0)"
+    assert 'valid_stops' in content, "RMarkdown must check valid_stops (stop_codons == 0)"
+    
+    # Check for taxonomic validity checks
+    assert 'taxonomic_valid' in content, "RMarkdown must calculate taxonomic_valid"
+    assert 'identification' in content, "RMarkdown must reference identification column"
+    assert 'obs_taxon' in content, "RMarkdown must reference obs_taxon column"
+    
+    # Check for overall validation success
+    assert 'validation_success' in content, "RMarkdown must calculate overall validation_success"
+    
+    # Check for documentation of assembly-level factors
+    assembly_factors = ['r', 's', 'fcleaner', 'merge', 'validation_steps', 'assembly_params']
+    for factor in assembly_factors:
+        assert factor in content, f"RMarkdown must mention assembly factor: {factor}"
+    
+    # Check for documentation of specimen-level factors
+    assert 'Collection Date' in content or 'Collection_Year' in content, "RMarkdown must mention specimen age/date"
+    assert 'Phylum' in content or 'taxonomic' in content.lower(), "RMarkdown must mention taxonomic classification"
+
+
 if __name__ == '__main__':
     pytest.main([__file__, '-v'])
