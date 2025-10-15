@@ -1,3 +1,7 @@
+# RStudio
+.Rproj.user/
+*.Rproj
+
 # Pycharm
 .idea/
 
