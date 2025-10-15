@@ -529,6 +529,24 @@ def test_taxonomic_validation_analysis_filters_by_order():
         "RMarkdown must filter to Orders with at least 5 specimens"
 
 
+def test_taxonomic_validation_analysis_filters_empty_values():
+    """Test that the analysis filters out records with empty identification or obs_taxon."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for filtering of empty values
+    assert 'analytics_data_filtered' in content, \
+        "RMarkdown must create filtered dataset"
+    assert 'filter(!is.na(identification)' in content or 'filter(!is.na(obs_taxon)' in content, \
+        "RMarkdown must filter out records with NA identification or obs_taxon"
+    # Check that filtered data is used in joins
+    assert 'analytics_data_filtered %>%' in content, \
+        "RMarkdown must use filtered analytics data in joins"
+
+
 def test_taxonomic_validation_analysis_has_statistical_tests():
     """Test that the RMarkdown file includes statistical tests."""
     repo_root = Path(__file__).parent.parent
