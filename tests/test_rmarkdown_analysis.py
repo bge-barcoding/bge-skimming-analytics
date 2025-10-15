@@ -151,5 +151,131 @@ def test_bold_metadata_analysis_has_validation_section():
     assert 'Phylum' in content or 'taxonomic' in content.lower(), "RMarkdown must mention taxonomic classification"
 
 
+def test_assembly_parameter_analysis_rmd_exists():
+    """Test that the assembly parameter analysis RMarkdown file exists."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "assembly_parameter_analysis.Rmd"
+    assert rmd_file.exists(), f"RMarkdown file not found: {rmd_file}"
+
+
+def test_assembly_parameter_analysis_has_yaml_header():
+    """Test that the RMarkdown file has a valid YAML header."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "assembly_parameter_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for YAML header (starts with --- and ends with ---)
+    assert content.startswith('---'), "RMarkdown file must start with YAML header (---)"
+    
+    # Find the end of YAML header
+    yaml_end = content.find('---', 3)
+    assert yaml_end > 0, "YAML header must end with ---"
+    
+    yaml_header = content[3:yaml_end]
+    
+    # Check for required YAML fields
+    assert 'title:' in yaml_header, "YAML header must include title"
+    assert 'output:' in yaml_header, "YAML header must include output"
+
+
+def test_assembly_parameter_analysis_references_correct_files():
+    """Test that the RMarkdown file references the correct data files."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "assembly_parameter_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for references to required data files
+    assert '../data/bge-skimming-analytics.tsv.gz' in content, "RMarkdown must reference main data file"
+
+
+def test_assembly_parameter_analysis_has_required_libraries():
+    """Test that the RMarkdown file loads required R libraries."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "assembly_parameter_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for required libraries
+    required_libraries = ['readr', 'dplyr', 'ggplot2', 'knitr', 'tidyr']
+    
+    for lib in required_libraries:
+        pattern = f'library\\({lib}\\)'
+        assert re.search(pattern, content), f"RMarkdown must load library({lib})"
+
+
+def test_assembly_parameter_analysis_has_independent_variables():
+    """Test that the RMarkdown file analyzes all independent variables."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "assembly_parameter_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for independent variables
+    independent_vars = ['r', 's', 'fcleaner', 'merge']
+    
+    for var in independent_vars:
+        # Check for mention in variable selection or grouping
+        assert var in content, f"RMarkdown must analyze independent variable: {var}"
+
+
+def test_assembly_parameter_analysis_has_dependent_variables():
+    """Test that the RMarkdown file analyzes all dependent variables."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "assembly_parameter_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for dependent variables
+    dependent_vars = ['nuc_full_basecount', 'ambig_full_basecount', 'stop_codons']
+    
+    for var in dependent_vars:
+        assert var in content, f"RMarkdown must analyze dependent variable: {var}"
+
+
+def test_assembly_parameter_analysis_has_statistical_tests():
+    """Test that the RMarkdown file includes statistical tests."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "assembly_parameter_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for statistical tests
+    assert 'aov' in content or 'ANOVA' in content, "RMarkdown must include ANOVA tests"
+    assert 't.test' in content or 'T-test' in content, "RMarkdown must include t-tests"
+
+
+def test_assembly_parameter_analysis_has_visualizations():
+    """Test that the RMarkdown file includes visualizations."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "assembly_parameter_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for visualizations
+    assert 'ggplot' in content, "RMarkdown must include ggplot visualizations"
+    assert 'geom_boxplot' in content, "RMarkdown must include boxplots"
+
+
+def test_assembly_parameter_analysis_has_interaction_analysis():
+    """Test that the RMarkdown file includes interaction analysis."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "assembly_parameter_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for interaction analysis
+    assert 'Interaction' in content or 'interaction' in content, "RMarkdown must include interaction analysis"
+
+
 if __name__ == '__main__':
     pytest.main([__file__, '-v'])
