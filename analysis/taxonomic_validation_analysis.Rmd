@@ -77,6 +77,11 @@ specimen_data <- analytics_data %>%
   # Only consider specimens with at least one attempt with both identification and obs_taxon
   filter(!is.na(identification) & identification != "" &
          !is.na(obs_taxon) & obs_taxon != "") %>%
+  # Trim whitespace from identification and obs_taxon fields
+  mutate(
+    identification = trimws(identification),
+    obs_taxon = trimws(obs_taxon)
+  ) %>%
   # For each specimen, calculate if identification is among obs_taxon
   mutate(
     taxonomic_match = grepl(paste0("(^|,)", identification, "(,|$)"), obs_taxon)
