@@ -93,10 +93,10 @@ ggplot(institution_summary, aes(x = reorder(Institution, successful), y = succes
   geom_col(fill = "#2ecc71") +
   coord_flip() +
   labs(
-    title = "Successfully Sequenced Specimens by Institution",
-    subtitle = "Institutions ordered by number of successfully sequenced specimens",
+    title = "Sequenced Specimens by Institution",
+    subtitle = "Institutions ordered by number of published specimen barcodes",
     x = "Institution",
-    y = "Number of Successfully Sequenced Specimens"
+    y = "Number of Sequenced Specimens"
   ) +
   theme_minimal() +
   theme(
