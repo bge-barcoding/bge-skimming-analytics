@@ -73,7 +73,8 @@ cat("Unique specimens (group_id):", n_distinct(analytics_data$group_id), "\n")
 # - For obs_taxon, pick the first one where identification matches (if any), 
 #   otherwise pick any mismatched one
 
-specimen_data <- analytics_data %>%
+# First, prepare the data with matching information
+analytics_with_match <- analytics_data %>%
   # Only consider specimens with at least one attempt with both identification and obs_taxon
   filter(!is.na(identification) & identification != "" &
          !is.na(obs_taxon) & obs_taxon != "") %>%
@@ -82,13 +83,16 @@ specimen_data <- analytics_data %>%
     identification = trimws(identification),
     obs_taxon = trimws(obs_taxon)
   ) %>%
-  # For each specimen, calculate if identification is among obs_taxon
+  # For each record, check if identification is in the comma-separated obs_taxon list
+  rowwise() %>%
   mutate(
-    taxonomic_match = grepl(paste0("(^|,)", identification, "(,|$)"), obs_taxon)
+    taxonomic_match = identification %in% strsplit(obs_taxon, ",")[[1]]
   ) %>%
-  # Group by specimen
+  ungroup()
+
+# Now aggregate to specimen level
+specimen_data <- analytics_with_match %>%
   group_by(group_id) %>%
-  # Get the identification (should be constant) and pick an obs_taxon
   summarise(
     identification = first(identification),
     # Pick the first matching obs_taxon if any exist, otherwise pick the first non-matching one
