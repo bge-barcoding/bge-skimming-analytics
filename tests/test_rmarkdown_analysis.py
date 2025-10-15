@@ -277,5 +277,153 @@ def test_assembly_parameter_analysis_has_interaction_analysis():
     assert 'Interaction' in content or 'interaction' in content, "RMarkdown must include interaction analysis"
 
 
+def test_specimen_age_analysis_rmd_exists():
+    """Test that the specimen age analysis RMarkdown file exists."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
+    assert rmd_file.exists(), f"RMarkdown file not found: {rmd_file}"
+
+
+def test_specimen_age_analysis_has_yaml_header():
+    """Test that the RMarkdown file has a valid YAML header."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for YAML header (starts with --- and ends with ---)
+    assert content.startswith('---'), "RMarkdown file must start with YAML header (---)"
+    
+    # Find the end of YAML header
+    yaml_end = content.find('---', 3)
+    assert yaml_end > 0, "YAML header must end with ---"
+    
+    yaml_header = content[3:yaml_end]
+    
+    # Check for required YAML fields
+    assert 'title:' in yaml_header, "YAML header must include title"
+    assert 'output:' in yaml_header, "YAML header must include output"
+
+
+def test_specimen_age_analysis_references_correct_files():
+    """Test that the RMarkdown file references the correct data files."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for references to required data files
+    required_files = [
+        '../data/bge-skimming-analytics.tsv.gz',
+        '../metadata/bold/lab.tsv',
+        '../metadata/bold/collection_data.tsv'
+    ]
+    
+    for file_path in required_files:
+        assert file_path in content, f"RMarkdown must reference {file_path}"
+
+
+def test_specimen_age_analysis_has_required_libraries():
+    """Test that the RMarkdown file loads required R libraries."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for required libraries
+    required_libraries = ['readr', 'dplyr', 'ggplot2', 'knitr', 'lubridate']
+    
+    for lib in required_libraries:
+        pattern = f'library\\({lib}\\)'
+        assert re.search(pattern, content), f"RMarkdown must load library({lib})"
+
+
+def test_specimen_age_analysis_uses_n_reads_aligned():
+    """Test that the RMarkdown file analyzes n_reads_aligned."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for n_reads_aligned
+    assert 'n_reads_aligned' in content, "RMarkdown must analyze n_reads_aligned"
+
+
+def test_specimen_age_analysis_calculates_specimen_age():
+    """Test that the RMarkdown file calculates specimen age."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for specimen age calculation
+    assert 'Specimen_Age' in content or 'specimen_age' in content or 'Collection_Year' in content, \
+        "RMarkdown must calculate specimen age"
+    assert 'Collection Date' in content, "RMarkdown must use Collection Date"
+
+
+def test_specimen_age_analysis_aggregates_by_specimen():
+    """Test that the RMarkdown file aggregates data at specimen level."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for aggregation at specimen level (group_id)
+    assert 'group_by(group_id)' in content, "RMarkdown must aggregate by group_id"
+    # Check for selecting highest n_reads_aligned
+    assert 'slice_max' in content or 'arrange' in content, \
+        "RMarkdown must select highest n_reads_aligned per specimen"
+
+
+def test_specimen_age_analysis_has_visualizations():
+    """Test that the RMarkdown file includes visualizations."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for visualizations
+    assert 'ggplot' in content, "RMarkdown must include ggplot visualizations"
+    # Check for multiple plot types
+    plot_types = ['geom_point', 'geom_boxplot', 'geom_col', 'geom_histogram', 'geom_hex']
+    found_plot_types = [pt for pt in plot_types if pt in content]
+    assert len(found_plot_types) >= 3, "RMarkdown must include at least 3 types of plots"
+
+
+def test_specimen_age_analysis_has_statistical_tests():
+    """Test that the RMarkdown file includes statistical tests."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for statistical tests
+    assert 'cor.test' in content, "RMarkdown must include correlation test"
+    assert 'lm' in content or 'linear' in content.lower(), "RMarkdown must include linear regression"
+    assert 'aov' in content or 'ANOVA' in content, "RMarkdown must include ANOVA"
+
+
+def test_analysis_readme_documents_specimen_age():
+    """Test that the analysis README documents the specimen age analysis."""
+    repo_root = Path(__file__).parent.parent
+    readme_file = repo_root / "analysis" / "README.md"
+    
+    with open(readme_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for documentation of the specimen age analysis
+    assert 'specimen_age_analysis.Rmd' in content, "README must document specimen_age_analysis.Rmd"
+    assert 'n_reads_aligned' in content, "README must mention n_reads_aligned metric"
+
+
 if __name__ == '__main__':
     pytest.main([__file__, '-v'])
