@@ -85,6 +85,36 @@ The document includes:
 - ANOVA and post-hoc tests comparing age groups
 - Key findings and interpretation of results
 
+### taxonomic_validation_analysis.Rmd
+
+An RMarkdown document that analyzes taxonomic validation success rates by taxonomic Order:
+
+**Success Criteria:**
+- A specimen is successful if ANY of its assembly attempts achieve taxonomic validation
+- Taxonomic validation means the expected taxon (`identification`) appears in the observed taxa (`obs_taxon`) comma-separated list
+
+**Methodology:**
+1. Aggregates data at the specimen level (group_id) to avoid pseudoreplication
+2. Joins with BOLD taxonomy metadata to get taxonomic Order
+3. Filters to Orders with at least 5 specimens
+4. Calculates success rates for each Order
+5. Tests for taxonomic signal using chi-square test and effect size (Cramér's V)
+
+**Research Question:**
+Do some taxonomic orders have higher taxonomic validation success rates than others? This could indicate:
+- Reference library coverage effects: Taxa with better representation in reference databases may yield more accurate matches
+- Taxonomic reconciliation issues: Mismatches between reference database and BOLD registered taxonomy
+
+The document includes:
+- Overall taxonomic validation success statistics
+- Success rates by Order (table and bar plot)
+- Distribution of success rates across Orders
+- Sample size vs success rate visualization
+- Chi-square test for independence
+- Cramér's V effect size calculation
+- Top and bottom performing Orders
+- Interpretation of results
+
 ## Requirements
 
 To run these analyses, you need R with the following packages:
@@ -111,13 +141,16 @@ Rscript -e "rmarkdown::render('analysis/institution_sequencing_success.Rmd')"
 
 # Render the specimen age analysis
 Rscript -e "rmarkdown::render('analysis/specimen_age_analysis.Rmd')"
+
+# Render the taxonomic validation success analysis
+Rscript -e "rmarkdown::render('analysis/taxonomic_validation_analysis.Rmd')"
 ```
 
 This will create HTML files in the `analysis/` directory.
 
 ### Interactive Use in RStudio
 
-1. Open an RMarkdown file (e.g., `analysis/bold_metadata_analysis.Rmd`, `analysis/assembly_parameter_analysis.Rmd`, `analysis/institution_sequencing_success.Rmd`, or `analysis/specimen_age_analysis.Rmd`) in RStudio
+1. Open an RMarkdown file (e.g., `analysis/bold_metadata_analysis.Rmd`, `analysis/assembly_parameter_analysis.Rmd`, `analysis/institution_sequencing_success.Rmd`, `analysis/specimen_age_analysis.Rmd`, or `analysis/taxonomic_validation_analysis.Rmd`) in RStudio
 2. Click "Knit" to render the document
 3. Or run code chunks interactively
 

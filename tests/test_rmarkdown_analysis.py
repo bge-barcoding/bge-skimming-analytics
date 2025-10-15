@@ -425,5 +425,139 @@ def test_analysis_readme_documents_specimen_age():
     assert 'n_reads_aligned' in content, "README must mention n_reads_aligned metric"
 
 
+def test_taxonomic_validation_analysis_rmd_exists():
+    """Test that the taxonomic validation analysis RMarkdown file exists."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
+    assert rmd_file.exists(), f"RMarkdown file not found: {rmd_file}"
+
+
+def test_taxonomic_validation_analysis_has_yaml_header():
+    """Test that the RMarkdown file has a valid YAML header."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for YAML header (starts with --- and ends with ---)
+    assert content.startswith('---'), "RMarkdown file must start with YAML header (---)"
+    
+    # Find the end of YAML header
+    yaml_end = content.find('---', 3)
+    assert yaml_end > 0, "YAML header must end with ---"
+    
+    yaml_header = content[3:yaml_end]
+    
+    # Check for required YAML fields
+    assert 'title:' in yaml_header, "YAML header must include title"
+    assert 'output:' in yaml_header, "YAML header must include output"
+    assert 'Taxonomic Validation' in yaml_header, \
+        "Title must reference taxonomic validation"
+
+
+def test_taxonomic_validation_analysis_references_correct_files():
+    """Test that the RMarkdown file references the correct data files."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for references to required data files
+    assert 'bge-skimming-analytics.tsv.gz' in content, \
+        "RMarkdown must reference main analytics data file"
+    assert 'metadata/bold/lab.tsv' in content or 'lab.tsv' in content, \
+        "RMarkdown must reference BOLD lab metadata"
+    assert 'metadata/bold/taxonomy.tsv' in content or 'taxonomy.tsv' in content, \
+        "RMarkdown must reference BOLD taxonomy metadata"
+
+
+def test_taxonomic_validation_analysis_has_required_libraries():
+    """Test that the RMarkdown file loads required libraries."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for required R libraries
+    required_libs = ['readr', 'dplyr', 'ggplot2', 'knitr']
+    for lib in required_libs:
+        assert f'library({lib})' in content, f"RMarkdown must load {lib} library"
+
+
+def test_taxonomic_validation_analysis_uses_taxonomic_validation():
+    """Test that the analysis uses taxonomic validation criteria."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for taxonomic validation logic
+    assert 'identification' in content, "RMarkdown must reference identification column"
+    assert 'obs_taxon' in content, "RMarkdown must reference obs_taxon column"
+    assert 'grepl' in content, "RMarkdown must use grepl to check if identification is in obs_taxon"
+    assert 'taxonomic_valid' in content, "RMarkdown must calculate taxonomic_valid"
+
+
+def test_taxonomic_validation_analysis_aggregates_by_specimen():
+    """Test that the analysis aggregates by specimen (group_id)."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for aggregation by group_id
+    assert 'group_by(group_id' in content, "RMarkdown must aggregate by group_id"
+    assert 'any_success' in content, "RMarkdown must check if any attempt was successful"
+
+
+def test_taxonomic_validation_analysis_filters_by_order():
+    """Test that the analysis filters to Orders with at least 5 specimens."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for Order filtering
+    assert 'Order' in content, "RMarkdown must reference taxonomic Order"
+    assert 'n_specimens >= 5' in content or '>= 5' in content, \
+        "RMarkdown must filter to Orders with at least 5 specimens"
+
+
+def test_taxonomic_validation_analysis_has_statistical_tests():
+    """Test that the RMarkdown file includes statistical tests."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for statistical tests
+    assert 'chisq.test' in content, "RMarkdown must include chi-square test"
+    assert 'cramers_v' in content or "Cramér's V" in content, \
+        "RMarkdown must calculate Cramér's V effect size"
+
+
+def test_taxonomic_validation_analysis_has_visualizations():
+    """Test that the RMarkdown file includes visualizations."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for visualizations
+    assert 'ggplot' in content, "RMarkdown must include ggplot visualizations"
+    # Check for multiple plot types
+    plot_types = ['geom_col', 'geom_histogram', 'geom_point']
+    found_plot_types = [pt for pt in plot_types if pt in content]
+    assert len(found_plot_types) >= 2, "RMarkdown must include at least 2 types of plots"
+
+
 if __name__ == '__main__':
     pytest.main([__file__, '-v'])

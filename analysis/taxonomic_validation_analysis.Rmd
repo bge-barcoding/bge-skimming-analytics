@@ -1,0 +1,440 @@
+---
+title: "Taxonomic Validation Success Analysis: Performance by Order"
+author: "BGE Project"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: show
+    theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+## Introduction
+
+This analysis examines how well different taxonomic groups perform in **taxonomic validation** during genome skimming, focusing on Linnean orders. The goal is to determine whether there is taxonomic signal in validation success rates - i.e., do some orders yield more successful taxonomic matches than others?
+
+### Success Criteria
+
+A specimen is considered **successful** if ANY of its assembly attempts achieve **taxonomic validation**, meaning:
+
+- The expected taxon (`identification`) is found among the observed taxa (`obs_taxon`)
+- This is checked by verifying if `identification` appears in the comma-separated `obs_taxon` list
+
+Note: This analysis focuses purely on taxonomic validation, not structural validity (sequence length, ambiguous bases, or stop codons).
+
+### Scope
+
+- Analysis is aggregated at the level of Linnean **Orders**
+- Only Orders with **at least 5 specimens** are included
+- Only specimens whose process ID (group_id) occurs in the aggregated data are analyzed
+- Aggregation at process ID level avoids pseudoreplication (2step process validates only one attempt, 1step validates all)
+
+### Research Question
+
+Do some taxonomic orders have higher taxonomic validation success rates than others? This could indicate:
+1. **Reference library coverage effects**: Taxa with better representation in reference databases may yield denser, more accurate matches
+2. **Taxonomic reconciliation issues**: Mismatches between the taxonomy in reference databases and BOLD registered taxonomy
+
+## Load Required Libraries
+
+```{r libraries}
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(tidyr)
+```
+
+## Read Data Files
+
+### Main Analytics Data
+
+```{r read-analytics}
+# Read the main analytics data
+analytics_data <- read_tsv("../data/bge-skimming-analytics.tsv.gz")
+
+cat("Analytics data dimensions:", nrow(analytics_data), "rows,", 
+    ncol(analytics_data), "columns\n")
+cat("Unique specimens (group_id):", n_distinct(analytics_data$group_id), "\n")
+```
+
+### BOLD Metadata Files
+
+```{r read-bold-metadata}
+# Read BOLD metadata files needed for taxonomic information
+lab_data <- read_tsv("../metadata/bold/lab.tsv")
+taxonomy_data <- read_tsv("../metadata/bold/taxonomy.tsv")
+
+cat("Lab data:", nrow(lab_data), "rows\n")
+cat("Taxonomy data:", nrow(taxonomy_data), "rows\n")
+```
+
+## Join Data and Add Taxonomic Information
+
+```{r join-data}
+# Join analytics data with lab data to get Sample ID
+enriched_data <- analytics_data %>%
+  left_join(
+    lab_data %>% select(`Process ID`, `Sample ID`),
+    by = c("group_id" = "Process ID")
+  )
+
+# Join with taxonomy data to get taxonomic Order
+enriched_data <- enriched_data %>%
+  left_join(
+    taxonomy_data %>% select(`Sample ID`, Phylum, Class, Order),
+    by = "Sample ID"
+  )
+
+cat("Enriched data:", nrow(enriched_data), "rows\n")
+cat("Rows with taxonomic Order:", sum(!is.na(enriched_data$Order)), 
+    sprintf(" (%.1f%%)\n", 100 * sum(!is.na(enriched_data$Order)) / nrow(enriched_data)))
+```
+
+## Calculate Taxonomic Validation Success per Assembly Attempt
+
+```{r calculate-success}
+# Define taxonomic validation success for each assembly attempt
+# Success = identification taxon appears in the obs_taxon comma-separated list
+enriched_data <- enriched_data %>%
+  mutate(
+    taxonomic_valid = !is.na(identification) & !is.na(obs_taxon) & 
+                      grepl(paste0("(^|,)", identification, "(,|$)"), obs_taxon)
+  )
+
+cat("Assembly attempts with taxonomic validation success:", 
+    sum(enriched_data$taxonomic_valid, na.rm = TRUE),
+    sprintf(" (%.1f%%)\n", 100 * sum(enriched_data$taxonomic_valid, na.rm = TRUE) / nrow(enriched_data)))
+cat("Assembly attempts with identification and obs_taxon data:", 
+    sum(!is.na(enriched_data$identification) & !is.na(enriched_data$obs_taxon)),
+    sprintf(" (%.1f%%)\n", 
+        100 * sum(!is.na(enriched_data$identification) & !is.na(enriched_data$obs_taxon)) / nrow(enriched_data)))
+```
+
+## Aggregate by Specimen (Process ID)
+
+```{r aggregate-by-specimen}
+# For each specimen (group_id), check if ANY assembly attempt achieved taxonomic validation
+specimen_success <- enriched_data %>%
+  filter(!is.na(Order)) %>%  # Only specimens with taxonomic information
+  group_by(group_id, Order) %>%
+  summarise(
+    n_attempts = n(),
+    n_successful_attempts = sum(taxonomic_valid, na.rm = TRUE),
+    any_success = any(taxonomic_valid, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+cat("\n=== Specimen-level Taxonomic Validation Success ===\n\n")
+cat("Total specimens with Order info:", nrow(specimen_success), "\n")
+cat("Specimens with at least one taxonomically validated attempt:", sum(specimen_success$any_success),
+    sprintf(" (%.1f%%)\n", 100 * sum(specimen_success$any_success) / nrow(specimen_success)))
+cat("Mean assembly attempts per specimen:", sprintf("%.1f\n", mean(specimen_success$n_attempts)))
+```
+
+## Filter to Orders with at Least 5 Specimens
+
+```{r filter-orders}
+# Count specimens per Order
+order_counts <- specimen_success %>%
+  group_by(Order) %>%
+  summarise(n_specimens = n(), .groups = "drop")
+
+# Identify Orders with at least 5 specimens
+orders_to_include <- order_counts %>%
+  filter(n_specimens >= 5) %>%
+  pull(Order)
+
+cat("Total Orders with taxonomic data:", nrow(order_counts), "\n")
+cat("Orders with at least 5 specimens:", length(orders_to_include), "\n\n")
+
+# Filter specimen data to only include these Orders
+specimen_success_filtered <- specimen_success %>%
+  filter(Order %in% orders_to_include)
+
+cat("Specimens after filtering to Orders with >=5 specimens:", 
+    nrow(specimen_success_filtered), "\n")
+```
+
+## Calculate Success Rates by Order
+
+```{r success-by-order}
+# Calculate taxonomic validation success rate for each Order
+order_success <- specimen_success_filtered %>%
+  group_by(Order) %>%
+  summarise(
+    n_specimens = n(),
+    n_successful = sum(any_success),
+    success_rate = n_successful / n_specimens,
+    .groups = "drop"
+  ) %>%
+  arrange(desc(success_rate))
+
+cat("\n=== Taxonomic Validation Success Rates by Order ===\n\n")
+print(kable(order_success, digits = 3, 
+            col.names = c("Order", "Specimens", "Successful", "Success Rate")))
+```
+
+## Statistical Analysis
+
+### Overall Statistics
+
+```{r overall-stats}
+cat("\n=== Overall Statistics ===\n\n")
+cat("Overall taxonomic validation success rate:", 
+    sprintf("%.1f%%\n", 100 * sum(specimen_success_filtered$any_success) / nrow(specimen_success_filtered)))
+cat("Range of success rates by Order:", 
+    sprintf("%.1f%% to %.1f%%\n", 
+            100 * min(order_success$success_rate), 
+            100 * max(order_success$success_rate)))
+cat("Standard deviation of success rates:", 
+    sprintf("%.3f\n", sd(order_success$success_rate)))
+```
+
+### Chi-square Test for Independence
+
+Test whether taxonomic validation success rate is independent of taxonomic Order:
+
+```{r chi-square-test}
+# Create contingency table: Order vs Success
+contingency_table <- specimen_success_filtered %>%
+  group_by(Order, any_success) %>%
+  summarise(n = n(), .groups = "drop") %>%
+  pivot_wider(names_from = any_success, values_from = n, values_fill = 0) %>%
+  select(-Order) %>%
+  as.matrix()
+
+rownames(contingency_table) <- specimen_success_filtered %>%
+  group_by(Order, any_success) %>%
+  summarise(n = n(), .groups = "drop") %>%
+  pivot_wider(names_from = any_success, values_from = n, values_fill = 0) %>%
+  pull(Order)
+
+# Perform chi-square test
+chi_test <- chisq.test(contingency_table)
+
+cat("\n=== Chi-square Test of Independence ===\n\n")
+cat("Null hypothesis: Taxonomic validation success rate is independent of taxonomic Order\n\n")
+cat("Chi-square statistic:", sprintf("%.2f\n", chi_test$statistic))
+cat("Degrees of freedom:", chi_test$parameter, "\n")
+cat("P-value:", sprintf("%.4e\n", chi_test$p.value))
+cat("\nConclusion:", 
+    if(chi_test$p.value < 0.001) {
+      "STRONG evidence of taxonomic signal (p < 0.001)"
+    } else if(chi_test$p.value < 0.05) {
+      "Evidence of taxonomic signal (p < 0.05)"
+    } else {
+      "No significant taxonomic signal (p >= 0.05)"
+    })
+cat("\n")
+```
+
+### Effect Size (Cramér's V)
+
+```{r cramers-v}
+# Calculate Cramér's V as a measure of effect size
+n <- sum(contingency_table)
+min_dim <- min(nrow(contingency_table) - 1, ncol(contingency_table) - 1)
+cramers_v <- sqrt(chi_test$statistic / (n * min_dim))
+
+cat("\n=== Effect Size (Cramér's V) ===\n\n")
+cat("Cramér's V:", sprintf("%.3f\n", cramers_v))
+cat("Interpretation:", 
+    if(cramers_v < 0.1) {
+      "Small effect"
+    } else if(cramers_v < 0.3) {
+      "Medium effect"
+    } else {
+      "Large effect"
+    })
+cat("\n")
+```
+
+## Visualizations
+
+### Success Rate by Order (Bar Plot)
+
+```{r plot-success-rates, fig.width=12, fig.height=10}
+# Order by success rate for visualization
+order_success_plot <- order_success %>%
+  arrange(success_rate) %>%
+  mutate(Order = factor(Order, levels = Order))
+
+ggplot(order_success_plot, aes(x = Order, y = success_rate)) +
+  geom_col(aes(fill = success_rate), show.legend = TRUE) +
+  geom_text(aes(label = sprintf("%.1f%%", 100 * success_rate)), 
+            hjust = -0.1, size = 3) +
+  geom_text(aes(label = sprintf("n=%d", n_specimens)), 
+            hjust = 1.1, size = 2.5, color = "white") +
+  coord_flip() +
+  scale_fill_gradient(low = "#e74c3c", high = "#2ecc71", 
+                      labels = scales::percent,
+                      name = "Success Rate") +
+  scale_y_continuous(labels = scales::percent, 
+                     expand = expansion(mult = c(0, 0.15))) +
+  labs(
+    title = "Taxonomic Validation Success Rate by Order",
+    subtitle = sprintf("Orders with ≥5 specimens (n=%d orders, %d specimens total)", 
+                      nrow(order_success), sum(order_success$n_specimens)),
+    x = "Taxonomic Order",
+    y = "Success Rate (% of specimens with at least one taxonomically validated assembly)"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
+    plot.subtitle = element_text(hjust = 0.5, size = 10),
+    axis.text.y = element_text(size = 8),
+    legend.position = "right"
+  )
+```
+
+### Distribution of Success Rates
+
+```{r plot-distribution, fig.width=10, fig.height=6}
+# Histogram of success rates
+ggplot(order_success, aes(x = success_rate)) +
+  geom_histogram(binwidth = 0.05, fill = "#3498db", color = "white") +
+  geom_vline(aes(xintercept = mean(success_rate)), 
+             color = "#e74c3c", linetype = "dashed", size = 1) +
+  annotate("text", 
+           x = mean(order_success$success_rate), 
+           y = Inf, 
+           label = sprintf("Mean: %.1f%%", 100 * mean(order_success$success_rate)),
+           vjust = 2, hjust = -0.1, color = "#e74c3c") +
+  scale_x_continuous(labels = scales::percent) +
+  labs(
+    title = "Distribution of Taxonomic Validation Success Rates Across Orders",
+    x = "Success Rate",
+    y = "Number of Orders"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 14, face = "bold")
+  )
+```
+
+### Sample Size vs Success Rate
+
+```{r plot-sample-size, fig.width=10, fig.height=6}
+ggplot(order_success, aes(x = n_specimens, y = success_rate)) +
+  geom_point(aes(size = n_specimens, color = success_rate), alpha = 0.6) +
+  geom_smooth(method = "loess", se = TRUE, color = "#2c3e50") +
+  scale_color_gradient(low = "#e74c3c", high = "#2ecc71", 
+                       labels = scales::percent,
+                       name = "Success Rate") +
+  scale_x_log10() +
+  scale_y_continuous(labels = scales::percent) +
+  scale_size_continuous(name = "Sample Size") +
+  labs(
+    title = "Sample Size vs Success Rate by Order",
+    subtitle = "Is success rate related to sample size?",
+    x = "Number of Specimens (log scale)",
+    y = "Success Rate"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
+    plot.subtitle = element_text(hjust = 0.5, size = 10)
+  )
+```
+
+## Top and Bottom Performing Orders
+
+### Top 10 Orders by Taxonomic Validation Success Rate
+
+```{r top-orders}
+cat("\n=== Top 10 Orders by Success Rate ===\n\n")
+top_orders <- order_success %>%
+  arrange(desc(success_rate)) %>%
+  head(10)
+
+print(kable(top_orders, digits = 3,
+            col.names = c("Order", "Specimens", "Successful", "Success Rate")))
+```
+
+### Bottom 10 Orders by Taxonomic Validation Success Rate
+
+```{r bottom-orders}
+cat("\n=== Bottom 10 Orders by Success Rate ===\n\n")
+bottom_orders <- order_success %>%
+  arrange(success_rate) %>%
+  head(10)
+
+print(kable(bottom_orders, digits = 3,
+            col.names = c("Order", "Specimens", "Successful", "Success Rate")))
+```
+
+## Summary and Conclusions
+
+```{r summary}
+cat("\n=== SUMMARY ===\n\n")
+cat("1. Dataset Scope:\n")
+cat("   - Total specimens analyzed:", nrow(specimen_success_filtered), "\n")
+cat("   - Taxonomic Orders included:", length(orders_to_include), 
+    "(with ≥5 specimens each)\n")
+cat("   - Total assembly attempts:", sum(specimen_success_filtered$n_attempts), "\n\n")
+
+cat("2. Overall Taxonomic Validation Success:\n")
+cat("   - Overall specimen success rate:", 
+    sprintf("%.1f%%\n", 100 * sum(specimen_success_filtered$any_success) / nrow(specimen_success_filtered)))
+cat("   - Range across Orders:", 
+    sprintf("%.1f%% to %.1f%%\n", 
+            100 * min(order_success$success_rate), 
+            100 * max(order_success$success_rate)))
+cat("   - Coefficient of variation:", 
+    sprintf("%.2f\n\n", sd(order_success$success_rate) / mean(order_success$success_rate)))
+
+cat("3. Statistical Evidence of Taxonomic Signal:\n")
+cat("   - Chi-square test p-value:", sprintf("%.4e\n", chi_test$p.value))
+cat("   - Cramér's V (effect size):", sprintf("%.3f\n", cramers_v))
+cat("   - Interpretation:", 
+    if(chi_test$p.value < 0.001 && cramers_v >= 0.1) {
+      "YES - Strong evidence that taxonomic Order significantly affects validation success rate"
+    } else if(chi_test$p.value < 0.05) {
+      "YES - Evidence that taxonomic Order affects validation success rate, but effect may be small"
+    } else {
+      "NO - No significant evidence that taxonomic Order affects validation success rate"
+    })
+cat("\n\n")
+
+cat("4. Key Findings:\n")
+cat("   - Best performing Order:", 
+    order_success$Order[which.max(order_success$success_rate)],
+    sprintf("(%.1f%% success, n=%d)\n", 
+            100 * max(order_success$success_rate),
+            order_success$n_specimens[which.max(order_success$success_rate)]))
+cat("   - Worst performing Order:", 
+    order_success$Order[which.min(order_success$success_rate)],
+    sprintf("(%.1f%% success, n=%d)\n", 
+            100 * min(order_success$success_rate),
+            order_success$n_specimens[which.min(order_success$success_rate)]))
+
+cat("\n5. Interpretation:\n")
+cat("   The observed taxonomic effects could be due to:\n")
+cat("   - Reference library coverage: Taxa with better representation may yield more accurate matches\n")
+cat("   - Taxonomic reconciliation issues: Mismatches between reference DB and BOLD taxonomy\n")
+cat("   - Biological factors: Some groups may have more conserved barcode regions\n")
+```
+
+## Session Info
+
+```{r session-info}
+sessionInfo()
+```
+
+## Notes
+
+- **Process ID** in the analytics data corresponds to `group_id` column
+- **Taxonomic validation success** is defined as having the `identification` taxon appear in the `obs_taxon` comma-separated list for at least one assembly attempt
+- Only specimens with complete taxonomic Order information are included
+- Orders with fewer than 5 specimens are excluded to avoid bias from small sample sizes
+- The chi-square test assumes independence between specimens within each Order
+- Effect size (Cramér's V) provides a measure of the strength of the association between Order and success
+- Analysis aggregates at process ID level to avoid pseudoreplication (2step validates one attempt, 1step validates all)
+- Success rates may reflect reference library coverage, taxonomic reconciliation issues, or biological factors
+
