@@ -425,17 +425,17 @@ def test_analysis_readme_documents_specimen_age():
     assert 'n_reads_aligned' in content, "README must mention n_reads_aligned metric"
 
 
-def test_taxonomic_success_analysis_rmd_exists():
-    """Test that the taxonomic success analysis RMarkdown file exists."""
+def test_taxonomic_validation_analysis_rmd_exists():
+    """Test that the taxonomic validation analysis RMarkdown file exists."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
     assert rmd_file.exists(), f"RMarkdown file not found: {rmd_file}"
 
 
-def test_taxonomic_success_analysis_has_yaml_header():
+def test_taxonomic_validation_analysis_has_yaml_header():
     """Test that the RMarkdown file has a valid YAML header."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -452,14 +452,14 @@ def test_taxonomic_success_analysis_has_yaml_header():
     # Check for required YAML fields
     assert 'title:' in yaml_header, "YAML header must include title"
     assert 'output:' in yaml_header, "YAML header must include output"
-    assert 'Taxonomic Validation' in yaml_header or 'Taxonomic Success' in yaml_header, \
-        "Title must reference taxonomic validation/success"
+    assert 'Taxonomic Validation' in yaml_header, \
+        "Title must reference taxonomic validation"
 
 
-def test_taxonomic_success_analysis_references_correct_files():
+def test_taxonomic_validation_analysis_references_correct_files():
     """Test that the RMarkdown file references the correct data files."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -473,10 +473,10 @@ def test_taxonomic_success_analysis_references_correct_files():
         "RMarkdown must reference BOLD taxonomy metadata"
 
 
-def test_taxonomic_success_analysis_has_required_libraries():
+def test_taxonomic_validation_analysis_has_required_libraries():
     """Test that the RMarkdown file loads required libraries."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -487,10 +487,10 @@ def test_taxonomic_success_analysis_has_required_libraries():
         assert f'library({lib})' in content, f"RMarkdown must load {lib} library"
 
 
-def test_taxonomic_success_analysis_uses_taxonomic_validation():
+def test_taxonomic_validation_analysis_uses_taxonomic_validation():
     """Test that the analysis uses taxonomic validation criteria."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -502,10 +502,10 @@ def test_taxonomic_success_analysis_uses_taxonomic_validation():
     assert 'taxonomic_valid' in content, "RMarkdown must calculate taxonomic_valid"
 
 
-def test_taxonomic_success_analysis_aggregates_by_specimen():
+def test_taxonomic_validation_analysis_aggregates_by_specimen():
     """Test that the analysis aggregates by specimen (group_id)."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -515,10 +515,10 @@ def test_taxonomic_success_analysis_aggregates_by_specimen():
     assert 'any_success' in content, "RMarkdown must check if any attempt was successful"
 
 
-def test_taxonomic_success_analysis_filters_by_order():
+def test_taxonomic_validation_analysis_filters_by_order():
     """Test that the analysis filters to Orders with at least 5 specimens."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -529,10 +529,10 @@ def test_taxonomic_success_analysis_filters_by_order():
         "RMarkdown must filter to Orders with at least 5 specimens"
 
 
-def test_taxonomic_success_analysis_has_statistical_tests():
+def test_taxonomic_validation_analysis_has_statistical_tests():
     """Test that the RMarkdown file includes statistical tests."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -543,10 +543,10 @@ def test_taxonomic_success_analysis_has_statistical_tests():
         "RMarkdown must calculate Cramér's V effect size"
 
 
-def test_taxonomic_success_analysis_has_visualizations():
+def test_taxonomic_validation_analysis_has_visualizations():
     """Test that the RMarkdown file includes visualizations."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "taxonomic_validation_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
