@@ -14,3 +14,14 @@ is of interest:
 - [taxonomy](taxonomy.tsv): Joining on the `Sample ID` column provides the taxonomic lineage for each specimen at 
   the levels of `Phylum`, `Class`, `Order`, `Family`, `Subfamily`, `Tribe`, `Genus`, `Species`, `Subspecies`. Lower
   levels may be empty if not identified to that level.
+
+## Data Quality Reports
+
+- [collection_date_issues.txt](collection_date_issues.txt): Human-readable report of specimens with implausible 
+  collection dates (outside the range 1825-2025). This includes 24 specimens with dates that are either too old 
+  or in the future.
+- [collection_date_issues.tsv](collection_date_issues.tsv): Machine-readable TSV format of the same data for 
+  further processing and correction.
+
+These reports were generated using `scripts/assess_collection_dates.py`. See the [scripts README](../../scripts/README.md) 
+for more information on how to regenerate or customize these reports.
