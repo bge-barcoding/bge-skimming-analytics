@@ -1,6 +1,7 @@
 # RStudio
 .Rproj.user/
 *.Rproj
+*.pdf
 
 # Pycharm
 .idea/
