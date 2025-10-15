@@ -1,0 +1,483 @@
+---
+title: "BGE Skimming Analytics: Effect of Specimen Age on Sequencing Success"
+author: "BGE Project"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: show
+    theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+## Introduction
+
+This analysis examines the effect of specimen age on sequencing success in the BGE genome skimming project. The primary criterion for sequencing success is the number of reads aligned (`n_reads_aligned`), as older specimens might yield fewer intact reads from the target organism due to DNA degradation over time.
+
+### Hypothesis
+
+We expect that older specimens might yield fewer intact reads from the target organism, as:
+- DNA degrades over time
+- Older specimens may have relatively more contamination from organisms living on the specimen
+- The sequencing coverage is still the same, but would include relatively more contaminants compared to recoverable reads from the target organism
+
+### Methodology
+
+For this analysis, we:
+1. Aggregate data at the specimen level (group_id)
+2. Only consider cases where `n_reads_aligned` is specified (not NA)
+3. For each specimen, consider the assembly attempt with the highest `n_reads_aligned` value
+4. Calculate specimen age from the Collection Date
+5. Analyze the relationship between specimen age and sequencing success
+
+## Load Required Libraries
+
+```{r libraries}
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(lubridate)
+```
+
+## Read Data Files
+
+### Main Analytics Data
+
+Read the compressed, frictionless data table:
+
+```{r read-main-data}
+# Read the main analytics data
+analytics_data <- read_tsv("../data/bge-skimming-analytics.tsv.gz")
+
+cat("Analytics data dimensions:", nrow(analytics_data), "rows,", 
+    ncol(analytics_data), "columns\n")
+cat("Rows with n_reads_aligned:", sum(!is.na(analytics_data$n_reads_aligned)), "\n")
+```
+
+### BOLD Metadata Files
+
+Read the BOLD metadata files needed for this analysis:
+
+```{r read-bold-metadata}
+# Read BOLD metadata files
+lab_data <- read_tsv("../metadata/bold/lab.tsv")
+collection_data <- read_tsv("../metadata/bold/collection_data.tsv")
+
+cat("Lab data:", nrow(lab_data), "rows\n")
+cat("Collection data:", nrow(collection_data), "rows\n")
+```
+
+## Join Data
+
+Join the analytics data with BOLD metadata to get collection dates:
+
+```{r join-data}
+# Join analytics data with lab data to get Sample ID
+enriched_data <- analytics_data %>%
+  left_join(
+    lab_data %>% select(`Process ID`, `Sample ID`),
+    by = c("group_id" = "Process ID")
+  )
+
+# Join with collection data to get collection date
+enriched_data <- enriched_data %>%
+  left_join(
+    collection_data %>% select(`Sample ID`, `Collection Date`),
+    by = "Sample ID"
+  )
+
+cat("Enriched data dimensions:", nrow(enriched_data), "rows\n")
+cat("Rows with Collection Date:", sum(!is.na(enriched_data$`Collection Date`)), "\n")
+cat("Rows with both Collection Date and n_reads_aligned:", 
+    sum(!is.na(enriched_data$`Collection Date`) & !is.na(enriched_data$n_reads_aligned)), "\n")
+```
+
+## Data Preparation
+
+### Calculate Specimen Age
+
+Parse collection dates and calculate specimen age:
+
+```{r calculate-age}
+# Current year for age calculation
+current_year <- year(Sys.Date())
+
+# Parse collection dates (format: dd-Mmm-yyyy) and calculate age
+enriched_data <- enriched_data %>%
+  mutate(
+    # Extract year from collection date
+    Collection_Year = as.integer(sub(".*-(\\d{4})$", "\\1", `Collection Date`)),
+    # Calculate specimen age in years
+    Specimen_Age = current_year - Collection_Year
+  )
+
+cat("Specimens with valid collection year:", sum(!is.na(enriched_data$Collection_Year)), "\n")
+cat("Collection year range:", 
+    min(enriched_data$Collection_Year, na.rm = TRUE), "-",
+    max(enriched_data$Collection_Year, na.rm = TRUE), "\n")
+cat("Specimen age range:", 
+    min(enriched_data$Specimen_Age, na.rm = TRUE), "-",
+    max(enriched_data$Specimen_Age, na.rm = TRUE), "years\n")
+```
+
+### Aggregate at Specimen Level
+
+For each specimen (group_id), select the assembly attempt with the highest n_reads_aligned:
+
+```{r aggregate-specimens}
+# Filter to only specimens with n_reads_aligned specified
+specimen_data <- enriched_data %>%
+  filter(!is.na(n_reads_aligned)) %>%
+  filter(!is.na(Specimen_Age))
+
+cat("Specimens with n_reads_aligned and age:", nrow(specimen_data), "rows\n")
+
+# For each specimen, select the assembly attempt with highest n_reads_aligned
+specimen_best <- specimen_data %>%
+  group_by(group_id) %>%
+  slice_max(n_reads_aligned, n = 1, with_ties = FALSE) %>%
+  ungroup()
+
+cat("\nAggregated to specimen level:", nrow(specimen_best), "specimens\n")
+cat("Unique specimens:", n_distinct(specimen_best$group_id), "\n")
+```
+
+## Summary Statistics
+
+### Overall Statistics
+
+```{r overall-stats}
+cat("\n=== Overall Statistics ===\n\n")
+cat("Total specimens analyzed:", nrow(specimen_best), "\n")
+cat("\nSequencing Success (n_reads_aligned):\n")
+cat("  Mean:", sprintf("%.1f", mean(specimen_best$n_reads_aligned, na.rm = TRUE)), "reads\n")
+cat("  Median:", sprintf("%.1f", median(specimen_best$n_reads_aligned, na.rm = TRUE)), "reads\n")
+cat("  Min:", min(specimen_best$n_reads_aligned, na.rm = TRUE), "reads\n")
+cat("  Max:", max(specimen_best$n_reads_aligned, na.rm = TRUE), "reads\n")
+cat("  SD:", sprintf("%.1f", sd(specimen_best$n_reads_aligned, na.rm = TRUE)), "reads\n")
+
+cat("\nSpecimen Age:\n")
+cat("  Mean:", sprintf("%.1f", mean(specimen_best$Specimen_Age, na.rm = TRUE)), "years\n")
+cat("  Median:", sprintf("%.1f", median(specimen_best$Specimen_Age, na.rm = TRUE)), "years\n")
+cat("  Min:", min(specimen_best$Specimen_Age, na.rm = TRUE), "years\n")
+cat("  Max:", max(specimen_best$Specimen_Age, na.rm = TRUE), "years\n")
+cat("  SD:", sprintf("%.1f", sd(specimen_best$Specimen_Age, na.rm = TRUE)), "years\n")
+```
+
+### Statistics by Age Groups
+
+```{r age-group-stats}
+# Create age groups for easier analysis
+specimen_best <- specimen_best %>%
+  mutate(
+    Age_Group = cut(Specimen_Age, 
+                   breaks = c(-Inf, 5, 10, 20, 30, 50, Inf),
+                   labels = c("0-5 years", "6-10 years", "11-20 years", 
+                             "21-30 years", "31-50 years", ">50 years"),
+                   right = TRUE)
+  )
+
+# Summary by age group
+age_group_summary <- specimen_best %>%
+  group_by(Age_Group) %>%
+  summarise(
+    n_specimens = n(),
+    mean_reads = mean(n_reads_aligned, na.rm = TRUE),
+    median_reads = median(n_reads_aligned, na.rm = TRUE),
+    sd_reads = sd(n_reads_aligned, na.rm = TRUE),
+    min_reads = min(n_reads_aligned, na.rm = TRUE),
+    max_reads = max(n_reads_aligned, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+cat("\n=== Statistics by Age Group ===\n\n")
+kable(age_group_summary, 
+      digits = 1,
+      col.names = c("Age Group", "N Specimens", "Mean Reads", "Median Reads", 
+                    "SD Reads", "Min Reads", "Max Reads"),
+      caption = "Sequencing Success by Specimen Age Group")
+```
+
+## Visualizations
+
+### Scatter Plot: Specimen Age vs. Reads Aligned
+
+```{r scatter-age-reads, fig.width=12, fig.height=8}
+# Create scatter plot with trend line
+ggplot(specimen_best, aes(x = Specimen_Age, y = n_reads_aligned)) +
+  geom_point(alpha = 0.3, color = "steelblue") +
+  geom_smooth(method = "loess", color = "red", se = TRUE, linewidth = 1.5) +
+  scale_y_continuous(labels = scales::comma) +
+  labs(
+    title = "Effect of Specimen Age on Sequencing Success",
+    subtitle = "Each point represents the best assembly attempt for one specimen",
+    x = "Specimen Age (years)",
+    y = "Number of Reads Aligned"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
+    plot.subtitle = element_text(hjust = 0.5, size = 12),
+    axis.title = element_text(size = 12),
+    axis.text = element_text(size = 10)
+  )
+```
+
+### Box Plot: Reads Aligned by Age Group
+
+```{r boxplot-age-groups, fig.width=12, fig.height=8}
+ggplot(specimen_best, aes(x = Age_Group, y = n_reads_aligned, fill = Age_Group)) +
+  geom_boxplot(outlier.alpha = 0.3) +
+  scale_y_continuous(labels = scales::comma) +
+  scale_fill_brewer(palette = "YlOrRd") +
+  labs(
+    title = "Distribution of Sequencing Success by Specimen Age Group",
+    x = "Specimen Age Group",
+    y = "Number of Reads Aligned"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
+    axis.title = element_text(size = 12),
+    axis.text = element_text(size = 10),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "none"
+  )
+```
+
+### Bar Chart: Mean Reads Aligned by Age Group
+
+```{r barplot-mean-reads, fig.width=12, fig.height=8}
+ggplot(age_group_summary, aes(x = Age_Group, y = mean_reads, fill = Age_Group)) +
+  geom_col() +
+  geom_errorbar(aes(ymin = mean_reads - sd_reads, ymax = mean_reads + sd_reads),
+                width = 0.2, alpha = 0.7) +
+  geom_text(aes(label = sprintf("%.0f", mean_reads)), 
+            vjust = -0.5, size = 4) +
+  scale_y_continuous(labels = scales::comma, expand = expansion(mult = c(0, 0.15))) +
+  scale_fill_brewer(palette = "YlOrRd") +
+  labs(
+    title = "Mean Sequencing Success by Specimen Age Group",
+    subtitle = "Error bars show ± 1 standard deviation",
+    x = "Specimen Age Group",
+    y = "Mean Number of Reads Aligned"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
+    plot.subtitle = element_text(hjust = 0.5, size = 12),
+    axis.title = element_text(size = 12),
+    axis.text = element_text(size = 10),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "none"
+  )
+```
+
+### Histogram: Distribution of Specimen Ages
+
+```{r histogram-ages, fig.width=12, fig.height=6}
+ggplot(specimen_best, aes(x = Specimen_Age)) +
+  geom_histogram(binwidth = 2, fill = "steelblue", color = "white") +
+  labs(
+    title = "Distribution of Specimen Ages",
+    x = "Specimen Age (years)",
+    y = "Number of Specimens"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
+    axis.title = element_text(size = 12),
+    axis.text = element_text(size = 10)
+  )
+```
+
+### Hexbin Plot: Density Visualization
+
+```{r hexbin-age-reads, fig.width=12, fig.height=8}
+ggplot(specimen_best, aes(x = Specimen_Age, y = n_reads_aligned)) +
+  geom_hex(bins = 30) +
+  geom_smooth(method = "loess", color = "red", se = FALSE, linewidth = 1.5) +
+  scale_fill_viridis_c(option = "plasma", trans = "log10") +
+  scale_y_continuous(labels = scales::comma) +
+  labs(
+    title = "Density of Specimens: Age vs. Sequencing Success",
+    subtitle = "Hexagonal bins show concentration of specimens",
+    x = "Specimen Age (years)",
+    y = "Number of Reads Aligned",
+    fill = "Count"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
+    plot.subtitle = element_text(hjust = 0.5, size = 12),
+    axis.title = element_text(size = 12),
+    axis.text = element_text(size = 10)
+  )
+```
+
+## Statistical Analysis
+
+### Correlation Analysis
+
+```{r correlation}
+cat("\n=== Correlation Analysis ===\n\n")
+
+# Pearson correlation
+cor_pearson <- cor.test(specimen_best$Specimen_Age, specimen_best$n_reads_aligned, 
+                       method = "pearson")
+cat("Pearson Correlation:\n")
+cat("  Correlation coefficient:", sprintf("%.4f", cor_pearson$estimate), "\n")
+cat("  P-value:", format.pval(cor_pearson$p.value), "\n")
+cat("  95% CI: [", sprintf("%.4f", cor_pearson$conf.int[1]), ", ", 
+    sprintf("%.4f", cor_pearson$conf.int[2]), "]\n\n")
+
+# Spearman correlation (robust to outliers)
+cor_spearman <- cor.test(specimen_best$Specimen_Age, specimen_best$n_reads_aligned, 
+                        method = "spearman", exact = FALSE)
+cat("Spearman Correlation:\n")
+cat("  Correlation coefficient:", sprintf("%.4f", cor_spearman$estimate), "\n")
+cat("  P-value:", format.pval(cor_spearman$p.value), "\n\n")
+```
+
+### Linear Regression
+
+```{r linear-regression}
+cat("\n=== Linear Regression Analysis ===\n\n")
+
+# Simple linear regression
+lm_model <- lm(n_reads_aligned ~ Specimen_Age, data = specimen_best)
+cat("Linear Model: n_reads_aligned ~ Specimen_Age\n\n")
+print(summary(lm_model))
+
+# Extract key statistics
+coefficients <- coef(lm_model)
+r_squared <- summary(lm_model)$r.squared
+adj_r_squared <- summary(lm_model)$adj.r.squared
+
+cat("\n=== Key Statistics ===\n")
+cat("Intercept:", sprintf("%.2f", coefficients[1]), "\n")
+cat("Slope:", sprintf("%.2f", coefficients[2]), "reads per year\n")
+cat("R-squared:", sprintf("%.4f", r_squared), "\n")
+cat("Adjusted R-squared:", sprintf("%.4f", adj_r_squared), "\n")
+```
+
+### ANOVA by Age Group
+
+```{r anova-age-group}
+cat("\n=== ANOVA: Comparing Age Groups ===\n\n")
+
+# One-way ANOVA
+anova_model <- aov(n_reads_aligned ~ Age_Group, data = specimen_best)
+cat("ANOVA: n_reads_aligned ~ Age_Group\n\n")
+print(summary(anova_model))
+
+# Post-hoc test (Tukey HSD)
+cat("\n=== Post-hoc Test (Tukey HSD) ===\n\n")
+tukey_result <- TukeyHSD(anova_model)
+print(tukey_result)
+```
+
+### Non-parametric Test
+
+```{r kruskal-wallis}
+cat("\n=== Kruskal-Wallis Test (Non-parametric) ===\n\n")
+
+# Kruskal-Wallis test (non-parametric alternative to ANOVA)
+kw_test <- kruskal.test(n_reads_aligned ~ Age_Group, data = specimen_best)
+cat("Kruskal-Wallis test: n_reads_aligned ~ Age_Group\n\n")
+print(kw_test)
+```
+
+## Interpretation and Key Findings
+
+```{r key-findings}
+cat("\n=== Key Findings ===\n\n")
+
+# Calculate percentage change in mean reads from youngest to oldest group
+youngest_mean <- age_group_summary$mean_reads[1]
+oldest_mean <- age_group_summary$mean_reads[nrow(age_group_summary)]
+percent_change <- ((oldest_mean - youngest_mean) / youngest_mean) * 100
+
+cat("1. Effect of Specimen Age on Sequencing Success:\n")
+if (coefficients[2] < 0) {
+  cat("   - Negative relationship: Older specimens tend to have FEWER aligned reads\n")
+  cat("   - Average decrease:", sprintf("%.2f", abs(coefficients[2])), "reads per year of age\n")
+} else {
+  cat("   - Positive relationship: Older specimens tend to have MORE aligned reads\n")
+  cat("   - Average increase:", sprintf("%.2f", coefficients[2]), "reads per year of age\n")
+}
+
+cat("\n2. Magnitude of Effect:\n")
+cat("   - Correlation coefficient:", sprintf("%.4f", cor_spearman$estimate), "\n")
+cat("   - R-squared:", sprintf("%.4f", r_squared), 
+    "(", sprintf("%.2f%%", r_squared * 100), "of variance explained)\n")
+
+cat("\n3. Comparison Across Age Groups:\n")
+cat("   - Youngest group (0-5 years) mean:", sprintf("%.1f", youngest_mean), "reads\n")
+cat("   - Oldest group (>50 years) mean:", sprintf("%.1f", oldest_mean), "reads\n")
+if (abs(percent_change) > 1) {
+  cat("   - Change:", sprintf("%.1f%%", percent_change), "\n")
+} else {
+  cat("   - Change: Minimal difference between groups\n")
+}
+
+cat("\n4. Statistical Significance:\n")
+if (cor_spearman$p.value < 0.001) {
+  cat("   - Highly significant (p < 0.001)\n")
+} else if (cor_spearman$p.value < 0.05) {
+  cat("   - Significant (p < 0.05)\n")
+} else {
+  cat("   - Not statistically significant (p >= 0.05)\n")
+}
+
+cat("\n5. Data Coverage:\n")
+cat("   - Total specimens analyzed:", nrow(specimen_best), "\n")
+cat("   - Age range:", min(specimen_best$Specimen_Age), "-", 
+    max(specimen_best$Specimen_Age), "years\n")
+cat("   - Most specimens are from age group:", 
+    age_group_summary$Age_Group[which.max(age_group_summary$n_specimens)], "\n")
+```
+
+## Conclusions
+
+Based on this analysis of specimen age versus sequencing success (measured by number of aligned reads):
+
+### Main Conclusions
+
+1. **Relationship Strength**: The statistical analysis reveals the strength and direction of the relationship between specimen age and the number of reads aligned to the target organism.
+
+2. **DNA Preservation**: The results help understand how well DNA from specimens of different ages is preserved and recoverable through genome skimming.
+
+3. **Practical Implications**: These findings can inform:
+   - Collection and preservation practices
+   - Expectations for sequencing success based on specimen age
+   - Resource allocation for sequencing older vs. newer specimens
+
+### Limitations
+
+- The analysis assumes collection date is a reliable proxy for specimen age
+- Other factors (preservation method, storage conditions, taxonomic group) may also affect sequencing success
+- The relationship may be non-linear, with different decay patterns for different age ranges
+
+### Future Directions
+
+- Include additional specimen-level factors (taxonomic group, institution, preservation method)
+- Analyze interaction effects between age and other variables
+- Compare with other sequencing success metrics (sequence quality, coverage, etc.)
+
+## Session Info
+
+```{r session-info}
+sessionInfo()
+```
+
+## References
+
+- [BGE Skimming Analytics README](../README.md)
+- [BOLD Metadata README](../metadata/bold/README.md)
+- [Merged TSV Documentation](../docs/MERGE_ALL_TSV.md)
