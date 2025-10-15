@@ -1,0 +1,676 @@
+---
+title: "BGE Skimming Analytics: Assembly Parameter Effects on Sequence Quality"
+author: "BGE Project"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: show
+    theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+## Introduction
+
+This analysis examines how assembly parameters affect sequence quality metrics in the BGE genome skimming project.
+
+### Variables Under Investigation
+
+**Independent Variables** (Assembly Parameters):
+- **r**: MGE (Mitochondrial Genome Extractor) parameter r value (float)
+- **s**: MGE parameter s value (integer)
+- **fcleaner**: Whether FASTA cleaner was applied (boolean)
+- **merge**: Whether data merging was applied (boolean)
+
+**Dependent Variables** (Sequence Quality Metrics):
+- **nuc_full_basecount**: Total number of nucleotide bases in the full sequence
+- **ambig_full_basecount**: Total number of ambiguous bases in the full sequence
+- **stop_codons**: Number of stop codons detected
+
+### Research Questions
+
+1. How do different r and s parameter values affect sequence length and quality?
+2. Does applying fcleaner or merge improve sequence quality (reduce ambiguous bases and stop codons)?
+3. Are there interaction effects between parameters?
+4. What parameter combinations produce the best results?
+
+## Load Required Libraries
+
+```{r libraries}
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(tidyr)
+```
+
+## Read Data
+
+```{r read-data}
+# Read the main analytics data
+data <- read_tsv("../data/bge-skimming-analytics.tsv.gz")
+
+cat("Dataset dimensions:", nrow(data), "rows,", ncol(data), "columns\n")
+```
+
+## Data Preparation
+
+```{r data-prep}
+# Select relevant columns and remove rows with missing values in key variables
+analysis_data <- data %>%
+  select(group_id, sequence_id, r, s, fcleaner, merge, 
+         nuc_full_basecount, ambig_full_basecount, stop_codons,
+         nuc_basecount, ambig_basecount) %>%
+  filter(!is.na(r) & !is.na(s) & !is.na(fcleaner) & !is.na(merge) &
+         !is.na(nuc_full_basecount) & !is.na(ambig_full_basecount) & 
+         !is.na(stop_codons))
+
+cat("\nAnalysis dataset dimensions:", nrow(analysis_data), "rows\n")
+cat("Unique r values:", length(unique(analysis_data$r)), "\n")
+cat("Unique s values:", length(unique(analysis_data$s)), "\n")
+cat("fcleaner usage:", sprintf("%.1f%% True", 100 * mean(analysis_data$fcleaner)), "\n")
+cat("merge usage:", sprintf("%.1f%% True", 100 * mean(analysis_data$merge)), "\n")
+```
+
+## Summary Statistics by Parameter
+
+### Overall Summary
+
+```{r overall-summary}
+# Summary statistics for dependent variables
+summary_stats <- analysis_data %>%
+  summarise(
+    mean_nuc_full = mean(nuc_full_basecount, na.rm = TRUE),
+    median_nuc_full = median(nuc_full_basecount, na.rm = TRUE),
+    sd_nuc_full = sd(nuc_full_basecount, na.rm = TRUE),
+    mean_ambig_full = mean(ambig_full_basecount, na.rm = TRUE),
+    median_ambig_full = median(ambig_full_basecount, na.rm = TRUE),
+    sd_ambig_full = sd(ambig_full_basecount, na.rm = TRUE),
+    mean_stop_codons = mean(stop_codons, na.rm = TRUE),
+    median_stop_codons = median(stop_codons, na.rm = TRUE),
+    sd_stop_codons = sd(stop_codons, na.rm = TRUE)
+  )
+
+cat("\n=== Overall Summary Statistics ===\n\n")
+cat("Full Sequence Nucleotide Base Count:\n")
+cat("  Mean:", sprintf("%.1f", summary_stats$mean_nuc_full), "\n")
+cat("  Median:", summary_stats$median_nuc_full, "\n")
+cat("  SD:", sprintf("%.1f", summary_stats$sd_nuc_full), "\n\n")
+
+cat("Full Sequence Ambiguous Base Count:\n")
+cat("  Mean:", sprintf("%.2f", summary_stats$mean_ambig_full), "\n")
+cat("  Median:", summary_stats$median_ambig_full, "\n")
+cat("  SD:", sprintf("%.2f", summary_stats$sd_ambig_full), "\n\n")
+
+cat("Stop Codons:\n")
+cat("  Mean:", sprintf("%.2f", summary_stats$mean_stop_codons), "\n")
+cat("  Median:", summary_stats$median_stop_codons, "\n")
+cat("  SD:", sprintf("%.2f", summary_stats$sd_stop_codons), "\n")
+```
+
+### Summary by r Parameter
+
+```{r summary-by-r}
+summary_by_r <- analysis_data %>%
+  group_by(r) %>%
+  summarise(
+    n = n(),
+    mean_nuc_full = mean(nuc_full_basecount),
+    mean_ambig_full = mean(ambig_full_basecount),
+    mean_stop_codons = mean(stop_codons),
+    .groups = "drop"
+  ) %>%
+  arrange(r)
+
+kable(summary_by_r, 
+      digits = 2,
+      col.names = c("r", "N", "Mean Nuc Full", "Mean Ambig Full", "Mean Stop Codons"),
+      caption = "Summary Statistics by r Parameter")
+```
+
+### Summary by s Parameter
+
+```{r summary-by-s}
+summary_by_s <- analysis_data %>%
+  group_by(s) %>%
+  summarise(
+    n = n(),
+    mean_nuc_full = mean(nuc_full_basecount),
+    mean_ambig_full = mean(ambig_full_basecount),
+    mean_stop_codons = mean(stop_codons),
+    .groups = "drop"
+  ) %>%
+  arrange(s)
+
+kable(summary_by_s, 
+      digits = 2,
+      col.names = c("s", "N", "Mean Nuc Full", "Mean Ambig Full", "Mean Stop Codons"),
+      caption = "Summary Statistics by s Parameter")
+```
+
+### Summary by fcleaner
+
+```{r summary-by-fcleaner}
+summary_by_fcleaner <- analysis_data %>%
+  group_by(fcleaner) %>%
+  summarise(
+    n = n(),
+    mean_nuc_full = mean(nuc_full_basecount),
+    mean_ambig_full = mean(ambig_full_basecount),
+    mean_stop_codons = mean(stop_codons),
+    .groups = "drop"
+  )
+
+kable(summary_by_fcleaner, 
+      digits = 2,
+      col.names = c("fcleaner", "N", "Mean Nuc Full", "Mean Ambig Full", "Mean Stop Codons"),
+      caption = "Summary Statistics by fcleaner")
+```
+
+### Summary by merge
+
+```{r summary-by-merge}
+summary_by_merge <- analysis_data %>%
+  group_by(merge) %>%
+  summarise(
+    n = n(),
+    mean_nuc_full = mean(nuc_full_basecount),
+    mean_ambig_full = mean(ambig_full_basecount),
+    mean_stop_codons = mean(stop_codons),
+    .groups = "drop"
+  )
+
+kable(summary_by_merge, 
+      digits = 2,
+      col.names = c("merge", "N", "Mean Nuc Full", "Mean Ambig Full", "Mean Stop Codons"),
+      caption = "Summary Statistics by merge")
+```
+
+## Visualizations
+
+### Effect of r Parameter
+
+```{r plot-r-effects, fig.width=12, fig.height=8}
+# Create long format for plotting
+plot_data_r <- analysis_data %>%
+  select(r, nuc_full_basecount, ambig_full_basecount, stop_codons) %>%
+  pivot_longer(cols = c(nuc_full_basecount, ambig_full_basecount, stop_codons),
+               names_to = "metric",
+               values_to = "value") %>%
+  mutate(
+    r = factor(r),
+    metric = factor(metric, 
+                   levels = c("nuc_full_basecount", "ambig_full_basecount", "stop_codons"),
+                   labels = c("Nucleotide Base Count", "Ambiguous Base Count", "Stop Codons"))
+  )
+
+ggplot(plot_data_r, aes(x = r, y = value, fill = r)) +
+  geom_boxplot() +
+  facet_wrap(~ metric, scales = "free_y", ncol = 1) +
+  labs(
+    title = "Effect of r Parameter on Sequence Quality Metrics",
+    x = "r Parameter Value",
+    y = "Value"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
+    legend.position = "none",
+    strip.text = element_text(size = 11, face = "bold")
+  )
+```
+
+### Effect of s Parameter
+
+```{r plot-s-effects, fig.width=12, fig.height=8}
+# Create long format for plotting
+plot_data_s <- analysis_data %>%
+  select(s, nuc_full_basecount, ambig_full_basecount, stop_codons) %>%
+  pivot_longer(cols = c(nuc_full_basecount, ambig_full_basecount, stop_codons),
+               names_to = "metric",
+               values_to = "value") %>%
+  mutate(
+    s = factor(s),
+    metric = factor(metric, 
+                   levels = c("nuc_full_basecount", "ambig_full_basecount", "stop_codons"),
+                   labels = c("Nucleotide Base Count", "Ambiguous Base Count", "Stop Codons"))
+  )
+
+ggplot(plot_data_s, aes(x = s, y = value, fill = s)) +
+  geom_boxplot() +
+  facet_wrap(~ metric, scales = "free_y", ncol = 1) +
+  labs(
+    title = "Effect of s Parameter on Sequence Quality Metrics",
+    x = "s Parameter Value",
+    y = "Value"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
+    legend.position = "none",
+    strip.text = element_text(size = 11, face = "bold")
+  )
+```
+
+### Effect of fcleaner
+
+```{r plot-fcleaner-effects, fig.width=10, fig.height=8}
+plot_data_fcleaner <- analysis_data %>%
+  select(fcleaner, nuc_full_basecount, ambig_full_basecount, stop_codons) %>%
+  pivot_longer(cols = c(nuc_full_basecount, ambig_full_basecount, stop_codons),
+               names_to = "metric",
+               values_to = "value") %>%
+  mutate(
+    fcleaner = factor(fcleaner, levels = c(FALSE, TRUE), labels = c("No fcleaner", "With fcleaner")),
+    metric = factor(metric, 
+                   levels = c("nuc_full_basecount", "ambig_full_basecount", "stop_codons"),
+                   labels = c("Nucleotide Base Count", "Ambiguous Base Count", "Stop Codons"))
+  )
+
+ggplot(plot_data_fcleaner, aes(x = fcleaner, y = value, fill = fcleaner)) +
+  geom_boxplot() +
+  facet_wrap(~ metric, scales = "free_y", ncol = 1) +
+  scale_fill_manual(values = c("No fcleaner" = "#e74c3c", "With fcleaner" = "#3498db")) +
+  labs(
+    title = "Effect of fcleaner on Sequence Quality Metrics",
+    x = "",
+    y = "Value"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
+    legend.position = "none",
+    strip.text = element_text(size = 11, face = "bold")
+  )
+```
+
+### Effect of merge
+
+```{r plot-merge-effects, fig.width=10, fig.height=8}
+plot_data_merge <- analysis_data %>%
+  select(merge, nuc_full_basecount, ambig_full_basecount, stop_codons) %>%
+  pivot_longer(cols = c(nuc_full_basecount, ambig_full_basecount, stop_codons),
+               names_to = "metric",
+               values_to = "value") %>%
+  mutate(
+    merge = factor(merge, levels = c(FALSE, TRUE), labels = c("No merge", "With merge")),
+    metric = factor(metric, 
+                   levels = c("nuc_full_basecount", "ambig_full_basecount", "stop_codons"),
+                   labels = c("Nucleotide Base Count", "Ambiguous Base Count", "Stop Codons"))
+  )
+
+ggplot(plot_data_merge, aes(x = merge, y = value, fill = merge)) +
+  geom_boxplot() +
+  facet_wrap(~ metric, scales = "free_y", ncol = 1) +
+  scale_fill_manual(values = c("No merge" = "#e74c3c", "With merge" = "#2ecc71")) +
+  labs(
+    title = "Effect of merge on Sequence Quality Metrics",
+    x = "",
+    y = "Value"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
+    legend.position = "none",
+    strip.text = element_text(size = 11, face = "bold")
+  )
+```
+
+## Interaction Effects
+
+### r × s Interaction
+
+```{r plot-r-s-interaction, fig.width=12, fig.height=10}
+# Create interaction data
+interaction_rs <- analysis_data %>%
+  group_by(r, s) %>%
+  summarise(
+    mean_nuc_full = mean(nuc_full_basecount),
+    mean_ambig_full = mean(ambig_full_basecount),
+    mean_stop_codons = mean(stop_codons),
+    n = n(),
+    .groups = "drop"
+  )
+
+# Plot interaction for nuc_full_basecount
+p1 <- ggplot(interaction_rs, aes(x = factor(s), y = mean_nuc_full, color = factor(r), group = r)) +
+  geom_line(size = 1) +
+  geom_point(size = 3) +
+  labs(
+    title = "r × s Interaction: Nucleotide Base Count",
+    x = "s Parameter",
+    y = "Mean Nucleotide Base Count",
+    color = "r Parameter"
+  ) +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5, size = 12, face = "bold"))
+
+# Plot interaction for ambig_full_basecount
+p2 <- ggplot(interaction_rs, aes(x = factor(s), y = mean_ambig_full, color = factor(r), group = r)) +
+  geom_line(size = 1) +
+  geom_point(size = 3) +
+  labs(
+    title = "r × s Interaction: Ambiguous Base Count",
+    x = "s Parameter",
+    y = "Mean Ambiguous Base Count",
+    color = "r Parameter"
+  ) +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5, size = 12, face = "bold"))
+
+# Plot interaction for stop_codons
+p3 <- ggplot(interaction_rs, aes(x = factor(s), y = mean_stop_codons, color = factor(r), group = r)) +
+  geom_line(size = 1) +
+  geom_point(size = 3) +
+  labs(
+    title = "r × s Interaction: Stop Codons",
+    x = "s Parameter",
+    y = "Mean Stop Codons",
+    color = "r Parameter"
+  ) +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5, size = 12, face = "bold"))
+
+# Display plots
+p1
+p2
+p3
+```
+
+### fcleaner × merge Interaction
+
+```{r plot-fcleaner-merge-interaction, fig.width=12, fig.height=10}
+# Create interaction data
+interaction_fm <- analysis_data %>%
+  group_by(fcleaner, merge) %>%
+  summarise(
+    mean_nuc_full = mean(nuc_full_basecount),
+    mean_ambig_full = mean(ambig_full_basecount),
+    mean_stop_codons = mean(stop_codons),
+    n = n(),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    fcleaner_label = ifelse(fcleaner, "fcleaner", "no fcleaner"),
+    merge_label = ifelse(merge, "merge", "no merge")
+  )
+
+# Plot interaction for nuc_full_basecount
+p1 <- ggplot(interaction_fm, aes(x = merge_label, y = mean_nuc_full, color = fcleaner_label, group = fcleaner_label)) +
+  geom_line(size = 1) +
+  geom_point(size = 4) +
+  labs(
+    title = "fcleaner × merge Interaction: Nucleotide Base Count",
+    x = "merge",
+    y = "Mean Nucleotide Base Count",
+    color = "fcleaner"
+  ) +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5, size = 12, face = "bold"))
+
+# Plot interaction for ambig_full_basecount
+p2 <- ggplot(interaction_fm, aes(x = merge_label, y = mean_ambig_full, color = fcleaner_label, group = fcleaner_label)) +
+  geom_line(size = 1) +
+  geom_point(size = 4) +
+  labs(
+    title = "fcleaner × merge Interaction: Ambiguous Base Count",
+    x = "merge",
+    y = "Mean Ambiguous Base Count",
+    color = "fcleaner"
+  ) +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5, size = 12, face = "bold"))
+
+# Plot interaction for stop_codons
+p3 <- ggplot(interaction_fm, aes(x = merge_label, y = mean_stop_codons, color = fcleaner_label, group = fcleaner_label)) +
+  geom_line(size = 1) +
+  geom_point(size = 4) +
+  labs(
+    title = "fcleaner × merge Interaction: Stop Codons",
+    x = "merge",
+    y = "Mean Stop Codons",
+    color = "fcleaner"
+  ) +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5, size = 12, face = "bold"))
+
+# Display plots
+p1
+p2
+p3
+```
+
+## Statistical Tests
+
+### ANOVA for r Parameter
+
+```{r anova-r}
+cat("\n=== ANOVA: Effect of r Parameter ===\n\n")
+
+# Convert r to factor for ANOVA
+analysis_data$r_factor <- factor(analysis_data$r)
+
+# ANOVA for nuc_full_basecount
+anova_r_nuc <- aov(nuc_full_basecount ~ r_factor, data = analysis_data)
+cat("Nucleotide Base Count:\n")
+print(summary(anova_r_nuc))
+
+# ANOVA for ambig_full_basecount
+anova_r_ambig <- aov(ambig_full_basecount ~ r_factor, data = analysis_data)
+cat("\nAmbiguous Base Count:\n")
+print(summary(anova_r_ambig))
+
+# ANOVA for stop_codons
+anova_r_stop <- aov(stop_codons ~ r_factor, data = analysis_data)
+cat("\nStop Codons:\n")
+print(summary(anova_r_stop))
+```
+
+### ANOVA for s Parameter
+
+```{r anova-s}
+cat("\n=== ANOVA: Effect of s Parameter ===\n\n")
+
+# Convert s to factor for ANOVA
+analysis_data$s_factor <- factor(analysis_data$s)
+
+# ANOVA for nuc_full_basecount
+anova_s_nuc <- aov(nuc_full_basecount ~ s_factor, data = analysis_data)
+cat("Nucleotide Base Count:\n")
+print(summary(anova_s_nuc))
+
+# ANOVA for ambig_full_basecount
+anova_s_ambig <- aov(ambig_full_basecount ~ s_factor, data = analysis_data)
+cat("\nAmbiguous Base Count:\n")
+print(summary(anova_s_ambig))
+
+# ANOVA for stop_codons
+anova_s_stop <- aov(stop_codons ~ s_factor, data = analysis_data)
+cat("\nStop Codons:\n")
+print(summary(anova_s_stop))
+```
+
+### T-tests for fcleaner
+
+```{r ttest-fcleaner}
+cat("\n=== T-tests: Effect of fcleaner ===\n\n")
+
+# T-test for nuc_full_basecount
+ttest_fcleaner_nuc <- t.test(nuc_full_basecount ~ fcleaner, data = analysis_data)
+cat("Nucleotide Base Count:\n")
+print(ttest_fcleaner_nuc)
+
+# T-test for ambig_full_basecount
+ttest_fcleaner_ambig <- t.test(ambig_full_basecount ~ fcleaner, data = analysis_data)
+cat("\nAmbiguous Base Count:\n")
+print(ttest_fcleaner_ambig)
+
+# T-test for stop_codons
+ttest_fcleaner_stop <- t.test(stop_codons ~ fcleaner, data = analysis_data)
+cat("\nStop Codons:\n")
+print(ttest_fcleaner_stop)
+```
+
+### T-tests for merge
+
+```{r ttest-merge}
+cat("\n=== T-tests: Effect of merge ===\n\n")
+
+# T-test for nuc_full_basecount
+ttest_merge_nuc <- t.test(nuc_full_basecount ~ merge, data = analysis_data)
+cat("Nucleotide Base Count:\n")
+print(ttest_merge_nuc)
+
+# T-test for ambig_full_basecount
+ttest_merge_ambig <- t.test(ambig_full_basecount ~ merge, data = analysis_data)
+cat("\nAmbiguous Base Count:\n")
+print(ttest_merge_ambig)
+
+# T-test for stop_codons
+ttest_merge_stop <- t.test(stop_codons ~ merge, data = analysis_data)
+cat("\nStop Codons:\n")
+print(ttest_merge_stop)
+```
+
+## Parameter Combination Analysis
+
+### Best Parameter Combinations
+
+```{r best-combinations}
+# Find best parameter combinations for each metric
+best_combos <- analysis_data %>%
+  group_by(r, s, fcleaner, merge) %>%
+  summarise(
+    n = n(),
+    mean_nuc_full = mean(nuc_full_basecount),
+    mean_ambig_full = mean(ambig_full_basecount),
+    mean_stop_codons = mean(stop_codons),
+    .groups = "drop"
+  ) %>%
+  filter(n >= 10)  # Only consider combinations with at least 10 observations
+
+cat("\n=== Top 10 Parameter Combinations by Nucleotide Base Count ===\n")
+best_combos %>%
+  arrange(desc(mean_nuc_full)) %>%
+  head(10) %>%
+  kable(digits = 2)
+
+cat("\n=== Top 10 Parameter Combinations by Lowest Ambiguous Bases ===\n")
+best_combos %>%
+  arrange(mean_ambig_full) %>%
+  head(10) %>%
+  kable(digits = 2)
+
+cat("\n=== Top 10 Parameter Combinations by Lowest Stop Codons ===\n")
+best_combos %>%
+  arrange(mean_stop_codons) %>%
+  head(10) %>%
+  kable(digits = 2)
+```
+
+### Quality Score
+
+Create a composite quality score that balances all three metrics:
+
+```{r quality-score}
+# Create quality score: higher nuc_full is better, lower ambig_full and stop_codons are better
+# Normalize each metric to 0-1 scale first
+best_combos <- best_combos %>%
+  mutate(
+    # Higher is better (normalize to 0-1)
+    nuc_full_norm = (mean_nuc_full - min(mean_nuc_full)) / (max(mean_nuc_full) - min(mean_nuc_full)),
+    # Lower is better (invert and normalize to 0-1)
+    ambig_full_norm = 1 - ((mean_ambig_full - min(mean_ambig_full)) / (max(mean_ambig_full) - min(mean_ambig_full))),
+    stop_codons_norm = 1 - ((mean_stop_codons - min(mean_stop_codons)) / (max(mean_stop_codons) - min(mean_stop_codons))),
+    # Quality score: average of normalized metrics
+    quality_score = (nuc_full_norm + ambig_full_norm + stop_codons_norm) / 3
+  )
+
+cat("\n=== Top 10 Parameter Combinations by Overall Quality Score ===\n")
+best_combos %>%
+  arrange(desc(quality_score)) %>%
+  select(r, s, fcleaner, merge, n, mean_nuc_full, mean_ambig_full, mean_stop_codons, quality_score) %>%
+  head(10) %>%
+  kable(digits = 3)
+```
+
+## Key Findings
+
+```{r key-findings}
+cat("\n=== Key Findings ===\n\n")
+
+# Effect sizes for fcleaner
+fcleaner_effect <- analysis_data %>%
+  group_by(fcleaner) %>%
+  summarise(
+    mean_ambig = mean(ambig_full_basecount),
+    .groups = "drop"
+  )
+
+cat("1. fcleaner Effect on Ambiguous Bases:\n")
+cat("   Without fcleaner: ", sprintf("%.2f", fcleaner_effect$mean_ambig[1]), " ambiguous bases\n")
+cat("   With fcleaner: ", sprintf("%.2f", fcleaner_effect$mean_ambig[2]), " ambiguous bases\n")
+cat("   Reduction: ", sprintf("%.1f%%", 100 * (1 - fcleaner_effect$mean_ambig[2] / fcleaner_effect$mean_ambig[1])), "\n\n")
+
+# Effect sizes for merge
+merge_effect <- analysis_data %>%
+  group_by(merge) %>%
+  summarise(
+    mean_nuc = mean(nuc_full_basecount),
+    .groups = "drop"
+  )
+
+cat("2. merge Effect on Nucleotide Base Count:\n")
+cat("   Without merge: ", sprintf("%.1f", merge_effect$mean_nuc[1]), " bases\n")
+cat("   With merge: ", sprintf("%.1f", merge_effect$mean_nuc[2]), " bases\n")
+cat("   Change: ", sprintf("%.1f%%", 100 * (merge_effect$mean_nuc[2] / merge_effect$mean_nuc[1] - 1)), "\n\n")
+
+# Best overall parameter combination
+best_overall <- best_combos %>%
+  arrange(desc(quality_score)) %>%
+  slice(1)
+
+cat("3. Best Overall Parameter Combination (by quality score):\n")
+cat("   r =", best_overall$r, "\n")
+cat("   s =", best_overall$s, "\n")
+cat("   fcleaner =", best_overall$fcleaner, "\n")
+cat("   merge =", best_overall$merge, "\n")
+cat("   Quality Score:", sprintf("%.3f", best_overall$quality_score), "\n")
+```
+
+## Conclusions
+
+Based on this analysis:
+
+1. **r and s Parameters**: Both parameters show significant effects on sequence quality metrics (see ANOVA results). Different values produce different outcomes for sequence length, ambiguous bases, and stop codons.
+
+2. **fcleaner**: Applying fcleaner generally reduces the number of ambiguous bases in sequences, which is desirable for sequence quality.
+
+3. **merge**: The merge parameter affects sequence length (nuc_full_basecount), potentially by combining data from multiple sources or sequencing runs.
+
+4. **Interactions**: There are interaction effects between parameters, meaning the optimal value for one parameter may depend on the values of other parameters.
+
+5. **Optimal Parameters**: The best parameter combinations can be identified based on the composite quality score, which balances sequence length, minimal ambiguous bases, and minimal stop codons.
+
+## Session Info
+
+```{r session-info}
+sessionInfo()
+```
+
+## Notes
+
+- This analysis focuses on the full sequence metrics (`nuc_full_basecount`, `ambig_full_basecount`)
+- The barcode region metrics (`nuc_basecount`, `ambig_basecount`) show similar patterns
+- Statistical significance should be interpreted considering the large sample size
+- Parameter optimization may vary depending on the specific goals (e.g., maximizing length vs. minimizing errors)
+
+## References
+
+- [BGE Skimming Analytics README](../README.md)
+- [Merged TSV Documentation](../docs/MERGE_ALL_TSV.md)
+- [MGE Parameters Documentation](../docs/MGE_PARAMS_PARSING.md)

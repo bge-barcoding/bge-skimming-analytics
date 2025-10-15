@@ -21,6 +21,29 @@ The document includes:
 - Example visualizations (collection dates, taxonomic distribution, institution distribution)
 - Option to export enriched data
 
+### assembly_parameter_analysis.Rmd
+
+An RMarkdown document that analyzes how assembly parameters affect sequence quality metrics:
+
+**Independent Variables (Assembly Parameters):**
+- `r`: MGE parameter r value (float)
+- `s`: MGE parameter s value (integer)
+- `fcleaner`: Whether FASTA cleaner was applied (boolean)
+- `merge`: Whether data merging was applied (boolean)
+
+**Dependent Variables (Sequence Quality Metrics):**
+- `nuc_full_basecount`: Total number of nucleotide bases in the full sequence
+- `ambig_full_basecount`: Total number of ambiguous bases in the full sequence
+- `stop_codons`: Number of stop codons detected
+
+The document includes:
+- Summary statistics for each parameter combination
+- Boxplots showing the effect of each parameter on quality metrics
+- Interaction plots showing how parameters work together
+- ANOVA and t-test results for statistical significance
+- Identification of best parameter combinations based on composite quality scores
+- Key findings about parameter effects on sequence quality
+
 ### institution_sequencing_success.Rmd
 
 An RMarkdown document that analyzes COI-5P sequencing success rates by institution:
@@ -56,6 +79,9 @@ From the repository root:
 # Render the BOLD metadata analysis
 Rscript -e "rmarkdown::render('analysis/bold_metadata_analysis.Rmd')"
 
+# Render the assembly parameter analysis
+Rscript -e "rmarkdown::render('analysis/assembly_parameter_analysis.Rmd')"
+
 # Render the institution sequencing success analysis
 Rscript -e "rmarkdown::render('analysis/institution_sequencing_success.Rmd')"
 ```
@@ -64,7 +90,7 @@ This will create HTML files in the `analysis/` directory.
 
 ### Interactive Use in RStudio
 
-1. Open an RMarkdown file (e.g., `analysis/bold_metadata_analysis.Rmd` or `analysis/institution_sequencing_success.Rmd`) in RStudio
+1. Open an RMarkdown file (e.g., `analysis/bold_metadata_analysis.Rmd`, `analysis/assembly_parameter_analysis.Rmd`, or `analysis/institution_sequencing_success.Rmd`) in RStudio
 2. Click "Knit" to render the document
 3. Or run code chunks interactively
 
