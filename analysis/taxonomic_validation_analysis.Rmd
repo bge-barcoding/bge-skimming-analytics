@@ -31,9 +31,9 @@ Note: This analysis focuses purely on taxonomic validation, not structural valid
 
 - Analysis is aggregated at the level of Linnean **Orders**
 - Only Orders with **at least 5 specimens** are included
-- Only specimens whose process ID (group_id) occurs in the analytics data are analyzed (specimens in metadata/bold but not in analytics are disregarded)
-- Only records with both **identification** and **obs_taxon** values are analyzed (empty attempts without taxon validation are disregarded)
-- Aggregation at process ID level: when multiple attempts exist for the same specimen and some succeed while others fail, the successful attempt is considered
+- A specimen is included in the analysis if and only if **any** of its assembly attempts have both `identification` and `obs_taxon` values
+- All attempts for included specimens are kept (including those without taxon validation data)
+- A specimen is considered successful if **any** of its attempts have the `identification` value among the comma-separated `obs_taxon` values
 
 ### Research Question
 
@@ -63,17 +63,24 @@ cat("Analytics data dimensions:", nrow(analytics_data), "rows,",
     ncol(analytics_data), "columns\n")
 cat("Unique specimens (group_id):", n_distinct(analytics_data$group_id), "\n")
 
-# Filter to only records that have both identification and obs_taxon
-# Because we did a 2-step process where we only did taxon validation for the 
-# best structurally valid records, there are many assembly attempts where we 
-# didn't do taxon validation at all. Disregard those empty attempts.
-analytics_data_filtered <- analytics_data %>%
+# Identify specimens that have at least one attempt with both identification and obs_taxon
+# A specimen is considered in this analysis if and only if any of its assembly attempts
+# within the same group_id have a value for identification and obs_taxon
+specimens_with_validation <- analytics_data %>%
   filter(!is.na(identification) & identification != "" &
-         !is.na(obs_taxon) & obs_taxon != "")
+         !is.na(obs_taxon) & obs_taxon != "") %>%
+  pull(group_id) %>%
+  unique()
 
-cat("\nAfter filtering to records with both identification and obs_taxon:\n")
-cat("  Records:", nrow(analytics_data_filtered), "rows\n")
-cat("  Unique specimens (group_id):", n_distinct(analytics_data_filtered$group_id), "\n")
+cat("\nSpecimens with at least one taxon validation attempt:", length(specimens_with_validation), "\n")
+
+# Filter analytics data to only include specimens that have at least one validation attempt
+# This keeps ALL attempts for those specimens, including attempts without validation data
+analytics_data_filtered <- analytics_data %>%
+  filter(group_id %in% specimens_with_validation)
+
+cat("Records for specimens with validation data:", nrow(analytics_data_filtered), "rows\n")
+cat("  (includes all attempts, even those without obs_taxon)\n")
 ```
 
 ### BOLD Metadata Files
@@ -83,17 +90,14 @@ cat("  Unique specimens (group_id):", n_distinct(analytics_data_filtered$group_i
 lab_data <- read_tsv("../metadata/bold/lab.tsv")
 taxonomy_data <- read_tsv("../metadata/bold/taxonomy.tsv")
 
-cat("Lab data:", nrow(lab_data), "rows\n")
+cat("\nLab data:", nrow(lab_data), "rows\n")
 cat("Taxonomy data:", nrow(taxonomy_data), "rows\n")
 
-# Filter BOLD metadata to only include specimens that are in our analytics data
-# Only look at those specimens (group_id) that are listed within the analytics file
-specimens_in_analytics <- unique(analytics_data_filtered$group_id)
+# Filter BOLD metadata to only specimens that are in our analytics data
 lab_data_filtered <- lab_data %>%
-  filter(`Process ID` %in% specimens_in_analytics)
+  filter(`Process ID` %in% specimens_with_validation)
 
-cat("\nAfter filtering BOLD metadata to specimens in analytics:\n")
-cat("  Lab data records:", nrow(lab_data_filtered), "\n")
+cat("Lab data for specimens with validation:", nrow(lab_data_filtered), "rows\n")
 ```
 
 ## Join Data and Add Taxonomic Information
@@ -113,7 +117,7 @@ enriched_data <- enriched_data %>%
     by = "Sample ID"
   )
 
-cat("Enriched data:", nrow(enriched_data), "rows\n")
+cat("\nEnriched data:", nrow(enriched_data), "rows\n")
 cat("Rows with taxonomic Order:", sum(!is.na(enriched_data$Order)), 
     sprintf(" (%.1f%%)\n", 100 * sum(!is.na(enriched_data$Order)) / nrow(enriched_data)))
 ```
@@ -123,25 +127,28 @@ cat("Rows with taxonomic Order:", sum(!is.na(enriched_data$Order)),
 ```{r calculate-success}
 # Define taxonomic validation success for each assembly attempt
 # Success = identification taxon appears in the obs_taxon comma-separated list
-# The grepl pattern ensures exact matching: identification must be a complete 
-# element in the comma-separated obs_taxon list
+# For attempts without identification or obs_taxon, taxonomic_valid will be FALSE
 enriched_data <- enriched_data %>%
   mutate(
-    taxonomic_valid = grepl(paste0("(^|,)", identification, "(,|$)"), obs_taxon)
+    taxonomic_valid = !is.na(identification) & !is.na(obs_taxon) & 
+                      grepl(paste0("(^|,)", identification, "(,|$)"), obs_taxon)
   )
 
-cat("Assembly attempts with taxonomic validation success:", 
+cat("\nAssembly attempts with taxonomic validation success:", 
     sum(enriched_data$taxonomic_valid, na.rm = TRUE),
     sprintf(" (%.1f%%)\n", 100 * sum(enriched_data$taxonomic_valid, na.rm = TRUE) / nrow(enriched_data)))
+cat("Assembly attempts with identification and obs_taxon data:", 
+    sum(!is.na(enriched_data$identification) & !is.na(enriched_data$obs_taxon)),
+    sprintf(" (%.1f%%)\n", 
+        100 * sum(!is.na(enriched_data$identification) & !is.na(enriched_data$obs_taxon)) / nrow(enriched_data)))
 ```
 
 ## Aggregate by Specimen (Process ID)
 
 ```{r aggregate-by-specimen}
-# For each specimen (group_id), aggregate taxonomic validation results
-# In cases where multiple taxon validation attempts were made for the same group_id 
-# (i.e. 1step analysis), only consider one case. In cases where some attempts 
-# succeeded while others failed in the 1step approach, just consider the successful attempt.
+# For each specimen (group_id), check if ANY assembly attempt achieved taxonomic validation
+# A specimen is considered successful if any of its attempts have identification matching
+# one of the taxa in obs_taxon
 specimen_success <- enriched_data %>%
   filter(!is.na(Order)) %>%  # Only specimens with taxonomic information
   group_by(group_id, Order) %>%
@@ -452,11 +459,11 @@ sessionInfo()
 ## Notes
 
 - **Process ID** in the analytics data corresponds to `group_id` column
-- **Only specimens in the analytics file are analyzed**: Specimens that are in metadata/bold but not in the analytics file are disregarded
-- **Only records with both identification and obs_taxon are analyzed**: Because we did a 2-step process where we only did taxon validation for the best structurally valid records, many assembly attempts don't have taxon validation at all. These empty attempts are disregarded.
+- **Specimen inclusion criteria**: A specimen is included if and only if any of its assembly attempts have both `identification` and `obs_taxon` values
+- **All attempts are kept**: For included specimens, all assembly attempts are kept, including those without taxon validation data
 - **Taxonomic validation success** is defined as having the `identification` taxon appear in the `obs_taxon` comma-separated list for at least one assembly attempt
-- **Multiple attempts per specimen are aggregated**: In cases where multiple taxon validation attempts were made for the same group_id (i.e. 1step analysis), when some attempts succeeded while others failed, the successful attempt is considered for that specimen
-- Only specimens with complete taxonomic Order information are included
+- **Specimen-level success**: A specimen is marked successful if any of its attempts achieve taxonomic validation
+- Only specimens with complete taxonomic Order information are included in the analysis
 - Orders with fewer than 5 specimens are excluded to avoid bias from small sample sizes
 - The chi-square test assumes independence between specimens within each Order
 - Effect size (Cramér's V) provides a measure of the strength of the association between Order and success
