@@ -61,41 +61,36 @@ The document includes:
 - Detailed statistics table with success rates
 - Distribution histogram of success rates across institutions
 
-### taxonomic_success_analysis.Rmd
+### specimen_age_analysis.Rmd
 
-An RMarkdown document that examines genome skimming performance across taxonomic groups:
+An RMarkdown document that analyzes the effect of specimen age on sequencing success:
 
-**Analysis Scope:**
-- Aggregates data at the level of Linnean **Orders**
-- Only includes Orders with **at least 5 specimens**
-- Only analyzes specimens whose process ID (group_id) occurs in the aggregated data
+**Primary Metric:**
+- `n_reads_aligned`: Number of reads aligned to the target organism
 
-**Success Criteria:**
-A specimen is successful if ANY assembly attempt meets ALL of:
-- `nuc_basecount >= 500` (barcode region ≥ 500 bp)
-- `ambig_full_basecount = 0` (no ambiguous bases in full sequence)
-- `stop_codons = 0` (no stop codons detected)
-
-**Key Analyses:**
-- Specimen-level success rates aggregated by taxonomic Order
-- Chi-square test to determine if success rate is independent of Order
-- Cramér's V effect size calculation
-- Visualization of success rates across Orders
-- Identification of top and bottom performing Orders
+**Methodology:**
+1. Aggregates data at the specimen level (group_id)
+2. Selects the assembly attempt with the highest `n_reads_aligned` for each specimen
+3. Only considers specimens where `n_reads_aligned` is specified
+4. Calculates specimen age from collection date
+5. Analyzes relationship between age and sequencing success
 
 The document includes:
-- Bar plot of success rates by Order
-- Distribution histogram of success rates
-- Sample size vs success rate scatter plot
-- Statistical tests for taxonomic signal
-- Summary of top/bottom performing Orders
+- Summary statistics overall and by age groups (0-5, 6-10, 11-20, 21-30, 31-50, >50 years)
+- Scatter plot showing age vs. reads aligned with trend line
+- Box plots and bar charts comparing age groups
+- Hexbin density visualization
+- Correlation analysis (Pearson and Spearman)
+- Linear regression model
+- ANOVA and post-hoc tests comparing age groups
+- Key findings and interpretation of results
 
 ## Requirements
 
 To run these analyses, you need R with the following packages:
 
 ```r
-install.packages(c("readr", "dplyr", "ggplot2", "knitr", "rmarkdown", "tidyr"))
+install.packages(c("readr", "dplyr", "ggplot2", "knitr", "rmarkdown", "tidyr", "lubridate", "scales"))
 ```
 
 ## Usage
@@ -114,15 +109,15 @@ Rscript -e "rmarkdown::render('analysis/assembly_parameter_analysis.Rmd')"
 # Render the institution sequencing success analysis
 Rscript -e "rmarkdown::render('analysis/institution_sequencing_success.Rmd')"
 
-# Render the taxonomic success analysis
-Rscript -e "rmarkdown::render('analysis/taxonomic_success_analysis.Rmd')"
+# Render the specimen age analysis
+Rscript -e "rmarkdown::render('analysis/specimen_age_analysis.Rmd')"
 ```
 
 This will create HTML files in the `analysis/` directory.
 
 ### Interactive Use in RStudio
 
-1. Open an RMarkdown file (e.g., `analysis/bold_metadata_analysis.Rmd`, `analysis/assembly_parameter_analysis.Rmd`, `analysis/institution_sequencing_success.Rmd`, or `analysis/taxonomic_success_analysis.Rmd`) in RStudio
+1. Open an RMarkdown file (e.g., `analysis/bold_metadata_analysis.Rmd`, `analysis/assembly_parameter_analysis.Rmd`, `analysis/institution_sequencing_success.Rmd`, or `analysis/specimen_age_analysis.Rmd`) in RStudio
 2. Click "Knit" to render the document
 3. Or run code chunks interactively
 

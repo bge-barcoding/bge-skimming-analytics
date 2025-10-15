@@ -277,17 +277,17 @@ def test_assembly_parameter_analysis_has_interaction_analysis():
     assert 'Interaction' in content or 'interaction' in content, "RMarkdown must include interaction analysis"
 
 
-def test_taxonomic_success_analysis_rmd_exists():
-    """Test that the taxonomic success analysis RMarkdown file exists."""
+def test_specimen_age_analysis_rmd_exists():
+    """Test that the specimen age analysis RMarkdown file exists."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
     assert rmd_file.exists(), f"RMarkdown file not found: {rmd_file}"
 
 
-def test_taxonomic_success_analysis_has_yaml_header():
+def test_specimen_age_analysis_has_yaml_header():
     """Test that the RMarkdown file has a valid YAML header."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -306,10 +306,10 @@ def test_taxonomic_success_analysis_has_yaml_header():
     assert 'output:' in yaml_header, "YAML header must include output"
 
 
-def test_taxonomic_success_analysis_references_correct_files():
+def test_specimen_age_analysis_references_correct_files():
     """Test that the RMarkdown file references the correct data files."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -318,124 +318,111 @@ def test_taxonomic_success_analysis_references_correct_files():
     required_files = [
         '../data/bge-skimming-analytics.tsv.gz',
         '../metadata/bold/lab.tsv',
-        '../metadata/bold/taxonomy.tsv'
+        '../metadata/bold/collection_data.tsv'
     ]
     
     for file_path in required_files:
         assert file_path in content, f"RMarkdown must reference {file_path}"
 
 
-def test_taxonomic_success_analysis_has_join_operations():
-    """Test that the RMarkdown file includes join operations."""
-    repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
-    
-    with open(rmd_file, 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # Check for join operations
-    assert 'left_join' in content, "RMarkdown must include left_join operations"
-    
-    # Check for join with group_id and Process ID
-    assert 'group_id' in content, "RMarkdown must reference group_id column"
-    assert 'Process ID' in content, "RMarkdown must reference Process ID column"
-    assert 'Sample ID' in content, "RMarkdown must reference Sample ID column"
-    assert 'Order' in content, "RMarkdown must reference Order (taxonomic) column"
-
-
-def test_taxonomic_success_analysis_has_required_libraries():
+def test_specimen_age_analysis_has_required_libraries():
     """Test that the RMarkdown file loads required R libraries."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
     # Check for required libraries
-    required_libraries = ['readr', 'dplyr', 'ggplot2', 'knitr', 'tidyr']
+    required_libraries = ['readr', 'dplyr', 'ggplot2', 'knitr', 'lubridate']
     
     for lib in required_libraries:
         pattern = f'library\\({lib}\\)'
         assert re.search(pattern, content), f"RMarkdown must load library({lib})"
 
 
-def test_taxonomic_success_analysis_has_success_criteria():
-    """Test that the RMarkdown file applies the correct success criteria."""
+def test_specimen_age_analysis_uses_n_reads_aligned():
+    """Test that the RMarkdown file analyzes n_reads_aligned."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Check for success criteria
-    assert 'nuc_basecount' in content and '>= 500' in content, "RMarkdown must check nuc_basecount >= 500"
-    assert 'ambig_full_basecount' in content and '== 0' in content, "RMarkdown must check ambig_full_basecount == 0"
-    assert 'stop_codons' in content and '== 0' in content, "RMarkdown must check stop_codons == 0"
-    assert 'meets_criteria' in content or 'any_success' in content, "RMarkdown must calculate success flag"
+    # Check for n_reads_aligned
+    assert 'n_reads_aligned' in content, "RMarkdown must analyze n_reads_aligned"
 
 
-def test_taxonomic_success_analysis_filters_orders():
-    """Test that the RMarkdown file filters to orders with at least 5 specimens."""
+def test_specimen_age_analysis_calculates_specimen_age():
+    """Test that the RMarkdown file calculates specimen age."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Check for filtering logic
-    assert '>= 5' in content or 'at least 5' in content.lower(), "RMarkdown must filter to orders with at least 5 specimens"
+    # Check for specimen age calculation
+    assert 'Specimen_Age' in content or 'specimen_age' in content or 'Collection_Year' in content, \
+        "RMarkdown must calculate specimen age"
+    assert 'Collection Date' in content, "RMarkdown must use Collection Date"
 
 
-def test_taxonomic_success_analysis_has_statistical_tests():
-    """Test that the RMarkdown file includes statistical tests."""
+def test_specimen_age_analysis_aggregates_by_specimen():
+    """Test that the RMarkdown file aggregates data at specimen level."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Check for statistical tests
-    assert 'chisq.test' in content or 'Chi-square' in content, "RMarkdown must include chi-square test"
-    assert "Cramér's V" in content or 'cramers_v' in content or 'effect size' in content.lower(), "RMarkdown must calculate effect size"
+    # Check for aggregation at specimen level (group_id)
+    assert 'group_by(group_id)' in content, "RMarkdown must aggregate by group_id"
+    # Check for selecting highest n_reads_aligned
+    assert 'slice_max' in content or 'arrange' in content, \
+        "RMarkdown must select highest n_reads_aligned per specimen"
 
 
-def test_taxonomic_success_analysis_has_visualizations():
+def test_specimen_age_analysis_has_visualizations():
     """Test that the RMarkdown file includes visualizations."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
     # Check for visualizations
     assert 'ggplot' in content, "RMarkdown must include ggplot visualizations"
-    assert 'geom_col' in content or 'geom_bar' in content, "RMarkdown must include bar plots"
+    # Check for multiple plot types
+    plot_types = ['geom_point', 'geom_boxplot', 'geom_col', 'geom_histogram', 'geom_hex']
+    found_plot_types = [pt for pt in plot_types if pt in content]
+    assert len(found_plot_types) >= 3, "RMarkdown must include at least 3 types of plots"
 
 
-def test_taxonomic_success_analysis_aggregates_by_order():
-    """Test that the RMarkdown file aggregates by taxonomic Order."""
+def test_specimen_age_analysis_has_statistical_tests():
+    """Test that the RMarkdown file includes statistical tests."""
     repo_root = Path(__file__).parent.parent
-    rmd_file = repo_root / "analysis" / "taxonomic_success_analysis.Rmd"
+    rmd_file = repo_root / "analysis" / "specimen_age_analysis.Rmd"
     
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Check for aggregation by Order
-    assert 'group_by(Order)' in content or 'group_by(group_id, Order)' in content, "RMarkdown must aggregate by Order"
-    assert 'success_rate' in content or 'Success Rate' in content, "RMarkdown must calculate success rate"
+    # Check for statistical tests
+    assert 'cor.test' in content, "RMarkdown must include correlation test"
+    assert 'lm' in content or 'linear' in content.lower(), "RMarkdown must include linear regression"
+    assert 'aov' in content or 'ANOVA' in content, "RMarkdown must include ANOVA"
 
 
-def test_analysis_readme_documents_taxonomic_analysis():
-    """Test that the analysis README documents the taxonomic success analysis."""
+def test_analysis_readme_documents_specimen_age():
+    """Test that the analysis README documents the specimen age analysis."""
     repo_root = Path(__file__).parent.parent
     readme_file = repo_root / "analysis" / "README.md"
     
     with open(readme_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Check for documentation of the taxonomic analysis RMarkdown file
-    assert 'taxonomic_success_analysis.Rmd' in content, "README must document the taxonomic success analysis file"
-    assert 'taxonomic' in content.lower() and 'Order' in content, "README must explain taxonomic Order analysis"
+    # Check for documentation of the specimen age analysis
+    assert 'specimen_age_analysis.Rmd' in content, "README must document specimen_age_analysis.Rmd"
+    assert 'n_reads_aligned' in content, "README must mention n_reads_aligned metric"
 
 
 if __name__ == '__main__':
