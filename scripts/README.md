@@ -46,6 +46,46 @@ python scripts/create_coverage_issues.py [--reports-dir DIR] [--output-file FILE
 
 ---
 
+#### assess_collection_dates.py
+
+Analyzes BOLD metadata collection dates to identify implausible values (e.g., dates too old or in the future).
+
+**Usage:**
+```bash
+python scripts/assess_collection_dates.py [--min-year YEAR] [--max-year YEAR] [--output FILE] [--csv FILE]
+```
+
+**Description:**
+
+This script analyzes the `collection_data.tsv` file from BOLD metadata and reports specimens with collection dates that fall outside a plausible range. By default, it considers plausible dates to be within the last 200 years (current year - 200 to current year).
+
+The script generates a detailed report showing:
+- All specimens with implausible dates
+- Classification by issue type (too old or future dates)
+- Distribution statistics by year
+- Optional TSV output for further processing
+
+**Options:**
+- `--min-year`: Minimum plausible year (default: current year - 200)
+- `--max-year`: Maximum plausible year (default: current year)
+- `--output`: Output file for human-readable report (default: stdout)
+- `--csv`: Output TSV file with the list of implausible dates
+- `--collection-file`: Path to collection_data.tsv (default: `metadata/bold/collection_data.tsv`)
+
+**Example:**
+```bash
+# Generate report to screen
+python scripts/assess_collection_dates.py
+
+# Save report and TSV to files
+python scripts/assess_collection_dates.py --output metadata/bold/collection_date_issues.txt --csv metadata/bold/collection_date_issues.tsv
+
+# Use custom date range (e.g., last 300 years)
+python scripts/assess_collection_dates.py --min-year 1725
+```
+
+---
+
 ### Data Cleaning and Fixes
 
 #### fix_filename_column.py

@@ -1,0 +1,57 @@
+================================================================================
+BOLD Collection Date Assessment Report
+================================================================================
+
+Assessment criteria:
+  - Plausible year range: 1825 to 2025
+  - Total implausible dates found: 24
+
+--------------------------------------------------------------------------------
+Sample ID                 Collection Date        Year Issue
+--------------------------------------------------------------------------------
+BGE_00078_F04             01-Jul-0185             185 too old (before 1825)
+BGE_ZSM_LEP_2342          07-May-0193             193 too old (before 1825)
+UNIFIBGE0189              15-Feb-0198             198 too old (before 1825)
+RMNH.INS.1662693          17-Mar-0198             198 too old (before 1825)
+ZMA.INS.853963            13-Jun-0299             299 too old (before 1825)
+ZMA.INS.5144937           19-Nov-1097            1097 too old (before 1825)
+BGE_00812_G12             30-Jun-1817            1817 too old (before 1825)
+BGE_00349_B01             03-Mar-1820            1820 too old (before 1825)
+BGE_00350_F03             19-Sep-1823            1823 too old (before 1825)
+BGE_00350_G06             10-Oct-1823            1823 too old (before 1825)
+BGE_00002_C02             01-Jul-1824            1824 too old (before 1825)
+BGE_00350_A12             01-Jan-1824            1824 too old (before 1825)
+BGE_00350_C03             02-Feb-1824            1824 too old (before 1825)
+BGE_00350_D05             07-Jul-1824            1824 too old (before 1825)
+BGE_00350_E06             03-Mar-1824            1824 too old (before 1825)
+BGE_00636_C05             21-May-2026            2026 in the future (after 2025)
+BGE_00636_F05             30-May-2026            2026 in the future (after 2025)
+BGE_00636_C06             21-May-2027            2027 in the future (after 2025)
+BGE_00636_F06             30-May-2027            2027 in the future (after 2025)
+BGE_00636_C07             21-May-2028            2028 in the future (after 2025)
+BGE_00203_A01             20-Jun-2029            2029 in the future (after 2025)
+BGE_00203_A02             20-Jun-2029            2029 in the future (after 2025)
+BGE_00203_A03             20-Jun-2029            2029 in the future (after 2025)
+BGE_00203_A07             26-Mar-2029            2029 in the future (after 2025)
+--------------------------------------------------------------------------------
+
+Summary by issue type:
+  - Dates too old (before 1825): 15
+  - Dates in the future (after 2025): 9
+
+Distribution by year:
+  - 185: 1 specimen(s)
+  - 193: 1 specimen(s)
+  - 198: 2 specimen(s)
+  - 299: 1 specimen(s)
+  - 1097: 1 specimen(s)
+  - 1817: 1 specimen(s)
+  - 1820: 1 specimen(s)
+  - 1823: 2 specimen(s)
+  - 1824: 5 specimen(s)
+  - 2026: 2 specimen(s)
+  - 2027: 2 specimen(s)
+  - 2028: 1 specimen(s)
+  - 2029: 4 specimen(s)
+
+================================================================================
