@@ -29,10 +29,11 @@ Note: This analysis focuses purely on taxonomic validation, not structural valid
 
 ### Scope
 
-- Analysis is aggregated at the level of Linnean **Orders**
+- Analysis is aggregated at the **specimen level** (one row per specimen)
 - Only Orders with **at least 5 specimens** are included
-- Only specimens whose process ID (group_id) occurs in the aggregated data are analyzed
-- Aggregation at process ID level avoids pseudoreplication (2step process validates only one attempt, 1step validates all)
+- A specimen is included if it has **at least one** assembly attempt with both `identification` and `obs_taxon` values
+- A specimen is considered **successful** if **any** of its attempts have the `identification` value among the comma-separated `obs_taxon` values
+- For each specimen, we use a single `obs_taxon` value: the first matching one if any exist, otherwise the first non-matching one
 
 ### Research Question
 
@@ -63,6 +64,54 @@ cat("Analytics data dimensions:", nrow(analytics_data), "rows,",
 cat("Unique specimens (group_id):", n_distinct(analytics_data$group_id), "\n")
 ```
 
+## Create Specimen-Level Data Frame
+
+```{r create-specimen-dataframe}
+# Create a simplified data frame with one row per specimen
+# For each specimen:
+# - identification is constant within the specimen
+# - For obs_taxon, pick the first one where identification matches (if any), 
+#   otherwise pick any mismatched one
+
+# First, prepare the data with matching information
+analytics_with_match <- analytics_data %>%
+  # Only consider specimens with at least one attempt with both identification and obs_taxon
+  filter(!is.na(identification) & identification != "" &
+         !is.na(obs_taxon) & obs_taxon != "") %>%
+  # Trim whitespace from identification and obs_taxon fields
+  mutate(
+    identification = trimws(identification),
+    obs_taxon = trimws(obs_taxon)
+  ) %>%
+  # For each record, check if identification is in the comma-separated obs_taxon list
+  rowwise() %>%
+  mutate(
+    taxonomic_match = identification %in% strsplit(obs_taxon, ",")[[1]]
+  ) %>%
+  ungroup()
+
+# Now aggregate to specimen level
+specimen_data <- analytics_with_match %>%
+  group_by(group_id) %>%
+  summarise(
+    identification = first(identification),
+    # Pick the first matching obs_taxon if any exist, otherwise pick the first non-matching one
+    obs_taxon = if(any(taxonomic_match)) {
+      first(obs_taxon[taxonomic_match])
+    } else {
+      first(obs_taxon)
+    },
+    # Determine if specimen is successful (has at least one match)
+    taxonomic_valid = any(taxonomic_match),
+    .groups = "drop"
+  )
+
+cat("\nSpecimen-level data created:\n")
+cat("  Total specimens with validation attempts:", nrow(specimen_data), "\n")
+cat("  Specimens with successful validation:", sum(specimen_data$taxonomic_valid), "\n")
+cat("  Success rate:", sprintf("%.1f%%\n", 100 * sum(specimen_data$taxonomic_valid) / nrow(specimen_data)))
+```
+
 ### BOLD Metadata Files
 
 ```{r read-bold-metadata}
@@ -70,71 +119,44 @@ cat("Unique specimens (group_id):", n_distinct(analytics_data$group_id), "\n")
 lab_data <- read_tsv("../metadata/bold/lab.tsv")
 taxonomy_data <- read_tsv("../metadata/bold/taxonomy.tsv")
 
-cat("Lab data:", nrow(lab_data), "rows\n")
+cat("\nLab data:", nrow(lab_data), "rows\n")
 cat("Taxonomy data:", nrow(taxonomy_data), "rows\n")
 ```
 
-## Join Data and Add Taxonomic Information
+## Enrich Specimen Data with Taxonomic Information
 
-```{r join-data}
-# Join analytics data with lab data to get Sample ID
-enriched_data <- analytics_data %>%
+```{r enrich-specimen-data}
+# Join specimen data with lab data to get Sample ID
+specimen_data <- specimen_data %>%
   left_join(
     lab_data %>% select(`Process ID`, `Sample ID`),
     by = c("group_id" = "Process ID")
   )
 
 # Join with taxonomy data to get taxonomic Order
-enriched_data <- enriched_data %>%
+specimen_data <- specimen_data %>%
   left_join(
     taxonomy_data %>% select(`Sample ID`, Phylum, Class, Order),
     by = "Sample ID"
   )
 
-cat("Enriched data:", nrow(enriched_data), "rows\n")
-cat("Rows with taxonomic Order:", sum(!is.na(enriched_data$Order)), 
-    sprintf(" (%.1f%%)\n", 100 * sum(!is.na(enriched_data$Order)) / nrow(enriched_data)))
+cat("\nEnriched specimen data:\n")
+cat("  Total specimens:", nrow(specimen_data), "\n")
+cat("  Specimens with taxonomic Order:", sum(!is.na(specimen_data$Order)), 
+    sprintf(" (%.1f%%)\n", 100 * sum(!is.na(specimen_data$Order)) / nrow(specimen_data)))
 ```
 
-## Calculate Taxonomic Validation Success per Assembly Attempt
+## Specimen-Level Success Summary
 
-```{r calculate-success}
-# Define taxonomic validation success for each assembly attempt
-# Success = identification taxon appears in the obs_taxon comma-separated list
-enriched_data <- enriched_data %>%
-  mutate(
-    taxonomic_valid = !is.na(identification) & !is.na(obs_taxon) & 
-                      grepl(paste0("(^|,)", identification, "(,|$)"), obs_taxon)
-  )
-
-cat("Assembly attempts with taxonomic validation success:", 
-    sum(enriched_data$taxonomic_valid, na.rm = TRUE),
-    sprintf(" (%.1f%%)\n", 100 * sum(enriched_data$taxonomic_valid, na.rm = TRUE) / nrow(enriched_data)))
-cat("Assembly attempts with identification and obs_taxon data:", 
-    sum(!is.na(enriched_data$identification) & !is.na(enriched_data$obs_taxon)),
-    sprintf(" (%.1f%%)\n", 
-        100 * sum(!is.na(enriched_data$identification) & !is.na(enriched_data$obs_taxon)) / nrow(enriched_data)))
-```
-
-## Aggregate by Specimen (Process ID)
-
-```{r aggregate-by-specimen}
-# For each specimen (group_id), check if ANY assembly attempt achieved taxonomic validation
-specimen_success <- enriched_data %>%
-  filter(!is.na(Order)) %>%  # Only specimens with taxonomic information
-  group_by(group_id, Order) %>%
-  summarise(
-    n_attempts = n(),
-    n_successful_attempts = sum(taxonomic_valid, na.rm = TRUE),
-    any_success = any(taxonomic_valid, na.rm = TRUE),
-    .groups = "drop"
-  )
+```{r specimen-success-summary}
+# Filter to only specimens with Order information
+specimen_success <- specimen_data %>%
+  filter(!is.na(Order))
 
 cat("\n=== Specimen-level Taxonomic Validation Success ===\n\n")
 cat("Total specimens with Order info:", nrow(specimen_success), "\n")
-cat("Specimens with at least one taxonomically validated attempt:", sum(specimen_success$any_success),
-    sprintf(" (%.1f%%)\n", 100 * sum(specimen_success$any_success) / nrow(specimen_success)))
-cat("Mean assembly attempts per specimen:", sprintf("%.1f\n", mean(specimen_success$n_attempts)))
+cat("Specimens with successful taxonomic validation:", sum(specimen_success$taxonomic_valid),
+    sprintf(" (%.1f%%)\n", 100 * sum(specimen_success$taxonomic_valid) / nrow(specimen_success)))
 ```
 
 ## Filter to Orders with at Least 5 Specimens
@@ -169,7 +191,7 @@ order_success <- specimen_success_filtered %>%
   group_by(Order) %>%
   summarise(
     n_specimens = n(),
-    n_successful = sum(any_success),
+    n_successful = sum(taxonomic_valid),
     success_rate = n_successful / n_specimens,
     .groups = "drop"
   ) %>%
@@ -187,7 +209,7 @@ print(kable(order_success, digits = 3,
 ```{r overall-stats}
 cat("\n=== Overall Statistics ===\n\n")
 cat("Overall taxonomic validation success rate:", 
-    sprintf("%.1f%%\n", 100 * sum(specimen_success_filtered$any_success) / nrow(specimen_success_filtered)))
+    sprintf("%.1f%%\n", 100 * sum(specimen_success_filtered$taxonomic_valid) / nrow(specimen_success_filtered)))
 cat("Range of success rates by Order:", 
     sprintf("%.1f%% to %.1f%%\n", 
             100 * min(order_success$success_rate), 
@@ -203,16 +225,16 @@ Test whether taxonomic validation success rate is independent of taxonomic Order
 ```{r chi-square-test}
 # Create contingency table: Order vs Success
 contingency_table <- specimen_success_filtered %>%
-  group_by(Order, any_success) %>%
+  group_by(Order, taxonomic_valid) %>%
   summarise(n = n(), .groups = "drop") %>%
-  pivot_wider(names_from = any_success, values_from = n, values_fill = 0) %>%
+  pivot_wider(names_from = taxonomic_valid, values_from = n, values_fill = 0) %>%
   select(-Order) %>%
   as.matrix()
 
 rownames(contingency_table) <- specimen_success_filtered %>%
-  group_by(Order, any_success) %>%
+  group_by(Order, taxonomic_valid) %>%
   summarise(n = n(), .groups = "drop") %>%
-  pivot_wider(names_from = any_success, values_from = n, values_fill = 0) %>%
+  pivot_wider(names_from = taxonomic_valid, values_from = n, values_fill = 0) %>%
   pull(Order)
 
 # Perform chi-square test
@@ -376,12 +398,11 @@ cat("\n=== SUMMARY ===\n\n")
 cat("1. Dataset Scope:\n")
 cat("   - Total specimens analyzed:", nrow(specimen_success_filtered), "\n")
 cat("   - Taxonomic Orders included:", length(orders_to_include), 
-    "(with ≥5 specimens each)\n")
-cat("   - Total assembly attempts:", sum(specimen_success_filtered$n_attempts), "\n\n")
+    "(with ≥5 specimens each)\n\n")
 
 cat("2. Overall Taxonomic Validation Success:\n")
 cat("   - Overall specimen success rate:", 
-    sprintf("%.1f%%\n", 100 * sum(specimen_success_filtered$any_success) / nrow(specimen_success_filtered)))
+    sprintf("%.1f%%\n", 100 * sum(specimen_success_filtered$taxonomic_valid) / nrow(specimen_success_filtered)))
 cat("   - Range across Orders:", 
     sprintf("%.1f%% to %.1f%%\n", 
             100 * min(order_success$success_rate), 
@@ -430,11 +451,13 @@ sessionInfo()
 ## Notes
 
 - **Process ID** in the analytics data corresponds to `group_id` column
-- **Taxonomic validation success** is defined as having the `identification` taxon appear in the `obs_taxon` comma-separated list for at least one assembly attempt
-- Only specimens with complete taxonomic Order information are included
+- **Specimen-level analysis**: Each specimen is represented by a single row with one `identification` and one `obs_taxon` value
+- **Specimen inclusion criteria**: A specimen is included if it has at least one assembly attempt with both `identification` and `obs_taxon` values
+- **obs_taxon selection**: For each specimen, we select the first `obs_taxon` where `identification` matches (if any), otherwise the first non-matching `obs_taxon`
+- **Taxonomic validation success**: A specimen is successful if any of its attempts have the `identification` value among the comma-separated `obs_taxon` values
+- Only specimens with complete taxonomic Order information are included in the analysis
 - Orders with fewer than 5 specimens are excluded to avoid bias from small sample sizes
 - The chi-square test assumes independence between specimens within each Order
 - Effect size (Cramér's V) provides a measure of the strength of the association between Order and success
-- Analysis aggregates at process ID level to avoid pseudoreplication (2step validates one attempt, 1step validates all)
 - Success rates may reflect reference library coverage, taxonomic reconciliation issues, or biological factors
 
