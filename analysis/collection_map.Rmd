@@ -75,7 +75,7 @@ europe <- ne_countries(scale = "medium", continent = "Europe", returnclass = "sf
 # Create the map
 ggplot() +
   # Add country borders
-  geom_sf(data = europe, fill = "white", color = "gray50", size = 0.3) +
+  geom_sf(data = europe, fill = "white", color = "gray50", linewidth = 0.3) +
   # Add collection points
   geom_point(data = collection_with_gps, 
              aes(x = Longitude, y = Latitude),
@@ -96,7 +96,7 @@ ggplot() +
   theme(
     plot.title = element_text(size = 16, face = "bold"),
     plot.subtitle = element_text(size = 12),
-    panel.grid.major = element_line(color = "gray90", size = 0.2),
+    panel.grid.major = element_line(color = "gray90", linewidth = 0.2),
     panel.background = element_rect(fill = "lightblue", color = NA),
     plot.background = element_rect(fill = "white", color = NA)
   )
