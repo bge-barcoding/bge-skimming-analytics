@@ -33,8 +33,8 @@ library(sf)
 ## Read Collection Data
 
 ```{r read-data}
-# Read the collection_data.tsv file from BOLD metadata
-collection_data <- read_tsv("../metadata/bold/collection_data.tsv", show_col_types = FALSE)
+# Read the collection_data.tsv file from BOLD dataset
+collection_data <- read_tsv("../metadata/dataset/collection_data.tsv", show_col_types = FALSE)
 
 cat("Collection data dimensions:", nrow(collection_data), "rows,", 
     ncol(collection_data), "columns\n")

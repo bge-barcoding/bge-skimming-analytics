@@ -619,8 +619,8 @@ def test_collection_map_references_correct_files():
     with open(rmd_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Check for reference to collection_data.tsv
-    assert 'metadata/bold/collection_data.tsv' in content or 'collection_data.tsv' in content, \
+    # Check for reference to collection_data.tsv (in either metadata/bold or metadata/dataset)
+    assert 'collection_data.tsv' in content, \
         "RMarkdown must reference collection_data.tsv"
 
 
