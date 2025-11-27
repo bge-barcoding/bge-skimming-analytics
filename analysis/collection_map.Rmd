@@ -1,0 +1,146 @@
+---
+title: "Collection Localities Map"
+author: "BGE Project"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: show
+    theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+## Introduction
+
+This analysis visualizes the geographic distribution of BGE specimen collection localities across Europe. The map shows GPS coordinates from the BOLD dataset (DSBGEUROPE), which contains both genome skimming and fresh sequencing barcoding efforts.
+
+## Load Required Libraries
+
+```{r libraries}
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(sf)
+```
+
+## Read Collection Data
+
+```{r read-data}
+# Read the collection_data.tsv file from BOLD dataset
+collection_data <- read_tsv("../metadata/dataset/collection_data.tsv", show_col_types = FALSE)
+
+cat("Collection data dimensions:", nrow(collection_data), "rows,", 
+    ncol(collection_data), "columns\n")
+```
+
+## Data Processing
+
+### Filter for Valid GPS Coordinates
+
+```{r process-data}
+# Filter to rows with valid GPS coordinates (non-empty Lat and Lon)
+collection_with_gps <- collection_data %>%
+  filter(!is.na(Lat) & !is.na(Lon) & Lat != "" & Lon != "")
+
+# Convert to numeric (in case they were read as character)
+collection_with_gps <- collection_with_gps %>%
+  mutate(
+    Latitude = as.numeric(Lat),
+    Longitude = as.numeric(Lon)
+  ) %>%
+  filter(!is.na(Latitude) & !is.na(Longitude))
+
+cat("Records with valid GPS coordinates:", nrow(collection_with_gps), "\n")
+cat("Latitude range:", min(collection_with_gps$Latitude), "to", 
+    max(collection_with_gps$Latitude), "\n")
+cat("Longitude range:", min(collection_with_gps$Longitude), "to", 
+    max(collection_with_gps$Longitude), "\n")
+```
+
+## Map Visualization
+
+### Create Map of Europe with Collection Localities
+
+```{r map-visualization, fig.width=12, fig.height=10}
+# Get European country borders
+europe <- ne_countries(scale = "medium", continent = "Europe", returnclass = "sf")
+
+# Create the map
+ggplot() +
+  # Add country borders
+  geom_sf(data = europe, fill = "white", color = "gray50", linewidth = 0.3) +
+  # Add collection points
+  geom_point(data = collection_with_gps, 
+             aes(x = Longitude, y = Latitude),
+             color = "red", 
+             size = 0.5, 
+             alpha = 0.6) +
+  # Set coordinate limits to focus on Europe
+  coord_sf(xlim = c(-25, 50), ylim = c(30, 75), expand = FALSE) +
+  # Add labels and theme
+  labs(
+    title = "BGE Specimen Collection Localities in Europe",
+    subtitle = paste0("Showing ", format(nrow(collection_with_gps), big.mark = ","), 
+                     " collection localities with GPS coordinates"),
+    x = "Longitude",
+    y = "Latitude"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 16, face = "bold"),
+    plot.subtitle = element_text(size = 12),
+    panel.grid.major = element_line(color = "gray90", linewidth = 0.2),
+    panel.background = element_rect(fill = "lightblue", color = NA),
+    plot.background = element_rect(fill = "white", color = NA)
+  )
+```
+
+## Summary Statistics
+
+### Geographic Coverage
+
+```{r summary-stats}
+# Calculate summary statistics
+summary_stats <- collection_with_gps %>%
+  summarise(
+    Total_Localities = n(),
+    Unique_Countries = n_distinct(`Country/Ocean`, na.rm = TRUE),
+    Latitude_Min = min(Latitude),
+    Latitude_Max = max(Latitude),
+    Longitude_Min = min(Longitude),
+    Longitude_Max = max(Longitude)
+  )
+
+kable(summary_stats, 
+      caption = "Geographic Coverage Statistics",
+      col.names = c("Total Localities", "Unique Countries", 
+                    "Min Latitude", "Max Latitude", 
+                    "Min Longitude", "Max Longitude"))
+```
+
+### Top Countries by Number of Collection Localities
+
+```{r country-summary}
+# Count localities by country
+country_counts <- collection_with_gps %>%
+  filter(!is.na(`Country/Ocean`) & `Country/Ocean` != "") %>%
+  group_by(`Country/Ocean`) %>%
+  summarise(Count = n()) %>%
+  arrange(desc(Count)) %>%
+  head(20)
+
+kable(country_counts, 
+      caption = "Top 20 Countries by Number of Collection Localities",
+      col.names = c("Country/Ocean", "Number of Localities"))
+```
+
+## Conclusion
+
+This map visualizes the extensive geographic coverage of the BGE barcoding project across Europe. The distribution shows where specimen collection efforts have been concentrated, providing insight into the spatial coverage of the dataset.

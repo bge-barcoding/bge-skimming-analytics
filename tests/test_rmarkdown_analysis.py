@@ -582,5 +582,102 @@ def test_taxonomic_validation_analysis_has_visualizations():
     assert len(found_plot_types) >= 2, "RMarkdown must include at least 2 types of plots"
 
 
+def test_collection_map_rmd_exists():
+    """Test that the collection map RMarkdown file exists."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "collection_map.Rmd"
+    assert rmd_file.exists(), f"RMarkdown file not found: {rmd_file}"
+
+
+def test_collection_map_has_yaml_header():
+    """Test that the RMarkdown file has a valid YAML header."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "collection_map.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for YAML header (starts with --- and ends with ---)
+    assert content.startswith('---'), "RMarkdown file must start with YAML header (---)"
+    
+    # Find the end of YAML header
+    yaml_end = content.find('---', 3)
+    assert yaml_end > 0, "YAML header must end with ---"
+    
+    yaml_header = content[3:yaml_end]
+    
+    # Check for required YAML fields
+    assert 'title:' in yaml_header, "YAML header must include title"
+    assert 'output:' in yaml_header, "YAML header must include output"
+
+
+def test_collection_map_references_correct_files():
+    """Test that the RMarkdown file references the correct data files."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "collection_map.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for reference to collection_data.tsv (in either metadata/bold or metadata/dataset)
+    assert 'collection_data.tsv' in content, \
+        "RMarkdown must reference collection_data.tsv"
+
+
+def test_collection_map_has_required_libraries():
+    """Test that the RMarkdown file loads required libraries."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "collection_map.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for required R libraries for mapping
+    required_libs = ['readr', 'dplyr', 'ggplot2', 'knitr', 'rnaturalearth', 'sf']
+    for lib in required_libs:
+        assert f'library({lib})' in content, f"RMarkdown must load {lib} library"
+
+
+def test_collection_map_filters_gps_coordinates():
+    """Test that the analysis filters for valid GPS coordinates."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "collection_map.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for GPS coordinate filtering
+    assert 'Lat' in content, "RMarkdown must reference Lat column"
+    assert 'Lon' in content, "RMarkdown must reference Lon column"
+    assert 'filter' in content, "RMarkdown must filter data"
+
+
+def test_collection_map_has_map_visualization():
+    """Test that the RMarkdown file includes map visualization."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "collection_map.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for map visualization components
+    assert 'geom_sf' in content, "RMarkdown must use geom_sf for country borders"
+    assert 'geom_point' in content, "RMarkdown must use geom_point for collection localities"
+    assert 'coord_sf' in content, "RMarkdown must set coordinate system with coord_sf"
+
+
+def test_collection_map_uses_europe_map():
+    """Test that the analysis uses European country borders."""
+    repo_root = Path(__file__).parent.parent
+    rmd_file = repo_root / "analysis" / "collection_map.Rmd"
+    
+    with open(rmd_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Check for Europe-specific map
+    assert 'Europe' in content or 'europe' in content, "RMarkdown must reference Europe"
+    assert 'ne_countries' in content, "RMarkdown must use rnaturalearth for country borders"
+
+
 if __name__ == '__main__':
     pytest.main([__file__, '-v'])
